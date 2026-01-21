@@ -101,15 +101,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.10.0';
+eBookConfig.runestone_version = '7.11.10';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.f91c1a4dc12163f2.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.fe35e59c546f8d19.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/prefix-runtime.3dca4b99808f4053.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.80892ed1280c2803.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -506,6 +506,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-8-lecture-notes.html#ws-logarithmic-equations-applications" class="internal"><span class="codenumber">A.8.3</span> <span class="title">Solving Equations and Applications Using Logarithms</span></a></div></li>
 </ul>
 </li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-radian-measure.html" class="internal"><span class="codenumber">A.9</span> <span class="title">Angles and Radian Measure</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
@@ -530,7 +531,7 @@ eBookConfig.enable_chatcodes =  false;
 </h3>
 <div class="para logical" id="cor-complete-linear-factorization-theorem-1-1">
 <div class="para">The <dfn class="terminology">complete linear factorization</dfn> of a degree <span class="process-math">\(n\)</span> polynomial function <span class="process-math">\(p(x)\)</span> with leading coefficient <span class="process-math">\(a_n\)</span> is given by the formula</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="cor-complete-linear-factorization-theorem-1-1-5">
 \begin{equation*}
 p(x)=a_n(x-c_1)(x-c_2)\cdots(x-c_{n-1})(x-c_n),
 \end{equation*}
@@ -553,25 +554,25 @@ p(x)=a_n(x-c_1)(x-c_2)\cdots(x-c_{n-1})(x-c_n),
 </div></details><details id="fta-example-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="fta-example-1-4-1">
 <div class="para">Since <span class="process-math">\(p(x)\)</span> had degree <span class="process-math">\(3\text{,}\)</span> we know there are three zeroes. But, the problem only gives us two solutions. But, since one of the zeroes is complex and complex zeroes come in conjugate pairs, we know that <span class="process-math">\(x=-2i\)</span> is another zero of the polynomial. By the Complete Linear Factorization Theorem,</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-1-4-1-4">
 \begin{equation*}
 p(x)=-2(x-3)(x-2i)(x+2i)
 \end{equation*}
 </div>
 <div class="para">But, we don’t want any complex numbers in our polynomial since it is real-valued; so, we need to multiply <span class="process-math">\((x-(3-i))(x-(3+i))\text{.}\)</span> Thankfully, this is a sum of squares and easily multiplies:</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-1-4-1-6">
 \begin{equation*}
 (x-2i)(x+2i)=x^2+4
 \end{equation*}
 </div>
 <div class="para">Therefore, the polynomial we are looking for is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-1-4-1-7">
 \begin{equation*}
 p(x)=-2(x-3)(x^2+4)
 \end{equation*}
 </div>
 <div class="para">While the instructions say you can leave it factored, if you multiplied the polynomial out, we get</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-1-4-1-8">
 \begin{equation*}
 p(x)=-2x^3+6x^2-8x+24
 \end{equation*}
@@ -595,7 +596,7 @@ p(x)=-2x^3+6x^2-8x+24
 </div></details><details id="fta-example-2-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="fta-example-2-4-1">
 <div class="para">Since <span class="process-math">\(p(x)\)</span> had degree <span class="process-math">\(3\text{,}\)</span> we know there are three zeroes. But, the problem only gives us two solutions. But, since one of the zeroes is complex and complex zeroes come in conjugate pairs, we know that <span class="process-math">\(x=3+i\)</span> is another zero of the polynomial. By the Complete Linear Factorization Theorem,</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-2-4-1-4">
 \begin{equation*}
 p(x)=4(x+6)(x-(3-i))(x+(3+i))
 \end{equation*}
@@ -610,13 +611,13 @@ p(x)=4(x+6)(x-(3-i))(x+(3+i))
 \end{align*}
 </div>
 <div class="para">Therefore, the polynomial we are looking for is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-2-4-1-7">
 \begin{equation*}
 p(x)=4(x+6)(x^2-6x+10)
 \end{equation*}
 </div>
 <div class="para">While the instructions say you can leave it factored, if you multiplied the polynomial out, we get</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-2-4-1-8">
 \begin{equation*}
 p(x)=4x^3-104x+240
 \end{equation*}
@@ -640,19 +641,19 @@ p(x)=4x^3-104x+240
 </div></details><details id="fta-example-3-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="fta-example-3-4-1">
 <div class="para">Since we know all the zeroes, the Complete Linear Factorization Theorem tells us that,</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-3-4-1-1">
 \begin{equation*}
 p(x)=a_n(x-1)(x-2i)(x+2i)
 \end{equation*}
 </div>
 <div class="para">But, we don’t want any complex numbers in our polynomial since it is real-valued; so, we need to multiply <span class="process-math">\((x-2i)(x+2i)\text{.}\)</span> Thankfully, this is a sum of squares and easily multiplies:</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-3-4-1-3">
 \begin{equation*}
 (x-2i)(x+2i)=x^2+4
 \end{equation*}
 </div>
 <div class="para">Therefore, the polynomial we are looking for is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-3-4-1-4">
 \begin{equation*}
 p(x)=a_n(x-1)(x^2+4)
 \end{equation*}
@@ -668,13 +669,13 @@ a_n\amp =2
 \end{align*}
 </div>
 <div class="para">Therefore, the polynomial we are looking for is</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-3-4-1-9">
 \begin{equation*}
 p(x)=2(x-1)(x^2+4)
 \end{equation*}
 </div>
 <div class="para">If we fully multiply it out, we get</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="fta-example-3-4-1-10">
 \begin{equation*}
 p(x)=2x^3-2x^2+8x-8
 \end{equation*}
@@ -782,7 +783,7 @@ p(x)\amp=(x^2+x+1)^2\\
 </div>
 <div class="autopermalink" data-description="Theorem 5.15.11"><a href="#thm-irreducibility-of-the-quadratic" title="Copy heading and permalink for Theorem 5.15.11" aria-label="Copy heading and permalink for Theorem 5.15.11">🔗</a></div></article><details id="thm-irreducibility-of-the-quadratic-2" class="hiddenproof born-hidden-knowl"><summary class="knowl__link"><h3 class="heading"><span class="type">Proof<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3></summary><article class="hiddenproof knowl__content"><div class="para logical" id="thm-irreducibility-of-the-quadratic-2-1">
 <div class="para">By the Complete Linear Factorization Theorem,</div>
-<div class="displaymath process-math">
+<div class="displaymath process-math" id="thm-irreducibility-of-the-quadratic-2-1-1">
 \begin{equation*}
 p(x)=a(x-c_1)(x-c_2)
 \end{equation*}

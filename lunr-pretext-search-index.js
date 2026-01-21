@@ -5986,6 +5986,330 @@ var ptx_lunr_docs = [
   "body": " Exponential Decay   A certain radioactive isotope leaks into a small stream. Three hundred days after the leak, 2% of the original amount of the substance remained. Determine the half-life of this radioactive isotope. Round to the nearest whole number.   "
 },
 {
+  "id": "ws-radian-measure",
+  "level": "1",
+  "url": "ws-radian-measure.html",
+  "type": "Worksheet",
+  "number": "A.9",
+  "title": "Angles and Radian Measure",
+  "body": " Angles and Radian Measure   Angles      An angle is formed by two rays with a common endpoint.    The ray where the angle measurement begins is called the initial side .    The ray where the angle measurement ends is called the terminal side .    The common endpoint is called the vertex of the angle.        Standard Position of an Angle   An angle is in standard position if the following two conditions are true.   The vertex is located at the origin of a coordinate plane.    The initial side lies on the positive -axis.        Positive and Negative Angles      An angle is positive if it measures a counterclockwise rotation.    An angle is negative if it measures a clockwise rotation.            An angle whose terminal side lies in Quadrant 1 is called a Quadrant 1 angle.     An angle whose terminal side lies in Quadrant 2 is called a Quadrant 2 angle.     An angle whose terminal side lies in Quadrant 3 is called a Quadrant 3 angle.     An angle whose terminal side lies in Quadrant 4 is called a Quadrant 4 angle.     An angle whose terminal side lies on one of the axes is called a quadrantal angle.         Central Angles and the Arc It Intercepts      A central angle is an angle whose vertex is at the center of a circle.    The arc that lies between the two sides of a central angle is called the arc intercepted by the angle.         Radian Measure   Consider a circle with radius whose central angle intercepts an arc of length . The radian measure of the angle in radians is given by the following formula.      Measuring Angles in Integer Radians    rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is labeled as r.     rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is segmented into three equal parts all labelled r.        Since the radian measure of an angle is a ratio of two lengths, it is a unitless measure and can be expressed without writing down \"rad\".      A circle has a radius of 5 cm and the central angle intercepts an arc that is 27 cm long. What is the radian measure of the central angle?      A circle has a radius of 1 ft and the central angle intercepts an arc that is 10 in long. What is the radian measure of the central angle?      What is the radian measure of the central angle of a circle if we make one complete revolution around the circle?     Converting Between Degrees and Radians      To convert from degrees to radians, multiply the angle by .    To convert from radians to degrees, multiply the angle by .        Converting from Degrees to Radians   Convert to radians.     Converting from Radians to Degrees   Convert radians to degrees.     Common Angle Measures    Degrees             Radians             Degrees            Radians               In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into eight equal sections by drawing both the horizontal and vertical diameters as well as the two diagonals,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.       Drawing an Angle of Radians   Draw an angle of radians in standard position.      In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into twelve equal sections by drawing both the horizontal and vertical diameters and split each quadrant into three equal sections,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.       Drawing an Angle of Radians   Draw an angle of radians in standard position.     Drawing an Angle of Radians   Draw an angle of radians in standard position.      Two angles are called coterminal if they share the same initial side and terminal side.      We typically only want to express angles in degrees using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .        Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .     Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .      We typically only want to express angles in radians using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .        Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .     Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .     Arc Length   The length of an arc intercepted by a central angle with radian measure in a circle of radius is given by the formula       Find the length of an arc intercepted by a central angle measuring radians in a circle with a radius of 9 cm.     Area of a Sector   The area of a sector formed by a central angle with radian measure in a circle of radius is given by the formula       Find the area of a sector formed by a central angle measuring radians in a circle with a radius of 6 in.     Linear and Angular Speed   If a point is motion on a circle of radius through an angle of radians in time, then its linear speed  is given by the formula where is the length of the arc traveled, and the angular speed  of the point is given by the formula       A wheel with a radius of 0.5 m is rotating at 720 revolutions per minute (rpm). What is the angular speed of the wheel in radians per second?      The linear speed of a point moving on a circle of radius with an angular speed of is given by the formula In plain English, the linear speed equals the radius times the angular speed.      Before digital music, CDs, and cassette players, records were recorded on vinyl discs that spun at either 45 revolutions per minute (rpm) or 75 rpm. Find the linear speed, in inches per minute, at the point where the needle is 1.5 inches from the record's center for a 45 rpm vinyl record.    "
+},
+{
+  "id": "def-angle",
+  "level": "2",
+  "url": "ws-radian-measure.html#def-angle",
+  "type": "Definition",
+  "number": "A.9.51",
+  "title": "Angles.",
+  "body": " Angles      An angle is formed by two rays with a common endpoint.    The ray where the angle measurement begins is called the initial side .    The ray where the angle measurement ends is called the terminal side .    The common endpoint is called the vertex of the angle.      "
+},
+{
+  "id": "def-standard-position",
+  "level": "2",
+  "url": "ws-radian-measure.html#def-standard-position",
+  "type": "Definition",
+  "number": "A.9.52",
+  "title": "Standard Position of an Angle.",
+  "body": " Standard Position of an Angle   An angle is in standard position if the following two conditions are true.   The vertex is located at the origin of a coordinate plane.    The initial side lies on the positive -axis.      "
+},
+{
+  "id": "def-positive-negative-angles",
+  "level": "2",
+  "url": "ws-radian-measure.html#def-positive-negative-angles",
+  "type": "Definition",
+  "number": "A.9.53",
+  "title": "Positive and Negative Angles.",
+  "body": " Positive and Negative Angles      An angle is positive if it measures a counterclockwise rotation.    An angle is negative if it measures a clockwise rotation.      "
+},
+{
+  "id": "def-classifying-angles",
+  "level": "2",
+  "url": "ws-radian-measure.html#def-classifying-angles",
+  "type": "Definition",
+  "number": "A.9.54",
+  "title": "",
+  "body": "     An angle whose terminal side lies in Quadrant 1 is called a Quadrant 1 angle.     An angle whose terminal side lies in Quadrant 2 is called a Quadrant 2 angle.     An angle whose terminal side lies in Quadrant 3 is called a Quadrant 3 angle.     An angle whose terminal side lies in Quadrant 4 is called a Quadrant 4 angle.     An angle whose terminal side lies on one of the axes is called a quadrantal angle.       "
+},
+{
+  "id": "def-central-angle",
+  "level": "2",
+  "url": "ws-radian-measure.html#def-central-angle",
+  "type": "Definition",
+  "number": "A.9.55",
+  "title": "Central Angles and the Arc It Intercepts.",
+  "body": " Central Angles and the Arc It Intercepts      A central angle is an angle whose vertex is at the center of a circle.    The arc that lies between the two sides of a central angle is called the arc intercepted by the angle.       "
+},
+{
+  "id": "def-radian-measure",
+  "level": "2",
+  "url": "ws-radian-measure.html#def-radian-measure",
+  "type": "Definition",
+  "number": "A.9.56",
+  "title": "Radian Measure.",
+  "body": " Radian Measure   Consider a circle with radius whose central angle intercepts an arc of length . The radian measure of the angle in radians is given by the following formula.    "
+},
+{
+  "id": "fig-radian-measures-1-2-3",
+  "level": "2",
+  "url": "ws-radian-measure.html#fig-radian-measures-1-2-3",
+  "type": "Figure",
+  "number": "A.9.57",
+  "title": "",
+  "body": " Measuring Angles in Integer Radians    rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is labeled as r.     rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is segmented into three equal parts all labelled r.     "
+},
+{
+  "id": "ws-radian-measure-9",
+  "level": "2",
+  "url": "ws-radian-measure.html#ws-radian-measure-9",
+  "type": "Note",
+  "number": "A.9.58",
+  "title": "",
+  "body": "  Since the radian measure of an angle is a ratio of two lengths, it is a unitless measure and can be expressed without writing down \"rad\".   "
+},
+{
+  "id": "ex-radian-measure-1",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-radian-measure-1",
+  "type": "Example",
+  "number": "A.9.59",
+  "title": "",
+  "body": "  A circle has a radius of 5 cm and the central angle intercepts an arc that is 27 cm long. What is the radian measure of the central angle?   "
+},
+{
+  "id": "ex-radian-measure-2",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-radian-measure-2",
+  "type": "Example",
+  "number": "A.9.60",
+  "title": "",
+  "body": "  A circle has a radius of 1 ft and the central angle intercepts an arc that is 10 in long. What is the radian measure of the central angle?   "
+},
+{
+  "id": "ex-radian-measure-3",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-radian-measure-3",
+  "type": "Example",
+  "number": "A.9.61",
+  "title": "",
+  "body": "  What is the radian measure of the central angle of a circle if we make one complete revolution around the circle?   "
+},
+{
+  "id": "thm-converting-between-degrees-radians",
+  "level": "2",
+  "url": "ws-radian-measure.html#thm-converting-between-degrees-radians",
+  "type": "Theorem",
+  "number": "A.9.62",
+  "title": "Converting Between Degrees and Radians.",
+  "body": " Converting Between Degrees and Radians      To convert from degrees to radians, multiply the angle by .    To convert from radians to degrees, multiply the angle by .      "
+},
+{
+  "id": "ex-convert-degrees-to-radians-1",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-convert-degrees-to-radians-1",
+  "type": "Example",
+  "number": "A.9.63",
+  "title": "Converting from Degrees to Radians.",
+  "body": " Converting from Degrees to Radians   Convert to radians.   "
+},
+{
+  "id": "ex-convert-radians-to-degrees-1",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-convert-radians-to-degrees-1",
+  "type": "Example",
+  "number": "A.9.64",
+  "title": "Converting from Radians to Degrees.",
+  "body": " Converting from Radians to Degrees   Convert radians to degrees.   "
+},
+{
+  "id": "table-common-angles",
+  "level": "2",
+  "url": "ws-radian-measure.html#table-common-angles",
+  "type": "Table",
+  "number": "A.9.65",
+  "title": "Common Angle Measures",
+  "body": " Common Angle Measures    Degrees             Radians             Degrees            Radians            "
+},
+{
+  "id": "lem-drawing-angles-45-degrees",
+  "level": "2",
+  "url": "ws-radian-measure.html#lem-drawing-angles-45-degrees",
+  "type": "Procedure",
+  "number": "A.9.66",
+  "title": "",
+  "body": "  In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into eight equal sections by drawing both the horizontal and vertical diameters as well as the two diagonals,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.     "
+},
+{
+  "id": "ex-drawing-angles-45-degrees",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-drawing-angles-45-degrees",
+  "type": "Example",
+  "number": "A.9.67",
+  "title": "Drawing an Angle of <span class=\"process-math\">\\(-\\frac{3\\pi}{4}\\)<\/span> Radians.",
+  "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
+},
+{
+  "id": "lem-drawing-angles-30-degrees",
+  "level": "2",
+  "url": "ws-radian-measure.html#lem-drawing-angles-30-degrees",
+  "type": "Procedure",
+  "number": "A.9.68",
+  "title": "",
+  "body": "  In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into twelve equal sections by drawing both the horizontal and vertical diameters and split each quadrant into three equal sections,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.     "
+},
+{
+  "id": "ex-drawing-angles-30-degrees",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-drawing-angles-30-degrees",
+  "type": "Example",
+  "number": "A.9.69",
+  "title": "Drawing an Angle of <span class=\"process-math\">\\(\\frac{11\\pi}{6}\\)<\/span> Radians.",
+  "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
+},
+{
+  "id": "ex-drawing-angles-negative-30-degrees",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-drawing-angles-negative-30-degrees",
+  "type": "Example",
+  "number": "A.9.70",
+  "title": "Drawing an Angle of <span class=\"process-math\">\\(-\\frac{5\\pi}{3}\\)<\/span> Radians.",
+  "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
+},
+{
+  "id": "def-coterminal-angles",
+  "level": "2",
+  "url": "ws-radian-measure.html#def-coterminal-angles",
+  "type": "Definition",
+  "number": "A.9.71",
+  "title": "",
+  "body": "  Two angles are called coterminal if they share the same initial side and terminal side.   "
+},
+{
+  "id": "lem-coterminal-angles-degrees",
+  "level": "2",
+  "url": "ws-radian-measure.html#lem-coterminal-angles-degrees",
+  "type": "Procedure",
+  "number": "A.9.72",
+  "title": "",
+  "body": "  We typically only want to express angles in degrees using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .      "
+},
+{
+  "id": "ex-coterminal-angles-degrees-1",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-coterminal-angles-degrees-1",
+  "type": "Example",
+  "number": "A.9.73",
+  "title": "Finding a Coterminal Angle in Degrees.",
+  "body": " Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .   "
+},
+{
+  "id": "ex-coterminal-angles-degrees-2",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-coterminal-angles-degrees-2",
+  "type": "Example",
+  "number": "A.9.74",
+  "title": "Finding a Coterminal Angle in Degrees.",
+  "body": " Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .   "
+},
+{
+  "id": "lem-coterminal-angles-radians",
+  "level": "2",
+  "url": "ws-radian-measure.html#lem-coterminal-angles-radians",
+  "type": "Procedure",
+  "number": "A.9.75",
+  "title": "",
+  "body": "  We typically only want to express angles in radians using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .      "
+},
+{
+  "id": "ex-coterminal-angles-radians-1",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-coterminal-angles-radians-1",
+  "type": "Example",
+  "number": "A.9.76",
+  "title": "Finding a Coterminal Angle in Radians.",
+  "body": " Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .   "
+},
+{
+  "id": "ex-coterminal-angles-radians-2",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-coterminal-angles-radians-2",
+  "type": "Example",
+  "number": "A.9.77",
+  "title": "Finding a Coterminal Angle in Radians.",
+  "body": " Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .   "
+},
+{
+  "id": "thm-arc-length",
+  "level": "2",
+  "url": "ws-radian-measure.html#thm-arc-length",
+  "type": "Theorem",
+  "number": "A.9.78",
+  "title": "Arc Length.",
+  "body": " Arc Length   The length of an arc intercepted by a central angle with radian measure in a circle of radius is given by the formula    "
+},
+{
+  "id": "ex-arc-length",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-arc-length",
+  "type": "Example",
+  "number": "A.9.79",
+  "title": "",
+  "body": "  Find the length of an arc intercepted by a central angle measuring radians in a circle with a radius of 9 cm.   "
+},
+{
+  "id": "thm-sector-area",
+  "level": "2",
+  "url": "ws-radian-measure.html#thm-sector-area",
+  "type": "Theorem",
+  "number": "A.9.80",
+  "title": "Area of a Sector.",
+  "body": " Area of a Sector   The area of a sector formed by a central angle with radian measure in a circle of radius is given by the formula    "
+},
+{
+  "id": "ex-sector-area",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-sector-area",
+  "type": "Example",
+  "number": "A.9.81",
+  "title": "",
+  "body": "  Find the area of a sector formed by a central angle measuring radians in a circle with a radius of 6 in.   "
+},
+{
+  "id": "def-linear-angular-speed",
+  "level": "2",
+  "url": "ws-radian-measure.html#def-linear-angular-speed",
+  "type": "Definition",
+  "number": "A.9.82",
+  "title": "Linear and Angular Speed.",
+  "body": " Linear and Angular Speed   If a point is motion on a circle of radius through an angle of radians in time, then its linear speed  is given by the formula where is the length of the arc traveled, and the angular speed  of the point is given by the formula    "
+},
+{
+  "id": "ex-converting-to-radian-angular-speed",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-converting-to-radian-angular-speed",
+  "type": "Example",
+  "number": "A.9.83",
+  "title": "",
+  "body": "  A wheel with a radius of 0.5 m is rotating at 720 revolutions per minute (rpm). What is the angular speed of the wheel in radians per second?   "
+},
+{
+  "id": "thm-linear-speed",
+  "level": "2",
+  "url": "ws-radian-measure.html#thm-linear-speed",
+  "type": "Theorem",
+  "number": "A.9.84",
+  "title": "",
+  "body": "  The linear speed of a point moving on a circle of radius with an angular speed of is given by the formula In plain English, the linear speed equals the radius times the angular speed.   "
+},
+{
+  "id": "ex-finding-linear-speed",
+  "level": "2",
+  "url": "ws-radian-measure.html#ex-finding-linear-speed",
+  "type": "Example",
+  "number": "A.9.85",
+  "title": "",
+  "body": "  Before digital music, CDs, and cassette players, records were recorded on vinyl discs that spun at either 45 revolutions per minute (rpm) or 75 rpm. Find the linear speed, in inches per minute, at the point where the needle is 1.5 inches from the record's center for a 45 rpm vinyl record.   "
+},
+{
   "id": "backmatter-3",
   "level": "1",
   "url": "backmatter-3.html",
