@@ -15,4 +15,5 @@
     <xi:include href="./chapter-6-notes.ptx"/>
     <xi:include href="./chapter-7-notes.ptx"/>
     <xi:include href="./chapter-8-notes.ptx"/>
+    <xi:include href="./Trigonometry/radians.ptx"/>
 </appendix>
