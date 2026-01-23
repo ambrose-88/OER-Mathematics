@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="chapter1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Graphing Points on the Coordinate Plane</title>
+<introduction>
+  <p>In the last section, we reviewed terminology related to coordinate planes. 
+    In this section, we will demonstrate how to graph points.  
+    We will draw points by hand, and we will use technology to plot points. We will build upon this skill when we learn how to graph equations and functions.</p>
+</introduction>
+
+<subsection>
+    <title>Graphing a Point by Hand</title>
+    <subsubsection>
+        <title>Positive and Negative Signs as Directions of Travel.</title>
+        <p>
+            When graphing on a number line, all the numbers to the right of 0 are positive, and all the numbers to the left of 0 are negative. 
+            To understand why we label the number line this way, think of a car parked at <m>x=0</m> on an infinite straight road. <m>x=0</m> is the <term>starting point</term> (also known as the <term>reference point</term>); it is where the car is located before we start measuring how far it travels. 
+            The positive numbers indicate how many miles forward the car travels from the starting point; the negative numbers indicate how many miles backward the car travels in reverse from the starting point.
+        </p>
+        <figure xml:id="graph-three-cars">
+            <caption>Positive numbers always indicate the forward direction of travel. 
+                No matter its position, the car is always facing to the right.</caption>
+                <sbsgroup widths="">
+                    <sidebyside>
+            <figure xml:id="graph-car-reverse">
+                <caption>Negative numbers are like a car driving in reverse. 
+                    If you are at <m>x=-3</m>, then you have driven 3 feet in reverse. 
+                </caption>
+                <image source="../../../assets/college-algebra/chapter-1-2/car_x_equals_neg_3.png">
+                    <shortdescription>
+                        The car is positioned at x = -3 while facing to the right.
+                    </shortdescription>
+                </image>
+ 
+            </figure>
+            </sidebyside>
+            <sidebyside>
+            <figure xml:id="graph-car-zero">
+                <caption>Negative numbers are like a car driving in reverse. 
+                    If you are at <m>x=0</m>, then you have not driven anywhere yet. 
+                </caption>
+                <image source="../../../assets/college-algebra/chapter-1-2/car_x_equals_0.png">
+                    <shortdescription>
+                        The car is positioned at x = 0 while facing to the right.
+                    </shortdescription>
+                </image>
+ 
+            </figure>
+            </sidebyside>
+            
+            <sidebyside>
+            <figure xml:id="graph-car-positive">
+                <caption>Negative numbers are like a car driving in reverse. 
+                    If you are at <m>x=3</m>, then you have driven 3 feet forwards. 
+                </caption>
+                <image source="../../../assets/college-algebra/chapter-1-2/car_x_equals_3.png">
+                    <shortdescription>
+                        The car is positioned at x = 3 while facing to the right.
+                    </shortdescription>
+                </image>
+ 
+            </figure>
+            </sidebyside>
+                </sbsgroup>
+        </figure>
+        <p>Unlike a number line, the coordinate plane uses two number lines—one horizontal and one vertical. 
+            Each axis has a positive (forward) and negative (backward) direction. 
+            On a standard coordinate plane, moving to the right (east) is the positive horizontal direction, and moving up (north) is the positive vertical direction. 
+            An ordered pair <m>(x,y)</m> tells you how far and in which direction to travel along each axis. 
+            The number tells you how far to travel, and the sign of the number tells you which direction to travel. 
+            For example, the point <m>(-3,2)</m> means that—starting at the origin—you need to move 3 units to the left and 2 units up.</p>
+        <figure xml:id="graph-plot-neg3_2">
+            <caption>Graph showing how to plot the point <m>(-3,2)</m> by moving left and up from the origin.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-2/plot_neg_3_comma_2.png" width="40%">
+                <shortdescription>
+                    A graph showing how to plot the point (-3, 2) by moving left and up from the origin.
+                </shortdescription>
+            </image>
+        </figure>
+        </subsubsection>
+        <subsubsection xml:id="subsub-Graphing-a-Point-By-Hand">
+            <title>Graphing a Point By Hand</title>
+            <p>When we look at our rectangle example for <m>(3,4)</m> from the last section, notice that there were two ways we could travel the perimeter of the rectangle to reach the point. 
+                We could travel 3 along the south edge, and then go up by 4 along the east edge. 
+                This is the standard way to plot the point. 
+                Equivalently, we could have gone up 4 along the west edge, then traveled 3 along the north edge. 
+                While technically not the standard method, there is no harm in plotting a point this way. 
+                It can be shown any point on the rectangular coordinate plane can be reached using either method.
+            </p>
+            <figure xml:id="graph-plot-3_4-two-ways">
+                <caption>Graph showing two ways to plot the point <m>(3,4)</m>.</caption>
+                <sidebyside>
+                <figure xml:id="graph-plot-3_4-standard">
+                    <caption>Standard way to plot the point <m>(3,4)</m> by moving right 3 first, then up 4.</caption>
+                    <image source="../../../assets/college-algebra/chapter-1-2/plot_3_comma_4_V1.png">
+                        <shortdescription>
+                            A graph showing the standard way to plot the point (3, 4).
+                        </shortdescription>
+                    </image>
+                </figure>
+                <figure xml:id="graph-plot-3_4-nonstandard">
+                    <caption>Non-standard way to plot the point <m>(3,4)</m> by moving up 4, then right 3.</caption>
+                    <image source="../../../assets/college-algebra/chapter-1-2/plot_3_comma_4_V2.png">
+                        <shortdescription>
+                            A graph showing an alternate way to plot the point (3, 4).
+                        </shortdescription>
+                    </image>
+                </figure>
+                </sidebyside>
+            </figure>
+<lemma xml:id="lem-how-to-graph-a-point">
+    <title>How to Graph a Point</title>    
+    <statement>
+        <p>
+            Let <m>(x,y)</m> be any point on the rectangular coordinate system. To plot the point, you can either
+            <ol>
+                <li>Travel horizontally by <m>x</m>, then move vertically by <m>y</m>, or</li>
+                <li>Travel vertically by <m>y</m>, then move horizontally by <m>x</m>.</li>
+            </ol>
+        </p>
+    </statement>
+</lemma>
+<p>The following set of examples demonstrates how to graph points by hand in all four quadrants of the coordinate plane and on the axes.</p>
+<example>
+    <title>Plotting in Quadrant 1</title>
+    <statement>
+        <p>
+            Plot the point <m>(2,4)</m>.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Start at the origin, move 2 to the right, and then up by 4.
+        </p>
+        <figure xml:id="graph-plot-2_4">
+            <caption>Graph showing how to plot the point <m>(2,4)</m> by moving right 2 and up 4 from the origin.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-2/plot_2_comma_4_example_1_1_4.png" width="40%">
+                <shortdescription>
+                    A graph showing how to plot the point (2, 4) by moving right 2 and up 4 from the origin.
+                </shortdescription>
+            </image>
+        </figure>
+    </solution>
+</example>
+<example>
+    <title>Plotting in Quadrant 2</title>
+    <statement>
+        <p>
+            Plot the point <m>(-1,3)</m>.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Start at the origin, move 1 to the left, and then up by 3.
+        </p>
+        <figure xml:id="graph-plot-neg1_3">
+            <caption>Graph showing how to plot the point <m>(-1,3)</m> by moving left 1 and up 3 from the origin.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-2/plot_neg_1_comma_3_example_1_1_4.png" width="40%">
+                <shortdescription>
+                    A graph showing how to plot the point (-1, 3) by moving left 1 and up 3 from the origin.
+                </shortdescription>
+            </image>
+        </figure>
+    </solution>
+</example>
+<example>
+    <title>Plotting in Quadrant 3</title>
+    <statement>
+        <p>
+            Plot the point <m>(-3,-2)</m>.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Start at the origin, move 3 to the left, and then down by 2.
+        </p>
+        <figure xml:id="graph-plot-neg3_neg2">
+            <caption>Graph showing how to plot the point <m>(-3,-2)</m> by moving left 3 and down 2 from the origin.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-2/plot_neg_3_comma_neg_2_example_1_1_4.png" width="40%">
+                <shortdescription>
+                    A graph showing how to plot the point (-3, -2) by moving left 3 and down 2 from the origin.
+                </shortdescription>
+            </image>
+        </figure>
+    </solution>
+</example>
+<example>
+    <title>Plotting in Quadrant 4</title>
+    <statement>
+        <p>
+            Plot the point <m>(4,-4)</m>.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Start at the origin, move 4 to the right, and then down by 4.
+        </p>
+        <figure xml:id="graph-plot-4_neg4">
+            <caption>Graph showing how to plot the point <m>(4,-4)</m> by moving right 4 and down 4 from the origin.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-2/plot_4_comma_neg_4_example_1_1_4.png" width="40%">
+                <shortdescription>
+                    A graph showing how to plot the point (4, -4) by moving right 4 and down 4 from the origin.
+                </shortdescription>
+            </image>
+        </figure>
+    </solution>
+</example>
+<example>
+    <title>Plotting on the <m>x</m>-axis</title>
+    <statement>
+        <p>
+            Plot the point <m>(3,0)</m>.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Start at the origin, move 3 to the right, and then stay on the <m>x</m>-axis.
+        </p>
+        <figure xml:id="graph-plot-3_0">
+            <caption>Graph showing how to plot the point <m>(3,0)</m> by moving right 3 from the origin and staying on the <m>x</m>-axis.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-2/plot_3_comma_0_example_1_1_4.png" width="40%">
+                <shortdescription>
+                    A graph showing how to plot the point (3, 0) by moving right 3 from the origin and staying on the x-axis.
+                </shortdescription>
+            </image>
+        </figure>
+    </solution>
+</example>
+<example>
+    <title>Plotting on the <m>y</m>-axis</title>
+    <statement>
+        <p>
+            Plot the point <m>(0,-2)</m>.
+        </p>
+    </statement>
+    <solution>
+        <p>
+            Start at the origin, stay on the <m>y</m>-axis, and then move down by 2.
+        </p>
+        <figure xml:id="graph-plot-0_neg2">
+            <caption>Graph showing how to plot the point <m>(0,-2)</m> by staying on the <m>y</m>-axis and moving down 2 from the origin.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-2/plot_0_comma_neg_2_example_1_1_4.png" width="40%">
+                <shortdescription>
+                    A graph showing how to plot the point (0, -2) by staying on the y-axis and moving down 2 from the origin.
+                </shortdescription>
+            </image>
+        </figure>
+    </solution>
+</example>
+        </subsubsection>
+        <subsubsection xml:id="subsub-Graphing-Points-Using-Technology">
+            <title>Graphing Points Using Technology</title>
+            <p>In this course, we will use the <url href="https://www.desmos.com/calculator"> Desmos</url> as our graphing calculator. 
+                (An app version of Desmos is also available for both Android and iOS.) 
+                If you prefer to use a TI-84, you may visit this page to see how to graph points on a TI-84.</p>
+                <p>Graphing points in Desmos is simple! 
+                    Type the point into the Input Field, and it will automatically plot it for you. 
+                    Let replot our points from our last six examples all at once in Desmos.
+                </p>
+                <example>
+                    <title>Plotting Points in Desmos</title>
+                    <statement>
+                        <p>
+                            Plot the points <m>(2,4)</m>, <m>(-1,3)</m>, <m>(-3,-2)</m>, <m>(4,-4)</m>, <m>(3,0)</m>, and <m>(0,-2)</m> in Desmos.
+                        </p>
+                    </statement>
+                    <solution>
+                        <p>
+                            Type each point on its own separate line in the Input Panel, and the points will automatically plot on the graph.
+                        </p>
+                        <figure xml:id="graph-desmos-points">
+                            <caption>Desmos graph showing the points <m>(2,4)</m>, <m>(-1,3)</m>, <m>(-3,-2)</m>, <m>(4,-4)</m>, <m>(3,0)</m>, and <m>(0,-2)</m>.</caption>
+                            <image source="../../../assets/college-algebra/chapter-1-2/desmos_example_1_1_5.png" width="40%">
+                                <shortdescription>
+                                    A screenshot of Desmos with all the points plotted.  Each point is entered on a separate line.
+                                </shortdescription>
+                            </image>
+                        </figure>
+                    </solution>
+                    <solution>
+                         <p>
+                            You can write all the points on a single line with list notation. To create a list of points, type a square left bracket [, a comma separated list of points, and then close the list with a right square bracket ]. If you have it typed correctly, it should look like this: <me>[(2,4), (-2,3), (-3,-2), (4,-4), (3,0), (0, -2)]\].</me> The output will render in Desmos like this.
+                        </p>
+                        
+                       
+                        <figure xml:id="graph-desmos-points-list">
+                            <caption>Desmos graph showing the points <m>(2,4)</m>, <m>(-1,3)</m>, <m>(-3,-2)</m>, <m>(4,-4)</m>, <m>(3,0)</m>, and <m>(0,-2)</m> plotted using list notation.</caption>
+                            <image source="../../../assets/college-algebra/chapter-1-2/desmos_example_1_1_5_V2.png" width="40%">
+                                <shortdescription>
+                                    A screenshot of Desmos with all the points plotted using list notation.
+                                </shortdescription>
+                            </image>
+                        </figure>
+                    </solution>
+                </example>
+        </subsubsection>
+        <subsubsection xml:id="subsub-variables-other-than-x-y">
+            <title>Using Variables Other Than <m>x</m> and <m>y</m>.</title>
+            <p>
+                While using <m>x</m> and <m>y</m> is common in mathematics, when working with real-world examples, you may want to use variables to represent the quantities in the problem. 
+                Informally, we can even use words or short phrases to represent <m>x</m> and <m>y</m>. 
+                This is commonly used to label charts and reports.
+            </p>
+            <p>
+                The rectangular coordinate plane is also called the <term><m>xy</m>-plane</term> to emphasize which variable names we are using. 
+                When using variable names other than <m>x</m> and <m>y</m>, we will use the ><m>xy</m>-plane naming convention, but substitute the variables relevant to the problem context.
+            </p>
+            <example>
+                <title>Economics</title>
+                <statement>
+                <p>
+                    If <m>x</m> is the quantity of items produced by a factory and <m>y</m> is the cost (in thousands of dollars) to produce those items, we could use <m>q</m> instead of <m>x</m> for quantity produced and <m>C</m> instead of <m>y</m> for the cost to produce <m>q</m> items. 
+                    Ordered pairs would be <m>(q,C)</m> plotted in the <m>qC</m>-plane.
+                </p>
+                <figure xml:id="graph-economics">
+                    <caption>We can either label the axes with variables or in words</caption>
+                    <sidebyside>
+                    <figure xml:id="graph-economics-qc">
+                        <caption>The axes have been labeled <m>q</m> and <m>C</m> instead of <m>x</m> and <m>y</m>.</caption>
+                        <image source="../../../assets/college-algebra/chapter-1-2/economics.png" width="40%">
+                            <shortdescription>
+                                The qC-plane. The q-axis is labeled from 0 to 700 in hundreds. The C-axis is labeled from 0 to 100 by tens.
+                            </shortdescription>
+                        </image>
+                    </figure>
+                    <figure xml:id="graph-economics-words">
+                        <caption>The <m>q</m>-axis is labeled Quantity of Items Produced. The <m>C</m>-axis is labeled Cost (in thousands) </caption>
+                        <image source="../../../assets/college-algebra/chapter-1-2/economics_V2.png" width="40%">
+                            <shortdescription>
+                                The qC-plane. The q-axis is labeled Quantity of Items Produced. The C-axis is labeled Cost (in thousands).
+                            </shortdescription>
+                        </image>
+                    </figure>
+                    </sidebyside>
+                </figure>
+                </statement>
+                
+        </example>
+        <example>
+            <title>Physics</title>
+            <statement>
+                
+<p>
+    In the study of motion, it is common to represent time and position using variables.
+    While mathematics often uses <m>x</m> for time and <m>y</m> for position, physicists
+    typically use <m>t</m> to denote time and <m>s</m> to represent the position of an object
+    relative to its starting point. Thus, the motion of an object can be described using
+    ordered pairs <m>(t, s)</m>, which are plotted in the <m>ts</m>-plane.
+  </p>
+    <figure xml:id="graph-physics">
+        <caption>We can either label the axes with variables or in words</caption>
+        <sidebyside>
+        <figure xml:id="graph-physics-ts">
+            <caption>The axes have been labeled <m>t</m> and <m>s</m> instead of <m>x</m> and <m>y</m>.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-2/physics_v1.png" width="40%">
+                <shortdescription>
+                    The ts-plane. The t-axis is labeled from 0 to 10 by 1s. The s-axis is labeled from 0 to 100 by 10s.
+                </shortdescription>
+            </image>
+        </figure>
+        <figure xml:id="graph-physics-words">
+            <caption>The <m>t</m>-axis is labeled Time (in seconds). The <m>s</m>-axis is labeled Position (in feet).</caption>
+            <image source="../../../assets/college-algebra/chapter-1-2/physics_V2.png" width="40%">
+                <shortdescription>                   
+                    The ts-plane. The t-axis is labeled Time (in seconds). The s-axis is labeled Position (in feet).
+                </shortdescription>
+            </image>
+        </figure>
+        </sidebyside>
+    </figure>
+            </statement>
+        </example>
+        <example>
+            <title>Biology</title>
+            <statement>
+
+  <p>
+    In a biology experiment, let <m>d</m> represent the number of days since a seed was planted,
+    and let <m>h</m> be the height of the plant (in centimeters) after <m>d</m> days.
+    Ordered pairs would be <m>(d, h)</m>, plotted in the <m>dh</m>-plane.
+  </p>
+    <figure xml:id="graph-biology">
+        <caption>We can either label the axes with variables or in words</caption>
+        <sidebyside>
+        <figure xml:id="graph-biology-dh">
+            <caption>The axes have been labeled <m>d</m> and <m>h</m> instead of <m>x</m> and <m>y</m>.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-2/biology_v1.png" width="40%">
+                <shortdescription>
+                    The dh-plane. The d-axis is labeled from 0 to 10 by 1s. The h-axis is labeled from 0 to 50 by 5s.
+                </shortdescription>
+            </image>
+        </figure>
+        <figure xml:id="graph-biology-words">
+            <caption>The <m>d</m>-axis is labeled Days Since Planted. The <m>h</m>-axis is labeled Height (in centimeters).</caption>
+            <image source="../../../assets/college-algebra/chapter-1-2/biology_V2.png" width="40%">
+                <shortdescription>                   
+                    The dh-plane. The d-axis is labeled Days Since Planted. The h-axis is labeled Height (in centimeters).
+                </shortdescription>
+            </image>
+        </figure>
+        </sidebyside>
+    </figure>
+            </statement>
+        </example>
+        
+    <p>Now that you have seen several examples of how to use other variables, let's try do a full example from psychology.</p>
+    <example>
+        <title>Psychology</title>
+        <statement>
+ 
+  <p>
+    In a psychology study, researchers recorded data about participants’ daily screen time and reported stress levels.
+    Let <m>x</m> represent the average number of hours of screen time per day, and let <m>y</m> represent the participant’s stress level on a scale from 1 to 10.
+  <ul>
+    <li>
+      What variable names might better represent these quantities than using <m>x</m> and <m>y</m>? What would the ordered pairs be instead of <m>(x, y)</m>? What would we call the <m>xy</m>-plane when we use these variables?
+    </li>
+    <li>
+      Suppose the study reports the point <m>(5, 8)</m>. Interpret this point in the context of the study.
+    </li>
+    <li>
+      One participant reported using screens for 2.5 hours in a day and had a stress level of 4.
+      Write this information as a coordinate point. Then graph the point on the same coordinate plane as <m>(5, 8)</m>.
+    </li>
+  </ul>
+</p>
+
+        </statement>
+        <solution>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                        A better variable name for average daily screen time could be <m>h</m> for screen time in hours, and a better variable name for stress level could be <m>S</m> for stress level. 
+                        The ordered pairs would be <m>(h,S)</m>, and we would call the <m>hS</m>-plane the screen time-stress level plane.
+                        </p>
+                    </li>
+                    <li>
+                        
+  <p>
+    The point <m>(5, 8)</m> means that <m>h = 5</m> and <m>S = 8</m>.
+    Therefore, a participant who used screens for an average of 5 hours per day
+    reported a stress level of 8 on the 1–10 scale.
+  </p>
+                    </li>
+                    <li>
+  
+<p>
+    Since the participant reported an average screen time of 2.5 hours, we have that <m>h = 2.5</m>.
+    Their stress level is a 4; therefore, <m>S = 4</m>.
+    Since our points are of the form <m>(h, S)</m>, we should use the ordered pair <m>(2.5, 4)</m>
+    to represent this individual.
+  </p>
+</li>
+ </ul>
+            </p>
+        </solution>
+    </example>
+        </subsubsection>
+    </subsection>
+</section>

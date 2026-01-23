@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="ws-properties-polynomials" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Properties of Polynomial Functions</title>
+<definition xml:id="lecture-notes-polynomial-function">
+  <title>Polynomial Function</title>
+
+  <statement>
+    <p>
+      Let <m>a_n</m>, <m>a_{n-1}</m>, <m>\ldots</m>, <m>a_2</m>, <m>a_1</m>, <m>a_0</m> be any real numbers with <m>a_n \ne 0</m> and an integer <m>n \ge 0</m>.
+      The <term>standard form of a polynomial function</term> is any function of the form
+      <me>p(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_2 x^2 + a_1 x + a_0</me>.
+      There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.
+      <ul>
+        <li><p>The highest power of <m>x</m> is called the <term>degree</term> of the polynomial function. The degree of a generic function is denoted as <m>n</m>.</p></li>
+        <li><p>The term containing the highest power of <m>x</m> is called the <term>leading term</term>. The leading term of a generic polynomial function is denoted as <m>a_n x^n</m>.</p></li>
+        <li><p><m>a_n</m> is called the <term>leading coefficient</term>.</p></li>
+        <li><p>The term without any variables is called the <term>constant term</term>. The constant term of a generic polynomial is denoted as <m>a_0</m>.</p></li>
+      </ul>
+    </p>
+  </statement>
+</definition>
+
+<exercise xml:id="lecture-notes-identifying-polynomial-functions" workspace="2in">
+  <title>Identifying Polynomial Functions</title>
+  <statement>
+    <p>Which of the following functions are polynomial?</p>
+    <p>
+      <ul>
+        <li><p><m>p(x) = 7x^3 + 8x^2 + 2x - 1</m></p></li>
+        <li><p><m>q(x) = 8</m></p></li>
+        <li><p><m>r(x) = 8x^{-2} + 3x^{-1} + 4</m></p></li>
+        <li><p><m>s(x) = 12x + 4\sqrt{x} + 2</m></p></li>
+      </ul>
+    </p>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-identifying-key-parts-polynomial-v2" workspace="2in">
+  <title>Identifying the Key Parts of a Polynomial, Version 2</title>
+  <statement>
+    <p>Let <m>p(x) = 5x^3 - 4 - 2x^2 + 11x^7 - 2x^8 + 9x</m>. Find the degree, leading term, leading coefficient, and constant term.</p>
+  </statement>
+  <p>Although polynomial terms are usually written from highest to lowest degree, this order is a matter of convention, not a mathematical requirement. Only certain techniques, such as polynomial long division or synthetic division, rely on that order. Therefore, do not assume the leading or constant terms will always appear first and last.</p>
+</exercise>
+
+<exercise xml:id="lecture-notes-identifying-key-parts-polynomial-v3" workspace="2in">
+  <title>Identifying the Key Parts of a Polynomial, Version 3</title>
+  <statement>
+    <p>Let <m>p(x) = 12</m>. Find the degree, leading term, leading coefficient, and constant term.</p>
+  </statement>
+  <p>Every real number <m>a_0</m> can be written as <m>a_0 x^0</m> since <m>x^0 = 1</m>. Therefore, horizontal lines such as <m>f(x) = 12</m> are also degree 0 polynomials, since the highest power of <m>x</m> is 0.</p>
+</exercise>
+
+<exercise xml:id="lecture-notes-identifying-key-parts-of-a-factored-polynomial" workspace="2in">
+  <title>Identifying the Key Parts of a Factored Polynomial</title>
+  <statement>
+    <p>Let <m>p(x) = 4(x - 2)^2(x - 1)^3</m>. Find the degree, leading term, and constant term.</p>
+  </statement>
+  <p>While this seems harder, the solution is very straightforward.</p>
+  <p>First, we find the leading term by ignoring the <m>-2</m> and <m>-1</m> in the factors to get the product <me>4 \cdot (x)^2 \cdot (x)^3 = 4x^5.</me> Now that we have the leading term, we see that the degree is <m>5</m> and the leading coefficient is <m>4</m>.</p>
+  <p>To find the constant term, we just ignore the <m>x</m> in each factor and multiply to get <me>4 \cdot (-2)^2 \cdot (-1)^3 = -16.</me></p>
+</exercise>
+
+<theorem xml:id="lecture-notes-leading-coefficient-test">
+  <title>The Leading Coefficient Test</title>
+  <statement>
+    <p>
+      Let <m>p</m> be any polynomial function with leading term <m>a_n x^n</m>.
+      The following figures describe the four different types of end behavior a polynomial function may have.
+    </p>
+
+    <figure>
+      <caption>For odd degree polynomials, the graph will have opposite end behaviors.</caption>
+      <sidebyside>
+
+        <figure>
+          <caption>
+            <p>
+              If <m>a_n &gt; 0</m> and <m>n</m> is odd, then
+              <ul>
+                <li><p><m>p(x)</m> will approach <m>+\infty</m> as <m>x</m> approaches <m>+\infty</m>,</p></li>
+                <li><p><m>p(x)</m> will approach <m>-\infty</m> as <m>x</m> approaches <m>-\infty</m>, and</p></li>
+                <li><p>we draw an arrow rising up to the right and an arrow falling down to the left.</p></li>
+              </ul>
+            </p>
+          </caption>
+          <image source="../../assets/college-algebra/chapter-5/odd_positive_end_behavior.png" width="10%">
+            <shortdescription>The graph of an odd degree polynomial with positive leading coefficient.</shortdescription>
+          </image>
+        </figure>
+
+        <figure>
+          <caption>
+            <p>
+              If <m>a_n &lt; 0</m> and <m>n</m> is odd, then
+              <ul>
+                <li><p><m>p(x)</m> will approach <m>-\infty</m> as <m>x</m> approaches <m>+\infty</m>,</p></li>
+                <li><p><m>p(x)</m> will approach <m>+\infty</m> as <m>x</m> approaches <m>-\infty</m>, and</p></li>
+                <li><p>we draw an arrow falling down to the right and an arrow rising up to the left.</p></li>
+              </ul>
+            </p>
+          </caption>
+          <image source="../../assets/college-algebra/chapter-5/odd_negative_end_behavior.png" width="10%">
+            <shortdescription>The graph of an odd degree polynomial with negative leading coefficient.</shortdescription>
+          </image>
+        </figure>
+
+      </sidebyside>
+    </figure>
+
+    <figure>
+      <caption>For even degree polynomials, the graph will have the same end behaviors.</caption>
+      <sidebyside>
+
+        <figure>
+          <caption>
+            <p>
+              If <m>a_n &gt; 0</m> and <m>n</m> is even, then
+              <ul>
+                <li><p><m>p(x)</m> will approach <m>+\infty</m> as <m>x</m> approaches <m>+\infty</m>,</p></li>
+                <li><p><m>p(x)</m> will approach <m>+\infty</m> as <m>x</m> approaches <m>-\infty</m>, and</p></li>
+                <li><p>we draw an arrow rising up to the right and an arrow rising up to the left.</p></li>
+              </ul>
+            </p>
+          </caption>
+          <image source="../../assets/college-algebra/chapter-5/even_positive_end_behavior.png" width="10%">
+            <shortdescription>The graph of an even degree polynomial with positive leading coefficient.</shortdescription>
+          </image>
+        </figure>
+
+        <figure>
+          <caption>
+            <p>
+              If <m>a_n &lt; 0</m> and <m>n</m> is even, then
+              <ul>
+                <li><p><m>p(x)</m> will approach <m>-\infty</m> as <m>x</m> approaches <m>+\infty</m>,</p></li>
+                <li><p><m>p(x)</m> will approach <m>-\infty</m> as <m>x</m> approaches <m>-\infty</m>, and</p></li>
+                <li><p>we draw an arrow falling down to the right and an arrow falling down to the left.</p></li>
+              </ul>
+            </p>
+          </caption>
+          <image source="../../assets/college-algebra/chapter-5/even_negative_end_behavior.png" width="10%">
+            <shortdescription>The graph of an even degree polynomial with negative leading coefficient.</shortdescription>
+          </image>
+        </figure>
+
+      </sidebyside>
+    </figure>
+  </statement>
+</theorem>
+
+<exercise xml:id="lecture-notes-using-leading-coefficient-test-v3" workspace="2in">
+  <title>Using the Leading Coefficient Test, Version 3</title>
+  <statement>
+    <p>Determine the end behavior of <m>p(x) = 3x^4 + 3x^3 - 15x^2 + 3x - 18</m>.</p>
+  </statement>
+</exercise>
+
+<theorem xml:id="lecture-notes-complete-linear-factorization-theorem">
+  <statement>
+    <p>
+      The <term>complete linear factorization</term> of a degree <m>n</m> polynomial function <m>p(x)</m> with leading coefficient <m>a_n</m>
+      is given by the formula
+      <me>p(x) = a_n (x - c_1)(x - c_2)\cdots(x - c_{n-1})(x - c_n),</me>
+      where <m>c_1</m>, <m>c_2</m>, <m>\ldots</m>, <m>c_{n-1}</m>, <m>c_n</m>
+      are the <m>n</m> (not necessarily distinct) solutions to the equation <m>p(x) = 0</m>.
+    </p>
+  </statement>
+</theorem>
+
+<p>Let's think about what this statement says.</p>
+
+<p>
+  <ol>
+    <li><p>There is a relationship between factoring and solutions to polynomial equations.</p></li>
+    <li><p>A degree <m>n</m> polynomial function has <m>n</m> solutions.</p></li>
+    <li><p>Since the <m>c_i</m> can be the same value, a solution can be “repeated.”</p></li>
+    <li><p>Since this statement is a theorem, there is a proof that this complete linear factorization can always be found.</p></li>
+  </ol>
+</p>
+
+<exercise xml:id="lecture-notes-using-complete-linear-factorization" workspace="2in">
+  <title>Using the Complete Linear Factorization to Solve an Equation</title>
+  <statement>
+    <p>
+      The complete linear factorization of the polynomial function
+      <me>p(x) = -2x^4 - 4x^3 + 26x^2 + 28x - 48</me> is
+      <me>p(x) = -2(x - 3)(x - 1)(x + 3)(x + 4).</me>
+      Use the complete linear factorization of the function to solve the equation <m>p(x) = 0</m>.
+    </p>
+  </statement>
+</exercise>
+
+<definition xml:id="lecture-notes-zero-of-a-polynomial">
+  <p>
+    A complex number <m>c</m> is a <term>zero</term> of a polynomial function if <m>p(c) = 0</m>.
+  </p>
+</definition>
+
+<note xml:id="lecture-notes-zeros-alternate-names">
+  <p>
+    Zeros are also called the <term>roots</term> or <term>solutions</term> of the polynomial equation <m>p(x) = 0</m>.
+  </p>
+</note>
+
+<exercise xml:id="lecture-notes-finding-zeroes-one-real-two-complex" workspace="2in">
+  <title>Finding the zeroes of a polynomial function with one real solution and two complex solutions</title>
+  <statement>
+    <p>Find the zeroes of the function <m>p(x) = x^3 + 27.</m></p>
+  </statement>
+</exercise>
+
+<definition xml:id="lecture-notes-multiplicity-of-a-zero-definition">
+  <title>The Multiplicity of a Zero</title>
+  <statement>
+    <p>
+      Let <m>p(x)</m> be any polynomial function that has a factor of <m>(x - c)^m</m>, where <m>m \ge 1</m>.
+      <ul>
+        <li>
+          <p>
+            The exponent <m>m</m> is called the <term>multiplicity</term> of the zero <m>x = c</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>m &gt; 1</m>, then <m>x = c</m> is called a <term>repeated zero</term> of <m>p(x)</m>.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </statement>
+</definition>
+
+<exercise xml:id="lecture-notes-finding-multiplicities-of-a-factored-polynomial" workspace="2in">
+  <title>Finding the Multiplicities of a Factored Polynomial</title>
+  <statement>
+    <p>Let <m>p(x) = x^3(x - 4)^2(x + 1)</m>. Find the zeroes and their multiplicities.</p>
+  </statement>
+</exercise>
+
+<theorem xml:id="lecture-notes-shape-of-graph-near-x-intercept">
+  <title>The Shape of the Graph Near an <m>x</m>-intercept</title>
+  <statement>
+    <p>
+      Suppose <m>x = c</m> is a zero of a polynomial <m>p</m> that has multiplicity <m>m</m>.
+      The following figures illustrate the different ways a polynomial can behave near the <m>x</m>-intercept <m>(c, 0)</m>.
+    </p>
+
+    <figure xml:id="lecture-notes-m-equals-1-behavior">
+      <caption>The graph will cross as a straight-ish line if <m>m = 1</m>.</caption>
+      <sidebyside>
+        <figure>
+          <caption>The graph can either cross from upper left to lower right.</caption>
+          <image source="../../assets/college-algebra/chapter-5/m_1_positive.png" decorative="yes" />
+        </figure>
+
+        <figure>
+          <caption>Or the graph can cross from lower left to upper right.</caption>
+          <image source="../../assets/college-algebra/chapter-5/m_1_negative.png" decorative="yes" />
+        </figure>
+      </sidebyside>
+    </figure>
+
+    <figure xml:id="lecture-notes-m-odd-greater-than-1-behavior">
+      <caption>The graph will cross at <m>(c, 0)</m> similar to how <m>y = x^m</m> crosses at <m>(0, 0)</m> if <m>m &gt; 1</m> and is odd.</caption>
+      <sidebyside>
+        <figure>
+          <caption>
+            The graph can either cross from upper left to lower right while flattening at <m>(c, 0)</m>.
+          </caption>
+          <image source="../../assets/college-algebra/chapter-5/m_odd_positive.png" decorative="yes" />
+        </figure>
+
+        <figure>
+          <caption>
+            Or the graph can cross from lower left to upper right while flattening at <m>(c, 0)</m>.
+          </caption>
+          <image source="../../assets/college-algebra/chapter-5/m_odd_negative.png" decorative="yes" />
+        </figure>
+      </sidebyside>
+    </figure>
+
+    <figure xml:id="lecture-notes-m-even-behavior">
+      <caption>The graph will bounce off the <m>x</m>-axis at <m>(c, 0)</m> if <m>m</m> is even.</caption>
+      <sidebyside>
+        <figure>
+          <caption>Bounce off the <m>x</m>-axis at <m>(c, 0)</m> from above.</caption>
+          <image source="../../assets/college-algebra/chapter-5/m_even_above.png" decorative="yes" />
+        </figure>
+
+        <figure>
+          <caption>Bounce off the <m>x</m>-axis at <m>(c, 0)</m> from below.</caption>
+          <image source="../../assets/college-algebra/chapter-5/m_even_below.png" decorative="yes" />
+        </figure>
+      </sidebyside>
+    </figure>
+
+  </statement>
+</theorem>
+
+<exercise xml:id="lecture-notes-determine-cross-or-bounce-at-x-intercept" workspace="2in">
+  <title>Determine if the Graph Will Cross or Bounce at an <m>x</m>-intercept</title>
+  <statement>
+    <p>
+      Let <m>p(x) = -2(x - 3)^2(x + 4)</m>.
+      Find the zeroes, their multiplicities, and classify whether the graph will cross or bounce at the zeroes.
+    </p>
+  </statement>
+</exercise>
+
+</worksheet>

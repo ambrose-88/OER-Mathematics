@@ -1,0 +1,272 @@
+<section xml:id="rational-zeroes-theorem">
+    <title>The Rational Root Theorem</title>
+    <theorem xml:id="rational-root-theorem">
+  <title>Rational Root Theorem</title>
+  <p>Let <m>p(x)</m> be any polynomial function with leading coefficient <m>a_n</m> and constant term <m>a_0</m>. Then the possible rational roots are given by</p>
+  <p><me>\frac{\text{all possible factors of } a_0}{\text{all possible factors of } a_n}</me></p>
+</theorem>
+<example xml:id="finding-rational-zeroes-updated">
+  <title>Finding the Possible Rational Zeroes of a Polynomial Function, Version 1</title>
+
+  <statement>
+    <p>Find all the possible rational zeroes of <m>p(x) = 2x^5 - 4x^3 - x^2 + 23x + 3</m>.</p>
+  </statement>
+
+  <answer>
+    <p><m>\pm 1, \pm 3, \pm\frac{1}{2}, \pm\frac{3}{2}</m></p>
+  </answer>
+
+  <solution>
+    <p>The factors of <m>3</m> are <m>\pm 1</m> and <m>\pm 3</m>, and the factors of <m>2</m> are <m>\pm 1</m> and <m>\pm 2</m>. Therefore, the possible rational zeroes are</p>
+    <p><me>\frac{\pm 1, \pm 3}{\pm 1, \pm 2}</me></p>
+    <p>When we simplify this list, we have <me>\pm 1, \pm 3, \pm\frac{1}{2}, \pm\frac{3}{2}</me>.</p>
+  </solution>
+</example>
+
+<example xml:id="finding-possible-rational-zeroes">
+  <title>Finding the Possible Rational Zeroes of a Polynomial Function, Version 2</title>
+
+  <statement>
+    <p>Find all the possible rational zeroes of <m>p(x) = 6x^5 - 7x^2 - x + 8</m>.</p>
+  </statement>
+
+  <answer>
+    <p><m>\pm 1, \pm 2, \pm 4, \pm 8, \pm\frac{2}{3}, \pm\frac{1}{3}, \pm\frac{4}{3}, \pm\frac{8}{3}</m></p>
+  </answer>
+
+  <solution>
+    <p>The factors of <m>8</m> are <m>\pm 1</m>, <m>\pm 2</m>, <m>\pm 4</m>, and <m>\pm 8</m>, and the factors of <m>6</m> are <m>\pm 1</m>, <m>\pm 2</m>, <m>\pm 3</m>, <m>\pm 6</m>. Therefore, the possible rational zeroes are</p>
+    <p><me>\frac{\pm 1, \pm 2, \pm 4, \pm 8}{\pm 1, \pm 2, \pm 3, \pm 6}</me></p>
+    <p>When we simplify this list, we have <me>\pm 1, \pm 2, \pm 4, \pm 8, \pm\frac{2}{3}, \pm\frac{1}{3}, \pm\frac{4}{3}, \pm\frac{8}{3}</me>.</p>
+  </solution>
+</example>
+<example xml:id="finding-zeroes-polynomial-function">
+  <title>Finding Zeroes of a Polynomial Function</title>
+
+  <statement>
+    <p>Find all the zeroes of <m>p(x) = 9x^3 + 21x^2 - 17x + 3</m>.</p>
+  </statement>
+
+  <answer>
+    <p>
+      <ul>
+        <li><p><m>x = -3</m></p></li>
+        <li><p><m>x = \frac{1}{3}</m></p></li>
+      </ul>
+    </p>
+  </answer>
+
+  <solution>
+    <p>The factors of <m>3</m> are <m>\pm 1</m>, <m>\pm 3</m>, and the factors of <m>9</m> are <m>\pm 1</m>, <m>\pm 3</m>, <m>\pm 9</m>. Therefore, the possible rational zeroes are</p>
+    <p><me>\frac{\pm 1, \pm 3}{\pm 1, \pm 3, \pm 9}</me></p>
+    <p>When we simplify this list, we have <me>\pm 1, \pm 3, \pm\frac{1}{3}</me>.</p>
+
+    <p>Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the function and built a table until I found that <m>x = -3</m> is a zero of <m>p(x)</m>.</p>
+
+    <figure>
+      <caption>A table evaluating the function <m>p(x)</m> at <m>x = \pm 1</m> and <m>x = \pm 3</m>. The final row shows that <m>p(-3) = 0</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/rational-roots-table-1.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Since <m>x = -3</m> is a zero of <m>p(x)</m>, we can use synthetic division to factor <m>p(x)</m>.</p>
+
+    <figure>
+      <caption>Synthetic division shows that the quotient is <m>9x^2 - 6x + 1</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/rational-roots-synthetic-1.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>We also observe that <m>q(x) = 9x^2 - 6x + 1</m> is a perfect square trinomial and factors as <m>q(x) = (3x - 1)^2</m>. Therefore, our final factorization is</p>
+    <p><me>p(x) = (3x - 1)^2(x + 3)</me></p>
+    <p>Therefore, our zeroes are <m>x = -3</m> and <m>x = \frac{1}{3}</m>.</p>
+  </solution>
+</example>
+<example xml:id="finding-zeroes-polynomial-function-2">
+  <title>Finding Zeroes of a Polynomial Function, Version 2</title>
+
+  <statement>
+    <p>Find all the zeroes of <m>p(x) = 72x^4-138x^3+41x^2+8x-3</m>.</p>
+  </statement>
+
+  <answer>
+    <p>
+      <ul>
+        <li><p><m>x = -\frac{1}{4}</m></p></li>
+        <li><p><m>x = \frac{1}{3}</m></p></li>
+        <li><p><m>x = \frac{3}{2}</m></p></li>
+      </ul>
+    </p>
+  </answer>
+
+  <solution>
+    <p>The factors of <m>-3</m> are <m>\pm 1</m>, <m>\pm 3</m>, and the factors of <m>72</m> are <m>\pm 1</m>, <m>\pm 2</m>, <m>\pm 3</m>, <m>\pm 4</m>, <m>\pm 6</m>, <m>\pm 8</m>, <m>\pm 9</m>, <m>\pm 12</m>, <m>\pm 18</m>, <m>\pm 24</m>, <m>\pm 36</m>, <m>\pm 72</m>. Therefore, the possible rational roots are</p>
+  <p><me>\frac{\pm 1, \pm 3}{\pm 1, \pm 2, \pm 3, \pm 4, \pm 6, \pm 8, \pm 9, \pm 12, \pm 18, \pm 24, \pm 36, \pm 72}</me></p>
+  <p>When we simplify this list, we have</p>
+  <p><me>\pm 1, \pm 3, \pm\frac{1}{2}, \pm\frac{3}{2}, \pm\frac{1}{3}, \pm\frac{1}{4}, \pm\frac{3}{4}, \pm\frac{1}{6}, \pm\frac{1}{8}, \pm\frac{3}{8}, \pm\frac{1}{9}, \pm\frac{1}{12}, \pm\frac{1}{18}, \pm\frac{1}{24}, \pm\frac{1}{36}, \pm\frac{1}{72}</me>.</p>
+
+    <p>Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the function and built a table until I found that <m>x = \frac{3}{2}</m> is a zero of <m>p(x)</m>.</p>
+
+    <figure>
+      <caption>A table evaluating the function <m>p(x)</m> at <m>x = \pm 1</m>, <m>x = \pm 3</m>, <m>x=\pm\frac{1}{2}</m>, and <m>x=\frac{3}{2}</m>. The final row shows that <m>p\left(\frac{3}{2}\right) = 0</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/rational-roots-table-2.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Since <m>x = \frac{3}{2}</m> is a zero of <m>p(x)</m>, we can use synthetic division to factor <m>p(x)</m>.</p>
+
+    <figure>
+      <caption>Synthetic division shows that the quotient is <m>72x^3-30x^2-4x+2</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/rational-roots-synthetic-2.png" decorative="yes" width="50%"/>
+    </figure>
+<p>Therefore, we have the factorization <me>p(x)=(72x^3-30x^2-4x+2)\left(x-\frac{1}{3}\right)</me>.  Now, we find the possible rational roots of the quotient. The factors of <m>2</m> are <m>\pm 1</m> and <m>\pm 2</m>, and the factors of <m>72</m> are <m>\pm 1</m>, <m>\pm 2</m>, <m>\pm 3</m>, <m>\pm 4</m>, <m>\pm 6</m>, <m>\pm 8</m>, <m>\pm 9</m>, <m>\pm 12</m>, <m>\pm 18</m>, <m>\pm 24</m>, <m>\pm 36</m>, <m>\pm 72</m>. Therefore, the possible rational zeroes are</p>
+  <p><me>\frac{\pm 1, \pm 2}{\pm 1, \pm 2, \pm 3, \pm 4, \pm 6, \pm 8, \pm 9, \pm 12, \pm 18, \pm 24, \pm 36, \pm 72}</me></p>
+  <p>When we simplify this list, we have <me>\pm 1, \pm 2, \pm\frac{1}{2}, \pm\frac{1}{3}, \pm\frac{2}{3}, \pm\frac{1}{4}, \pm\frac{1}{6}, \pm\frac{1}{8}, \pm\frac{2}{9}, \pm\frac{1}{9}, \pm\frac{1}{12}, \pm\frac{1}{18}, \pm\frac{1}{24}, \pm\frac{1}{36}, \pm\frac{1}{72}</me>.</p>
+<p>Now, there are two ways to continue. We could do a bunch of synthetic divisions until we found a remainder of zero. Or, we can use technology to start evaluating the potential zeroes until we find one. In this case, I used Desmos to define the quotient and built a table until I found that <m>x = \frac{1}{3}</m> is a zero of <m>q(x)</m>.</p>
+
+    <figure>
+      <caption>A table evaluating the quotient <m>q(x)</m> at <m>x = \pm 1</m>, <m>x = \pm 3</m>, <m>x=\pm\frac{1}{2}</m>, and <m>x=\pm\frac{1}{3}</m>. The final row shows that <m>q\left(\frac{1}{3}\right) = 0</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/rational-roots-table-3.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Since <m>x = \frac{3}{2}</m> is a zero of <m>p(x)</m>, we can use synthetic division to factor <m>p(x)</m>.</p>
+
+    <figure>
+      <caption>Synthetic division shows that the quotient is <m>72x^2-6x-6</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/rational-roots-synthetic-3.png" decorative="yes" width="50%"/>
+    </figure>
+<p>Therefore, we have the factorization 
+    <md>
+        <mrow>p(x)\amp = 72x^4-138x^3+41x^2+8x-3\\</mrow>
+        <mrow>p(x)\amp=(72x^3-30x^2-4x+2)\left(x-\frac{1}{3}\right)\\</mrow>
+        <mrow>p(x)\amp=(72x^2-6x-6)\left(x-\frac{1}{3}\right)\left(x-\dfrac{3}{2}\right)\\</mrow>
+        <mrow>p(x)\amp=6(12x^2-x-1)\left(x-\frac{1}{3}\right)\left(x-\dfrac{3}{2}\right)\\</mrow>
+        <mrow>p(x)\amp=6(12x^2-4x+3x-1)\left(x-\frac{1}{3}\right)\left(x-\dfrac{3}{2}\right)\\</mrow>
+        <mrow>p(x)\amp=6[4x(3x-1)+1(3x-1)]\left(x-\frac{1}{3}\right)\left(x-\dfrac{3}{2}\right)\\</mrow>
+        <mrow>p(x)\amp=6(3x-1)(4x+1)\left(x-\frac{1}{3}\right)\left(x-\dfrac{3}{2}\right)\\</mrow>
+        <mrow>p(x)\amp=(3x-1)(4x+1)(3x-1)(2x-3)\\</mrow>
+        <mrow>p(x)\amp=(3x-1)^2(4x+1)(2x-3)\\</mrow>
+    </md>
+    By the Factor Theorem, the zeroes are <m>x=\frac{3}{2}</m>, <m>x=\frac{1}{3}</m>, and <m>x=-\frac{1}{4}</m>
+</p>
+  </solution>
+</example>
+<example xml:id="graph-rational-roots-test-pm-one">
+  <title>Graphing a Degree 4 Polynomial</title>
+
+  <statement>
+    <p>Graph the function <m>p(x) = x^4-11x^3+42x^2-64x+32</m>.</p>
+  </statement>
+
+  <answer>
+    <figure>
+      <caption>The graph of <m>p(x)=x^4-11x^3+42x^2-64x+32</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-rational-roots-test-pm-one.png" decorative="yes" width="50%"/>
+    </figure>
+  </answer>
+
+  <solution>
+    <p>
+      The first step is to determine the end behavior of <m>p(x)</m>. 
+      Since the leading term <m>x^4</m> has a positive coefficient and even degree, both ends of the graph look similar to <m>y=x^4</m>. 
+      Therefore, the graph travels up and to the right as <m>x</m> approaches <m>+\infty</m>.
+      Similarly, the graph travels up and to the left as <m>x</m> approaches <m>-\infty</m>.
+    </p>
+
+    <figure>
+      <caption>The end behavior is drawn with an arrow going up and right and an arrow going down and left.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-rational-roots-test-pm-one-a.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>
+      Next, since the constant term is <m>a_0 = 32</m>, the <m>y</m>-intercept is <m>(0,32)</m>.
+    </p>
+
+    <figure>
+      <caption>The point <m>(0,32)</m> has been added to the plot.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-rational-roots-test-pm-one-b.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Now, we have to find the zeroes of the polynomial. You should always try the Test for <m>\pm 1</m> first. Adding the coefficients of <m>p(x)</m>, we get the following calculation.
+    <me>1-11+42-62+32=0</me>
+    Since the coefficients sum to 0, then <m>x=1</m> is a zero of <m>p(x)</m>. We use synthetic division to factor the polynomial.
+    </p>
+    <figure xml:id="rational-roots-test-pm-one-synthetic-division-1">
+        <caption>Synthetic division gives us the quotient <m>x^3-10x^2+32x-32</m>.</caption>
+        <image source="../../../assets/college-algebra/chapter-5/graph-rational-roots-test-pm-one-synthetic-1.png" decorative="yes" width="50%"/>
+    </figure>
+    <p>
+        Now, we can factor the polynomial as follows:<me>p(x)=(x^3-10x^2+32x-32)(x-1)</me> Now, we start over with the quotient <m>q(x)=x^3-10x^2+32x-32</m>. The Test for <m>\pm 1</m> fails for <m>q(x)</m>; so, we have to resort to the Rational Roots Theorem.
+The factors of <m>-32</m> are <m>\pm 1</m>, <m>\pm 2</m>, <m>\pm 4</m>, <m>\pm 8</m>, <m>\pm 16</m>, <m>\pm 32</m>, and the factors of the leading coefficient <m>1</m> are <m>\pm 1</m>. Therefore, the possible rational zeroes are</p>
+    <p><me>\frac{\pm 1, \pm 2, \pm 4, \pm 8, \pm 16, \pm 32}{\pm 1}</me></p>
+    <p>When we simplify this list, we have <me>\pm 1, \pm 2, \pm 4, \pm 8, \pm 16, \pm 32</me>.  Since we already know that <m>\pm 1</m> are not zeroes, we start building our table with <m>\pm 2</m>. The last row in our table shows that <m>x=2</m> is a zero of <m>q(x)</m></p>
+     <figure>
+      <caption>A table evaluating the quotient <m>q(x)</m> at <m>x = \pm 1</m>, <m>x = \pm 3</m>, <m>x=\pm\frac{1}{2}</m>, and <m>x=\pm\frac{1}{3}</m>. The final row shows that <m>q\left(\frac{1}{3}\right) = 0</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-rational-roots-test-pm-one-table-1.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Since <m>x = 2</m> is a zero of <m>q(x)</m>, we can use synthetic division to factor <m>q(x)</m>.</p>
+
+    <figure>
+      <caption>Synthetic division shows that the quotient is <m>x^2-8x+16</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-rational-roots-test-pm-one-synthetic-2.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>
+        Notice that <m>x^2-8x+16</m> is a perfect square trinomial and factors as <m>(x-4)^2</m>.
+        Therefore, our complete factorization is given by the following calculation.
+        <md>
+            <mrow>p(x)\amp=x^4-11x^3+42x^2-64x+32\\</mrow>
+            <mrow>p(x)\amp=(x^3-10x^2+32x-32)(x-1)\\</mrow>
+            <mrow>p(x)\amp=(x^2-8x+16)(x-2)(x-1)\\</mrow>
+            <mrow>p(x)\amp=(x-4)^2)(x-2)(x-1)\\</mrow>
+        </md>
+      Therefore, the <m>x</m>-intercepts are <m>(4,0)</m>, <m>(2,0)</m>, and <m>(1,0)</m>. 
+      The multiplicities are <m>2</m>, <m>1</m>, and <m>1</m> respectively.
+      We add these points to the graph.
+    </p>
+
+    <figure>
+      <caption>The <m>x</m>-intercepts <m>(4,0)</m>, <m>(2,0)</m>, and <m>(1,0)</m> are added to the graph.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-rational-roots-test-pm-one-c.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Finally, let us compute values at <m>x=3</m> and <m>x=5</m>:</p>
+
+    <table xml:id="selected-points-pm-2-graph">
+      <title>Selected Points for <m>p(x)=x^4-11x^3+42x^2-64x+32</m></title>
+      <tabular>
+        <row header="yes" halign="left" bottom="major">
+          <cell><m>x</m></cell>
+          <cell><m>y = p(x)</m></cell>
+          <cell><m>(x, y)</m></cell>
+        </row>
+        <row>
+          <cell><m>3</m></cell>
+          <cell><m>2</m></cell>
+          <cell><m>(3, 2)</m></cell>
+        </row>
+        <row bottom="major">
+          <cell><m>5</m></cell>
+          <cell><m>13</m></cell>
+          <cell><m>(5, 13)</m></cell>
+        </row>
+      </tabular>
+    </table>
+
+    <p>We plot all these points in the following figure.</p>
+
+    <figure>
+      <caption>The additional points from the table are added to the graph.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-rational-roots-test-pm-one-d.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>
+      Because a degree-<m>4</m> polynomial can have at most <m>3</m> turning points and our sketch is consistent with this bound, 
+      the graph is complete. Connect the points smoothly to finish the graph of <m>p(x)</m>.
+    </p>
+
+    <figure>
+      <caption>The graph of <m>p(x)=x^4-11x^3+42x^2-64x+32</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-rational-roots-test-pm-one.png" decorative="yes" width="50%"/>
+    </figure>
+  </solution>
+</example>
+</section>

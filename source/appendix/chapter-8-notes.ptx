@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<section xml:id="chapter-8-lecture-notes" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Chapter 8 Lecture Notes</title>
-  <xi:include href="./basics-exponential-logarithmic.ptx"/>
-  <xi:include href="./properties-logarithms.ptx"/>
-  <xi:include href="./logarithmic-equations-applications.ptx"/>
-</section>

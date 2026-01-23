@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<section xml:id="chapter-5-lecture-notes" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Chapter 5 Lecture Notes</title>
-  <xi:include href="./polynomial-function-properties.ptx"/>
-  <xi:include href="./factor-theorem-notes.ptx"/>
-  <xi:include href="./fta.ptx"/>
-</section>

@@ -1,0 +1,139 @@
+<section xml:id="complex-zeroes">
+    <title>The Complex Zeroes of a Polynomial</title>
+    <theorem xml:id="thm-complex-zeroes-real-polynomials">
+        <title>Complex Zeroes of a Real Polynomial</title>
+        <statement>
+            <p>
+               Let <m>p(x)</m> be any polynomial with real coefficients. Then the complex zeroes of the polynomial come in complex conjugate pairs. 
+            </p>
+        </statement>
+    </theorem>
+    <example xml:id="ex-complex-zeroes-1">
+        <title></title>
+        <statement>
+            <p>
+                Find all the real and complex zeroes of the function <m>p(x)=x^3-4x^2+9x-36</m>.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <m>x=4</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>x=-3i</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>x=3i</m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                The Test for <m>\pm 1</m> fails; so, we need to use the Rational Roots Theorem. 
+                The list of possible rational roots are <m>\pm 1</m>, <m>\pm 2</m>, <m>\pm 3</m>, <m>\pm 4</m>, <m>\pm 6</m>, <m>\pm 9</m>, <m>\pm 12</m>, <m>\pm 18</m>, and <m>\pm 36</m>.
+                Using a table to evaluate these possible roots, we see that <m>x=4</m> is the only rational root that exists.
+            </p>
+            <figure xml:id="fig-complex-zero-rational-root-1">
+                <caption>The only rational root of <m>p(x)=x^3-4x^2+9x-36</m> is <m>x=4</m>.</caption>
+                <image source="../../../assets/college-algebra/chapter-5/complex-zeroes-rational-roots-1.png" decorative="yes" width="50%"/>
+            </figure>
+            <p>Now, we will use synthetic division to factor.</p>
+            <figure xml:id="fig-complex-zero-rational-root-synthetic-1">
+                <caption>Synthetic division shows that the quotient is <m>q(x)=x^2+9</m>.</caption>
+                <image source="../../../assets/college-algebra/chapter-5/complex-zeroes-rational-roots-synthetic-1.png" decorative="yes" width="50%"/>
+            </figure>
+            <p>Since <m>x^2+9</m> is a sum of squares, we can factor it over the complex numbers as <m>(x-3i)(x+3i)</m>. 
+                Therefore, our fully factored polynomial is <me>p(x)=(x-4)(x-3i)(x+3i)</me>
+                By the Factor Theorem, our zeroes are <m>x=4</m>, <m>x=-3i</m>, and <m>x=3i</m>.</p>
+        </solution>
+    </example>
+    
+    <example xml:id="ex-complex-zeroes-2">
+        <title></title>
+        <statement>
+            <p>
+                Find all the real and complex zeroes of the function <m>p(x)=x^4+3x^3+5x^2-3x-54</m>.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <m>x=-3</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>x=2</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>x=-1-2i\sqrt{2}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>x=-1+2i\sqrt{2}</m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </answer>
+        <solution>
+            <p>
+                The Test for <m>\pm 1</m> fails; so, we need to use the Rational Roots Theorem. 
+                The list of possible rational roots are <m>\pm 1</m>, <m>\pm 2</m>, <m>\pm 3</m>, <m>\pm 6</m>, <m>\pm 9</m>, <m>\pm 18</m>, <m>\pm 27</m>, and <m>\pm 54</m>.
+                Using a table to evaluate these possible roots, we see that <m>x=-3</m> and <m>x=2</m> are the only rational roots that exist.
+            </p>
+            <figure xml:id="fig-complex-zero-rational-root-table-2">
+                <caption>The only rational roots of <m>p(x)=x^4+3x^3+5x^2-3x-54</m> are <m>x=-3</m> and <m>x=2</m>.</caption>
+                <image source="../../../assets/college-algebra/chapter-5/complex-zeroes-rational-roots-table-2.png" decorative="yes" width="50%"/>
+            </figure>
+            <p>We can use either zero to factor; I will choose <m>x=-3</m>. Now, we will use synthetic division to factor.</p>
+            <figure xml:id="fig-complex-zero-rational-root-synthetic-2">
+                <caption>Synthetic division shows that the quotient is <m>q(x)=x^3+5x-18</m>.</caption>
+                <image source="../../../assets/college-algebra/chapter-5/complex-zeroes-rational-roots-synthetic-2.png" decorative="yes" width="50%"/>
+            </figure>
+            <p>If we try the Test for <m>\pm 1</m> on the quotient, we will see that it fails.
+               The list of possible rational roots are <m>\pm 1</m>, <m>\pm 2</m>, <m>\pm 3</m>, <m>\pm 6</m>, <m>\pm 9</m>, and <m>\pm 18</m>.
+                Using a table to evaluate these possible roots, we see that <m>x=2</m> is the only rational root that exists.
+            </p>
+            <figure xml:id="fig-complex-zero-rational-root-table-3">
+                <caption>The only rational root of <m>p(x)=x^3+5x-18</m> is <m>x=2</m>.</caption>
+                <image source="../../../assets/college-algebra/chapter-5/complex-zeroes-rational-roots-table-3.png" decorative="yes" width="50%"/>
+            </figure>
+            <p>Now, we will use synthetic division to factor.</p>
+            <figure xml:id="fig-complex-zero-rational-root-synthetic-3">
+                <caption>Synthetic division shows that the quotient is <m>q(x)=x^2+2x+9</m>.</caption>
+                <image source="../../../assets/college-algebra/chapter-5/complex-zeroes-rational-roots-synthetic-3.png" decorative="yes" width="50%"/>
+            </figure>
+        <p>  
+            Therefore, our factored polynomial is <me>p(x)=(x+3)(x-2)(x^2+2x+9)</me> By the Factor Theorem, we know that <m>x=-3</m> and <m>x=2</m> are zeroes of <m>p(x)</m>. 
+            The discriminant for the quadratic factor is negative; so, we will use the quadratic formula to find the two complex roots.
+            <md>
+                <mrow>x \amp=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\</mrow>
+                <mrow>x \amp=\frac{-2\pm\sqrt{2^2-4(1)(9)}}{2(1)}\\</mrow>
+                <mrow>x \amp=\frac{-2\pm\sqrt{4-36}}{2}\\</mrow>
+                <mrow>x \amp=\frac{-2\pm\sqrt{-32}}{2}\\</mrow>
+                <mrow>x \amp=\frac{-2\pm i\sqrt{32}}{2}\\</mrow>
+                <mrow>x \amp=\frac{-2\pm i\sqrt{16\cdot 2}}{2}\\</mrow>
+                <mrow>x \amp=\frac{-2\pm 4i\sqrt{2}}{2}\\</mrow>
+                <mrow>x \amp=\frac{-2}{2}\pm \frac{4i\sqrt{2}}{2}\\</mrow>
+                <mrow>x\amp=-1\pm2i\sqrt{2}\\</mrow>
+            </md>
+            Therefore, our zeroes are <m>x=-3</m>, <m>x=2</m>, <m>x=-1-2i\sqrt{2}</m>, and <m>x=-1+2i\sqrt{2}</m>.
+        </p>
+        </solution>
+    </example>            
+</section>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<section xml:id="chapter-4-lecture-notes" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Chapter 4 Lecture Notes</title>
-  <xi:include href="./quadratic-equations.ptx"/>
-  <xi:include href="./complex-numbers.ptx"/>
-  <xi:include href="./the-quadratic-formula.ptx"/>
-  <xi:include href="./quadratic-functions.ptx"/>
-</section>

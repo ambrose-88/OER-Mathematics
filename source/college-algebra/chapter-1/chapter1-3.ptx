@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="chapter1-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Distance Formula</title>
+  <introduction>
+    <p>
+    Now that we know how to plot points on the coordinate plane, it is natural to ask how far apart two points are.
+    There are various ways to measure the distance between two points, and in this course, we are talking about the shortest distance between two points. 
+    The shortest distance between two points is given by the Distance Formula. 
+    In this section, we will provide a proof of the Distance Formula and use the formula to solve various mathematical and applied problems.
+  </p>
+  </introduction>
+  <subsection xml:id="sub-distances-in-the-real-world">
+    <title>Distances in the Real World</title>
+    
+<p>
+    In the real world, people can't walk through objects; therefore, taking the shortest path between two points is often impossible.
+    Traveling in a town or city is an example of this. Many neighborhoods are laid out in a square grid, and people can only travel
+    along the roads which act as the sides of the squares. For example, in the following image, if a person wants to travel from point
+    <m>A</m> to point <m>B</m>, they can travel two blocks east and one block north. The total distance traveled is three city blocks.
+    This measure of distance is called the <term>Taxicab Metric</term> since it measures the distance a taxicab takes as it takes
+    a passenger from point <m>A</m> to point <m>B</m>.
+  </p>
+<figure xml:id="graph-taxicab-metric">
+    <caption>A grid of city blocks with a red line showing the path of a taxicab from point <m>A</m> to point <m>B</m>.</caption>
+    <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v1.png" width="50%">
+      <shortdescription>
+        The taxicab travels two blocks east, turns north, and travels an additional block.
+      </shortdescription>    
+    </image>
+</figure>
+<p>
+   There are a couple problems with the Taxicab Metric.
+   <ul>
+    <li>
+<p>
+    In mathematics, we often want important concepts to be unique.
+    In the Taxicab Metric, the shortest distance is not unique—there are three ways to travel from <m>A</m> to <m>B</m> in 3 city blocks.
+  </p>
+</li>
+    <li>
+  <p>
+    The three ways to get from <m>A</m> to <m>B</m> in 3 city blocks.
+  </p>
+    </li>
+</ul>
+</p>
+<figure xml:id="graph-taxicab-metric-multiple-paths">
+    <caption>The three minimum-length paths the taxicab can take.</caption>
+    <sidebyside>
+        <figure xml:id="graph-taxicab-metric-path1">
+            <caption>The taxicab travels two blocks east, then turns north.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v1.png" width="40%" decorative="yes">   
+            </image>
+        </figure>
+        <figure xml:id="graph-taxicab-metric-path2">
+            <caption>The taxicab travels one block east, turns north, and travels an additional block east.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v2.png" width="40%" decorative="yes"> 
+            </image>
+        </figure>
+        <figure xml:id="graph-taxicab-metric-path3">
+            <caption>The taxicab travels one block north, and then travels two blocks east.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v3.png" width="40%" decorative="yes"> 
+            </image>
+        </figure>
+    </sidebyside>
+</figure>
+
+<figure xml:id="graph-distance-formula-line-segment">
+    <caption>
+      The shortest distance between points <m>A</m> and <m>B</m> is the length of the line segment joining them.
+    </caption>
+    <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v4.png" width="50%">
+        <shortdescription>
+            A red, dashed line segment connects points A and B.
+        </shortdescription>
+    </image>
+  </figure>
+
+<p>
+    However, the idea of traveling via city blocks does give us enough information to find the shortest distance between <m>A</m> and <m>B</m>.
+    If we call the intersection where the taxi turns left point <m>C</m>, then the points <m>A</m>, <m>B</m>, and <m>C</m> form the right triangle <m>\triangle ABC</m>.
+    This means that side <m>b</m> has length 2 and side <m>a</m> has length 1.
+  </p>
+
+  <figure>
+    <caption>When we combine <xref ref="graph-taxicab-metric"/> with <xref ref="graph-distance-formula-line-segment"/>, we get a right triangle.</caption>
+    <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v5.png" width="50%">
+    <shortdescription>Right triangle formed by points A, B, and C on a city grid.</shortdescription>
+    </image>
+  </figure>
+
+ <p>
+    Since we have a right triangle, we can use the Pythagorean Theorem to solve for side <m>c</m> — the shortest distance from <m>A</m> to <m>B</m>:
+    <md>
+      <mrow>a^2 + b^2 \amp = c^2</mrow>
+      <mrow>1^2 + 2^2 \amp = c^2</mrow>
+      <mrow>1 + 4 \amp = c^2</mrow>
+      <mrow>5 \amp = c^2</mrow>
+      <mrow>\sqrt{5} \amp = c</mrow>
+      <mrow>2.236 \amp \approx c</mrow>
+    </md>
+    Therefore, the shortest distance from <m>A</m> to <m>B</m> is approximately 2.236 city blocks.
+  </p>
+
+  </subsection>
+  <subsection xml:id="sub-distance-formula">
+    <title>Proof of the Distance Formula</title>
+    <theorem xml:id="thm-distance-formula">
+      <title>The Distance Formula</title>
+      <statement>
+
+  <p>
+    Let <m>A = (x_1, y_1)</m> and <m>B = (x_2, y_2)</m> be any two points on the coordinate plane.
+    The distance <m>d</m> between <m>A</m> and <m>B</m> is given by the formula
+    <me>d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}</me>
+  </p>
+
+  <figure>
+    <caption>
+      Points <m>A</m> and <m>B</m> with a dashed line segment connecting them. The dashed line segment is labeled with the Distance Formula.
+    </caption>
+    <image source="../../../assets/college-algebra/chapter-1-3/distance_formula.png" width="50%">
+    <shortdescription>
+      Diagram showing a dashed line joining points A and B. The line is labeled with the Distance Formula.
+    </shortdescription>
+  </image>
+  </figure>
+      </statement>
+      <proof>
+  <p>
+    It turns out that the Pythagorean Theorem is the key to finding a general formula for the Distance Formula.
+    We are still traveling from point <m>A = (x_1, y_1)</m> to point <m>B = (x_2, y_2)</m>.
+    If we draw a horizontal line through <m>A</m> and a vertical line through point <m>B</m>,
+    the intersection of the horizontal line and vertical line is the point <m>C = (x_2, y_1)</m>.
+    The points <m>A</m>, <m>B</m>, and <m>C</m> also form the right triangle <m>\triangle ABC</m>.
+  </p>
+
+  <figure xml:id="graph-distance-formula-right-triangle"> <caption><m>\triangle ABC</m> formed by connecting the points <m>A</m>, <m>B</m>, and <m>C</m>.</caption>
+    <image source="../../../assets/college-algebra/chapter-1-3/right_triangle.png" width="50%">
+    <shortdescription>Right triangle formed by connecting points A, B, and C.</shortdescription>
+    </image>
+  </figure>
+
+  <p>
+    To use the Pythagorean Theorem, we need to measure sides <m>a</m> and <m>b</m> of <m>\triangle ABC</m>.
+    Fortunately, distances on vertical and horizontal lines are equivalent to finding distances on a number line.
+    Since the points <m>A</m> and <m>C</m> are on the same horizontal line, to find the length of side <m>b</m>,
+    we find the difference of their first coordinates: <m>b = |x_2 - x_1|</m>.
+    Since the points <m>B</m> and <m>C</m> are on the same vertical line, to find the length of side <m>a</m>,
+    we find the difference of their second coordinates: <m>a = |y_2 - y_1|</m>.
+  </p>
+
+  <figure><caption> <xref ref="graph-distance-formula-right-triangle"/> with the formulas <m>a = |y_2 - y_1|</m> and <m>b = |x_2 - x_1|</m> labeling the short and long legs, respectively.</caption>
+    <image source="../../../assets/college-algebra/chapter-1-3/right_triangle_V2.png" width="50%">
+    <shortdescription>Right triangle with legs labeled using coordinate differences.</shortdescription>
+    </image>
+  </figure>
+
+  <p>
+    Now, we have all the information required to compute the distance from <m>A</m> to <m>B</m>.
+    The following calculation shows us how to compute the distance for any two points:
+  </p>
+
+  <p>
+    <md>
+      <mrow>c^2 \amp = a^2 + b^2</mrow>
+      <mrow>c^2 \amp = |x_2 - x_1|^2 + |y_2 - y_1|^2</mrow>
+      <mrow>c^2 \amp = (x_2 - x_1)^2 + (y_2 - y_1)^2</mrow>
+      <mrow>c \amp = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}</mrow>
+    </md>
+  </p>
+
+  <p>
+    Instead of drawing a picture and using the Pythagorean Theorem every time we have to compute a distance,
+    we can use the final line of the previous calculation to compute the distance directly.
+    Since we are calculating a distance, we will use the letter <m>d</m> instead of <m>c</m> in the formula.
+  </p>
+      </proof>
+    </theorem>
+    <note>
+    <p>
+      In a problem, it doesn't matter which point you call <m>A</m> and which you call <m>B</m> since
+      <m>(x_1 - x_2)^2 = (x_2 - x_1)^2</m> and <m>(y_1 - y_2)^2 = (y_2 - y_1)^2</m>.
+    </p>
+  </note>
+    
+  </subsection>
+  </section>

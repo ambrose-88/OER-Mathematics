@@ -1,0 +1,271 @@
+<section xml:id="text-for-pm-one">
+    <title>The Test for <m>\pm 1</m></title>
+    <theorem xml:id="test-for-pm1">
+  <title>Test for <m>\pm1</m></title>
+
+  <statement>
+    <p>Let <m>p(x)</m> be any polynomial function.</p>
+    <p>
+      <ul>
+        <li><p>If the coefficients of <m>p(x)</m> sum to <m>0</m>, then <m>x = 1</m> is a zero of <m>p(x)</m>.</p></li>
+        <li><p>If the coefficients of <m>p(-x)</m> sum to <m>0</m>, then <m>x = -1</m> is a zero of <m>p(x)</m>.</p></li>
+      </ul>
+    </p>
+  </statement>
+</theorem>
+<example xml:id="show-that-x-equals-1-zero-polynomial">
+  <title>Show that <m>x = 1</m> is a zero of a polynomial</title>
+
+  <statement>
+    <p>Show that <m>x = 1</m> is a zero of the polynomial <m>p(x) = x^3 - 4x^2 - 7x + 10</m>. Then find the remaining zeros.</p>
+  </statement>
+
+  <answer>
+    <p>
+      <ul>
+        <li><p><m>x = -2</m></p></li>
+        <li><p><m>x = 1</m></p></li>
+        <li><p><m>x = 5</m></p></li>
+      </ul>
+    </p>
+  </answer>
+
+  <solution>
+    <p>To determine whether <m>x = 1</m> is a zero of <m>p(x)</m>, we add the coefficients together:</p>
+    <p><me>1 - 4 - 7 + 10 = 0</me></p>
+    <p>Since the sum is zero, <m>x = 1</m> is a zero of <m>p(x)</m>. We then use synthetic division to factor the polynomial. The synthetic division yields the following result:</p>
+
+    <figure>
+      <caption>Synthetic division shows that the quotient is <m>x^2 - 3x - 10</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/test-pos-one-example.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Therefore, we can factor the polynomial as follows:</p>
+    <p>
+      <md>
+        <mrow>p(x)\amp= x^3 - 4x^2 - 7x + 10 \\</mrow>
+        <mrow>p(x)\amp= (x^2 - 3x - 10)(x - 1) \\</mrow>
+        <mrow>p(x)\amp= (x - 5)(x + 2)(x - 1)</mrow>
+      </md>
+    </p>
+
+    <p>By the Factor Theorem, the solutions are <m>x = -2</m>, <m>x = 1</m>, and <m>x = 5</m>.</p>
+  </solution>
+</example>
+<example xml:id="show-that-x-equals-neg1-zero-polynomial">
+  <title>Show that <m>x = -1</m> is a zero of a polynomial</title>
+
+  <statement>
+    <p>Show that <m>x = -1</m> is a zero of the polynomial <m>p(x) = x^3 + 2x^2 - 11x - 12</m>. Then find the remaining zeros.</p>
+  </statement>
+
+  <answer>
+    <p>
+      <ul>
+        <li><p><m>x = -1</m></p></li>
+        <li><p><m>x = 3</m></p></li>
+        <li><p><m>x = 4</m></p></li>
+      </ul>
+    </p>
+  </answer>
+
+  <solution>
+    <p>We begin by finding <m>p(-x)</m>:</p>
+    <p><me>p(-x) = (-x)^3 + 2(-x)^2 - 11(-x) - 12 = -x^3 + 2x^2 + 11x - 12</me></p>
+
+    <p>Now, add the coefficients of <m>p(-x)</m>:</p>
+    <p><me>-1 + 2 + 11 - 12 = 0</me></p>
+    <p>Since the sum is zero, by the Test for <m>\pm 1</m>, <m>x = -1</m> is a zero of <m>p(x)</m>.</p>
+
+    <p>We now use synthetic division to factor the polynomial. The synthetic division yields the following result:</p>
+
+    <figure>
+      <caption>Synthetic division shows that the quotient is <m>x^2 + x - 12</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/test-neg-one-example.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Therefore, we can factor the polynomial as follows:</p>
+    <p>
+      <md>
+        <mrow>p(x)\amp= x^3 + 2x^2 - 11x - 12 \\</mrow>
+        <mrow>p(x)\amp= (x^2 + x - 12)(x + 1) \\</mrow>
+        <mrow>p(x)\amp= (x - 3)(x - 4)(x + 1)</mrow>
+      </md>
+    </p>
+
+    <p>By the Factor Theorem, the solutions are <m>x = -1</m>, <m>x = 3</m>, and <m>x = 4</m>.</p>
+  </solution>
+</example>
+<example xml:id="test-pos-and-neg-one">
+  <title>An example using the test multiple times</title>
+
+  <statement>
+    <p>Find the zeroes of the polynomial <m>p(x) = x^4 - 3x^3 - 11x^2 + 3x + 10</m>.</p>
+  </statement>
+    <answer>
+    <p>
+      <ul>
+        <li><p><m>x = -2</m></p></li>
+        <li><p><m>x = -1</m></p></li>
+        <li><p><m>x = 1</m></p></li>
+        <li><p><m>x = 5</m></p></li>
+      </ul>
+    </p>
+  </answer>
+  <solution>
+      <p>To determine whether <m>x = 1</m> is a zero of <m>p(x)</m>, we add the coefficients together:</p>
+    <p><me>1-3-11+3+10 = 0</me></p>
+    <p>Since the sum is zero, <m>x = 1</m> is a zero of <m>p(x)</m>. We then use synthetic division to factor the polynomial. The synthetic division yields the following result:</p>
+
+    <figure>
+      <caption>Synthetic division shows that the quotient is <m>x^3-2x^2-13x-10</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/test-pos-one-example-2.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Therefore, we can factor the polynomial as follows:</p>
+    <p>
+      <md>
+        <mrow>p(x)\amp= x^4 - 3x^3 - 11x^2 + 3x + 10 \\</mrow>
+        <mrow>p(x)\amp=(x^3-2x^2-13x-10)(x-1)\\</mrow>
+      </md>
+    </p>
+    <p>Next, we compute <m>q(-x)</m>:</p>
+    <p><me>q(-x) = (-x)^3-2(-x)^2-13(-x)-10 = -x^3-2x^2+13-10</me></p>
+
+    <p>Now, add the coefficients of <m>q(-x)</m>:</p>
+    <p><me>-1 -2+13-10 = 0</me></p>
+    <p>Since the sum is zero, by the Test for <m>\pm 1</m>, <m>x = -1</m> is a zero of <m>q(x)</m>.</p>
+
+    <p>We now use synthetic division to factor the polynomial. The synthetic division yields the following result:</p>
+
+    <figure>
+      <caption>Synthetic division shows that the new quotient is <m>x^2 + x - 12</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/test-neg-one-example-2.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Therefore, we can factor the polynomial as follows:</p>
+    <p>
+      <md>
+        <mrow>p(x)\amp= x^4 - 3x^3 - 11x^2 + 3x + 10 \\</mrow>
+        <mrow>p(x)\amp= (x^3 - 2x^2 - 13x - 10)(x - 1) \\</mrow>
+        <mrow>p(x)\amp= (x^2 - 3x - 10)(x + 1)(x - 1) \\</mrow>
+        <mrow>p(x)\amp= (x - 5)(x + 2)(x + 1)(x 1 1)</mrow>
+      </md>
+    </p>
+      </solution>
+</example>
+<example xml:id="graphing-test-for-pm-one">
+  <title>Graphing a Degree 4 Polynomial</title>
+
+  <statement>
+    <p>Graph the function <m>p(x) = x^3+4x^2-x-4</m>.</p>
+  </statement>
+
+  <answer>
+    <figure>
+      <caption>The graph of <m>p(x)=x^3+4x^2-x-4</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one.png" decorative="yes" width="50%"/>
+    </figure>
+  </answer>
+
+  <solution>
+    <p>
+      The first step is to determine the end behavior of <m>p(x)</m>. 
+      Since the leading term <m>x^3</m> has a positive coefficient and odd degree, both ends of the graph look similar to <m>y=x^3</m>. 
+      Therefore, the graph travels up and to the right as <m>x</m> approaches <m>+\infty</m>.
+      Similarly, the graph travels down and to the left as <m>x</m> approaches <m>-\infty</m>.
+    </p>
+
+    <figure>
+      <caption>The end behavior is drawn with an arrow going up and right and an arrow going down and left.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one-a.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>
+      Next, since the constant term is <m>a_0 = -4</m>, the <m>y</m>-intercept is <m>(0,-4)</m>.
+    </p>
+
+    <figure>
+      <caption>The point <m>(0,-4)</m> has been added to the plot.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one-b.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Now, we have to find the zeroes of the polynomial. You should always try the Test for <m>\pm 1</m> first. Adding the coefficients of <m>p(x)</m>, we get the following calculation.
+    <me>1+4-1-4=0</me>
+    Since the coefficients sum to 0, then <m>x=1</m> is a zero of <m>p(x)</m>. We use synthetic division to factor the polynomial.
+    </p>
+    <figure xml:id="graph-test-pm-one-synthetic-division">
+        <caption>Synthetic division gives us the quotient <m>x^2+5x+4</m>.</caption>
+        <image source="graph-test-pm-one-synthetic-division.png" decorative="yes" width="50%"/>
+    </figure>
+    <p>
+        Now, we can fully factor the polynomial.
+      <md>
+        <mrow>p(x) \amp= x^3+4x^2-x-4 \\</mrow>
+        <mrow>p(x)\amp=(x^2+5x+4)(x-1)\\</mrow>
+        <mrow>p(x)\amp=(x+4)(x+1)(x-1)</mrow>
+      </md>
+    </p>
+
+    <p>
+      Therefore, the <m>x</m>-intercepts are <m>(-4,0)</m>, <m>(-1,0)</m>, and <m>(1,0)</m>. 
+      Each zero has multiplicity <m>1</m>, so the graph crosses the <m>x</m>-axis like <m>y=x</m> at each intercept.
+    </p>
+
+    <figure>
+      <caption>The <m>x</m>-intercepts <m>(-2,0)</m>, <m>(-1,0)</m>, <m>(1,0)</m>, and <m>(2,0)</m> are added to the graph.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one-c.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Finally, let us compute values at <m>x=-5</m>, <m>x=-3</m>, <m>x=-2</m>, and <m>x=2</m>:</p>
+
+    <table xml:id="selected-points-pm-1-graph">
+      <title>Selected Points for <m>p(x)=x^3+4x^2-x-4</m></title>
+      <tabular>
+        <row header="yes" halign="left" bottom="major">
+          <cell><m>x</m></cell>
+          <cell><m>y = p(x)</m></cell>
+          <cell><m>(x, y)</m></cell>
+        </row>
+        <row>
+          <cell><m>-5</m></cell>
+          <cell><m>-24</m></cell>
+          <cell><m>(-5, -24)</m></cell>
+        </row>
+        <row>
+          <cell><m>-3</m></cell>
+          <cell><m>8</m></cell>
+          <cell><m>(-3, 8)</m></cell>
+        </row>
+        <row>
+          <cell><m>-2</m></cell>
+          <cell><m>6</m></cell>
+          <cell><m>(-2, 6)</m></cell>
+        </row>
+        <row bottom="major">
+          <cell><m>2</m></cell>
+          <cell><m>18</m></cell>
+          <cell><m>(2, 18)</m></cell>
+        </row>
+      </tabular>
+    </table>
+
+    <p>We plot all these points in the following figure.</p>
+
+    <figure>
+      <caption>The additional points from the table are added to the graph.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one-d.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>
+      Because a degree-<m>3</m> polynomial can have at most <m>2</m> turning points and our sketch is consistent with this bound, 
+      the graph is complete. Connect the points smoothly to finish the graph of <m>p(x)</m>.
+    </p>
+
+    <figure>
+      <caption>The graph of <m>p(x)=x^3+4x^2-x-4</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one.png" decorative="yes" width="50%"/>
+    </figure>
+  </solution>
+</example>
+</section>

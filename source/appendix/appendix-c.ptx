@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="appendix-c" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Appendix C: College Algebra Lecture Notes</title>
+  <introduction>
+    <p>
+      This appendix contains lecture notes for the College Algebra section.
+    </p>
+  </introduction>
+  <!-- Chapter 4 -->
+  <xi:include href="./college-algebra/quadratic-equations.ptx"/>
+  <xi:include href="./college-algebra/complex-numbers.ptx"/>
+  <xi:include href="./college-algebra/the-quadratic-formula.ptx"/>
+  <xi:include href="./college-algebra/quadratic-functions.ptx"/>
+  <!-- Chapter 5 -->
+  <xi:include href="./college-algebra/polynomial-function-properties.ptx"/>
+  <xi:include href="./college-algebra/factor-theorem-notes.ptx"/>
+  <xi:include href="./college-algebra/fta.ptx"/>
+  <!-- Chapter 6 -->
+  <xi:include href="./college-algebra/rational-functions.ptx"/>
+  <!-- Chapter 7 -->
+  <xi:include href="./college-algebra/inverse-functions.ptx"/>
+  <!-- Chapter 8 -->
+  <xi:include href="./college-algebra/basics-exponential-logarithmic.ptx"/>
+  <xi:include href="./college-algebra/properties-logarithms.ptx"/>
+  <xi:include href="./college-algebra/logarithmic-equations-applications.ptx"/>
+</appendix>

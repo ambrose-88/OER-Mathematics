@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="worksheet-quadratic-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Quadratic Functions</title>
+<figure>
+    <caption>The two possible graphs of a quadratic function</caption>
+    <sidebyside>
+        <figure>
+            <caption>The parabola opens upwards when a &gt; 0</caption>
+            <image source="../../assets/college-algebra/chapter-4-13/upwards-parabola.png">
+                <shortdescription>The graph of f(x) = x^2 + 4x + 5</shortdescription>
+            </image>
+        </figure>
+        <figure>
+            <caption>The parabola opens downwards when a &lt; 0</caption>
+            <image source="../../assets/college-algebra/chapter-4-13/downwards-parabola.png">
+                <shortdescription>The graph of f(x) = -x^2 + 2x + 1</shortdescription>
+            </image>
+        </figure>
+    </sidebyside>
+</figure>
+
+<table xml:id="lecture-notes-quadratic-functions-summary">
+    <title>Properties of Quadratic Functions</title>
+    <tabular row-headers="yes" halign="center">
+        <row header="yes" bottom="major">
+            <cell>Direction</cell>
+            <cell>Upwards</cell>
+            <cell>Downwards</cell>
+        </row>
+        <row>
+            <cell>Value of Leading Coefficient</cell>
+            <cell><m>a &gt; 0</m></cell>
+            <cell><m>a &lt; 0</m></cell>
+        </row>
+        <row>
+            <cell>Standard Form</cell>
+            <cell><m>f(x) = ax^2 + bx + c</m></cell>
+            <cell><m>f(x) = ax^2 + bx + c</m></cell>
+        </row>
+        <row>
+            <cell>Vertex Form</cell>
+            <cell><m>f(x) = a(x - h)^2 + k</m></cell>
+            <cell><m>f(x) = a(x - h)^2 + k</m></cell>
+        </row>
+        <row>
+            <cell>Vertex</cell>
+            <cell><m>(h, k)</m></cell>
+            <cell><m>(h, k)</m></cell>
+        </row>
+        <row>
+            <cell>Axis of Symmetry</cell>
+            <cell><m>x = h</m></cell>
+            <cell><m>x = h</m></cell>
+        </row>
+        <row>
+            <cell>Domain</cell>
+            <cell><m>(-\infty, \infty)</m></cell>
+            <cell><m>(-\infty, \infty)</m></cell>
+        </row>
+        <row>
+            <cell>Range</cell>
+            <cell><m>[k, \infty)</m></cell>
+            <cell><m>(-\infty, k]</m></cell>
+        </row>
+        <row>
+            <cell><m>x</m>-intercept(s)<fn>Only exist when <m>D=b^2-4ac\geq 0</m>. Otherwise, DNE.</fn></cell>
+            <cell><m>\left(\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}, 0\right)</m></cell>
+            <cell><m>\left(\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}, 0\right)</m></cell>
+        </row>
+        <row>
+            <cell><m>y</m>-intercept</cell>
+            <cell><m>(0, c)</m></cell>
+            <cell><m>(0, c)</m></cell>
+        </row>
+        <row>
+            <cell>Increasing</cell>
+            <cell><m>(h, \infty)</m></cell>
+            <cell><m>(-\infty, h)</m></cell>
+        </row>
+        <row>
+            <cell>Decreasing</cell>
+            <cell><m>(-\infty, h)</m></cell>
+            <cell><m>(h, \infty)</m></cell>
+        </row>
+        <row>
+            <cell>Constant</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+        </row>
+        <row>
+            <cell>Local Extrema</cell>
+            <cell><m>(h, k)</m></cell>
+            <cell><m>(h, k)</m></cell>
+        </row>
+        <row>
+            <cell>Absolute Extrema</cell>
+            <cell><m>(h, k)</m></cell>
+            <cell><m>(h, k)</m></cell>
+        </row>
+    </tabular>
+</table>
+
+<definition xml:id="lecture-notes-standard-form-of-a-quadratic">
+  <title>The Standard Form of a Quadratic</title>
+  <statement>
+    <p>The <term>standard form</term> of a quadratic function is <me>f(x) = ax^2 + bx + c.</me></p>
+  </statement>
+</definition>
+
+<theorem xml:id="lecture-notes-vertex-form-and-related-information">
+  <title>The Vertex Form and Related Information</title>
+  <statement>
+    <p>Let <m>f(x) = ax^2 + bx + c</m> be a quadratic function in standard form. The <term>vertex form</term> of a quadratic function is given by <me>f(x) = a(x - h)^2 + k,</me> where <m>h</m> and <m>k</m> are the coordinates for the vertex of the function.</p>
+
+    <p>There are two important definitions related to the vertex form.</p>
+
+    <p>
+      <ul>
+        <li><p>The <term>vertex</term> of the parabola is the absolute minimum (when <m>a &gt; 0</m>) or the absolute maximum (when <m>a &lt; 0</m>) of the function. Note that the vertex is both a local and absolute extremum.</p></li>
+        <li><p>The <term>axis of symmetry</term> of a parabola is the vertical line that divides the parabola into two mirror images. Every point on one side of this line has a corresponding point on the other side that is the same distance from the line.</p></li>
+      </ul>
+    </p>
+
+    <figure xml:id="lecture-notes-parabola-axis-of-symmetry">
+      <caption>The graph of a generic parabola with the vertex and axis of symmetry labeled. Two mirrored points are labeled, and the distances from the points to the axis of symmetry are shown as equal.</caption>
+
+      <sidebyside>
+        <figure>
+          <title>An upwards-facing parabola.</title>
+          <image source="../../assets/college-algebra/chapter-4-14/labeled-upwards-parabola.png" width="40%">
+            <shortdescription>A labeled, upwards-facing parabola with vertex and axis of symmetry.</shortdescription>
+          </image>
+        </figure>
+
+        <figure>
+          <title>A downwards-facing parabola.</title>
+          <image source="../../assets/college-algebra/chapter-4-14/labeled-downwards-parabola.png" width="40%">
+            <shortdescription>A labeled, downwards-facing parabola with vertex and axis of symmetry.</shortdescription>
+          </image>
+        </figure>
+      </sidebyside>
+    </figure>
+  </statement>
+</theorem>
+<exercise xml:id="lecture-notes-completing-the-square-to-vertex-form" workspace="2in">
+  <title>Using Completing the Square to Convert from Standard to Vertex Form</title>
+  <statement>
+    <p>Convert <m>f(x) = 3x^2 - 12x + 13</m> to vertex form.</p>
+  </statement>
+</exercise>
+
+<theorem xml:id="lecture-notes-formula-for-the-vertex-of-a-parabola">
+  <title>Formula for the Vertex of a Parabola</title>
+  <statement>
+    <p>Let <m>f(x)=ax^2+bx+c</m> be a quadratic function. Then the formula for the vertex is</p>
+    <p><me>(h,k)=\left(-\frac{b}{2a},f\left(-\frac{b}{2a}\right)\right)</me></p>
+    <p>We can also rewrite this as the pair of equations</p>
+    <p>
+      <md>
+        <mrow>h\amp=-\frac{b}{2a} \amp k\amp=f\left(\frac{-b}{2a}\right)</mrow>
+      </md>
+    </p>
+  </statement>
+</theorem>
+
+<exercise xml:id="lecture-notes-using-formula-for-h-and-k" workspace="3in">
+  <title>Using the Formula for <m>h</m> and <m>k</m> to find the Vertex Form of a Quadratic Function</title>
+  <statement>
+    <p>Write <m>f(x)=2x^2-4x-6</m> in vertex form.</p>
+  </statement>
+</exercise>
+
+<lemma xml:id="lecture-notes-graphing-quadratic-functions">
+  <title>Graphing Quadratic Functions</title>
+  <statement>
+    <p>Let <m>f(x) = a(x - h)^2 + k</m> be a quadratic function in vertex form. Perform the following steps to plot its graph.</p>
+
+    <p>
+      <ol>
+        <li><p>Plot the vertex <m>(h, k)</m>.</p></li>
+        <li><p>To find another point, add <m>1</m> to <m>h</m> and add <m>a \cdot 1^2</m> to <m>k</m>. Then plot the point.</p></li>
+        <li><p>To find an additional point, add <m>2</m> to <m>h</m> and add <m>a \cdot 2^2</m> to <m>k</m>. Then plot the point.</p></li>
+        <li><p>Use the axis of symmetry to find and plot the last two points.</p></li>
+        <li><p>Draw a parabola through all five points.</p></li>
+      </ol>
+    </p>
+  </statement>
+</lemma>
+
+<exercise xml:id="lecture-notes-how-to-graph-a-quadratic-function-a-greater-0" workspace="4in">
+  <title>How to Graph a Quadratic Function, <m>a &gt; 0</m></title>
+  <statement>
+    <p>Graph the function <m>f(x) = 2x^2 - 4x + 5</m>.</p>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-how-to-graph-a-quadratic-function-a-less-0" workspace="3in">
+  <title>How to Graph a Quadratic Function, <m>a &lt; 0</m></title>
+  <statement>
+    <p>Graph the function <m>f(x) = -3x^2 - 12x - 8</m>.</p>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-graphing-using-intercepts" workspace="3in">
+  <title>How to Graph a Quadratic Function Using Intercepts</title>
+  <statement>
+    <p>Graph the function <m>f(x) = -2x^2 - 8x - 6.</m></p>
+  </statement>
+</exercise>
+
+<introduction>
+  <p>
+    <term>Optimization</term> is an area of mathematics specializing in finding the absolute extrema of an equation to solve a real-world problem. Quadratic functions give a solid introduction to the topic with many mathematical and real-world applications.
+  </p>
+</introduction>
+
+<exercise xml:id="lecture-notes-minimizing-distance-to-parabola" workspace="4in">
+  <title>Minimizing the Distance from a Point to a Parabola</title>
+  <statement>
+    <p>
+      Find the minimum distance between the parabola <m>y = x^2</m> and the point <m>(0, 3)</m>.
+    </p>
+        <figure>
+          <caption>The point <m>(0,3)</m> with two dashed lined connecting to the parabola <m>y=x^2</m>. Both of the points on the parabola are the closest to <m>(0,3)</m>.</caption>
+          <image source="../../assets/college-algebra/chapter-4-15/example-closest-points.png" width="50%" decorative="yes"/>
+        </figure>
+  </statement>
+</exercise>
+
+<theorem xml:id="lecture-notes-height-of-projectiles">
+  <title>Height of Projectiles</title>
+  <statement>
+    <p>
+      The height of a projectile (in feet, ignoring air resistance) is given by the equation
+      <me>h(t) = -16t^2 + v_0t + h_0,</me>
+      where <m>v_0</m> is the initial velocity (in feet per second) and <m>h_0</m> is the initial height (in feet).
+    </p>
+  </statement>
+</theorem>
+
+<exercise xml:id="lecture-notes-maximum-height-of-projectile" workspace="4in">
+  <title>Finding the Maximum Height of a Projectile</title>
+  <statement>
+    <p>
+      A soccer ball is kicked upward with an initial velocity of <m>40</m> ft/s from a height of <m>3</m> feet.  
+      Its height after <m>t</m> seconds is given by <m>h(t) = -16t^2 + 40t + 3.</m>  
+      Find the time when the ball reaches its maximum height and determine that height.
+    </p>
+        <figure>
+          <caption>The trajectory of the soccer ball showing the maximum height point.</caption>
+          <image source="../../assets/college-algebra/chapter-4-15/example-projectile-path-parabola.png" width="40%">
+            <shortdescription>Parabolic path of a soccer ball reaching a peak before descending.</shortdescription>
+          </image>
+        </figure>
+  </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-maximizing-profit-in-game-design" workspace="4in">
+  <title>Maximizing Revenue in Game Design</title>
+  <statement>
+    <p>
+      A mobile game sells for <m>\$1.00</m> and attracts <m>50{,}000</m> downloads.  
+      For every <m>\$0.10</m> increase in price, downloads decrease by <m>2{,}000</m>.  
+      Find the maximum revenue, the price that maximizes revenue, and the number of downloads at that price.
+    </p>
+  </statement>
+</exercise>
+
+</worksheet>

@@ -1,0 +1,76 @@
+<section xml:id="one-to-one-functions">
+    <title>One-to-One Functions</title>
+    <definition xml:id="def-one-to-one">
+    <title>Definition</title>
+    <statement>
+    <p>A function <m>f(x)</m> is <em>one-to-one</em> whenever <m>x_1\ne x_2</m> implies <m>f(x_1)\ne f(x_2)</m>.</p>
+    <figure xml:id="def-fig-one-to-one">
+      <caption>Examples of One-to-One and Not One-to-One Functions</caption>
+      <sidebyside>
+        <figure xml:id="fig-one-to-one">
+          <caption>The graph is one to one since the<m>y</m>-coordinate of every point on the graph is unique.</caption>
+          <image source="../../../assets/college-algebra/chapter-7/fig-one-to-one.png" width="50%">
+            <shortdescription>The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) lie on different horizontal lines.</shortdescription>
+          </image>
+        </figure>
+        <figure xml:id="fig-not-one-to-one">
+          <caption>The graph is not one to one since three different <m>x</m>-coordinates all have the same <m>y</m>-coordinate.</caption>
+          <image source="../../../assets/college-algebra/chapter-7/fig-not-one-to-one.png" width="50%">
+            <shortdescription>The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) all have the same y-coordinate since they lie on the same horizontal line.</shortdescription>
+          </image>
+        </figure>
+      </sidebyside>
+    </figure>
+  </statement>
+  </definition>
+
+  <note xml:id="note-informal-1-1">
+    <title>Note</title>
+    <p>An informal description: a function is one-to-one if different inputs give different outputs.</p>
+  </note>
+
+  <theorem xml:id="thm-horizontal-line-test">
+    <title>The Horizontal Line Test</title>
+    <p>A function is one-to-one if and only if no horizontal line intersects its graph more than once.</p>
+  </theorem>
+
+  <example xml:id="example-1-1to1-from-graph-a">
+    <title>Horizontal Line Test</title>
+    <statement>
+      <p>Determine if the graph is of a one-to-one function.</p>
+      <figure xml:id="fig-example1-graph">
+        <caption>The graph of a function that is in the shape of a checkmark.</caption>
+        <image source="../../../assets/college-algebra/chapter-7/one-to-one-example-1.png" width="50%" decorative="yes"/>
+      </figure>
+    </statement>
+    <solution>
+        <p>Since we can find a horizontal line that intersects the graph twice, the function is not one-to-one.</p>
+        <figure xml:id="fig-example-1-graph-with-line">
+          <caption>The horizontal line intersects the graph twice which indicates that two points on the graph have the same <m>y</m>-coordinate.</caption>
+        <image source="../../../assets/college-algebra/chapter-7/one-to-one-example-1-a.png" width="50%" decorative="yes"/>
+        </figure>
+    </solution>
+  </example>
+
+  <example xml:id="example-2-1to1-from-graph-b">
+    <title>Horizontal Line Test</title>
+    <statement>
+      <p>Determine if the graph is of a one-to-one function.</p>
+      <figure xml:id="fig-example2-graph">
+        <caption>Graph for Example 2.</caption>
+        <image source="../../../assets/college-algebra/chapter-7/one-to-one-example-2.png" width="50%" decorative="yes"/>
+      </figure>
+    </statement>
+    <solution>
+      <p>
+        Every horizontal line except <m>x=2</m> intersects the graph only once. 
+        Since the line <m>y=2</m> is a horizontal asymptote, it does not intersect the graph at all. 
+        Therefore, the function is one-to-one.
+      </p>
+      <figure xml:id="fig-example-2-graph-with-line">
+        <caption>The graph of horizontal lines <m>y=4</m> and <m>y=-2</m> intersects the graph once, and the graph of <m>x=2</m> does not intersect the graph at any point.</caption>
+        <image source="../../../assets/college-algebra/chapter-7/one-to-one-example-2-a.png" width="50%" decorative="yes"/>
+      </figure>
+    </solution>
+  </example>
+</section>

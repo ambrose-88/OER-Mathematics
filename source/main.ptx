@@ -5,23 +5,70 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="my-great-book">
-    <title>Interactive College Algebra</title>
+    <title>OER Mathematics</title>
     <subtitle></subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include chapters -->
-    <xi:include href="./chapter-1/chapter1.ptx" />
-    <xi:include href="./chapter-2/chapter2.ptx" />
-    <xi:include href="./chapter-3/chapter3.ptx" />
-    <xi:include href="./chapter-4/chapter4.ptx" />
-    <xi:include href="./chapter-5/chapter5.ptx" />
-    <xi:include href="./chapter-6/chapter6.ptx" />
-    <xi:include href="./chapter-7/chapter7.ptx" />
-    <xi:include href="./chapter-8/chapter8.ptx" />
-    <xi:include href="./chapter-9/chapter9.ptx" />
-    <xi:include href="./chapter-10/chapter10.ptx" />
+    <!-- Part 1: Review of Arithmetic -->
+    <!-- <part xml:id="review-arithmetic">
+      <title>Review of Arithmetic</title>
+      
+    </part> -->
+
+    <!-- Part 2: Intermediate Algebra -->
+    <!-- <part xml:id="intermediate-algebra">
+      <title>Intermediate Algebra</title>
+      
+    </part> -->
+
+    <!-- Part 3: College Algebra -->
+    <part xml:id="college-algebra">
+      <title>College Algebra</title>
+      
+      <xi:include href="./college-algebra/chapter-1/chapter1.ptx" />
+      <xi:include href="./college-algebra/chapter-2/chapter2.ptx" />
+      <xi:include href="./college-algebra/chapter-3/chapter3.ptx" />
+      <xi:include href="./college-algebra/chapter-4/chapter4.ptx" />
+      <xi:include href="./college-algebra/chapter-5/chapter5.ptx" />
+      <xi:include href="./college-algebra/chapter-6/chapter6.ptx" />
+      <xi:include href="./college-algebra/chapter-7/chapter7.ptx" />
+      <xi:include href="./college-algebra/chapter-8/chapter8.ptx" />
+      <xi:include href="./college-algebra/chapter-9/chapter9.ptx" />
+      <xi:include href="./college-algebra/chapter-10/chapter10.ptx" />
+    </part>
+
+    <!-- Part 4: Trigonometry -->
+    <!-- <part xml:id="trigonometry">
+      <title>Trigonometry</title>
+      
+    </part> -->
+
+    <!-- Part 5: Calculus 1 -->
+    <!-- <part xml:id="calculus-1">
+      <title>Calculus 1</title>
+      
+    </part> -->
+
+    <!-- Part 6: Calculus 2 -->
+    <!-- <part xml:id="calculus-2">
+      <title>Calculus 2</title>
+      
+    </part> -->
+
+    <!-- Part 7: Calculus 3 -->
+    <!-- <part xml:id="calculus-3">
+      <title>Calculus 3</title>
+      
+    </part> -->
+
+    <!-- Part 8: Statistics -->
+    <!-- <part xml:id="statistics">
+      <title>Statistics</title>
+      
+    </part> -->
+
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
 

@@ -1,0 +1,158 @@
+<section xml:id="remainder-factor-theroems">
+    <title>The Remainder and Factor Theorems</title>
+    <subsection xml:id="subsec-the-remainder-theorem">
+        <title>The Remainder Theorem</title>        
+    <theorem xml:id="remainder-theorem">
+  <title>The Remainder Theorem</title>
+
+  <statement>
+    <p>Let <m>p(x)</m> be any polynomial function and let <m>d(x) = x - c</m> for some real number <m>c</m>. Then the remainder is equal to <m>p(c)</m>.</p>
+  </statement>
+
+  <proof>
+    <p>By the Division Algorithm, we know that <me>p(x) = q(x)d(x) + r(x)</me>. Since <m>d(x) = x - c</m> is a degree 1 polynomial, we know that <m>r(x)</m> is a degree 0 polynomial, aka a constant; therefore, we write <m>r(x)</m> as <m>r</m> instead to indicate it is just a number and does not contain any variables. Therefore, we get that <me>p(x) = q(x)(x - c) + r</me>.</p>
+
+    <p>Evaluating <m>p(c)</m>, we get that</p>
+
+    <p>
+      <md>
+        <mrow>p(x)\amp= q(x)(x - c) + r \\</mrow>
+        <mrow>p(c)\amp= q(c)(c - c) + r \\</mrow>
+        <mrow>p(c)\amp= q(c) \cdot 0 + r \\</mrow>
+        <mrow>p(c)\amp= r</mrow>
+      </md>
+    </p>
+  </proof>
+</theorem>
+<example xml:id="evaluating-a-polynomial-using-the-remainder-theorem">
+  <title>Evaluating a Polynomial Using the Remainder Theorem</title>
+
+  <statement>
+    <p>Let <m>p(x) = 3x^3 - x^2 + 92x + 4</m>. Evaluate <m>p(-5)</m>.</p>
+  </statement>
+
+  <answer>
+    <p><m>p(-5) = -856</m></p>
+  </answer>
+
+  <solution>
+    <p>Performing synthetic division, we get the following calculation.</p>
+
+    <figure>
+      <caption>The synthetic division shows that <m>q(x) = 3x^2 - 16x + 172</m> and <m>r = -856</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/remainder-theorem-example.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Since the remainder is <m>-856</m>, we have that <m>p(-5) = -856</m>.</p>
+  </solution>
+</example>
+</subsection>
+<subsection xml:id="subsec-the-factor-theorem">
+    <title>The Factor Theorem</title>
+    <theorem xml:id="thm-the-factor-theorem">
+        <title>The Factor Theorem</title>
+        <statement>
+            <p>
+                Let <m>p(x</m> be any polynomial function.
+                The following two statements are equivalent to each other.
+                <ol>
+                    <li>
+                        <p>
+                            <m>x=c</m> is a zero of <m>p(x)</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>x-c</m> is a factor of <m>p(x)</m>
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+        <proof>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                Assume that <m>x=c</m> is a zero of <m>p(x)</m>.
+                                We want to prove that <m>x-c</m> is a factor of <m>p(x)</m>.
+                                By the Remainder Theorem, we know that for any value of <m>c</m>, we have that <me>p(x)=q(x)(x-c)+p(c)</me>.
+                                Since <m>x=c</m> is a zero of <m>p(x)</m>, we know that <m>p(c)=0</m>.
+                                Simplifying the result from the Remainder Theorem, we get that <me>p(x)=q(x)(x- c).</me>
+                                Therefore, <m>x-c</m> is a factor of <m>p(x)</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Assume that <m>x-c</m> is a factor of <m>p(x)</m>.
+                                Then <m>p(x)=q(x)(x-c)</m> for some polynomial <m>q(x)</m>.
+                                Evaluating <m>p(c)</m>, we get that <me>p(c)=q(c)(c-c)=q(c)\cdot 0=0.</me>
+                                Since <m>p(c)=0</m>, then <m>x=c</m> is a zero of <m>p(x)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </proof>
+    </theorem>
+    <p>
+  Since we just proved that factoring is another way to find solutions to polynomial equations,
+  <ol>
+    <li><p>We don't have to set polynomials equal to zero to solve them. We just need to factor them. This alleviates the confusion between solving an equation and simplifying an expression.</p></li>
+    <li><p>If we know a zero of the polynomial, we can use Synthetic or Polynomial Long Division to find the other factor that doesn't correspond to the zero. This helps us factor higher degree polynomials.</p></li>
+  </ol>
+</p>
+
+<example xml:id="factoring-a-degree-4-polynomial">
+  <title>Factoring a Degree 4 Polynomial</title>
+
+  <statement>
+    <p>Suppose you know that <m>x = -3</m> and <m>x = 4</m> are zeroes of the polynomial <me>p(x) = x^4 + 2x^3 - 25x^2 - 26x + 120</me>. Find the other zeroes of the polynomial.</p>
+  </statement>
+
+  <answer>
+    <p>
+      <ol>
+        <li><p><m>x = 2</m></p></li>
+        <li><p><m>x = -5</m></p></li>
+      </ol>
+    </p>
+  </answer>
+
+  <solution>
+    <p>Since we know two of the zeroes, we can use synthetic division to factor. It doesn't matter if we use <m>x = -3</m> or <m>x = 4</m>. I am going to choose <m>x = -3</m>. The following calculation shows us how to perform the synthetic division.</p>
+
+    <figure>
+      <caption>Synthetic division shows us that <m>q(x) = x^3 - x^2 - 22x + 40</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/factor-theorem-examples-a.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Therefore, we can factor <m>p(x)</m> as follows: <me>p(x) = (x^3 - x^2 - 22x + 40)(x + 3)</me>.</p>
+
+    <p>Since we haven't gotten a factor of <m>x - 4</m> yet, it turns out that <m>x = 4</m> is guaranteed to be a zero of <m>x^3 - x^2 - 22x + 40</m>. We perform synthetic division a second time to get the following calculation.</p>
+
+    <figure>
+      <caption>Synthetic division shows us that <m>q(x) = x^2 + 3x - 10</m>.</caption>
+      <image source="../../../assets/college-algebra/chapter-5/factor-theorem-examples-b.png" decorative="yes" width="50%"/>
+    </figure>
+
+    <p>Therefore, we can further factor <m>p(x)</m> as <me>p(x) = (x^2 + 3x - 10)(x + 3)(x - 4)</me>.</p>
+
+    <p>Notice our remaining factor is quadratic. We can use any technique from Chapter 4 to show that <me>x^2 + 3x - 10 = (x + 5)(x - 2)</me>. By the Factor Theorem, we know that the other two solutions are <m>x = -5</m> and <m>x = 2</m>.</p>
+  </solution>
+</example>
+<p>
+  The overall technique we will use is
+  <ol>
+    <li><p>Find any zero of <m>p(x)</m>.</p></li>
+    <li><p>Use synthetic division to factor the polynomial.</p></li>
+    <li><p>Repeat steps 1 and 2 until you end with a quadratic factor.</p></li>
+    <li><p>Use the methods from Chapter 4 to find the remaining two solutions (if they exist).</p></li>
+  </ol>
+</p>
+
+<p>There are some variations to this method. For example, it is possible to get more than one quadratic factor we will have to solve. But overall, this pattern serves most students well when they factor higher degree polynomials.</p>
+
+<p>Notice that one issue still remains: how do we get a zero to begin with? That is the next issue we will address, and it will lead us to our main result: the Fundamental Theorem of Algebra and its consequent: the Linear Factorization Theorem.</p>
+
+</subsection>
+</section>

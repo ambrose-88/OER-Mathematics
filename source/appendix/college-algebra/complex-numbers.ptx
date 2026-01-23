@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="ws-complex-numbers" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Complex Numbers</title>
+  <definition xml:id="lecture-notes-def-definition-of-i">
+    <title>Definition of <m>i</m></title>
+    <statement>
+      <p>
+        The <term>imaginary number</term> <m>i</m> is the positive solution to the equation <me>x^2+1=0</me>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Powers of <m>i</m> are really easy to calculate, and unlike real numbers, there are only four values you have to memorize since the powers cycle through four unique values.
+  </p>
+  <p>
+    <md>
+      <mrow>i^0 \amp= 1 \amp i^4 \amp= (i^2)^2 = (-1)^2 = 1</mrow>
+      <mrow>i^1 \amp= i \amp i^5 \amp= i^4 \cdot i^1 = 1 \cdot i = i</mrow>
+      <mrow>i^2 \amp= -1 \amp i^6 \amp= i^4 \cdot i^2 = (1)(-1) = -1</mrow>
+      <mrow>i^3 \amp= i^2 \cdot i^1 = -i \amp i^7 \amp= i^4 \cdot i^3 = -i</mrow>
+    </md>
+  </p>
+  <p>
+    The pattern continues forever like this.
+    If we look at the first four exponents—<m>0,1,2,3</m>—these are the possible remainders you get when you divide an integer by <m>4</m>.
+    Notice that the powers of <m>i</m> that have the same remainder after dividing the exponent by <m>4</m> will have the same value.
+  </p>
+
+  <theorem xml:id="lecture-notes-thm-divisibility-rule-for-4">
+    <title>Divisibility Rule for 4</title>
+    <statement>
+      <p>
+        An integer is divisible by <m>4</m> if its last two digits form a number that is divisible by <m>4</m>.
+      </p>
+    </statement>
+  </theorem>
+
+  <note xml:id="lecture-notes-note-divisibility-rule-in-terms-of-remainders">
+    <title>Divisibility Rule in Terms of Remainders</title>
+    <p>
+      In the language above, this means that a number is divisible by <m>4</m> if you divide the last two digits by <m>4</m> and get a remainder of <m>0</m>.
+    </p>
+  </note>
+
+  <lemma xml:id="lecture-notes-lem-computing-powers-of-i">
+    <title>Computing Powers of <m>i</m></title>
+    <statement>
+      <p>
+        To evaluate <m>i^n</m> for any positive integer <m>n</m>, complete the following steps.
+      </p>
+      <p>
+        <ol>
+          <li><p>Divide the last two digits of <m>n</m> by <m>4</m> using long division and determine the remainder. You should get <m>0</m>, <m>1</m>, <m>2</m>, or <m>3</m>.</p></li>
+          <li>
+            <p>
+              The remainder tells you which power of <m>i</m> to use from this list.
+              <md>
+                <mrow>i^0 \amp= 1 \amp i^1 \amp= i \amp i^2 \amp= -1 \amp i^3 \amp= -i</mrow>
+              </md>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-compute-a-power-of-i" workspace="3in">
+    <title>Compute a Power of <m>i</m></title>
+    <statement>
+      <p>
+        Compute <m>i^{487562438573735}</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <definition xml:id="lecture-notes-def-complex-number">
+    <title>Complex Number</title>
+    <statement>
+      <p>
+        Let <m>a</m> and <m>b</m> be any real numbers.
+        A <term>complex number</term> is any number of the form <me>a+bi</me>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Do complex numbers really exist?
+    It turns out that complex numbers are just another way to describe points <m>(a,b)</m> in the coordinate plane.
+    For example, the point <m>(3,4)</m> can also be represented by the complex number <m>3+4i</m>.
+    But there is a subtle difference.
+    Instead of thinking of it as the corner of a rectangle, we think of <m>3+4i</m> as an arrow pointing from the origin to the point <m>(3,4)</m>.
+  </p>
+
+  <figure xml:id="lecture-notes-fig-rectangular-and-complex-visualization">
+    <caption>Two ways to visualize the point <m>(3,4)</m>. In rectangular coordinates, it is represented as a dot. As a complex number, it is represented as an arrow pointing from <m>(0,0)</m> to <m>(3,4)</m>.</caption>
+    <image source="../../assets/college-algebra/chapter-4-6/rectangular-and-complex.png" width="50%">
+      <shortdescription>An arrow labeled 3+4i points from the origin to the point (3,4).</shortdescription>
+    </image>
+  </figure>
+
+  <lemma xml:id="lecture-notes-lem-how-to-add-complex-numbers">
+    <title>How to Add Complex Numbers</title>
+    <statement>
+      <p>
+        Let <m>a+bi</m> and <m>c+di</m> be any two complex numbers.
+        Then
+        <me>(a+bi)+(c+di)=(a+c)+(b+d)i</me>.
+      </p>
+      <p>
+        In other words, just add like terms.
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-adding-two-complex-numbers" workspace="1in">
+    <title>Adding Two Complex Numbers</title>
+    <statement>
+      <p>
+        Perform the operation <m>(3-4i)+(-2+9i)</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-how-to-subtract-complex-numbers">
+    <title>How to Subtract Complex Numbers</title>
+    <statement>
+      <p>
+        Let <m>a+bi</m> and <m>c+di</m> be any two complex numbers.
+        Then
+        <me>(a+bi)-(c+di)=(a-c)+(b-d)i</me>.
+      </p>
+      <p>
+        In other words, distribute the negative and add like terms.
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-subtracting-two-complex-numbers" workspace="1in">
+    <title>Subtracting Two Complex Numbers</title>
+    <statement>
+      <p>
+        Perform the operation <m>(-3+2i)-(-5+3i)</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <lemma xml:id="lecture-notes-lem-how-to-multiply-complex-numbers">
+    <title>How to Multiply Complex Numbers</title>
+    <statement>
+      <p>
+        Let <m>a+bi</m> and <m>c+di</m> be any two complex numbers.
+        Then
+        <me>(a+bi)(c+di)=(ac-bd)+(ad+bc)i</me>.
+      </p>
+      <p>
+        In other words, just FOIL it out and simplify using <m>i^2=-1</m>.
+      </p>
+    </statement>
+  </lemma>
+
+  <exercise xml:id="lecture-notes-ex-multiply-two-complex-numbers" workspace="4in">
+    <title>Multiply Two Complex Numbers</title>
+    <statement>
+      <p>
+        Perform the operation <m>(-6+5i)(2-i)</m>.
+      </p>
+    </statement>
+  </exercise>
+  <definition xml:id="lecture-notes-def-the-complex-conjugate">
+    <title>The Complex Conjugate</title>
+    <statement>
+      <p>
+        Let <m>a+bi</m> be any complex number. Then its <term>complex conjugate</term> is the complex number <me>a-bi</me>.
+      </p>
+    </statement>
+  </definition>
+
+  <exercise xml:id="lecture-notes-ex-find-the-complex-conjugate-of-a-number" workspace="1in">
+    <title>Find the Complex Conjugate of a Number</title>
+    <statement>
+      <p>
+        Determine the complex conjugate of the number <m>3-5i</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="lecture-notes-ex-find-the-complex-conjugate-of-a-purely-imaginary-number" workspace="1in">
+    <title>Find the Complex Conjugate of a Purely Imaginary Number</title>
+    <statement>
+      <p>
+        Determine the complex conjugate of the number <m>2i</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="lecture-notes-ex-find-the-complex-conjugate-of-a-real-number" workspace="1in">
+    <title>Find the Complex Conjugate of a Real Number</title>
+    <statement>
+      <p>
+        Determine the complex conjugate of the number <m>7</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <theorem xml:id="lecture-notes-thm-sum-of-squares-formula">
+    <title>Sum of Squares Formula</title>
+    <statement>
+      <p>
+        For any real numbers <m>a</m> and <m>b</m>, it is always true that
+        <me>a^2+b^2=(a+bi)(a-bi)</me>.
+        In other words, the sum of squares is the product of a complex number and its complex conjugate.
+      </p>
+    </statement>
+  </theorem>
+
+  <exercise xml:id="lecture-notes-ex-solve-by-factoring-x2-plus-16-1" workspace="2in">
+    <title>Solve an Equation by Factoring</title>
+    <statement>
+      <p>
+        Solve the equation <me>x^2+16=0</me> by factoring.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="lecture-notes-ex-computing-foil-with-complex-numbers-and-variables-1" workspace="4in">
+    <title>Computing FOIL with Complex Numbers and Variables</title>
+    <statement>
+      <p>
+        Perform the operation <me>(x-(2+3i))(x-(2-3i))</me>.
+      </p>
+    </statement>
+  </exercise>
+<theorem xml:id="lecture-notes-pulling-out-negative">
+    <title>Pulling out the Negative as <m>i</m></title>
+    <statement>
+        <p>Let <m>r &gt; 0</m>. Then <m>\sqrt{-r} = i\sqrt{r}</m>.</p>
+    </statement>
+</theorem>
+
+<exercise xml:id="lecture-notes-sqrt-neg-5" workspace="2in">
+    <title>Simplifying the Square Root of a Negative Number, Version 1</title>
+    <statement>
+        <p>Simplify <m>\sqrt{-5}</m>.</p>
+    </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-sqrt-neg-121" workspace="2in">
+    <title>Simplifying the Square Root of a Negative Number, Version 2</title>
+    <statement>
+        <p>Simplify <m>\sqrt{-121}</m>.</p>
+    </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-sqrt-neg-72" workspace="2in">
+    <title>Simplifying the Square Root of a Negative Number, Version 3</title>
+    <statement>
+        <p>Simplify <m>\sqrt{-72}</m>.</p>
+    </statement>
+</exercise>
+
+<exercise xml:id="lecture-notes-fraction-sqrt-neg-40" workspace="2in">
+    <title>Simplifying a Fraction that Contains the Square Root of a Negative Number</title>
+    <statement>
+        <p>Simplify <m>\frac{2+\sqrt{-40}}{4}</m>. Write your final answer as <m>a+bi</m>.</p>
+    </statement>
+</exercise>
+
+</worksheet>

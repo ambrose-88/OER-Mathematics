@@ -1,0 +1,209 @@
+<section xml:id="arithmetic-operations-functions">
+    <title>Arithmetic Operations and Functions</title>
+
+  <definition xml:id="definition-operations-on-functions">
+    <title>Definition</title>
+    <statement>
+    <p>Let <m>f</m> and <m>g</m> be functions.
+<ul>
+    <li>
+    <p>The <term>sum</term> of <m>f</m> and <m>g</m>, denoted <m>f+g</m>, is given by
+      <me>(f+g)(x)=f(x)+g(x)</me>
+    </p>
+</li>
+<li>
+    <p>The <term>difference</term> of <m>f</m> and <m>g</m>, denoted <m>f-g</m>, is given by
+      <me>(f-g)(x)=f(x)-g(x)</me>
+    </p>
+    </li>
+    <li>
+
+    <p>The <term>product</term> of <m>f</m> and <m>g</m>, denoted <m>fg</m>, is given by
+      <me>(fg)(x)=f(x)\cdot g(x)</me>
+    </p>
+</li>
+<li>
+    <p>The <term>quotient</term> of <m>f</m> and <m>g</m>, denoted <m>\frac{f}{g}</m>, is given by
+      <me>\left(\frac{f}{g}\right)(x)=\frac{f(x)}{g(x)}</me>
+    </p>
+</li>
+</ul>
+</p>
+    </statement>
+  </definition>
+
+  <example xml:id="example-3-symbolic-combinations">
+    <title>Performing Arithmetic Operations on Functions</title>
+    <statement>
+      <p>For the functions <m>f(x)=5-x</m> and <m>g(x)=x^2-3x</m>, find the following functions.</p>
+      <p>
+        <ol>
+          <li><p><m>(f+g)(x)</m></p></li>
+          <li><p><m>(f-g)(x)</m></p></li>
+          <li><p><m>(fg)(x)</m></p></li>
+          <li><p><m>\left(\frac{f}{g}\right)(x)</m></p></li>
+        </ol>
+      </p>
+    </statement>
+          <answer>
+        <p>
+          <ol>
+            <li><p><m>(f+g)(x)=x^2-4x+5</m></p></li>
+            <li><p><m>(f-g)(x)=-x^2+2x+5</m></p></li>
+            <li><p><m>(fg)(x)= -x^3 + 8x^2 - 15x</m></p></li>
+            <li><p><m>\left(\frac{f}{g}\right)(x)=\frac{5-x}{x^2-3x}</m></p></li>
+          </ol>
+        </p>
+      </answer>
+      <solution>
+        <p>
+          <ol>
+            <li>
+              <p>
+                For the sum, write each function down and combine like terms.
+                <md>
+                  <mrow> (f+g)(x)\amp = f(x)+g(x)\\</mrow>
+                  <mrow>\amp=(5 - x) + (x^2 - 3x)\\ </mrow>
+                  <mrow> \amp = 5 - x + x^2 - 3x\\ </mrow> 
+                  <mrow>\amp = x^2 - 4x + 5\\ </mrow>
+                </md>
+              </p>
+            </li>
+            <li>
+              <p>
+                For the difference, write each function down, distribute the negative sign, and combine like terms.
+                <md>
+                  <mrow> (f-g)(x)\amp =f(g)-g(x)\\</mrow>
+                    <mrow>\amp=(5 - x) - (x^2 - 3x)\\ </mrow>
+                  <mrow> \amp = 5 - x - x^2 + 3x\\ </mrow> 
+                  <mrow>\amp = -x^2 + 2x + 5\\ </mrow>
+                </md> 
+              </p>
+            </li>
+            <li>
+              <p>
+                For the product, write each function down and use FOIL to multiply.
+                <md>
+                  <mrow> (fg)(x)\amp =f(x)g(x)\\</mrow>
+                  <mrow>\amp=(5 - x)(x^2 - 3x)\\ </mrow>
+                  <mrow> \amp = 5x^2 - 15x - x^3 + 3x^2\\ </mrow> 
+                  <mrow>\amp = -x^3 + 8x^2 - 15x\\ </mrow>
+                </md> 
+              </p>
+            </li>
+            <li>
+              <p>
+                For the quotient, write the division as a fraction with <m>f(x)</m> as the numerator and <m>g(x)</m> as the denominator.
+                <md>
+                  <mrow> \left(\frac{f}{g}\right)(x)\amp =\frac{f(x)}{g(x)}\\ </mrow>
+                  <mrow> \amp =\frac{5 - x}{x^2 - 3x}\\ </mrow>
+                </md>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </solution>
+  </example>
+
+    <theorem xml:id="theorem-domains-of-functions">
+      <title>The Domains of Sums, Differences, and Products of Functions</title>
+      <p>The domain of <m>f+g</m>, <m>f-g</m>, and <m>fg</m> consists of all elements common to the domains of <m>f</m> and <m>g</m>.</p>
+
+      <p><term>The Domain of a Quotient of Functions</term>. The domain of <m>\frac{f}{g}</m> consists of all elements common to the domains of <m>f</m> and <m>g</m>, excluding any <m>x</m> for which <m>g(x)=0</m>.</p>
+    </theorem>
+
+    <example xml:id="example-4-domains-with-radical-and-rational">
+      <title>Example 4</title>
+      <statement>
+        <p>For the functions <m>f(x)=\frac{1}{x}</m> and <m>g(x)=\sqrt{2-x}</m>, find the following functions and their domains.</p>
+        <p>
+          <ol>
+            <li><p><m>(f+g)(x)</m></p></li>
+            <li><p><m>(f-g)(x)</m></p></li>
+            <li><p><m>(fg)(x)</m></p></li>
+            <li><p><m>\left(\frac{f}{g}\right)(x)</m></p></li>
+          </ol>
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <ol>
+            <li><p><m>(f+g)(x)=\frac{1}{x}+\sqrt{2-x}</m>, Domain: <m>(-\infty,0)\cup(0,2]</m></p></li>
+            <li><p><m>(f-g)(x)=\frac{1}{x}-\sqrt{2-x}</m>, Domain: <m>(-\infty,0)\cup(0,2]</m></p></li>
+            <li><p><m>(fg)(x)=\frac{\sqrt{2-x}}{x}</m>, Domain: <m>(-\infty,0)\cup(0,2]</m></p></li>
+            <li><p><m>\left(\frac{f}{g}\right)(x)=\frac{1}{x\sqrt{2-x}}</m>, Domain: <m>(-\infty,0)\cup(0,2)</m></p></li>
+          </ol>
+        </p>
+      </answer>
+      <solution>
+        <p>
+          <ol>
+            <li>
+              <p>The sum is given by the following calculation:
+                <md>
+                  <mrow> (f+g)(x)\amp = f(x)+g(x)\\</mrow>
+                  <mrow>\amp=\frac{1}{x} + \sqrt{2-x}\\ </mrow>
+                </md>
+                </p>
+            </li>
+            <li>
+              <p>The difference is given by the following calculation:
+                <md>
+                  <mrow> (f-g)(x)\amp = f(x)-g(x)\\</mrow>
+                  <mrow>\amp=\frac{1}{x} - \sqrt{2-x}\\ </mrow>
+                </md>
+                </p>
+            </li>
+            <li>
+              <p>The product is given by the following calculation:
+                <md>
+                  <mrow> (fg)(x)\amp = f(x)g(x)\\</mrow>
+                  <mrow>\amp=\frac{1}{x} \cdot \sqrt{2-x}\\ </mrow>
+                  <mrow>\amp=\frac{\sqrt{2-x}}{x}\\ </mrow>
+                </md>
+                </p>
+            </li>
+            <li>
+              <p>We perform the division as given in the following calculation:
+                <md>
+                  <mrow> \left(\frac{f}{g}\right)(x)\amp = \frac{f(x)}{g(x)}\\</mrow>
+                  <mrow>\amp=\frac{\dfrac{1}{x}}{\sqrt{2-x}}\\ </mrow>
+                  <mrow>\amp=\frac{1}{x} \cdot \frac{1}{\sqrt{2-x}}\\ </mrow>
+                  <mrow>\amp=\frac{1}{x\sqrt{2-x}}\\ </mrow>
+                </md>
+                </p>
+            </li>
+          </ol>  
+        </p>
+                    <p>To find the domain, we note that <m>f(x)=\frac{1}{x}</m> is defined for all <m>x\ne 0</m> and <m>g(x)=\sqrt{2-x}</m> is defined for <m>x\leq 2</m>. 
+                  We will now draw each domain separately:</p>
+        <figure xml:id="figure-4-domains-of-functions">
+          <caption>The domains of <m>f(x)=\frac{1}{x}</m> and <m>g(x)=\sqrt{2-x}</m> graphed on the number line.</caption>
+          <image source="../../../assets/college-algebra/chapter-7/arithmetic-operations-domains-functions-1.png" width="50%">
+                    <shortdescription>The graphs of x&#8800;0 and x&#8804;2, where the graph of x&#8800;0 is drawn above the graph of x&#8804;2.</shortdescription>
+          </image>
+        </figure>
+        <p>To find the domain of <m>f+g</m>, <m>f-g</m>, and <m>fg</m>, we determine where we have shaded in both graphs.</p>
+        <p>
+          At <m>x=0</m>, we have an open dot in the domain of <m>f(x)</m> which means we didn't shade that point. Otherwise, we have shaded all points less than or equal to 2 in both graphs.
+        </p>
+        <p>
+          Therefore, the final domain is all the values of <m>x</m> that are less than or equal to 2 but not equal to 0.
+          The graph of the domain is shown in the following figure:</p>
+          <figure xml:id="figure-4-domains-of-functions-1">
+          <caption>The domain of <m>f+g</m>, <m>f-g</m>, and <m>fg</m> graphed on the number line.</caption>
+          <image source="../../../assets/college-algebra/chapter-7/arithmetic-operations-domains-functions-2.png" width="50%" decorative="yes"/>
+        </figure>
+        <p>In interval notation, the domain for <m>f+g</m>, <m>f-g</m>, and <m>fg</m> is <m>(-\infty,0)\cup(0,2]</m>.</p>.
+        <p>To find the domain of <m>\frac{f}{g}</m>, we need use use the same domain as <m>f+g</m>, <m>f-g</m>, and <m>fg</m> but exclude any values of <m>x</m> that make <m>g(x)=0</m>.
+          Since the only value of <m>x</m> that makes <m>\sqrt{2-x}</m> equal to zero is <m>x=2</m>, we will put an open dot at <m>x=2</m> instead of a solid dot. 
+          The updated graph for <m>\frac{f}{g}</m> is given in the following graph:</p>
+          <figure xml:id="figure-4-domains-of-functions-2">
+          <caption>The domain of <m>\frac{f}{g}</m> graphed on the number line.</caption>
+          <image source="../../../assets/college-algebra/chapter-7/arithmetic-operations-domains-functions-3.png" width="50%" decorative="yes"/>
+        </figure>
+        <p>In interval notation, the domain for <m>\frac{f}{g}</m> is <m>(-\infty,0)\cup(0,2)</m>.</p>
+      </solution>
+        </example>
+
+</section>

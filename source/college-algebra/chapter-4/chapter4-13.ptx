@@ -1,0 +1,125 @@
+<section xml:id="quadratic-functions">
+    <title>Quadratic Functions</title>
+
+    <subsection xml:id="graphs-of-quadratic-functions">
+        <title>Graphs of Quadratic Functions</title>
+
+        <figure>
+            <caption>The two possible graphs of a quadratic function</caption>
+            <sidebyside>
+                <figure>
+                    <caption>The parabola opens upwards when a &gt; 0</caption>
+                    <image source="../../../assets/college-algebra/chapter-4-13/upwards-parabola.png">
+                        <shortdescription>The graph of f(x) = x^2 + 4x + 5</shortdescription>
+                    </image>
+                </figure>
+                <figure>
+                    <caption>The parabola opens downwards when a &lt; 0</caption>
+                    <image source="../../../assets/college-algebra/chapter-4-13/downwards-parabola.png">
+                        <shortdescription>The graph of f(x) = -x^2 + 2x + 1</shortdescription>
+                    </image>
+                </figure>
+            </sidebyside>
+        </figure>
+    </subsection>
+
+    <subsection xml:id="properties-of-quadratic-functions">
+        <title>Properties of Quadratic Functions</title>
+
+<table xml:id="quadratic-functions-summary">
+    <title>Properties of Quadratic Functions</title>
+    <tabular row-headers="yes" halign="center">
+        <row header="yes" bottom="major">
+            <cell>Direction</cell>
+            <cell>Upwards</cell>
+            <cell>Downwards</cell>
+        </row>
+        <row>
+            <cell>Value of Leading Coefficient</cell>
+            <cell><m>a &gt; 0</m></cell>
+            <cell><m>a &lt; 0</m></cell>
+        </row>
+
+        <row>
+            <cell>Standard Form</cell>
+            <cell><m>f(x) = ax^2 + bx + c</m></cell>
+            <cell><m>f(x) = ax^2 + bx + c</m></cell>
+        </row>
+
+        <row>
+            <cell>Vertex Form</cell>
+            <cell><m>f(x) = a(x - h)^2 + k</m></cell>
+            <cell><m>f(x) = a(x - h)^2 + k</m></cell>
+        </row>
+
+        <row>
+            <cell>Vertex</cell>
+            <cell><m>(h, k)</m></cell>
+            <cell><m>(h, k)</m></cell>
+        </row>
+
+        <row>
+            <cell>Axis of Symmetry</cell>
+            <cell><m>x = h</m></cell>
+            <cell><m>x = h</m></cell>
+        </row>
+
+        <row>
+            <cell>Domain</cell>
+            <cell><m>(-\infty, \infty)</m></cell>
+            <cell><m>(-\infty, \infty)</m></cell>
+        </row>
+
+        <row>
+            <cell>Range</cell>
+            <cell><m>[k, \infty)</m></cell>
+            <cell><m>(-\infty, k]</m></cell>
+        </row>
+
+        <row>
+            <cell><m>x</m>-intercept(s)<fn>Only exist when <m>D=b^2-4ac\geq 0</m>. Otherwise, DNE.</fn></cell>
+            <cell><m>\left(\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}, 0\right)</m></cell>
+            <cell><m>\left(\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}, 0\right)</m></cell>
+        </row>
+
+        <row>
+            <cell><m>y</m>-intercept</cell>
+            <cell><m>(0, c)</m></cell>
+            <cell><m>(0, c)</m></cell>
+        </row>
+
+        <row>
+            <cell>Increasing</cell>
+            <cell><m>(h, \infty)</m></cell>
+            <cell><m>(-\infty, h)</m></cell>
+        </row>
+
+        <row>
+            <cell>Decreasing</cell>
+            <cell><m>(-\infty, h)</m></cell>
+            <cell><m>(h, \infty)</m></cell>
+        </row>
+
+        <row>
+            <cell>Constant</cell>
+            <cell>N/A</cell>
+            <cell>N/A</cell>
+        </row>
+
+        <row>
+            <cell>Local Extrema</cell>
+            <cell><m>(h, k)</m></cell>
+            <cell><m>(h, k)</m></cell>
+        </row>
+
+        <row>
+            <cell>Absolute Extrema</cell>
+            <cell><m>(h, k)</m></cell>
+            <cell><m>(h, k)</m></cell>
+        </row>
+    </tabular>
+</table>
+
+
+    </subsection>
+</section>

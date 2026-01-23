@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="chapter1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Graphing Points on the Coordinate Plane</title>
+  <introduction>
+    <p>
+      Graphing is one of the fundamental tools in Algebra. 
+      As visual creatures, humans can see solutions as pictures instead of only letters and numbers on a page. 
+      This helps people notice patterns in data that might be difficult to find when it is expressed only as text. 
+      Over the course of this semester, there will be a strong focus on understanding and interpreting graphs from both a mathematical and real-world point of view.
+    </p>
+  </introduction>
+
+  <subsection xml:id="sub-ordered-pairs">
+    <title>Ordered Pairs</title>
+    <p>Points on a number line are described by a single number. 
+      We use notation such as <m>x=3</m> to show a value on the number line; we graph the point by placing a solid dot three spaces to the right of a place labeled 0 on the number line.</p>
+    <figure xml:id="graph-x-equals-3">
+      <caption>The graph of <m>x=3</m> plotted on the number line.</caption>
+      <image source="../../../assets/college-algebra/chapter-1-1/1D_graph_x_equals_3.png">
+        <shortdescription>Number line with a point at x=3</shortdescription>
+      </image>
+    </figure>
+    <p>When we move to a <term xmlns:xi="def-coordinate-plane">coordinate plane</term>, we need two numbers to describe a point. 
+      One number describes the horizontal (left/right) movement, and the other describes the vertical (up/down) movement. 
+      In theoretical mathematics, the variable <m>x</m> represents horizontal movement, and the variable <m>y</m> represents vertical movement. 
+      The following definition shows how we represent points on a coordinate plane.
+    </p>
+
+<corollary xml:id="def-ordered-pair">
+  <statement>
+    <p>
+      Let <m>x</m> and <m>y</m> be any real numbers. An <term xmlns:xi="def-ordered-pair">ordered pair</term> is a list of numbers, written as <m>(x, y)</m>, where the order in which you write the numbers matters (e.g. <m>(3,4) \ne (4,3)</m>).
+    </p>
+  </statement>
+</corollary>
+
+<p>
+  There are additional definitions related to ordered pairs.
+</p>
+
+<definition xml:id="def-coordinates">
+  <statement>
+    <p>Let <m>(x, y)</m> be an ordered pair.
+  <ul>
+    <li><m>x</m> is known as the <term xmlns:xi="def-x-coordinate">x-coordinate</term> (or informally as the <term xmlns:xi="def-first-coordinate">first coordinate</term>).</li>
+    <li><m>y</m> is known as the <term xmlns:xi="def-y-coordinate">y-coordinate</term> (or informally as the <term xmlns:xi="def-second-coordinate">second coordinate</term>).</li>
+  </ul>
+    </p>
+  </statement>
+  </definition>
+
+
+<p>While coordinates are often written as ordered pairs, they can also be written as a pair of equations. The next two examples show us how to convert from ordered pairs to a pair of equations, and vice versa.</p>
+
+<example xml:id="coordinates-to-ordered-pair" label="something else">
+  <title>Convert Coordinates to Ordered Pairs</title>
+  <statement>
+    <p>What point corresponds to the pair of equations <m>x = -2</m> and <m>y = \frac{3}{2}</m>?</p><p>Express the point as an ordered pair.</p>
+  </statement>
+  <answer>
+    <p>
+      <m>\left(-2, \frac{3}{2}\right)</m>
+    </p>
+  </answer>
+  <solution>
+    <p>Since every point on the coordinate plane can be expressed as an ordered pair <m>(x, y)</m>, this pair of equations can be represented by the ordered pair <m>\left(-2, \frac{3}{2}\right)</m>.</p>
+  </solution>
+</example>
+
+<example xml:id="example-ordered-pair-to-coordinates">
+  <title>Convert Ordered Pair to Coordinates</title>
+  <statement>
+    <p>Let the ordered pair <m>(2.54, -4.12)</m> represent a point on the coordinate plane.</p>
+    <p>What are the values for <m>x</m> and <m>y</m>?</p>
+  </statement>
+  <answer>
+    <p>
+      <md>
+        <mrow>x \amp =2.54 </mrow>
+        <mrow>y \amp =-4.12</mrow>
+      </md>
+    </p>
+  </answer>
+  <solution>
+    <p>Since every point on the coordinate plane can be expressed as an ordered pair <m>(x, y)</m>, then:</p>
+    <p>- <m>x = 2.54</m> since <m>2.54</m> is the first coordinate.</p>
+    <p>- <m>y = -4.12</m> since <m>-4.12</m> is the second coordinate.</p>
+  </solution>
+</example>
+  </subsection>
+
+  <subsection xml:id="sub-visualizing-coordinate-plane">
+    <title>Visualizing The Coordinate Plane</title>
+
+    <subsubsection xml:id="subsub-coordinate-axes">
+      <title>Coordinate Axes</title>
+      <p>
+        Now that we know how to represent points on a coordinate plane in symbols, we need to know how to visualize the coordinate plane. 
+        The coordinate plane uses two number lines called <term xmlns:xi="def-coordinate-axes">coordinate axes</term> to describe the locations of all the ordered pairs on the coordinate plane. 
+        The following procedure describes how to correctly draw the coordinate axes and label them.
+      </p>
+      <lemma xml:id="procedure-drawing-coordinate-plane">
+        <title>Drawing a Coordinate Plane</title>
+      <p>
+        <ol>
+           <li>
+             We start by drawing a number line and label it as <m>x</m>. We call this number line the <term xmlns:xi="def-x-axis"><m>x</m>-axis</term>.
+           </li>
+  <li>
+    Next, we draw another number line that intersects the first line at a right angle and label it as <m>y</m>.
+    We call this second number line the <term xmlns:xi="def-y-axis"><m>y</m>-axis</term>.
+  </li>
+  <li>
+    Finally, we label each axis with a scale. The scale does not necessarily have to be the same on each axis.
+  </li>
+  <li>
+    The scales determine the <term xmlns:xi="def-coordinate-grid">coordinate grid</term>, a network of horizontal and vertical lines
+    that helps you determine where points belong on the coordinate plane. Drawing the coordinate grid is
+    optional, but often helpful.
+  </li>
+</ol>
+      </p>
+      </lemma>
+<p>
+  The following figure shows a coordinate plane with the <m>x</m>- and <m>y</m>-axes labeled and a coordinate grid drawn in.
+</p>
+<figure xmlns:xi="graph-coordinate-plane">
+  <caption>The coordinate grid is an optional feature of drawing a coordinate plane.</caption>
+  <sidebyside>
+    <figure xmlns:id="Coordinate-plane-no-grid">
+      <caption>A coordinate plane without a grid</caption>
+       <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_only_standard_labels.png" width="40%">
+        <shortdescription>A coordinate plane without a grid.</shortdescription>
+       </image>
+    </figure>
+    <figure xmlns:xi="coordinate-plane-with-grid">
+      <caption>A coordinate plane with a grid.</caption>
+      <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_only_standard_labels_coordinate_grid.png" width="40%">
+        <shortdescription>A coordinate plane with a grid.</shortdescription>
+      </image>
+    </figure>
+  </sidebyside>
+</figure>
+      <note>
+        <title>Tip</title>
+        <p>When learning how to graph on the coordinate plane, use graph paper to help set up your scale and coordinate grid.</p>
+      </note>
+    </subsubsection>
+
+    <subsubsection xml:id="subsub-origin-and-rectangular-coordinates">
+      <title>The Origin and Rectangular Coordinates</title>
+      <p>
+        One of the most important points on the coordinate plane is the <term xmlns:xi="def-origin">origin</term>, which is represented by the ordered pair <m>(0,0)</m>. 
+        On many coordinate planes, the origin is where the coordinate axes intersect. 
+        But in many real-world problems, the coordinate axes might be visible.  We draw a pair of axes that act as stand-ins for the <m>x</m>- and <m>y</m>-axes, and theses stand-ins will intersect at a point other than the origin. 
+        This can help emphasize patterns in data that would be hidden forced the axes and the origin to always appear in our graph.
+      </p>
+      <figure xml:id="graph-coordinate-plane-standard-and-nonstandard">
+        <caption>Coordinate planes may or may not include the axes and origin in the visible region.</caption>
+        <sidebyside>
+          <figure xml:id="graph-standard-coordinate-plane">
+            <caption>The standard view of the coordinate plane. The axes cross at <m>(0,0)</m>.</caption>
+        <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_only_standard_labels.png">
+          <shortdescription>
+            The axes always cross at the origin (0,0).
+          </shortdescription>
+        </image>
+          </figure>
+          <figure xml:id="graph-nonstandard-coordinate-plane">
+        <caption>A non-standard view of the coordinate plane. The axes cross at <m>(40, 1950)</m>.</caption>
+        <image source="../../../assets/college-algebra/chapter-1-1/nonstandard_axis_cross.png">
+          <shortdescription>
+            The axes cross at (40, 1950) instead of the origin (0,0).
+          </shortdescription>
+        </image>
+      </figure>
+        </sidebyside>
+      </figure>
+      <p>
+        The coordinate plane is often called the <term xmlns:xi="def-rectangular-coordinate-plane">rectangular coordinate plane</term> because the origin and any other point form opposite corners of a rectangle. For example, the point <m>(3,4)</m> refers to rectangle width <m>3</m> on the <m>x</m>-axis and length <m>4</m> on the <m>y</m>-axis. But, the point <m>(4,3)</m> refers to a rectangle with length <m>4</m> on the <m>x</m>-axis and width <m>3</m> on the <m>y</m>-axis. This is why the pairs are ordered. Switching the order of <m>x</m> and <m>y</m> defines a different point on the plane since it defines a different rectangle.
+      </p>
+      <figure xml:id="graph-rectangles-defined-by-points">
+        <caption>Unique points <m>(x,y)</m> define unique rectangles in the plane.</caption>
+        <sidebyside>
+          
+      <figure xml:id="graph-rectangles-defined-by-points-3-4">
+        <caption>The rectangle defined by the point <m>(3,4)</m>.</caption>
+        <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_rectangle_3_4.png">
+          <shortdescription>The point (3,4) defines a rectangle whose opposite corner is the origin.</shortdescription>
+        </image>
+      </figure>
+      <figure xml:id="graph-rectangles-defined-by-points-4-3">
+        <caption>The rectangle defined by the point <m>(4,3)</m>.</caption>
+        <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_rectangle_4_3.png">
+        <shortdescription>The point (4,3) defines a rectangle whose opposite corner is the origin.</shortdescription>
+        </image>
+      </figure>
+      
+        </sidebyside>
+      </figure>
+    </subsubsection>
+
+    <subsubsection xml:id="subsub-quadrants">
+      <title>The Quadrants of a Coordinate Plane</title>
+      <p>
+        When the coordinate axes cross at the origin, they create four subregions called <term xmlns:xi="def-quadrants">quadrants</term>. While quadrants play a minimal role in a course like College Algebra, they are very important in some of the future courses you will take.
+      </p>
+      <definition xml:id="def-quadrants">
+        <title>Quadrants</title>
+        <statement>
+          <p>
+          <ul>
+  <li><term xmlns:xi="def-quadrant-1">Quadrant 1</term> contains all the points to the right of the <m>y</m>-axis (<m>x&gt;0</m>) and above the <m>x</m>-axis (<m>y&gt;0</m>).</li>
+  <li><term xmlns:xi="def-quadrant-2">Quadrant 2</term> contains all the points to the left of the <m>y</m>-axis (<m>x&lt;0</m>) and above the <m>x</m>-axis (<m>y&gt;0</m>).</li>
+  <li><term xmlns:xi="def-quadrant-3">Quadrant 3</term> contains all the points to the left of the <m>y</m>-axis (<m>x&lt;0</m>) and below the <m>x</m>-axis (<m>y&lt;0</m>).</li>
+  <li><term xmlns:xi="def-quadrant-4">Quadrant 4</term> contains all the points to the right of the <m>y</m>-axis (<m>x&gt;0</m>) and below the <m>x</m>-axis (<m>y&lt;0</m>).</li>
+</ul></p>
+        </statement>
+      </definition>
+      <figure xml:id="graph-quadrants">
+  <caption>The Quadrants of the Coordinate Plane. 
+    Quadrant 1 is where <m>x>0</m> and <m>y>0</m>. 
+    Quadrant 2 is where <m>x&lt;0</m> and <m>y>0</m>.
+    Quadrant 3 is where <m>x&lt;0</m> and <m>y&lt;0</m>.
+    Quadrant 4 is where <m>x>0</m> and <m>y&lt;0</m>. 
+  </caption>
+  <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_only_quadrants.png" width="40%">
+    <shortdescription>The four quadrants of the coordinate plane.</shortdescription>
+  </image>  
+      </figure>
+      <note>
+        <p>
+          Note: If a point lies on either the <m>x</m>- or <m>y</m>-axis, then it is an intercept and is not part of any quadrant. We will learn more about intercepts in <xref ref="chapter2-10"/>.
+        </p>
+      </note>
+      <example xml:id="example-identify-quadrants">
+        <title>Determine In Which Quadrant a Point Lies</title>
+        <statement>
+          <p>Consider the following coordinate plane with a standard scale and the points labeled <m>A</m> through <m>H</m>. Determine which quadrant each point lies in.</p>
+          <figure xml:id="graph-quadrants-example">
+            <caption>Points: <m>A=(1,1)</m>, <m>B=(-3,2)</m>, <m>C=(4,-3)</m>, <m>D=(-1.5,-2.25)</m>, <m>E=(-3.75,4.44)</m>, <m>F=(2,-1)</m>, <m>G=(-4,-1)</m>, <m>H=(3,3)</m>.</caption>
+            <image source="../../../assets/college-algebra/chapter-1-1/example_1_1_3.png" width="40%">
+              <shortdescription>A coordinate plane with points A through H labeled.</shortdescription>
+            </image>
+          </figure>
+        </statement>
+        <solution>
+          <p>Points <m>A</m> and <m>H</m> are in Quadrant 1.</p>
+          <p>Points <m>B</m> and <m>E</m> are in Quadrant 2.</p>
+          <p>Points <m>D</m> and <m>G</m> are in Quadrant 3.</p>
+          <p>Points <m>C</m> and <m>F</m> are in Quadrant 4.</p>
+        </solution>
+      </example>
+    </subsubsection>
+  </subsection>
+</section>

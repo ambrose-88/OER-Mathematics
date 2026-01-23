@@ -1,0 +1,239 @@
+<section xml:id="properties-exponential-functions">
+    <title>The Properties of Exponential Functions</title>
+        <theorem xml:id="thm-exponential-functions-a-gt-1">
+            <title>Exponential Functions with <m>a &gt; 1</m></title>
+            <statement>
+                <p>
+                    Let <m>f(x) = a^x</m> be an exponential function where <m>a &gt; 1</m>. The graph of <m>f</m> has the following properties:
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>\left( -\infty, \infty \right)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Range: <m>\left( 0, \infty \right)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>y</m>-intercept: <m>(0, 1)</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                End Behavior:
+                                <ul>
+                                    <li>
+                                        <p>
+                                            As <m>x \to \infty, f(x) \to \infty</m>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            As <m>x \to -\infty, f(x) \to 0</m>. This implies the <m>x</m>-axis is a horizontal asymptote.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The function is increasing on <m>\left( -\infty, \infty \right)</m>.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                <figure xml:id="fig-graph-exp-a-gt-1">
+                        <caption>The graph of <m>f(x) = a^x</m> where <m>a &gt; 1</m>. 
+                            The sample points <m>(-2, \frac{1}{a^2})</m>, <m>(-1, \frac{1}{a})</m>, <m>(0, 1)</m>, <m>(1, a)</m>, and <m>(2, a^2)</m> are plotted.</caption>
+                            <image source="../../../assets/college-algebra/chapter-8/graph-exp-a-gt-1.png" width="50%" decorative="yes"/>
+                    </figure>   
+            </statement>
+        </theorem>
+        <example xml:id="example-graph-exp-a-gt-1">
+            <title>Graphing an Exponential Function with <m>a &gt; 1</m></title>
+            <statement>
+                <p>
+                    Graph <m>f(x) = 2^x</m>.
+                </p>
+            </statement>
+            <answer>
+                <figure xml:id="fig-graph-exp-2-x">
+                    <caption>The graph of <m>f(x) = 2^x</m>. 
+                        The sample points <m>(-2, \frac{1}{4})</m>, <m>(-1, \frac{1}{2})</m>, <m>(0, 1)</m>, <m>(1, 2)</m>, and <m>(2, 4)</m> are plotted.</caption>
+                        <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-x.png" width="50%" decorative="yes"/>
+                </figure>
+            </answer>
+            <solution>
+                <p>
+                    As long as you know your powers of the base and the properties of exponential functions, you can plot points and sketch the graph of any rational function.
+                    The following table gives some sample points for when <m>a=2</m>
+                </p>
+                <table>
+                    <title>Sample Points for <m>f(x)=2^x</m></title>
+                    <tabular>
+                        <row header="yes">
+                            <cell><m>x</m></cell>
+                            <cell><m>2^x</m></cell>
+                            <cell>Point</cell>
+                        </row>
+                        <row>
+                            <cell><m>-2</m></cell>
+                            <cell><m>\frac{1}{4}</m></cell>
+                            <cell><m>\left( -2, \frac{1}{4} \right)</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>-1</m></cell>
+                            <cell><m>\frac{1}{2}</m></cell>
+                            <cell><m>\left( -1, \frac{1}{2} \right)</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>0</m></cell>
+                            <cell><m>1</m></cell>
+                            <cell><m>(0, 1)</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>1</m></cell>
+                            <cell><m>2</m></cell>
+                            <cell><m>(1, 2)</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>2</m></cell>
+                            <cell><m>4</m></cell>
+                            <cell><m>(2, 4)</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                <p>First, we plot these five points on the coordinate plane.</p>
+                <figure xml:id="fig-graph-exp-2-x-points-only">
+                    <caption>The sample points <m>(-2, \frac{1}{4})</m>, <m>(-1, \frac{1}{2})</m>, <m>(0, 1)</m>, <m>(1, 2)</m>, and <m>(2, 4)</m> plotted on the coordinate plane.</caption>
+                    <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-x-points.png" width="50%" decorative="yes"/>
+                </figure>
+                <p>Next, we draw a curve through the points, making sure the graph will approach but never reach the <m>x</m>-axis as <m>x\rightarrow -\infty</m>.</p>
+                <figure xml:id="fig-graph-exp-2-x-complete">
+                    <caption>The graph of <m>f(x) = 2^x</m> and its sample points <m>(-2, \frac{1}{4})</m>, <m>(-1, \frac{1}{2})</m>, <m>(0, 1)</m>, <m>(1, 2)</m>, and <m>(2, 4)</m> are plotted.</caption>
+                        <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-x.png" width="50%" decorative="yes"/>
+                </figure>
+            </solution>
+        </example>
+        <theorem xml:id="thm-exponential-functions-a-lt-1">
+            <title>Exponential Functions with <m>0 &lt; a &lt; 1</m></title>
+            <statement>
+                <p>
+                    Let <m>f(x) = a^x</m> be an exponential function where <m>0 &lt; a &lt; 1</m>. The graph of <m>f</m> has the following properties:
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>\left( -\infty, \infty \right)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Range: <m>\left( 0, \infty \right)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>y</m>-intercept: <m>(0, 1)</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                End Behavior:
+                                <ul>
+                                    <li>
+                                        <p>
+                                            As <m>x \to \infty, f(x) \to 0</m>. This implies the <m>x</m>-axis is a horizontal asymptote.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            As <m>x \to -\infty, f(x) \to \infty</m>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The function is decreasing on <m>\left( -\infty, \infty \right)</m>.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                <figure xml:id="fig-graph-exp-a-lt-1">
+                        <caption>The graph of <m>f(x) = a^x</m> where <m>0 &lt; a &lt; 1</m>. 
+                            The sample points <m>(-2, \frac{1}{a^2})</m>, <m>(-1, \frac{1}{a})</m>, <m>(0, 1)</m>, <m>(1, a)</m>, and <m>(2, a^2)</m> are plotted.</caption>
+                            <image source="../../../assets/college-algebra/chapter-8/graph-exp-a-lt-1.png" width="50%" decorative="yes"/>
+                    </figure>   
+            </statement>
+        </theorem>
+        <example xml:id="example-graph-exp-2-negx">
+            <title>Graphing an Exponential Function with <m>0 &lt; a &lt; 1</m></title>
+            <statement>
+                <p>
+                    Graph <m>f(x) = \left( \frac{1}{2} \right)^x</m>.
+                </p>
+            </statement>
+            <answer>
+                <figure xml:id="fig-graph-exp-2-negx-lt-1">
+                    <caption>The graph of <m>f(x) = \left( \frac{1}{2} \right)^x</m>. 
+                        The sample points <m>(-2, 4)</m>, <m>(-1, 2)</m>, <m>(0, 1)</m>, <m>(1, \frac{1}{2})</m>, and <m>(2, \frac{1}{4})</m> are plotted.</caption>
+                        <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-negx.png" width="50%" decorative="yes"/>
+                </figure>
+            </answer>
+            <solution>
+                <p>
+                    As long as you know your powers of the base and the properties of exponential functions, you can plot points and sketch the graph of any rational function.
+                    The following table gives some sample points for when <m>a=\frac{1}{2}</m>
+                </p>
+                <table>
+                    <title>Sample Points for <m>f(x)=\left( \frac{1}{2} \right)^x</m></title>
+                    <tabular>
+                        <row header="yes">
+                            <cell><m>x</m></cell>
+                            <cell><m>\left( \frac{1}{2} \right)^x</m></cell>
+                            <cell>Point</cell>
+                        </row>
+                        <row>
+                            <cell><m>-2</m></cell>
+                            <cell><m>4</m></cell>
+                            <cell><m>(-2, 4)</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>-1</m></cell>
+                            <cell><m>2</m></cell>
+                            <cell><m>(-1, 2)</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>0</m></cell>
+                            <cell><m>1</m></cell>
+                            <cell><m>(0, 1)</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>1</m></cell>
+                            <cell><m>\frac{1}{2}</m></cell>
+                            <cell><m>\left( 1, \frac{1}{2} \right)</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>2</m></cell>
+                            <cell><m>\frac{1}{4}</m></cell>
+                            <cell><m>\left( 2, \frac{1}{4} \right)</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                <p>First, we plot these five points on the coordinate plane.</p>
+                <figure xml:id="fig-graph-exp-2-negx-lt-1-points-only">
+                    <caption>The sample points <m>(-2, 4)</m>, <m>(-1, 2)</m>, <m>(0, 1)</m>, <m>(1, \frac{1}{2})</m>, and <m>(2, \frac{1}{4})</m> plotted on the coordinate plane.</caption>
+                    <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-negx-points.png" width="50%" decorative="yes"/>
+                </figure>
+                <p>Next, we draw a curve through the points, making sure the graph will approach but never reach the <m>x</m>-axis as <m>x\rightarrow \infty</m>.</p>
+                <figure xml:id="fig-graph-exp-2-negx-lt-1-complete">
+                    <caption>The graph of <m>f(x) = \left( \frac{1}{2} \right)^x</m> and its sample points <m>(-2, 4)</m>, <m>(-1, 2)</m>, <m>(0, 1)</m>, <m>(1, \frac{1}{2})</m>, and <m>(2, \frac{1}{4})</m> are plotted.</caption>
+                        <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-negx.png" width="50%" decorative="yes"/>
+                </figure>
+            </solution>
+        </example>
+</section>
