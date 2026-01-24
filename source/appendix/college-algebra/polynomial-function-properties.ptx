@@ -85,7 +85,7 @@
               </ul>
             </p>
           </caption>
-          <image source="../../assets/college-algebra/chapter-5/odd_positive_end_behavior.png" width="10%">
+          <image source="../../../assets/college-algebra/chapter-5/odd_positive_end_behavior.png" width="10%">
             <shortdescription>The graph of an odd degree polynomial with positive leading coefficient.</shortdescription>
           </image>
         </figure>
@@ -101,7 +101,7 @@
               </ul>
             </p>
           </caption>
-          <image source="../../assets/college-algebra/chapter-5/odd_negative_end_behavior.png" width="10%">
+          <image source="../../../assets/college-algebra/chapter-5/odd_negative_end_behavior.png" width="10%">
             <shortdescription>The graph of an odd degree polynomial with negative leading coefficient.</shortdescription>
           </image>
         </figure>
@@ -124,7 +124,7 @@
               </ul>
             </p>
           </caption>
-          <image source="../../assets/college-algebra/chapter-5/even_positive_end_behavior.png" width="10%">
+          <image source="../../../assets/college-algebra/chapter-5/even_positive_end_behavior.png" width="10%">
             <shortdescription>The graph of an even degree polynomial with positive leading coefficient.</shortdescription>
           </image>
         </figure>
@@ -140,7 +140,7 @@
               </ul>
             </p>
           </caption>
-          <image source="../../assets/college-algebra/chapter-5/even_negative_end_behavior.png" width="10%">
+          <image source="../../../assets/college-algebra/chapter-5/even_negative_end_behavior.png" width="10%">
             <shortdescription>The graph of an even degree polynomial with negative leading coefficient.</shortdescription>
           </image>
         </figure>
@@ -252,12 +252,12 @@
       <sidebyside>
         <figure>
           <caption>The graph can either cross from upper left to lower right.</caption>
-          <image source="../../assets/college-algebra/chapter-5/m_1_positive.png" decorative="yes" />
+          <image source="../../../assets/college-algebra/chapter-5/m_1_positive.png" decorative="yes" />
         </figure>
 
         <figure>
           <caption>Or the graph can cross from lower left to upper right.</caption>
-          <image source="../../assets/college-algebra/chapter-5/m_1_negative.png" decorative="yes" />
+          <image source="../../../assets/college-algebra/chapter-5/m_1_negative.png" decorative="yes" />
         </figure>
       </sidebyside>
     </figure>
@@ -269,14 +269,14 @@
           <caption>
             The graph can either cross from upper left to lower right while flattening at <m>(c, 0)</m>.
           </caption>
-          <image source="../../assets/college-algebra/chapter-5/m_odd_positive.png" decorative="yes" />
+          <image source="../../../assets/college-algebra/chapter-5/m_odd_positive.png" decorative="yes" />
         </figure>
 
         <figure>
           <caption>
             Or the graph can cross from lower left to upper right while flattening at <m>(c, 0)</m>.
           </caption>
-          <image source="../../assets/college-algebra/chapter-5/m_odd_negative.png" decorative="yes" />
+          <image source="../../../assets/college-algebra/chapter-5/m_odd_negative.png" decorative="yes" />
         </figure>
       </sidebyside>
     </figure>
@@ -286,12 +286,12 @@
       <sidebyside>
         <figure>
           <caption>Bounce off the <m>x</m>-axis at <m>(c, 0)</m> from above.</caption>
-          <image source="../../assets/college-algebra/chapter-5/m_even_above.png" decorative="yes" />
+          <image source="../../../assets/college-algebra/chapter-5/m_even_above.png" decorative="yes" />
         </figure>
 
         <figure>
           <caption>Bounce off the <m>x</m>-axis at <m>(c, 0)</m> from below.</caption>
-          <image source="../../assets/college-algebra/chapter-5/m_even_below.png" decorative="yes" />
+          <image source="../../../assets/college-algebra/chapter-5/m_even_below.png" decorative="yes" />
         </figure>
       </sidebyside>
     </figure>

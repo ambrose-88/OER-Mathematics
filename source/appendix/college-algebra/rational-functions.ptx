@@ -84,7 +84,7 @@
       <cell><m>x \to a^{-}</m></cell>
       <cell>x approaches a from the left.</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/arrow_left.png">
+        <image source="../../../assets/college-algebra/chapter-6/arrow_left.png">
           <shortdescription>Example of a function that only approaches x = 2 from the left.</shortdescription>
         </image>
       </cell>
@@ -94,7 +94,7 @@
       <cell><m>x \to a^{+}</m></cell>
       <cell>x approaches a from the right.</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/arrow_right.png">
+        <image source="../../../assets/college-algebra/chapter-6/arrow_right.png">
           <shortdescription>Example of a function that only approaches x = 2 from the right.</shortdescription>
         </image>
       </cell>
@@ -104,7 +104,7 @@
       <cell><m>x \to a</m></cell>
       <cell>x approaches a (from both the left and right).</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/arrow_left_right.png">
+        <image source="../../../assets/college-algebra/chapter-6/arrow_left_right.png">
           <shortdescription>Function that approaches x = 2 from the left and from the right.</shortdescription>
         </image>
       </cell>
@@ -114,7 +114,7 @@
       <cell><m>x \to -\infty</m></cell>
       <cell>x approaches negative infinity.</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/arrow_x_neg_infinity.png">
+        <image source="../../../assets/college-algebra/chapter-6/arrow_x_neg_infinity.png">
           <shortdescription>An example where x approaches negative infinity.</shortdescription>
         </image>
       </cell>
@@ -124,7 +124,7 @@
       <cell><m>x \to \infty</m></cell>
       <cell>x approaches (positive) infinity.</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/arrow_x_pos_infinity.png">
+        <image source="../../../assets/college-algebra/chapter-6/arrow_x_pos_infinity.png">
           <shortdescription>An example where x approaches positive infinity.</shortdescription>
         </image>
       </cell>
@@ -145,7 +145,7 @@
       <cell><m>y \to b</m></cell>
       <cell>y approaches b.</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/arrow_y_b.png">
+        <image source="../../../assets/college-algebra/chapter-6/arrow_y_b.png">
           <shortdescription>Example of a function that approaches y = 2.</shortdescription>
         </image>
       </cell>
@@ -155,7 +155,7 @@
       <cell><m>y \to -\infty</m></cell>
       <cell>y approaches negative infinity.</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/arrow_y_neg_infinity.png">
+        <image source="../../../assets/college-algebra/chapter-6/arrow_y_neg_infinity.png">
           <shortdescription>An example where y approaches negative infinity.</shortdescription>
         </image>
       </cell>
@@ -165,7 +165,7 @@
       <cell><m>y \to \infty</m></cell>
       <cell>y approaches (positive) infinity.</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/arrow_y_pos_infinity.png">
+        <image source="../../../assets/college-algebra/chapter-6/arrow_y_pos_infinity.png">
           <shortdescription>An example where y approaches positive infinity.</shortdescription>
         </image>
       </cell>
@@ -196,7 +196,7 @@
     <row>
       <cell><m>y \to \infty</m> as <m>x \to a^{+}</m></cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/vertical_asymptote_up_right.png">
+        <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_up_right.png">
           <shortdescription>y approaches infinity when x approaches a from the right.</shortdescription>
         </image>
       </cell>
@@ -205,7 +205,7 @@
     <row>
       <cell><m>y \to \infty</m> as <m>x \to a^{-}</m></cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/vertical_asymptote_up_left.png">
+        <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_up_left.png">
           <shortdescription>y approaches infinity when x approaches a from the left.</shortdescription>
         </image>
       </cell>
@@ -214,7 +214,7 @@
     <row>
       <cell><m>y \to -\infty</m> as <m>x \to a^{+}</m></cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/vertical_asymptote_down_right.png">
+        <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_down_right.png">
           <shortdescription>y approaches negative infinity when x approaches a from the right.</shortdescription>
         </image>
       </cell>
@@ -223,7 +223,7 @@
     <row bottom="major">
       <cell><m>y \to -\infty</m> as <m>x \to a^{-}</m></cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/vertical_asymptote_down_left.png">
+        <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_down_left.png">
           <shortdescription>y approaches negative infinity when x approaches a from the left.</shortdescription>
         </image>
       </cell>
@@ -278,11 +278,11 @@
   <sidebyside>
     <figure>
       <caption>The graph of <m>r(x)=\frac{1}{x+1}</m> crosses from <m>-\infty</m> to <m>+\infty</m> at <m>x=-1</m>.</caption>
-      <image source="../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_odd_1.png" decorative="yes" width="40%"/>
+      <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_odd_1.png" decorative="yes" width="40%"/>
     </figure>
     <figure>
       <caption>The graph of <m>r(x)=-\frac{1}{x+1}</m> crosses from <m>+\infty</m> to <m>-\infty</m> at <m>x=-1</m>.</caption>
-      <image source="../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_odd_2.png" decorative="yes" width="40%"/>
+      <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_odd_2.png" decorative="yes" width="40%"/>
     </figure>
   </sidebyside>
 </figure>
@@ -294,11 +294,11 @@
   <sidebyside>
     <figure>
       <caption>The graph of <m>r(x)=\frac{1}{(x+1)^2}</m> bounces off <m>+\infty</m> at <m>x=-1</m>.</caption>
-      <image source="../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_even_1.png" decorative="yes" width="40%"/>
+      <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_even_1.png" decorative="yes" width="40%"/>
     </figure>
     <figure>
       <caption>The graph of <m>r(x)=-\frac{1}{(x+1)^2}</m> bounces off <m>-\infty</m> at <m>x=-1</m>.</caption>
-      <image source="../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_even_2.png" decorative="yes" width="40%"/>
+      <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_even_2.png" decorative="yes" width="40%"/>
     </figure>
   </sidebyside>
 </figure>
@@ -334,7 +334,7 @@
           <cell><m>n &lt; m</m></cell>
           <cell>The line <m>x=c</m> is a vertical asymptote.</cell>
           <cell>
-            <image source="../../assets/college-algebra/chapter-6/hole_0.png">
+            <image source="../../../assets/college-algebra/chapter-6/hole_0.png">
               <shortdescription>Zero of the denominator produces a vertical asymptote.</shortdescription>
             </image>
           </cell>
@@ -344,7 +344,7 @@
           <cell><m>n = m</m></cell>
           <cell>There is a hole at the point <m>\left(c,\dfrac{p(c)}{q(c)}\right)</m>.</cell>
           <cell>
-            <image source="../../assets/college-algebra/chapter-6/hole_1.png">
+            <image source="../../../assets/college-algebra/chapter-6/hole_1.png">
               <shortdescription>Zero of the denominator produces a non–x-axis hole.</shortdescription>
             </image>
           </cell>
@@ -354,7 +354,7 @@
           <cell><m>n &gt; m</m></cell>
           <cell>There is a hole at the point <m>(c,0)</m>.</cell>
           <cell>
-            <image source="../../assets/college-algebra/chapter-6/hole_2.png">
+            <image source="../../../assets/college-algebra/chapter-6/hole_2.png">
               <shortdescription>Hole occurs where an x-intercept would be; even multiplicity gives a bounce.</shortdescription>
             </image>
           </cell>
@@ -402,7 +402,7 @@
     <row>
       <cell><m>y \to b</m> as <m>x \to \infty</m></cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/horizontal_asymptote_right_below.png">
+        <image source="../../../assets/college-algebra/chapter-6/horizontal_asymptote_right_below.png">
           <shortdescription>Approach b from below as x approaches infinity.</shortdescription>
         </image>
       </cell>
@@ -410,7 +410,7 @@
     <row bottom="major">
       <cell><m>y \to b</m> as <m>x \to -\infty</m></cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/horizontal_asymptote_left_above.png">
+        <image source="../../../assets/college-algebra/chapter-6/horizontal_asymptote_left_above.png">
           <shortdescription>Approach b from above as x approaches negative infinity.</shortdescription>
         </image>
       </cell>
@@ -418,7 +418,7 @@
     <row>
       <cell><m>y \to b</m> as <m>x \to \pm\infty</m></cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/arrow_y_b.png">
+        <image source="../../../assets/college-algebra/chapter-6/arrow_y_b.png">
           <shortdescription>Approach the same horizontal line in both directions.</shortdescription>
         </image>
       </cell>
@@ -443,7 +443,7 @@
     <row bottom="major">
       <cell><m>y \to mx+b</m> as <m>x \to \pm\infty</m></cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/oblique asymptote.png">
+        <image source="../../../assets/college-algebra/chapter-6/oblique asymptote.png">
           <shortdescription>Function approaching a slant line as x approaches positive or negative infinity.</shortdescription>
         </image>
       </cell>
@@ -468,7 +468,7 @@
     <row>
       <cell><m>y \to g(x)</m> as <m>x \to \pm\infty</m></cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/nonlinear asymptote_qudratic.png">
+        <image source="../../../assets/college-algebra/chapter-6/nonlinear asymptote_qudratic.png">
           <shortdescription>Approach a quadratic curve as x approaches positive or negative infinity.</shortdescription>
         </image>
       </cell>
@@ -476,7 +476,7 @@
     <row bottom="major">
       <cell></cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/nonlinear asymptote_cubic_2.png">
+        <image source="../../../assets/college-algebra/chapter-6/nonlinear asymptote_cubic_2.png">
           <shortdescription>Approach a cubic curve as x approaches positive or negative infinity.</shortdescription>
         </image>
       </cell>
@@ -505,7 +505,7 @@
       <cell>Horizontal</cell>
       <cell>Line <m>y=0</m> (the x-axis).</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/end_behavior_1.png">
+        <image source="../../../assets/college-algebra/chapter-6/end_behavior_1.png">
           <shortdescription>Degree denominator &gt; degree numerator (case 1).</shortdescription>
         </image>
       </cell>
@@ -515,7 +515,7 @@
       <cell></cell>
       <cell></cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/end_behavior_2.png">
+        <image source="../../../assets/college-algebra/chapter-6/end_behavior_2.png">
           <shortdescription>Degree denominator &gt; degree numerator (case 2).</shortdescription>
         </image>
       </cell>
@@ -525,7 +525,7 @@
       <cell>Horizontal</cell>
       <cell>Line <m>y=\dfrac{a_n}{b_m}</m>.</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/arrow_y_b.png">
+        <image source="../../../assets/college-algebra/chapter-6/arrow_y_b.png">
           <shortdescription>Approach constant ratio as x approaches plus or minus infinity.</shortdescription>
         </image>
       </cell>
@@ -535,7 +535,7 @@
       <cell>Oblique</cell>
       <cell>Use polynomial long division.</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/oblique asymptote.png">
+        <image source="../../../assets/college-algebra/chapter-6/oblique asymptote.png">
           <shortdescription>Slant asymptote from the division quotient.</shortdescription>
         </image>
       </cell>
@@ -545,7 +545,7 @@
       <cell>Nonlinear</cell>
       <cell>Use polynomial long division.</cell>
       <cell>
-        <image source="../../assets/college-algebra/chapter-6/nonlinear asymptote_qudratic.png">
+        <image source="../../../assets/college-algebra/chapter-6/nonlinear asymptote_qudratic.png">
           <shortdescription>Nonlinear (e.g., quadratic) asymptote.</shortdescription>
         </image>
       </cell>

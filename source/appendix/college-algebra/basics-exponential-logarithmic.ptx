@@ -56,7 +56,7 @@
         The graph of <m>f(x) = a^x</m> where <m>a &gt; 1</m>. 
         The sample points <m>(-2, \frac{1}{a^2})</m>, <m>(-1, \frac{1}{a})</m>, <m>(0, 1)</m>, <m>(1, a)</m>, and <m>(2, a^2)</m> are plotted.
       </caption>
-      <image source="../../assets/college-algebra/chapter-8/graph-exp-a-gt-1.png" width="50%" decorative="yes">
+      <image source="../../../assets/college-algebra/chapter-8/graph-exp-a-gt-1.png" width="50%" decorative="yes">
         <shortdescription>Graph of f(x)=a^x for a&gt;1</shortdescription>
       </image>
     </figure>
@@ -100,7 +100,7 @@
         The graph of <m>f(x) = a^x</m> where <m>0 &lt; a &lt; 1</m>. 
         The sample points <m>(-2, \frac{1}{a^2})</m>, <m>(-1, \frac{1}{a})</m>, <m>(0, 1)</m>, <m>(1, a)</m>, and <m>(2, a^2)</m> are plotted.
       </caption>
-      <image source="../../assets/college-algebra/chapter-8/graph-exp-a-lt-1.png" width="50%" decorative="yes">
+      <image source="../../../assets/college-algebra/chapter-8/graph-exp-a-lt-1.png" width="50%" decorative="yes">
         <shortdescription>Graph of f(x)=a^x for 0&lt;a&lt;1</shortdescription>
       </image>
     </figure>
@@ -137,7 +137,7 @@
                     The graph of the natural exponential function <m>y=\exp(x)</m>. 
                     The graph of <m>y = 2^x</m> is shown as a red, dashed curve, and <m>y=3^x</m> is shown as a blue, dashed curve for comparison.
                 </caption>
-                <image source="../../assets/college-algebra/chapter-8/graph-exp-e.png" width="50%" decorative="yes"/>
+                <image source="../../../assets/college-algebra/chapter-8/graph-exp-e.png" width="50%" decorative="yes"/>
             </figure>
     </statement>
 </definition>

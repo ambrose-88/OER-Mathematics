@@ -7,13 +7,13 @@
     <sidebyside>
         <figure>
             <caption>The parabola opens upwards when a &gt; 0</caption>
-            <image source="../../assets/college-algebra/chapter-4-13/upwards-parabola.png">
+            <image source="../../../assets/college-algebra/chapter-4-13/upwards-parabola.png">
                 <shortdescription>The graph of f(x) = x^2 + 4x + 5</shortdescription>
             </image>
         </figure>
         <figure>
             <caption>The parabola opens downwards when a &lt; 0</caption>
-            <image source="../../assets/college-algebra/chapter-4-13/downwards-parabola.png">
+            <image source="../../../assets/college-algebra/chapter-4-13/downwards-parabola.png">
                 <shortdescription>The graph of f(x) = -x^2 + 2x + 1</shortdescription>
             </image>
         </figure>
@@ -128,14 +128,14 @@
       <sidebyside>
         <figure>
           <title>An upwards-facing parabola.</title>
-          <image source="../../assets/college-algebra/chapter-4-14/labeled-upwards-parabola.png" width="40%">
+          <image source="../../../assets/college-algebra/chapter-4-14/labeled-upwards-parabola.png" width="40%">
             <shortdescription>A labeled, upwards-facing parabola with vertex and axis of symmetry.</shortdescription>
           </image>
         </figure>
 
         <figure>
           <title>A downwards-facing parabola.</title>
-          <image source="../../assets/college-algebra/chapter-4-14/labeled-downwards-parabola.png" width="40%">
+          <image source="../../../assets/college-algebra/chapter-4-14/labeled-downwards-parabola.png" width="40%">
             <shortdescription>A labeled, downwards-facing parabola with vertex and axis of symmetry.</shortdescription>
           </image>
         </figure>
@@ -223,7 +223,7 @@
     </p>
         <figure>
           <caption>The point <m>(0,3)</m> with two dashed lined connecting to the parabola <m>y=x^2</m>. Both of the points on the parabola are the closest to <m>(0,3)</m>.</caption>
-          <image source="../../assets/college-algebra/chapter-4-15/example-closest-points.png" width="50%" decorative="yes"/>
+          <image source="../../../assets/college-algebra/chapter-4-15/example-closest-points.png" width="50%" decorative="yes"/>
         </figure>
   </statement>
 </exercise>
@@ -249,7 +249,7 @@
     </p>
         <figure>
           <caption>The trajectory of the soccer ball showing the maximum height point.</caption>
-          <image source="../../assets/college-algebra/chapter-4-15/example-projectile-path-parabola.png" width="40%">
+          <image source="../../../assets/college-algebra/chapter-4-15/example-projectile-path-parabola.png" width="40%">
             <shortdescription>Parabolic path of a soccer ball reaching a peak before descending.</shortdescription>
           </image>
         </figure>
