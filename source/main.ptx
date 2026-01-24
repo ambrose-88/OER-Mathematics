@@ -12,16 +12,18 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Part 1: Review of Arithmetic -->
-    <!-- <part xml:id="review-arithmetic">
+    <part xml:id="review-arithmetic">
       <title>Review of Arithmetic</title>
       
-    </part> -->
+      <xi:include href="./review-arithmetic/chapter-1/chapter1.ptx" />
+    </part>
 
     <!-- Part 2: Intermediate Algebra -->
-    <!-- <part xml:id="intermediate-algebra">
+    <part xml:id="intermediate-algebra">
       <title>Intermediate Algebra</title>
       
-    </part> -->
+      <xi:include href="./intermediate-algebra/chapter-1/chapter1.ptx" />
+    </part>
 
     <!-- Part 3: College Algebra -->
     <part xml:id="college-algebra">
@@ -40,34 +42,39 @@
     </part>
 
     <!-- Part 4: Trigonometry -->
-    <!-- <part xml:id="trigonometry">
+    <part xml:id="trigonometry">
       <title>Trigonometry</title>
       
-    </part> -->
+      <xi:include href="./trigonometry/chapter-1/chapter1.ptx" />
+    </part>
 
     <!-- Part 5: Calculus 1 -->
-    <!-- <part xml:id="calculus-1">
+    <part xml:id="calculus-1">
       <title>Calculus 1</title>
       
-    </part> -->
+      <xi:include href="./calculus-1/chapter-1/chapter1.ptx" />
+    </part>
 
     <!-- Part 6: Calculus 2 -->
-    <!-- <part xml:id="calculus-2">
+    <part xml:id="calculus-2">
       <title>Calculus 2</title>
       
-    </part> -->
+      <xi:include href="./calculus-2/chapter-1/chapter1.ptx" />
+    </part>
 
     <!-- Part 7: Calculus 3 -->
-    <!-- <part xml:id="calculus-3">
+    <part xml:id="calculus-3">
       <title>Calculus 3</title>
       
-    </part> -->
+      <xi:include href="./calculus-3/chapter-1/chapter1.ptx" />
+    </part>
 
     <!-- Part 8: Statistics -->
-    <!-- <part xml:id="statistics">
+    <part xml:id="statistics">
       <title>Statistics</title>
       
-    </part> -->
+      <xi:include href="./statistics/chapter-1/chapter1.ptx" />
+    </part>
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
