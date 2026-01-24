@@ -179,7 +179,7 @@
                   We will now draw each domain separately:</p>
         <figure xml:id="figure-4-domains-of-functions">
           <caption>The domains of <m>f(x)=\frac{1}{x}</m> and <m>g(x)=\sqrt{2-x}</m> graphed on the number line.</caption>
-          <image source="../../../assets/college-algebra/chapter-7/arithmetic-operations-domains-functions-1.png" width="50%">
+          <image source="college-algebra/chapter-7/arithmetic-operations-domains-functions-1.png" width="50%">
                     <shortdescription>The graphs of x&#8800;0 and x&#8804;2, where the graph of x&#8800;0 is drawn above the graph of x&#8804;2.</shortdescription>
           </image>
         </figure>
@@ -192,7 +192,7 @@
           The graph of the domain is shown in the following figure:</p>
           <figure xml:id="figure-4-domains-of-functions-1">
           <caption>The domain of <m>f+g</m>, <m>f-g</m>, and <m>fg</m> graphed on the number line.</caption>
-          <image source="../../../assets/college-algebra/chapter-7/arithmetic-operations-domains-functions-2.png" width="50%" decorative="yes"/>
+          <image source="college-algebra/chapter-7/arithmetic-operations-domains-functions-2.png" width="50%" decorative="yes"/>
         </figure>
         <p>In interval notation, the domain for <m>f+g</m>, <m>f-g</m>, and <m>fg</m> is <m>(-\infty,0)\cup(0,2]</m>.</p>.
         <p>To find the domain of <m>\frac{f}{g}</m>, we need use use the same domain as <m>f+g</m>, <m>f-g</m>, and <m>fg</m> but exclude any values of <m>x</m> that make <m>g(x)=0</m>.
@@ -200,7 +200,7 @@
           The updated graph for <m>\frac{f}{g}</m> is given in the following graph:</p>
           <figure xml:id="figure-4-domains-of-functions-2">
           <caption>The domain of <m>\frac{f}{g}</m> graphed on the number line.</caption>
-          <image source="../../../assets/college-algebra/chapter-7/arithmetic-operations-domains-functions-3.png" width="50%" decorative="yes"/>
+          <image source="college-algebra/chapter-7/arithmetic-operations-domains-functions-3.png" width="50%" decorative="yes"/>
         </figure>
         <p>In interval notation, the domain for <m>\frac{f}{g}</m> is <m>(-\infty,0)\cup(0,2)</m>.</p>
       </solution>

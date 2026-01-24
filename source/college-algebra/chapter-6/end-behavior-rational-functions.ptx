@@ -24,7 +24,7 @@
       <row>
         <cell><m>y \to b</m> as <m>x \to \infty</m></cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/horizontal_asymptote_right_below.png">
+          <image source="college-algebra/chapter-6/horizontal_asymptote_right_below.png">
             <shortdescription>Approach b from below as x approaches infinity.</shortdescription>
           </image>
         </cell>
@@ -32,7 +32,7 @@
       <row>
         <cell><m>y \to b</m> as <m>x \to -\infty</m></cell>\
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/horizontal_asymptote_left_above.png">
+          <image source="college-algebra/chapter-6/horizontal_asymptote_left_above.png">
             <shortdescription>Approach b from above as x as approaches negative infinity.</shortdescription>
           </image>
         </cell>
@@ -40,7 +40,7 @@
       <row>
         <cell><m>y \to b</m> as <m>x \to \pm\infty</m></cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/arrow_y_b.png">
+          <image source="college-algebra/chapter-6/arrow_y_b.png">
             <shortdescription>Approach the same horizontal line in both directions.</shortdescription>
           </image>
         </cell>
@@ -64,7 +64,7 @@
       <row>
         <cell><m>y \to mx+b</m> as <m>x \to \pm\infty</m></cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/oblique asymptote.png">
+          <image source="college-algebra/chapter-6/oblique asymptote.png">
             <shortdescription>Function approaching a slant line as x approaches positive or negative infinity.</shortdescription>
           </image>
         </cell>
@@ -88,7 +88,7 @@
       <row>
         <cell><m>y \to g(x)</m> as <m>x \to \pm\infty</m></cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/nonlinear asymptote_qudratic.png">
+          <image source="college-algebra/chapter-6/nonlinear asymptote_qudratic.png">
             <shortdescription>Approach a quadratic curve as x approaches positive or negative infinity.</shortdescription>
           </image>
         </cell>
@@ -96,7 +96,7 @@
       <row>
         <cell></cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/nonlinear asymptote_cubic_2.png">
+          <image source="college-algebra/chapter-6/nonlinear asymptote_cubic_2.png">
             <shortdescription>Approach a cubic curve as x approaches positive or negative infinity.</shortdescription>
           </image>
         </cell>
@@ -130,7 +130,7 @@
         <cell>Horizontal</cell>
         <cell>Line <m>y=0</m> (the x-axis).</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/end_behavior_1.png">
+          <image source="college-algebra/chapter-6/end_behavior_1.png">
             <shortdescription>Degree denominator &gt; degree numerator (case 1).</shortdescription>
           </image>
         </cell>
@@ -140,7 +140,7 @@
         <cell></cell>
         <cell></cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/end_behavior_2.png">
+          <image source="college-algebra/chapter-6/end_behavior_2.png">
             <shortdescription>Degree denominator &gt; degree numerator (case 2).</shortdescription>
           </image>
         </cell>
@@ -151,7 +151,7 @@
         <cell>Horizontal</cell>
         <cell>Line <m>y=\dfrac{a_n}{b_m}</m>.</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/arrow_y_b.png">
+          <image source="college-algebra/chapter-6/arrow_y_b.png">
             <shortdescription>Approach constant ratio as x approaches plus or minus infinity..</shortdescription>
           </image>
         </cell>
@@ -162,7 +162,7 @@
         <cell>Oblique</cell>
         <cell>Use polynomial long division.</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/oblique asymptote.png">
+          <image source="college-algebra/chapter-6/oblique asymptote.png">
             <shortdescription>Slant asymptote from the division quotient.</shortdescription>
           </image>
         </cell>
@@ -173,7 +173,7 @@
         <cell>Nonlinear</cell>
         <cell>Use polynomial long division.</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/nonlinear asymptote_qudratic.png">
+          <image source="college-algebra/chapter-6/nonlinear asymptote_qudratic.png">
             <shortdescription>Nonlinear (e.g., quadratic) asymptote.</shortdescription>
           </image>
         </cell>
@@ -200,7 +200,7 @@
       </p>
       <figure>
         <caption>As the the values of <m>x</m> get closer to <m>\pm\infty</m>, the graph of <m>r(x)</m> gets closer to but never reaches the <m>x</m>-axis.</caption>
-        <image source="../../../assets/college-algebra/chapter-6/rational-end_behavior_example_5.png" decorative="yes" width="50%"/>
+        <image source="college-algebra/chapter-6/rational-end_behavior_example_5.png" decorative="yes" width="50%"/>
       </figure>
       </solution>
   </example>
@@ -224,7 +224,7 @@
       </p>
       <figure>
         <caption>As the the values of <m>x</m> get closer to <m>\pm\infty</m>, the graph of <m>r(x)</m> gets closer to but never reaches the line <m>y=\dfrac{3}{4}</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-6/rational-end_behavior_example_6.png" decorative="yes" width="50%"/>
+        <image source="college-algebra/chapter-6/rational-end_behavior_example_6.png" decorative="yes" width="50%"/>
       </figure>
     </solution>
   </example>
@@ -245,14 +245,14 @@
       </p>
       <figure>
         <caption>Polynomial Long Division of <m>x^3+4x^2-4x-16</m> by <m>x^2-2x-3</m> has a quotient of <m>x+6</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-6/rational-end_behavior_example_7_division.png" decorative="yes" width="50%"/>
+        <image source="college-algebra/chapter-6/rational-end_behavior_example_7_division.png" decorative="yes" width="50%"/>
       </figure>
       <p>
         This gives us the oblique asymptote <m>y=x+6</m>. Therefore, <m>r(x) \to x+6</m> as <m>x \to \pm\infty</m>.
       </p>
       <figure>
         <caption>As the the values of <m>x</m> get closer to <m>\pm\infty</m>, the graph of <m>r(x)</m> gets closer to but never reaches the line <m>y=4x + 5</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-6/rational-end_behavior_example_7.png" decorative="yes" width="50%"/>
+        <image source="college-algebra/chapter-6/rational-end_behavior_example_7.png" decorative="yes" width="50%"/>
       </figure>
     </solution>
   </example>
@@ -273,14 +273,14 @@
       </p>
       <figure>
         <caption>Polynomial Long Division of <m>x^4+8x^3+12x^2-32x-64</m> by <m>x^2-2x-3</m> has a quotient of <m>x^2+10x+35</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-6/rational-end_behavior_example_8_division.png" decorative="yes" width="50%"/>
+        <image source="college-algebra/chapter-6/rational-end_behavior_example_8_division.png" decorative="yes" width="50%"/>
       </figure>
       <p>
         Therefore, the nonlinear asymptote is <m>y=x^2+10x+35</m>. Therefore, <m>r(x) \to x^2+10x+35</m> as <m>x \to \pm\infty</m>.
       </p>
       <figure>
         <caption>As the the values of <m>x</m> get closer to <m>\pm\infty</m>, the graph of <m>r(x)</m> gets closer to but never reaches the parabola <m>y=x^2+10x+35</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-6/rational-end_behavior_example_8.png" decorative="yes" width="50%"/>
+        <image source="college-algebra/chapter-6/rational-end_behavior_example_8.png" decorative="yes" width="50%"/>
       </figure>
     </solution>
   </example>
@@ -329,7 +329,7 @@
         Therefore, there is only one point where the graph crosses the horizontal asymptote: <me>\left(\frac{1}{2},1\right)</me></p>
     <figure xml:id="crossing-horizontal-asymptote">
       <caption>The graph of <m>r(x)</m> crosses the line <m>y=1</m> at the point <m>\left(\frac{1}{2},1\right)</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-6/crossing_horizontal_asymptote.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-6/crossing_horizontal_asymptote.png" decorative="yes" width="50%"/>
     </figure>
       </solution>
       </example>
@@ -364,7 +364,7 @@
         Therefore, there is only one point where the graph crosses the oblique asymptote: <me>\left(\dfrac{3}{2},\frac{1}{2}\right)</me></p>
     <figure xml:id="crossing-oblique-asymptote">
       <caption>The graph of <m>r(x)</m> crosses the line <m>y=x-1</m> at the point <m>\left(\frac{3}{2},\frac{1}{2}\right)</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-6/crossing_oblique_asymptote.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-6/crossing_oblique_asymptote.png" decorative="yes" width="50%"/>
     </figure>
       </solution>
    

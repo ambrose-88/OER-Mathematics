@@ -27,7 +27,7 @@
       <cell><m>n &lt; m</m></cell>
       <cell>The line <m>x=c</m> is a vertical asymptote.</cell>
       <cell>
-        <image source="../../../assets/college-algebra/chapter-6/hole_0.png">
+        <image source="college-algebra/chapter-6/hole_0.png">
           <shortdescription>Zero of the denominator produces a vertical asymptote.</shortdescription>
         </image>
       </cell>
@@ -37,7 +37,7 @@
       <cell><m>n = m</m></cell>
       <cell>There is a hole at the point <m>\left(c,\dfrac{p(c)}{q(c)}\right)</m>.</cell>
       <cell>
-        <image source="../../../assets/college-algebra/chapter-6/hole_1.png">
+        <image source="college-algebra/chapter-6/hole_1.png">
           <shortdescription>Zero of the denominator produces a non–x-axis hole.</shortdescription>
         </image>
       </cell>
@@ -47,7 +47,7 @@
       <cell><m>n &gt; m</m></cell>
       <cell>There is a hole at the point <m>(c,0)</m>.</cell>
       <cell>
-        <image source="../../../assets/college-algebra/chapter-6/hole_2.png">
+        <image source="college-algebra/chapter-6/hole_2.png">
           <shortdescription>Hole occurs where an x-intercept would be; even multiplicity gives a bounce.</shortdescription>
         </image>
       </cell>

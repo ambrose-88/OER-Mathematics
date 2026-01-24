@@ -68,11 +68,11 @@
         <sidebyside>
           <figure>
             <caption>The graph of <m>r(x)=\dfrac{x^2-4}{x^2-5x+6}</m></caption>
-            <image source="../../../assets/college-algebra/chapter-6/domain_simplified_rational_function.png" decorative="yes" width="20%"/>
+            <image source="college-algebra/chapter-6/domain_simplified_rational_function.png" decorative="yes" width="20%"/>
           </figure>
           <figure>
             <caption>The graph of <m>f(x)=\dfrac{x+2}{x-3}</m></caption>
-            <image source="../../../assets/college-algebra/chapter-6/domain_rational_function.png" decorative="yes" width="20%"/>
+            <image source="college-algebra/chapter-6/domain_rational_function.png" decorative="yes" width="20%"/>
           </figure>
         </sidebyside>
         </figure>
@@ -93,7 +93,7 @@
         <cell><m>x \to a^{-}</m></cell>
         <cell>x approaches a from the left.</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/arrow_left.png">
+          <image source="college-algebra/chapter-6/arrow_left.png">
             <shortdescription>Example of a function that only approaches x = 2 from the left.</shortdescription>
           </image>
         </cell>
@@ -103,7 +103,7 @@
         <cell><m>x \to a^{+}</m></cell>
         <cell>x approaches a from the right.</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/arrow_right.png">
+          <image source="college-algebra/chapter-6/arrow_right.png">
             <shortdescription>Example of a function that only approaches x = 2 from the right.</shortdescription>
           </image>
         </cell>
@@ -113,7 +113,7 @@
         <cell><m>x \to a</m></cell>
         <cell>x approaches a (from both the left and right).</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/arrow_left_right.png">
+          <image source="college-algebra/chapter-6/arrow_left_right.png">
             <shortdescription>Function that approaches x = 2 from the left and from the right.</shortdescription>
           </image>
         </cell>
@@ -123,7 +123,7 @@
         <cell><m>x \to -\infty</m></cell>
         <cell>x approaches negative infinity.</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/arrow_x_neg_infinity.png">
+          <image source="college-algebra/chapter-6/arrow_x_neg_infinity.png">
             <shortdescription>An example where x approaches negative infinity.</shortdescription>
           </image>
         </cell>
@@ -133,7 +133,7 @@
         <cell><m>x \to \infty</m></cell>
         <cell>x approaches (positive) infinity.</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/arrow_x_pos_infinity.png">
+          <image source="college-algebra/chapter-6/arrow_x_pos_infinity.png">
             <shortdescription>An example where x approaches positive infinity.</shortdescription>
           </image>
         </cell>
@@ -143,7 +143,7 @@
         <cell><m>y \to b</m></cell>
         <cell>y approaches b.</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/arrow_y_b.png">
+          <image source="college-algebra/chapter-6/arrow_y_b.png">
             <shortdescription>Example of a function that approaches y = 2.</shortdescription>
           </image>
         </cell>
@@ -153,7 +153,7 @@
         <cell><m>y \to -\infty</m></cell>
         <cell>y approaches negative infinity.</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/arrow_y_neg_infinity.png">
+          <image source="college-algebra/chapter-6/arrow_y_neg_infinity.png">
             <shortdescription>An example where y approaches negative infinity.</shortdescription>
           </image>
         </cell>
@@ -163,7 +163,7 @@
         <cell><m>y \to \infty</m></cell>
         <cell>y approaches (positive) infinity.</cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/arrow_y_pos_infinity.png">
+          <image source="college-algebra/chapter-6/arrow_y_pos_infinity.png">
             <shortdescription>An example where y approaches positive infinity.</shortdescription>
           </image>
         </cell>
@@ -194,7 +194,7 @@
       <row>
         <cell><m>y \to \infty</m> as <m>x \to a^{+}</m></cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_up_right.png">
+          <image source="college-algebra/chapter-6/vertical_asymptote_up_right.png">
             <shortdescription>y approaches infinity when x approaches 2 from the right.</shortdescription>
           </image>
         </cell>
@@ -203,7 +203,7 @@
       <row>
         <cell><m>y \to \infty</m> as <m>x \to a^{-}</m></cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_up_left.png">
+          <image source="college-algebra/chapter-6/vertical_asymptote_up_left.png">
             <shortdescription>y approaches infinity when x approaches 2 from the left.</shortdescription>
           </image>
         </cell>
@@ -212,7 +212,7 @@
       <row>
         <cell><m>y \to -\infty</m> as <m>x \to a^{+}</m></cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_down_right.png">
+          <image source="college-algebra/chapter-6/vertical_asymptote_down_right.png">
             <shortdescription>y approaches negative infinity when x approaches 2 from the right.</shortdescription>
           </image>
         </cell>
@@ -221,7 +221,7 @@
       <row>
         <cell><m>y \to -\infty</m> as <m>x \to a^{-}</m></cell>
         <cell>
-          <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_down_left.png">
+          <image source="college-algebra/chapter-6/vertical_asymptote_down_left.png">
             <shortdescription>y approaches negative infinity when x approaches 2 from the left.</shortdescription>
           </image>
         </cell>
@@ -299,7 +299,7 @@
             </p>
             <figure xml:id="fig-finding-zeroes-denominator">
                 <caption>Synthetic division shows that the quotient is <m>q(x)=x^2+4x+4</m></caption>
-                <image source="../../../assets/college-algebra/chapter-6/finding-zeroes-denominator.png" decorative="yes" width="50%"/>
+                <image source="college-algebra/chapter-6/finding-zeroes-denominator.png" decorative="yes" width="50%"/>
             </figure>
             <p>
                 Notice that the quotient is a perfect square trinomial and can be factored as <m>(x+2)^2</m>. 
@@ -309,7 +309,7 @@
             </p>
             <figure>
                  <caption>The graph of <m>r(x)=\frac{1}{x^3+3x^2-4}</m> with vertical asymptotes <m>x=-2</m> and <m>x=1</m> drawn as red, vertical, dashed lines.</caption>
-                <image xml:id="finding-asymptotes" source="../../../assets/college-algebra/chapter-6/finding-asymptotes.png" decorative="yes" width="50%"/>    
+                <image xml:id="finding-asymptotes" source="college-algebra/chapter-6/finding-asymptotes.png" decorative="yes" width="50%"/>    
             </figure>
     </solution>
   </example>
@@ -340,7 +340,7 @@
         </p>
             <figure>
                  <caption>The graph of <m>r(x)=\frac{x^3+3x^2-4}{x^2+2x+1}</m> with a vertical asymptote at <m>x=1</m> drawn as a red, vertical, dashed line.</caption>
-                <image xml:id="graph-finding-asymptotes-both-denom-larger" source="../../../assets/college-algebra/chapter-6/finding-asymptotes-both-denom-larger.png" decorative="yes" width="50%"/>    
+                <image xml:id="graph-finding-asymptotes-both-denom-larger" source="college-algebra/chapter-6/finding-asymptotes-both-denom-larger.png" decorative="yes" width="50%"/>    
             </figure>
     </solution>
   </example>
@@ -372,7 +372,7 @@
         </p>
             <figure>
                  <caption>The graph of <m>r(x)=\frac{(x-1)^2(x+2)^2}{(x-1)^2}</m> has a hole at <m>(1,r(1))</m> instead of a vertical asymptote at <m>x=1</m>.</caption>
-                <image xml:id="finding-asymptotes-dne" source="../../../assets/college-algebra/chapter-6/finding-asymptotes-dne.png" decorative="yes" width="50%"/>    
+                <image xml:id="finding-asymptotes-dne" source="college-algebra/chapter-6/finding-asymptotes-dne.png" decorative="yes" width="50%"/>    
             </figure>
     </solution>
   </example>
@@ -390,11 +390,11 @@
           <sidebyside>
             <figure>
               <caption>The graph of <m>r(x)=\frac{1}{x+1}</m> crosses from <m>-\infty</m> to <m>+\infty</m> at <m>x=-1</m>.</caption>
-              <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_odd_1.png" decorative="yes" width="40%"/>
+              <image source="college-algebra/chapter-6/vertical_asymptote_multiplicity_odd_1.png" decorative="yes" width="40%"/>
             </figure>
             <figure>
               <caption>The graph of <m>r(x)=-\frac{1}{x+1}</m> crosses from <m>+\infty</m> to <m>-\infty</m> at <m>x=-1</m>.</caption>
-              <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_odd_2.png" decorative="yes" width="40%"/>
+              <image source="college-algebra/chapter-6/vertical_asymptote_multiplicity_odd_2.png" decorative="yes" width="40%"/>
             </figure>
           </sidebyside>
         </figure>
@@ -405,11 +405,11 @@
           <sidebyside>
             <figure>
               <caption>The graph of <m>r(x)=\frac{1}{(x+1)^2}</m> bounces off <m>+\infty</m> at <m>x=-1</m>.</caption>
-              <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_even_1.png" decorative="yes" width="40%"/>
+              <image source="college-algebra/chapter-6/vertical_asymptote_multiplicity_even_1.png" decorative="yes" width="40%"/>
             </figure>
             <figure>
               <caption>The graph of <m>r(x)=-\frac{1}{(x+1)^2}</m> bounces off <m>-\infty</m> at <m>x=-1</m>.</caption>
-              <image source="../../../assets/college-algebra/chapter-6/vertical_asymptote_multiplicity_even_2.png" decorative="yes" width="40%"/>
+              <image source="college-algebra/chapter-6/vertical_asymptote_multiplicity_even_2.png" decorative="yes" width="40%"/>
             </figure>
           </sidebyside>
         </figure> 

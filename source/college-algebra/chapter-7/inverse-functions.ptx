@@ -24,7 +24,7 @@
       </p>
       <figure xml:id="graph-of-x2-inverse-not-function">
         <caption>The inverse of <m>f(x)=x^2</m> is a sideways parabola.</caption>
-        <image source="../../../assets/college-algebra/chapter-7/graph-of-x2-inverse-not-function.png" width="50%" decorative="yes"/>
+        <image source="college-algebra/chapter-7/graph-of-x2-inverse-not-function.png" width="50%" decorative="yes"/>
       </figure>
       <p>
         Since the inverse graph fails the vertical line test, the inverse is not a function.
@@ -58,7 +58,7 @@
       </p>
       <figure xml:id="fig-graph-restricted-x2">
         <caption>Graph of <m>f(x)=x^2,\; x\ge 0</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-7/graph-restricted-x2.png" width="50%" decorative="yes"/>
+        <image source="college-algebra/chapter-7/graph-restricted-x2.png" width="50%" decorative="yes"/>
       </figure>
       <p>
         Since the modified graph of <m>x^2</m> passes the horizontal line test, the inverse for <m>f(x)</m> is a function.
@@ -69,7 +69,7 @@
       </p>
       <figure xml:id="fig-graph-inverse-restricted-x2">
         <caption>Graph of the inverse of <m>f(x)=x^2,\; x\ge 0</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-7/graph-inverse-restricted-x2.png" width="50%" decorative="yes"/>
+        <image source="college-algebra/chapter-7/graph-inverse-restricted-x2.png" width="50%" decorative="yes"/>
       </figure>
       <p>
         From the graph, we can see that the inverse function is the square root function, <me>y=\sqrt{x}</me> 
@@ -226,14 +226,14 @@
       <p>The graph of a one-to-one function <m>f(x)</m> with some sample points is given. Sketch the graph of <m>f^{-1}(x)</m>.</p>
       <figure xml:id="fig-example14-given-graph">
         <caption>Graph of <m>f(x)</m> for Example 14.</caption>
-        <image source="../../../assets/college-algebra/chapter-7/example-14-given-graph.png" width="50%" decorative="yes"/>
+        <image source="college-algebra/chapter-7/example-14-given-graph.png" width="50%" decorative="yes"/>
       </figure>
     </statement>
     <solution>
       <p> Since the sample points are <me>\left(-2,\frac{1}{4}\right),\left(-1,\frac{1}{2}\right), (0,1), (1,2), (2,4)</me>, the corresponding points on the graph of the inverse function will be <me>\left(\frac{1}{4},-2\right),\left(\frac{1}{2},-1\right), (1,0), (2,1), (4,2)</me>. Plotting these points and drawing a smooth curve through them yields the following graph.</p>
       <figure xml:id="fig-example14-inverse-graph">
         <caption>Graph of <m>f^{-1}(x)</m> drawn on the same coordinate plane as <m>f(x)</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-7/example-14-inverse-graph.png" width="50%" decorative="yes"/>
+        <image source="college-algebra/chapter-7/example-14-inverse-graph.png" width="50%" decorative="yes"/>
       </figure>
       <p>Notice that neither of these graphs are ones we are familiar with, but yet with enough information form one of the graphs, we can still find the graph of its inverse. We will be studying these functions in the next chapter.</p>
     </solution>
@@ -262,7 +262,7 @@
       </p>
       <figure xml:id="fig-example15-graph">
         <caption>Graph of <m>f(x)=\dfrac{1}{(x+2)^2}</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-7/fig-example15-graph.png" width="50%" decorative="yes"/>
+        <image source="college-algebra/chapter-7/fig-example15-graph.png" width="50%" decorative="yes"/>
       </figure>
       <p>
         Notice that our graph is a reciprocal function with a vertical asymptote at <m>x=-2</m> and a horizontal asymptote at <m>y=0</m>. To make this function one-to-one, we can restrict the domain to <m>x&gt;-2</m> or <m>x&lt;-2</m>. Let's choose <m>x&gt;-2</m> for our restriction. Now, let's find the inverse of the restricted function.

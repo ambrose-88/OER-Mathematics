@@ -116,7 +116,7 @@
                 </p>
                 <figure xml:id="fig-long-division-35-by-4">
                     <caption>The long division of <m>35</m> by <m>4</m>. The remainder is equal to <m>3</m>.</caption>
-                    <image source="../../../assets/college-algebra/chapter-4-6/long-div-35-4.png" decorative="yes" width="20%"/>
+                    <image source="college-algebra/chapter-4-6/long-div-35-4.png" decorative="yes" width="20%"/>
                 </figure>
                 <p>
                     Since the remainder is equal to <m>3</m>, we have that <me>i^{487562438573735} = i^3 = -i</me>.
@@ -152,7 +152,7 @@
 
         <figure xml:id="fig-rectangular-and-complex-visualization">
             <caption>Two ways to visualize the point <m>(3,4)</m>. In rectangular coordinates, it is represented as a dot. As a complex number, it is represented as an arrow pointing from <m>(0,0)</m> to <m>(3,4)</m>.</caption>
-            <image source="../../../assets/college-algebra/chapter-4-6/rectangular-and-complex.png" width="50%">
+            <image source="college-algebra/chapter-4-6/rectangular-and-complex.png" width="50%">
             <shortdescription>An arrow labeled 3+4i points from the origin to the point (3,4).</shortdescription>
             </image>
         </figure>

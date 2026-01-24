@@ -135,13 +135,13 @@
     <sidebyside>
         <figure xml:id="sub-fig-radian-measure-1">
             <caption><m>\theta=1</m> rad</caption>
-            <image source="../../../assets/trigonometry/1rad.png" width="30%">
+            <image source="trigonometry/1rad.png" width="30%">
                 <shortdescription>A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is labeled as r.</shortdescription>
             </image>
         </figure>
         <figure xml:id="sub-fig-radian-measure-3">
             <caption><m>\theta=3</m> rad</caption>
-            <image source="../../../assets/trigonometry/3rad.png" width="30%">
+            <image source="trigonometry/3rad.png" width="30%">
             <shortdescription>A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is segmented into three equal parts all labelled r.</shortdescription>
             </image>
         </figure>

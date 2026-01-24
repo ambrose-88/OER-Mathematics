@@ -10,7 +10,7 @@
                     <caption>A right triangle where the short leg has length <m>a</m>, the long leg has length <m>b</m>, and the hypotenuse has length <m>c</m>. 
                         The vertex of the angle opposite to side <m>a</m> is labeled <m>A</m>, the vertex of the angle opposite to side <m>b</m> is labeled <m>B</m>, and the vertex of the right angle is labeled <m>C</m>. 
                         The angle <m>\angle CAB</m> is labeled <m>\theta</m>.</caption>
-                    <image source="../../../assets/trigonometry/standard-right-triangle.png" width="50%" decorative="yes"/>
+                    <image source="trigonometry/standard-right-triangle.png" width="50%" decorative="yes"/>
                 </figure>
             <p>
                 The six trigonometric functions of the angle <m>\theta</m> are defined as follows:

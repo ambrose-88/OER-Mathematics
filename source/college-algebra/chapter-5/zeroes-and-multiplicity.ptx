@@ -350,12 +350,12 @@
       <sidebyside>
         <figure>
           <caption>The graph can either cross from upper left to lower right.</caption>
-          <image source="../../../assets/college-algebra/chapter-5/m_1_positive.png" decorative="yes" />
+          <image source="college-algebra/chapter-5/m_1_positive.png" decorative="yes" />
         </figure>
 
         <figure>
           <caption>Or the graph can cross from lower left to upper right.</caption>
-          <image source="../../../assets/college-algebra/chapter-5/m_1_negative.png" decorative="yes"/>
+          <image source="college-algebra/chapter-5/m_1_negative.png" decorative="yes"/>
         </figure>
       </sidebyside>
     </figure>
@@ -367,14 +367,14 @@
           <caption>
             The graph can either cross from upper left to lower right while flattening at <m>(c,0)</m>.
           </caption>
-          <image source="../../../assets/college-algebra/chapter-5/m_odd_positive.png" decorative="yes"/>
+          <image source="college-algebra/chapter-5/m_odd_positive.png" decorative="yes"/>
         </figure>
 
         <figure>
           <caption>
             Or the graph can cross from lower left to upper right while flattening at <m>(c,0)</m>.
           </caption>
-          <image source="../../../assets/college-algebra/chapter-5/m_odd_negative.png" decorative="yes"/>
+          <image source="college-algebra/chapter-5/m_odd_negative.png" decorative="yes"/>
         </figure>
       </sidebyside>
     </figure>
@@ -384,12 +384,12 @@
       <sidebyside>
         <figure>
           <caption>Bounce off the <m>x</m>-axis at <m>(c,0)</m> from above.</caption>
-          <image source="../../../assets/college-algebra/chapter-5/m_even_above.png" decorative="yes"/>
+          <image source="college-algebra/chapter-5/m_even_above.png" decorative="yes"/>
         </figure>
 
         <figure>
           <caption>Bounce off the <m>x</m>-axis at <m>(c,0)</m> from below.</caption>
-          <image source="../../../assets/college-algebra/chapter-5/m_even_below.png" decorative="yes"/>
+          <image source="college-algebra/chapter-5/m_even_below.png" decorative="yes"/>
         </figure>
       </sidebyside>
     </figure>

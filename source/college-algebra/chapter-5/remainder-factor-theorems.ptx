@@ -40,7 +40,7 @@
 
     <figure>
       <caption>The synthetic division shows that <m>q(x) = 3x^2 - 16x + 172</m> and <m>r = -856</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/remainder-theorem-example.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/remainder-theorem-example.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Since the remainder is <m>-856</m>, we have that <m>p(-5) = -856</m>.</p>
@@ -123,7 +123,7 @@
 
     <figure>
       <caption>Synthetic division shows us that <m>q(x) = x^3 - x^2 - 22x + 40</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/factor-theorem-examples-a.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/factor-theorem-examples-a.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Therefore, we can factor <m>p(x)</m> as follows: <me>p(x) = (x^3 - x^2 - 22x + 40)(x + 3)</me>.</p>
@@ -132,7 +132,7 @@
 
     <figure>
       <caption>Synthetic division shows us that <m>q(x) = x^2 + 3x - 10</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/factor-theorem-examples-b.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/factor-theorem-examples-b.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Therefore, we can further factor <m>p(x)</m> as <me>p(x) = (x^2 + 3x - 10)(x + 3)(x - 4)</me>.</p>

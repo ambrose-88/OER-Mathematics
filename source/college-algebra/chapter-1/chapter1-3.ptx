@@ -23,7 +23,7 @@
   </p>
 <figure xml:id="graph-taxicab-metric">
     <caption>A grid of city blocks with a red line showing the path of a taxicab from point <m>A</m> to point <m>B</m>.</caption>
-    <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v1.png" width="50%">
+    <image source="college-algebra/chapter-1-3/taxicab_v1.png" width="50%">
       <shortdescription>
         The taxicab travels two blocks east, turns north, and travels an additional block.
       </shortdescription>    
@@ -50,17 +50,17 @@
     <sidebyside>
         <figure xml:id="graph-taxicab-metric-path1">
             <caption>The taxicab travels two blocks east, then turns north.</caption>
-            <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v1.png" width="40%" decorative="yes">   
+            <image source="college-algebra/chapter-1-3/taxicab_v1.png" width="40%" decorative="yes">   
             </image>
         </figure>
         <figure xml:id="graph-taxicab-metric-path2">
             <caption>The taxicab travels one block east, turns north, and travels an additional block east.</caption>
-            <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v2.png" width="40%" decorative="yes"> 
+            <image source="college-algebra/chapter-1-3/taxicab_v2.png" width="40%" decorative="yes"> 
             </image>
         </figure>
         <figure xml:id="graph-taxicab-metric-path3">
             <caption>The taxicab travels one block north, and then travels two blocks east.</caption>
-            <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v3.png" width="40%" decorative="yes"> 
+            <image source="college-algebra/chapter-1-3/taxicab_v3.png" width="40%" decorative="yes"> 
             </image>
         </figure>
     </sidebyside>
@@ -70,7 +70,7 @@
     <caption>
       The shortest distance between points <m>A</m> and <m>B</m> is the length of the line segment joining them.
     </caption>
-    <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v4.png" width="50%">
+    <image source="college-algebra/chapter-1-3/taxicab_v4.png" width="50%">
         <shortdescription>
             A red, dashed line segment connects points A and B.
         </shortdescription>
@@ -85,7 +85,7 @@
 
   <figure>
     <caption>When we combine <xref ref="graph-taxicab-metric"/> with <xref ref="graph-distance-formula-line-segment"/>, we get a right triangle.</caption>
-    <image source="../../../assets/college-algebra/chapter-1-3/taxicab_v5.png" width="50%">
+    <image source="college-algebra/chapter-1-3/taxicab_v5.png" width="50%">
     <shortdescription>Right triangle formed by points A, B, and C on a city grid.</shortdescription>
     </image>
   </figure>
@@ -120,7 +120,7 @@
     <caption>
       Points <m>A</m> and <m>B</m> with a dashed line segment connecting them. The dashed line segment is labeled with the Distance Formula.
     </caption>
-    <image source="../../../assets/college-algebra/chapter-1-3/distance_formula.png" width="50%">
+    <image source="college-algebra/chapter-1-3/distance_formula.png" width="50%">
     <shortdescription>
       Diagram showing a dashed line joining points A and B. The line is labeled with the Distance Formula.
     </shortdescription>
@@ -137,7 +137,7 @@
   </p>
 
   <figure xml:id="graph-distance-formula-right-triangle"> <caption><m>\triangle ABC</m> formed by connecting the points <m>A</m>, <m>B</m>, and <m>C</m>.</caption>
-    <image source="../../../assets/college-algebra/chapter-1-3/right_triangle.png" width="50%">
+    <image source="college-algebra/chapter-1-3/right_triangle.png" width="50%">
     <shortdescription>Right triangle formed by connecting points A, B, and C.</shortdescription>
     </image>
   </figure>
@@ -152,7 +152,7 @@
   </p>
 
   <figure><caption> <xref ref="graph-distance-formula-right-triangle"/> with the formulas <m>a = |y_2 - y_1|</m> and <m>b = |x_2 - x_1|</m> labeling the short and long legs, respectively.</caption>
-    <image source="../../../assets/college-algebra/chapter-1-3/right_triangle_V2.png" width="50%">
+    <image source="college-algebra/chapter-1-3/right_triangle_V2.png" width="50%">
     <shortdescription>Right triangle with legs labeled using coordinate differences.</shortdescription>
     </image>
   </figure>

@@ -24,7 +24,7 @@
   </ul>
 </p>
 </caption>
-        <image source="../../../assets/college-algebra/chapter-5/odd_positive_end_behavior.png">
+        <image source="college-algebra/chapter-5/odd_positive_end_behavior.png">
           <shortdescription>The graph of an odd degree polynomial with positive leading coefficient.</shortdescription>
         </image>
       </figure>
@@ -38,7 +38,7 @@
   </ul>
 </p>
 </caption>
-        <image source="../../../assets/college-algebra/chapter-5/odd_negative_end_behavior.png">
+        <image source="college-algebra/chapter-5/odd_negative_end_behavior.png">
           <shortdescription>The graph of an odd degree polynomial with negative leading coefficient.</shortdescription>
         </image>
       </figure>
@@ -59,7 +59,7 @@
   </ul>
 </p>
 </caption>
-        <image source="../../../assets/college-algebra/chapter-5/even_positive_end_behavior.png">
+        <image source="college-algebra/chapter-5/even_positive_end_behavior.png">
           <shortdescription>The graph of an even degree polynomial with positive leading coefficient.</shortdescription>
         </image>
       </figure>
@@ -73,7 +73,7 @@
   </ul>
 </p>
 </caption>
-        <image source="../../../assets/college-algebra/chapter-5/even_negative_end_behavior.png">
+        <image source="college-algebra/chapter-5/even_negative_end_behavior.png">
           <shortdescription>The graph of an even degree polynomial with negative leading coefficient.</shortdescription>
         </image>
       </figure>
@@ -94,7 +94,7 @@
 
     <figure>
       <caption>The graph of <m>p(x) = x^5 - x + 3</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/example_odd_positive_end_behavior.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/example_odd_positive_end_behavior.png" decorative="yes" width="50%"/>
     </figure>
   </solution>
 </example>
@@ -110,7 +110,7 @@
 
     <figure>
       <caption>The graph of <m>p(x) = -x^3 + x^2 + 1</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/example_odd_negative_end_behavior.png" decorative="yes" width="50%" />
+      <image source="college-algebra/chapter-5/example_odd_negative_end_behavior.png" decorative="yes" width="50%" />
     </figure>
   </solution>
 </example>
@@ -126,7 +126,7 @@
 
     <figure>
       <caption>The graph of <m>p(x) = 3x^4 + 3x^3 - 15x^2 + 3x - 18</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/example_even_positive_end_behavior.png" decorative="yes" width="50%" />
+      <image source="college-algebra/chapter-5/example_even_positive_end_behavior.png" decorative="yes" width="50%" />
     </figure>
   </solution>
 </example>
@@ -142,7 +142,7 @@
 
     <figure>
       <caption>The graph of <m>p(x)=-2x^4-4x^3+26x^2+28x-48</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/example_even_negative_end_behavior.png" decorative="yes" width="50%" />
+      <image source="college-algebra/chapter-5/example_even_negative_end_behavior.png" decorative="yes" width="50%" />
     </figure>
   </solution>
 </example>

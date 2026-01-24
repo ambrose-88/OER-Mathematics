@@ -15,7 +15,7 @@
         </p>
         <figure>
           <caption>The point <m>(0,3)</m> with two dashed lined connecting to the parabola <m>y=x^2</m>. Both of the points on the parabola are the closest to <m>(0,3)</m>.</caption>
-          <image source="../../../assets/college-algebra/chapter-4-15/example-closest-points.png" width="50%" decorative="yes"/>
+          <image source="college-algebra/chapter-4-15/example-closest-points.png" width="50%" decorative="yes"/>
         </figure>
       </statement>
       <answer>
@@ -95,7 +95,7 @@
         </p>
         <figure>
           <caption>The trajectory of the soccer ball showing the maximum height point.</caption>
-          <image source="../../../assets/college-algebra/chapter-4-15/example-projectile-path-parabola.png" width="60%">
+          <image source="college-algebra/chapter-4-15/example-projectile-path-parabola.png" width="60%">
             <shortdescription>Parabolic path of a soccer ball reaching a peak before descending.</shortdescription>
           </image>
         </figure>

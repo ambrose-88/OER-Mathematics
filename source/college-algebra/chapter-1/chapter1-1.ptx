@@ -17,7 +17,7 @@
       We use notation such as <m>x=3</m> to show a value on the number line; we graph the point by placing a solid dot three spaces to the right of a place labeled 0 on the number line.</p>
     <figure xml:id="graph-x-equals-3">
       <caption>The graph of <m>x=3</m> plotted on the number line.</caption>
-      <image source="../../../assets/college-algebra/chapter-1-1/1D_graph_x_equals_3.png">
+      <image source="college-algebra/chapter-1-1/1D_graph_x_equals_3.png">
         <shortdescription>Number line with a point at x=3</shortdescription>
       </image>
     </figure>
@@ -130,13 +130,13 @@
   <sidebyside>
     <figure xmlns:id="Coordinate-plane-no-grid">
       <caption>A coordinate plane without a grid</caption>
-       <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_only_standard_labels.png" width="40%">
+       <image source="college-algebra/chapter-1-1/x_axis_y_axis_only_standard_labels.png" width="40%">
         <shortdescription>A coordinate plane without a grid.</shortdescription>
        </image>
     </figure>
     <figure xmlns:xi="coordinate-plane-with-grid">
       <caption>A coordinate plane with a grid.</caption>
-      <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_only_standard_labels_coordinate_grid.png" width="40%">
+      <image source="college-algebra/chapter-1-1/x_axis_y_axis_only_standard_labels_coordinate_grid.png" width="40%">
         <shortdescription>A coordinate plane with a grid.</shortdescription>
       </image>
     </figure>
@@ -161,7 +161,7 @@
         <sidebyside>
           <figure xml:id="graph-standard-coordinate-plane">
             <caption>The standard view of the coordinate plane. The axes cross at <m>(0,0)</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_only_standard_labels.png">
+        <image source="college-algebra/chapter-1-1/x_axis_y_axis_only_standard_labels.png">
           <shortdescription>
             The axes always cross at the origin (0,0).
           </shortdescription>
@@ -169,7 +169,7 @@
           </figure>
           <figure xml:id="graph-nonstandard-coordinate-plane">
         <caption>A non-standard view of the coordinate plane. The axes cross at <m>(40, 1950)</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-1-1/nonstandard_axis_cross.png">
+        <image source="college-algebra/chapter-1-1/nonstandard_axis_cross.png">
           <shortdescription>
             The axes cross at (40, 1950) instead of the origin (0,0).
           </shortdescription>
@@ -186,13 +186,13 @@
           
       <figure xml:id="graph-rectangles-defined-by-points-3-4">
         <caption>The rectangle defined by the point <m>(3,4)</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_rectangle_3_4.png">
+        <image source="college-algebra/chapter-1-1/x_axis_y_axis_rectangle_3_4.png">
           <shortdescription>The point (3,4) defines a rectangle whose opposite corner is the origin.</shortdescription>
         </image>
       </figure>
       <figure xml:id="graph-rectangles-defined-by-points-4-3">
         <caption>The rectangle defined by the point <m>(4,3)</m>.</caption>
-        <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_rectangle_4_3.png">
+        <image source="college-algebra/chapter-1-1/x_axis_y_axis_rectangle_4_3.png">
         <shortdescription>The point (4,3) defines a rectangle whose opposite corner is the origin.</shortdescription>
         </image>
       </figure>
@@ -225,7 +225,7 @@
     Quadrant 3 is where <m>x&lt;0</m> and <m>y&lt;0</m>.
     Quadrant 4 is where <m>x>0</m> and <m>y&lt;0</m>. 
   </caption>
-  <image source="../../../assets/college-algebra/chapter-1-1/x_axis_y_axis_only_quadrants.png" width="40%">
+  <image source="college-algebra/chapter-1-1/x_axis_y_axis_only_quadrants.png" width="40%">
     <shortdescription>The four quadrants of the coordinate plane.</shortdescription>
   </image>  
       </figure>
@@ -240,7 +240,7 @@
           <p>Consider the following coordinate plane with a standard scale and the points labeled <m>A</m> through <m>H</m>. Determine which quadrant each point lies in.</p>
           <figure xml:id="graph-quadrants-example">
             <caption>Points: <m>A=(1,1)</m>, <m>B=(-3,2)</m>, <m>C=(4,-3)</m>, <m>D=(-1.5,-2.25)</m>, <m>E=(-3.75,4.44)</m>, <m>F=(2,-1)</m>, <m>G=(-4,-1)</m>, <m>H=(3,3)</m>.</caption>
-            <image source="../../../assets/college-algebra/chapter-1-1/example_1_1_3.png" width="40%">
+            <image source="college-algebra/chapter-1-1/example_1_1_3.png" width="40%">
               <shortdescription>A coordinate plane with points A through H labeled.</shortdescription>
             </image>
           </figure>

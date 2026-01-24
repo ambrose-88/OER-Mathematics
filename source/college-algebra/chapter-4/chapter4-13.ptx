@@ -9,13 +9,13 @@
             <sidebyside>
                 <figure>
                     <caption>The parabola opens upwards when a &gt; 0</caption>
-                    <image source="../../../assets/college-algebra/chapter-4-13/upwards-parabola.png">
+                    <image source="college-algebra/chapter-4-13/upwards-parabola.png">
                         <shortdescription>The graph of f(x) = x^2 + 4x + 5</shortdescription>
                     </image>
                 </figure>
                 <figure>
                     <caption>The parabola opens downwards when a &lt; 0</caption>
-                    <image source="../../../assets/college-algebra/chapter-4-13/downwards-parabola.png">
+                    <image source="college-algebra/chapter-4-13/downwards-parabola.png">
                         <shortdescription>The graph of f(x) = -x^2 + 2x + 1</shortdescription>
                     </image>
                 </figure>

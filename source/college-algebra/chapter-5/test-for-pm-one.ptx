@@ -37,7 +37,7 @@
 
     <figure>
       <caption>Synthetic division shows that the quotient is <m>x^2 - 3x - 10</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/test-pos-one-example.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/test-pos-one-example.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Therefore, we can factor the polynomial as follows:</p>
@@ -81,7 +81,7 @@
 
     <figure>
       <caption>Synthetic division shows that the quotient is <m>x^2 + x - 12</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/test-neg-one-example.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/test-neg-one-example.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Therefore, we can factor the polynomial as follows:</p>
@@ -119,7 +119,7 @@
 
     <figure>
       <caption>Synthetic division shows that the quotient is <m>x^3-2x^2-13x-10</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/test-pos-one-example-2.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/test-pos-one-example-2.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Therefore, we can factor the polynomial as follows:</p>
@@ -140,7 +140,7 @@
 
     <figure>
       <caption>Synthetic division shows that the new quotient is <m>x^2 + x - 12</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/test-neg-one-example-2.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/test-neg-one-example-2.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Therefore, we can factor the polynomial as follows:</p>
@@ -164,7 +164,7 @@
   <answer>
     <figure>
       <caption>The graph of <m>p(x)=x^3+4x^2-x-4</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/graph-test-for-pm-one.png" decorative="yes" width="50%"/>
     </figure>
   </answer>
 
@@ -178,7 +178,7 @@
 
     <figure>
       <caption>The end behavior is drawn with an arrow going up and right and an arrow going down and left.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one-a.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/graph-test-for-pm-one-a.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>
@@ -187,7 +187,7 @@
 
     <figure>
       <caption>The point <m>(0,-4)</m> has been added to the plot.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one-b.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/graph-test-for-pm-one-b.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Now, we have to find the zeroes of the polynomial. You should always try the Test for <m>\pm 1</m> first. Adding the coefficients of <m>p(x)</m>, we get the following calculation.
@@ -214,7 +214,7 @@
 
     <figure>
       <caption>The <m>x</m>-intercepts <m>(-2,0)</m>, <m>(-1,0)</m>, <m>(1,0)</m>, and <m>(2,0)</m> are added to the graph.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one-c.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/graph-test-for-pm-one-c.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Finally, let us compute values at <m>x=-5</m>, <m>x=-3</m>, <m>x=-2</m>, and <m>x=2</m>:</p>
@@ -254,7 +254,7 @@
 
     <figure>
       <caption>The additional points from the table are added to the graph.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one-d.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/graph-test-for-pm-one-d.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>
@@ -264,7 +264,7 @@
 
     <figure>
       <caption>The graph of <m>p(x)=x^3+4x^2-x-4</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/graph-test-for-pm-one.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/graph-test-for-pm-one.png" decorative="yes" width="50%"/>
     </figure>
   </solution>
 </example>

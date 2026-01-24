@@ -48,7 +48,7 @@
                 <figure xml:id="fig-graph-exp-a-gt-1">
                         <caption>The graph of <m>f(x) = a^x</m> where <m>a &gt; 1</m>. 
                             The sample points <m>(-2, \frac{1}{a^2})</m>, <m>(-1, \frac{1}{a})</m>, <m>(0, 1)</m>, <m>(1, a)</m>, and <m>(2, a^2)</m> are plotted.</caption>
-                            <image source="../../../assets/college-algebra/chapter-8/graph-exp-a-gt-1.png" width="50%" decorative="yes"/>
+                            <image source="college-algebra/chapter-8/graph-exp-a-gt-1.png" width="50%" decorative="yes"/>
                     </figure>   
             </statement>
         </theorem>
@@ -63,7 +63,7 @@
                 <figure xml:id="fig-graph-exp-2-x">
                     <caption>The graph of <m>f(x) = 2^x</m>. 
                         The sample points <m>(-2, \frac{1}{4})</m>, <m>(-1, \frac{1}{2})</m>, <m>(0, 1)</m>, <m>(1, 2)</m>, and <m>(2, 4)</m> are plotted.</caption>
-                        <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-x.png" width="50%" decorative="yes"/>
+                        <image source="college-algebra/chapter-8/graph-exp-2-x.png" width="50%" decorative="yes"/>
                 </figure>
             </answer>
             <solution>
@@ -109,12 +109,12 @@
                 <p>First, we plot these five points on the coordinate plane.</p>
                 <figure xml:id="fig-graph-exp-2-x-points-only">
                     <caption>The sample points <m>(-2, \frac{1}{4})</m>, <m>(-1, \frac{1}{2})</m>, <m>(0, 1)</m>, <m>(1, 2)</m>, and <m>(2, 4)</m> plotted on the coordinate plane.</caption>
-                    <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-x-points.png" width="50%" decorative="yes"/>
+                    <image source="college-algebra/chapter-8/graph-exp-2-x-points.png" width="50%" decorative="yes"/>
                 </figure>
                 <p>Next, we draw a curve through the points, making sure the graph will approach but never reach the <m>x</m>-axis as <m>x\rightarrow -\infty</m>.</p>
                 <figure xml:id="fig-graph-exp-2-x-complete">
                     <caption>The graph of <m>f(x) = 2^x</m> and its sample points <m>(-2, \frac{1}{4})</m>, <m>(-1, \frac{1}{2})</m>, <m>(0, 1)</m>, <m>(1, 2)</m>, and <m>(2, 4)</m> are plotted.</caption>
-                        <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-x.png" width="50%" decorative="yes"/>
+                        <image source="college-algebra/chapter-8/graph-exp-2-x.png" width="50%" decorative="yes"/>
                 </figure>
             </solution>
         </example>
@@ -166,7 +166,7 @@
                 <figure xml:id="fig-graph-exp-a-lt-1">
                         <caption>The graph of <m>f(x) = a^x</m> where <m>0 &lt; a &lt; 1</m>. 
                             The sample points <m>(-2, \frac{1}{a^2})</m>, <m>(-1, \frac{1}{a})</m>, <m>(0, 1)</m>, <m>(1, a)</m>, and <m>(2, a^2)</m> are plotted.</caption>
-                            <image source="../../../assets/college-algebra/chapter-8/graph-exp-a-lt-1.png" width="50%" decorative="yes"/>
+                            <image source="college-algebra/chapter-8/graph-exp-a-lt-1.png" width="50%" decorative="yes"/>
                     </figure>   
             </statement>
         </theorem>
@@ -181,7 +181,7 @@
                 <figure xml:id="fig-graph-exp-2-negx-lt-1">
                     <caption>The graph of <m>f(x) = \left( \frac{1}{2} \right)^x</m>. 
                         The sample points <m>(-2, 4)</m>, <m>(-1, 2)</m>, <m>(0, 1)</m>, <m>(1, \frac{1}{2})</m>, and <m>(2, \frac{1}{4})</m> are plotted.</caption>
-                        <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-negx.png" width="50%" decorative="yes"/>
+                        <image source="college-algebra/chapter-8/graph-exp-2-negx.png" width="50%" decorative="yes"/>
                 </figure>
             </answer>
             <solution>
@@ -227,12 +227,12 @@
                 <p>First, we plot these five points on the coordinate plane.</p>
                 <figure xml:id="fig-graph-exp-2-negx-lt-1-points-only">
                     <caption>The sample points <m>(-2, 4)</m>, <m>(-1, 2)</m>, <m>(0, 1)</m>, <m>(1, \frac{1}{2})</m>, and <m>(2, \frac{1}{4})</m> plotted on the coordinate plane.</caption>
-                    <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-negx-points.png" width="50%" decorative="yes"/>
+                    <image source="college-algebra/chapter-8/graph-exp-2-negx-points.png" width="50%" decorative="yes"/>
                 </figure>
                 <p>Next, we draw a curve through the points, making sure the graph will approach but never reach the <m>x</m>-axis as <m>x\rightarrow \infty</m>.</p>
                 <figure xml:id="fig-graph-exp-2-negx-lt-1-complete">
                     <caption>The graph of <m>f(x) = \left( \frac{1}{2} \right)^x</m> and its sample points <m>(-2, 4)</m>, <m>(-1, 2)</m>, <m>(0, 1)</m>, <m>(1, \frac{1}{2})</m>, and <m>(2, \frac{1}{4})</m> are plotted.</caption>
-                        <image source="../../../assets/college-algebra/chapter-8/graph-exp-2-negx.png" width="50%" decorative="yes"/>
+                        <image source="college-algebra/chapter-8/graph-exp-2-negx.png" width="50%" decorative="yes"/>
                 </figure>
             </solution>
         </example>

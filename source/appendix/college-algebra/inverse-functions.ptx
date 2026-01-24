@@ -161,14 +161,14 @@
 
         <figure xml:id="lecture-notes-fig-one-to-one">
           <caption>The graph is one to one since the <m>y</m>-coordinate of every point on the graph is unique.</caption>
-          <image source="../../../assets/college-algebra/chapter-7/fig-one-to-one.png" width="50%">
+          <image source="college-algebra/chapter-7/fig-one-to-one.png" width="50%">
             <shortdescription>The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) lie on different horizontal lines.</shortdescription>
           </image>
         </figure>
 
         <figure xml:id="lecture-notes-fig-not-one-to-one">
           <caption>The graph is not one to one since three different <m>x</m>-coordinates all have the same <m>y</m>-coordinate.</caption>
-          <image source="../../../assets/college-algebra/chapter-7/fig-not-one-to-one.png" width="50%">
+          <image source="college-algebra/chapter-7/fig-not-one-to-one.png" width="50%">
             <shortdescription>The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) all have the same y-coordinate since they lie on the same horizontal line.</shortdescription>
           </image>
         </figure>
@@ -198,7 +198,7 @@
     <p>Determine if the graph is of a one-to-one function.</p>
     <figure xml:id="lecture-notes-fig-example1-graph">
       <caption>The graph of a function that is in the shape of a checkmark.</caption>
-      <image source="../../../assets/college-algebra/chapter-7/one-to-one-example-1.png" width="50%" decorative="yes"/>
+      <image source="college-algebra/chapter-7/one-to-one-example-1.png" width="50%" decorative="yes"/>
     </figure>
   </statement>
 </exercise>
@@ -210,7 +210,7 @@
     <p>Determine if the graph is of a one-to-one function.</p>
     <figure xml:id="lecture-notes-fig-example2-graph">
       <caption>Graph for Example 2.</caption>
-      <image source="../../../assets/college-algebra/chapter-7/one-to-one-example-2.png" width="50%" decorative="yes"/>
+      <image source="college-algebra/chapter-7/one-to-one-example-2.png" width="50%" decorative="yes"/>
     </figure>
   </statement>
 </exercise>
@@ -339,7 +339,7 @@
     <p>The graph of a one-to-one function <m>f(x)</m> with some sample points is given. Sketch the graph of <m>f^{-1}(x)</m>.</p>
     <figure xml:id="lecture-notes-fig-example14-given-graph">
       <caption>Graph of <m>f(x)</m> for Example 14.</caption>
-      <image source="../../../assets/college-algebra/chapter-7/example-14-given-graph.png" width="50%" decorative="yes"/>
+      <image source="college-algebra/chapter-7/example-14-given-graph.png" width="50%" decorative="yes"/>
     </figure>
   </statement>
 </exercise>

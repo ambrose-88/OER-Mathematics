@@ -28,7 +28,7 @@
   <answer>
     <figure>
       <caption>The graph of <m>p(x)=x^3+2x^2-4x-8</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-three-graph.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-three-graph.png" decorative="yes" width="50%"/>
     </figure>
   </answer>
 
@@ -41,7 +41,7 @@
 
     <figure>
       <caption>The end behavior of the function has been drawn, leaving the middle of the graph not drawn at this time.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-three-graph-a.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-three-graph-a.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>
@@ -50,7 +50,7 @@
 
     <figure>
       <caption>The point <m>(0,-8)</m> has been added to the plot.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-three-graph-b.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-three-graph-b.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Then, solve the equation <m>p(x)=0</m> using factoring by grouping.</p>
@@ -78,7 +78,7 @@
 
     <figure>
       <caption>The <m>x</m>-intercepts <m>(2,0)</m> and <m>(-2,0)</m> are added. The graph bounces from below at <m>(-2,0)</m> and crosses from negative to positive at <m>(2,0)</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-three-graph-c.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-three-graph-c.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Since we have zeros at <m>x=-2</m> and <m>x=2</m>, we now compute additional points at <m>x=-3,-1,0,1,3</m>:</p>
@@ -123,7 +123,7 @@
 
     <figure>
       <caption>The additional points from the table are added to the graph.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-three-graph-d.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-three-graph-d.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>
@@ -133,7 +133,7 @@
 
     <figure>
       <caption>The graph of <m>p(x)=x^3+2x^2-4x-8</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-three-graph.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-three-graph.png" decorative="yes" width="50%"/>
     </figure>
   </solution>
 </example>
@@ -147,7 +147,7 @@
   <answer>
     <figure>
       <caption>The graph of <m>p(x)=-2x^4+10x^2-8</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-four-graph.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-four-graph.png" decorative="yes" width="50%"/>
     </figure>
   </answer>
 
@@ -161,7 +161,7 @@
 
     <figure>
       <caption>The end behavior is drawn with both ends decreasing.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-four-graph-a.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-four-graph-a.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>
@@ -170,7 +170,7 @@
 
     <figure>
       <caption>The point <m>(0,-8)</m> has been added to the plot.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-four-graph-b.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-four-graph-b.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>Since <m>p(x)</m> is quadratic in form, let <m>u=x^2</m>). Then we can solve for <m>u</m>, and then <m>x</m>, as follows:</p>
@@ -195,7 +195,7 @@
 
     <figure>
       <caption>The <m>x</m>-intercepts <m>(-2,0)</m>, <m>(-1,0)</m>, <m>(1,0)</m>, and <m>(2,0)</m> are added to the graph.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-four-graph-c.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-four-graph-c.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>
@@ -242,7 +242,7 @@
 
     <figure>
       <caption>The additional symmetric points from the table are added to the graph.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-four-graph-d.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-four-graph-d.png" decorative="yes" width="50%"/>
     </figure>
 
     <p>
@@ -252,7 +252,7 @@
 
     <figure>
       <caption>The graph of <m>p(x)=-2x^4+10x^2-8</m>.</caption>
-      <image source="../../../assets/college-algebra/chapter-5/degree-four-graph.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/degree-four-graph.png" decorative="yes" width="50%"/>
     </figure>
   </solution>
 </example>
@@ -261,7 +261,7 @@
 
 <figure>
   <caption>The graph of <m>p(x)=x^3-3x-2</m>.</caption>
-  <image source="../../../assets/college-algebra/chapter-5/hard-degree-three-graph.png" decorative="yes" width="50%">
+  <image source="college-algebra/chapter-5/hard-degree-three-graph.png" decorative="yes" width="50%">
     <shortdescription>Graph of p(x) = x^3 - 3x - 2</shortdescription>
   </image>
 </figure>
