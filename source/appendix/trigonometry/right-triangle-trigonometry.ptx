@@ -39,7 +39,7 @@
             </p>
             <figure xml:id="fig-33-56-65-triangle">
                 <caption>A right triangle whose short leg has length 33, long leg has length 56, and <m>\theta</m> measures the side opposite the short leg.</caption>
-                <image source="../../../assets/trigonometry/33-56-65-triangle.png" width="30%" decorative="yes"/>
+                <image source="trigonometry/33-56-65-triangle.png" width="30%" decorative="yes"/>
             </figure>
         </statement>
         </example>
@@ -50,7 +50,7 @@
                 </p>
                 <figure xml:id="fig-45-45-90-triangle">
                     <caption>A right triangle whose legs each have length 3, and <m>\theta=45^\circ</m> measures the angle opposite side <m>b</m>.</caption>
-                    <image source="../../../assets/trigonometry/isosceles-triangle.png" width="30%" decorative="yes"/>
+                    <image source="trigonometry/isosceles-triangle.png" width="30%" decorative="yes"/>
                     </figure>
             </statement>
             </example>
@@ -61,7 +61,7 @@
                     </p>
                     <figure xml:id="fig-30-60-90-triangle">
                         <caption>A right triangle whose short leg has length <m>1</m>, long leg has length <m>\sqrt{3}</m>, and hypotenuse has length <m>2</m>. <m>\alpha=60^\circ</m> measures the angle opposite the long leg, and <m>\beta</m> measures the angle opposite the short leg.</caption>
-                        <image source="../../../assets/trigonometry/30-60-90-triangle.png" width="30%" decorative="yes"/>
+                        <image source="trigonometry/30-60-90-triangle.png" width="30%" decorative="yes"/>
                     </figure>
                 </statement>
             </example>
@@ -210,7 +210,7 @@
             The angle formed by using the horizontal line of sight as the initial side and the line of sight to the above object as the terminal side is the angle of elevation.
             The angle formed by using the horizontal line of sight as the initial side and the line of sight to the below object as the terminal side is the angle of depression.
         </caption>
-        <image source="../../../assets/trigonometry/angle-elevation-depression.png" width="50%" decorative="yes"/>
+        <image source="trigonometry/angle-elevation-depression.png" width="50%" decorative="yes"/>
     </figure>
     </statement>
     </definition>
