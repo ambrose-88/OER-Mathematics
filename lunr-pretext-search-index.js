@@ -6433,7 +6433,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "D.2",
   "title": "Right Triangle Trigonometry",
-  "body": " Right Triangle Trigonometry    Consider a right triangle whose short leg has length , whose long leg has length , and whose hypotenuse has length . Let be the angle opposite the short leg.   A right triangle where the short leg has length , the long leg has length , and the hypotenuse has length . The vertex of the angle opposite to side is labeled , the vertex of the angle opposite to side is labeled , and the vertex of the right angle is labeled . The angle is labeled .    The six trigonometric functions of the angle are defined as follows:      The six trigonometric functions can be remembered using the mnemonic SOH-CAH-TOA, where   "
+  "body": " Right Triangle Trigonometry    Consider a right triangle whose short leg has length , whose long leg has length , and whose hypotenuse has length . Let be the angle opposite the short leg.   A right triangle where the short leg has length , the long leg has length , and the hypotenuse has length . The vertex of the angle opposite to side is labeled , the vertex of the angle opposite to side is labeled , and the vertex of the right angle is labeled . The angle is labeled .    The six trigonometric functions of the angle are defined as follows:      Three of the six trigonometric functions can be remembered using the mnemonic SOH-CAH-TOA, where      Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose short leg has length 33, long leg has length 56, and measures the side opposite the short leg.        Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose legs each have length 3, and measures the angle opposite side .        Given the right triangle pictured below, find the value of the six trigonometric functions for both the angle and the angle .   A right triangle whose short leg has length , long leg has length , and hypotenuse has length . measures the angle opposite the long leg, and measures the angle opposite the short leg.       Trigonometric Functions of Common Angles                              Reciprocal Identities   Let be any angle. The reciprocal identities are given by the following equations:      Quotient Identities   Let be any angle. The quotient identities are given by the following equations:       Given that , find the values of the other five trigonometric functions of .     Pythagorean Identities   Let be any angle. The Pythagorean identities are given by the following equations:       Given that , find the values of the other five trigonometric functions of .      Two positive angles are complementary angles if the sum of their measures is or radians.     Cofunction Identities   Let be an acute angle. The cofunction identities are given by the following equations:       Find a cofunction with the same values as .      Use a calculator to find the value of , rounded to four decimal places.      Use a calculator to find the value of , rounded to four decimal places.      Use a calculator to find the approximate value (in degrees) of .        The horizontal line of sight is the line formed when an observer looks straight ahead.  The angle of elevation is the angle formed between the horizontal line of sight and the line of sight to an object above the observer.  The angle of depression is the angle formed between the horizontal line of sight and the line of sight to an object below the observer.     An observer is at a vertex shared by two right triangles. The horizontal line of sight from the observer forms a common side shared by both triangles. The line of sight to an object above the observer forms the hypotenuse of the upper triangle, and the line of sight to an object below the observer forms the hypotenuse of the lower triangle. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the above object as the terminal side is the angle of elevation. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the below object as the terminal side is the angle of depression.        An observer stands 150 feet away from the base of a building. The angle of elevation from the observer to the top of the building is . Find the height of the building, rounded to the nearest foot.      An observer stands on the edge of a cliff that is 200 feet above sea level and observes a boat that is 150 feet away from the base of the cliff. Find the angle of depression from the observer to the boat, rounded to the nearest tenth of a degree.    "
 },
 {
   "id": "def-six-trigonometric-functions-right-triangle",
@@ -6451,7 +6451,169 @@ var ptx_lunr_docs = [
   "type": "Note",
   "number": "D.2.201",
   "title": "",
-  "body": " The six trigonometric functions can be remembered using the mnemonic SOH-CAH-TOA, where  "
+  "body": " Three of the six trigonometric functions can be remembered using the mnemonic SOH-CAH-TOA, where   "
+},
+{
+  "id": "exa-evaluating-trigonometric-functions-right-triangle",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#exa-evaluating-trigonometric-functions-right-triangle",
+  "type": "Example",
+  "number": "D.2.202",
+  "title": "",
+  "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose short leg has length 33, long leg has length 56, and measures the side opposite the short leg.     "
+},
+{
+  "id": "exa-evaluating-isosceles-triangle",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#exa-evaluating-isosceles-triangle",
+  "type": "Example",
+  "number": "D.2.204",
+  "title": "",
+  "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose legs each have length 3, and measures the angle opposite side .     "
+},
+{
+  "id": "exa-evaluating-30-60-90-triangle",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#exa-evaluating-30-60-90-triangle",
+  "type": "Example",
+  "number": "D.2.206",
+  "title": "",
+  "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions for both the angle and the angle .   A right triangle whose short leg has length , long leg has length , and hypotenuse has length . measures the angle opposite the long leg, and measures the angle opposite the short leg.     "
+},
+{
+  "id": "table-trigonometric-functions-common-angles",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#table-trigonometric-functions-common-angles",
+  "type": "Table",
+  "number": "D.2.208",
+  "title": "Trigonometric Functions of Common Angles",
+  "body": " Trigonometric Functions of Common Angles                            "
+},
+{
+  "id": "thm-reciprocal-identities",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#thm-reciprocal-identities",
+  "type": "Theorem",
+  "number": "D.2.209",
+  "title": "Reciprocal Identities.",
+  "body": " Reciprocal Identities   Let be any angle. The reciprocal identities are given by the following equations:    "
+},
+{
+  "id": "thm-quotient-identities",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#thm-quotient-identities",
+  "type": "Theorem",
+  "number": "D.2.210",
+  "title": "Quotient Identities.",
+  "body": " Quotient Identities   Let be any angle. The quotient identities are given by the following equations:    "
+},
+{
+  "id": "exa-evaluting-trigonometric-functions-reciprocal-quotient",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#exa-evaluting-trigonometric-functions-reciprocal-quotient",
+  "type": "Example",
+  "number": "D.2.211",
+  "title": "",
+  "body": "  Given that , find the values of the other five trigonometric functions of .   "
+},
+{
+  "id": "thm-pythagorean-identities",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#thm-pythagorean-identities",
+  "type": "Theorem",
+  "number": "D.2.212",
+  "title": "Pythagorean Identities.",
+  "body": " Pythagorean Identities   Let be any angle. The Pythagorean identities are given by the following equations:    "
+},
+{
+  "id": "exa-using-pythagorean-identities",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#exa-using-pythagorean-identities",
+  "type": "Example",
+  "number": "D.2.213",
+  "title": "",
+  "body": "  Given that , find the values of the other five trigonometric functions of .   "
+},
+{
+  "id": "def-complement-angles",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#def-complement-angles",
+  "type": "Definition",
+  "number": "D.2.214",
+  "title": "",
+  "body": "  Two positive angles are complementary angles if the sum of their measures is or radians.   "
+},
+{
+  "id": "thm-cofunction-identities",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#thm-cofunction-identities",
+  "type": "Theorem",
+  "number": "D.2.215",
+  "title": "Cofunction Identities.",
+  "body": " Cofunction Identities   Let be an acute angle. The cofunction identities are given by the following equations:    "
+},
+{
+  "id": "exa-using-cofunction-identities",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#exa-using-cofunction-identities",
+  "type": "Example",
+  "number": "D.2.216",
+  "title": "",
+  "body": "  Find a cofunction with the same values as .   "
+},
+{
+  "id": "exa-using-calculator-degrees",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-degrees",
+  "type": "Example",
+  "number": "D.2.217",
+  "title": "",
+  "body": "  Use a calculator to find the value of , rounded to four decimal places.   "
+},
+{
+  "id": "exa-using-calculator-radians",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-radians",
+  "type": "Example",
+  "number": "D.2.218",
+  "title": "",
+  "body": "  Use a calculator to find the value of , rounded to four decimal places.   "
+},
+{
+  "id": "exa-using-calculator-inverse-trig",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-inverse-trig",
+  "type": "Example",
+  "number": "D.2.219",
+  "title": "",
+  "body": "  Use a calculator to find the approximate value (in degrees) of .   "
+},
+{
+  "id": "def-angle-elevation-depression",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#def-angle-elevation-depression",
+  "type": "Definition",
+  "number": "D.2.220",
+  "title": "",
+  "body": "    The horizontal line of sight is the line formed when an observer looks straight ahead.  The angle of elevation is the angle formed between the horizontal line of sight and the line of sight to an object above the observer.  The angle of depression is the angle formed between the horizontal line of sight and the line of sight to an object below the observer.     An observer is at a vertex shared by two right triangles. The horizontal line of sight from the observer forms a common side shared by both triangles. The line of sight to an object above the observer forms the hypotenuse of the upper triangle, and the line of sight to an object below the observer forms the hypotenuse of the lower triangle. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the above object as the terminal side is the angle of elevation. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the below object as the terminal side is the angle of depression.     "
+},
+{
+  "id": "exa-angle-elevation",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#exa-angle-elevation",
+  "type": "Example",
+  "number": "D.2.222",
+  "title": "",
+  "body": "  An observer stands 150 feet away from the base of a building. The angle of elevation from the observer to the top of the building is . Find the height of the building, rounded to the nearest foot.   "
+},
+{
+  "id": "exa-finding-angle-depression",
+  "level": "2",
+  "url": "ws-right-triangle-trigonometry.html#exa-finding-angle-depression",
+  "type": "Example",
+  "number": "D.2.223",
+  "title": "",
+  "body": "  An observer stands on the edge of a cliff that is 200 feet above sea level and observes a boat that is 150 feet away from the base of the cliff. Find the angle of depression from the observer to the boat, rounded to the nearest tenth of a degree.   "
 },
 {
   "id": "appendix-e",
