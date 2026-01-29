@@ -24,14 +24,14 @@
         </p>
     </statement>
     </theorem>
-    <example xml:id="ex-trig-functions-any-angle-1" workspace="4in">
+    <example xml:id="ex-trig-functions-any-angle-1" workspace="3in">
         <statement>
             <p>
                 Find the exact values of the six trigonometric functions of an angle <m>\theta</m> in standard position whose terminal side passes through the point <m>(-3,5)</m>.
             </p>
         </statement>
     </example>
-    <example xml:id="ex-trig-functions-any-angle-2" workspace="4in">
+    <example xml:id="ex-trig-functions-any-angle-2" workspace="3in">
         <statement>
             <p>
                 Find the exact values of the six trigonometric functions of an angle <m>\theta</m> in standard position whose terminal side passes through the point <m>(0,2)</m>.
@@ -76,14 +76,14 @@
             </md>
         </p>
     </note>
-    <example xml:id="ex-find-quadrant" workspace="2in">
+    <example xml:id="ex-find-quadrant" workspace="1in">
         <statement>
             <p>
                 If <m>\sin(\theta)\lt 0</m> and <m>\tan(\theta)>0</m>, in which quadrant does the terminal side of <m>\theta</m> lie?
             </p>
         </statement>
     </example>
-    <example xml:id="ex-trig-functions-any-angle-3" workspace="4in">
+    <example xml:id="ex-trig-functions-any-angle-3" workspace="3in">
         <statement>
             <p>
                 Given that <m>\cot(\theta)=-\frac{5}{12}</m> and that the terminal side of <m>\theta</m> lies in Quadrant II, find the exact values of all six trigonometric functions of <m>\theta</m>.
@@ -170,7 +170,7 @@
             </p>
         </statement>
     </example>
-<theorem xml:id="thm-relationship-reference-and-angle" workspace="4in">
+<theorem xml:id="thm-relationship-reference-and-angle" workspace="2in">
     <statement>
         <p>
             Let <m>\theta</m> be any angle in standard position and let <m>\theta^{\,\prime}</m> be its reference angle. Then the following equations are true.
@@ -186,7 +186,7 @@
 <note>
     <p>This theorem implies that if two angles have the same reference angle, then the value of the trigonometric functions of those two angles will differ at most by a negative sign.</p>
 </note>
-<example xml:id="ex-trig-functions-reference-angle" workspace="4in">
+<example xml:id="ex-trig-functions-reference-angle" workspace="3in">
     <statement>
         <p>
             Recall that <m>\sin(45^\circ)=\frac{\sqrt{2}}{2}</m>. Find the values of <m>\sin(135^\circ)</m>, <m>\sin(225^\circ)</m>, and <m>\sin(315^\circ)</m>.
@@ -231,14 +231,14 @@
         </row>
     </tabular>
 </table>
-<example xml:id="ex-trig-functions-common-angles" workspace="4in">
+<example xml:id="ex-trig-functions-common-angles" workspace="3in">
     <statement>
         <p>
             Find the exact values of the six trigonometric functions when <m>\theta=-60^\circ</m>.
         </p>
     </statement>
     </example>
-    <example xml:id="ex-trig-functions-common-angles-2" workspace="4in">
+    <example xml:id="ex-trig-functions-common-angles-2" workspace="3in">
         <statement>
             <p>
                 Find the exact values of the six trigonometric functions when <m>\theta=\frac{7\pi}{6}</m>.
