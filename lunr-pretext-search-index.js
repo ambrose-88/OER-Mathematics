@@ -6107,7 +6107,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ws-radian-measure.html",
   "type": "Worksheet",
-  "number": "D.1",
+  "number": "D",
   "title": "Angles and Radian Measure",
   "body": " Angles and Radian Measure   Angles      An angle is formed by two rays with a common endpoint.    The ray where the angle measurement begins is called the initial side .    The ray where the angle measurement ends is called the terminal side .    The common endpoint is called the vertex of the angle.        Standard Position of an Angle   An angle is in standard position if the following two conditions are true.   The vertex is located at the origin of a coordinate plane.    The initial side lies on the positive -axis.        Positive and Negative Angles      An angle is positive if it measures a counterclockwise rotation.    An angle is negative if it measures a clockwise rotation.            An angle whose terminal side lies in Quadrant 1 is called a Quadrant 1 angle.     An angle whose terminal side lies in Quadrant 2 is called a Quadrant 2 angle.     An angle whose terminal side lies in Quadrant 3 is called a Quadrant 3 angle.     An angle whose terminal side lies in Quadrant 4 is called a Quadrant 4 angle.     An angle whose terminal side lies on one of the axes is called a quadrantal angle.         Central Angles and the Arc It Intercepts      A central angle is an angle whose vertex is at the center of a circle.    The arc that lies between the two sides of a central angle is called the arc intercepted by the angle.         Radian Measure   Consider a circle with radius whose central angle intercepts an arc of length . The radian measure of the angle in radians is given by the following formula.      Measuring Angles in Integer Radians    rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is labeled as r.     rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is segmented into three equal parts all labelled r.        Since the radian measure of an angle is a ratio of two lengths, it is a unitless measure and can be expressed without writing down \"rad\".      A circle has a radius of 5 cm and the central angle intercepts an arc that is 27 cm long. What is the radian measure of the central angle?      A circle has a radius of 1 ft and the central angle intercepts an arc that is 10 in long. What is the radian measure of the central angle?      What is the radian measure of the central angle of a circle if we make one complete revolution around the circle?     Converting Between Degrees and Radians      To convert from degrees to radians, multiply the angle by .    To convert from radians to degrees, multiply the angle by .        Converting from Degrees to Radians   Convert to radians.     Converting from Radians to Degrees   Convert radians to degrees.     Common Angle Measures    Degrees             Radians             Degrees            Radians               In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into eight equal sections by drawing both the horizontal and vertical diameters as well as the two diagonals,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.       Drawing an Angle of Radians   Draw an angle of radians in standard position.      In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into twelve equal sections by drawing both the horizontal and vertical diameters and split each quadrant into three equal sections,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.       Drawing an Angle of Radians   Draw an angle of radians in standard position.     Drawing an Angle of Radians   Draw an angle of radians in standard position.      Two angles are called coterminal if they share the same initial side and terminal side.      We typically only want to express angles in degrees using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .        Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .     Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .      We typically only want to express angles in radians using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .        Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .     Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .     Arc Length   The length of an arc intercepted by a central angle with radian measure in a circle of radius is given by the formula       Find the length of an arc intercepted by a central angle measuring radians in a circle with a radius of 9 cm.     Area of a Sector   The area of a sector formed by a central angle with radian measure in a circle of radius is given by the formula       Find the area of a sector formed by a central angle measuring radians in a circle with a radius of 6 in.     Linear and Angular Speed   If a point is motion on a circle of radius through an angle of radians in time, then its linear speed  is given by the formula where is the length of the arc traveled, and the angular speed  of the point is given by the formula       A wheel with a radius of 0.5 m is rotating at 720 revolutions per minute (rpm). What is the angular speed of the wheel in radians per second?      The linear speed of a point moving on a circle of radius with an angular speed of is given by the formula In plain English, the linear speed equals the radius times the angular speed.      Before digital music, CDs, and cassette players, records were recorded on vinyl discs that spun at either 45 revolutions per minute (rpm) or 75 rpm. Find the linear speed, in inches per minute, at the point where the needle is 1.5 inches from the record's center for a 45 rpm vinyl record.    "
 },
@@ -6116,7 +6116,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-angle",
   "type": "Definition",
-  "number": "D.1.164",
+  "number": "D.0.1",
   "title": "Angles.",
   "body": " Angles      An angle is formed by two rays with a common endpoint.    The ray where the angle measurement begins is called the initial side .    The ray where the angle measurement ends is called the terminal side .    The common endpoint is called the vertex of the angle.      "
 },
@@ -6125,7 +6125,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-standard-position",
   "type": "Definition",
-  "number": "D.1.165",
+  "number": "D.0.2",
   "title": "Standard Position of an Angle.",
   "body": " Standard Position of an Angle   An angle is in standard position if the following two conditions are true.   The vertex is located at the origin of a coordinate plane.    The initial side lies on the positive -axis.      "
 },
@@ -6134,7 +6134,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-positive-negative-angles",
   "type": "Definition",
-  "number": "D.1.166",
+  "number": "D.0.3",
   "title": "Positive and Negative Angles.",
   "body": " Positive and Negative Angles      An angle is positive if it measures a counterclockwise rotation.    An angle is negative if it measures a clockwise rotation.      "
 },
@@ -6143,7 +6143,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-classifying-angles",
   "type": "Definition",
-  "number": "D.1.167",
+  "number": "D.0.4",
   "title": "",
   "body": "     An angle whose terminal side lies in Quadrant 1 is called a Quadrant 1 angle.     An angle whose terminal side lies in Quadrant 2 is called a Quadrant 2 angle.     An angle whose terminal side lies in Quadrant 3 is called a Quadrant 3 angle.     An angle whose terminal side lies in Quadrant 4 is called a Quadrant 4 angle.     An angle whose terminal side lies on one of the axes is called a quadrantal angle.       "
 },
@@ -6152,7 +6152,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-central-angle",
   "type": "Definition",
-  "number": "D.1.168",
+  "number": "D.0.5",
   "title": "Central Angles and the Arc It Intercepts.",
   "body": " Central Angles and the Arc It Intercepts      A central angle is an angle whose vertex is at the center of a circle.    The arc that lies between the two sides of a central angle is called the arc intercepted by the angle.       "
 },
@@ -6161,7 +6161,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-radian-measure",
   "type": "Definition",
-  "number": "D.1.169",
+  "number": "D.0.6",
   "title": "Radian Measure.",
   "body": " Radian Measure   Consider a circle with radius whose central angle intercepts an arc of length . The radian measure of the angle in radians is given by the following formula.    "
 },
@@ -6170,7 +6170,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#fig-radian-measures-1-2-3",
   "type": "Figure",
-  "number": "D.1.170",
+  "number": "D.0.7",
   "title": "",
   "body": " Measuring Angles in Integer Radians    rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is labeled as r.     rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is segmented into three equal parts all labelled r.     "
 },
@@ -6179,7 +6179,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ws-radian-measure-9",
   "type": "Note",
-  "number": "D.1.171",
+  "number": "D.0.8",
   "title": "",
   "body": "  Since the radian measure of an angle is a ratio of two lengths, it is a unitless measure and can be expressed without writing down \"rad\".   "
 },
@@ -6188,7 +6188,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-radian-measure-1",
   "type": "Example",
-  "number": "D.1.172",
+  "number": "D.0.9",
   "title": "",
   "body": "  A circle has a radius of 5 cm and the central angle intercepts an arc that is 27 cm long. What is the radian measure of the central angle?   "
 },
@@ -6197,7 +6197,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-radian-measure-2",
   "type": "Example",
-  "number": "D.1.173",
+  "number": "D.0.10",
   "title": "",
   "body": "  A circle has a radius of 1 ft and the central angle intercepts an arc that is 10 in long. What is the radian measure of the central angle?   "
 },
@@ -6206,7 +6206,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-radian-measure-3",
   "type": "Example",
-  "number": "D.1.174",
+  "number": "D.0.11",
   "title": "",
   "body": "  What is the radian measure of the central angle of a circle if we make one complete revolution around the circle?   "
 },
@@ -6215,7 +6215,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-converting-between-degrees-radians",
   "type": "Theorem",
-  "number": "D.1.175",
+  "number": "D.0.12",
   "title": "Converting Between Degrees and Radians.",
   "body": " Converting Between Degrees and Radians      To convert from degrees to radians, multiply the angle by .    To convert from radians to degrees, multiply the angle by .      "
 },
@@ -6224,7 +6224,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-convert-degrees-to-radians-1",
   "type": "Example",
-  "number": "D.1.176",
+  "number": "D.0.13",
   "title": "Converting from Degrees to Radians.",
   "body": " Converting from Degrees to Radians   Convert to radians.   "
 },
@@ -6233,7 +6233,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-convert-radians-to-degrees-1",
   "type": "Example",
-  "number": "D.1.177",
+  "number": "D.0.14",
   "title": "Converting from Radians to Degrees.",
   "body": " Converting from Radians to Degrees   Convert radians to degrees.   "
 },
@@ -6242,7 +6242,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#table-common-angles",
   "type": "Table",
-  "number": "D.1.178",
+  "number": "D.0.15",
   "title": "Common Angle Measures",
   "body": " Common Angle Measures    Degrees             Radians             Degrees            Radians            "
 },
@@ -6251,7 +6251,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-drawing-angles-45-degrees",
   "type": "Procedure",
-  "number": "D.1.179",
+  "number": "D.0.16",
   "title": "",
   "body": "  In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into eight equal sections by drawing both the horizontal and vertical diameters as well as the two diagonals,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.     "
 },
@@ -6260,7 +6260,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-drawing-angles-45-degrees",
   "type": "Example",
-  "number": "D.1.180",
+  "number": "D.0.17",
   "title": "Drawing an Angle of <span class=\"process-math\">\\(-\\frac{3\\pi}{4}\\)<\/span> Radians.",
   "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
 },
@@ -6269,7 +6269,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-drawing-angles-30-degrees",
   "type": "Procedure",
-  "number": "D.1.181",
+  "number": "D.0.18",
   "title": "",
   "body": "  In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into twelve equal sections by drawing both the horizontal and vertical diameters and split each quadrant into three equal sections,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.     "
 },
@@ -6278,7 +6278,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-drawing-angles-30-degrees",
   "type": "Example",
-  "number": "D.1.182",
+  "number": "D.0.19",
   "title": "Drawing an Angle of <span class=\"process-math\">\\(\\frac{11\\pi}{6}\\)<\/span> Radians.",
   "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
 },
@@ -6287,7 +6287,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-drawing-angles-negative-30-degrees",
   "type": "Example",
-  "number": "D.1.183",
+  "number": "D.0.20",
   "title": "Drawing an Angle of <span class=\"process-math\">\\(-\\frac{5\\pi}{3}\\)<\/span> Radians.",
   "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
 },
@@ -6296,7 +6296,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-coterminal-angles",
   "type": "Definition",
-  "number": "D.1.184",
+  "number": "D.0.21",
   "title": "",
   "body": "  Two angles are called coterminal if they share the same initial side and terminal side.   "
 },
@@ -6305,7 +6305,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-coterminal-angles-degrees",
   "type": "Procedure",
-  "number": "D.1.185",
+  "number": "D.0.22",
   "title": "",
   "body": "  We typically only want to express angles in degrees using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .      "
 },
@@ -6314,7 +6314,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-degrees-1",
   "type": "Example",
-  "number": "D.1.186",
+  "number": "D.0.23",
   "title": "Finding a Coterminal Angle in Degrees.",
   "body": " Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .   "
 },
@@ -6323,7 +6323,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-degrees-2",
   "type": "Example",
-  "number": "D.1.187",
+  "number": "D.0.24",
   "title": "Finding a Coterminal Angle in Degrees.",
   "body": " Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .   "
 },
@@ -6332,7 +6332,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-coterminal-angles-radians",
   "type": "Procedure",
-  "number": "D.1.188",
+  "number": "D.0.25",
   "title": "",
   "body": "  We typically only want to express angles in radians using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .      "
 },
@@ -6341,7 +6341,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-radians-1",
   "type": "Example",
-  "number": "D.1.189",
+  "number": "D.0.26",
   "title": "Finding a Coterminal Angle in Radians.",
   "body": " Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .   "
 },
@@ -6350,7 +6350,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-radians-2",
   "type": "Example",
-  "number": "D.1.190",
+  "number": "D.0.27",
   "title": "Finding a Coterminal Angle in Radians.",
   "body": " Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .   "
 },
@@ -6359,7 +6359,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-arc-length",
   "type": "Theorem",
-  "number": "D.1.191",
+  "number": "D.0.28",
   "title": "Arc Length.",
   "body": " Arc Length   The length of an arc intercepted by a central angle with radian measure in a circle of radius is given by the formula    "
 },
@@ -6368,7 +6368,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-arc-length",
   "type": "Example",
-  "number": "D.1.192",
+  "number": "D.0.29",
   "title": "",
   "body": "  Find the length of an arc intercepted by a central angle measuring radians in a circle with a radius of 9 cm.   "
 },
@@ -6377,7 +6377,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-sector-area",
   "type": "Theorem",
-  "number": "D.1.193",
+  "number": "D.0.30",
   "title": "Area of a Sector.",
   "body": " Area of a Sector   The area of a sector formed by a central angle with radian measure in a circle of radius is given by the formula    "
 },
@@ -6386,7 +6386,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-sector-area",
   "type": "Example",
-  "number": "D.1.194",
+  "number": "D.0.31",
   "title": "",
   "body": "  Find the area of a sector formed by a central angle measuring radians in a circle with a radius of 6 in.   "
 },
@@ -6395,7 +6395,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-linear-angular-speed",
   "type": "Definition",
-  "number": "D.1.195",
+  "number": "D.0.32",
   "title": "Linear and Angular Speed.",
   "body": " Linear and Angular Speed   If a point is motion on a circle of radius through an angle of radians in time, then its linear speed  is given by the formula where is the length of the arc traveled, and the angular speed  of the point is given by the formula    "
 },
@@ -6404,7 +6404,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-converting-to-radian-angular-speed",
   "type": "Example",
-  "number": "D.1.196",
+  "number": "D.0.33",
   "title": "",
   "body": "  A wheel with a radius of 0.5 m is rotating at 720 revolutions per minute (rpm). What is the angular speed of the wheel in radians per second?   "
 },
@@ -6413,7 +6413,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-linear-speed",
   "type": "Theorem",
-  "number": "D.1.197",
+  "number": "D.0.34",
   "title": "",
   "body": "  The linear speed of a point moving on a circle of radius with an angular speed of is given by the formula In plain English, the linear speed equals the radius times the angular speed.   "
 },
@@ -6422,7 +6422,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-finding-linear-speed",
   "type": "Example",
-  "number": "D.1.198",
+  "number": "D.0.35",
   "title": "",
   "body": "  Before digital music, CDs, and cassette players, records were recorded on vinyl discs that spun at either 45 revolutions per minute (rpm) or 75 rpm. Find the linear speed, in inches per minute, at the point where the needle is 1.5 inches from the record's center for a 45 rpm vinyl record.   "
 },
@@ -6431,7 +6431,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ws-right-triangle-trigonometry.html",
   "type": "Worksheet",
-  "number": "D.2",
+  "number": "D",
   "title": "Right Triangle Trigonometry",
   "body": " Right Triangle Trigonometry    Consider a right triangle whose short leg has length , whose long leg has length , and whose hypotenuse has length . Let be the angle opposite the short leg.   A right triangle where the short leg has length , the long leg has length , and the hypotenuse has length . The vertex of the angle opposite to side is labeled , the vertex of the angle opposite to side is labeled , and the vertex of the right angle is labeled . The angle is labeled .    The six trigonometric functions of the angle are defined as follows:      Three of the six trigonometric functions can be remembered using the mnemonic SOH-CAH-TOA, where      Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose short leg has length 33, long leg has length 56, and measures the side opposite the short leg.        Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose legs each have length 3, and measures the angle opposite side .        Given the right triangle pictured below, find the value of the six trigonometric functions for both the angle and the angle .   A right triangle whose short leg has length , long leg has length , and hypotenuse has length . measures the angle opposite the long leg, and measures the angle opposite the short leg.       Trigonometric Functions of Common Angles                              Reciprocal Identities   Let be any angle. The reciprocal identities are given by the following equations:      Quotient Identities   Let be any angle. The quotient identities are given by the following equations:       Given that , find the values of the other five trigonometric functions of .     Pythagorean Identities   Let be any angle. The Pythagorean identities are given by the following equations:       Given that , find the values of the other five trigonometric functions of .      Two positive angles are complementary angles if the sum of their measures is or radians.     Cofunction Identities   Let be an acute angle. The cofunction identities are given by the following equations:       Find a cofunction with the same values as .      Use a calculator to find the value of , rounded to four decimal places.      Use a calculator to find the value of , rounded to four decimal places.      Use a calculator to find the approximate value (in degrees) of .        The horizontal line of sight is the line formed when an observer looks straight ahead.  The angle of elevation is the angle formed between the horizontal line of sight and the line of sight to an object above the observer.  The angle of depression is the angle formed between the horizontal line of sight and the line of sight to an object below the observer.     An observer is at a vertex shared by two right triangles. The horizontal line of sight from the observer forms a common side shared by both triangles. The line of sight to an object above the observer forms the hypotenuse of the upper triangle, and the line of sight to an object below the observer forms the hypotenuse of the lower triangle. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the above object as the terminal side is the angle of elevation. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the below object as the terminal side is the angle of depression.        An observer stands 150 feet away from the base of a building. The angle of elevation from the observer to the top of the building is . Find the height of the building, rounded to the nearest foot.      An observer stands on the edge of a cliff that is 200 feet above sea level and observes a boat that is 150 feet away from the base of the cliff. Find the angle of depression from the observer to the boat, rounded to the nearest tenth of a degree.    "
 },
@@ -6440,7 +6440,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#def-six-trigonometric-functions-right-triangle",
   "type": "Definition",
-  "number": "D.2.199",
+  "number": "D.0.36",
   "title": "",
   "body": "  Consider a right triangle whose short leg has length , whose long leg has length , and whose hypotenuse has length . Let be the angle opposite the short leg.   A right triangle where the short leg has length , the long leg has length , and the hypotenuse has length . The vertex of the angle opposite to side is labeled , the vertex of the angle opposite to side is labeled , and the vertex of the right angle is labeled . The angle is labeled .    The six trigonometric functions of the angle are defined as follows:    "
 },
@@ -6449,7 +6449,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#ws-right-triangle-trigonometry-3",
   "type": "Note",
-  "number": "D.2.201",
+  "number": "D.0.38",
   "title": "",
   "body": " Three of the six trigonometric functions can be remembered using the mnemonic SOH-CAH-TOA, where   "
 },
@@ -6458,7 +6458,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluating-trigonometric-functions-right-triangle",
   "type": "Example",
-  "number": "D.2.202",
+  "number": "D.0.39",
   "title": "",
   "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose short leg has length 33, long leg has length 56, and measures the side opposite the short leg.     "
 },
@@ -6467,7 +6467,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluating-isosceles-triangle",
   "type": "Example",
-  "number": "D.2.204",
+  "number": "D.0.41",
   "title": "",
   "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose legs each have length 3, and measures the angle opposite side .     "
 },
@@ -6476,7 +6476,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluating-30-60-90-triangle",
   "type": "Example",
-  "number": "D.2.206",
+  "number": "D.0.43",
   "title": "",
   "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions for both the angle and the angle .   A right triangle whose short leg has length , long leg has length , and hypotenuse has length . measures the angle opposite the long leg, and measures the angle opposite the short leg.     "
 },
@@ -6485,7 +6485,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#table-trigonometric-functions-common-angles",
   "type": "Table",
-  "number": "D.2.208",
+  "number": "D.0.45",
   "title": "Trigonometric Functions of Common Angles",
   "body": " Trigonometric Functions of Common Angles                            "
 },
@@ -6494,7 +6494,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-reciprocal-identities",
   "type": "Theorem",
-  "number": "D.2.209",
+  "number": "D.0.46",
   "title": "Reciprocal Identities.",
   "body": " Reciprocal Identities   Let be any angle. The reciprocal identities are given by the following equations:    "
 },
@@ -6503,7 +6503,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-quotient-identities",
   "type": "Theorem",
-  "number": "D.2.210",
+  "number": "D.0.47",
   "title": "Quotient Identities.",
   "body": " Quotient Identities   Let be any angle. The quotient identities are given by the following equations:    "
 },
@@ -6512,7 +6512,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluting-trigonometric-functions-reciprocal-quotient",
   "type": "Example",
-  "number": "D.2.211",
+  "number": "D.0.48",
   "title": "",
   "body": "  Given that , find the values of the other five trigonometric functions of .   "
 },
@@ -6521,7 +6521,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-pythagorean-identities",
   "type": "Theorem",
-  "number": "D.2.212",
+  "number": "D.0.49",
   "title": "Pythagorean Identities.",
   "body": " Pythagorean Identities   Let be any angle. The Pythagorean identities are given by the following equations:    "
 },
@@ -6530,7 +6530,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-pythagorean-identities",
   "type": "Example",
-  "number": "D.2.213",
+  "number": "D.0.50",
   "title": "",
   "body": "  Given that , find the values of the other five trigonometric functions of .   "
 },
@@ -6539,7 +6539,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#def-complement-angles",
   "type": "Definition",
-  "number": "D.2.214",
+  "number": "D.0.51",
   "title": "",
   "body": "  Two positive angles are complementary angles if the sum of their measures is or radians.   "
 },
@@ -6548,7 +6548,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-cofunction-identities",
   "type": "Theorem",
-  "number": "D.2.215",
+  "number": "D.0.52",
   "title": "Cofunction Identities.",
   "body": " Cofunction Identities   Let be an acute angle. The cofunction identities are given by the following equations:    "
 },
@@ -6557,7 +6557,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-cofunction-identities",
   "type": "Example",
-  "number": "D.2.216",
+  "number": "D.0.53",
   "title": "",
   "body": "  Find a cofunction with the same values as .   "
 },
@@ -6566,7 +6566,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-degrees",
   "type": "Example",
-  "number": "D.2.217",
+  "number": "D.0.54",
   "title": "",
   "body": "  Use a calculator to find the value of , rounded to four decimal places.   "
 },
@@ -6575,7 +6575,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-radians",
   "type": "Example",
-  "number": "D.2.218",
+  "number": "D.0.55",
   "title": "",
   "body": "  Use a calculator to find the value of , rounded to four decimal places.   "
 },
@@ -6584,7 +6584,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-inverse-trig",
   "type": "Example",
-  "number": "D.2.219",
+  "number": "D.0.56",
   "title": "",
   "body": "  Use a calculator to find the approximate value (in degrees) of .   "
 },
@@ -6593,7 +6593,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#def-angle-elevation-depression",
   "type": "Definition",
-  "number": "D.2.220",
+  "number": "D.0.57",
   "title": "",
   "body": "    The horizontal line of sight is the line formed when an observer looks straight ahead.  The angle of elevation is the angle formed between the horizontal line of sight and the line of sight to an object above the observer.  The angle of depression is the angle formed between the horizontal line of sight and the line of sight to an object below the observer.     An observer is at a vertex shared by two right triangles. The horizontal line of sight from the observer forms a common side shared by both triangles. The line of sight to an object above the observer forms the hypotenuse of the upper triangle, and the line of sight to an object below the observer forms the hypotenuse of the lower triangle. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the above object as the terminal side is the angle of elevation. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the below object as the terminal side is the angle of depression.     "
 },
@@ -6602,7 +6602,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-angle-elevation",
   "type": "Example",
-  "number": "D.2.222",
+  "number": "D.0.59",
   "title": "",
   "body": "  An observer stands 150 feet away from the base of a building. The angle of elevation from the observer to the top of the building is . Find the height of the building, rounded to the nearest foot.   "
 },
@@ -6611,7 +6611,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-finding-angle-depression",
   "type": "Example",
-  "number": "D.2.223",
+  "number": "D.0.60",
   "title": "",
   "body": "  An observer stands on the edge of a cliff that is 200 feet above sea level and observes a boat that is 150 feet away from the base of the cliff. Find the angle of depression from the observer to the boat, rounded to the nearest tenth of a degree.   "
 },
