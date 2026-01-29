@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-trig-functions-any-angle" xmlns="http://www.w3.org/1999/xhtml">
+    <title>Trigonometric Functions of Any Angle</title>
+    <definition xml:id="def-reference-triangle" workspace="4in">
+        <statement>
+            <p>
+                Let <m>\theta</m> be any angle and <m>(x,y)\ne (0,0)</m> be a point on the terminal side of the angle. 
+                The <term>reference triangle</term> for <m>\theta</m> is the right triangle formed by dropping a perpendicular from the point <m>(x,y)</m> to the <m>x</m>-axis.
+            </p>
+        </statement>
+    </definition>
+    <theorem xml:id="thm-sides-reference-triangle">
+    <statement>
+        <p>
+            Let <m>\theta</m> be any angle in standard position and let <m>(x,y)\ne (0,0)</m> be a point on the terminal side of the angle. 
+            Then the distance from <m>(0,0)</m> to <m>(x,y)</m> is given by <m>r=\sqrt{x^2+y^2}</m>, and the six trigonometric functions are defined as follows.
+            <md>
+                <mrow>\sin(\theta)\amp=\frac{y}{r}\amp\csc(\theta)\amp\frac{r}{y}, y\ne 0</mrow>
+                <mrow>\cos(\theta)\amp=\frac{x}{r}\amp\sec(\theta)\amp\frac{r}{x}, x\ne 0</mrow>
+                <mrow>\tan(\theta)\amp=\frac{y}{x}, x\ne 0\amp\cot(\theta)\amp\frac{x}{y}, y\ne 0</mrow>
+            </md>
+            
+        </p>
+    </statement>
+    </theorem>
+</worksheet>
