@@ -16,7 +16,9 @@
                 The six trigonometric functions of the angle <m>\theta</m> are defined as follows:
                 <md>
                     <mrow> \sin(\theta)\amp=\frac{a}{c}=\frac{\text{opposite}}{\text{hypotenuse}}\amp\csc(\theta)\amp=\frac{c}{a}=\frac{\text{hypotenuse}}{\text{opposite}}</mrow>
+                    <mrow></mrow>
                     <mrow> \cos(\theta)\amp=\frac{b}{c}=\frac{\text{adjacent}}{\text{hypotenuse}}\amp\sec(\theta)\amp=\frac{c}{b}=\frac{\text{hypotenuse}}{\text{adjacent}}</mrow>
+                    <mrow></mrow>
                     <mrow> \tan(\theta)\amp=\frac{a}{b}=\frac{\text{opposite}}{\text{adjacent}}\amp\cot(\theta)\amp=\frac{b}{a}=\frac{\text{adjacent}}{\text{opposite}}</mrow>
                 </md>                
             </p>

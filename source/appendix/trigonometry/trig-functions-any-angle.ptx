@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<worksheet xml:id="ws-trig-functions-any-angle" xmlns="http://www.w3.org/1999/xhtml">
+<worksheet xml:id="ws-trig-functions-any-angle">
     <title>Trigonometric Functions of Any Angle</title>
     <definition xml:id="def-reference-triangle" workspace="4in">
         <statement>
             <p>
-                Let <m>\theta</m> be any angle and <m>(x,y)\ne (0,0)</m> be a point on the terminal side of the angle. 
+                Let <m>\theta</m> be any angle and <m>(x,y)\ne (0,0)</m> be any point on the terminal side of the angle. 
                 The <term>reference triangle</term> for <m>\theta</m> is the right triangle formed by dropping a perpendicular from the point <m>(x,y)</m> to the <m>x</m>-axis.
             </p>
         </statement>
@@ -15,12 +15,241 @@
             Let <m>\theta</m> be any angle in standard position and let <m>(x,y)\ne (0,0)</m> be a point on the terminal side of the angle. 
             Then the distance from <m>(0,0)</m> to <m>(x,y)</m> is given by <m>r=\sqrt{x^2+y^2}</m>, and the six trigonometric functions are defined as follows.
             <md>
-                <mrow>\sin(\theta)\amp=\frac{y}{r}\amp\csc(\theta)\amp\frac{r}{y}, y\ne 0</mrow>
-                <mrow>\cos(\theta)\amp=\frac{x}{r}\amp\sec(\theta)\amp\frac{r}{x}, x\ne 0</mrow>
-                <mrow>\tan(\theta)\amp=\frac{y}{x}, x\ne 0\amp\cot(\theta)\amp\frac{x}{y}, y\ne 0</mrow>
+                <mrow >\sin(\theta)\amp=\frac{y}{r}\amp\csc(\theta)\amp=\frac{r}{y}, y\ne 0</mrow>
+                <mrow></mrow>
+                <mrow>\cos(\theta)\amp=\frac{x}{r}\amp\sec(\theta)\amp=\frac{r}{x}, x\ne 0</mrow>
+                <mrow></mrow>
+                <mrow>\tan(\theta)\amp=\frac{y}{x}, x\ne 0\amp\cot(\theta)\amp=\frac{x}{y}, y\ne 0</mrow>
             </md>
-            
         </p>
     </statement>
     </theorem>
+    <example xml:id="ex-trig-functions-any-angle-1" workspace="4in">
+        <statement>
+            <p>
+                Find the exact values of the six trigonometric functions of an angle <m>\theta</m> in standard position whose terminal side passes through the point <m>(-3,5)</m>.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="ex-trig-functions-any-angle-2" workspace="4in">
+        <statement>
+            <p>
+                Find the exact values of the six trigonometric functions of an angle <m>\theta</m> in standard position whose terminal side passes through the point <m>(0,2)</m>.
+            </p>
+        </statement>
+    </example>
+    <theorem xml:id="thm-trig-functions-quadrants">
+        <statement>
+            <p>
+                Let <m>\theta</m> be any non-quadrantal angle in standard position. The signs of the six trigonometric functions of <m>\theta</m> in each quadrant are as follows
+            <ul>
+                <li>
+                    <p>
+                        <em>Quadrant 1:</em> All six trigonometric functions are positive.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <em>Quadrant 2:</em> Only <m>\sin(\theta)</m> and <m>\csc(\theta)</m> are positive; the other four functions are negative.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <em>Quadrant 3:</em> Only <m>\tan(\theta)</m> and <m>\cot(\theta)</m> are positive; the other four functions are negative.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <em>Quadrant 4:</em> Only <m>\cos(\theta)</m> and <m>\sec(\theta)</m> are positive; the other four functions are negative.
+                    </p>
+                </li>
+            </ul>
+            </p>
+        </statement>
+    </theorem>
+    <note xml:id="note-how-to-remember-trig-signs">
+        <title>How to Remember the Signs of Trigonometric Functions</title>
+        <p>
+            A common mnemonic to help remember the signs of the trigonometric functions is
+            <md>
+                <mrow>\underbrace{\textbf{A}\text{ll}}_{\textbf{Q1:}\text{ All six}}\qquad\underbrace{\textbf{S}\text{tudents}}_{\textbf{Q2: }\sin(\theta)\text{ and }\csc(\theta)}\qquad\underbrace{\textbf{T}\text{ake}}_{\textbf{Q3: }\tan(\theta)\text{ and }\cot(\theta)}\qquad\underbrace{\textbf{C}\text{alculus.}}_{\textbf{Q4: }\cos(\theta)\text{ and }\sec(\theta)}</mrow>
+            </md>
+        </p>
+    </note>
+    <example xml:id="ex-find-quadrant" workspace="2in">
+        <statement>
+            <p>
+                If <m>\sin(\theta)\lt 0</m> and <m>\tan(\theta)>0</m>, in which quadrant does the terminal side of <m>\theta</m> lie?
+            </p>
+        </statement>
+    </example>
+    <example xml:id="ex-trig-functions-any-angle-3" workspace="4in">
+        <statement>
+            <p>
+                Given that <m>\cot(\theta)=-\frac{5}{12}</m> and that the terminal side of <m>\theta</m> lies in Quadrant II, find the exact values of all six trigonometric functions of <m>\theta</m>.
+            </p>
+        </statement>
+    </example>
+    <definition xml:id="def-reference-angle">
+        <statement>
+            <p>
+                The reference angle <m>\theta^{\,\prime}</m> for an angle <m>\theta</m> in standard position is the acute angle formed by the terminal side of <m>\theta</m> and the x-axis in a reference triangle.
+            </p>
+        </statement>
+    </definition>
+    <note>
+        <p>
+            The reference angle is always a positive acute angle since the reference angle is part of a right triangle.
+            <ul>
+                <li>
+                    <p>
+                        <m>\textbf{Degrees: }0^\circ\lt \theta^{\,\prime}\lt 90^\circ</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\textbf{Radians: }0\lt \theta^{\,\prime}\lt \frac{\pi}{2}</m>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </note>
+    <theorem xml:id="thm-calculating-reference-angles">
+        <statement>
+            <p>
+                Let <m>\theta</m> be any angle in standard position and let <m>\theta^{\,\prime}</m> be its reference angle.</p><p>If <m>0^\circ\leq \theta\lt 360^\circ</m>, the reference angle in degrees can be calculated as follows.
+            <ul>
+                <li>
+                    <p>
+                        If <m>\theta</m> is in Quadrant I, then <m>\theta^{\,\prime}=\theta</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>If <m>\theta</m> is in Quadrant II, then <m>\theta^{\,\prime}=180^\circ-\theta</m>.</p>
+                </li>
+                <li>
+                    <p>If <m>\theta</m> is in Quadrant III, then <m>\theta^{\,\prime}=\theta-180^\circ</m>.</p>
+                </li>
+                <li>
+                    <p>If <m>\theta</m> is in Quadrant IV, then <m>\theta^{\,\prime}=360^\circ-\theta</m>.</p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            If <m>0\leq \theta\lt 2\pi</m>, the reference angle in radians can be calculated as follows.
+            <ul>
+                <li>
+                    <p>
+                        If <m>\theta</m> is in Quadrant I, then <m>\theta^{\,\prime}=\theta</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>If <m>\theta</m> is in Quadrant II, then <m>\theta^{\,\prime}=\pi-\theta</m>.</p>
+                </li>
+                <li>
+                    <p>If <m>\theta</m> is in Quadrant III, then <m>\theta^{\,\prime}=\theta-\pi</m>.</p>
+                </li>
+                <li>
+                    <p>If <m>\theta</m> is in Quadrant IV, then <m>\theta^{\,\prime}=2\pi-\theta</m>.</p>
+                </li>
+            </ul>
+            </p>
+        </statement>
+    </theorem>
+    <example xml:id="ex-reference-angle-1" workspace="2in">
+        <statement>
+            <p>
+                Find the reference angle for <m>\theta=\frac{5\pi}{6}</m>.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="ex-reference-angle-2" workspace="2in">
+        <statement>
+            <p>
+                Find the reference angle for <m>\theta=-315^\circ</m>.
+            </p>
+        </statement>
+    </example>
+<theorem xml:id="thm-relationship-reference-and-angle" workspace="4in">
+    <statement>
+        <p>
+            Let <m>\theta</m> be any angle in standard position and let <m>\theta^{\,\prime}</m> be its reference angle. Then the following equations are true.
+            <md>
+                <mrow>\sin(\theta)\amp=\pm\sin(\theta^{\,\prime})\amp\csc(\theta)\amp=\pm\csc(\theta^{\,\prime})</mrow>
+                <mrow>\cos(\theta)\amp=\pm\cos(\theta^{\,\prime})\amp\sec(\theta)\amp=\pm\sec(\theta^{\,\prime})</mrow>
+                <mrow>\tan(\theta)\amp=\pm\tan(\theta^{\,\prime})\amp\cot(\theta)\amp=\pm\cot(\theta^{\,\prime})</mrow>
+            </md>
+            The sign in each equation is determined by the quadrant in which the terminal side of <m>\theta</m> lies.
+        </p>
+    </statement>
+</theorem>
+<note>
+    <p>This theorem implies that if two angles have the same reference angle, then the value of the trigonometric functions of those two angles will differ at most by a negative sign.</p>
+</note>
+<example xml:id="ex-trig-functions-reference-angle" workspace="4in">
+    <statement>
+        <p>
+            Recall that <m>\sin(45^\circ)=\frac{\sqrt{2}}{2}</m>. Find the values of <m>\sin(135^\circ)</m>, <m>\sin(225^\circ)</m>, and <m>\sin(315^\circ)</m>.
+        </p>
+    </statement>
+</example>
+
+            <table xml:id="table-expanded-trigonometric-functions-common-angles">
+    <title>Expanded Trigonometric Functions of Common Angles</title>
+    <tabular halign="center">
+        <row header="yes">
+            <cell><m>\theta</m></cell>
+            <cell><m>0^\circ=0</m></cell>
+            <cell><m>30^\circ=\frac{\pi}{6}</m></cell>
+            <cell><m>45^\circ=\frac{\pi}{4}</m></cell>
+            <cell><m>60^\circ=\frac{\pi}{3}</m></cell>
+            <cell><m>90^\circ=\frac{\pi}{2}</m></cell>
+        </row>
+        <row>
+            <cell><m>\sin(\theta)</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\frac{1}{2}</m></cell>
+            <cell><m>\frac{\sqrt{2}}{2}</m></cell>
+            <cell><m>\frac{\sqrt{3}}{2}</m></cell>
+            <cell><m>1</m></cell>
+        </row>
+        <row>
+            <cell><m>\cos(\theta)</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>\frac{\sqrt{3}}{2}</m></cell>
+            <cell><m>\frac{\sqrt{2}}{2}</m></cell>
+            <cell><m>\frac{1}{2}</m></cell>
+            <cell><m>0</m></cell>
+        </row>
+        <row>
+            <cell><m>\tan(\theta)</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\frac{\sqrt{3}}{3}</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>\sqrt{3}</m></cell>
+            <cell><m>\text{undefined}</m></cell>
+        </row>
+    </tabular>
+</table>
+<example xml:id="ex-trig-functions-common-angles" workspace="4in">
+    <statement>
+        <p>
+            Find the exact values of the six trigonometric functions when <m>\theta=-60^\circ</m>.
+        </p>
+    </statement>
+    </example>
+    <example xml:id="ex-trig-functions-common-angles-2" workspace="4in">
+        <statement>
+            <p>
+                Find the exact values of the six trigonometric functions when <m>\theta=\frac{7\pi}{6}</m>.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="ex-trig-functions-common-angles-3" workspace="4in">
+        <statement>
+            <p>
+                Find the exact values of the six trigonometric functions when <m>\theta=\frac{22\pi}{4}</m>.
+            </p>
+        </statement>
+    </example>
 </worksheet>
