@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-unit-circle" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Unit Circle</title>
+    <theorem xml:id="thm-circle-functions" workspace="4in">
+        <statement>
+            <p>
+                Consider a circle of radius <m>r</m> centered at the origin and a point <m>(x,y)</m> on the terminal side of an angle <m>\theta</m>.
+                Then the values of <m>x</m> and <m>y</m> are determined by the following pair of equations:
+                <md>
+                    <mrow>x\amp = r\cos(\theta)</mrow>
+                    <mrow></mrow>
+                    <mrow>y\amp = r\sin(\theta)</mrow>
+                </md>
+            </p>
+        </statement>
+    </theorem>
+    <example xml:id="ex-unit-circle-1" workspace="3in">
+        <p>
+            Find the coordinates of the point on the terminal side of a <m>150^\circ</m> angle that lies on a circle of radius <m>5</m>.
+            Then, find the value of the six trigonometric functions at this angle.
+        </p>
+    </example>
+    <example xml:id="ex-unit-circle-2" workspace="3in">
+        <p>
+            Find the coordinates of the point on the terminal side of a <m>150^\circ</m> angle that lies on a circle of radius <m>1</m>.
+            Then, find the value of the six trigonometric functions at this angle.
+        </p>
+    </example>
+    <definition xml:id="def-unit-circle">
+        <statement>
+            <p>
+                The <term>unit circle</term> is a circle of radius <m>1</m> centered at the origin.
+            </p>
+        </statement>
+    </definition>
+    <theorem xml:id="thm-unit-circle-trig-values">
+        <statement>
+            <p>
+                Let <m>\theta</m> be an angle in standard position on the unit circle, and let <m>(x,y)</m> be the point on the unit circle corresponding to <m>\theta</m>.
+                Then the values of the six trigonometric functions at <m>\theta</m> are given by the following equations:
+                <md>
+                    <mrow>\sin(\theta)\amp = y\amp \csc(\theta) = \dfrac{1}{y}, y\ne 0</mrow>
+                    <mrow></mrow>
+                    <mrow>\cos(\theta)\amp = x\amp \sec(\theta) = \dfrac{1}{x}, x\ne 0</mrow>
+                    <mrow></mrow>
+                    <mrow>\tan(\theta)\amp = \dfrac{y}{x}, x\ne 0\amp \cot(\theta) = \dfrac{x}{y}, y\ne 0</mrow>
+                </md>
+            </p>
+        </statement>
+    </theorem>
+    <note>
+        <title>Putting it All Together</title>
+        <p>
+            The unit circle is a memory device that allows us to quickly determine the values of trigonometric functions at any angle.
+            In order to use the unit circle effectively for common angles, you need to know the following topics.
+            <ul>
+                <li>
+                    <p>
+                        Coterminal angles
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The signs of the trigonometric functions in each quadrant.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Reference angles.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The following pattern of common angles (in degrees and radians)
+                        <md>
+                            <mrow>0\amp\amp\frac{\pi}{6}\amp\amp\frac{\pi}{4}\amp\amp\frac{\pi}{3}\amp\amp\frac{\pi}{2}</mrow>
+                        </md>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The following list of values both forwards and backwards.
+                        <md>
+                            <mrow>0\amp\amp\frac{1}{2}\amp\amp\frac{\sqrt{2}}{2}\amp\amp\frac{\sqrt{3}}{2}\amp\amp 1</mrow>
+                        </md>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </note> 
+    <example xml:id="ex-building-the-unit-circle">
+        <p>
+            Complete the blank unit circle given below with the common angles (in both degrees and radians) and their corresponding <m>(x,y)</m> coordinates. Use the following hints to help you complete it.
+            <ul>
+                <li>
+                    <p>
+                        <m>\textbf{Hint 1:}</m> Use the table of common angles (duplicated below for your convenience) to fill in the angles in quadrant 1.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\textbf{Hint 2:}</m> Use your knowledge of reference angles and signs of the trigonometric functions to complete the information in the other quadrants.
+                    </p>
+                </li>
+            </ul>
+        </p>
+                    <table xml:id="table-expanded-trigonometric-functions-common-angles-repeated">
+    <title>Expanded Trigonometric Functions of Common Angles</title>
+    <tabular halign="center">
+        <row header="yes">
+            <cell><m>\theta</m></cell>
+            <cell><m>0^\circ=0</m></cell>
+            <cell><m>30^\circ=\frac{\pi}{6}</m></cell>
+            <cell><m>45^\circ=\frac{\pi}{4}</m></cell>
+            <cell><m>60^\circ=\frac{\pi}{3}</m></cell>
+            <cell><m>90^\circ=\frac{\pi}{2}</m></cell>
+        </row>
+        <row>
+            <cell><m>\sin(\theta)</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\frac{1}{2}</m></cell>
+            <cell><m>\frac{\sqrt{2}}{2}</m></cell>
+            <cell><m>\frac{\sqrt{3}}{2}</m></cell>
+            <cell><m>1</m></cell>
+        </row>
+        <row>
+            <cell><m>\cos(\theta)</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>\frac{\sqrt{3}}{2}</m></cell>
+            <cell><m>\frac{\sqrt{2}}{2}</m></cell>
+            <cell><m>\frac{1}{2}</m></cell>
+            <cell><m>0</m></cell>
+        </row>
+    </tabular>
+</table>
+    <figure xml:id="unit-circle">
+        <caption>The unit circle. A line segment is drawn from the origin to the points on the circles that correspond to the multiples of <m>30^\circ</m>, <m>60^\circ</m>, and <m>90^\circ</m>. Each line segment has four blanks for students to fill in: one for the radian measure, one for the degree measure, and a pair of blanks for the coordinates on the unit circle.</caption>
+        <image source="trigonometry/blank-unit-circle.png"/>
+    </figure>
+    </example>
+    <example xml:id="ex-trig-functions-from-point" workspace="3in">
+        <p>The point <m>(-\frac{\sqrt{3}}{2}, \frac{1}{2})</m> lies on the unit circle. Find the value of the six trigonometric functions of the angle <m>\theta</m> that is associated to this point.</p>
+    </example>
+    <example xml:id="ex-trig-functions-from-point-2" workspace="3in">
+        <p>The point <m>(-1,0)</m> lies on the unit circle. Find the value of the six trigonometric functions of the angle <m>\theta</m> that is associated to this point.</p>
+    </example>
+    <theorem xml:id="thm-domain-range-sin-cos" workspace="3in">
+        <title>Domain and Range of Sine and Cosine</title>
+        <statement>
+            <p>
+                Sine and Cosine both have domain <m>(-\infty, \infty)</m> and range <m>[-1,1]</m>.
+            </p>
+        </statement>
+    </theorem>
+    <theorem xml:id="thm-parity-trig-functions">
+        <statement>
+            <p>
+                The functions sine, cosecant, tangent, and cotangent are odd functions. In other words,
+                <md>
+                    <mrow>\sin(-\theta)\amp-\sin(\theta)\amp\csc(-\theta)=-\csc(\theta)</mrow>
+                    <mrow></mrow>
+                    <mrow>\tan(-\theta)\amp-\tan(\theta)\amp\cot(-\theta)=-\cot(\theta)</mrow>
+                </md>
+                The functions cosine and secant are even functions. In other words,
+                <md>
+                    <mrow>\cos(-\theta)\amp=\cos(\theta)\amp\sec(-\theta)=\sec(\theta)</mrow>
+                </md>
+            </p>
+        </statement>
+    </theorem>
+    <example xml:id="ex-even-trig-functions" workspace="1in">
+        <p>
+            Find the exact value of <m>\csc(-60^\circ)</m>.
+        </p>
+    </example>
+    <example xml:id="ex-odd-trig-functions" workspace="1in">
+        <p>
+            Find the exact value of <m>\tan(-\frac{\pi}{6})</m>.
+        </p>
+    </example>
+<definition xml:id="def-periodic-function">
+    <title>Periodic Functions</title>
+    <statement>
+        <p>
+            A function <m>f(x)</m> is <term>periodic</term> if there exists a positive number <m>p</m> such that <m>f(x+p)=f(x)</m> for all <m>x</m> in the domain of <m>f</m>. The smallest such positive number <m>p</m> is called the <em>period</em> of the function <m>f</m>
+        </p>
+    </statement>
+</definition>
+<theorem xml:id="thm-periodicity-sine-cosine" workspace="2in">
+    <title>The Periodicity of Sine and Cosine</title>
+    <statement>
+        <p>
+            The period of both the sine and cosine functions is <m>2\pi</m>. In other words, for any angle <m>\theta</m>,
+            <md>
+                <mrow>\sin(\theta + 2\pi)\amp=\sin(\theta)</mrow>
+                <mrow></mrow>
+                <mrow>\cos(\theta + 2\pi)\amp=\cos(\theta)</mrow>
+            </md>
+        </p>
+    </statement>
+</theorem>
+<example xml:id="ex-periodicity-sine-cosine" workspace="3in">
+    <p>
+        Find the exact value of <m>\cos(\frac{11\pi}{3})</m>.
+    </p>
+</example>
+<theorem xml:id="thm-periodicity-tan" workspace="2in">
+    <title>The Periodicity of Tangent and Cotangent</title>
+    <statement>
+        <p>
+            The period of both the tangent is <m>\pi</m>. In other words, for any angle <m>\theta</m>,
+            <md>
+                <mrow>\tan(\theta + \pi)\amp=\tan(\theta)</mrow>
+            </md>
+        </p>
+    </statement>
+</theorem>
+<example xml:id="ex-periodicity-tangent" workspace="3in">
+    <p>
+        Find the exact value of <m>\cot(-\frac{7\pi}{4})</m>.
+    </p>
+</example>
+<note>
+    <title>Period of All Six Trigonometric Functions</title>
+    <p>
+        Since taking reciprocals does not change the period of a function, we know the periods of all six trigonometric functions:
+        <ul>
+            <li>
+                <p>
+                    <m>\textbf{Sine}</m>, <m>\textbf{Cosine}</m>, <m>\textbf{Cosecant}</m>, and <m>\textbf{Secant}</m> all have period <m>2\pi</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>\textbf{Tangent}</m> and <m>\textbf{Cotangent}</m> both have period <m>\pi</m>.
+                </p>
+            </li>
+        </ul>
+        In particular, we can extend this result to any multiple of the period. Therefore, for any integer <m>n</m>, we have the following equations.
+        <md>
+            <mrow>\sin(\theta+2n\pi)\amp=\sin(\theta)\amp\csc(\theta+2n\pi)\amp=\csc(\theta)</mrow>
+            <mrow></mrow>
+            <mrow>\cos(\theta+2n\pi)\amp=\cos(\theta)\amp\sec(\theta+2n\pi)\amp=\sec(\theta)</mrow>
+            <mrow></mrow>
+            <mrow>\tan(\theta+n\pi)\amp=\tan(\theta)\amp\cot(\theta+n\pi)\amp=\cot(\theta)</mrow>
+        </md>
+    </p>
+</note>
+</worksheet>

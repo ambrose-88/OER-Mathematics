@@ -10,4 +10,5 @@
   <xi:include href="./trigonometry/radians.ptx"/>
   <xi:include href="./trigonometry/right-triangle-trigonometry.ptx"/>
   <xi:include href="./trigonometry/trig-functions-any-angle.ptx"/>
+  <xi:include href="./trigonometry/unit-circle.ptx"/>
 </appendix>
