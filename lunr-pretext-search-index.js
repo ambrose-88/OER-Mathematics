@@ -6805,6 +6805,186 @@ var ptx_lunr_docs = [
   "body": "  Find the exact values of the six trigonometric functions when .   "
 },
 {
+  "id": "ws-unit-circle",
+  "level": "1",
+  "url": "ws-unit-circle.html",
+  "type": "Worksheet",
+  "number": "D.4",
+  "title": "The Unit Circle",
+  "body": " The Unit Circle    Consider a circle of radius centered at the origin and a point on the terminal side of an angle . Then the values of and are determined by the following pair of equations:      Find the coordinates of the point on the terminal side of a angle that lies on a circle of radius . Then, find the value of the six trigonometric functions at this angle.    Find the coordinates of the point on the terminal side of a angle that lies on a circle of radius . Then, find the value of the six trigonometric functions at this angle.     The unit circle is a circle of radius centered at the origin.      Let be an angle in standard position on the unit circle, and let be the point on the unit circle corresponding to . Then the values of the six trigonometric functions at are given by the following equations:      Putting it All Together  The unit circle is a memory device that allows us to quickly determine the values of trigonometric functions at any angle. In order to use the unit circle effectively for common angles, you need to know the following topics.   Coterminal angles    The signs of the trigonometric functions in each quadrant.    Reference angles.    The following pattern of common angles (in degrees and radians)     The following list of values both forwards and backwards.        Complete the blank unit circle given below with the common angles (in both degrees and radians) and their corresponding coordinates. Use the following hints to help you complete it.    Use the table of common angles (duplicated below for your convenience) to fill in the angles in quadrant 1.     Use your knowledge of reference angles and signs of the trigonometric functions to complete the information in the other quadrants.      Expanded Trigonometric Functions of Common Angles                              The unit circle. A line segment is drawn from the origin to the points on the circles that correspond to the multiples of , , and . Each line segment has four blanks for students to fill in: one for the radian measure, one for the degree measure, and a pair of blanks for the coordinates on the unit circle.      The point lies on the unit circle. Find the value of the six trigonometric functions of the angle that is associated to this point.    The point lies on the unit circle. Find the value of the six trigonometric functions of the angle that is associated to this point.    Domain and Range of Sine and Cosine   Sine and Cosine both have domain and range .      The functions sine, cosecant, tangent, and cotangent are odd functions. In other words, The functions cosine and secant are even functions. In other words,      Find the exact value of .    Find the exact value of .    Periodic Functions   A function is periodic if there exists a positive number such that for all in the domain of . The smallest such positive number is called the period of the function      The Periodicity of Sine and Cosine   The period of both the sine and cosine functions is . In other words, for any angle ,      Find the exact value of .    The Periodicity of Tangent and Cotangent   The period of both the tangent is . In other words, for any angle ,      Find the exact value of .    Period of All Six Trigonometric Functions  Since taking reciprocals does not change the period of a function, we know the periods of all six trigonometric functions:    , , , and all have period .     and both have period .   In particular, we can extend this result to any multiple of the period. Therefore, for any integer , we have the following equations.    "
+},
+{
+  "id": "thm-circle-functions",
+  "level": "2",
+  "url": "ws-unit-circle.html#thm-circle-functions",
+  "type": "Theorem",
+  "number": "D.4.244",
+  "title": "",
+  "body": "  Consider a circle of radius centered at the origin and a point on the terminal side of an angle . Then the values of and are determined by the following pair of equations:    "
+},
+{
+  "id": "ex-unit-circle-1",
+  "level": "2",
+  "url": "ws-unit-circle.html#ex-unit-circle-1",
+  "type": "Example",
+  "number": "D.4.245",
+  "title": "",
+  "body": " Find the coordinates of the point on the terminal side of a angle that lies on a circle of radius . Then, find the value of the six trigonometric functions at this angle.  "
+},
+{
+  "id": "ex-unit-circle-2",
+  "level": "2",
+  "url": "ws-unit-circle.html#ex-unit-circle-2",
+  "type": "Example",
+  "number": "D.4.246",
+  "title": "",
+  "body": " Find the coordinates of the point on the terminal side of a angle that lies on a circle of radius . Then, find the value of the six trigonometric functions at this angle.  "
+},
+{
+  "id": "def-unit-circle",
+  "level": "2",
+  "url": "ws-unit-circle.html#def-unit-circle",
+  "type": "Definition",
+  "number": "D.4.247",
+  "title": "",
+  "body": "  The unit circle is a circle of radius centered at the origin.   "
+},
+{
+  "id": "thm-unit-circle-trig-values",
+  "level": "2",
+  "url": "ws-unit-circle.html#thm-unit-circle-trig-values",
+  "type": "Theorem",
+  "number": "D.4.248",
+  "title": "",
+  "body": "  Let be an angle in standard position on the unit circle, and let be the point on the unit circle corresponding to . Then the values of the six trigonometric functions at are given by the following equations:    "
+},
+{
+  "id": "ws-unit-circle-7",
+  "level": "2",
+  "url": "ws-unit-circle.html#ws-unit-circle-7",
+  "type": "Note",
+  "number": "D.4.249",
+  "title": "Putting it All Together.",
+  "body": " Putting it All Together  The unit circle is a memory device that allows us to quickly determine the values of trigonometric functions at any angle. In order to use the unit circle effectively for common angles, you need to know the following topics.   Coterminal angles    The signs of the trigonometric functions in each quadrant.    Reference angles.    The following pattern of common angles (in degrees and radians)     The following list of values both forwards and backwards.      "
+},
+{
+  "id": "ex-building-the-unit-circle",
+  "level": "2",
+  "url": "ws-unit-circle.html#ex-building-the-unit-circle",
+  "type": "Example",
+  "number": "D.4.250",
+  "title": "",
+  "body": " Complete the blank unit circle given below with the common angles (in both degrees and radians) and their corresponding coordinates. Use the following hints to help you complete it.    Use the table of common angles (duplicated below for your convenience) to fill in the angles in quadrant 1.     Use your knowledge of reference angles and signs of the trigonometric functions to complete the information in the other quadrants.      Expanded Trigonometric Functions of Common Angles                              The unit circle. A line segment is drawn from the origin to the points on the circles that correspond to the multiples of , , and . Each line segment has four blanks for students to fill in: one for the radian measure, one for the degree measure, and a pair of blanks for the coordinates on the unit circle.    "
+},
+{
+  "id": "ex-trig-functions-from-point",
+  "level": "2",
+  "url": "ws-unit-circle.html#ex-trig-functions-from-point",
+  "type": "Example",
+  "number": "D.4.253",
+  "title": "",
+  "body": " The point lies on the unit circle. Find the value of the six trigonometric functions of the angle that is associated to this point.  "
+},
+{
+  "id": "ex-trig-functions-from-point-2",
+  "level": "2",
+  "url": "ws-unit-circle.html#ex-trig-functions-from-point-2",
+  "type": "Example",
+  "number": "D.4.254",
+  "title": "",
+  "body": " The point lies on the unit circle. Find the value of the six trigonometric functions of the angle that is associated to this point.  "
+},
+{
+  "id": "thm-domain-range-sin-cos",
+  "level": "2",
+  "url": "ws-unit-circle.html#thm-domain-range-sin-cos",
+  "type": "Theorem",
+  "number": "D.4.255",
+  "title": "Domain and Range of Sine and Cosine.",
+  "body": " Domain and Range of Sine and Cosine   Sine and Cosine both have domain and range .   "
+},
+{
+  "id": "thm-parity-trig-functions",
+  "level": "2",
+  "url": "ws-unit-circle.html#thm-parity-trig-functions",
+  "type": "Theorem",
+  "number": "D.4.256",
+  "title": "",
+  "body": "  The functions sine, cosecant, tangent, and cotangent are odd functions. In other words, The functions cosine and secant are even functions. In other words,    "
+},
+{
+  "id": "ex-even-trig-functions",
+  "level": "2",
+  "url": "ws-unit-circle.html#ex-even-trig-functions",
+  "type": "Example",
+  "number": "D.4.257",
+  "title": "",
+  "body": " Find the exact value of .  "
+},
+{
+  "id": "ex-odd-trig-functions",
+  "level": "2",
+  "url": "ws-unit-circle.html#ex-odd-trig-functions",
+  "type": "Example",
+  "number": "D.4.258",
+  "title": "",
+  "body": " Find the exact value of .  "
+},
+{
+  "id": "def-periodic-function",
+  "level": "2",
+  "url": "ws-unit-circle.html#def-periodic-function",
+  "type": "Definition",
+  "number": "D.4.259",
+  "title": "Periodic Functions.",
+  "body": " Periodic Functions   A function is periodic if there exists a positive number such that for all in the domain of . The smallest such positive number is called the period of the function    "
+},
+{
+  "id": "thm-periodicity-sine-cosine",
+  "level": "2",
+  "url": "ws-unit-circle.html#thm-periodicity-sine-cosine",
+  "type": "Theorem",
+  "number": "D.4.260",
+  "title": "The Periodicity of Sine and Cosine.",
+  "body": " The Periodicity of Sine and Cosine   The period of both the sine and cosine functions is . In other words, for any angle ,    "
+},
+{
+  "id": "ex-periodicity-sine-cosine",
+  "level": "2",
+  "url": "ws-unit-circle.html#ex-periodicity-sine-cosine",
+  "type": "Example",
+  "number": "D.4.261",
+  "title": "",
+  "body": " Find the exact value of .  "
+},
+{
+  "id": "thm-periodicity-tan",
+  "level": "2",
+  "url": "ws-unit-circle.html#thm-periodicity-tan",
+  "type": "Theorem",
+  "number": "D.4.262",
+  "title": "The Periodicity of Tangent and Cotangent.",
+  "body": " The Periodicity of Tangent and Cotangent   The period of both the tangent is . In other words, for any angle ,    "
+},
+{
+  "id": "ex-periodicity-tangent",
+  "level": "2",
+  "url": "ws-unit-circle.html#ex-periodicity-tangent",
+  "type": "Example",
+  "number": "D.4.263",
+  "title": "",
+  "body": " Find the exact value of .  "
+},
+{
+  "id": "ws-unit-circle-20",
+  "level": "2",
+  "url": "ws-unit-circle.html#ws-unit-circle-20",
+  "type": "Note",
+  "number": "D.4.264",
+  "title": "Period of All Six Trigonometric Functions.",
+  "body": " Period of All Six Trigonometric Functions  Since taking reciprocals does not change the period of a function, we know the periods of all six trigonometric functions:    , , , and all have period .     and both have period .   In particular, we can extend this result to any multiple of the period. Therefore, for any integer , we have the following equations.   "
+},
+{
   "id": "appendix-e",
   "level": "1",
   "url": "appendix-e.html",
