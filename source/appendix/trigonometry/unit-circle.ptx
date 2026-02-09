@@ -157,9 +157,9 @@
             <p>
                 The functions sine, cosecant, tangent, and cotangent are odd functions. In other words,
                 <md>
-                    <mrow>\sin(-\theta)\amp-\sin(\theta)\amp\csc(-\theta)=-\csc(\theta)</mrow>
+                    <mrow>\sin(-\theta)\amp=-\sin(\theta)\amp\csc(-\theta)=-\csc(\theta)</mrow>
                     <mrow></mrow>
-                    <mrow>\tan(-\theta)\amp-\tan(\theta)\amp\cot(-\theta)=-\cot(\theta)</mrow>
+                    <mrow>\tan(-\theta)\amp=-\tan(\theta)\amp\cot(-\theta)=-\cot(\theta)</mrow>
                 </md>
                 The functions cosine and secant are even functions. In other words,
                 <md>
@@ -170,7 +170,7 @@
     </theorem>
     <example xml:id="ex-even-trig-functions" workspace="1in">
         <p>
-            Find the exact value of <m>\csc(-60^\circ)</m>.
+            Find the exact value of <m>\sec(-60^\circ)</m>.
         </p>
     </example>
     <example xml:id="ex-odd-trig-functions" workspace="1in">
