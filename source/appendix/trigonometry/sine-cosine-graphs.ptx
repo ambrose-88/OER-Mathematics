@@ -377,4 +377,67 @@
     </figure>
 </statement>
 </example>
+<definition xml:id="def-vertical-shift-sine-cosine">
+    <statement>
+        <p>
+            Let <m>y=A\sin(Bx-C)+D</m> or <m>y=A\cos(Bx-C)+D</m> where <m>A\ne 0</m>, <m>B\gt 0</m>, <m>C</m> is any real number, and <m>D</m> is any real number.</p><p>The <term>vertical shift</term> of the graph is the vertical distance the graph of <m>y=A\sin(Bx-C)</m> or <m>y=A\cos(Bx-C)</m> is shifted up or down.  
+            The length of the shift is given by the following equation:
+            <me>\text{vertical shift} = D.</me>
+            If the vertical shift is positive, the graph is shifted up, and if the vertical shift is negative, the graph is shifted down.
+        </p>
+        <figure xml:id="fig-amplitude-period-phase-vertical-shift-sine">
+                <caption>The graph of <m>y=A\sin(Bx-C)</m>. 
+                    The graph of Figure <xref ref="fig-amplitude-period-phase-shift-sine"/> has been shifted up by <m>D</m> units, where <m>D\gt 0</m>.
+                    A vertical line segment measuring the distance of the vertical shift has been added to the graph and is labeled with the distance <m>D</m>.
+                </caption>
+                <image source="trigonometry/amplitude-period-phase-vertical-shift-sine.png" decorative="yes" width="65%"/>
+            </figure>
+    </statement>
+</definition>
+
+<lemma xml:id="lem-rapid-sketch-method-version-4">
+    <title>Rapid Sketch Method (Full Version)</title>
+    <statement>
+        <p>
+            In order to rapidly sketch the graph of <m>y=A\sin(Bx-C)+D</m> or <m>y=A\cos(Bx-C)+D</m>, we only graph the absolute maximums, the absolute minimums, and the zeroes of the function.
+            For both functions, these points correspond to the <m>x</m>-coordinates that are equal to <m>\dfrac{C}{B}</m> plus a multiple of <m>\dfrac{\pi}{2B}</m> and have <m>D-A</m>, <m>D</m>, or <m>D+A</m> as their <m>y</m>-coordinates.
+        </p>
+        <p>
+            For <m>y=A\sin(Bx-C)+D</m>, the pattern of points for one period (starting at <m>x=\dfrac{C}{B}</m>) is:
+            <md>
+                <mrow>\left(\dfrac{C}{B},D\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{\pi}{2B},D+A\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{\pi}{B},D\right)</mrow>
+                <mrow>\left(\dfrac{C}{B}+\frac{3\pi}{2B},D-A\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{2\pi}{B},D\right)</mrow>
+            </md>
+        </p>
+        <p>
+            For <m>y=A\cos(Bx-C)+D</m>, the pattern of points for one period (starting at <m>x=\dfrac{C}{B}</m>) is:
+            <md>
+                <mrow>\left(\dfrac{C}{B},D+A\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{\pi}{2B},D\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{\pi}{B},D-A\right)</mrow>
+                <mrow>\left(\dfrac{C}{B}+\frac{3\pi}{2B},D\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{2\pi}{B},D+A\right)</mrow>
+            </md>
+        </p>
+    </statement>
+</lemma>
+<example>
+    <title>Graphing a Cosine Function</title>
+    <statement>
+        <p>
+            Graph one period of the function <m>y=-\cos\left(\dfrac{\pi}{2} x+1\right)-2.</m>
+        </p>
+        <figure xml:id="amplitude-period-phase-vertical-shift-cosine-example">
+        <caption>The graph of <m>y=\cos(x)</m> is drawn as a red, dashed curve on <m>[-2,8]\times[-2.5,2.5]</m>.</caption>
+        <image source="trigonometry/amplitude-period-phase-vertical-shift-cosine-example.png" decorative="yes" width="85%"/>
+    </figure>
+</statement>
+</example>
+<example xml:id="exa-applied-problem-graphs-sine-cosine">
+    <title>Applied Problem Involving Graphs of Sine and Cosine</title>
+    <statement>
+        <p>
+            A region that is <m>30^\circ</m>N of the equator averages a minimum of <m>10</m> hours of daylight in December and a maximum of <m>14</m> hours of daylight in June. 
+            Let <m>x</m> represent the month of the year, with <m>1</m> corresponding to January, <m>2</m> to February, etc. 
+            If <m>y</m> represents the number of daylight hours in month <m>x</m>, find a sine to model the average number of daylight hours in any given month.
+        </p>
+    </statement>
+</example>
 </worksheet>
