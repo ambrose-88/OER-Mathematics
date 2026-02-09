@@ -6985,6 +6985,213 @@ var ptx_lunr_docs = [
   "body": " Period of All Six Trigonometric Functions  Since taking reciprocals does not change the period of a function, we know the periods of all six trigonometric functions:    , , , and all have period .     and both have period .   In particular, we can extend this result to any multiple of the period. Therefore, for any integer , we have the following equations.   "
 },
 {
+  "id": "ws-sine-cosine-graphs",
+  "level": "1",
+  "url": "ws-sine-cosine-graphs.html",
+  "type": "Worksheet",
+  "number": "D.5",
+  "title": "Graphs of Sine and Cosine",
+  "body": " Graphs of Sine and Cosine   Graph of the Sine Function   The equation is found by plotting the points where is measured in radians.  Instead of a circle, this graph is a wave that oscillates between and , and this wave pattern repeats every units on the -axis. Unless more of the graph is needed, we typically only draw one period of the graph.   Points on the graph of .                                                    A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.       Graph of the Cosine Function   The equation is found by plotting the points where is measured in radians.  Similar to the sine graph, the graph of cosine is a wave that oscillates between and , and this wave pattern also repeats every units on the -axis. Furthermore, if we consider the cofunction identity , we see that the graph of cosine is a transformation of the sine graph by performing a horizontal reflection and then a shift right by .   Points on the graph of .                                                    A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.       The Amplitude of Sine and Cosine Graphs   Let or where . The amplitude of the graph is one-half the vertical distance between the absolute maximum and the absolute minimum of the graph. The distance measured by the amplitude is given by the formula    The graph of . The point is labeled as the absolute maximum and the point is labeled as the absolute minimum. One vertical line segment measures the distance between the -axis and the absolute maximum, and another vertical line segment measures the distance between the -axis and the absolute minimum. Both segments are labeled with the distance .     The graph of . The point is labeled as the absolute maximum and the point is labeled as the absolute minimum. One vertical line segment measures the distance between the -axis and the absolute maximum, and another vertical line segment measures the distance between the -axis and the absolute minimum. Both segments are labeled with the distance .       Algebraic Interpretation of Amplitude  The amplitude measure the vertical stretch or compression applied to the base graph or . In order to graph or , we can first graph the base graph and multiply the -coordinates by . Notice we didn't apply absolute values to this multiplication. If is negative, multiplying by will also reflect the graph across the -axis in addition to stretching or compressing the graph.    Rapid Sketch Method (Amplitude Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are multiples of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:      Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on . The graph is labeled at , and a graph, dashed grid is imposed on the backgound; each square of the grid has dimensions .       Graphing a Cosine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on . The graph is labeled at , and a graph, dashed grid is imposed on the backgound; each square of the grid has dimensions .       Finding the Equation from the Graph of a Sine or Cosine Function   Find the equation of the sine or cosine graph shown below.   A graph of either a sine or cosine function.   Graph passing through the points (0,0), (pi\/2,5\/4), (pi,0), (3pi\/2,-5\/4), and (2pi,0).        Let or where and . The period of the graph is the horizontal distance between consecutive absolute maximums (or equivalently between consecutive absolute minimums) of the graph. The length of this horizontal distance is given by the following formula:    The graph of . Line segments measuring the horizontal distance between absolute extrema have been added to the graph of Figure . Each segment is labeled with the distance .     The graph of . Line segments measuring the horizontal distance between absolute extrema have been added to the graph of Figure . Each segment is labeled with the distance .       Rapid Sketch Method (Amplitude and Period Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are multiples of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:      Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .       Graphing a Cosine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .       Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .       Finding the Equation from the Graph of a Sine or Cosine Function   Find the equation of the sine or cosine graph shown below.   A graph of either a sine or cosine function.   Graph passing through the points (0,-1), (2,0), (4,1), (6,0)), and (8,-1).        Let or where , , and is any real number. The phase shift of the graph is the horizontal distance the graph of or is shifted left or right. The length of the shift is given by the following equation: If the phase shift is positive, the graph is shifted to the right, and if the phase shift is negative, the graph is shifted to the left.   The graph of . The graph of Figure has been shifted to the right by units, where . A horizontal line segment measuring the distance of the phase shift has been added to the graph and is labeled with the distance .       Rapid Sketch Method (Amplitude, Period, Phase Shift Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are equal to plus a multiple of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:      Graphing a Cosine Function   Graph one period of the function    The graph of is drawn as a red, dashed curve on .        Let or where , , is any real number, and is any real number. The vertical shift of the graph is the vertical distance the graph of or is shifted up or down. The length of the shift is given by the following equation: If the vertical shift is positive, the graph is shifted up, and if the vertical shift is negative, the graph is shifted down.   The graph of . The graph of Figure has been shifted up by units, where . A vertical line segment measuring the distance of the vertical shift has been added to the graph and is labeled with the distance .       Rapid Sketch Method (Full Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are equal to plus a multiple of and have , , or as their -coordinates.  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:      Graphing a Cosine Function   Graph one period of the function    The graph of is drawn as a red, dashed curve on .       Applied Problem Involving Graphs of Sine and Cosine   A region that is N of the equator averages a minimum of hours of daylight in December and a maximum of hours of daylight in June. Let represent the month of the year, with corresponding to January, to February, etc. If represents the number of daylight hours in month , find a sine to model the average number of daylight hours in any given month.    "
+},
+{
+  "id": "def-graph-sine",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#def-graph-sine",
+  "type": "Definition",
+  "number": "D.5.265",
+  "title": "Graph of the Sine Function.",
+  "body": " Graph of the Sine Function   The equation is found by plotting the points where is measured in radians.  Instead of a circle, this graph is a wave that oscillates between and , and this wave pattern repeats every units on the -axis. Unless more of the graph is needed, we typically only draw one period of the graph.   Points on the graph of .                                                    A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.     "
+},
+{
+  "id": "def-graph-cosine",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#def-graph-cosine",
+  "type": "Definition",
+  "number": "D.5.268",
+  "title": "Graph of the Cosine Function.",
+  "body": " Graph of the Cosine Function   The equation is found by plotting the points where is measured in radians.  Similar to the sine graph, the graph of cosine is a wave that oscillates between and , and this wave pattern also repeats every units on the -axis. Furthermore, if we consider the cofunction identity , we see that the graph of cosine is a transformation of the sine graph by performing a horizontal reflection and then a shift right by .   Points on the graph of .                                                    A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.     "
+},
+{
+  "id": "def-amplitude",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#def-amplitude",
+  "type": "Definition",
+  "number": "D.5.271",
+  "title": "The Amplitude of Sine and Cosine Graphs.",
+  "body": " The Amplitude of Sine and Cosine Graphs   Let or where . The amplitude of the graph is one-half the vertical distance between the absolute maximum and the absolute minimum of the graph. The distance measured by the amplitude is given by the formula    The graph of . The point is labeled as the absolute maximum and the point is labeled as the absolute minimum. One vertical line segment measures the distance between the -axis and the absolute maximum, and another vertical line segment measures the distance between the -axis and the absolute minimum. Both segments are labeled with the distance .     The graph of . The point is labeled as the absolute maximum and the point is labeled as the absolute minimum. One vertical line segment measures the distance between the -axis and the absolute maximum, and another vertical line segment measures the distance between the -axis and the absolute minimum. Both segments are labeled with the distance .     "
+},
+{
+  "id": "ws-sine-cosine-graphs-5",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#ws-sine-cosine-graphs-5",
+  "type": "Note",
+  "number": "D.5.274",
+  "title": "Algebraic Interpretation of Amplitude.",
+  "body": " Algebraic Interpretation of Amplitude  The amplitude measure the vertical stretch or compression applied to the base graph or . In order to graph or , we can first graph the base graph and multiply the -coordinates by . Notice we didn't apply absolute values to this multiplication. If is negative, multiplying by will also reflect the graph across the -axis in addition to stretching or compressing the graph.  "
+},
+{
+  "id": "lem-rapid-sketch-method-version-1",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-1",
+  "type": "Procedure",
+  "number": "D.5.275",
+  "title": "Rapid Sketch Method (Amplitude Only Version).",
+  "body": " Rapid Sketch Method (Amplitude Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are multiples of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
+},
+{
+  "id": "exa-graphing-sine-1",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#exa-graphing-sine-1",
+  "type": "Example",
+  "number": "D.5.276",
+  "title": "Graphing a Sine Function.",
+  "body": " Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on . The graph is labeled at , and a graph, dashed grid is imposed on the backgound; each square of the grid has dimensions .     "
+},
+{
+  "id": "exa-graphing-cosine-1",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#exa-graphing-cosine-1",
+  "type": "Example",
+  "number": "D.5.278",
+  "title": "Graphing a Cosine Function.",
+  "body": " Graphing a Cosine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on . The graph is labeled at , and a graph, dashed grid is imposed on the backgound; each square of the grid has dimensions .     "
+},
+{
+  "id": "exa-find-equation-graph-sine-cosine",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#exa-find-equation-graph-sine-cosine",
+  "type": "Example",
+  "number": "D.5.280",
+  "title": "Finding the Equation from the Graph of a Sine or Cosine Function.",
+  "body": " Finding the Equation from the Graph of a Sine or Cosine Function   Find the equation of the sine or cosine graph shown below.   A graph of either a sine or cosine function.   Graph passing through the points (0,0), (pi\/2,5\/4), (pi,0), (3pi\/2,-5\/4), and (2pi,0).     "
+},
+{
+  "id": "def-period-sine-cosine",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#def-period-sine-cosine",
+  "type": "Definition",
+  "number": "D.5.282",
+  "title": "",
+  "body": "  Let or where and . The period of the graph is the horizontal distance between consecutive absolute maximums (or equivalently between consecutive absolute minimums) of the graph. The length of this horizontal distance is given by the following formula:    The graph of . Line segments measuring the horizontal distance between absolute extrema have been added to the graph of Figure . Each segment is labeled with the distance .     The graph of . Line segments measuring the horizontal distance between absolute extrema have been added to the graph of Figure . Each segment is labeled with the distance .     "
+},
+{
+  "id": "lem-rapid-sketch-method-version-2",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-2",
+  "type": "Procedure",
+  "number": "D.5.285",
+  "title": "Rapid Sketch Method (Amplitude and Period Only Version).",
+  "body": " Rapid Sketch Method (Amplitude and Period Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are multiples of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
+},
+{
+  "id": "exa-graphing-sine-2",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#exa-graphing-sine-2",
+  "type": "Example",
+  "number": "D.5.286",
+  "title": "Graphing a Sine Function.",
+  "body": " Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .     "
+},
+{
+  "id": "exa-graphing-cosine-2",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#exa-graphing-cosine-2",
+  "type": "Example",
+  "number": "D.5.288",
+  "title": "Graphing a Cosine Function.",
+  "body": " Graphing a Cosine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .     "
+},
+{
+  "id": "exa-graphing-sine-3",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#exa-graphing-sine-3",
+  "type": "Example",
+  "number": "D.5.290",
+  "title": "Graphing a Sine Function.",
+  "body": " Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .     "
+},
+{
+  "id": "exa-find-equation-graph-sine-cosine-2",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#exa-find-equation-graph-sine-cosine-2",
+  "type": "Example",
+  "number": "D.5.292",
+  "title": "Finding the Equation from the Graph of a Sine or Cosine Function.",
+  "body": " Finding the Equation from the Graph of a Sine or Cosine Function   Find the equation of the sine or cosine graph shown below.   A graph of either a sine or cosine function.   Graph passing through the points (0,-1), (2,0), (4,1), (6,0)), and (8,-1).     "
+},
+{
+  "id": "def-phase-shift-sine-cosine",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#def-phase-shift-sine-cosine",
+  "type": "Definition",
+  "number": "D.5.294",
+  "title": "",
+  "body": "  Let or where , , and is any real number. The phase shift of the graph is the horizontal distance the graph of or is shifted left or right. The length of the shift is given by the following equation: If the phase shift is positive, the graph is shifted to the right, and if the phase shift is negative, the graph is shifted to the left.   The graph of . The graph of Figure has been shifted to the right by units, where . A horizontal line segment measuring the distance of the phase shift has been added to the graph and is labeled with the distance .     "
+},
+{
+  "id": "lem-rapid-sketch-method-version-3",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-3",
+  "type": "Procedure",
+  "number": "D.5.296",
+  "title": "Rapid Sketch Method (Amplitude, Period, Phase Shift Only Version).",
+  "body": " Rapid Sketch Method (Amplitude, Period, Phase Shift Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are equal to plus a multiple of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
+},
+{
+  "id": "ws-sine-cosine-graphs-18",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#ws-sine-cosine-graphs-18",
+  "type": "Example",
+  "number": "D.5.297",
+  "title": "Graphing a Cosine Function.",
+  "body": " Graphing a Cosine Function   Graph one period of the function    The graph of is drawn as a red, dashed curve on .     "
+},
+{
+  "id": "def-vertical-shift-sine-cosine",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#def-vertical-shift-sine-cosine",
+  "type": "Definition",
+  "number": "D.5.299",
+  "title": "",
+  "body": "  Let or where , , is any real number, and is any real number. The vertical shift of the graph is the vertical distance the graph of or is shifted up or down. The length of the shift is given by the following equation: If the vertical shift is positive, the graph is shifted up, and if the vertical shift is negative, the graph is shifted down.   The graph of . The graph of Figure has been shifted up by units, where . A vertical line segment measuring the distance of the vertical shift has been added to the graph and is labeled with the distance .     "
+},
+{
+  "id": "lem-rapid-sketch-method-version-4",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-4",
+  "type": "Procedure",
+  "number": "D.5.301",
+  "title": "Rapid Sketch Method (Full Version).",
+  "body": " Rapid Sketch Method (Full Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are equal to plus a multiple of and have , , or as their -coordinates.  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
+},
+{
+  "id": "ws-sine-cosine-graphs-21",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#ws-sine-cosine-graphs-21",
+  "type": "Example",
+  "number": "D.5.302",
+  "title": "Graphing a Cosine Function.",
+  "body": " Graphing a Cosine Function   Graph one period of the function    The graph of is drawn as a red, dashed curve on .     "
+},
+{
+  "id": "exa-applied-problem-graphs-sine-cosine",
+  "level": "2",
+  "url": "ws-sine-cosine-graphs.html#exa-applied-problem-graphs-sine-cosine",
+  "type": "Example",
+  "number": "D.5.304",
+  "title": "Applied Problem Involving Graphs of Sine and Cosine.",
+  "body": " Applied Problem Involving Graphs of Sine and Cosine   A region that is N of the equator averages a minimum of hours of daylight in December and a maximum of hours of daylight in June. Let represent the month of the year, with corresponding to January, to February, etc. If represents the number of daylight hours in month , find a sine to model the average number of daylight hours in any given month.   "
+},
+{
+  "id": "ws-other-four-graphs",
+  "level": "1",
+  "url": "ws-other-four-graphs.html",
+  "type": "Worksheet",
+  "number": "D.6",
+  "title": "Graphs of Tangent, Cotangent, Secant, Cosecant",
+  "body": " Graphs of Tangent, Cotangent, Secant, Cosecant  "
+},
+{
   "id": "appendix-e",
   "level": "1",
   "url": "appendix-e.html",
