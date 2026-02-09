@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-sine-cosine-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Graphs of Sine and Cosine</title>
+<definition xml:id="def-graph-sine">
+    <title>Graph of the Sine Function</title>
+    <statement>
+        <p>
+            The equation <m>y=\sin(x)</m> is found by plotting the points <m>(x,y)=(\theta,\sin(\theta))</m> where <m>x</m> is measured in radians.</p>
+            <p>
+            Instead of a circle, this graph is a wave that oscillates between <m>y=-1</m> and <m>y=+1</m>, and this wave pattern repeats every <m>2\pi</m> units on the <m>x</m>-axis. Unless more of the graph is needed, we typically only draw one period of the graph.
+        </p>
+         <table xml:id="table-sine-values-for-graph">
+    <title>Points on the graph of <m>y=\sin(x)</m>.</title>
+    <tabular halign="center">
+        <row header="yes" top="major">
+            <cell><m>x</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\dfrac{\pi}{6}</m></cell>
+            <cell><m>\dfrac{\pi}{4}</m></cell>
+            <cell><m>\dfrac{\pi}{3}</m></cell>
+            <cell><m>\dfrac{\pi}{2}</m></cell>
+            <cell><m>\dfrac{2\pi}{3}</m></cell>
+            <cell><m>\dfrac{3\pi}{4}</m></cell>
+            <cell><m>\dfrac{5\pi}{6}</m></cell>
+            <cell><m>\pi</m></cell>
+        </row>
+        <row bottom="major">
+            <cell><m>y</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\dfrac{1}{2}</m></cell>
+            <cell><m>\dfrac{\sqrt{2}}{2}</m></cell>
+            <cell><m>\dfrac{\sqrt{3}}{2}</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>\dfrac{\sqrt{3}}{2}</m></cell>
+            <cell><m>\dfrac{\sqrt{2}}{2}</m></cell>
+            <cell><m>\dfrac{1}{2}</m></cell>
+            <cell><m>0</m></cell>
+        </row>
+        <row>
+            <cell><m>x</m></cell>
+            <cell><m>\dfrac{7\pi}{6}</m></cell>
+            <cell><m>\dfrac{5\pi}{4}</m></cell>
+            <cell><m>\dfrac{4\pi}{3}</m></cell>
+            <cell><m>\dfrac{3\pi}{2}</m></cell>
+            <cell><m>\dfrac{5\pi}{3}</m></cell>
+            <cell><m>\dfrac{7\pi}{4}</m></cell>
+            <cell><m>\dfrac{11\pi}{6}</m></cell>
+            <cell><m>2\pi</m></cell>
+        </row>
+        <row bottom="major">
+            <cell><m>y</m></cell>
+            <cell><m>-\dfrac{1}{2}</m></cell>
+            <cell><m>-\dfrac{\sqrt{2}}{2}</m></cell>
+            <cell><m>-\dfrac{\sqrt{3}}{2}</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>-\dfrac{\sqrt{3}}{2}</m></cell>
+            <cell><m>-\dfrac{\sqrt{2}}{2}</m></cell>
+            <cell><m>-\dfrac{1}{2}</m></cell>
+            <cell><m>0</m></cell>
+        </row>
+    </tabular>
+</table>
+<figure xml:id="fig-sine-graph-base">
+    <caption>A blank graph of the coordinate plane where the <m>x</m>-axis is labeled every <m>\dfrac{\pi}{4}</m> units and the <m>y</m>-axis is labeled every <m>0.2</m> units. A dashed grid outlines <m>\dfrac{\pi}{4}</m> by <m>0.2</m> rectangles.</caption>
+    <image source="trigonometry/sine-cosine-blank.png" decorative="yes"/>
+</figure>
+    </statement>
+</definition>
+<definition xml:id="def-graph-cosine">
+    <title>Graph of the Cosine Function</title>
+    <statement>
+        <p>
+            The equation <m>y=\cos(x)</m> is found by plotting the points <m>(x,y)=(\theta,\cos(\theta))</m> where <m>x</m> is measured in radians.</p>
+            <p>
+            Similar to the sine graph, the graph of cosine is a wave that oscillates between <m>y=-1</m> and <m>y=+1</m>, and this wave pattern also repeats every <m>2\pi</m> units on the <m>x</m>-axis. Furthermore, if we consider the cofunction identity <me>\cos(x) = \sin\left(\dfrac{\pi}{2} - x\right)</me>, we see that the graph of cosine is a transformation of the sine graph by performing a horizontal reflection and then a shift right by <m>\dfrac{\pi}{2}</m>.
+        </p>
+         <table xml:id="table-cosine-values-for-graph">
+    <title>Points on the graph of <m>y=\cos(x)</m>.</title>
+    <tabular halign="center">
+        <row header="yes" top="major">
+            <cell><m>x</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\dfrac{\pi}{6}</m></cell>
+            <cell><m>\dfrac{\pi}{4}</m></cell>
+            <cell><m>\dfrac{\pi}{3}</m></cell>
+            <cell><m>\dfrac{\pi}{2}</m></cell>
+            <cell><m>\dfrac{2\pi}{3}</m></cell>
+            <cell><m>\dfrac{3\pi}{4}</m></cell>
+            <cell><m>\dfrac{5\pi}{6}</m></cell>
+            <cell><m>\pi</m></cell>
+        </row>
+        <row bottom="major">
+            <cell><m>y</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>\dfrac{\sqrt{3}}{2}</m></cell>
+            <cell><m>\dfrac{\sqrt{2}}{2}</m></cell>
+            <cell><m>\dfrac{1}{2}</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>-\dfrac{1}{2}</m></cell>
+            <cell><m>-\dfrac{\sqrt{2}}{2}</m></cell>
+            <cell><m>-\dfrac{\sqrt{3}}{2}</m></cell>
+            <cell><m>-1</m></cell>
+        </row>
+        <row>
+            <cell><m>x</m></cell>
+            <cell><m>\dfrac{7\pi}{6}</m></cell>
+            <cell><m>\dfrac{5\pi}{4}</m></cell>
+            <cell><m>\dfrac{4\pi}{3}</m></cell>
+            <cell><m>\dfrac{3\pi}{2}</m></cell>
+            <cell><m>\dfrac{5\pi}{3}</m></cell>
+            <cell><m>\dfrac{7\pi}{4}</m></cell>
+            <cell><m>\dfrac{11\pi}{6}</m></cell>
+            <cell><m>2\pi</m></cell>
+        </row>
+        <row bottom="major">
+            <cell><m>y</m></cell>
+            <cell><m>-\dfrac{\sqrt{3}}{2}</m></cell>
+        <cell><m>-\dfrac{\sqrt{2}}{2}</m></cell>
+            <cell><m>-\dfrac{1}{2}</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\dfrac{1}{2}</m></cell>
+            <cell><m>\dfrac{\sqrt{2}}{2}</m></cell>
+            <cell><m>\dfrac{\sqrt{3}}{2}</m></cell>
+            <cell><m>1</m></cell>
+        </row>
+    </tabular>
+</table>
+<figure xml:id="fig-cosine-graph-base">
+    <caption>A blank graph of the coordinate plane where the <m>x</m>-axis is labeled every <m>\dfrac{\pi}{4}</m> units and the <m>y</m>-axis is labeled every <m>0.2</m> units. A dashed grid outlines <m>\dfrac{\pi}{4}</m> by <m>0.2</m> rectangles.</caption>
+    <image source="trigonometry/sine-cosine-blank.png" decorative="yes"/>
+</figure>
+    </statement>
+</definition>
+<definition xml:id="def-amplitude">
+    <title>The Amplitude of Sine and Cosine Graphs</title>
+    <statement>
+        <p>
+            Let <m>y=A\sin(x)</m> or <m>y=A\cos(x)</m> where <m>A\ne 0</m>. The <term>amplitude</term> of the graph is one-half the vertical distance between the absolute maximum and the absolute minimum of the graph.  
+            The distance measured by the amplitude is given by the formula <me>\text{amplitude} = |A|.</me>
+        </p>
+        <figure xml:id="fig-amplitude-sine">
+                <caption>The graph of <m>y=A\sin(x)</m>. 
+                    The point <m>(\pi/2,A)</m> is labeled as the absolute maximum and the point <m>(3\pi/2,-A)</m> is labeled as the absolute minimum.
+                    One vertical line segment measures the distance between the <m>x</m>-axis and the absolute maximum, and another vertical line segment measures the distance between the <m>x</m>-axis and the absolute minimum. 
+                    Both segments are labeled with the distance <m>|A|</m>.
+                </caption>
+                <image source="trigonometry/amplitude-sine.png" decorative="yes" width="65%"/>
+            </figure>
+        <figure xml:id="fig-amplitude-cosine">
+                <caption>The graph of <m>y=A\cos(x)</m>. 
+                    The point <m>(0,A)</m> is labeled as the absolute maximum and the point <m>(\pi,-A)</m> is labeled as the absolute minimum.
+                    One vertical line segment measures the distance between the <m>x</m>-axis and the absolute maximum, and another vertical line segment measures the distance between the <m>x</m>-axis and the absolute minimum. 
+                    Both segments are labeled with the distance <m>|A|</m>.
+                </caption>
+                <image source="trigonometry/amplitude-cosine.png" decorative="yes" width="65%"/> 
+            </figure>
+        </statement>
+</definition>
+<note>
+    <title>Algebraic Interpretation of Amplitude</title>
+        <p>
+            The amplitude measure the vertical stretch or compression applied to the base graph <m>y=\sin(x)</m> or <m>y=\cos(x)</m>.
+            In order to graph <m>y=A\sin(x)</m> or <m>y=A\cos(x)</m>, we can first graph the base graph and multiply the <m>y</m>-coordinates by <m>A</m>. </p><p>
+            Notice we didn't apply absolute values to this multiplication.
+            If <m>A</m> is negative, multiplying by <m>A</m> will also reflect the graph across the <m>x</m>-axis in addition to stretching or compressing the graph.
+        </p>
+</note>
+<lemma xml:id="lem-rapid-sketch-method-version-1">
+    <title>Rapid Sketch Method (Amplitude Only Version)</title>
+    <statement>
+        <p>
+            In order to rapidly sketch the graph of <m>y=A\sin(x)</m> or <m>y=A\cos(x)</m>, we only graph the absolute maximums, the absolute minimums, and the zeroes of the function.
+            For both functions, these points correspond to the <m>x</m>-coordinates that are multiples of <m>\dfrac{\pi}{2}</m>.
+        </p>
+        <p>
+            For <m>y=A\sin(x)</m>, the pattern of points for one period (starting at <m>x=0</m>) is:
+            <md>
+                <mrow>(0,0)\amp\amp\left(\dfrac{\pi}{2},A\right)\amp\amp(\pi,0)\amp\amp\left(\frac{3\pi}{2},-A\right)\amp\amp(2\pi,0)</mrow>
+            </md>
+        </p>
+        <p>
+            For <m>y=A\cos(x)</m>, the pattern of points for one period (starting at <m>x=0</m>) is:
+            <md>
+                <mrow>\left(0,A\right)\amp\amp\left(\dfrac{\pi}{2},0\right)\amp\amp(\pi,-A)\amp\amp\left(\frac{3\pi}{2},0\right)\amp\amp(2\pi,A)</mrow>
+            </md>
+        </p>
+    </statement>
+</lemma>
+<example xml:id="exa-graphing-sine-1">
+    <title>Graphing a Sine Function</title>
+    <statement>
+        <p>
+            Graph one period of the function <m>y=3\sin(x)</m>.
+        </p>
+        <figure xml:id="amplitude-sine-example">
+        <caption>The graph of <m>y=\sin(x)</m> is drawn as a red, dashed curve on <m>\left[-\frac{\pi}{2},\frac{7\pi}{2}\right]\times[-1.25,1.25]</m>. The graph is labeled at <m>y=\sin(x)</m>, and a graph, dashed grid is imposed on the backgound; each square of the grid has dimensions <m>\frac{\pi}{4}\times 0.2</m>.</caption>
+        <image source="trigonometry/amplitude-sine-example.png" decorative="yes" width="75%"/>
+    </figure>
+    </statement>
+</example>
+<example xml:id="exa-graphing-cosine-1">
+    <title>Graphing a Cosine Function</title>
+    <statement>
+        <p>
+            Graph one period of the function <m>y=-\dfrac{2}{5}\cos(x)</m>.
+        </p>
+        <figure xml:id="amplitude-cosine-example">
+        <caption>The graph of <m>y=\cos(x)</m> is drawn as a red, dashed curve on <m>\left[-\frac{\pi}{2},\frac{7\pi}{2}\right]\times[-0.75,0.75]</m>. The graph is labeled at <m>y=\cos(x)</m>, and a graph, dashed grid is imposed on the backgound; each square of the grid has dimensions <m>\frac{\pi}{4}\times 0.2</m>.</caption>
+        <image source="trigonometry/amplitude-cosine-example.png" decorative="yes" width="60%"/>
+    </figure>
+    </statement>
+</example>
+<example xml:id="exa-find-equation-graph-sine-cosine">
+    <title>Finding the Equation from the Graph of a Sine or Cosine Function</title>
+    <statement>
+        <p>
+            Find the equation of the sine or cosine graph shown below.
+        </p>
+        <figure xml:id="find-equation-graph-sine-cosine">
+        <caption>A graph of either a sine or cosine function.</caption>
+        <image source="trigonometry/find-equation-sine-cosine-amplitude.png" width="60%">
+            <shortdescription>
+                Graph passing through the points (0,0), (pi/2,5/4), (pi,0), (3pi/2,-5/4), and (2pi,0).
+            </shortdescription>
+        </image>
+    </figure>
+    </statement>
+</example>
+<definition xml:id="def-period-sine-cosine">
+    <statement>
+        <p>
+            Let <m>y=A\sin(Bx)</m> or <m>y=A\cos(Bx)</m> where <m>A\ne 0</m> and <m>B\gt 0</m>.</p><p>The <term>period</term> of the graph is the horizontal distance between consecutive absolute maximums (or equivalently between consecutive absolute minimums) of the graph.  
+            The length of this horizontal distance is given by the following formula:
+            <md>\text{period} = \dfrac{2\pi}{B}.</md>
+        </p>
+        
+        <figure xml:id="fig-period-sine">
+                <caption>The graph of <m>y=A\sin(Bx)</m>. 
+                    Line segments measuring the horizontal distance between absolute extrema have been added to the graph of Figure <xref ref="fig-amplitude-sine"/>.
+                    Each segment is labeled with the distance <m>\frac{2\pi}{B}</m>.
+                </caption>
+                <image source="trigonometry/amplitude-period-sine.png" decorative="yes" width="65%"/>
+            </figure>
+        <figure xml:id="fig-period-cosine">
+                <caption>The graph of <m>y=A\cos(Bx)</m>. 
+                    Line segments measuring the horizontal distance between absolute extrema have been added to the graph of Figure <xref ref="fig-amplitude-cosine"/>.
+                    Each segment is labeled with the distance <m>\frac{2\pi}{B}</m>.
+                </caption>
+                <image source="trigonometry/amplitude-period-cosine.png" decorative="yes" width="65%"/> 
+            </figure>
+    </statement>
+</definition>
+<lemma xml:id="lem-rapid-sketch-method-version-2">
+    <title>Rapid Sketch Method (Amplitude and Period Only Version)</title>
+    <statement>
+        <p>
+            In order to rapidly sketch the graph of <m>y=A\sin(Bx)</m> or <m>y=A\cos(Bx)</m>, we only graph the absolute maximums, the absolute minimums, and the zeroes of the function.
+            For both functions, these points correspond to the <m>x</m>-coordinates that are multiples of <m>\dfrac{\pi}{2B}</m>.
+        </p>
+        <p>
+            For <m>y=A\sin(Bx)</m>, the pattern of points for one period (starting at <m>x=0</m>) is:
+            <md>
+                <mrow>(0,0)\amp\amp\left(\dfrac{\pi}{2B},A\right)\amp\amp\left(\dfrac{\pi}{B},0\right)\amp\amp\left(\frac{3\pi}{2B},-A\right)\amp\amp\left(\dfrac{2\pi}{B},0\right)</mrow>
+            </md>
+        </p>
+        <p>
+            For <m>y=A\cos(Bx)</m>, the pattern of points for one period (starting at <m>x=0</m>) is:
+            <md>
+                <mrow>\left(0,A\right)\amp\amp\left(\dfrac{\pi}{2B},0\right)\amp\amp\left(\dfrac{\pi}{B},-A\right)\amp\amp\left(\frac{3\pi}{2B},0\right)\amp\amp\left(\dfrac{2\pi}{B},A\right)</mrow>
+            </md>
+        </p>
+    </statement>
+</lemma>
+<example xml:id="exa-graphing-sine-2">
+    <title>Graphing a Sine Function</title>
+    <statement>
+        <p>
+            Graph one period of the function <m>y=\frac{3}{2}\sin\left(3x\right)</m>.
+        </p>
+        <figure xml:id="amplitude-period-sine-example">
+        <caption>The graph of <m>y=\sin(x)</m> is drawn as a red, dashed curve on <m>\left[-\frac{\pi}{2},\frac{5\pi}{2}\right]\times[-2.5,2.5]</m>.</caption>
+        <image source="trigonometry/amplitude-period-sine-example.png" decorative="yes" width="75%"/>
+    </figure>
+    </statement>
+</example>
+<example xml:id="exa-graphing-cosine-2">
+    <title>Graphing a Cosine Function</title>
+    <statement>
+        <p>
+            Graph one period of the function <m>y=-2\cos\left(\dfrac{1}{2}x\right)</m>.
+        </p>
+        <figure xml:id="amplitude-period-cosine-example">
+        <caption>The graph of <m>y=\cos(x)</m> is drawn as a red, dashed curve on <m>\left[-\pi,5\pi\right]\times[-2.5,2.5]</m>.</caption>
+        <image source="trigonometry/amplitude-period-cosine-example.png" decorative="yes" width="60%"/>
+    </figure>
+    </statement>
+</example>
+<example xml:id="exa-graphing-sine-3">
+    <title>Graphing a Sine Function</title>
+    <statement>
+        <p>
+            Graph one period of the function <m>y=-\dfrac{1}{2}\sin\left(\pi x\right)</m>.
+        </p>
+        <figure xml:id="amplitude-period-sine-example-2">
+        <caption>The graph of <m>y=\sin(x)</m> is drawn as a red, dashed curve on <m>\left[-2,8\right]\times[-1.5,1.5]</m>.</caption>
+        <image source="trigonometry/amplitude-period-sine-example-2.png" decorative="yes" width="60%"/>
+    </figure>
+    </statement>
+</example>
+
+<example xml:id="exa-find-equation-graph-sine-cosine-2">
+    <title>Finding the Equation from the Graph of a Sine or Cosine Function</title>
+    <statement>
+        <p>
+            Find the equation of the sine or cosine graph shown below.
+        </p>
+        <figure xml:id="find-equation-graph-sine-cosine-2">
+        <caption>A graph of either a sine or cosine function.</caption>
+        <image source="trigonometry/find-equation-sine-cosine-amplitude-period.png" width="60%">
+            <shortdescription>
+                Graph passing through the points (0,-1), (2,0), (4,1), (6,0)), and (8,-1).
+            </shortdescription>
+        </image>
+    </figure>
+    </statement>
+</example>
+<definition xml:id="def-phase-shift-sine-cosine">
+    <statement>
+        <p>
+            Let <m>y=A\sin(Bx-C)</m> or <m>y=A\cos(Bx-C)</m> where <m>A\ne 0</m>, <m>B\gt 0</m>, and <m>C</m> is any real number.</p><p>The <term>phase shift</term> of the graph is the horizontal distance the graph of <m>y=A\sin(Bx)</m> or <m>y=A\cos(Bx)</m> is shifted left or right.  
+            The length of the shift is given by the following equation:
+            <me>\text{phase shift} = \frac{C}{B}.</me>
+            If the phase shift is positive, the graph is shifted to the right, and if the phase shift is negative, the graph is shifted to the left.
+        </p>
+        <figure xml:id="fig-amplitude-period-phase-shift-sine">
+                <caption>The graph of <m>y=A\sin(Bx-C)</m>. 
+                    The graph of Figure <xref ref="fig-period-sine"/> has been shifted to the right by <m>\frac{C}{B}</m> units, where <m>C\gt 0</m>.
+                    A horizontal line segment measuring the distance of the phase shift has been added to the graph and is labeled with the distance <m>\frac{C}{B}</m>.
+                </caption>
+                <image source="trigonometry/amplitude-period-phase-shift-sine.png" decorative="yes" width="65%"/>
+            </figure>
+    </statement>
+</definition>
+
+<lemma xml:id="lem-rapid-sketch-method-version-3">
+    <title>Rapid Sketch Method (Amplitude, Period, Phase Shift Only Version)</title>
+    <statement>
+        <p>
+            In order to rapidly sketch the graph of <m>y=A\sin(Bx-C)</m> or <m>y=A\cos(Bx-C)</m>, we only graph the absolute maximums, the absolute minimums, and the zeroes of the function.
+            For both functions, these points correspond to the <m>x</m>-coordinates that are equal to <m>\dfrac{C}{B}</m> plus a multiple of <m>\dfrac{\pi}{2B}</m>.
+        </p>
+        <p>
+            For <m>y=A\sin(Bx-C)</m>, the pattern of points for one period (starting at <m>x=\dfrac{C}{B}</m>) is:
+            <md>
+                <mrow>\left(\dfrac{C}{B},0\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{\pi}{2B},A\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{\pi}{B},0\right)</mrow>
+                <mrow>\left(\dfrac{C}{B}+\frac{3\pi}{2B},-A\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{2\pi}{B},0\right)</mrow>
+            </md>
+        </p>
+        <p>
+            For <m>y=A\cos(Bx-C)</m>, the pattern of points for one period (starting at <m>x=\dfrac{C}{B}</m>) is:
+            <md>
+                <mrow>\left(\dfrac{C}{B},A\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{\pi}{2B},0\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{\pi}{B},-A\right)</mrow>
+                <mrow>\left(\dfrac{C}{B}+\frac{3\pi}{2B},0\right)\amp\amp\left(\dfrac{C}{B}+\dfrac{2\pi}{B},A\right)</mrow>
+            </md>
+        </p>
+    </statement>
+</lemma>
+<example>
+    <title>Graphing a Cosine Function</title>
+    <statement>
+        <p>
+            Graph one period of the function <m>y=2\cos\left(3x+\dfrac{\pi}{3}\right).</m>
+        </p>
+        <figure xml:id="amplitude-period-phase-shift-cosine-example">
+        <caption>The graph of <m>y=\cos(x)</m> is drawn as a red, dashed curve on <m>[-\pi,5\pi]\times[-2.5,2.5]</m>.</caption>
+        <image source="trigonometry/amplitude-period-phase-shift-cosine-example.png" decorative="yes" width="75%"/>
+    </figure>
+</statement>
+</example>
+</worksheet>
