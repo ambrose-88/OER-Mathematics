@@ -3610,13 +3610,202 @@ var ptx_lunr_docs = [
   "body": " The Binomial Theorem    "
 },
 {
-  "id": "trigonometry-chapter1",
+  "id": "sec-chapter1-review",
   "level": "1",
-  "url": "trigonometry-chapter1.html",
-  "type": "Chapter",
-  "number": "13",
-  "title": "Chapter 1",
-  "body": " Chapter 1   Text before the first section.            "
+  "url": "sec-chapter1-review.html",
+  "type": "Section",
+  "number": "13.1",
+  "title": "Exam 1 Review",
+  "body": " Exam 1 Review   Computing an Angle in Radians   A circle of radius yards has an angle that intercepts an arc measuring inches. What is the radian measure of the angle ?     radians.     Drawing and Labeling an Angle in Standard Position   Draw the angle in standard position. Label the initial side, terminal side, and the angle .     An angle of radians drawn in standard position. The angle is labeled and indicates a counterclockwise rotation. The positive -axis is labeled as the initial side, and the ray passing through the point is labeled as the terminal side.       Converting an Angle from Radians to Degrees   Convert the angle radians to degrees.          Converting an Angle from Degrees to Radians   Convert the angle to radians.     radians.     Finding a Coterminal Angle in Radians   Find a positive angle that is coterminal to the angle , where .     radians.     Finding a Coterminal Angle in Degrees   Find a positive angle that is coterminal to the angle , where .     .     Finding the Arc Length and Area of a Sector   Using the circle given in the figure, find the length of the arc and the area of the sector formed by the central angle . For both the area and the arc length, give both the exact value and approximate the value to one decimal place. Make sure to include the correct units in your answers.   A circle with radius cm and central angle . is not in standard position; its initial side is in Quadrant 1 and terminal side is in Quadrant 2. The length of the radius and central angle are labeled with its measurements, and the arc intercepted by is labeled .         The length of the arc is .    The area of the sector is .        Find Linear and Angular Speed   The wheels of a certain bicycle has a diameter. If the wheels are rotating at a constant rate of , how fast is the bicycle moving in miles per hour? Round your answer to decimal places. Include the correct units in your answer.       Writing all the units out in your calculation will help with the unit conversions needed to solve this problem.    For example, write as .    Your goal is to make the the units of measurement in the numerator miles and the denominator hours.    Remember, units cancel in the numerator and denominator just like numbers do!       The bicycle is moving at approximately .     Find the Six Trigonometric Function using Right Trangles   Suppose is one of the non-right angles in a right triangle where the side opposite has length and has a hypotenuse of length . Find the exact value of the six trigonometric functions of .     Note: , which means the following are also acceptable answers:      Deriving Pythagorean Identities   Recall that for any angle , . Prove that and that .    Divide by either or and use quotient identities.     Use a Calculator to Evaluate a Trigonometric Function in Degrees   Use a calculator to evaluate . Round your answer to four decimal places.     .     Use a Calculator to Evaluate a Trigonometric Function in Radians   Use a calculator to evaluate . Round your answer to four decimal places.     .     Applications using Right Triangles   The ramp of a moving truck touches the ground away from the end of the truck. If the ramp makes an angle of with the ground, how long is the ramp? Round your answer to two decimal places and include the correct units in your answer.    The ramp is approximately long.     Applications using Right Triangles   A telephone pole is tall. A guy wire long is attached from the ground to the top of the pole. Find the angle between the wire and the pole to the nearest degree.    The angle between the wire and the pole is approximately .     Using Reference Angles to Evaluate Trigonometric Functions   Suppose the point is a point on the terminal side of an angle in standard position. Draw the reference triangle for this point, label the sides and the reference angle, and find the exact value of the six trigonometric functions of .    Since the angle isn't given to use, we will just label the angle as and the reference angle as . To find the length of the hypotenuse, we use the Pythagorean Theorem: This is enough information to construct the reference triangle. It is given in the figure below.   A reference triangle for the point . The angle is in standard position, and the reference angle is labeled as the angle between the hypotenuse and the negative x-axis. The triangle is a right triangle with one vertex at the origin, one vertex at the point , and the last vertex on the point . The side adjacent to has length , the side opposite has length , and the hypotenuse has length .    The six trigonometric functions of are calculated below.      Finding the Quadrant of an Angle   If and , in which quadrant does the angle lie?    The angle lies in Quadrant 4.     Finding the Quadrant of an Angle   If and , in which quadrant does the angle lie?    The angle lies in Quadrant 3.     Finding the value of a Trigonometric Function of a Negative Angle   Find the exact value of using the fact that sine is an odd function. You may have to use other techniques to get a final answer.     .     Use the Periodicity of Sine or Cosine to Evaluate a Trigonometric Function   Use the periodicity of cosine to evaluate .     .     Graph a Transformation of a Sine Function   Graph one period of the function . Identify the amplitude, period, phase shift, and vertical shift of the function.                             The graph of plotted on . A line segment measuring the distance from to is labeled, \"One period of .\"       Graph a Transformation of a Cosine Function   Graph one period of the function . Identify the amplitude, period, phase shift, and vertical shift of the function.                             The graph of plotted on . A line segment measuring the distance from to is labeled, \"One period of .\"      "
+},
+{
+  "id": "sec-chapter1-review-2",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-2",
+  "type": "Example",
+  "number": "13.1.1",
+  "title": "Computing an Angle in Radians.",
+  "body": " Computing an Angle in Radians   A circle of radius yards has an angle that intercepts an arc measuring inches. What is the radian measure of the angle ?     radians.   "
+},
+{
+  "id": "sec-chapter1-review-3",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-3",
+  "type": "Example",
+  "number": "13.1.2",
+  "title": "Drawing and Labeling an Angle in Standard Position.",
+  "body": " Drawing and Labeling an Angle in Standard Position   Draw the angle in standard position. Label the initial side, terminal side, and the angle .     An angle of radians drawn in standard position. The angle is labeled and indicates a counterclockwise rotation. The positive -axis is labeled as the initial side, and the ray passing through the point is labeled as the terminal side.     "
+},
+{
+  "id": "sec-chapter1-review-4",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-4",
+  "type": "Example",
+  "number": "13.1.4",
+  "title": "Converting an Angle from Radians to Degrees.",
+  "body": " Converting an Angle from Radians to Degrees   Convert the angle radians to degrees.        "
+},
+{
+  "id": "sec-chapter1-review-5",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-5",
+  "type": "Example",
+  "number": "13.1.5",
+  "title": "Converting an Angle from Degrees to Radians.",
+  "body": " Converting an Angle from Degrees to Radians   Convert the angle to radians.     radians.   "
+},
+{
+  "id": "sec-chapter1-review-6",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-6",
+  "type": "Example",
+  "number": "13.1.6",
+  "title": "Finding a Coterminal Angle in Radians.",
+  "body": " Finding a Coterminal Angle in Radians   Find a positive angle that is coterminal to the angle , where .     radians.   "
+},
+{
+  "id": "sec-chapter1-review-7",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-7",
+  "type": "Example",
+  "number": "13.1.7",
+  "title": "Finding a Coterminal Angle in Degrees.",
+  "body": " Finding a Coterminal Angle in Degrees   Find a positive angle that is coterminal to the angle , where .     .   "
+},
+{
+  "id": "sec-chapter1-review-8",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-8",
+  "type": "Example",
+  "number": "13.1.8",
+  "title": "Finding the Arc Length and Area of a Sector.",
+  "body": " Finding the Arc Length and Area of a Sector   Using the circle given in the figure, find the length of the arc and the area of the sector formed by the central angle . For both the area and the arc length, give both the exact value and approximate the value to one decimal place. Make sure to include the correct units in your answers.   A circle with radius cm and central angle . is not in standard position; its initial side is in Quadrant 1 and terminal side is in Quadrant 2. The length of the radius and central angle are labeled with its measurements, and the arc intercepted by is labeled .         The length of the arc is .    The area of the sector is .      "
+},
+{
+  "id": "sec-chapter1-review-9",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-9",
+  "type": "Example",
+  "number": "13.1.10",
+  "title": "Find Linear and Angular Speed.",
+  "body": " Find Linear and Angular Speed   The wheels of a certain bicycle has a diameter. If the wheels are rotating at a constant rate of , how fast is the bicycle moving in miles per hour? Round your answer to decimal places. Include the correct units in your answer.       Writing all the units out in your calculation will help with the unit conversions needed to solve this problem.    For example, write as .    Your goal is to make the the units of measurement in the numerator miles and the denominator hours.    Remember, units cancel in the numerator and denominator just like numbers do!       The bicycle is moving at approximately .   "
+},
+{
+  "id": "sec-chapter1-review-10",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-10",
+  "type": "Example",
+  "number": "13.1.11",
+  "title": "Find the Six Trigonometric Function using Right Trangles.",
+  "body": " Find the Six Trigonometric Function using Right Trangles   Suppose is one of the non-right angles in a right triangle where the side opposite has length and has a hypotenuse of length . Find the exact value of the six trigonometric functions of .     Note: , which means the following are also acceptable answers:    "
+},
+{
+  "id": "sec-chapter1-review-11",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-11",
+  "type": "Example",
+  "number": "13.1.12",
+  "title": "Deriving Pythagorean Identities.",
+  "body": " Deriving Pythagorean Identities   Recall that for any angle , . Prove that and that .    Divide by either or and use quotient identities.   "
+},
+{
+  "id": "sec-chapter1-review-12",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-12",
+  "type": "Example",
+  "number": "13.1.13",
+  "title": "Use a Calculator to Evaluate a Trigonometric Function in Degrees.",
+  "body": " Use a Calculator to Evaluate a Trigonometric Function in Degrees   Use a calculator to evaluate . Round your answer to four decimal places.     .   "
+},
+{
+  "id": "sec-chapter1-review-13",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-13",
+  "type": "Example",
+  "number": "13.1.14",
+  "title": "Use a Calculator to Evaluate a Trigonometric Function in Radians.",
+  "body": " Use a Calculator to Evaluate a Trigonometric Function in Radians   Use a calculator to evaluate . Round your answer to four decimal places.     .   "
+},
+{
+  "id": "sec-chapter1-review-14",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-14",
+  "type": "Example",
+  "number": "13.1.15",
+  "title": "Applications using Right Triangles.",
+  "body": " Applications using Right Triangles   The ramp of a moving truck touches the ground away from the end of the truck. If the ramp makes an angle of with the ground, how long is the ramp? Round your answer to two decimal places and include the correct units in your answer.    The ramp is approximately long.   "
+},
+{
+  "id": "sec-chapter1-review-15",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-15",
+  "type": "Example",
+  "number": "13.1.16",
+  "title": "Applications using Right Triangles.",
+  "body": " Applications using Right Triangles   A telephone pole is tall. A guy wire long is attached from the ground to the top of the pole. Find the angle between the wire and the pole to the nearest degree.    The angle between the wire and the pole is approximately .   "
+},
+{
+  "id": "sec-chapter1-review-16",
+  "level": "2",
+  "url": "sec-chapter1-review.html#sec-chapter1-review-16",
+  "type": "Example",
+  "number": "13.1.17",
+  "title": "Using Reference Angles to Evaluate Trigonometric Functions.",
+  "body": " Using Reference Angles to Evaluate Trigonometric Functions   Suppose the point is a point on the terminal side of an angle in standard position. Draw the reference triangle for this point, label the sides and the reference angle, and find the exact value of the six trigonometric functions of .    Since the angle isn't given to use, we will just label the angle as and the reference angle as . To find the length of the hypotenuse, we use the Pythagorean Theorem: This is enough information to construct the reference triangle. It is given in the figure below.   A reference triangle for the point . The angle is in standard position, and the reference angle is labeled as the angle between the hypotenuse and the negative x-axis. The triangle is a right triangle with one vertex at the origin, one vertex at the point , and the last vertex on the point . The side adjacent to has length , the side opposite has length , and the hypotenuse has length .    The six trigonometric functions of are calculated below.    "
+},
+{
+  "id": "exa-quadrants-review",
+  "level": "2",
+  "url": "sec-chapter1-review.html#exa-quadrants-review",
+  "type": "Example",
+  "number": "13.1.19",
+  "title": "Finding the Quadrant of an Angle.",
+  "body": " Finding the Quadrant of an Angle   If and , in which quadrant does the angle lie?    The angle lies in Quadrant 4.   "
+},
+{
+  "id": "exa-quadrants-review-2",
+  "level": "2",
+  "url": "sec-chapter1-review.html#exa-quadrants-review-2",
+  "type": "Example",
+  "number": "13.1.20",
+  "title": "Finding the Quadrant of an Angle.",
+  "body": " Finding the Quadrant of an Angle   If and , in which quadrant does the angle lie?    The angle lies in Quadrant 3.   "
+},
+{
+  "id": "exa-negative-angle-review",
+  "level": "2",
+  "url": "sec-chapter1-review.html#exa-negative-angle-review",
+  "type": "Example",
+  "number": "13.1.21",
+  "title": "Finding the value of a Trigonometric Function of a Negative Angle.",
+  "body": " Finding the value of a Trigonometric Function of a Negative Angle   Find the exact value of using the fact that sine is an odd function. You may have to use other techniques to get a final answer.     .   "
+},
+{
+  "id": "exa-periodicity-review",
+  "level": "2",
+  "url": "sec-chapter1-review.html#exa-periodicity-review",
+  "type": "Example",
+  "number": "13.1.22",
+  "title": "Use the Periodicity of Sine or Cosine to Evaluate a Trigonometric Function.",
+  "body": " Use the Periodicity of Sine or Cosine to Evaluate a Trigonometric Function   Use the periodicity of cosine to evaluate .     .   "
+},
+{
+  "id": "exa-transformation-sine-graph-review",
+  "level": "2",
+  "url": "sec-chapter1-review.html#exa-transformation-sine-graph-review",
+  "type": "Example",
+  "number": "13.1.23",
+  "title": "Graph a Transformation of a Sine Function.",
+  "body": " Graph a Transformation of a Sine Function   Graph one period of the function . Identify the amplitude, period, phase shift, and vertical shift of the function.                             The graph of plotted on . A line segment measuring the distance from to is labeled, \"One period of .\"     "
+},
+{
+  "id": "exa-transformation-cosine-graph-review",
+  "level": "2",
+  "url": "sec-chapter1-review.html#exa-transformation-cosine-graph-review",
+  "type": "Example",
+  "number": "13.1.25",
+  "title": "Graph a Transformation of a Cosine Function.",
+  "body": " Graph a Transformation of a Cosine Function   Graph one period of the function . Identify the amplitude, period, phase shift, and vertical shift of the function.                             The graph of plotted on . A line segment measuring the distance from to is labeled, \"One period of .\"     "
 },
 {
   "id": "calculus-1-chapter1",
@@ -3686,7 +3875,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-def-quadratic-equations",
   "type": "Definition",
-  "number": "C.1.1",
+  "number": "C.1.27",
   "title": "Quadratic Equations.",
   "body": " Quadratic Equations   Let , , and be real numbers with . Any equation of the form is called a quadratic equation in .   "
 },
@@ -3704,7 +3893,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-def-zero-product-property",
   "type": "Theorem",
-  "number": "C.1.2",
+  "number": "C.1.28",
   "title": "The Zero Product Property.",
   "body": " The Zero Product Property   Let and be algebraic expressions such that . Then or .   "
 },
@@ -3740,7 +3929,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-thm-difference-of-squares",
   "type": "Theorem",
-  "number": "C.1.3",
+  "number": "C.1.29",
   "title": "Difference of Squares.",
   "body": " Difference of Squares   For all positive real numbers , , the equation is always true.   "
 },
@@ -3758,7 +3947,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-thm-sum-of-cubes",
   "type": "Theorem",
-  "number": "C.1.4",
+  "number": "C.1.30",
   "title": "Sum of Cubes.",
   "body": " Sum of Cubes   For all real numbers and , the equation is true.   "
 },
@@ -3776,7 +3965,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-thm-difference-of-cubes",
   "type": "Theorem",
-  "number": "C.1.5",
+  "number": "C.1.31",
   "title": "Difference of Cubes.",
   "body": " Difference of Cubes   For all real numbers and , the equation is true.   "
 },
@@ -3794,7 +3983,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-solving-by-grouping",
   "type": "Procedure",
-  "number": "C.1.6",
+  "number": "C.1.32",
   "title": "Solving an Equation by Factoring by Grouping.",
   "body": " Solving an Equation by Factoring by Grouping   Consider any polynomial with an even number of terms. The following steps show how to solve an equation using the factor by grouping method.    Make sure one side of the equation is equal to zero.  Group terms into pairs using parentheses. Put a plus sign between each pair of terms. All negative or minus signs come into the parentheses with the number.  Factor out the GCF from each grouped pair.  The binomial left behind after factoring out the GCF should be the same for each term. If it is not, repeat steps 1 and 2 until you get a common binomial.  Factor out the common binomial.  Perform any additional factoring needed until you get a complete factorization.  Use the Zero Product Property to finish solving the problem.     "
 },
@@ -3812,7 +4001,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-ac-method",
   "type": "Procedure",
-  "number": "C.1.7",
+  "number": "C.1.33",
   "title": "Using the <span class=\"process-math\">\\(ac\\)<\/span>-Method to Solve a Quadratic Equation.",
   "body": " Using the -Method to Solve a Quadratic Equation   Let be a quadratic function. If there are factors of the product that add to , we can factor this trinomial and use the Zero Product Property to solve for . Here is how to check if we can factor using this method.    Compute the product .  List all the factors of the product. You are looking for one of two things:  If , find two numbers whose sum equals .  If , find two numbers whose difference equals .  If you cannot find such a pair, you cannot use this method.     Suppose you find factors and such that and . Then replace with to get .  Use Factor by Grouping to solve the equation.     "
 },
@@ -3830,7 +4019,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-slide-and-divide",
   "type": "Procedure",
-  "number": "C.1.8",
+  "number": "C.1.34",
   "title": "Slide and Divide.",
   "body": " Slide and Divide   Let with . To perform slide-and-divide, follow these steps:    Rewrite the equation as . (This is the slide step.)  Factor using the -method as .  Divide the values of and by to get .  Simplify the fractions.  Use the Zero Product Property to solve for .     "
 },
@@ -3848,7 +4037,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-thm-square-root-theorem",
   "type": "Theorem",
-  "number": "C.1.9",
+  "number": "C.1.35",
   "title": "Square Root Theorem.",
   "body": " Square Root Theorem   Let . If , then .   "
 },
@@ -3866,7 +4055,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-def-perfect-square-trinomials",
   "type": "Definition",
-  "number": "C.1.10",
+  "number": "C.1.36",
   "title": "Perfect Square Trinomials.",
   "body": " Perfect Square Trinomials   Let and be any real, nonzero numbers. Then the following two equations are true.      "
 },
@@ -3875,7 +4064,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-how-to-recognize-perfect-square-trinomials",
   "type": "Procedure",
-  "number": "C.1.11",
+  "number": "C.1.37",
   "title": "How to Recognize Perfect Square Trinomials.",
   "body": " How to Recognize Perfect Square Trinomials   If you notice that the coefficient of and the constant term are both perfect squares, it is worth checking if you have a perfect square trinomial. In order to do this:    Take the square root of the coefficient of and the constant term.  Multiply these resulting numbers together.  See if the coefficient of is twice those numbers. If it is, you can use one of the above equations.   The equation you use is based on the sign of the coefficient of .  If the coefficient of is positive, use the identity .  If the coefficient of is negative, use the identity .        "
 },
@@ -3893,7 +4082,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-completing-the-square-traditional-method",
   "type": "Procedure",
-  "number": "C.1.12",
+  "number": "C.1.38",
   "title": "Completing the Square (Traditional Method).",
   "body": " Completing the Square (Traditional Method)   Let with and . Follow the steps below to complete the square.    Move to the other side of the equation to get .  Divide each term by the leading coefficient to get .  Divide by 2 to get .  Compute .  Add to both sides of the equation.  The left-hand side is now a perfect square trinomial and can be factored as . The equation becomes .  Use the Square Root Property to solve for .     "
 },
@@ -3911,7 +4100,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-completing-the-square-box-method",
   "type": "Procedure",
-  "number": "C.1.13",
+  "number": "C.1.39",
   "title": "Completing the Square (Box Method).",
   "body": " Completing the Square (Box Method)   Let with and . Follow the steps below to complete the square.    Move to the other side of the equation to get .  Divide each term by the leading coefficient to get .  Divide by 2 to get .   Draw a box similar to the table below.   Box Method                     The area of the box is . This becomes the new left-hand side of the equation.  Add to the right-hand side of the equation.  Use the Square Root Property to solve for .     "
 },
@@ -3938,7 +4127,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-def-definition-of-i",
   "type": "Definition",
-  "number": "C.2.15",
+  "number": "C.2.41",
   "title": "Definition of <span class=\"process-math\">\\(i\\)<\/span>.",
   "body": " Definition of   The imaginary number  is the positive solution to the equation .   "
 },
@@ -3947,7 +4136,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-thm-divisibility-rule-for-4",
   "type": "Theorem",
-  "number": "C.2.16",
+  "number": "C.2.42",
   "title": "Divisibility Rule for 4.",
   "body": " Divisibility Rule for 4   An integer is divisible by if its last two digits form a number that is divisible by .   "
 },
@@ -3956,7 +4145,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-note-divisibility-rule-in-terms-of-remainders",
   "type": "Note",
-  "number": "C.2.17",
+  "number": "C.2.43",
   "title": "Divisibility Rule in Terms of Remainders.",
   "body": " Divisibility Rule in Terms of Remainders  In the language above, this means that a number is divisible by if you divide the last two digits by and get a remainder of .  "
 },
@@ -3965,7 +4154,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-lem-computing-powers-of-i",
   "type": "Procedure",
-  "number": "C.2.18",
+  "number": "C.2.44",
   "title": "Computing Powers of <span class=\"process-math\">\\(i\\)<\/span>.",
   "body": " Computing Powers of   To evaluate for any positive integer , complete the following steps.    Divide the last two digits of by using long division and determine the remainder. You should get , , , or .   The remainder tells you which power of to use from this list.       "
 },
@@ -3983,7 +4172,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-def-complex-number",
   "type": "Definition",
-  "number": "C.2.19",
+  "number": "C.2.45",
   "title": "Complex Number.",
   "body": " Complex Number   Let and be any real numbers. A complex number is any number of the form .   "
 },
@@ -3992,7 +4181,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-fig-rectangular-and-complex-visualization",
   "type": "Figure",
-  "number": "C.2.20",
+  "number": "C.2.46",
   "title": "",
   "body": " Two ways to visualize the point . In rectangular coordinates, it is represented as a dot. As a complex number, it is represented as an arrow pointing from to .   An arrow labeled 3+4i points from the origin to the point (3,4).   "
 },
@@ -4001,7 +4190,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-lem-how-to-add-complex-numbers",
   "type": "Procedure",
-  "number": "C.2.21",
+  "number": "C.2.47",
   "title": "How to Add Complex Numbers.",
   "body": " How to Add Complex Numbers   Let and be any two complex numbers. Then .  In other words, just add like terms.   "
 },
@@ -4019,7 +4208,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-lem-how-to-subtract-complex-numbers",
   "type": "Procedure",
-  "number": "C.2.22",
+  "number": "C.2.48",
   "title": "How to Subtract Complex Numbers.",
   "body": " How to Subtract Complex Numbers   Let and be any two complex numbers. Then .  In other words, distribute the negative and add like terms.   "
 },
@@ -4037,7 +4226,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-lem-how-to-multiply-complex-numbers",
   "type": "Procedure",
-  "number": "C.2.23",
+  "number": "C.2.49",
   "title": "How to Multiply Complex Numbers.",
   "body": " How to Multiply Complex Numbers   Let and be any two complex numbers. Then .  In other words, just FOIL it out and simplify using .   "
 },
@@ -4055,7 +4244,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-def-the-complex-conjugate",
   "type": "Definition",
-  "number": "C.2.24",
+  "number": "C.2.50",
   "title": "The Complex Conjugate.",
   "body": " The Complex Conjugate   Let be any complex number. Then its complex conjugate is the complex number .   "
 },
@@ -4091,7 +4280,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-thm-sum-of-squares-formula",
   "type": "Theorem",
-  "number": "C.2.25",
+  "number": "C.2.51",
   "title": "Sum of Squares Formula.",
   "body": " Sum of Squares Formula   For any real numbers and , it is always true that . In other words, the sum of squares is the product of a complex number and its complex conjugate.   "
 },
@@ -4118,7 +4307,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-pulling-out-negative",
   "type": "Theorem",
-  "number": "C.2.26",
+  "number": "C.2.52",
   "title": "Pulling out the Negative as <span class=\"process-math\">\\(i\\)<\/span>.",
   "body": " Pulling out the Negative as   Let . Then .   "
 },
@@ -4172,7 +4361,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "lecture-notes-worksheet-quadratic-formula.html#lecture-notes-the-quadratic-formula",
   "type": "Theorem",
-  "number": "C.3.27",
+  "number": "C.3.53",
   "title": "The Quadratic Formula.",
   "body": " The Quadratic Formula   Let , , and be any real numbers with . Then the solutions to the quadratic equation can be found using the formula    "
 },
@@ -4208,7 +4397,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "lecture-notes-worksheet-quadratic-formula.html#lecture-notes-the-discriminant",
   "type": "Definition",
-  "number": "C.3.28",
+  "number": "C.3.54",
   "title": "The Discriminant.",
   "body": " The Discriminant   We call the value the discriminant of the quadratic equation. We denote the discriminant by the letter , which gives us the equation .  In particular, the discriminant tells us the following information:    If , then the quadratic equation has two distinct, real-valued solutions.  If , then the quadratic equation has a unique, real-valued solution.  If , then the quadratic equation has a pair of complex-valued solutions that are complex conjugates of one another.     "
 },
@@ -4244,7 +4433,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "lecture-notes-worksheet-quadratic-formula.html#lecture-notes-solving-equations-that-are-quadratic-in-form",
   "type": "Procedure",
-  "number": "C.3.29",
+  "number": "C.3.55",
   "title": "Solving Equations that are Quadratic in Form.",
   "body": " Solving Equations that are Quadratic in Form     Make a substitution that transforms the given equation into the quadratic equation .  Solve this new quadratic with any method you know.  You should get one or two equations starting with . Use your original substitution from Step 1 to convert your equations back to .  Solve the equation(s) for .  Check your solutions (required).     "
 },
@@ -4280,7 +4469,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#worksheet-quadratic-functions-2",
   "type": "Figure",
-  "number": "C.4.30",
+  "number": "C.4.56",
   "title": "",
   "body": " The two possible graphs of a quadratic function    The parabola opens upwards when a > 0   The graph of f(x) = x^2 + 4x + 5     The parabola opens downwards when a < 0   The graph of f(x) = -x^2 + 2x + 1     "
 },
@@ -4289,7 +4478,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-quadratic-functions-summary",
   "type": "Table",
-  "number": "C.4.31",
+  "number": "C.4.57",
   "title": "Properties of Quadratic Functions",
   "body": " Properties of Quadratic Functions    Direction  Upwards  Downwards    Value of Leading Coefficient      Standard Form      Vertex Form      Vertex      Axis of Symmetry      Domain      Range      -intercept(s) Only exist when . Otherwise, DNE.      -intercept      Increasing      Decreasing      Constant  N\/A  N\/A    Local Extrema      Absolute Extrema      "
 },
@@ -4298,7 +4487,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-standard-form-of-a-quadratic",
   "type": "Definition",
-  "number": "C.4.32",
+  "number": "C.4.58",
   "title": "The Standard Form of a Quadratic.",
   "body": " The Standard Form of a Quadratic   The standard form of a quadratic function is   "
 },
@@ -4307,7 +4496,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-vertex-form-and-related-information",
   "type": "Theorem",
-  "number": "C.4.33",
+  "number": "C.4.59",
   "title": "The Vertex Form and Related Information.",
   "body": " The Vertex Form and Related Information   Let be a quadratic function in standard form. The vertex form of a quadratic function is given by where and are the coordinates for the vertex of the function.  There are two important definitions related to the vertex form.    The vertex of the parabola is the absolute minimum (when ) or the absolute maximum (when ) of the function. Note that the vertex is both a local and absolute extremum.  The axis of symmetry of a parabola is the vertical line that divides the parabola into two mirror images. Every point on one side of this line has a corresponding point on the other side that is the same distance from the line.     The graph of a generic parabola with the vertex and axis of symmetry labeled. Two mirrored points are labeled, and the distances from the points to the axis of symmetry are shown as equal.    An upwards-facing parabola.   A labeled, upwards-facing parabola with vertex and axis of symmetry.     A downwards-facing parabola.   A labeled, downwards-facing parabola with vertex and axis of symmetry.       "
 },
@@ -4325,7 +4514,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-formula-for-the-vertex-of-a-parabola",
   "type": "Theorem",
-  "number": "C.4.35",
+  "number": "C.4.61",
   "title": "Formula for the Vertex of a Parabola.",
   "body": " Formula for the Vertex of a Parabola   Let be a quadratic function. Then the formula for the vertex is   We can also rewrite this as the pair of equations      "
 },
@@ -4343,7 +4532,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-graphing-quadratic-functions",
   "type": "Procedure",
-  "number": "C.4.36",
+  "number": "C.4.62",
   "title": "Graphing Quadratic Functions.",
   "body": " Graphing Quadratic Functions   Let be a quadratic function in vertex form. Perform the following steps to plot its graph.    Plot the vertex .  To find another point, add to and add to . Then plot the point.  To find an additional point, add to and add to . Then plot the point.  Use the axis of symmetry to find and plot the last two points.  Draw a parabola through all five points.     "
 },
@@ -4397,7 +4586,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-height-of-projectiles",
   "type": "Theorem",
-  "number": "C.4.38",
+  "number": "C.4.64",
   "title": "Height of Projectiles.",
   "body": " Height of Projectiles   The height of a projectile (in feet, ignoring air resistance) is given by the equation where is the initial velocity (in feet per second) and is the initial height (in feet).   "
 },
@@ -4433,7 +4622,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-polynomial-function",
   "type": "Definition",
-  "number": "C.5.40",
+  "number": "C.5.66",
   "title": "Polynomial Function.",
   "body": " Polynomial Function   Let , , , , , be any real numbers with and an integer . The standard form of a polynomial function is any function of the form . There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.  The highest power of is called the degree of the polynomial function. The degree of a generic function is denoted as .  The term containing the highest power of is called the leading term . The leading term of a generic polynomial function is denoted as .  is called the leading coefficient .  The term without any variables is called the constant term . The constant term of a generic polynomial is denoted as .     "
 },
@@ -4478,7 +4667,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-leading-coefficient-test",
   "type": "Theorem",
-  "number": "C.5.41",
+  "number": "C.5.67",
   "title": "The Leading Coefficient Test.",
   "body": " The Leading Coefficient Test   Let be any polynomial function with leading term . The following figures describe the four different types of end behavior a polynomial function may have.   For odd degree polynomials, the graph will have opposite end behaviors.     If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow falling down to the left.      The graph of an odd degree polynomial with positive leading coefficient.      If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow rising up to the left.      The graph of an odd degree polynomial with negative leading coefficient.       For even degree polynomials, the graph will have the same end behaviors.     If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow rising up to the left.      The graph of an even degree polynomial with positive leading coefficient.      If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow falling down to the left.      The graph of an even degree polynomial with negative leading coefficient.       "
 },
@@ -4496,7 +4685,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-complete-linear-factorization-theorem",
   "type": "Theorem",
-  "number": "C.5.44",
+  "number": "C.5.70",
   "title": "",
   "body": "  The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .   "
 },
@@ -4514,7 +4703,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-zero-of-a-polynomial",
   "type": "Definition",
-  "number": "C.5.45",
+  "number": "C.5.71",
   "title": "",
   "body": " A complex number is a zero of a polynomial function if .  "
 },
@@ -4523,7 +4712,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-zeros-alternate-names",
   "type": "Note",
-  "number": "C.5.46",
+  "number": "C.5.72",
   "title": "",
   "body": " Zeros are also called the roots or solutions of the polynomial equation .  "
 },
@@ -4541,7 +4730,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-multiplicity-of-a-zero-definition",
   "type": "Definition",
-  "number": "C.5.47",
+  "number": "C.5.73",
   "title": "The Multiplicity of a Zero.",
   "body": " The Multiplicity of a Zero   Let be any polynomial function that has a factor of , where .   The exponent is called the multiplicity of the zero .    If , then is called a repeated zero of .      "
 },
@@ -4559,7 +4748,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-shape-of-graph-near-x-intercept",
   "type": "Theorem",
-  "number": "C.5.48",
+  "number": "C.5.74",
   "title": "The Shape of the Graph Near an <span class=\"process-math\">\\(x\\)<\/span>-intercept.",
   "body": " The Shape of the Graph Near an -intercept   Suppose is a zero of a polynomial that has multiplicity . The following figures illustrate the different ways a polynomial can behave near the -intercept .   The graph will cross as a straight-ish line if .    The graph can either cross from upper left to lower right.     Or the graph can cross from lower left to upper right.       The graph will cross at similar to how crosses at if and is odd.    The graph can either cross from upper left to lower right while flattening at .     Or the graph can cross from lower left to upper right while flattening at .       The graph will bounce off the -axis at if is even.    Bounce off the -axis at from above.     Bounce off the -axis at from below.       "
 },
@@ -4586,7 +4775,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-graphing-polynomial-functions",
   "type": "Procedure",
-  "number": "C.6.52",
+  "number": "C.6.78",
   "title": "Graphing Polynomial Functions.",
   "body": " Graphing Polynomial Functions   Let be any polynomial function. Use the following steps to sketch a graph by hand.  Determine the end behavior.  Find the -intercept.  Determine the zeroes (if they exist) and their multiplicities.  Plot additional points as necessary.  Make sure there are no more than turning points (local extrema).     "
 },
@@ -4604,7 +4793,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#ws-factor-theorem-5",
   "type": "Figure",
-  "number": "C.6.53",
+  "number": "C.6.79",
   "title": "",
   "body": " The graph of .   "
 },
@@ -4613,7 +4802,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-division-algorithm-natural-numbers",
   "type": "Theorem",
-  "number": "C.6.54",
+  "number": "C.6.80",
   "title": "The Division Algorithm for Natural Numbers.",
   "body": " The Division Algorithm for Natural Numbers   Let and be natural numbers (nonzero, positive, whole numbers). Then there exist two unique numbers, a quotient  and a remainder  , such that , where .  is known as the dividend .  is known as the divisor .     "
 },
@@ -4640,7 +4829,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-zero-polynomial",
   "type": "Definition",
-  "number": "C.6.55",
+  "number": "C.6.81",
   "title": "The Zero Polynomial.",
   "body": " The Zero Polynomial   The zero polynomial is the polynomial whose value is zero for every value of . We write the zero polynomial as for all real numbers .   "
 },
@@ -4649,7 +4838,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#ws-factor-theorem-11",
   "type": "Note",
-  "number": "C.6.56",
+  "number": "C.6.82",
   "title": "",
   "body": " Don’t confuse the zero polynomial with solving a polynomial equation . While the notations are identical, the contexts are very different. Thankfully, these concepts don’t typically come into direct contact with one another, so the context of the problem will tell you which version of the notation we are using.  "
 },
@@ -4658,7 +4847,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-division-algorithm-polynomials",
   "type": "Theorem",
-  "number": "C.6.57",
+  "number": "C.6.83",
   "title": "The Division Algorithm.",
   "body": " The Division Algorithm   Let and be polynomials, where is not the zero polynomial. Then there exist unique polynomials, a quotient  and a remainder  , such that   where the degree of is less than the degree of .  is called the dividend .  is called the divisor .     "
 },
@@ -4721,7 +4910,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-remainder-theorem",
   "type": "Theorem",
-  "number": "C.6.58",
+  "number": "C.6.84",
   "title": "The Remainder Theorem.",
   "body": " The Remainder Theorem   Let be any polynomial function and let for some real number . Then the remainder is equal to .   "
 },
@@ -4739,7 +4928,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-thm-the-factor-theorem",
   "type": "Theorem",
-  "number": "C.6.59",
+  "number": "C.6.85",
   "title": "The Factor Theorem.",
   "body": " The Factor Theorem   Let be any polynomial function. The following two statements are equivalent to each other.  is a zero of .  is a factor of .     "
 },
@@ -4766,7 +4955,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-test-for-pm1",
   "type": "Theorem",
-  "number": "C.7.60",
+  "number": "C.7.86",
   "title": "Test for <span class=\"process-math\">\\(\\pm1\\)<\/span>.",
   "body": " Test for   Let be any polynomial function.    If the coefficients of sum to , then is a zero of .  If the coefficients of sum to , then is a zero of .     "
 },
@@ -4802,7 +4991,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-rational-root-theorem",
   "type": "Theorem",
-  "number": "C.7.61",
+  "number": "C.7.87",
   "title": "Rational Root Theorem.",
   "body": " Rational Root Theorem  Let be any polynomial function with leading coefficient and constant term . Then any rational root has the form , where divides and divides .  "
 },
@@ -4847,7 +5036,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-complex-zeroes-real-polynomials",
   "type": "Theorem",
-  "number": "C.7.62",
+  "number": "C.7.88",
   "title": "Complex Zeroes of a Real Polynomial.",
   "body": " Complex Zeroes of a Real Polynomial   Let be any polynomial with real coefficients. Then the complex zeroes of the polynomial come in complex conjugate pairs.   "
 },
@@ -4874,7 +5063,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-fundamental-theorem-algebra",
   "type": "Theorem",
-  "number": "C.7.63",
+  "number": "C.7.89",
   "title": "The Fundamental Theorem of Algebra.",
   "body": " The Fundamental Theorem of Algebra   Let be any degree polynomial function. Then a complex zero exists.   "
 },
@@ -4883,7 +5072,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-cor-any-polynomial-factors",
   "type": "Theorem",
-  "number": "C.7.64",
+  "number": "C.7.90",
   "title": "",
   "body": "  Any degree polynomial can be factored.   "
 },
@@ -4892,7 +5081,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-cor-complete-linear-factorization-theorem",
   "type": "Theorem",
-  "number": "C.7.65",
+  "number": "C.7.91",
   "title": "",
   "body": "  The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .   "
 },
@@ -4928,7 +5117,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-def-irreducible-polynomial",
   "type": "Definition",
-  "number": "C.7.66",
+  "number": "C.7.92",
   "title": "",
   "body": "  A real-valued polynomial is irreducible if it can be only be factored using complex numbers.   "
 },
@@ -4937,7 +5126,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-reducible-real-polynomials",
   "type": "Theorem",
-  "number": "C.7.67",
+  "number": "C.7.93",
   "title": "",
   "body": "  Any degree polynomial is reducible over the real numbers.   "
 },
@@ -4955,7 +5144,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-irreducibility-of-the-quadratic",
   "type": "Theorem",
-  "number": "C.7.68",
+  "number": "C.7.94",
   "title": "",
   "body": "  Let be any quadratic function. If the discriminant is negative, then is irreducible over the real numbers.    By the Complete Linear Factorization Theorem, The solutions to the equation given by the Quadratic Formula are the values of and by the Factor Theorem. We know that the Quadratic Formula only gives complex solutions when the discriminant is negative. Therefore, a quadratic polynomial is irreducible when the discriminant is negative.   "
 },
@@ -4964,7 +5153,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-polynomial-linear-quadratic-factors",
   "type": "Theorem",
-  "number": "C.7.69",
+  "number": "C.7.95",
   "title": "",
   "body": "  Let be any real-valued polynomial. Then it can always be factored using linear and irreducible quadratic factors.   "
 },
@@ -4974,7 +5163,7 @@ var ptx_lunr_docs = [
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-hard-example-factoring",
   "type": "Worksheet Exercise",
   "number": "C.7.14",
-  "title": "Illustrative example of Theorem C.7.69.",
+  "title": "Illustrative example of Theorem C.7.95.",
   "body": " Illustrative example of   Factor .        "
 },
 {
@@ -4991,7 +5180,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-rational-function",
   "type": "Definition",
-  "number": "C.8.70",
+  "number": "C.8.96",
   "title": "Definition.",
   "body": " Definition   A function is rational if there exist two polynomial functions and such that    "
 },
@@ -5009,7 +5198,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-def-zero-rational-function",
   "type": "Definition",
-  "number": "C.8.71",
+  "number": "C.8.97",
   "title": "Zeroes of a Rational Function.",
   "body": " Zeroes of a Rational Function   Let be any fully simplified rational function. Then is a zero of only if it is in the domain of and a zero of .   "
 },
@@ -5018,7 +5207,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-def-multiplicity-rational-function",
   "type": "Definition",
-  "number": "C.8.72",
+  "number": "C.8.98",
   "title": "The Multiplicities of Zeroes for Rational Functions.",
   "body": " The Multiplicities of Zeroes for Rational Functions   Let be any fully simplified rational function. The zero has multiplicity only if is a factor of .   "
 },
@@ -5036,7 +5225,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#worksheet-graphing-rational-function-7",
   "type": "Theorem",
-  "number": "C.8.73",
+  "number": "C.8.99",
   "title": "The Domain of a Rational Function.",
   "body": " The Domain of a Rational Function   The domain of a rational function are all values of except those that make the denominator equal to zero before canceling any common factors.   "
 },
@@ -5054,7 +5243,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-arrow-notation-x",
   "type": "Table",
-  "number": "C.8.74",
+  "number": "C.8.100",
   "title": "Arrow Notation for x",
   "body": " Arrow Notation for x    Symbol  Read as…  Graphical Example     x approaches a from the left.    Example of a function that only approaches x = 2 from the left.       x approaches a from the right.    Example of a function that only approaches x = 2 from the right.       x approaches a (from both the left and right).    Function that approaches x = 2 from the left and from the right.       x approaches negative infinity.    An example where x approaches negative infinity.       x approaches (positive) infinity.    An example where x approaches positive infinity.      "
 },
@@ -5063,7 +5252,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-arrow-notation-y",
   "type": "Table",
-  "number": "C.8.75",
+  "number": "C.8.101",
   "title": "Arrow Notation for y",
   "body": " Arrow Notation for y    Symbol  Read as…  Graphical Example     y approaches b.    Example of a function that approaches y = 2.       y approaches negative infinity.    An example where y approaches negative infinity.       y approaches (positive) infinity.    An example where y approaches positive infinity.      "
 },
@@ -5072,7 +5261,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-vertical-asymptote-def",
   "type": "Definition",
-  "number": "C.8.76",
+  "number": "C.8.102",
   "title": "Vertical Asymptote.",
   "body": " Vertical Asymptote   The vertical line is a vertical asymptote of any fully simplified, rational function if as .   "
 },
@@ -5081,7 +5270,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#worksheet-graphing-rational-function-12",
   "type": "Note",
-  "number": "C.8.77",
+  "number": "C.8.103",
   "title": "Note.",
   "body": " Note  A function can never cross a vertical asymptote.  "
 },
@@ -5090,7 +5279,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-vertical-asymptote-examples",
   "type": "Table",
-  "number": "C.8.78",
+  "number": "C.8.104",
   "title": "Examples of Vertical Asymptotes",
   "body": " Examples of Vertical Asymptotes    Symbols  Graphical Example    as    y approaches infinity when x approaches a from the right.      as    y approaches infinity when x approaches a from the left.      as    y approaches negative infinity when x approaches a from the right.      as    y approaches negative infinity when x approaches a from the left.      "
 },
@@ -5099,7 +5288,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-method-finding-vertical-asymptotes",
   "type": "Procedure",
-  "number": "C.8.79",
+  "number": "C.8.105",
   "title": "How to Find a Vertical Asymptote of a Rational Function.",
   "body": " How to Find a Vertical Asymptote of a Rational Function   Let be any rational function. To find the vertical asymptotes of the graph, follow this procedure.  Completely factor the numerator and denominator into their linear and irreducible quadratic factors.  Find all the linear factors of the denominator. By the Factor Theorem, each linear factor corresponds to a zero of the denominator and will make undefined.   For each linear factor of the denominator, determine if it also appears in the numerator.  If it doesn't, then is a vertical asymptote of .  If the linear factor also appears in the numerator, then we have a vertical asymptote at only if the multiplicity of the denominator is larger than the multiplicity of the numerator.        "
 },
@@ -5126,7 +5315,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#worksheet-graphing-rational-function-19",
   "type": "Figure",
-  "number": "C.8.80",
+  "number": "C.8.106",
   "title": "",
   "body": " The graphs of two rational functions with a vertical asymptote . The multiplicity of is odd.    The graph of crosses from to at .     The graph of crosses from to at .     "
 },
@@ -5135,7 +5324,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#worksheet-graphing-rational-function-21",
   "type": "Figure",
-  "number": "C.8.81",
+  "number": "C.8.107",
   "title": "",
   "body": " The graphs of two rational functions with a vertical asymptote . The multiplicity of is even.    The graph of bounces off at .     The graph of bounces off at .     "
 },
@@ -5144,7 +5333,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#worksheet-graphing-rational-function-22",
   "type": "Note",
-  "number": "C.8.82",
+  "number": "C.8.108",
   "title": "Simplifying and Finding Multiplicities For the Denominator.",
   "body": " Simplifying and Finding Multiplicities For the Denominator  When finding the multiplicities for the zeroes of the denominator, be sure to use the fully simplified version of the rational function. Any common factors that were canceled off will affect the multiplicities of the zeroes of the denominator.  "
 },
@@ -5162,7 +5351,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-holes-common-factor-theorem",
   "type": "Theorem",
-  "number": "C.8.83",
+  "number": "C.8.109",
   "title": "Theorem.",
   "body": " Theorem   Let be any rational function whose numerator and denominator have a common factor of , where the integer and the integer .  Then is undefined at since we cannot divide by zero, but comparing the multiplicities of in the numerator and denominator can still yield information about the behavior of the graph near . There are three different behaviors that can occur, as summarized in the following table.   Behaviors when a common factor (x − c) appears in numerator and denominator    Condition  Type of Behavior  Graphical Example     The line is a vertical asymptote.    Zero of the denominator produces a vertical asymptote.       There is a hole at the point .    Zero of the denominator produces a non–x-axis hole.       There is a hole at the point .    Hole occurs where an x-intercept would be; even multiplicity gives a bounce.        "
 },
@@ -5198,7 +5387,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-horizontal-asymptote-def",
   "type": "Definition",
-  "number": "C.8.85",
+  "number": "C.8.111",
   "title": "Horizontal Asymptote.",
   "body": " Horizontal Asymptote   The horizontal line is a horizontal asymptote for if as .   "
 },
@@ -5207,7 +5396,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-horizontal-asymptote-table",
   "type": "Table",
-  "number": "C.8.86",
+  "number": "C.8.112",
   "title": "Horizontal Asymptotes",
   "body": " Horizontal Asymptotes    Symbols  Graphical Example    as    Approach b from below as x approaches infinity.      as    Approach b from above as x approaches negative infinity.      as    Approach the same horizontal line in both directions.      "
 },
@@ -5216,7 +5405,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-oblique-asymptote-def",
   "type": "Definition",
-  "number": "C.8.87",
+  "number": "C.8.113",
   "title": "Oblique (Slant) Asymptote.",
   "body": " Oblique (Slant) Asymptote   The line is an oblique asymptote for if approaches the graph of as .   "
 },
@@ -5225,7 +5414,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-oblique-asymptote-table",
   "type": "Table",
-  "number": "C.8.88",
+  "number": "C.8.114",
   "title": "Oblique Asymptotes",
   "body": " Oblique Asymptotes    Symbols  Graphical Example    as    Function approaching a slant line as x approaches positive or negative infinity.      "
 },
@@ -5234,7 +5423,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-nonlinear-asymptote-def",
   "type": "Definition",
-  "number": "C.8.89",
+  "number": "C.8.115",
   "title": "Nonlinear Asymptote.",
   "body": " Nonlinear Asymptote   A nonlinear function is a nonlinear asymptote for if approaches the graph of as .   "
 },
@@ -5243,7 +5432,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-nonlinear-asymptote-table",
   "type": "Table",
-  "number": "C.8.90",
+  "number": "C.8.116",
   "title": "Nonlinear Asymptotes",
   "body": " Nonlinear Asymptotes    Symbols  Graphical Example    as    Approach a quadratic curve as x approaches positive or negative infinity.         Approach a cubic curve as x approaches positive or negative infinity.      "
 },
@@ -5252,7 +5441,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-end-behavior-theorem",
   "type": "Theorem",
-  "number": "C.8.91",
+  "number": "C.8.117",
   "title": "End Behavior Criterion.",
   "body": " End Behavior Criterion   Let be a rational function. Let be the degree of with leading coefficient , and let be the degree of with leading coefficient . The end behavior is determined by comparing and as summarized below.   "
 },
@@ -5261,7 +5450,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-end-behavior-summary-table",
   "type": "Table",
-  "number": "C.8.92",
+  "number": "C.8.118",
   "title": "Summary of End Behavior by Degrees",
   "body": " Summary of End Behavior by Degrees    Condition  Type of Asymptote  How to Calculate Asymptote  Graphical Example     Horizontal  Line (the x-axis).    Degree denominator > degree numerator (case 1).           Degree denominator > degree numerator (case 2).       Horizontal  Line .    Approach constant ratio as x approaches plus or minus infinity.       Oblique  Use polynomial long division.    Slant asymptote from the division quotient.       Nonlinear  Use polynomial long division.    Nonlinear (e.g., quadratic) asymptote.      "
 },
@@ -5306,7 +5495,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-lem-crossing-asymptotes",
   "type": "Procedure",
-  "number": "C.8.93",
+  "number": "C.8.119",
   "title": "How To Determine if a Rational Function Crosses Its Horizontal, Oblique, or Nonlinear Asymptote.",
   "body": " How To Determine if a Rational Function Crosses Its Horizontal, Oblique, or Nonlinear Asymptote   Let be a rational function with a horizontal, oblique, or nonlinear asymptote.  To find where crosses its horizontal, oblique, or nonlinear asymptote,  Set equal to the asymptote and solve for .  For each solution, evaluate to find the corresponding -coordinate.  Plot each point on the graph of .     "
 },
@@ -5324,7 +5513,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-procedure-for-graphing-rational-functions",
   "type": "Procedure",
-  "number": "C.8.94",
+  "number": "C.8.120",
   "title": "Procedure.",
   "body": " Procedure  Let be any rational function. Use the following steps to graph the function.   Find the -intercept (if it exists) and express it as a point .    Factor the numerator and denominator, but do not cancel any factors yet.    Find the zeroes of the denominator (if they exist) and determine the type of behavior (vertical asymptote or hole) for each zero.    Cancel off the common factors.    Determine the end behavior of the function.    Determine if the graph crosses the horizontal, oblique, or nonlinear asymptote. Plot any points of intersection.    Find the zeroes of the numerator (if they exist) and their multiplicities.  Express your -intercepts as and graph them as solid dots unless they correspond to a hole, in which case use an open dot.  Use the multiplicities to determine whether the graph crosses or bounces at each intercept.      Determine the multiplicities of the remaining zeroes of the denominator. The multiplicities of the denominator determine the graph's behavior near the vertical asymptotes.  Even multiplicities mean that the graph “bounces off infinity.”  Odd multiplicities mean that the graph “crosses from positive to negative infinity,” or vice versa.      Use the intercepts, end behavior, and multiplicities to draw a general sketch of the graph. Plot additional points as needed to further define the shape of the graph.     "
 },
@@ -5351,7 +5540,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-definition-operations-on-functions",
   "type": "Definition",
-  "number": "C.9.95",
+  "number": "C.9.121",
   "title": "Arithmetic Operations on Functions.",
   "body": " Arithmetic Operations on Functions   Let and be functions.   The sum of and , denoted , is given by     The difference of and , denoted , is given by     The product of and , denoted , is given by     The quotient of and , denoted , is given by       "
 },
@@ -5369,7 +5558,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-theorem-domains-of-functions",
   "type": "Theorem",
-  "number": "C.9.96",
+  "number": "C.9.122",
   "title": "The Domains of Sums, Differences, and Products of Functions.",
   "body": " The Domains of Sums, Differences, and Products of Functions     The domain of , , and consists of all elements common to the domains of and .    The domain of consists of all elements common to the domains of and , excluding any for which .     "
 },
@@ -5387,7 +5576,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-def-composition",
   "type": "Definition",
-  "number": "C.9.97",
+  "number": "C.9.123",
   "title": "Composition of Functions.",
   "body": " Composition of Functions   Let and be functions.  The composition of and , denoted , is given by There are two additional definitions that are associated with composition.   is called the inner function since it appears inside the input of .    is called the outer function since it appears outside the input of .      "
 },
@@ -5432,7 +5621,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-def-one-to-one",
   "type": "Definition",
-  "number": "C.9.98",
+  "number": "C.9.124",
   "title": "Definition.",
   "body": " Definition   A function is one-to-one whenever implies .   Examples of One-to-One and Not One-to-One Functions    The graph is one to one since the -coordinate of every point on the graph is unique.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) lie on different horizontal lines.     The graph is not one to one since three different -coordinates all have the same -coordinate.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) all have the same y-coordinate since they lie on the same horizontal line.       "
 },
@@ -5441,7 +5630,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-note-informal-1-1",
   "type": "Note",
-  "number": "C.9.100",
+  "number": "C.9.126",
   "title": "Note.",
   "body": " Note  An informal description: a function is one-to-one if different inputs give different outputs.  "
 },
@@ -5450,7 +5639,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-thm-horizontal-line-test",
   "type": "Theorem",
-  "number": "C.9.101",
+  "number": "C.9.127",
   "title": "The Horizontal Line Test.",
   "body": " The Horizontal Line Test  A function is one-to-one if and only if no horizontal line intersects its graph more than once.  "
 },
@@ -5477,7 +5666,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-def-inverse-as-swapped-pairs",
   "type": "Definition",
-  "number": "C.9.104",
+  "number": "C.9.130",
   "title": "Definition.",
   "body": " Definition   Let be any function and let be any point on its graph. Then the inverse of is the set of all points of the form .   "
 },
@@ -5486,7 +5675,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-note-inverse-rarely-a-function",
   "type": "Note",
-  "number": "C.9.105",
+  "number": "C.9.131",
   "title": "Important Note.",
   "body": " Important Note  The inverse of a function is rarely a function itself.  "
 },
@@ -5504,7 +5693,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-thm-hlt-implies-inverse-is-function",
   "type": "Theorem",
-  "number": "C.9.106",
+  "number": "C.9.132",
   "title": "Theorem.",
   "body": " Theorem  Any function that passes the horizontal line test has an inverse that is also a function.  "
 },
@@ -5513,7 +5702,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-remark-notation-inverse-function",
   "type": "Notation",
-  "number": "C.9.107",
+  "number": "C.9.133",
   "title": "Notation for an Inverse Function.",
   "body": " Notation for an Inverse Function  If the inverse of is a function, we denote it by .  "
 },
@@ -5522,7 +5711,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-warning-inverse-vs-reciprocal",
   "type": "Note",
-  "number": "C.9.108",
+  "number": "C.9.134",
   "title": "Warning.",
   "body": " Warning  . If we want the reciprocal, we write .  "
 },
@@ -5540,7 +5729,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-thm-inverse-composition-properties",
   "type": "Theorem",
-  "number": "C.9.109",
+  "number": "C.9.135",
   "title": "Inverse Function Property.",
   "body": " Inverse Function Property   Let be any one-to-one function. Then the inverse function exists and has the following properties.    for any in the domain of .  for any in the range of .  The domain of equals the range of .  The range of equals the domain of .     "
 },
@@ -5567,7 +5756,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-lem-find-inverse-technique",
   "type": "Procedure",
-  "number": "C.9.110",
+  "number": "C.9.136",
   "title": "Finding the Inverse of a Function Algebraically.",
   "body": " Finding the Inverse of a Function Algebraically     Replace with .  Interchange and .  Solve for .  Replace with .     "
 },
@@ -5594,7 +5783,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-thm-graph-points-swap",
   "type": "Theorem",
-  "number": "C.9.111",
+  "number": "C.9.137",
   "title": "Graphs of Inverse Functions.",
   "body": " Graphs of Inverse Functions   If the point is on the graph of , then the point is on the graph of .   "
 },
@@ -5612,7 +5801,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-lem-creating-inverses",
   "type": "Procedure",
-  "number": "C.9.113",
+  "number": "C.9.139",
   "title": "Creating Inverses by restricting a function.",
   "body": " Creating Inverses by restricting a function   Let be a function that is not one-to-one. If we restrict the domain of so that it is one-to-one on that domain, then the inverse of the restricted function will be a function.   "
 },
@@ -5657,7 +5846,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-thm-exponential-functions-a-gt-1",
   "type": "Theorem",
-  "number": "C.10.115",
+  "number": "C.10.141",
   "title": "Exponential Functions with <span class=\"process-math\">\\(a &gt; 1\\)<\/span>.",
   "body": " Exponential Functions with   Let be an exponential function where . The graph of has the following properties:  Domain:  Range:  -intercept: .   End Behavior:  As  As . This implies the -axis is a horizontal asymptote.     The function is increasing on .     The graph of where . The sample points , , , , and are plotted.   Graph of f(x)=a^x for a>1     "
 },
@@ -5675,7 +5864,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-thm-exponential-functions-a-lt-1",
   "type": "Theorem",
-  "number": "C.10.117",
+  "number": "C.10.143",
   "title": "Exponential Functions with <span class=\"process-math\">\\(0 &lt; a &lt; 1\\)<\/span>.",
   "body": " Exponential Functions with   Let be an exponential function where . The graph of has the following properties:  Domain:  Range:  -intercept: .   End Behavior:  As . This implies the -axis is a horizontal asymptote.  As     The function is decreasing on .     The graph of where . The sample points , , , , and are plotted.   Graph of f(x)=a^x for 0<a<1     "
 },
@@ -5693,7 +5882,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-def-e",
   "type": "Definition",
-  "number": "C.10.119",
+  "number": "C.10.145",
   "title": "",
   "body": "     The mathematical constant is an irrational number approximately equal to .    The function is called the natural exponential function .      The graph of the natural exponential function . The graph of is shown as a red, dashed curve, and is shown as a blue, dashed curve for comparison.     "
 },
@@ -5702,7 +5891,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-evaluting-functions-base-e",
   "type": "Example",
-  "number": "C.10.121",
+  "number": "C.10.147",
   "title": "Evaluating <span class=\"process-math\">\\(y=e^x\\)<\/span>.",
   "body": " Evaluating   Use a calculator to evaluate the following.  at  at  at  at     "
 },
@@ -5711,7 +5900,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-example-solve-for-variable-in-exponent-using-graphs",
   "type": "Example",
-  "number": "C.10.122",
+  "number": "C.10.148",
   "title": "How to Solve for a Variable in the Exponent using graphs.",
   "body": " How to Solve for a Variable in the Exponent using graphs   Let . Solve the equation using a graph.   "
 },
@@ -5720,7 +5909,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-def-logarithm",
   "type": "Definition",
-  "number": "C.10.123",
+  "number": "C.10.149",
   "title": "",
   "body": "  Let be an exponential function with and . The inverse function of is called the logarithmic function with base and is denoted by . This means that if and only if . In other words, is the exponent to which we must raise to obtain the value .   "
 },
@@ -5729,7 +5918,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#ws-exponential-logarithmic-functions-12",
   "type": "Note",
-  "number": "C.10.124",
+  "number": "C.10.150",
   "title": "Parentheses in Logarithmic Expressions.",
   "body": " Parentheses in Logarithmic Expressions     When you take a logarithm of a single term, it is common practice to drop the parentheses like this: . I will never drop the parentheses in my lecture notes.    Taking the logarithm of an expression with more than one term always requires parentheses: .     "
 },
@@ -5738,7 +5927,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notation-common-natural-log",
   "type": "Notation",
-  "number": "C.10.125",
+  "number": "C.10.151",
   "title": "",
   "body": "  Two logarithmic functions are given special notation.  The logarithmic function with base 10 is called the common logarithm and is denoted by . In other words, .  The logarithmic function with base is called the natural logarithm and is denoted by . In other words, .     "
 },
@@ -5747,7 +5936,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-converting-log-to-exponential",
   "type": "Example",
-  "number": "C.10.126",
+  "number": "C.10.152",
   "title": "Converting Logarithmic to Exponential Form.",
   "body": " Converting Logarithmic to Exponential Form   Convert each logarithmic equation to its equivalent exponential form.        "
 },
@@ -5756,7 +5945,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-converting-exponential-to-log",
   "type": "Example",
-  "number": "C.10.127",
+  "number": "C.10.153",
   "title": "Converting Exponential to Logarithmic Form.",
   "body": " Converting Exponential to Logarithmic Form   Convert each exponential equation to its equivalent logarithmic form.        "
 },
@@ -5774,7 +5963,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-thm-cancellation-properties",
   "type": "Theorem",
-  "number": "C.11.128",
+  "number": "C.11.154",
   "title": "",
   "body": "  Let be an exponential function with inverse . Then the following cancellation properties are true:    for all .     for all real numbers .      "
 },
@@ -5783,7 +5972,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-logarithmic-cancellation-properties",
   "type": "Example",
-  "number": "C.11.129",
+  "number": "C.11.155",
   "title": "Using the Cancellation Properties.",
   "body": " Using the Cancellation Properties   Use the cancellation properties of logarithms to simplify each expression.         "
 },
@@ -5792,7 +5981,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-evaluating-logarithmic-calculator",
   "type": "Example",
-  "number": "C.11.130",
+  "number": "C.11.156",
   "title": "Evaluating Logarithmic Expressions with a Calculator.",
   "body": " Evaluating Logarithmic Expressions with a Calculator   Use a calculator to evaluate each expression. Round your answer to four decimal places, if necessary.       "
 },
@@ -5801,7 +5990,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-thm-other-useful-properties",
   "type": "Theorem",
-  "number": "C.11.131",
+  "number": "C.11.157",
   "title": "Other Useful Properties of Logarithms.",
   "body": " Other Useful Properties of Logarithms   let . Then the following properties are true for any base :               "
 },
@@ -5810,7 +5999,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-other-useful-properties",
   "type": "Example",
-  "number": "C.11.132",
+  "number": "C.11.158",
   "title": "Using Other Useful Properties of Logarithms.",
   "body": " Using Other Useful Properties of Logarithms   Use the properties of logarithms to simplify each expression.       "
 },
@@ -5819,7 +6008,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-thm-laws-of-logarithms",
   "type": "Theorem",
-  "number": "C.11.133",
+  "number": "C.11.159",
   "title": "Laws of Logarithms.",
   "body": " Laws of Logarithms   Let . Then the following laws are true for any base :                    "
 },
@@ -5828,7 +6017,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-1",
   "type": "Example",
-  "number": "C.11.134",
+  "number": "C.11.160",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Evaluate the logarithmic expression .   "
 },
@@ -5837,7 +6026,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-2",
   "type": "Example",
-  "number": "C.11.135",
+  "number": "C.11.161",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Evaluate the logarithmic expression .   "
 },
@@ -5846,7 +6035,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-3",
   "type": "Example",
-  "number": "C.11.136",
+  "number": "C.11.162",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Evaluate the logarithmic expression .   "
 },
@@ -5855,7 +6044,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-2",
   "type": "Example",
-  "number": "C.11.137",
+  "number": "C.11.163",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
 },
@@ -5864,7 +6053,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-1",
   "type": "Example",
-  "number": "C.11.138",
+  "number": "C.11.164",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
 },
@@ -5873,7 +6062,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-3",
   "type": "Example",
-  "number": "C.11.139",
+  "number": "C.11.165",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
 },
@@ -5882,7 +6071,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-4",
   "type": "Example",
-  "number": "C.11.140",
+  "number": "C.11.166",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
 },
@@ -5891,7 +6080,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-5",
   "type": "Example",
-  "number": "C.11.141",
+  "number": "C.11.167",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
 },
@@ -5900,7 +6089,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-6",
   "type": "Example",
-  "number": "C.11.142",
+  "number": "C.11.168",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
 },
@@ -5909,7 +6098,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-7",
   "type": "Example",
-  "number": "C.11.143",
+  "number": "C.11.169",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
 },
@@ -5918,7 +6107,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-8",
   "type": "Example",
-  "number": "C.11.144",
+  "number": "C.11.170",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
 },
@@ -5927,7 +6116,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-def-change-of-base-formula",
   "type": "Definition",
-  "number": "C.11.145",
+  "number": "C.11.171",
   "title": "Change of Base Formula.",
   "body": " Change of Base Formula   For any positive numbers , , and , where and , the logarithm of with base can be computed using logarithms with base as follows:    "
 },
@@ -5936,7 +6125,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-change-of-base-calculator",
   "type": "Example",
-  "number": "C.11.146",
+  "number": "C.11.172",
   "title": "Using the Change of Base Formula with a Calculator.",
   "body": " Using the Change of Base Formula with a Calculator   Use the change of base formula to evaluate using a calculator or Desmos. Round your answer to four decimal places, if necessary.   "
 },
@@ -5945,7 +6134,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-graph-change-of-base-calculator-2",
   "type": "Example",
-  "number": "C.11.147",
+  "number": "C.11.173",
   "title": "Using the Change of Base Formula to Graph a Logarithmic Function with a Calculator.",
   "body": " Using the Change of Base Formula to Graph a Logarithmic Function with a Calculator   Graph the function using a calculator or Desmos.   "
 },
@@ -5963,7 +6152,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lem-method-exponential-same-base",
   "type": "Procedure",
-  "number": "C.12.148",
+  "number": "C.12.174",
   "title": "Solving Exponential Equations by Rewriting with a Common Base.",
   "body": " Solving Exponential Equations by Rewriting with a Common Base   Use the following steps to solve exponential equations that can be rewritten with the same base.   Rewrite both sides of the equation as for some base .    Apply to both sides of the equation.    Use the cancellation property to get an equation of the form .    Solve the resulting equation for .      "
 },
@@ -5972,7 +6161,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-exponential-same-base-1",
   "type": "Example",
-  "number": "C.12.149",
+  "number": "C.12.175",
   "title": "Solving Exponential Equations by Rewriting with a Common Base.",
   "body": " Solving Exponential Equations by Rewriting with a Common Base   Solve .   "
 },
@@ -5981,7 +6170,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-exponential-same-base-2",
   "type": "Example",
-  "number": "C.12.150",
+  "number": "C.12.176",
   "title": "Solving Exponential Equations by Rewriting with a Common Base.",
   "body": " Solving Exponential Equations by Rewriting with a Common Base   Solve .   "
 },
@@ -5990,7 +6179,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lem-method-solving-exponential-equations-different-bases",
   "type": "Procedure",
-  "number": "C.12.151",
+  "number": "C.12.177",
   "title": "Solving Exponential Equations Using Logarithms.",
   "body": " Solving Exponential Equations Using Logarithms   Use the following steps to solve exponential equations that cannot be rewritten with a common base.   Rewrite both sides of the equation as ., where .    Apply to both sides of the equation, where is any positive real number not equal to 1. Common choices for are 10 or .    Use the law to rewrite the equation in the form . This will remove any variables from the exponents.    Solve the resulting equation for .      "
 },
@@ -5999,7 +6188,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-exponential-different-bases-1",
   "type": "Example",
-  "number": "C.12.152",
+  "number": "C.12.178",
   "title": "Solving Exponential Equations Using Logarithms.",
   "body": " Solving Exponential Equations Using Logarithms   Solve .   "
 },
@@ -6008,7 +6197,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-exponential-different-bases-2",
   "type": "Example",
-  "number": "C.12.153",
+  "number": "C.12.179",
   "title": "Solving Exponential Equations Using Logarithms.",
   "body": " Solving Exponential Equations Using Logarithms   Solve .   "
 },
@@ -6017,7 +6206,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-lem-solving-logarithmic-equations",
   "type": "Procedure",
-  "number": "C.12.154",
+  "number": "C.12.180",
   "title": "Solving Logarithmic Equations.",
   "body": " Solving Logarithmic Equations   Use the following steps to solve logarithmic equations.    Rewrite your equation as .    Apply the function to both sides of the equation to get the equation .    Use the cancellation property to get the equation .    Solve the resulting equation for .    Check your solution(s) in the original equation for extraneous solutions.     "
 },
@@ -6026,7 +6215,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-logarithmic-equations-1",
   "type": "Example",
-  "number": "C.12.155",
+  "number": "C.12.181",
   "title": "Solving Logarithmic Equations.",
   "body": " Solving Logarithmic Equations   Solve .   "
 },
@@ -6035,7 +6224,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-logarithmic-equations-2",
   "type": "Example",
-  "number": "C.12.156",
+  "number": "C.12.182",
   "title": "Solving Logarithmic Equations.",
   "body": " Solving Logarithmic Equations   Solve .   "
 },
@@ -6044,7 +6233,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-thm-compound-interest",
   "type": "Theorem",
-  "number": "C.12.157",
+  "number": "C.12.183",
   "title": "Compound Interest Formula.",
   "body": " Compound Interest Formula   The formula for calculating the amount in an account after years with a principal amount , an annual interest rate (written as a decimal), and interest compounded times per year is .   "
 },
@@ -6053,7 +6242,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-compound-interest-1",
   "type": "Example",
-  "number": "C.12.158",
+  "number": "C.12.184",
   "title": "Compound Interest.",
   "body": " Compound Interest   Find the amount in an account after 10 years if $5,000 is deposited at an annual interest rate of 6% compounded monthly.   "
 },
@@ -6062,7 +6251,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-compound-interest-2",
   "type": "Example",
-  "number": "C.12.159",
+  "number": "C.12.185",
   "title": "Compound Interest.",
   "body": " Compound Interest   How long will it take for an investment of $8,000 to double if the annual interest rate is 5% compounded quarterly?   "
 },
@@ -6071,7 +6260,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-compound-interest-3",
   "type": "Example",
-  "number": "C.12.160",
+  "number": "C.12.186",
   "title": "Compound Interest.",
   "body": " Compound Interest   Find the annual interest rate needed for an investment of $12,000 to grow to $20,000 in 8 years if the interest is compounded daily.   "
 },
@@ -6080,7 +6269,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-thm-exponential-growth-decay",
   "type": "Theorem",
-  "number": "C.12.161",
+  "number": "C.12.187",
   "title": "Exponential Growth and Decay.",
   "body": " Exponential Growth and Decay   The formula for exponential growth and decay is , where is the initial amount, is the amount after time , and is the growth or decay rate.   If , the equation models exponential growth.    If , the equation models exponential decay.      "
 },
@@ -6089,7 +6278,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-exponential-growth-1",
   "type": "Example",
-  "number": "C.12.162",
+  "number": "C.12.188",
   "title": "Exponential Growth.",
   "body": " Exponential Growth   A skull cleaning factory cleans animal skulls such as deer, buffalo, and other types of animal skulls using flesh-eating beetles to clean the skulls. The factory owner started with only 10 adult beetles. After 40 days, the beetle population grew to 30 adult beetles. How long did it take before the beetle population reached 10,000 beetles? Round to the nearest whole number.   "
 },
@@ -6098,7 +6287,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-exponential-decay-1",
   "type": "Example",
-  "number": "C.12.163",
+  "number": "C.12.189",
   "title": "Exponential Decay.",
   "body": " Exponential Decay   A certain radioactive isotope leaks into a small stream. Three hundred days after the leak, 2% of the original amount of the substance remained. Determine the half-life of this radioactive isotope. Round to the nearest whole number.   "
 },
@@ -6116,7 +6305,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-angle",
   "type": "Definition",
-  "number": "D.1.164",
+  "number": "D.1.190",
   "title": "Angles.",
   "body": " Angles      An angle is formed by two rays with a common endpoint.    The ray where the angle measurement begins is called the initial side .    The ray where the angle measurement ends is called the terminal side .    The common endpoint is called the vertex of the angle.      "
 },
@@ -6125,7 +6314,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-standard-position",
   "type": "Definition",
-  "number": "D.1.165",
+  "number": "D.1.191",
   "title": "Standard Position of an Angle.",
   "body": " Standard Position of an Angle   An angle is in standard position if the following two conditions are true.   The vertex is located at the origin of a coordinate plane.    The initial side lies on the positive -axis.      "
 },
@@ -6134,7 +6323,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-positive-negative-angles",
   "type": "Definition",
-  "number": "D.1.166",
+  "number": "D.1.192",
   "title": "Positive and Negative Angles.",
   "body": " Positive and Negative Angles      An angle is positive if it measures a counterclockwise rotation.    An angle is negative if it measures a clockwise rotation.      "
 },
@@ -6143,7 +6332,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-classifying-angles",
   "type": "Definition",
-  "number": "D.1.167",
+  "number": "D.1.193",
   "title": "",
   "body": "     An angle whose terminal side lies in Quadrant 1 is called a Quadrant 1 angle.     An angle whose terminal side lies in Quadrant 2 is called a Quadrant 2 angle.     An angle whose terminal side lies in Quadrant 3 is called a Quadrant 3 angle.     An angle whose terminal side lies in Quadrant 4 is called a Quadrant 4 angle.     An angle whose terminal side lies on one of the axes is called a quadrantal angle.       "
 },
@@ -6152,7 +6341,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-central-angle",
   "type": "Definition",
-  "number": "D.1.168",
+  "number": "D.1.194",
   "title": "Central Angles and the Arc It Intercepts.",
   "body": " Central Angles and the Arc It Intercepts      A central angle is an angle whose vertex is at the center of a circle.    The arc that lies between the two sides of a central angle is called the arc intercepted by the angle.       "
 },
@@ -6161,7 +6350,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-radian-measure",
   "type": "Definition",
-  "number": "D.1.169",
+  "number": "D.1.195",
   "title": "Radian Measure.",
   "body": " Radian Measure   Consider a circle with radius whose central angle intercepts an arc of length . The radian measure of the angle in radians is given by the following formula.    "
 },
@@ -6170,7 +6359,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#fig-radian-measures-1-2-3",
   "type": "Figure",
-  "number": "D.1.170",
+  "number": "D.1.196",
   "title": "",
   "body": " Measuring Angles in Integer Radians    rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is labeled as r.     rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is segmented into three equal parts all labelled r.     "
 },
@@ -6179,7 +6368,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ws-radian-measure-9",
   "type": "Note",
-  "number": "D.1.171",
+  "number": "D.1.197",
   "title": "",
   "body": "  Since the radian measure of an angle is a ratio of two lengths, it is a unitless measure and can be expressed without writing down \"rad\".   "
 },
@@ -6188,7 +6377,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-radian-measure-1",
   "type": "Example",
-  "number": "D.1.172",
+  "number": "D.1.198",
   "title": "",
   "body": "  A circle has a radius of 5 cm and the central angle intercepts an arc that is 27 cm long. What is the radian measure of the central angle?   "
 },
@@ -6197,7 +6386,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-radian-measure-2",
   "type": "Example",
-  "number": "D.1.173",
+  "number": "D.1.199",
   "title": "",
   "body": "  A circle has a radius of 1 ft and the central angle intercepts an arc that is 10 in long. What is the radian measure of the central angle?   "
 },
@@ -6206,7 +6395,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-radian-measure-3",
   "type": "Example",
-  "number": "D.1.174",
+  "number": "D.1.200",
   "title": "",
   "body": "  What is the radian measure of the central angle of a circle if we make one complete revolution around the circle?   "
 },
@@ -6215,7 +6404,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-converting-between-degrees-radians",
   "type": "Theorem",
-  "number": "D.1.175",
+  "number": "D.1.201",
   "title": "Converting Between Degrees and Radians.",
   "body": " Converting Between Degrees and Radians      To convert from degrees to radians, multiply the angle by .    To convert from radians to degrees, multiply the angle by .      "
 },
@@ -6224,7 +6413,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-convert-degrees-to-radians-1",
   "type": "Example",
-  "number": "D.1.176",
+  "number": "D.1.202",
   "title": "Converting from Degrees to Radians.",
   "body": " Converting from Degrees to Radians   Convert to radians.   "
 },
@@ -6233,7 +6422,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-convert-radians-to-degrees-1",
   "type": "Example",
-  "number": "D.1.177",
+  "number": "D.1.203",
   "title": "Converting from Radians to Degrees.",
   "body": " Converting from Radians to Degrees   Convert radians to degrees.   "
 },
@@ -6242,7 +6431,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#table-common-angles",
   "type": "Table",
-  "number": "D.1.178",
+  "number": "D.1.204",
   "title": "Common Angle Measures",
   "body": " Common Angle Measures    Degrees             Radians             Degrees            Radians            "
 },
@@ -6251,7 +6440,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-drawing-angles-45-degrees",
   "type": "Procedure",
-  "number": "D.1.179",
+  "number": "D.1.205",
   "title": "",
   "body": "  In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into eight equal sections by drawing both the horizontal and vertical diameters as well as the two diagonals,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.     "
 },
@@ -6260,7 +6449,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-drawing-angles-45-degrees",
   "type": "Example",
-  "number": "D.1.180",
+  "number": "D.1.206",
   "title": "Drawing an Angle of <span class=\"process-math\">\\(-\\frac{3\\pi}{4}\\)<\/span> Radians.",
   "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
 },
@@ -6269,7 +6458,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-drawing-angles-30-degrees",
   "type": "Procedure",
-  "number": "D.1.181",
+  "number": "D.1.207",
   "title": "",
   "body": "  In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into twelve equal sections by drawing both the horizontal and vertical diameters and split each quadrant into three equal sections,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.     "
 },
@@ -6278,7 +6467,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-drawing-angles-30-degrees",
   "type": "Example",
-  "number": "D.1.182",
+  "number": "D.1.208",
   "title": "Drawing an Angle of <span class=\"process-math\">\\(\\frac{11\\pi}{6}\\)<\/span> Radians.",
   "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
 },
@@ -6287,7 +6476,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-drawing-angles-negative-30-degrees",
   "type": "Example",
-  "number": "D.1.183",
+  "number": "D.1.209",
   "title": "Drawing an Angle of <span class=\"process-math\">\\(-\\frac{5\\pi}{3}\\)<\/span> Radians.",
   "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
 },
@@ -6296,7 +6485,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-coterminal-angles",
   "type": "Definition",
-  "number": "D.1.184",
+  "number": "D.1.210",
   "title": "",
   "body": "  Two angles are called coterminal if they share the same initial side and terminal side.   "
 },
@@ -6305,7 +6494,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-coterminal-angles-degrees",
   "type": "Procedure",
-  "number": "D.1.185",
+  "number": "D.1.211",
   "title": "",
   "body": "  We typically only want to express angles in degrees using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .      "
 },
@@ -6314,7 +6503,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-degrees-1",
   "type": "Example",
-  "number": "D.1.186",
+  "number": "D.1.212",
   "title": "Finding a Coterminal Angle in Degrees.",
   "body": " Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .   "
 },
@@ -6323,7 +6512,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-degrees-2",
   "type": "Example",
-  "number": "D.1.187",
+  "number": "D.1.213",
   "title": "Finding a Coterminal Angle in Degrees.",
   "body": " Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .   "
 },
@@ -6332,7 +6521,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-coterminal-angles-radians",
   "type": "Procedure",
-  "number": "D.1.188",
+  "number": "D.1.214",
   "title": "",
   "body": "  We typically only want to express angles in radians using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .      "
 },
@@ -6341,7 +6530,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-radians-1",
   "type": "Example",
-  "number": "D.1.189",
+  "number": "D.1.215",
   "title": "Finding a Coterminal Angle in Radians.",
   "body": " Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .   "
 },
@@ -6350,7 +6539,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-radians-2",
   "type": "Example",
-  "number": "D.1.190",
+  "number": "D.1.216",
   "title": "Finding a Coterminal Angle in Radians.",
   "body": " Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .   "
 },
@@ -6359,7 +6548,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-arc-length",
   "type": "Theorem",
-  "number": "D.1.191",
+  "number": "D.1.217",
   "title": "Arc Length.",
   "body": " Arc Length   The length of an arc intercepted by a central angle with radian measure in a circle of radius is given by the formula    "
 },
@@ -6368,7 +6557,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-arc-length",
   "type": "Example",
-  "number": "D.1.192",
+  "number": "D.1.218",
   "title": "",
   "body": "  Find the length of an arc intercepted by a central angle measuring radians in a circle with a radius of 9 cm.   "
 },
@@ -6377,7 +6566,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-sector-area",
   "type": "Theorem",
-  "number": "D.1.193",
+  "number": "D.1.219",
   "title": "Area of a Sector.",
   "body": " Area of a Sector   The area of a sector formed by a central angle with radian measure in a circle of radius is given by the formula    "
 },
@@ -6386,7 +6575,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-sector-area",
   "type": "Example",
-  "number": "D.1.194",
+  "number": "D.1.220",
   "title": "",
   "body": "  Find the area of a sector formed by a central angle measuring radians in a circle with a radius of 6 in.   "
 },
@@ -6395,7 +6584,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-linear-angular-speed",
   "type": "Definition",
-  "number": "D.1.195",
+  "number": "D.1.221",
   "title": "Linear and Angular Speed.",
   "body": " Linear and Angular Speed   If a point is motion on a circle of radius through an angle of radians in time, then its linear speed  is given by the formula where is the length of the arc traveled, and the angular speed  of the point is given by the formula    "
 },
@@ -6404,7 +6593,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-converting-to-radian-angular-speed",
   "type": "Example",
-  "number": "D.1.196",
+  "number": "D.1.222",
   "title": "",
   "body": "  A wheel with a radius of 0.5 m is rotating at 720 revolutions per minute (rpm). What is the angular speed of the wheel in radians per second?   "
 },
@@ -6413,7 +6602,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-linear-speed",
   "type": "Theorem",
-  "number": "D.1.197",
+  "number": "D.1.223",
   "title": "",
   "body": "  The linear speed of a point moving on a circle of radius with an angular speed of is given by the formula In plain English, the linear speed equals the radius times the angular speed.   "
 },
@@ -6422,7 +6611,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-finding-linear-speed",
   "type": "Example",
-  "number": "D.1.198",
+  "number": "D.1.224",
   "title": "",
   "body": "  Before digital music, CDs, and cassette players, records were recorded on vinyl discs that spun at either 45 revolutions per minute (rpm) or 75 rpm. Find the linear speed, in inches per minute, at the point where the needle is 1.5 inches from the record's center for a 45 rpm vinyl record.   "
 },
@@ -6440,7 +6629,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#def-six-trigonometric-functions-right-triangle",
   "type": "Definition",
-  "number": "D.2.199",
+  "number": "D.2.225",
   "title": "",
   "body": "  Consider a right triangle whose short leg has length , whose long leg has length , and whose hypotenuse has length . Let be the angle opposite the short leg.   A right triangle where the short leg has length , the long leg has length , and the hypotenuse has length . The vertex of the angle opposite to side is labeled , the vertex of the angle opposite to side is labeled , and the vertex of the right angle is labeled . The angle is labeled .    The six trigonometric functions of the angle are defined as follows:    "
 },
@@ -6449,7 +6638,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#ws-right-triangle-trigonometry-3",
   "type": "Note",
-  "number": "D.2.201",
+  "number": "D.2.227",
   "title": "",
   "body": " Three of the six trigonometric functions can be remembered using the mnemonic SOH-CAH-TOA, where   "
 },
@@ -6458,7 +6647,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluating-trigonometric-functions-right-triangle",
   "type": "Example",
-  "number": "D.2.202",
+  "number": "D.2.228",
   "title": "",
   "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose short leg has length 33, long leg has length 56, and measures the side opposite the short leg.     "
 },
@@ -6467,7 +6656,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluating-isosceles-triangle",
   "type": "Example",
-  "number": "D.2.204",
+  "number": "D.2.230",
   "title": "",
   "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose legs each have length 3, and measures the angle opposite side .     "
 },
@@ -6476,7 +6665,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluating-30-60-90-triangle",
   "type": "Example",
-  "number": "D.2.206",
+  "number": "D.2.232",
   "title": "",
   "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions for both the angle and the angle .   A right triangle whose short leg has length , long leg has length , and hypotenuse has length . measures the angle opposite the long leg, and measures the angle opposite the short leg.     "
 },
@@ -6485,7 +6674,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#table-trigonometric-functions-common-angles",
   "type": "Table",
-  "number": "D.2.208",
+  "number": "D.2.234",
   "title": "Trigonometric Functions of Common Angles",
   "body": " Trigonometric Functions of Common Angles                            "
 },
@@ -6494,7 +6683,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-reciprocal-identities",
   "type": "Theorem",
-  "number": "D.2.209",
+  "number": "D.2.235",
   "title": "Reciprocal Identities.",
   "body": " Reciprocal Identities   Let be any angle. The reciprocal identities are given by the following equations:    "
 },
@@ -6503,7 +6692,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-quotient-identities",
   "type": "Theorem",
-  "number": "D.2.210",
+  "number": "D.2.236",
   "title": "Quotient Identities.",
   "body": " Quotient Identities   Let be any angle. The quotient identities are given by the following equations:    "
 },
@@ -6512,7 +6701,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluting-trigonometric-functions-reciprocal-quotient",
   "type": "Example",
-  "number": "D.2.211",
+  "number": "D.2.237",
   "title": "",
   "body": "  Given that , find the values of the other five trigonometric functions of .   "
 },
@@ -6521,7 +6710,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-pythagorean-identities",
   "type": "Theorem",
-  "number": "D.2.212",
+  "number": "D.2.238",
   "title": "Pythagorean Identities.",
   "body": " Pythagorean Identities   Let be any angle. The Pythagorean identities are given by the following equations:    "
 },
@@ -6530,7 +6719,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-pythagorean-identities",
   "type": "Example",
-  "number": "D.2.213",
+  "number": "D.2.239",
   "title": "",
   "body": "  Given that , find the values of the other five trigonometric functions of .   "
 },
@@ -6539,7 +6728,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#def-complement-angles",
   "type": "Definition",
-  "number": "D.2.214",
+  "number": "D.2.240",
   "title": "",
   "body": "  Two positive angles are complementary angles if the sum of their measures is or radians.   "
 },
@@ -6548,7 +6737,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-cofunction-identities",
   "type": "Theorem",
-  "number": "D.2.215",
+  "number": "D.2.241",
   "title": "Cofunction Identities.",
   "body": " Cofunction Identities   Let be an acute angle. The cofunction identities are given by the following equations:    "
 },
@@ -6557,7 +6746,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-cofunction-identities",
   "type": "Example",
-  "number": "D.2.216",
+  "number": "D.2.242",
   "title": "",
   "body": "  Find a cofunction with the same values as .   "
 },
@@ -6566,7 +6755,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-degrees",
   "type": "Example",
-  "number": "D.2.217",
+  "number": "D.2.243",
   "title": "",
   "body": "  Use a calculator to find the value of , rounded to four decimal places.   "
 },
@@ -6575,7 +6764,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-radians",
   "type": "Example",
-  "number": "D.2.218",
+  "number": "D.2.244",
   "title": "",
   "body": "  Use a calculator to find the value of , rounded to four decimal places.   "
 },
@@ -6584,7 +6773,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-inverse-trig",
   "type": "Example",
-  "number": "D.2.219",
+  "number": "D.2.245",
   "title": "",
   "body": "  Use a calculator to find the approximate value (in degrees) of .   "
 },
@@ -6593,7 +6782,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#def-angle-elevation-depression",
   "type": "Definition",
-  "number": "D.2.220",
+  "number": "D.2.246",
   "title": "",
   "body": "    The horizontal line of sight is the line formed when an observer looks straight ahead.  The angle of elevation is the angle formed between the horizontal line of sight and the line of sight to an object above the observer.  The angle of depression is the angle formed between the horizontal line of sight and the line of sight to an object below the observer.     An observer is at a vertex shared by two right triangles. The horizontal line of sight from the observer forms a common side shared by both triangles. The line of sight to an object above the observer forms the hypotenuse of the upper triangle, and the line of sight to an object below the observer forms the hypotenuse of the lower triangle. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the above object as the terminal side is the angle of elevation. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the below object as the terminal side is the angle of depression.     "
 },
@@ -6602,7 +6791,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-angle-elevation",
   "type": "Example",
-  "number": "D.2.222",
+  "number": "D.2.248",
   "title": "",
   "body": "  An observer stands 150 feet away from the base of a building. The angle of elevation from the observer to the top of the building is . Find the height of the building, rounded to the nearest foot.   "
 },
@@ -6611,7 +6800,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-finding-angle-depression",
   "type": "Example",
-  "number": "D.2.223",
+  "number": "D.2.249",
   "title": "",
   "body": "  An observer stands on the edge of a cliff that is 200 feet above sea level and observes a boat that is 150 feet away from the base of the cliff. Find the angle of depression from the observer to the boat, rounded to the nearest tenth of a degree.   "
 },
@@ -6629,7 +6818,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#def-reference-triangle",
   "type": "Definition",
-  "number": "D.3.224",
+  "number": "D.3.250",
   "title": "",
   "body": "  Let be any angle and be any point on the terminal side of the angle. The reference triangle for is the right triangle formed by dropping a perpendicular from the point to the -axis.   "
 },
@@ -6638,7 +6827,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#thm-sides-reference-triangle",
   "type": "Theorem",
-  "number": "D.3.225",
+  "number": "D.3.251",
   "title": "",
   "body": "  Let be any angle in standard position and let be a point on the terminal side of the angle. Then the distance from to is given by , and the six trigonometric functions are defined as follows.    "
 },
@@ -6647,7 +6836,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-any-angle-1",
   "type": "Example",
-  "number": "D.3.226",
+  "number": "D.3.252",
   "title": "",
   "body": "  Find the exact values of the six trigonometric functions of an angle in standard position whose terminal side passes through the point .   "
 },
@@ -6656,7 +6845,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-any-angle-2",
   "type": "Example",
-  "number": "D.3.227",
+  "number": "D.3.253",
   "title": "",
   "body": "  Find the exact values of the six trigonometric functions of an angle in standard position whose terminal side passes through the point .   "
 },
@@ -6665,7 +6854,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#thm-trig-functions-quadrants",
   "type": "Theorem",
-  "number": "D.3.228",
+  "number": "D.3.254",
   "title": "",
   "body": "  Let be any non-quadrantal angle in standard position. The signs of the six trigonometric functions of in each quadrant are as follows    Quadrant 1: All six trigonometric functions are positive.     Quadrant 2: Only and are positive; the other four functions are negative.     Quadrant 3: Only and are positive; the other four functions are negative.     Quadrant 4: Only and are positive; the other four functions are negative.      "
 },
@@ -6674,7 +6863,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#note-how-to-remember-trig-signs",
   "type": "Note",
-  "number": "D.3.229",
+  "number": "D.3.255",
   "title": "How to Remember the Signs of Trigonometric Functions.",
   "body": " How to Remember the Signs of Trigonometric Functions  A common mnemonic to help remember the signs of the trigonometric functions is   "
 },
@@ -6683,7 +6872,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-find-quadrant",
   "type": "Example",
-  "number": "D.3.230",
+  "number": "D.3.256",
   "title": "",
   "body": "  If and , in which quadrant does the terminal side of lie?   "
 },
@@ -6692,7 +6881,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-any-angle-3",
   "type": "Example",
-  "number": "D.3.231",
+  "number": "D.3.257",
   "title": "",
   "body": "  Given that and that the terminal side of lies in Quadrant II, find the exact values of all six trigonometric functions of .   "
 },
@@ -6701,7 +6890,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#def-reference-angle",
   "type": "Definition",
-  "number": "D.3.232",
+  "number": "D.3.258",
   "title": "",
   "body": "  The reference angle for an angle in standard position is the acute angle formed by the terminal side of and the x-axis in a reference triangle.   "
 },
@@ -6710,7 +6899,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ws-trig-functions-any-angle-11",
   "type": "Note",
-  "number": "D.3.233",
+  "number": "D.3.259",
   "title": "",
   "body": " The reference angle is always a positive acute angle since the reference angle is part of a right triangle.              "
 },
@@ -6719,7 +6908,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#thm-calculating-reference-angles",
   "type": "Theorem",
-  "number": "D.3.234",
+  "number": "D.3.260",
   "title": "",
   "body": "  Let be any angle in standard position and let be its reference angle. If , the reference angle in degrees can be calculated as follows.   If is in Quadrant I, then .    If is in Quadrant II, then .    If is in Quadrant III, then .    If is in Quadrant IV, then .     If , the reference angle in radians can be calculated as follows.   If is in Quadrant I, then .    If is in Quadrant II, then .    If is in Quadrant III, then .    If is in Quadrant IV, then .      "
 },
@@ -6728,7 +6917,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-reference-angle-1",
   "type": "Example",
-  "number": "D.3.235",
+  "number": "D.3.261",
   "title": "",
   "body": "  Find the reference angle for .   "
 },
@@ -6737,7 +6926,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-reference-angle-2",
   "type": "Example",
-  "number": "D.3.236",
+  "number": "D.3.262",
   "title": "",
   "body": "  Find the reference angle for .   "
 },
@@ -6746,7 +6935,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#thm-relationship-reference-and-angle",
   "type": "Theorem",
-  "number": "D.3.237",
+  "number": "D.3.263",
   "title": "",
   "body": "  Let be any angle in standard position and let be its reference angle. Then the following equations are true. The sign in each equation is determined by the quadrant in which the terminal side of lies.   "
 },
@@ -6755,7 +6944,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ws-trig-functions-any-angle-16",
   "type": "Note",
-  "number": "D.3.238",
+  "number": "D.3.264",
   "title": "",
   "body": " This theorem implies that if two angles have the same reference angle, then the value of the trigonometric functions of those two angles will differ at most by a negative sign.  "
 },
@@ -6764,7 +6953,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-reference-angle",
   "type": "Example",
-  "number": "D.3.239",
+  "number": "D.3.265",
   "title": "",
   "body": "  Recall that . Find the values of , , and .   "
 },
@@ -6773,7 +6962,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#table-expanded-trigonometric-functions-common-angles",
   "type": "Table",
-  "number": "D.3.240",
+  "number": "D.3.266",
   "title": "Expanded Trigonometric Functions of Common Angles",
   "body": " Expanded Trigonometric Functions of Common Angles                                    "
 },
@@ -6782,7 +6971,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-common-angles",
   "type": "Example",
-  "number": "D.3.241",
+  "number": "D.3.267",
   "title": "",
   "body": "  Find the exact values of the six trigonometric functions when .   "
 },
@@ -6791,7 +6980,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-common-angles-2",
   "type": "Example",
-  "number": "D.3.242",
+  "number": "D.3.268",
   "title": "",
   "body": "  Find the exact values of the six trigonometric functions when .   "
 },
@@ -6800,7 +6989,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-common-angles-3",
   "type": "Example",
-  "number": "D.3.243",
+  "number": "D.3.269",
   "title": "",
   "body": "  Find the exact values of the six trigonometric functions when .   "
 },
@@ -6818,7 +7007,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-circle-functions",
   "type": "Theorem",
-  "number": "D.4.244",
+  "number": "D.4.270",
   "title": "",
   "body": "  Consider a circle of radius centered at the origin and a point on the terminal side of an angle . Then the values of and are determined by the following pair of equations:    "
 },
@@ -6827,7 +7016,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-unit-circle-1",
   "type": "Example",
-  "number": "D.4.245",
+  "number": "D.4.271",
   "title": "",
   "body": " Find the coordinates of the point on the terminal side of a angle that lies on a circle of radius . Then, find the value of the six trigonometric functions at this angle.  "
 },
@@ -6836,7 +7025,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-unit-circle-2",
   "type": "Example",
-  "number": "D.4.246",
+  "number": "D.4.272",
   "title": "",
   "body": " Find the coordinates of the point on the terminal side of a angle that lies on a circle of radius . Then, find the value of the six trigonometric functions at this angle.  "
 },
@@ -6845,7 +7034,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#def-unit-circle",
   "type": "Definition",
-  "number": "D.4.247",
+  "number": "D.4.273",
   "title": "",
   "body": "  The unit circle is a circle of radius centered at the origin.   "
 },
@@ -6854,7 +7043,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-unit-circle-trig-values",
   "type": "Theorem",
-  "number": "D.4.248",
+  "number": "D.4.274",
   "title": "",
   "body": "  Let be an angle in standard position on the unit circle, and let be the point on the unit circle corresponding to . Then the values of the six trigonometric functions at are given by the following equations:    "
 },
@@ -6863,7 +7052,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ws-unit-circle-7",
   "type": "Note",
-  "number": "D.4.249",
+  "number": "D.4.275",
   "title": "Putting it All Together.",
   "body": " Putting it All Together  The unit circle is a memory device that allows us to quickly determine the values of trigonometric functions at any angle. In order to use the unit circle effectively for common angles, you need to know the following topics.   Coterminal angles    The signs of the trigonometric functions in each quadrant.    Reference angles.    The following pattern of common angles (in degrees and radians)     The following list of values both forwards and backwards.      "
 },
@@ -6872,7 +7061,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-building-the-unit-circle",
   "type": "Example",
-  "number": "D.4.250",
+  "number": "D.4.276",
   "title": "",
   "body": " Complete the blank unit circle given below with the common angles (in both degrees and radians) and their corresponding coordinates. Use the following hints to help you complete it.    Use the table of common angles (duplicated below for your convenience) to fill in the angles in quadrant 1.     Use your knowledge of reference angles and signs of the trigonometric functions to complete the information in the other quadrants.      Expanded Trigonometric Functions of Common Angles                              The unit circle. A line segment is drawn from the origin to the points on the circles that correspond to the multiples of , , and . Each line segment has four blanks for students to fill in: one for the radian measure, one for the degree measure, and a pair of blanks for the coordinates on the unit circle.    "
 },
@@ -6881,7 +7070,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-trig-functions-from-point",
   "type": "Example",
-  "number": "D.4.253",
+  "number": "D.4.279",
   "title": "",
   "body": " The point lies on the unit circle. Find the value of the six trigonometric functions of the angle that is associated to this point.  "
 },
@@ -6890,7 +7079,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-trig-functions-from-point-2",
   "type": "Example",
-  "number": "D.4.254",
+  "number": "D.4.280",
   "title": "",
   "body": " The point lies on the unit circle. Find the value of the six trigonometric functions of the angle that is associated to this point.  "
 },
@@ -6899,7 +7088,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-domain-range-sin-cos",
   "type": "Theorem",
-  "number": "D.4.255",
+  "number": "D.4.281",
   "title": "Domain and Range of Sine and Cosine.",
   "body": " Domain and Range of Sine and Cosine   Sine and Cosine both have domain and range .   "
 },
@@ -6908,7 +7097,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-parity-trig-functions",
   "type": "Theorem",
-  "number": "D.4.256",
+  "number": "D.4.282",
   "title": "",
   "body": "  The functions sine, cosecant, tangent, and cotangent are odd functions. In other words, The functions cosine and secant are even functions. In other words,    "
 },
@@ -6917,7 +7106,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-even-trig-functions",
   "type": "Example",
-  "number": "D.4.257",
+  "number": "D.4.283",
   "title": "",
   "body": " Find the exact value of .  "
 },
@@ -6926,7 +7115,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-odd-trig-functions",
   "type": "Example",
-  "number": "D.4.258",
+  "number": "D.4.284",
   "title": "",
   "body": " Find the exact value of .  "
 },
@@ -6935,7 +7124,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#def-periodic-function",
   "type": "Definition",
-  "number": "D.4.259",
+  "number": "D.4.285",
   "title": "Periodic Functions.",
   "body": " Periodic Functions   A function is periodic if there exists a positive number such that for all in the domain of . The smallest such positive number is called the period of the function    "
 },
@@ -6944,7 +7133,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-periodicity-sine-cosine",
   "type": "Theorem",
-  "number": "D.4.260",
+  "number": "D.4.286",
   "title": "The Periodicity of Sine and Cosine.",
   "body": " The Periodicity of Sine and Cosine   The period of both the sine and cosine functions is . In other words, for any angle ,    "
 },
@@ -6953,7 +7142,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-periodicity-sine-cosine",
   "type": "Example",
-  "number": "D.4.261",
+  "number": "D.4.287",
   "title": "",
   "body": " Find the exact value of .  "
 },
@@ -6962,7 +7151,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-periodicity-tan",
   "type": "Theorem",
-  "number": "D.4.262",
+  "number": "D.4.288",
   "title": "The Periodicity of Tangent and Cotangent.",
   "body": " The Periodicity of Tangent and Cotangent   The period of both the tangent is . In other words, for any angle ,    "
 },
@@ -6971,7 +7160,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-periodicity-tangent",
   "type": "Example",
-  "number": "D.4.263",
+  "number": "D.4.289",
   "title": "",
   "body": " Find the exact value of .  "
 },
@@ -6980,7 +7169,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ws-unit-circle-20",
   "type": "Note",
-  "number": "D.4.264",
+  "number": "D.4.290",
   "title": "Period of All Six Trigonometric Functions.",
   "body": " Period of All Six Trigonometric Functions  Since taking reciprocals does not change the period of a function, we know the periods of all six trigonometric functions:    , , , and all have period .     and both have period .   In particular, we can extend this result to any multiple of the period. Therefore, for any integer , we have the following equations.   "
 },
@@ -6998,7 +7187,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-graph-sine",
   "type": "Definition",
-  "number": "D.5.265",
+  "number": "D.5.291",
   "title": "Graph of the Sine Function.",
   "body": " Graph of the Sine Function   The equation is found by plotting the points where is measured in radians.  Instead of a circle, this graph is a wave that oscillates between and , and this wave pattern repeats every units on the -axis. Unless more of the graph is needed, we typically only draw one period of the graph.   Points on the graph of .                                                    A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.     "
 },
@@ -7007,7 +7196,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-graph-cosine",
   "type": "Definition",
-  "number": "D.5.268",
+  "number": "D.5.294",
   "title": "Graph of the Cosine Function.",
   "body": " Graph of the Cosine Function   The equation is found by plotting the points where is measured in radians.  Similar to the sine graph, the graph of cosine is a wave that oscillates between and , and this wave pattern also repeats every units on the -axis. Furthermore, if we consider the cofunction identity , we see that the graph of cosine is a transformation of the sine graph by performing a horizontal reflection and then a shift right by .   Points on the graph of .                                                    A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.     "
 },
@@ -7016,7 +7205,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-amplitude",
   "type": "Definition",
-  "number": "D.5.271",
+  "number": "D.5.297",
   "title": "The Amplitude of Sine and Cosine Graphs.",
   "body": " The Amplitude of Sine and Cosine Graphs   Let or where . The amplitude of the graph is one-half the vertical distance between the absolute maximum and the absolute minimum of the graph. The distance measured by the amplitude is given by the formula    The graph of . The point is labeled as the absolute maximum and the point is labeled as the absolute minimum. One vertical line segment measures the distance between the -axis and the absolute maximum, and another vertical line segment measures the distance between the -axis and the absolute minimum. Both segments are labeled with the distance .     The graph of . The point is labeled as the absolute maximum and the point is labeled as the absolute minimum. One vertical line segment measures the distance between the -axis and the absolute maximum, and another vertical line segment measures the distance between the -axis and the absolute minimum. Both segments are labeled with the distance .     "
 },
@@ -7025,7 +7214,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#ws-sine-cosine-graphs-5",
   "type": "Note",
-  "number": "D.5.274",
+  "number": "D.5.300",
   "title": "Algebraic Interpretation of Amplitude.",
   "body": " Algebraic Interpretation of Amplitude  The amplitude measure the vertical stretch or compression applied to the base graph or . In order to graph or , we can first graph the base graph and multiply the -coordinates by . Notice we didn't apply absolute values to this multiplication. If is negative, multiplying by will also reflect the graph across the -axis in addition to stretching or compressing the graph.  "
 },
@@ -7034,7 +7223,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-1",
   "type": "Procedure",
-  "number": "D.5.275",
+  "number": "D.5.301",
   "title": "Rapid Sketch Method (Amplitude Only Version).",
   "body": " Rapid Sketch Method (Amplitude Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are multiples of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
 },
@@ -7043,7 +7232,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-graphing-sine-1",
   "type": "Example",
-  "number": "D.5.276",
+  "number": "D.5.302",
   "title": "Graphing a Sine Function.",
   "body": " Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on . The graph is labeled at , and a graph, dashed grid is imposed on the backgound; each square of the grid has dimensions .     "
 },
@@ -7052,7 +7241,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-graphing-cosine-1",
   "type": "Example",
-  "number": "D.5.278",
+  "number": "D.5.304",
   "title": "Graphing a Cosine Function.",
   "body": " Graphing a Cosine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on . The graph is labeled at , and a graph, dashed grid is imposed on the backgound; each square of the grid has dimensions .     "
 },
@@ -7061,7 +7250,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-find-equation-graph-sine-cosine",
   "type": "Example",
-  "number": "D.5.280",
+  "number": "D.5.306",
   "title": "Finding the Equation from the Graph of a Sine or Cosine Function.",
   "body": " Finding the Equation from the Graph of a Sine or Cosine Function   Find the equation of the sine or cosine graph shown below.   A graph of either a sine or cosine function.   Graph passing through the points (0,0), (pi\/2,5\/4), (pi,0), (3pi\/2,-5\/4), and (2pi,0).     "
 },
@@ -7070,7 +7259,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-period-sine-cosine",
   "type": "Definition",
-  "number": "D.5.282",
+  "number": "D.5.308",
   "title": "",
   "body": "  Let or where and . The period of the graph is the horizontal distance between consecutive absolute maximums (or equivalently between consecutive absolute minimums) of the graph. The length of this horizontal distance is given by the following formula:    The graph of . Line segments measuring the horizontal distance between absolute extrema have been added to the graph of Figure . Each segment is labeled with the distance .     The graph of . Line segments measuring the horizontal distance between absolute extrema have been added to the graph of Figure . Each segment is labeled with the distance .     "
 },
@@ -7079,7 +7268,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-2",
   "type": "Procedure",
-  "number": "D.5.285",
+  "number": "D.5.311",
   "title": "Rapid Sketch Method (Amplitude and Period Only Version).",
   "body": " Rapid Sketch Method (Amplitude and Period Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are multiples of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
 },
@@ -7088,7 +7277,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-graphing-sine-2",
   "type": "Example",
-  "number": "D.5.286",
+  "number": "D.5.312",
   "title": "Graphing a Sine Function.",
   "body": " Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .     "
 },
@@ -7097,7 +7286,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-graphing-cosine-2",
   "type": "Example",
-  "number": "D.5.288",
+  "number": "D.5.314",
   "title": "Graphing a Cosine Function.",
   "body": " Graphing a Cosine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .     "
 },
@@ -7106,7 +7295,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-graphing-sine-3",
   "type": "Example",
-  "number": "D.5.290",
+  "number": "D.5.316",
   "title": "Graphing a Sine Function.",
   "body": " Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .     "
 },
@@ -7115,7 +7304,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-find-equation-graph-sine-cosine-2",
   "type": "Example",
-  "number": "D.5.292",
+  "number": "D.5.318",
   "title": "Finding the Equation from the Graph of a Sine or Cosine Function.",
   "body": " Finding the Equation from the Graph of a Sine or Cosine Function   Find the equation of the sine or cosine graph shown below.   A graph of either a sine or cosine function.   Graph passing through the points (0,-1), (2,0), (4,1), (6,0)), and (8,-1).     "
 },
@@ -7124,7 +7313,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-phase-shift-sine-cosine",
   "type": "Definition",
-  "number": "D.5.294",
+  "number": "D.5.320",
   "title": "",
   "body": "  Let or where , , and is any real number. The phase shift of the graph is the horizontal distance the graph of or is shifted left or right. The length of the shift is given by the following equation: If the phase shift is positive, the graph is shifted to the right, and if the phase shift is negative, the graph is shifted to the left.   The graph of . The graph of Figure has been shifted to the right by units, where . A horizontal line segment measuring the distance of the phase shift has been added to the graph and is labeled with the distance .     "
 },
@@ -7133,7 +7322,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-3",
   "type": "Procedure",
-  "number": "D.5.296",
+  "number": "D.5.322",
   "title": "Rapid Sketch Method (Amplitude, Period, Phase Shift Only Version).",
   "body": " Rapid Sketch Method (Amplitude, Period, Phase Shift Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are equal to plus a multiple of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
 },
@@ -7142,7 +7331,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#ws-sine-cosine-graphs-18",
   "type": "Example",
-  "number": "D.5.297",
+  "number": "D.5.323",
   "title": "Graphing a Cosine Function.",
   "body": " Graphing a Cosine Function   Graph one period of the function    The graph of is drawn as a red, dashed curve on .     "
 },
@@ -7151,7 +7340,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-vertical-shift-sine-cosine",
   "type": "Definition",
-  "number": "D.5.299",
+  "number": "D.5.325",
   "title": "",
   "body": "  Let or where , , is any real number, and is any real number. The vertical shift of the graph is the vertical distance the graph of or is shifted up or down. The length of the shift is given by the following equation: If the vertical shift is positive, the graph is shifted up, and if the vertical shift is negative, the graph is shifted down.   The graph of . The graph of Figure has been shifted up by units, where . A vertical line segment measuring the distance of the vertical shift has been added to the graph and is labeled with the distance .     "
 },
@@ -7160,7 +7349,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-4",
   "type": "Procedure",
-  "number": "D.5.301",
+  "number": "D.5.327",
   "title": "Rapid Sketch Method (Full Version).",
   "body": " Rapid Sketch Method (Full Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are equal to plus a multiple of and have , , or as their -coordinates.  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
 },
@@ -7169,7 +7358,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#ws-sine-cosine-graphs-21",
   "type": "Example",
-  "number": "D.5.302",
+  "number": "D.5.328",
   "title": "Graphing a Cosine Function.",
   "body": " Graphing a Cosine Function   Graph one period of the function    The graph of is drawn as a red, dashed curve on .     "
 },
@@ -7178,7 +7367,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-applied-problem-graphs-sine-cosine",
   "type": "Example",
-  "number": "D.5.304",
+  "number": "D.5.330",
   "title": "Applied Problem Involving Graphs of Sine and Cosine.",
   "body": " Applied Problem Involving Graphs of Sine and Cosine   A region that is N of the equator averages a minimum of hours of daylight in December and a maximum of hours of daylight in June. Let represent the month of the year, with corresponding to January, to February, etc. If represents the number of daylight hours in month , find a sine to model the average number of daylight hours in any given month.   "
 },
