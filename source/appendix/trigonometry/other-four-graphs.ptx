@@ -1,5 +1,327 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <worksheet xml:id="ws-other-four-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Graphs of Tangent, Cotangent, Secant, Cosecant</title>
+<definition xml:id="def-graph-tangent">
+    <title>Graph of the Tangent Function</title>
+    <statement>
+        <p>
+            The equation <m>y=\tan(x)</m> is found by plotting the points <m>(x,y)=(\theta,\tan(\theta))</m> where <m>x</m> is measured in radians.</p>
+            <p>
+            Instead of a circle, we get a graph that looks similar to <m>y=x^3</m> that repeats over and over again. A vertical asymptote defines the boundary where one branch of tangent ends and another branch begins.
+        </p>
+         <table xml:id="table-tangent-values-for-graph">
+    <title>Points on the graph of <m>y=\tan(x)</m>.</title>
+    <tabular halign="center">
+        <row header="yes" top="major">
+            <cell><m>x</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\dfrac{\pi}{6}</m></cell>
+            <cell><m>\dfrac{\pi}{4}</m></cell>
+            <cell><m>\dfrac{\pi}{3}</m></cell>
+            <cell><m>\dfrac{\pi}{2}</m></cell>
+            <cell><m>\dfrac{2\pi}{3}</m></cell>
+            <cell><m>\dfrac{3\pi}{4}</m></cell>
+            <cell><m>\dfrac{5\pi}{6}</m></cell>
+            <cell><m>\pi</m></cell>
+        </row>
+        <row bottom="major">
+            <cell><m>y</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\dfrac{\sqrt{3}}{3}</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>\sqrt{3}</m></cell>
+            <cell>Undefined</cell>
+            <cell><m>-\sqrt{3}</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>-\dfrac{\sqrt{3}}{3}</m></cell>
+            <cell><m>0</m></cell>
+        </row>
+        <row>
+            <cell><m>x</m></cell>
+            <cell><m>\dfrac{7\pi}{6}</m></cell>
+            <cell><m>\dfrac{5\pi}{4}</m></cell>
+            <cell><m>\dfrac{4\pi}{3}</m></cell>
+            <cell><m>\dfrac{3\pi}{2}</m></cell>
+            <cell><m>\dfrac{5\pi}{3}</m></cell>
+            <cell><m>\dfrac{7\pi}{4}</m></cell>
+            <cell><m>\dfrac{11\pi}{6}</m></cell>
+            <cell><m>2\pi</m></cell>
+        </row>
+        <row bottom="major">
+            <cell><m>y</m></cell>
+            <cell><m>-\dfrac{\sqrt{3}}{3}</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>-\sqrt{3}</m></cell>
+            <cell>Undefined</cell>
+            <cell><m>\sqrt{3}</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>\dfrac{\sqrt{3}}{3}</m></cell>
+            <cell><m>0</m></cell>
+        </row>
+    </tabular>
+</table>
+<figure xml:id="fig-tangent-graph-base">
+    <caption>
+        A blank graph of the coordinate plane where the <m>x</m>-axis is labeled every <m>\dfrac{\pi}{4}</m> units and the <m>y</m>-axis is labeled every <m>0.4</m> units. 
+        A dashed grid outlines <m>\dfrac{\pi}{4}</m> by <m>0.4</m> rectangles.</caption>
+    <image source="trigonometry/tangent-cotangent-blank.png" decorative="yes"/>
+</figure>
+    </statement>
+</definition>
+<definition xml:id="def-graph-cotangent">
+    <title>Graph of the Cotangent Function</title>
+    <statement>
+        <p>
+            The equation <m>y=\cot(x)</m> is found by plotting the points <m>(x,y)=(\theta,\cot(\theta))</m> where <m>x</m> is measured in radians.</p>
+            <p>
+            Similar to the tangent graph, the graph of cotangent looks similar to <m>y=x^3</m> but is reflected, shifted horizontally, and repeats over and over again. A vertical asymptote defines the boundary where one branch of cotangent ends and another branch begins.
+        </p>
+         <table xml:id="table-cotangent-values-for-graph">
+    <title>Points on the graph of <m>y=\cot(x)</m>.</title>
+    <tabular halign="center">
+        <row header="yes" top="major">
+            <cell><m>x</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\dfrac{\pi}{6}</m></cell>
+            <cell><m>\dfrac{\pi}{4}</m></cell>
+            <cell><m>\dfrac{\pi}{3}</m></cell>
+            <cell><m>\dfrac{\pi}{2}</m></cell>
+            <cell><m>\dfrac{2\pi}{3}</m></cell>
+            <cell><m>\dfrac{3\pi}{4}</m></cell>
+            <cell><m>\dfrac{5\pi}{6}</m></cell>
+            <cell><m>\pi</m></cell>
+        </row>
+        <row bottom="major">
+            <cell><m>y</m></cell>
+            <cell>undefined</cell>
+            <cell><m>3</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>\dfrac{\sqrt{3}}{3}</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>-\dfrac{\sqrt{3}}{3}</m></cell>
+            <cell><m>-1</m></cell>
+            <cell><m>-\dfrac{\sqrt{3}}{3}</m></cell>
+            <cell>undefined</cell>
+        </row>
+        <row>
+            <cell><m>x</m></cell>
+            <cell><m>\dfrac{7\pi}{6}</m></cell>
+            <cell><m>\dfrac{5\pi}{4}</m></cell>
+            <cell><m>\dfrac{4\pi}{3}</m></cell>
+            <cell><m>\dfrac{3\pi}{2}</m></cell>
+            <cell><m>\dfrac{5\pi}{3}</m></cell>
+            <cell><m>\dfrac{7\pi}{4}</m></cell>
+            <cell><m>\dfrac{11\pi}{6}</m></cell>
+            <cell><m>2\pi</m></cell>
+        </row>
+        <row bottom="major">
+            <cell><m>y</m></cell>
+            <cell><m>\sqrt{3}</m></cell>
+        <cell><m>1</m></cell>
+            <cell><m>-\dfrac{\sqrt{3}}{3}</m></cell>
+            <cell><m>0</m></cell>
+            <cell><m>\dfrac{\sqrt{3}}{3}</m></cell>
+            <cell><m>1</m></cell>
+            <cell><m>\sqrt{3}</m></cell>
+            <cell><m>1</m></cell>
+        </row>
+    </tabular>
+</table>
+<figure xml:id="fig-cotangent-graph-base">
+    <caption>A blank graph of the coordinate plane where the <m>x</m>-axis is labeled every <m>\dfrac{\pi}{4}</m> units and the <m>y</m>-axis is labeled every <m>0.4</m> units. A dashed grid outlines <m>\dfrac{\pi}{4}</m> by <m>0.4</m> rectangles.</caption>
+    <image source="trigonometry/tangent-cotangent-blank.png" decorative="yes"/>
+</figure>
+    </statement>
+</definition>
+<note>
+    <title>A Note on Transformations of Tangent and Cotangent</title>
+    <p>
+        All the transformations we applied to sine and cosine can be applied to tangent and cotangent. 
+        There are two differences: 
+        <ul>
+            <li>
+                <p>
+                    While <m>A</m> still defines a vertical stretch and reflection (since this is true for any function <m>y=A\cdot f(x)</m>), <m>|A|</m> is not called an amplitude since tangent and cotangent do not have absolute extrema.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Since the period of tangent and cotangent is <m>\pi</m>, the formula for the period of a transformed tangent or cotangent graph is <me>\text{Period }=\dfrac{\pi}{B}.</me>
+                </p>
+            </li>
+        </ul>
+        While it is not required, it is recommended to draw the <m>y</m>-axis from <m>D-2|A|</m> to <m>D+2|A|</m> when graphing a transformed tangent or cotangent graph.
+    </p>
+</note>
 
+<lemma xml:id="lem-rapid-sketch-method-tangent-cotangent">
+    <title>Rapid Sketch Method (Tangent and Cotangent Version)</title>
+    <statement>
+        <p>
+            In order to rapidly sketch the graph of <m>y=A\tan(Bx-C)+D</m> or <m>y=A\cot(Bx-C)+D</m>, we only need to graph the vertical asymptotes and make sure the graph crosses the midline <m>y=D</m> halfway between the successive vertical asymptotes.
+        </p>
+        <p>
+            For tangent, the equation of the vertical asymptotes can be found using the formula
+            <md>                <mrow>x\amp=\frac{\pi}{2B}+\text{ Phase Shift }+n\text{ (Period)}</mrow>
+                <mrow></mrow>
+                <mrow>x\amp=\frac{\pi}{2B}+\dfrac{C}{B}+n\left(\frac{\pi}{B}\right)</mrow>
+                <mrow></mrow>
+                <mrow>x\amp=\frac{2C+(2n+1)\pi}{2B}</mrow>
+            </md>
+            where <m>n</m> is any integer.</p>
+                <p>
+            For cotangent, the equation of the vertical asymptotes can be found using the formula
+            <md>
+                <mrow>x\amp=\text{ Phase Shift }+n\text{ (Period)}</mrow>
+                <mrow></mrow>
+                <mrow>x\amp=\dfrac{C}{B}+n\left(\frac{\pi}{B}\right)</mrow>
+                <mrow></mrow>
+                <mrow>x\amp=\frac{C+n\pi}{B}</mrow>
+            </md>
+            where <m>n</m> is any integer.
+        </p>
+    </statement>
+</lemma>
+<note>
+    <title>Asymptotes of Tangent and Cotangent</title>
+    <p>
+        In practice, it is sufficient to find only one of the vertical asymptotes using <m>n=0</m>. Then you can add and subtract the period repeatedly to find the other asymptotes.
+    </p>
+</note>
+<example xml:id="ex-tangent-graph">
+    <title>Graphing a Tangent Function</title>
+    <statement>
+        <p>
+            Graph one period of <m>y=3\tan(2x)</m>.
+        </p>
+        <figure xml:id="transformed-tangent-graph">
+        <caption>The graph of <m>y=\tan(x)</m> is drawn as a red, dashed curve on <m>\left[-\pi,\pi\right]\times[-6,6]</m>. A dashed grid is imposed on the background; each square of the grid has dimensions <m>\dfrac{\pi}{4}\times 1</m>.</caption>
+        <image source="trigonometry/transformed-tangent-graph.png" decorative="yes" width="75%"/>
+    </figure>
+    </statement>
+    </example>
+    <example xml:id="ex-cotangent-graph">
+    <title>Graphing a Cotangent Function</title>
+    <statement>
+        <p>
+            Graph one period of <m>y=-\cot\left(\dfrac{\pi}{2}x-2\right)+1</m>.
+        </p>
+        <figure xml:id="transformed-cotangent-graph">
+        <caption>The graph of <m>y=\cot(x)</m> is drawn as a red, dashed curve on <m>\left[-4,4\right]\times[-3,3]</m>. A dashed grid is imposed on the background; each square of the grid has dimensions <m>1\times 1</m>.</caption>
+        <image source="trigonometry/transformed-cotangent-graph.png" decorative="yes" width="75%"/>
+    </figure>
+    </statement>
+    </example>
+    <definition xml:id="def-graph-cosecant">
+    <title>Graph of the Cosecant Function</title>
+    <statement>
+        <p>
+            The equation <m>y=\csc(x)</m> is found by plotting the points <m>(x,y)=(\theta,\csc(\theta))</m> where <m>x</m> is measured in radians.</p>
+            <p>
+            Instead of a circle, that look like a collection of parabolas that alternate opening upwards and downwards.
+        </p>
+        <p>
+            Unlike the other graphs, we can construct the graph of cosecant using the graph of sine. The following steps explain how to do this.
+            <ol marker="1">
+                <li>
+                    <p>
+                        Lightly graph the sine function.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        For each point where the sine graph crosses the midline, draw a vertical asymptote on the cosecant graph.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        For each absolute maximum, draw a parabola-like shape opening upwards from the absolute maximum of sine.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        For each absolute minimum, draw a parabola-like shape opening downwards from the absolute minimum of sine.
+                    </p>
+                </li>
+            </ol>
+        </p>
+<figure xml:id="fig-cosecant-graph-base">
+    <caption>A blank graph of the coordinate plane where the <m>x</m>-axis is labeled every <m>\dfrac{\pi}{4}</m> units and the <m>y</m>-axis is labeled every <m>1</m> units. A dashed grid outlines <m>\dfrac{\pi}{4}</m> by <m>1</m> rectangles.</caption>    
+    <image source="trigonometry/cosecant-secant-blank.png" decorative="yes"/>
+</figure>
+    </statement>
+</definition>
+<definition xml:id="def-graph-secant">
+    <title>Graph of the Secant Function</title>
+    <statement>
+        <p>
+            The equation <m>y=\sec(x)</m> is found by plotting the points <m>(x,y)=(\theta,\sec(\theta))</m> where <m>x</m> is measured in radians.</p>
+            <p>Unlike the other graphs, we can construct the graph of secant using the graph of cosine. The following steps explain how to do this.
+            <ol marker="1">
+                <li>
+                    <p>
+                        Lightly graph the cosine function.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        For each point where the cosine graph crosses the midline, draw a vertical asymptote on the secant graph.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                       For each absolute maximum, draw a parabola-like shape opening upwards from the absolute maximum of cosine.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        For each absolute minimum, draw a parabola-like shape opening downwards from the absolute minimum of cosine.
+                    </p>
+                </li>
+            </ol>
+        </p>
+<figure xml:id="fig-secant-graph-base">
+    <caption>A blank graph of the coordinate plane where the <m>x</m>-axis is labeled every <m>\dfrac{\pi}{4}</m> units and the <m>y</m>-axis is labeled every <m>1</m> units. A dashed grid outlines <m>\dfrac{\pi}{4}</m> by <m>1</m> rectangles.</caption>
+    <image source="trigonometry/cosecant-secant-blank.png" decorative="yes"/>
+</figure>
+    </statement>
+</definition>
+<note>
+    <title>A Note on Transformations of Cosecant and Secant</title>
+    <p>
+        All the transformations we applied to sine and cosine can be applied to cosecant and secant. 
+        There is only one difference: 
+        <ul>
+            <li>
+                <p>
+                    While <m>A</m> still defines a vertical stretch and reflection (since this is true for any function <m>y=A\cdot f(x)</m>), <m>|A|</m> is not called an amplitude since cosecant and secant do not have absolute extrema.
+                </p>
+            </li>
+        </ul>
+    </p>
+</note>
+<example xml:id="ex-cosecant-graph">
+    <title>Graphing a Cosecant Function</title>
+    <statement>
+        <p>
+            Graph one period of <m>y=2\csc\left(x-\dfrac{\pi}{2}\right)</m>.
+        </p>
+        <figure xml:id="transformed-cosecant-graph">
+        <caption>A blank coordinate plane plotted on <m>\left[-\dfrac{\pi}{2},\frac{5\pi}{2}\right]\times[-4,4]</m>. A dashed grid is imposed on the background; each square of the grid has dimensions <m>\dfrac{\pi}{4}\times 1</m>.</caption>
+        <image source="trigonometry/transformed-cosecant-graph.png" decorative="yes" width="75%"/>
+    </figure>
+    </statement>
+    </example>
+    <example xml:id="ex-secant-graph">
+    <title>Graphing a Secant Function</title>
+    <statement>
+        <p>
+            Graph one period of <m>y=\sec\left(\dfrac{\pi x}{3}\right)-2</m>.
+        </p>
+        <figure xml:id="transformed-secant-graph">
+        <caption>A blank coordinate plane plotted on <m>\left[-2,8\right]\times[-3,5]</m>. A dashed grid is imposed on the background; each square of the grid has dimensions <m>1\times 1</m>.</caption>
+        <image source="trigonometry/transformed-secant-graph.png" decorative="yes" width="75%"/>
+    </figure>
+    </statement>
+    </example>
 </worksheet>

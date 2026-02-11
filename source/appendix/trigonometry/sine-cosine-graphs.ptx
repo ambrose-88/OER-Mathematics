@@ -193,7 +193,7 @@
             Graph one period of the function <m>y=3\sin(x)</m>.
         </p>
         <figure xml:id="amplitude-sine-example">
-        <caption>The graph of <m>y=\sin(x)</m> is drawn as a red, dashed curve on <m>\left[-\frac{\pi}{2},\frac{7\pi}{2}\right]\times[-1.25,1.25]</m>. The graph is labeled at <m>y=\sin(x)</m>, and a graph, dashed grid is imposed on the backgound; each square of the grid has dimensions <m>\frac{\pi}{4}\times 0.2</m>.</caption>
+        <caption>The graph of <m>y=\sin(x)</m> is drawn as a red, dashed curve on <m>\left[-\frac{\pi}{2},\frac{7\pi}{2}\right]\times[-1.25,1.25]</m>. The graph is labeled at <m>y=\sin(x)</m>, and a graph, dashed grid is imposed on the background; each square of the grid has dimensions <m>\frac{\pi}{4}\times 0.2</m>.</caption>
         <image source="trigonometry/amplitude-sine-example.png" decorative="yes" width="75%"/>
     </figure>
     </statement>
@@ -205,7 +205,7 @@
             Graph one period of the function <m>y=-\dfrac{2}{5}\cos(x)</m>.
         </p>
         <figure xml:id="amplitude-cosine-example">
-        <caption>The graph of <m>y=\cos(x)</m> is drawn as a red, dashed curve on <m>\left[-\frac{\pi}{2},\frac{7\pi}{2}\right]\times[-0.75,0.75]</m>. The graph is labeled at <m>y=\cos(x)</m>, and a graph, dashed grid is imposed on the backgound; each square of the grid has dimensions <m>\frac{\pi}{4}\times 0.2</m>.</caption>
+        <caption>The graph of <m>y=\cos(x)</m> is drawn as a red, dashed curve on <m>\left[-\frac{\pi}{2},\frac{7\pi}{2}\right]\times[-0.75,0.75]</m>. The graph is labeled at <m>y=\cos(x)</m>, and a graph, dashed grid is imposed on the background; each square of the grid has dimensions <m>\frac{\pi}{4}\times 0.2</m>.</caption>
         <image source="trigonometry/amplitude-cosine-example.png" decorative="yes" width="60%"/>
     </figure>
     </statement>
@@ -394,6 +394,16 @@
             </figure>
     </statement>
 </definition>
+<definition xml:id="def-midline-sine-cosine">
+    <title>Midline of Sine and Cosine Graphs</title>
+    <statement>
+        <p>
+            Let <m>y=A\sin(Bx-C)+D</m> or <m>y=A\cos(Bx-C)+D</m> where <m>A\ne 0</m>, <m>B\gt 0</m>, <m>C</m> is any real number, and <m>D</m> is any real number.</p><p>The <term>midline</term> of the graph is the horizontal line that is equidistant from the absolute extrema the graph.  
+            The equation of the midline for sine and cosine is
+            <me>y = D.</me>
+        </p>
+    </statement>
+    </definition>
 
 <lemma xml:id="lem-rapid-sketch-method-version-4">
     <title>Rapid Sketch Method (Full Version)</title>

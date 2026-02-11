@@ -135,7 +135,7 @@
                         Let <m>\theta</m> be any angle. The <term>Pythagorean identities</term> are given by the following equations:
                         <md>
                             <mrow>\sin^2(\theta)+\cos^2(\theta)\amp=1</mrow>
-                            <mrow>1+\tan^2(\theta)\amp=\sec^2(\theta)</mrow>
+                            <mrow>\tan^2(\theta)+1\amp=\sec^2(\theta)</mrow>
                             <mrow>1+\cot^2(\theta)\amp=\csc^2(\theta)</mrow>
                         </md>
                     </p>

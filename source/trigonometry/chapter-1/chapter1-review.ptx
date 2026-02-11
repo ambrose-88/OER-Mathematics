@@ -1,0 +1,407 @@
+<section xml:id="sec-chapter1-review">
+    <title>Exam 1 Review</title>
+    <example>
+        <title>Computing an Angle in Radians</title>
+        <statement>
+        <p>A circle of radius <m>2</m> yards has an angle <m>\theta</m> that intercepts an arc measuring <m>17</m> inches. What is the radian measure of the angle <m>\theta</m>?</p>
+    </statement>
+    <answer>
+        <p>
+            <m>\theta\approx 0.1889</m> radians.
+        </p>
+    </answer>
+    </example>
+    <example>
+        <title>Drawing and Labeling an Angle in Standard Position</title>
+        <statement>
+            <p>Draw the angle <m>\theta=\dfrac{5\pi}{3}</m> in standard position. Label the initial side, terminal side, and the angle <m>\theta</m>.</p>
+        </statement>
+        <answer>
+            <figure xml:id="fig-chapter-1-review-2">
+                <caption>An angle of <m>\theta=\dfrac{5\pi}{3}</m> radians drawn in standard position. 
+                    The angle is labeled and indicates a counterclockwise rotation.
+                    The positive <m>x</m>-axis is labeled as the initial side, and the ray passing through the point <m>\left(\dfrac{1}{2},-\dfrac{\sqrt{3}}{2}\right)</m> is labeled as the terminal side.
+                </caption>
+                <image source="trigonometry/chapter-1-review-2.png" decorative="yes" width="50%"/>
+            </figure>
+        </answer>
+    </example>
+    <example>
+        <title>Converting an Angle from Radians to Degrees</title>
+        <statement>
+            <p>Convert the angle <m>\theta=\dfrac{373\pi}{90}</m> radians to degrees.</p>
+        </statement>
+        <answer>
+            <p>
+                <m>\theta=746^\circ</m>
+            </p>
+        </answer>
+    </example>
+    <example>
+        <title>Converting an Angle from Degrees to Radians</title>
+        <statement>
+            <p>Convert the angle <m>\theta=-144^\circ</m> to radians.</p>
+        </statement>
+        <answer>
+            <p>
+                <m>\theta=-\dfrac{4\pi}{5}</m> radians.
+            </p>
+        </answer>
+    </example>
+    <example>
+        <title>Finding a Coterminal Angle in Radians</title>
+        <statement>
+            <p>Find a positive angle <m>\theta</m> that is coterminal to the angle <m>\dfrac{38\pi}{13}</m>, where <m>0\leq \theta\lt 2\pi</m>.</p>
+        </statement>
+        <answer>
+            <p>
+                <m>\theta=\dfrac{12\pi}{13}</m> radians.
+            </p>
+        </answer>
+    </example>
+    <example>
+        <title>Finding a Coterminal Angle in Degrees</title>
+        <statement>
+            <p>Find a positive angle <m>\theta</m> that is coterminal to the angle <m>-1100^\circ</m>, where <m>0^\circ\leq \theta\lt 360^\circ</m>.</p>
+        </statement>
+        <answer>
+            <p>
+                <m>\theta=340^\circ</m>.
+            </p>
+        </answer>
+    </example>
+    <example>
+        <title>Finding the Arc Length and Area of a Sector</title>
+        <statement>
+            <p>
+                Using the circle given in the figure, find the length of the arc <m>s</m> and the area of the sector formed by the central angle <m>\theta</m>. 
+                For both the area and the arc length, give both the exact value and approximate the value to one decimal place.
+                Make sure to include the correct units in your answers.
+            </p>
+            <figure xml:id="fig-chapter-1-review-7">
+                <caption>A circle with radius <m>r=4</m> cm and central angle <m>\theta=\frac{2\pi}{5}</m>. 
+                    <m>\theta</m> is not in standard position; its initial side is in Quadrant 1 and terminal side is in Quadrant 2. 
+                    The length of the radius and central angle are labeled with its measurements, and the arc intercepted by <m>\theta</m> is labeled <m>s</m>.</caption>
+            <image source="trigonometry/chapter-1-review-7.png" decorative="yes" width="50%"/>
+            </figure>
+        </statement>
+            <answer>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                The length of the arc <m>s</m> is <m>\dfrac{8\pi}{5}\text{ cm} \approx 5.0\text{ cm}</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The area <m>A</m> of the sector is <m>\dfrac{16\pi}{5}\text{ cm}^2 \approx 10.1\text{ cm}^2</m>.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </answer>
+    </example>
+    <example>
+        <title>Find Linear and Angular Speed</title>
+        <statement>
+            <p>
+                The wheels of a certain bicycle has a <m>28\text{ in}</m> diameter. 
+                If the wheels are rotating at a constant rate of <m>150\text{ revolutions per minute}</m>, how fast is the bicycle moving in miles per hour?
+                Round your answer to <m>2</m> decimal places.
+                Include the correct units in your answer.
+            </p>
+        </statement>
+        <hint>
+            <p>
+            <ul>
+                <li>
+                    <p>
+                        Writing all the units out in your calculation will help with the unit conversions needed to solve this problem.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        For example, write <m>150\text{ revolutions per minute}</m> as <m>\dfrac{150\text{ revolutions}}{1\text{ minute}}</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Your goal is to make the the units of measurement in the numerator miles and the denominator hours.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Remember, units cancel in the numerator and denominator just like numbers do!
+                    </p>
+                </li>
+            </ul>
+        </p>
+        </hint>
+        <answer>
+            <p>
+                The bicycle is moving at approximately <m>12.49\text{ miles per hour}</m>.
+            </p>
+        </answer>
+    </example>
+    <example>
+        <title>Find the Six Trigonometric Function using Right Trangles</title>
+        <statement>
+            <p>
+                Suppose <m>\theta</m> is one of the non-right angles in a right triangle where the side opposite <m>\theta</m> has length <m>7\text {cm}</m> and has a hypotenuse of length <m>13\text{ cm}</m>.
+                Find the exact value of the six trigonometric functions of <m>\theta</m>.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <md>
+                    <mrow>\sin(\theta)\amp=\dfrac{7}{13}\amp \csc(\theta)\amp=\dfrac{13}{7}</mrow>
+                    <mrow></mrow>
+                    <mrow>\cos(\theta)\amp=\dfrac{\sqrt{120}}{13}\amp \sec(\theta)\amp=\dfrac{13}{\sqrt{120}}</mrow>
+                    <mrow></mrow>
+                    <mrow>\tan(\theta)\amp=\dfrac{7}{\sqrt{120}}\amp \cot(\theta)\amp=\dfrac{\sqrt{120}}{7}</mrow>
+                </md>
+                Note: <m>\sqrt{120}=2\sqrt{30}</m>, which means the following are also acceptable answers:
+                <md>
+                    <mrow>\cos(\theta)\amp=\dfrac{2\sqrt{30}}{13}</mrow>
+                    <mrow></mrow>
+                    <mrow>\sec(\theta)\amp=\dfrac{13}{2\sqrt{30}}=\dfrac{13\sqrt{30}}{60}</mrow>
+                    <mrow></mrow>
+                    <mrow>\tan(\theta)\amp=\dfrac{7}{2\sqrt{30}}=\dfrac{7\sqrt{30}}{60}</mrow>
+                    <mrow></mrow>
+                    <mrow>\cot(\theta)\amp=\dfrac{2\sqrt{30}}{7}</mrow>
+                </md>
+            </p>
+        </answer>
+    </example>
+    <example>
+        <title>Deriving Pythagorean Identities</title>
+        <statement>
+            <p>
+                Recall that for any angle <m>\theta</m>, <m>\sin^2(\theta)+\cos^2(\theta)=1</m>. Prove that <m>\tan^2(\theta)+1=\sec^2(\theta)</m> and that <m>1+\cot^2(\theta)=\csc^2(\theta)</m>.
+            </p>
+        </statement>
+        <hint>
+            <p>
+                Divide by either <m>\sin^2(\theta)</m> or <m>\cos^2(\theta)</m> and use quotient identities.
+            </p>
+        </hint>
+    </example>
+    <example>
+        <title>Use a Calculator to Evaluate a Trigonometric Function in Degrees</title>
+        <statement>
+            <p>
+                Use a calculator to evaluate <m>\tan(212^\circ)</m>. Round your answer to four decimal places.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>\tan(212^\circ)\approx 0.6428</m>.
+            </p>
+        </answer>
+    </example>
+    <example>
+        <title>Use a Calculator to Evaluate a Trigonometric Function in Radians</title>
+        <statement>
+            <p>
+                Use a calculator to evaluate <m>\csc\left(\dfrac{2\pi}{7}\right)</m>. Round your answer to four decimal places.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>\csc\left(\dfrac{2\pi}{7}\right)\approx 1.2790</m>.
+            </p>
+        </answer>
+    </example>
+    <example>
+        <title>Applications using Right Triangles</title>
+        <statement>
+            <p>
+                The ramp of a moving truck touches the ground <m>14\text{ ft}</m> away from the end of the truck. 
+                If the ramp makes an angle of <m>25^\circ</m> with the ground, how long is the ramp?
+                Round your answer to two decimal places and include the correct units in your answer.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                The ramp is approximately <m>15.45\text{ ft}</m> long.
+            </p>
+        </answer>
+    </example>
+    <example>
+        <title>Applications using Right Triangles</title>
+        <statement>
+            <p>
+                A telephone pole is <m>75\text{ ft}</m> tall. A guy wire <m>100\text{ ft}</m> long is attached from the ground to the top of the pole. Find the angle between the wire and the pole to the nearest degree.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                The angle between the wire and the pole is approximately <m>41^\circ</m>.
+            </p>
+        </answer>
+    </example>
+    <example>
+        <title>Using Reference Angles to Evaluate Trigonometric Functions</title>
+        <statement>
+            <p>
+                Suppose the point <m>(-120,209)</m> is a point on the terminal side of an angle <m>\theta</m> in standard position. 
+                Draw the reference triangle for this point, label the sides and the reference angle, and find the exact value of the six trigonometric functions of <m>\theta</m>.
+            </p>
+        </statement>
+        <answer>
+                <figure xml:id="fig-chapter-1-review-17">
+                    <caption>A reference triangle for the point <m>(-120,209)</m>. 
+                        The angle <m>\theta</m> is in standard position, and the reference angle <m>\theta^{\,\prime}</m> is labeled as the angle between the hypotenuse and the negative x-axis.
+                        The triangle is a right triangle with one vertex at the origin, one vertex at the point <m>(-120,209)</m>, and the last vertex on the point <m>(-120,0)</m>. 
+                        The side adjacent to <m>\theta^{\,\prime}</m> has length <m>-120</m>, the side opposite <m>\theta^{\,\prime}</m> has length <m>209</m>, and the hypotenuse has length <m>241</m>. 
+                        </caption>
+                        <image source="trigonometry/chapter-1-review-17.png" decorative="yes" width="50%"/>
+                </figure>
+                <p>
+                The six trigonometric functions of <m>\theta</m> are calculated below.
+                <md>
+                    <mrow>\sin(\theta)\amp=\dfrac{209}{241}\amp \csc(\theta)\amp=\dfrac{241}{209}</mrow>
+                    <mrow></mrow>
+                    <mrow>\cos(\theta)\amp=-\dfrac{120}{241}\amp \sec(\theta)\amp=-\dfrac{241}{120}</mrow>
+                    <mrow></mrow>
+                    <mrow>\tan(\theta)\amp=-\dfrac{209}{120}\amp \cot(\theta)\amp=-\dfrac{120}{209}</mrow>
+                </md>
+            </p>
+        </answer>
+    </example>
+    <example xml:id="exa-quadrants-review">
+        <title>Finding the Quadrant of an Angle</title>
+        <statement>
+            <p>
+                If <m>\sin(\theta)\lt 0</m> and <m>\cos(\theta)\gt 0</m>, in which quadrant does the angle <m>\theta</m> lie?
+            </p>
+        </statement>
+        <answer>
+            <p>
+                The angle <m>\theta</m> lies in Quadrant 4.
+            </p>
+        </answer>
+    </example>
+    <example xml:id="exa-quadrants-review-2">
+        <title>Finding the Quadrant of an Angle</title>
+        <statement>
+            <p>
+                If <m>\cos(\theta)=-\dfrac{2}{3}</m> and <m>\tan(\theta)\gt 0</m>, in which quadrant does the angle <m>\theta</m> lie?
+            </p>
+        </statement>
+        <answer>
+            <p>
+                The angle <m>\theta</m> lies in Quadrant 3.
+            </p>
+        </answer>
+    </example>
+    <example xml:id="exa-negative-angle-review">
+        <title>Finding the value of a Trigonometric Function of a Negative Angle</title>
+        <statement>
+            <p>
+                Find the exact value of <m>\sin(-135^\circ)</m> using the fact that sine is an odd function. 
+                You may have to use additional techniques in addition to the oddness of sine to get a final answer.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>\sin(-135^\circ)=-\dfrac{\sqrt{2}}{2}</m>.
+            </p>
+        </answer>
+    </example>
+    <example xml:id="exa-periodicity-review">
+        <title>Use the Periodicity of Sine or Cosine to Evaluate a Trigonometric Function</title>
+        <statement>
+            <p>
+                Use the periodicity of cosine to evaluate <m>\cos\left(\dfrac{19\pi}{3}\right)</m>. 
+                You may have to use additional techniques in addition to the periodicity of cosine to get a final answer.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <m>\cos\left(\dfrac{19\pi}{3}\right)=\dfrac{1}{2}</m>.
+            </p>
+        </answer>
+    </example>
+    <example xml:id="exa-transformation-sine-graph-review">
+        <title>Graph a Transformation of a Sine Function</title>
+        <statement>
+            <p>
+                Graph one period of the function <m>y=3\sin\left(2x-\dfrac{\pi}{4}\right)+1</m>.
+                Identify the amplitude, period, phase shift, and vertical shift of the function.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <m>\text{Amplitude} =3</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\text{Period} =\pi</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\text{Phase Shift} = \dfrac{\pi}{8}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\text{Vertical Shift} = 1</m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <figure xml:id="fig-chapter-1-review-transformation-sine-graph">
+                <caption>The graph of <m>y=3\sin\left(2x-\frac{\pi}{4}\right)+1</m> plotted on <m>\left[-\frac{\pi}{4},\frac{11\pi}{8}\right]\times\left[-3,\frac{11}{2}\right]</m>.
+                A line segment measuring the distance from <m>\left(\frac{\pi}{8},1\right)</m> to <m>\left(\frac{9\pi}{8},1\right)</m> is labeled, "One period of <m>y=3\sin\left(2x-\frac{\pi}{4}\right)+1</m>."</caption>
+                <image source="trigonometry/chapter-1-review-transformation-sine-graph.png" decorative="yes"/>
+            </figure>
+        </answer>
+    </example>
+    <example xml:id="exa-transformation-cosine-graph-review">
+        <title>Graph a Transformation of a Cosine Function</title>
+        <statement>
+            <p>
+                Graph one period of the function <m>y=-2\cos\left(\dfrac{\pi}{2}x\right)</m>.
+                Identify the amplitude, period, phase shift, and vertical shift of the function.
+            </p>
+        </statement>
+        <answer>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <m>\text{Amplitude} =2</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\text{Period} =4\pi</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\text{Phase Shift} = 0</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\text{Vertical Shift} = 0</m>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <figure xml:id="fig-chapter-1-review-transformation-cosine-graph">
+                <caption>The graph of <m>y=-2\cos\left(\frac{\pi}{2}x\right)</m> plotted on <m>\left[-2,6\right]\times\left[-3,4\right]</m>.
+                A line segment measuring the distance from <m>(0,0)</m> to <m>(4,0)</m> is labeled, "One period of <m>y=-2\cos\left(\frac{\pi}{2}x\right)</m>."</caption>
+                <image source="trigonometry/chapter-1-review-transformation-cosine-graph.png" decorative="yes"/>
+            </figure>
+        </answer>
+    </example>
+</section>

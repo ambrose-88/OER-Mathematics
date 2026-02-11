@@ -16,4 +16,5 @@
   <!-- <xi:include href="chapter1-6.ptx" /> -->
   <!-- <xi:include href="chapter1-7.ptx" /> -->
   <!-- <xi:include href="chapter1-8.ptx" /> -->
+   <xi:include href="chapter1-review.ptx"/>
 </chapter>
