@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="appendix-i" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Appendix I: GeoGebra Tools for Statistics</title>
+  <introduction>
+    <p>
+      This appendix contains the GeoGebra tools used in the Statistics Section.
+    </p>
+  </introduction>
+  <xi:include href="./statistics-geogebra/summary-statistics-calculator.ptx"/>
+</appendix>
