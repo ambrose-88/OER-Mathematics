@@ -7534,9 +7534,27 @@ var ptx_lunr_docs = [
   "body": " Appendix H: Statistics Lecture Notes   This appendix contains lecture notes for the Statistics section.    "
 },
 {
-  "id": "backmatter-10",
+  "id": "sec-summary-statistics-calculator",
   "level": "1",
-  "url": "backmatter-10.html",
+  "url": "sec-summary-statistics-calculator.html",
+  "type": "Section",
+  "number": "I.1",
+  "title": "Summary Statistics Calculator",
+  "body": " Summary Statistics Calculator   The Summary Statistics Calculator created in GeoGebra    "
+},
+{
+  "id": "fig-summary-statistics-calculator",
+  "level": "2",
+  "url": "sec-summary-statistics-calculator.html#fig-summary-statistics-calculator",
+  "type": "Figure",
+  "number": "I.1.1",
+  "title": "",
+  "body": " The Summary Statistics Calculator created in GeoGebra   "
+},
+{
+  "id": "backmatter-11",
+  "level": "1",
+  "url": "backmatter-11.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
