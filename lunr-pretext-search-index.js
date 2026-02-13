@@ -3844,6 +3844,906 @@ var ptx_lunr_docs = [
   "body": " Chapter 1   Text before the first section.            "
 },
 {
+  "id": "statistics-chapter2",
+  "level": "1",
+  "url": "statistics-chapter2.html",
+  "type": "Chapter",
+  "number": "18",
+  "title": "Chapter 2",
+  "body": " Chapter 2   Text before the first section.            "
+},
+{
+  "id": "statistics-mean",
+  "level": "1",
+  "url": "statistics-mean.html",
+  "type": "Section",
+  "number": "19.1",
+  "title": "How to Calculate the Mean of a Data Set",
+  "body": " How to Calculate the Mean of a Data Set   The mean , or average , is a fundamental statistical measure that represents the center of a dataset by balancing values above and below it. It is widely used in fields like business, healthcare, and education. This section explains the mean, its formulas, and how to calculate it manually and with technology. Through examples, we see how the mean helps summarize and interpret data efficiently.    Definition of the Mean   What is the Mean?   The mean , also commonly known as the average , is the sum of all data values divided by the number of values. The sample mean is often denoted as , while the population mean is denoted as .  Population mean: .  Sample mean: .    Although the primary focus of this text is interpretation, it is still a math textbook, so we encounter mathematical symbols and formulas throughout. To aid understanding, these symbols are explained as they appear, especially since many are used repeatedly throughout the text.    The symbol means “sum” or “add everything up.”  The symbol represents individual data values.  denotes the total number of values in a population and is often referred to as the population size.  denotes the number of values in a sample and is often referred to as the sample size.    It is important to note that cannot stand alone; it must be followed by another symbol specifying what is being summed. In these formulas, in the numerator instructs us to add up all the data values. This notation is especially useful when dealing with large datasets containing hundreds or thousands of values, as it eliminates the need to list each number individually.  Populations and samples each have their own formulas for related concepts, such as the mean. In this case, the formulas are functionally identical, but as we explore other topics later in this chapter, some formulas differ between populations and samples.  Additionally, represents the population mean and is classified as a parameter, while represents the sample mean and is classified as a statistic.  By convention, parameters (which describe populations) are often represented by Greek letters, whereas statistics (which describe samples) are typically denoted using Latin letters.  Now that we know the formulas for mean and how to interpret them, the next example shows how to perform a calculation.   Example 1   Consider the following data representing test scores of five students on their first exam: 75, 80, 85, 90, 95. Use this data to calculate the average exam score for this sample.   Test Scores of Five Students    Score   75  80  85  90  95      To find the mean of this sample, sum all the test scores and divide by the number of scores.     Since represents an individual test score and means to sum all test scores, and the sample size is , the final calculation is:          Interpreting the Mean  Now that we understand how to calculate the mean, we next focus on what this number represents. One way to think about the mean is in terms of wealth redistribution: the mean represents the amount each person would have if all resources were redistributed equally.  In the prior example, 75 is 10 points below the mean while 95 is 10 points above the mean. Transferring 10 points from 95 to 75 makes both 85. Likewise, 80 is 5 below and 90 is 5 above, and transferring 5 points from 90 to 80 makes both 85. After these adjustments, each student has 85.  This illustrates that the mean balances values above and below average to give a single number that evenly distributes the data across all individuals in a sample or population.  We do not actually redistribute scores or money in this way. The purpose of the mean is to understand central tendency, the balance point between high and low values.   Example 2   Complete the Understanding the Idea of Average Value\/Mean interactive example.      Calculating the Mean with Technology  Now that we understand what a mean is and how to calculate it, we need to see how to calculate the mean using technology since many datasets contain hundreds or thousands of values. Manually calculating large datasets is time-consuming and prone to errors.   Example 3   The following Law School Admission Test (LSAT) scores for a sample of 50 students are given below. Find the mean of the sample using the Summary Statistics Calculator .   Sample of 50 LSAT Scores    LSAT Scores    174 172 169 176 169 170 175 171 168 177    165 180 173 166 178 170 174 167 179 172    163 181 171 164 177 169 175 168 180 170    162 182 170 165 176 168 174 166 178 171    161 183 169 167 175 167 173 165 177 172       Load the data into the Summary Statistics Calculator with default settings. The sample mean is calculated automatically as .   A screenshot of the Summary Statistics Calculator showing that the average value is 171.68.        The mean provides a simple yet powerful way to understand the central tendency of a dataset. It balances values above and below it, making it a key tool for data analysis. While calculating the mean manually is useful for small datasets, technology is essential for handling larger ones efficiently. Understanding the mean is a crucial step in mastering statistical analysis.   "
+},
+{
+  "id": "statistics-mean-2-1",
+  "level": "2",
+  "url": "statistics-mean.html#statistics-mean-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "mean average "
+},
+{
+  "id": "statistics-mean-definition",
+  "level": "2",
+  "url": "statistics-mean.html#statistics-mean-definition",
+  "type": "Definition",
+  "number": "19.1.1",
+  "title": "What is the Mean?",
+  "body": " What is the Mean?   The mean , also commonly known as the average , is the sum of all data values divided by the number of values. The sample mean is often denoted as , while the population mean is denoted as .  Population mean: .  Sample mean: .   "
+},
+{
+  "id": "statistics-mean-example-1",
+  "level": "2",
+  "url": "statistics-mean.html#statistics-mean-example-1",
+  "type": "Example",
+  "number": "19.1.2",
+  "title": "Example 1.",
+  "body": " Example 1   Consider the following data representing test scores of five students on their first exam: 75, 80, 85, 90, 95. Use this data to calculate the average exam score for this sample.   Test Scores of Five Students    Score   75  80  85  90  95      To find the mean of this sample, sum all the test scores and divide by the number of scores.     Since represents an individual test score and means to sum all test scores, and the sample size is , the final calculation is:       "
+},
+{
+  "id": "statistics-mean-example-2",
+  "level": "2",
+  "url": "statistics-mean.html#statistics-mean-example-2",
+  "type": "Example",
+  "number": "19.1.4",
+  "title": "Example 2.",
+  "body": " Example 2   Complete the Understanding the Idea of Average Value\/Mean interactive example.   "
+},
+{
+  "id": "statistics-mean-example-3",
+  "level": "2",
+  "url": "statistics-mean.html#statistics-mean-example-3",
+  "type": "Example",
+  "number": "19.1.5",
+  "title": "Example 3.",
+  "body": " Example 3   The following Law School Admission Test (LSAT) scores for a sample of 50 students are given below. Find the mean of the sample using the Summary Statistics Calculator .   Sample of 50 LSAT Scores    LSAT Scores    174 172 169 176 169 170 175 171 168 177    165 180 173 166 178 170 174 167 179 172    163 181 171 164 177 169 175 168 180 170    162 182 170 165 176 168 174 166 178 171    161 183 169 167 175 167 173 165 177 172       Load the data into the Summary Statistics Calculator with default settings. The sample mean is calculated automatically as .   A screenshot of the Summary Statistics Calculator showing that the average value is 171.68.     "
+},
+{
+  "id": "statistics-median",
+  "level": "1",
+  "url": "statistics-median.html",
+  "type": "Section",
+  "number": "19.2",
+  "title": "How to Calculate the Median of a Data Set",
+  "body": " How to Calculate the Median of a Data Set  The median is a measure of central tendency that represents the middle value of an ordered dataset. In this section, we define the median, discuss how to calculate it, and explore examples both by hand and using technology.   What is the Median?   The median of an ordered dataset is the value that separates the lower 50% from the upper 50%. This number may or may not be part of the dataset. Unlike the mean, the median does not have a universally accepted notation, but many people represent it as .     How do I calculate the Median?   Let be the sample size of your data.    Step 1: Order the data from smallest to largest. Ensure all repeated values are included.  Step 2: Determine whether is even or odd:  If is odd, the median is the entry in the ordered list.  If is even, the median is the average of the and entries in the ordered list.         While the procedure for calculating the median seems hard on the surface, it is in fact very easy to calculate, especially for small data sets. The next two examples demonstrate the process step by step. The first example illustrates how to find the median with an odd sample size.   Example 1   The following weekly hours spent studying for a sample of 7 students are recorded below. Find the median number of study hours by hand.   Sample of Weekly Study Hours (in hours)    Study Hours Per Week    12  15  10  18  14  11  16       First, order the data from smallest to largest.   The data has been ordered as 10, 11, 12, 14, 15, 16, 18.    Next, strike out the first and last numbers.   The 10 and 18 have been cross off the list of numbers.    Then, strike out the next two inner numbers.   The 11 and 16 are now struck out.    Again, strike out the next two inner numbers.   The 12 and 15 have been struck out.    Now, notice that only one number remains.   The remaining number 14 has been boxed.    Since there is only one number left, is the median.   Note. What do we mean by separating the upper 50% of data from the lower 50% of data? In this case, there are the same number of values to the left of 14 as there are to the right of 14. The median is determined by its position in the ordered list, not its value.    Finding the median for an even sample size follows the same steps, except for the final calculation.   Example 2   The cholesterol levels (mg\/dL) of a sample of 10 people are recorded below. Find the median cholesterol level by hand.   Sample of 10 Cholesterol Levels    Cholesterol Level (mg\/dL)    154 240 171 188 235    203 184 173 181 275       First, order the data from smallest to largest.   The data has been ordered as 154, 171, 173, 181, 184, 188, 203, 235, 240, 275.    Now, strike off the first and last numbers in the list.   154 and 275 have been stricken from the list.    Then, strike out the next two inner numbers.   171 and 240 have been stricken off.    Again, strike out the next two inner numbers.   173 and 235 have been stricken out.    Again, strike out the next two inner numbers.   181 and 203 have been stricken out.    Instead of arriving at a single central number, we end up with two central numbers—184 and 188.   184 and 188 have been boxed since they are the last two numbers remaining.    When we end up with two central numbers, we average them to find the median: .   Note. The median is the average of the two central numbers, so it may not be an actual data point, even if it matches a value in the list. It lies exactly between the two central numbers, dividing the dataset into two equal parts. In this case, the lower half consists of 154, 171, 173, 181, and 184, while the upper half consists of 188, 203, 235, 240, and 275.    Just like the mean, we often compute the median from large data sets. The next example uses the Summary Statistics Calculator to compute the median.   Example 3   The following LSAT scores for a sample of 50 students are given below. Find the median of the sample using the Summary Statistics Calculator .   Sample of 50 LSAT Scores    LSAT Scores    174 172 169 176 169 170 175 171 168 177    165 180 173 166 178 170 174 167 179 172    163 181 171 164 177 169 175 168 180 170       Load the data into the Summary Statistics Calculator with default settings.   A screenshot of the Summary Statistics Calculator showing that the average value is 171.68.    Click on the Median checkbox to reveal the value of the median.   The median checkbox is clicked. The value of the median is 171.    Therefore, the value of the median is .    The median is a valuable measure of central tendency because it is resistant to outliers. By understanding how to calculate the median manually and using technology, we can analyze data more effectively in various contexts.  "
+},
+{
+  "id": "statistics-median-definition",
+  "level": "2",
+  "url": "statistics-median.html#statistics-median-definition",
+  "type": "Definition",
+  "number": "19.2.1",
+  "title": "What is the Median?",
+  "body": " What is the Median?   The median of an ordered dataset is the value that separates the lower 50% from the upper 50%. This number may or may not be part of the dataset. Unlike the mean, the median does not have a universally accepted notation, but many people represent it as .   "
+},
+{
+  "id": "statistics-median-procedure",
+  "level": "2",
+  "url": "statistics-median.html#statistics-median-procedure",
+  "type": "Definition",
+  "number": "19.2.2",
+  "title": "How do I calculate the Median?",
+  "body": " How do I calculate the Median?   Let be the sample size of your data.    Step 1: Order the data from smallest to largest. Ensure all repeated values are included.  Step 2: Determine whether is even or odd:  If is odd, the median is the entry in the ordered list.  If is even, the median is the average of the and entries in the ordered list.        "
+},
+{
+  "id": "statistics-median-example-1",
+  "level": "2",
+  "url": "statistics-median.html#statistics-median-example-1",
+  "type": "Example",
+  "number": "19.2.3",
+  "title": "Example 1.",
+  "body": " Example 1   The following weekly hours spent studying for a sample of 7 students are recorded below. Find the median number of study hours by hand.   Sample of Weekly Study Hours (in hours)    Study Hours Per Week    12  15  10  18  14  11  16       First, order the data from smallest to largest.   The data has been ordered as 10, 11, 12, 14, 15, 16, 18.    Next, strike out the first and last numbers.   The 10 and 18 have been cross off the list of numbers.    Then, strike out the next two inner numbers.   The 11 and 16 are now struck out.    Again, strike out the next two inner numbers.   The 12 and 15 have been struck out.    Now, notice that only one number remains.   The remaining number 14 has been boxed.    Since there is only one number left, is the median.   Note. What do we mean by separating the upper 50% of data from the lower 50% of data? In this case, there are the same number of values to the left of 14 as there are to the right of 14. The median is determined by its position in the ordered list, not its value.   "
+},
+{
+  "id": "statistics-median-example-2",
+  "level": "2",
+  "url": "statistics-median.html#statistics-median-example-2",
+  "type": "Example",
+  "number": "19.2.10",
+  "title": "Example 2.",
+  "body": " Example 2   The cholesterol levels (mg\/dL) of a sample of 10 people are recorded below. Find the median cholesterol level by hand.   Sample of 10 Cholesterol Levels    Cholesterol Level (mg\/dL)    154 240 171 188 235    203 184 173 181 275       First, order the data from smallest to largest.   The data has been ordered as 154, 171, 173, 181, 184, 188, 203, 235, 240, 275.    Now, strike off the first and last numbers in the list.   154 and 275 have been stricken from the list.    Then, strike out the next two inner numbers.   171 and 240 have been stricken off.    Again, strike out the next two inner numbers.   173 and 235 have been stricken out.    Again, strike out the next two inner numbers.   181 and 203 have been stricken out.    Instead of arriving at a single central number, we end up with two central numbers—184 and 188.   184 and 188 have been boxed since they are the last two numbers remaining.    When we end up with two central numbers, we average them to find the median: .   Note. The median is the average of the two central numbers, so it may not be an actual data point, even if it matches a value in the list. It lies exactly between the two central numbers, dividing the dataset into two equal parts. In this case, the lower half consists of 154, 171, 173, 181, and 184, while the upper half consists of 188, 203, 235, 240, and 275.   "
+},
+{
+  "id": "statistics-median-example-3",
+  "level": "2",
+  "url": "statistics-median.html#statistics-median-example-3",
+  "type": "Example",
+  "number": "19.2.18",
+  "title": "Example 3.",
+  "body": " Example 3   The following LSAT scores for a sample of 50 students are given below. Find the median of the sample using the Summary Statistics Calculator .   Sample of 50 LSAT Scores    LSAT Scores    174 172 169 176 169 170 175 171 168 177    165 180 173 166 178 170 174 167 179 172    163 181 171 164 177 169 175 168 180 170       Load the data into the Summary Statistics Calculator with default settings.   A screenshot of the Summary Statistics Calculator showing that the average value is 171.68.    Click on the Median checkbox to reveal the value of the median.   The median checkbox is clicked. The value of the median is 171.    Therefore, the value of the median is .   "
+},
+{
+  "id": "statistics-mode",
+  "level": "1",
+  "url": "statistics-mode.html",
+  "type": "Section",
+  "number": "19.3",
+  "title": "How to Calculate the Mode of a Dataset",
+  "body": " How to Calculate the Mode of a Dataset  The mode is a measure of central tendency that identifies the most frequently occurring value(s) in a dataset. Unlike the mean and median, the mode does not require numerical calculations but instead focuses on how often values appear. In this section, we define the mode, discuss its characteristics, and explore examples of how to determine and interpret it.   What is the Mode?   The mode of a dataset is the value(s) that occur locally with the highest frequency.  When discussing the shape of histograms, we encountered unimodal , multimodal , and uniform distributions. The mode corresponds to the peaks in these distributions.    A unimodal distribution has one peak.  A multimodal distribution has multiple peaks with similar frequencies.  A uniform distribution has no distinct peaks, meaning no mode exists.     The red curve drawn over the histogram looks like a bell.     A bimodal distribution with its two peaks labeled.     A uniform distribution has bars that are all approximately the same height.      Identifying these peaks precisely requires advanced mathematical techniques, such as calculus, even though many multimodal distributions are intuitive and can be visualized easily with histograms, stem-and-leaf plots, and dot plots. Human height, for example, is bimodal because there is a mode for men and a mode for women since, on average, men tend to be about five inches taller than women. Therefore, we refine our definition of mode to avoid local considerations.   Revised Definition: Mode   The mode of a dataset is the value(s) that occur most frequently.  By removing the term “occur locally,” we ensure that all identified modes have the same frequency. This revised definition makes it easier to identify all the modes at a glance from frequency distributions.     Example 1   Find the mode of the 2016–2017 tuition and fees (in thousands of dollars) for the top 14 universities in the U.S. by hand.   2016–2017 Tuition and Fees (in $1000s)    Tuition and Fees    45  47  52  49  55  48  48    51  51  50  51  48  51  51       By observation, the most frequently occurring value is 51, which appears five times.   A copy of the tuition-and-fees table with the five instances of 51 enclosed in black boxes.    Thus, the mode is .     Example 2   The following LSAT scores for a sample of 50 students are recorded below. Use the Summary Statistics Calculator to determine if a mode exists, and if it does, identify the mode(s). Also, classify the dataset as unimodal, multimodal, or having no mode.   Sample of 50 LSAT Scores    LSAT Scores    174 172 169 176 169 170 175 171 168 177    165 180 173 166 178 170 174 167 179 172    163 181 171 164 177 169 175 168 180 170    162 182 170 165 176 168 174 166 178 171    161 183 169 167 175 167 173 165 177 172       Load the data into the Summary Statistics Calculator.   A screenshot of the Summary Statistics Calculator showing the loaded LSAT data.    Click on the Mode checkbox.   The mode checkbox reveals that 169 and 170 are the two modes, indicating a bimodal set.    The tool reveals that and are the modes of the dataset, so the distribution is bimodal, which is a type of multimodal distribution.    The mode is particularly useful to summarize certain types of qualitative data. Unfortunately, the Summary Statistics Calculator does not handle qualitative data. Therefore, we use the Frequency Distribution Tool to make a frequency distribution and then find the data point(s) with the highest frequency.   Example 3   The following dataset represents the size of shirts sold over the last 30 days at a clothing retailer. Use the Frequency Distribution Tool to determine the mode of the dataset.   Shirt Sizes Sold Over the Last 30 Days    Shirt Sizes    Small Medium Large X-Large X-Large Medium Large X-Large Small X-Large    Medium X-Large X-Large Large Small X-Large Medium X-Large Large X-Large    X-Large X-Large Large Small Medium X-Large X-Large X-Large Large Medium    X-Large Large Medium X-Large X-Large Small Medium Large X-Large X-Large    Large X-Large Medium Small X-Large X-Large X-Large Large Small Medium       Load the data into the Frequency Distribution Tool. Initially, nothing appears because classes are built for quantitative data.   The data has been loaded into the GeoGebra tool, and nothing is displayed yet.    To display a frequency distribution of the raw data, deselect the Organize Data Into Classes checkbox. The distribution then appears on the right.   The organize-data-into-classes checkbox is deselected, and X-Large appears as the most frequent size.    From the distribution, the most frequently sold size is X-Large, with a count of 23.    The mode helps identify the most common values in a dataset, making it useful for analyzing both quantitative and qualitative data. Unlike the mean and median, the mode may not always exist and can have multiple values. By understanding how to determine the mode and classify distributions as unimodal, multimodal, or having no mode, we gain deeper insights into data patterns.  "
+},
+{
+  "id": "statistics-mode-definition-local",
+  "level": "2",
+  "url": "statistics-mode.html#statistics-mode-definition-local",
+  "type": "Definition",
+  "number": "19.3.1",
+  "title": "What is the Mode?",
+  "body": " What is the Mode?   The mode of a dataset is the value(s) that occur locally with the highest frequency.  When discussing the shape of histograms, we encountered unimodal , multimodal , and uniform distributions. The mode corresponds to the peaks in these distributions.    A unimodal distribution has one peak.  A multimodal distribution has multiple peaks with similar frequencies.  A uniform distribution has no distinct peaks, meaning no mode exists.     The red curve drawn over the histogram looks like a bell.     A bimodal distribution with its two peaks labeled.     A uniform distribution has bars that are all approximately the same height.     "
+},
+{
+  "id": "statistics-mode-definition-revised",
+  "level": "2",
+  "url": "statistics-mode.html#statistics-mode-definition-revised",
+  "type": "Definition",
+  "number": "19.3.5",
+  "title": "Revised Definition: Mode.",
+  "body": " Revised Definition: Mode   The mode of a dataset is the value(s) that occur most frequently.  By removing the term “occur locally,” we ensure that all identified modes have the same frequency. This revised definition makes it easier to identify all the modes at a glance from frequency distributions.   "
+},
+{
+  "id": "statistics-mode-example-1",
+  "level": "2",
+  "url": "statistics-mode.html#statistics-mode-example-1",
+  "type": "Example",
+  "number": "19.3.6",
+  "title": "Example 1.",
+  "body": " Example 1   Find the mode of the 2016–2017 tuition and fees (in thousands of dollars) for the top 14 universities in the U.S. by hand.   2016–2017 Tuition and Fees (in $1000s)    Tuition and Fees    45  47  52  49  55  48  48    51  51  50  51  48  51  51       By observation, the most frequently occurring value is 51, which appears five times.   A copy of the tuition-and-fees table with the five instances of 51 enclosed in black boxes.    Thus, the mode is .   "
+},
+{
+  "id": "statistics-mode-example-2",
+  "level": "2",
+  "url": "statistics-mode.html#statistics-mode-example-2",
+  "type": "Example",
+  "number": "19.3.9",
+  "title": "Example 2.",
+  "body": " Example 2   The following LSAT scores for a sample of 50 students are recorded below. Use the Summary Statistics Calculator to determine if a mode exists, and if it does, identify the mode(s). Also, classify the dataset as unimodal, multimodal, or having no mode.   Sample of 50 LSAT Scores    LSAT Scores    174 172 169 176 169 170 175 171 168 177    165 180 173 166 178 170 174 167 179 172    163 181 171 164 177 169 175 168 180 170    162 182 170 165 176 168 174 166 178 171    161 183 169 167 175 167 173 165 177 172       Load the data into the Summary Statistics Calculator.   A screenshot of the Summary Statistics Calculator showing the loaded LSAT data.    Click on the Mode checkbox.   The mode checkbox reveals that 169 and 170 are the two modes, indicating a bimodal set.    The tool reveals that and are the modes of the dataset, so the distribution is bimodal, which is a type of multimodal distribution.   "
+},
+{
+  "id": "statistics-mode-example-3",
+  "level": "2",
+  "url": "statistics-mode.html#statistics-mode-example-3",
+  "type": "Example",
+  "number": "19.3.13",
+  "title": "Example 3.",
+  "body": " Example 3   The following dataset represents the size of shirts sold over the last 30 days at a clothing retailer. Use the Frequency Distribution Tool to determine the mode of the dataset.   Shirt Sizes Sold Over the Last 30 Days    Shirt Sizes    Small Medium Large X-Large X-Large Medium Large X-Large Small X-Large    Medium X-Large X-Large Large Small X-Large Medium X-Large Large X-Large    X-Large X-Large Large Small Medium X-Large X-Large X-Large Large Medium    X-Large Large Medium X-Large X-Large Small Medium Large X-Large X-Large    Large X-Large Medium Small X-Large X-Large X-Large Large Small Medium       Load the data into the Frequency Distribution Tool. Initially, nothing appears because classes are built for quantitative data.   The data has been loaded into the GeoGebra tool, and nothing is displayed yet.    To display a frequency distribution of the raw data, deselect the Organize Data Into Classes checkbox. The distribution then appears on the right.   The organize-data-into-classes checkbox is deselected, and X-Large appears as the most frequent size.    From the distribution, the most frequently sold size is X-Large, with a count of 23.   "
+},
+{
+  "id": "statistics-central-tendency-distributions",
+  "level": "1",
+  "url": "statistics-central-tendency-distributions.html",
+  "type": "Section",
+  "number": "19.4",
+  "title": "How Skewness Affects the Mean, Median, and Mode of a Dataset",
+  "body": " How Skewness Affects the Mean, Median, and Mode of a Dataset  Measures of central tendency—mean, median, and mode—help us describe datasets. However, their values are influenced by the shape of the distribution and the presence of outliers. In this section, we define outliers, explore how outliers impact these measures, and how their relationships change based on the skewness of a dataset.   Outliers   An outlier is a data point that does not follow the overall pattern or shape of a distribution. These are data points that are typically much larger or much smaller than other points in the dataset.    Let’s look at an example to see how outliers affect the mean, median, and mode.   Example 1   A list of five exam scores is given below:     Part A: Find the mean, median, and mode of this distribution.  Part B: Another student scored a 41 on the exam, which is an outlier compared to the other five scores. Re-evaluate the mean, median, and mode.  Part C: Which measure of center changed the least? Which changed the most? Did any remain unchanged?      Part A         Part B         Part C    The mean changed the most.  The median changed the least.  The mode did not change at all.      Since an outlier affects each one of these measurements differently, we get the following definition.   What is resistance to outliers?   A statistic is resistant to outliers if extreme values cause little to no change in its value.  In Example 1, notice that    the mean is not resistant to outliers,  the median and mode are resistant to outliers.       The Mean, Median, and Mode in Unimodal Distributions   We use resistance to outliers to describe the relative locations of the mean, median, and mode in unimodal distributions.     Normal Distribution   In a normal distribution, we have .  Since many real-world datasets follow a normal distribution, this is one reason we often focus on the mean rather than the median or mode. The following figure demonstrates the positions of the mean, median, and mode by marking their location on top of a normal distribution.   In a normal distribution, the x-coordinate of the peak is the mean, median, and mode of the dataset.       Skew-Right Distribution   In a skew-right distribution, part of the reason we get a skew to the right is because there is unusually large data in the distribution. Unusually large data pulls both the mean and median to the right, with the mean pulled farther to the right than the median. The mode remains unchanged in this case. Overall, this change from a normal distribution can be summarized as .   A skew-right distribution pulls the mean and median to the right, away from the mode, with the mean pulled farther than the median.       Skew-Left Distribution   In a skew-left distribution, part of the reason we get a skew to the left is because there is unusually small data in the distribution. Unusually small data pulls both the mean and median to the left, with the mean pulled farther to the left than the median. The mode remains unchanged in this case. Overall, this change from a normal distribution can be summarized as .   A skew-left distribution pulls the mean and median to the left, away from the mode, with the mean pulled farther than the median.      The mean, median, and mode each describe the center of a dataset but respond differently to outliers and skewness. The mean is sensitive to extreme values and shifts in the direction of skewness, while the median is resistant to outliers and better represents center in skewed distributions. The mode remains unchanged by outliers and identifies the most frequently occurring value(s). Understanding these differences helps in choosing the most appropriate measure for analyzing real-world data. We will explore that issue in more depth later in this chapter.  "
+},
+{
+  "id": "statistics-outlier-definition",
+  "level": "2",
+  "url": "statistics-central-tendency-distributions.html#statistics-outlier-definition",
+  "type": "Definition",
+  "number": "19.4.1",
+  "title": "Outliers.",
+  "body": " Outliers   An outlier is a data point that does not follow the overall pattern or shape of a distribution. These are data points that are typically much larger or much smaller than other points in the dataset.   "
+},
+{
+  "id": "statistics-central-example-1",
+  "level": "2",
+  "url": "statistics-central-tendency-distributions.html#statistics-central-example-1",
+  "type": "Example",
+  "number": "19.4.2",
+  "title": "Example 1.",
+  "body": " Example 1   A list of five exam scores is given below:     Part A: Find the mean, median, and mode of this distribution.  Part B: Another student scored a 41 on the exam, which is an outlier compared to the other five scores. Re-evaluate the mean, median, and mode.  Part C: Which measure of center changed the least? Which changed the most? Did any remain unchanged?      Part A         Part B         Part C    The mean changed the most.  The median changed the least.  The mode did not change at all.     "
+},
+{
+  "id": "statistics-resistance-definition",
+  "level": "2",
+  "url": "statistics-central-tendency-distributions.html#statistics-resistance-definition",
+  "type": "Definition",
+  "number": "19.4.3",
+  "title": "What is resistance to outliers?",
+  "body": " What is resistance to outliers?   A statistic is resistant to outliers if extreme values cause little to no change in its value.  In Example 1, notice that    the mean is not resistant to outliers,  the median and mode are resistant to outliers.     "
+},
+{
+  "id": "statistics-unimodal-distributions-center",
+  "level": "2",
+  "url": "statistics-central-tendency-distributions.html#statistics-unimodal-distributions-center",
+  "type": "Definition",
+  "number": "19.4.4",
+  "title": "The Mean, Median, and Mode in Unimodal Distributions.",
+  "body": " The Mean, Median, and Mode in Unimodal Distributions   We use resistance to outliers to describe the relative locations of the mean, median, and mode in unimodal distributions.   "
+},
+{
+  "id": "statistics-normal-distribution-center",
+  "level": "2",
+  "url": "statistics-central-tendency-distributions.html#statistics-normal-distribution-center",
+  "type": "Definition",
+  "number": "19.4.5",
+  "title": "Normal Distribution.",
+  "body": " Normal Distribution   In a normal distribution, we have .  Since many real-world datasets follow a normal distribution, this is one reason we often focus on the mean rather than the median or mode. The following figure demonstrates the positions of the mean, median, and mode by marking their location on top of a normal distribution.   In a normal distribution, the x-coordinate of the peak is the mean, median, and mode of the dataset.     "
+},
+{
+  "id": "statistics-skew-right-distribution-center",
+  "level": "2",
+  "url": "statistics-central-tendency-distributions.html#statistics-skew-right-distribution-center",
+  "type": "Definition",
+  "number": "19.4.7",
+  "title": "Skew-Right Distribution.",
+  "body": " Skew-Right Distribution   In a skew-right distribution, part of the reason we get a skew to the right is because there is unusually large data in the distribution. Unusually large data pulls both the mean and median to the right, with the mean pulled farther to the right than the median. The mode remains unchanged in this case. Overall, this change from a normal distribution can be summarized as .   A skew-right distribution pulls the mean and median to the right, away from the mode, with the mean pulled farther than the median.     "
+},
+{
+  "id": "statistics-skew-left-distribution-center",
+  "level": "2",
+  "url": "statistics-central-tendency-distributions.html#statistics-skew-left-distribution-center",
+  "type": "Definition",
+  "number": "19.4.9",
+  "title": "Skew-Left Distribution.",
+  "body": " Skew-Left Distribution   In a skew-left distribution, part of the reason we get a skew to the left is because there is unusually small data in the distribution. Unusually small data pulls both the mean and median to the left, with the mean pulled farther to the left than the median. The mode remains unchanged in this case. Overall, this change from a normal distribution can be summarized as .   A skew-left distribution pulls the mean and median to the left, away from the mode, with the mean pulled farther than the median.     "
+},
+{
+  "id": "statistics-weighted-mean",
+  "level": "1",
+  "url": "statistics-weighted-mean.html",
+  "type": "Section",
+  "number": "19.5",
+  "title": "How to Calculate a Weighted Mean",
+  "body": " How to Calculate a Weighted Mean  The mean is a fundamental measure of central tendency, but not all data points contribute equally in every scenario. In cases where there are many repeated values, we use the weighted mean to calculate the mean faster than a standard calculation. This section explores different methods for calculating a weighted mean and demonstrates its applications through practical examples.   Weighted Means   We begin with a hand calculation to motivate the weighted-mean formulas.     Example 1   A small retail store tracks the number of sales transactions completed by seven different employees during a particular week: . Calculate the mean using the following methods.    Part A: Using the definition of the mean.  Part B: Using the definition of multiplication to simplify the numerator.  Part C: Using the definition of multiplication and simplifying the fraction.      Part A   Part B  We can rewrite repeated values using multiplication: . Using this, we calculate the mean as    Important Note. Each term in the numerator follows the pattern frequency data. Using for frequency and for data, we express the numerator as and the denominator as . This leads to , which is useful for computing the mean from a frequency distribution.  Part C  First, consider the relative-frequency distribution for this dataset.   Relative Frequency Table    Data Value ( )  Frequency ( )  Relative Frequency ( )    12  1     15  2     18  3     25  1     Total   1     Now simplify the Part B calculation:       Important Note. Here, the mean is expressed as relative frequency data. In the context of a mean, a relative frequency is often called a weight , so we use . Therefore, for a relative-frequency distribution, as long as the sum of the relative frequencies is 1.  Sometimes we compute an average using only some of the weights (for example, a current grade that ignores ungraded items). In that case, .    The discussion in Example 1 motivates the following definition.   What is a Weighted Mean?   A weighted mean is the mean of a dataset where each value has an associated weight or frequency. Two common formulas are    Using frequencies:  Using weights or relative frequencies:     Note. In many cases, because we include all categories in the dataset.    Now that we understand the weighted mean, we use the Summary Statistics Calculator to calculate weighted means in context.   Example 2   Suppose you just took your third exam, and your grade distribution is given below. Calculate your current grade using the Summary Statistics Calculator .   Sample Grades for a Course    Category  Grade (%)  Percentage of Grade    MyLab Stat  43%  7.5%    Quizzes  63%  7.5%    Exam 1  92%  20%    Exam 2  67%  20%    Exam 3  76%  20%       Load the dataset into the Summary Statistics Calculator.   The grade data is in one column and the weights are in another column.    The first column is descriptive text only. Use numeric grades as data and convert percentage weights to decimals. Then set Problem Type to Weighted Statistics, set Data to the grade column, and set Weights to the weight column.   The weighted mean calculated by the tool is 73.27.    The calculator computes . Therefore, the current grade in the course is a C.    Often, data is reported in a frequency distribution rather than as raw values. We can use that distribution to estimate the mean from class midpoints and frequencies. The next example illustrates this process.   Example 3   Use the Summary Statistics Calculator to estimate the mean gas mileage (mpg) for 24 family sedans.   A Frequency Distribution for the Gas Mileage of 24 Family Sedans    Gas Mileage (mpg)  Frequency    22 to 27  16    28 to 33  2    34 to 39  2    40 to 45  4       First, compute the class midpoints and pair them with frequencies.   A Frequency Distribution for the Gas Mileage of 24 Family Sedans    Gas Mileage (mpg)  Midpoint  Frequency    22 to 27  24.5  16    28 to 33  30.5  2    34 to 39  36.5  2    40 to 45  42.5  4     Enter midpoint values and frequencies manually into the calculator spreadsheet.   The midpoint and frequency columns entered into the spreadsheet.    Row 1 should be headers only. Place data in rows below, then choose weighted statistics with midpoints as data and frequencies as weights.   The weighted mean is computed as 29.    Therefore, the estimated average gas mileage is mpg.    Now that we understand the weighted mean and have explored examples using both frequencies and weights, we see how it provides a quicker calculation when many data points are repeated. With tools like the Summary Statistics Calculator, we can efficiently compute weighted means in practical scenarios such as grades, sales, and performance tracking.  "
+},
+{
+  "id": "statistics-weighted-means-heading",
+  "level": "2",
+  "url": "statistics-weighted-mean.html#statistics-weighted-means-heading",
+  "type": "Definition",
+  "number": "19.5.1",
+  "title": "Weighted Means.",
+  "body": " Weighted Means   We begin with a hand calculation to motivate the weighted-mean formulas.   "
+},
+{
+  "id": "statistics-weighted-mean-example-1",
+  "level": "2",
+  "url": "statistics-weighted-mean.html#statistics-weighted-mean-example-1",
+  "type": "Example",
+  "number": "19.5.2",
+  "title": "Example 1.",
+  "body": " Example 1   A small retail store tracks the number of sales transactions completed by seven different employees during a particular week: . Calculate the mean using the following methods.    Part A: Using the definition of the mean.  Part B: Using the definition of multiplication to simplify the numerator.  Part C: Using the definition of multiplication and simplifying the fraction.      Part A   Part B  We can rewrite repeated values using multiplication: . Using this, we calculate the mean as    Important Note. Each term in the numerator follows the pattern frequency data. Using for frequency and for data, we express the numerator as and the denominator as . This leads to , which is useful for computing the mean from a frequency distribution.  Part C  First, consider the relative-frequency distribution for this dataset.   Relative Frequency Table    Data Value ( )  Frequency ( )  Relative Frequency ( )    12  1     15  2     18  3     25  1     Total   1     Now simplify the Part B calculation:       Important Note. Here, the mean is expressed as relative frequency data. In the context of a mean, a relative frequency is often called a weight , so we use . Therefore, for a relative-frequency distribution, as long as the sum of the relative frequencies is 1.  Sometimes we compute an average using only some of the weights (for example, a current grade that ignores ungraded items). In that case, .   "
+},
+{
+  "id": "statistics-weighted-mean-definition",
+  "level": "2",
+  "url": "statistics-weighted-mean.html#statistics-weighted-mean-definition",
+  "type": "Definition",
+  "number": "19.5.4",
+  "title": "What is a Weighted Mean?",
+  "body": " What is a Weighted Mean?   A weighted mean is the mean of a dataset where each value has an associated weight or frequency. Two common formulas are    Using frequencies:  Using weights or relative frequencies:     Note. In many cases, because we include all categories in the dataset.   "
+},
+{
+  "id": "statistics-weighted-mean-example-2",
+  "level": "2",
+  "url": "statistics-weighted-mean.html#statistics-weighted-mean-example-2",
+  "type": "Example",
+  "number": "19.5.5",
+  "title": "Example 2.",
+  "body": " Example 2   Suppose you just took your third exam, and your grade distribution is given below. Calculate your current grade using the Summary Statistics Calculator .   Sample Grades for a Course    Category  Grade (%)  Percentage of Grade    MyLab Stat  43%  7.5%    Quizzes  63%  7.5%    Exam 1  92%  20%    Exam 2  67%  20%    Exam 3  76%  20%       Load the dataset into the Summary Statistics Calculator.   The grade data is in one column and the weights are in another column.    The first column is descriptive text only. Use numeric grades as data and convert percentage weights to decimals. Then set Problem Type to Weighted Statistics, set Data to the grade column, and set Weights to the weight column.   The weighted mean calculated by the tool is 73.27.    The calculator computes . Therefore, the current grade in the course is a C.   "
+},
+{
+  "id": "statistics-weighted-mean-example-3",
+  "level": "2",
+  "url": "statistics-weighted-mean.html#statistics-weighted-mean-example-3",
+  "type": "Example",
+  "number": "19.5.9",
+  "title": "Example 3.",
+  "body": " Example 3   Use the Summary Statistics Calculator to estimate the mean gas mileage (mpg) for 24 family sedans.   A Frequency Distribution for the Gas Mileage of 24 Family Sedans    Gas Mileage (mpg)  Frequency    22 to 27  16    28 to 33  2    34 to 39  2    40 to 45  4       First, compute the class midpoints and pair them with frequencies.   A Frequency Distribution for the Gas Mileage of 24 Family Sedans    Gas Mileage (mpg)  Midpoint  Frequency    22 to 27  24.5  16    28 to 33  30.5  2    34 to 39  36.5  2    40 to 45  42.5  4     Enter midpoint values and frequencies manually into the calculator spreadsheet.   The midpoint and frequency columns entered into the spreadsheet.    Row 1 should be headers only. Place data in rows below, then choose weighted statistics with midpoints as data and frequencies as weights.   The weighted mean is computed as 29.    Therefore, the estimated average gas mileage is mpg.   "
+},
+{
+  "id": "statistics-mean-not-enough",
+  "level": "1",
+  "url": "statistics-mean-not-enough.html",
+  "type": "Section",
+  "number": "19.6",
+  "title": "Is the Mean Enough to Describe a Dataset?",
+  "body": " Is the Mean Enough to Describe a Dataset?  The mean is one of the most commonly used measures to summarize a dataset. While it provides useful information about the central tendency of the data, it does not always tell the whole story. Different datasets can have the same mean yet exhibit very different distributions. In this section, we explore two datasets with the same mean and analyze how they differ beyond that single statistic.   Example 1     Part A: Find the mean of the dataset .  Part B: Find the mean of the dataset .  Part C: Even though the means are the same, how are the datasets different?      Part A  The mean is the sum of all data values divided by the number of values in the set. For :   Part B  For , we follow the same process:   Part C  Even though both datasets have mean 80, they differ in spread. The first dataset has a wider range (70 to 97), indicating greater variability, while the second has a smaller range (76 to 85), indicating less variability.    The mean alone is not always sufficient to fully describe a dataset. While it gives a measure of central tendency, other statistics such as range, variance, or standard deviation are needed to understand variability and distribution. As shown in this example, two datasets with identical means can represent very different patterns.  "
+},
+{
+  "id": "statistics-mean-not-enough-example-1",
+  "level": "2",
+  "url": "statistics-mean-not-enough.html#statistics-mean-not-enough-example-1",
+  "type": "Example",
+  "number": "19.6.1",
+  "title": "Example 1.",
+  "body": " Example 1     Part A: Find the mean of the dataset .  Part B: Find the mean of the dataset .  Part C: Even though the means are the same, how are the datasets different?      Part A  The mean is the sum of all data values divided by the number of values in the set. For :   Part B  For , we follow the same process:   Part C  Even though both datasets have mean 80, they differ in spread. The first dataset has a wider range (70 to 97), indicating greater variability, while the second has a smaller range (76 to 85), indicating less variability.   "
+},
+{
+  "id": "statistics-range",
+  "level": "1",
+  "url": "statistics-range.html",
+  "type": "Section",
+  "number": "19.7",
+  "title": "Understanding the Range of a Data Set",
+  "body": " Understanding the Range of a Data Set  The range measures the spread of a dataset by subtracting the minimum value from the maximum. It is easy to calculate and provides a quick estimate of variability. However, since it only uses two values, it can be misleading if outliers are present.   Range   The range of a dataset is given by the formula .     What are the Advantages of the Range?     Simple to calculate: Subtract the minimum value from the maximum value.  Quick estimate of spread: It gives a fast sense of overall spread.  Useful for small datasets: It can provide a rough indication of variability.  Identifies possible outliers: A large range may indicate extreme values.       What are the Disadvantages of the Range?     Ignores most data points: It depends only on the minimum and maximum values.  Sensitive to outliers: One extreme value can drastically change the range.  No distribution detail: It does not show how values are spread between endpoints.  Limited in large datasets: It often fails to represent overall variability well.       Example 1   Scientists are tracking migration distances of a species of birds over several years. The distances (in miles) for a sample of 10 birds are:   Migration Distances    Distance (in miles)    354  400  412  375  389  410  368  390  405  392     Answer the following questions based on the data.    Part A: Find the range of the migration distances.  Part B: Explain what the range tells us about variation in the birds' migration distances.      Part A  To find the range, calculate the difference between the maximum and minimum values.    Maximum distance = 412 miles  Minimum distance = 354 miles     Part B  The range of 58 miles represents the spread of migration distances among the 10 birds. A relatively small range suggests similar migration patterns, with no extreme outliers in these distances.     Example 2   A sociologist is studying the ages of participants in a community program aimed at improving digital literacy. The ages (in years) of 12 participants are:   Participants in a Community Program    Age (in years)    22  25  31  28  24  35  45  41  29  33  38  40     Use the Summary Stats Calculator to find the range of the participants' ages.    Upload the dataset to the Summary Stats Calculator, then click the Minimum and Maximum checkboxes to reveal the smallest and largest values.   The maximum checkbox reveals 45 and the minimum checkbox reveals 22.    Using the maximum and minimum values, the range is .    The range is a simple tool for understanding data spread, but it lacks detail about overall variability. While useful for quick insights, it should be paired with other measures such as variance or standard deviation for a more complete analysis.  "
+},
+{
+  "id": "statistics-range-definition",
+  "level": "2",
+  "url": "statistics-range.html#statistics-range-definition",
+  "type": "Definition",
+  "number": "19.7.1",
+  "title": "Range.",
+  "body": " Range   The range of a dataset is given by the formula .   "
+},
+{
+  "id": "statistics-range-advantages",
+  "level": "2",
+  "url": "statistics-range.html#statistics-range-advantages",
+  "type": "Definition",
+  "number": "19.7.2",
+  "title": "What are the Advantages of the Range?",
+  "body": " What are the Advantages of the Range?     Simple to calculate: Subtract the minimum value from the maximum value.  Quick estimate of spread: It gives a fast sense of overall spread.  Useful for small datasets: It can provide a rough indication of variability.  Identifies possible outliers: A large range may indicate extreme values.     "
+},
+{
+  "id": "statistics-range-disadvantages",
+  "level": "2",
+  "url": "statistics-range.html#statistics-range-disadvantages",
+  "type": "Definition",
+  "number": "19.7.3",
+  "title": "What are the Disadvantages of the Range?",
+  "body": " What are the Disadvantages of the Range?     Ignores most data points: It depends only on the minimum and maximum values.  Sensitive to outliers: One extreme value can drastically change the range.  No distribution detail: It does not show how values are spread between endpoints.  Limited in large datasets: It often fails to represent overall variability well.     "
+},
+{
+  "id": "statistics-range-example-1",
+  "level": "2",
+  "url": "statistics-range.html#statistics-range-example-1",
+  "type": "Example",
+  "number": "19.7.4",
+  "title": "Example 1.",
+  "body": " Example 1   Scientists are tracking migration distances of a species of birds over several years. The distances (in miles) for a sample of 10 birds are:   Migration Distances    Distance (in miles)    354  400  412  375  389  410  368  390  405  392     Answer the following questions based on the data.    Part A: Find the range of the migration distances.  Part B: Explain what the range tells us about variation in the birds' migration distances.      Part A  To find the range, calculate the difference between the maximum and minimum values.    Maximum distance = 412 miles  Minimum distance = 354 miles     Part B  The range of 58 miles represents the spread of migration distances among the 10 birds. A relatively small range suggests similar migration patterns, with no extreme outliers in these distances.   "
+},
+{
+  "id": "statistics-range-example-2",
+  "level": "2",
+  "url": "statistics-range.html#statistics-range-example-2",
+  "type": "Example",
+  "number": "19.7.6",
+  "title": "Example 2.",
+  "body": " Example 2   A sociologist is studying the ages of participants in a community program aimed at improving digital literacy. The ages (in years) of 12 participants are:   Participants in a Community Program    Age (in years)    22  25  31  28  24  35  45  41  29  33  38  40     Use the Summary Stats Calculator to find the range of the participants' ages.    Upload the dataset to the Summary Stats Calculator, then click the Minimum and Maximum checkboxes to reveal the smallest and largest values.   The maximum checkbox reveals 45 and the minimum checkbox reveals 22.    Using the maximum and minimum values, the range is .   "
+},
+{
+  "id": "statistics-deviations",
+  "level": "1",
+  "url": "statistics-deviations.html",
+  "type": "Section",
+  "number": "19.8",
+  "title": "How to Calculate the Deviations of a Dataset",
+  "body": " How to Calculate the Deviations of a Dataset  Deviation measures how far a data point is from the mean of a dataset. It helps determine whether a specific value is above or below the average and by how much. Positive deviations indicate values larger than the mean, while negative deviations indicate values smaller than the mean. In this section, we calculate deviation and interpret its significance with a practical example.   Deviation   The deviation of a data point in a distribution is the difference between that data value and the mean of the dataset.     Formula for Deviation     Population Deviation:   Sample Deviation:     In words, .     Notes on Deviation     If the deviation is positive, the data point is larger than the average value.  If the deviation is negative, the data point is smaller than the average value.       Example 1   The salaries for a random sample of 10 individuals are given below.   Sample of 10 Salaries (in Thousands of Dollars)    Salaries (in thousands of dollars)    40  23  41  50  49  32  41  59  52  58       Part A: Calculate the deviation for each salary in the dataset.  Part B: Use the Summary Statistics Calculator to find the average deviation for the dataset.      Part A  First, use the Summary Statistics Calculator to compute the average value of the data.   The average value of the dataset is 44.5.    Now subtract 44.5 from each salary to compute each deviation.   Salaries and Their Deviations    Salary (in Thousands)  Deviation ( )   40 40 - 44.5 = -4.5  23 23 - 44.5 = -21.5  41 41 - 44.5 = -3.5  50 50 - 44.5 = 5.5  49 49 - 44.5 = 4.5  32 32 - 44.5 = -12.5  41 41 - 44.5 = -3.5  59 59 - 44.5 = 14.5  52 52 - 44.5 = 7.5  58 58 - 44.5 = 13.5    Part B  To find the average deviation, create a second column in the tool with the computed deviations in the same order as the salary data.   The deviations are entered into a second spreadsheet column in the same order as Part A.    Then close the spreadsheet and change the data column to the deviations column. The calculator recomputes the mean and shows .   The average value of the deviations is 0 for any dataset.    So, the average value of the deviations of any dataset is always 0. This means average deviation from the mean is not, by itself, a useful measure of variability.  Note. Think back to balancing dot stacks around the mean: deficits below the mean are negative and excesses above the mean are positive, and these cancel when added.   Missing dots below the mean and extra dots above the mean cancel each other.    Since positive and negative deviations cancel, their sum is always 0. Dividing by the number of data values still gives 0.    Deviation helps identify how individual data points relate to the mean, but its usefulness is limited because the sum of all deviations is always zero. Therefore, deviation alone cannot measure variation in a dataset. In the next section, we introduce standard deviation, which overcomes this limitation and provides a more effective measure of variability.  "
+},
+{
+  "id": "statistics-deviation-definition",
+  "level": "2",
+  "url": "statistics-deviations.html#statistics-deviation-definition",
+  "type": "Definition",
+  "number": "19.8.1",
+  "title": "Deviation.",
+  "body": " Deviation   The deviation of a data point in a distribution is the difference between that data value and the mean of the dataset.   "
+},
+{
+  "id": "statistics-deviation-formulas",
+  "level": "2",
+  "url": "statistics-deviations.html#statistics-deviation-formulas",
+  "type": "Definition",
+  "number": "19.8.2",
+  "title": "Formula for Deviation.",
+  "body": " Formula for Deviation     Population Deviation:   Sample Deviation:     In words, .   "
+},
+{
+  "id": "statistics-deviation-notes",
+  "level": "2",
+  "url": "statistics-deviations.html#statistics-deviation-notes",
+  "type": "Definition",
+  "number": "19.8.3",
+  "title": "Notes on Deviation.",
+  "body": " Notes on Deviation     If the deviation is positive, the data point is larger than the average value.  If the deviation is negative, the data point is smaller than the average value.     "
+},
+{
+  "id": "statistics-deviation-example-1",
+  "level": "2",
+  "url": "statistics-deviations.html#statistics-deviation-example-1",
+  "type": "Example",
+  "number": "19.8.4",
+  "title": "Example 1.",
+  "body": " Example 1   The salaries for a random sample of 10 individuals are given below.   Sample of 10 Salaries (in Thousands of Dollars)    Salaries (in thousands of dollars)    40  23  41  50  49  32  41  59  52  58       Part A: Calculate the deviation for each salary in the dataset.  Part B: Use the Summary Statistics Calculator to find the average deviation for the dataset.      Part A  First, use the Summary Statistics Calculator to compute the average value of the data.   The average value of the dataset is 44.5.    Now subtract 44.5 from each salary to compute each deviation.   Salaries and Their Deviations    Salary (in Thousands)  Deviation ( )   40 40 - 44.5 = -4.5  23 23 - 44.5 = -21.5  41 41 - 44.5 = -3.5  50 50 - 44.5 = 5.5  49 49 - 44.5 = 4.5  32 32 - 44.5 = -12.5  41 41 - 44.5 = -3.5  59 59 - 44.5 = 14.5  52 52 - 44.5 = 7.5  58 58 - 44.5 = 13.5    Part B  To find the average deviation, create a second column in the tool with the computed deviations in the same order as the salary data.   The deviations are entered into a second spreadsheet column in the same order as Part A.    Then close the spreadsheet and change the data column to the deviations column. The calculator recomputes the mean and shows .   The average value of the deviations is 0 for any dataset.    So, the average value of the deviations of any dataset is always 0. This means average deviation from the mean is not, by itself, a useful measure of variability.  Note. Think back to balancing dot stacks around the mean: deficits below the mean are negative and excesses above the mean are positive, and these cancel when added.   Missing dots below the mean and extra dots above the mean cancel each other.    Since positive and negative deviations cancel, their sum is always 0. Dividing by the number of data values still gives 0.   "
+},
+{
+  "id": "statistics-standard-deviation",
+  "level": "1",
+  "url": "statistics-standard-deviation.html",
+  "type": "Section",
+  "number": "19.9",
+  "title": "Understanding Standard Deviation",
+  "body": " Understanding Standard Deviation  Standard deviation is one of the most important measures of variability in statistics. It tells us how much data values typically deviate from the mean. Before calculating standard deviation, we first study squared deviations and variance. This section develops these ideas step by step and then defines standard deviation and its main properties.   Squared Deviation   The squared deviation is the square of the deviation value.    Population Squared Deviation:   Sample Squared Deviation:        Example 1   Compute the squared deviation for the salary dataset from and find their sum.     Salaries, Deviations, and Squared Deviations (in Thousands of Dollars)    Salary (in Thousands)  Deviation ( )  Squared Deviation ( )   40 -4.5 (-4.5)^2 = 20.25  23 -21.5 (-21.5)^2 = 462.25  41 -3.5 (-3.5)^2 = 12.25  50 5.5 (5.5)^2 = 30.25  49 4.5 (4.5)^2 = 20.25  32 -12.5 (-12.5)^2 = 156.25  41 -3.5 (-3.5)^2 = 12.25  59 14.5 (14.5)^2 = 210.25  52 7.5 (7.5)^2 = 56.25  58 13.5 (13.5)^2 = 182.25  Total 0 1162.50      Unlike deviations, squared deviations add to a nonzero number because every squared deviation is nonnegative. This sets up the idea of taking an average of squared deviations, called variance.   Variance   The variance of a distribution is the average value of its squared deviations.    Population Variance:   Sample Variance:     Why does sample variance use ?  If we know the sample mean and all but one data value, the last value is forced by the others. So only values are free to vary independently.  This is called degrees of freedom .   Stacks of 1, 2, 4, 2, 3, and 5 dots.     After rearranging, one stack is still short by one dot.     The missing stack must be height 4 to keep mean 3.       Example 2   Compute the variance for the salary example.    From Example 1, . Since , divide by :  .    Two disadvantages of variance are:    The units are squared: for example, dollars-squared.  The value is inflated: squaring makes larger deviations much bigger.    Taking the square root of variance fixes both issues and gives the standard deviation.   Standard Deviation   The standard deviation is the square root of the variance.    Population Standard Deviation:   Sample Standard Deviation:        Important Properties of Standard Deviation     Measures how much data values deviate from the mean on average.  Always nonnegative; it is 0 only if all data values are identical.  Larger values indicate more variation.  Not resistant to outliers.  Has the same units as the dataset.       Example 3   Use the Summary Statistics Calculator to calculate the standard deviation of the salaries.    If your tool is still set to deviations, it should look like this:   The average value of the deviations is 0.    Change the data column back to the salary column. The standard deviation checkbox is selected by default, giving .   The column is changed back and the standard deviation is 11.3652.    Quick Note. The calculator can also display the variance.   The variance checkbox reveals a variance of 129.1667.      Standard deviation is a powerful measure of variability. Using squared deviations and variance, it quantifies how far values typically lie from the mean. In practice, standard deviation helps interpret spread, compare distributions, and identify potential outliers.  "
+},
+{
+  "id": "statistics-squared-deviation-definition",
+  "level": "2",
+  "url": "statistics-standard-deviation.html#statistics-squared-deviation-definition",
+  "type": "Definition",
+  "number": "19.9.1",
+  "title": "Squared Deviation.",
+  "body": " Squared Deviation   The squared deviation is the square of the deviation value.    Population Squared Deviation:   Sample Squared Deviation:      "
+},
+{
+  "id": "statistics-standard-deviation-example-1",
+  "level": "2",
+  "url": "statistics-standard-deviation.html#statistics-standard-deviation-example-1",
+  "type": "Example",
+  "number": "19.9.2",
+  "title": "Example 1.",
+  "body": " Example 1   Compute the squared deviation for the salary dataset from and find their sum.     Salaries, Deviations, and Squared Deviations (in Thousands of Dollars)    Salary (in Thousands)  Deviation ( )  Squared Deviation ( )   40 -4.5 (-4.5)^2 = 20.25  23 -21.5 (-21.5)^2 = 462.25  41 -3.5 (-3.5)^2 = 12.25  50 5.5 (5.5)^2 = 30.25  49 4.5 (4.5)^2 = 20.25  32 -12.5 (-12.5)^2 = 156.25  41 -3.5 (-3.5)^2 = 12.25  59 14.5 (14.5)^2 = 210.25  52 7.5 (7.5)^2 = 56.25  58 13.5 (13.5)^2 = 182.25  Total 0 1162.50     "
+},
+{
+  "id": "statistics-variance-definition",
+  "level": "2",
+  "url": "statistics-standard-deviation.html#statistics-variance-definition",
+  "type": "Definition",
+  "number": "19.9.4",
+  "title": "Variance.",
+  "body": " Variance   The variance of a distribution is the average value of its squared deviations.    Population Variance:   Sample Variance:     Why does sample variance use ?  If we know the sample mean and all but one data value, the last value is forced by the others. So only values are free to vary independently.  This is called degrees of freedom .   Stacks of 1, 2, 4, 2, 3, and 5 dots.     After rearranging, one stack is still short by one dot.     The missing stack must be height 4 to keep mean 3.     "
+},
+{
+  "id": "statistics-standard-deviation-example-2",
+  "level": "2",
+  "url": "statistics-standard-deviation.html#statistics-standard-deviation-example-2",
+  "type": "Example",
+  "number": "19.9.8",
+  "title": "Example 2.",
+  "body": " Example 2   Compute the variance for the salary example.    From Example 1, . Since , divide by :  .   "
+},
+{
+  "id": "statistics-standard-deviation-definition",
+  "level": "2",
+  "url": "statistics-standard-deviation.html#statistics-standard-deviation-definition",
+  "type": "Definition",
+  "number": "19.9.9",
+  "title": "Standard Deviation.",
+  "body": " Standard Deviation   The standard deviation is the square root of the variance.    Population Standard Deviation:   Sample Standard Deviation:      "
+},
+{
+  "id": "statistics-standard-deviation-properties",
+  "level": "2",
+  "url": "statistics-standard-deviation.html#statistics-standard-deviation-properties",
+  "type": "Definition",
+  "number": "19.9.10",
+  "title": "Important Properties of Standard Deviation.",
+  "body": " Important Properties of Standard Deviation     Measures how much data values deviate from the mean on average.  Always nonnegative; it is 0 only if all data values are identical.  Larger values indicate more variation.  Not resistant to outliers.  Has the same units as the dataset.     "
+},
+{
+  "id": "statistics-standard-deviation-example-3",
+  "level": "2",
+  "url": "statistics-standard-deviation.html#statistics-standard-deviation-example-3",
+  "type": "Example",
+  "number": "19.9.11",
+  "title": "Example 3.",
+  "body": " Example 3   Use the Summary Statistics Calculator to calculate the standard deviation of the salaries.    If your tool is still set to deviations, it should look like this:   The average value of the deviations is 0.    Change the data column back to the salary column. The standard deviation checkbox is selected by default, giving .   The column is changed back and the standard deviation is 11.3652.    Quick Note. The calculator can also display the variance.   The variance checkbox reveals a variance of 129.1667.     "
+},
+{
+  "id": "statistics-outliers-normal-distribution",
+  "level": "1",
+  "url": "statistics-outliers-normal-distribution.html",
+  "type": "Section",
+  "number": "19.10",
+  "title": "How to Find Outliers for Normal Distributions",
+  "body": " How to Find Outliers for Normal Distributions  Outliers are extreme data points that stand apart from most of a dataset. In normal distributions, identifying outliers is essential for understanding variability and detecting unusual events. This section explains how to determine whether a data point is significantly low, significantly high, or a potential outlier based on its relationship to the mean and standard deviation.   Outliers   Let and be the mean and standard deviation of a population, and let be any random value sampled from that population.    We say is significantly low if .  We say is significantly high if .  We say is a potential outlier if it is significantly low or significantly high.  We say is not significant if it is not a potential outlier.     Important Note. What counts as an outlier depends on the dataset, so we use the phrase potential outlier. These are general guidelines for what is commonly treated as extreme data, and the definition will be refined further.     Example 1   In the United States, unemployment rates follow a normal distribution with mean 5.7% and standard deviation 1.9%. Determine whether each unemployment rate is significantly high, significantly low, or not significant.    Part A: 8.2%  Part B: 1.6%  Part C: 12.4%      The significance thresholds are:    Significantly Low:   Significantly High:     Part A: 8.2%  Since 8.2% is greater than 1.9% and less than 9.5%, it is not significant .  Part B: 1.6%  Since 1.6% is less than 1.9%, it is significantly low .  Part C: 12.4%  Since 12.4% is greater than 9.5%, it is significantly high .    Outliers help identify unusual data points that may represent errors, anomalies, or special cases. For normal distributions, a data point is considered a potential outlier when it lies at least two standard deviations from the mean. Knowing how to detect outliers improves interpretation and analysis.  "
+},
+{
+  "id": "statistics-outlier-normal-definition",
+  "level": "2",
+  "url": "statistics-outliers-normal-distribution.html#statistics-outlier-normal-definition",
+  "type": "Definition",
+  "number": "19.10.1",
+  "title": "Outliers.",
+  "body": " Outliers   Let and be the mean and standard deviation of a population, and let be any random value sampled from that population.    We say is significantly low if .  We say is significantly high if .  We say is a potential outlier if it is significantly low or significantly high.  We say is not significant if it is not a potential outlier.     Important Note. What counts as an outlier depends on the dataset, so we use the phrase potential outlier. These are general guidelines for what is commonly treated as extreme data, and the definition will be refined further.   "
+},
+{
+  "id": "statistics-outlier-normal-example-1",
+  "level": "2",
+  "url": "statistics-outliers-normal-distribution.html#statistics-outlier-normal-example-1",
+  "type": "Example",
+  "number": "19.10.2",
+  "title": "Example 1.",
+  "body": " Example 1   In the United States, unemployment rates follow a normal distribution with mean 5.7% and standard deviation 1.9%. Determine whether each unemployment rate is significantly high, significantly low, or not significant.    Part A: 8.2%  Part B: 1.6%  Part C: 12.4%      The significance thresholds are:    Significantly Low:   Significantly High:     Part A: 8.2%  Since 8.2% is greater than 1.9% and less than 9.5%, it is not significant .  Part B: 1.6%  Since 1.6% is less than 1.9%, it is significantly low .  Part C: 12.4%  Since 12.4% is greater than 9.5%, it is significantly high .   "
+},
+{
+  "id": "statistics-empirical-rule",
+  "level": "1",
+  "url": "statistics-empirical-rule.html",
+  "type": "Section",
+  "number": "19.11",
+  "title": "What is the Empirical Rule?",
+  "body": " What is the Empirical Rule?  The Empirical Rule provides a simple way to understand how data is distributed in normal distributions. It states that for approximately normal datasets, the percentage of values within one, two, or three standard deviations of the mean follows predictable patterns.   The Empirical Rule   Let and be the mean and standard deviation for a normally distributed population. Then the data follow these guidelines:    Approximately 68% of the data is within one standard deviation of the mean, i.e., between and .  Approximately 95% of the data is within two standard deviations of the mean, i.e., between and .  Approximately 99.7% of the data is within three standard deviations of the mean, i.e., between and .    Notes.  When graphing a normal distribution with known mean and standard deviation, we often label the horizontal axis at , , , and . For example, if and , the normal distribution is shown below.   A normal distribution with mean 85 and standard deviation 15.      Traditionally, the Empirical Rule involved adding and subtracting multiple areas by hand. With modern tools, we can focus on the key idea: the relationship between relative frequency (percentage of data) and value ranges in a normal distribution.   Example 1   In a national survey, women aged 20 to 29 in the United States had a mean height of 64.2 inches and a standard deviation of 2.9 inches. Use the Empirical Rule Calculator to answer the following.    Part A: What percentage of women aged 20 to 29 would you expect to be between 64.2 and 67.1 inches tall?  Part B: What percentage would you expect to be taller than 70 inches?  Part C: What percentage would you expect to be shorter than 55.5 inches?      Part A  In the calculator, choose tail type Between , set and .   The Empirical Rule Calculator with mean 64.2 and standard deviation 2.9.    Since 64.2 is the peak, it is . The value 67.1 is one standard deviation to the right, so . Set lower value to and upper value to .   The percentage shown is 34%.    Therefore, approximately 34% are between 64.2 and 67.1 inches tall.  Part B  Switch tail type to Right Tail . Re-enter and (the tool may reset these). Since 70 is two standard deviations above the mean, , so set .   The right-tail percentage shown is 2.5%.    Therefore, approximately 2.5% are taller than 70 inches.  Part C  Switch tail type to Left Tail . Re-enter and . Since 55.5 is three standard deviations below the mean, , so set .   The left-tail percentage shown is 0.15%.    Therefore, approximately 0.15% are shorter than 55.5 inches.    The Empirical Rule is a powerful tool for understanding normal data. Given a mean and standard deviation, it lets us estimate percentages within value ranges and identify what is typical versus potentially unusual.  "
+},
+{
+  "id": "statistics-empirical-rule-definition",
+  "level": "2",
+  "url": "statistics-empirical-rule.html#statistics-empirical-rule-definition",
+  "type": "Definition",
+  "number": "19.11.1",
+  "title": "The Empirical Rule.",
+  "body": " The Empirical Rule   Let and be the mean and standard deviation for a normally distributed population. Then the data follow these guidelines:    Approximately 68% of the data is within one standard deviation of the mean, i.e., between and .  Approximately 95% of the data is within two standard deviations of the mean, i.e., between and .  Approximately 99.7% of the data is within three standard deviations of the mean, i.e., between and .    Notes.  When graphing a normal distribution with known mean and standard deviation, we often label the horizontal axis at , , , and . For example, if and , the normal distribution is shown below.   A normal distribution with mean 85 and standard deviation 15.     "
+},
+{
+  "id": "statistics-empirical-rule-example-1",
+  "level": "2",
+  "url": "statistics-empirical-rule.html#statistics-empirical-rule-example-1",
+  "type": "Example",
+  "number": "19.11.3",
+  "title": "Example 1.",
+  "body": " Example 1   In a national survey, women aged 20 to 29 in the United States had a mean height of 64.2 inches and a standard deviation of 2.9 inches. Use the Empirical Rule Calculator to answer the following.    Part A: What percentage of women aged 20 to 29 would you expect to be between 64.2 and 67.1 inches tall?  Part B: What percentage would you expect to be taller than 70 inches?  Part C: What percentage would you expect to be shorter than 55.5 inches?      Part A  In the calculator, choose tail type Between , set and .   The Empirical Rule Calculator with mean 64.2 and standard deviation 2.9.    Since 64.2 is the peak, it is . The value 67.1 is one standard deviation to the right, so . Set lower value to and upper value to .   The percentage shown is 34%.    Therefore, approximately 34% are between 64.2 and 67.1 inches tall.  Part B  Switch tail type to Right Tail . Re-enter and (the tool may reset these). Since 70 is two standard deviations above the mean, , so set .   The right-tail percentage shown is 2.5%.    Therefore, approximately 2.5% are taller than 70 inches.  Part C  Switch tail type to Left Tail . Re-enter and . Since 55.5 is three standard deviations below the mean, , so set .   The left-tail percentage shown is 0.15%.    Therefore, approximately 0.15% are shorter than 55.5 inches.   "
+},
+{
+  "id": "statistics-chebyshev",
+  "level": "1",
+  "url": "statistics-chebyshev.html",
+  "type": "Section",
+  "number": "19.12",
+  "title": "Chebyshev’s Inequality",
+  "body": " Chebyshev’s Inequality  Chebyshev’s Inequality is a powerful tool in statistics that applies to all data distributions, not only normal ones. Unlike the Empirical Rule, which is intended for bell-shaped distributions, Chebyshev’s Inequality guarantees a minimum percentage of data within a specified number of standard deviations from the mean regardless of shape. This makes it especially useful for skewed data.   Chebyshev’s Inequality   The formula for Chebyshev’s Inequality is:     Key Percentages    : at least 75% of the data lies within 2 standard deviations of the mean.  : at least 88.9% of the data lies within 3 standard deviations of the mean.  : at least 93.75% of the data lies within 4 standard deviations of the mean.       Example 1   A hospital is studying systolic blood pressure in a particular age group. Blood pressure is known to be skewed, not normally distributed. The mean systolic blood pressure is 120 mmHg with standard deviation 15 mmHg. Use Chebyshev’s Inequality to determine the minimum percentage of patients with systolic blood pressure between 90 mmHg and 150 mmHg.    Determine how many standard deviations each endpoint is from the mean:     For 90 mmHg:  For 150 mmHg:    Since both values are 2 standard deviations from the mean, apply Chebyshev’s Inequality with :   Conclusion. At least 75% of patients have systolic blood pressure between 90 mmHg and 150 mmHg.    Chebyshev’s Inequality is an essential tool when a distribution is unknown or skewed. It guarantees a minimum proportion of data within a specified number of standard deviations from the mean. While the Empirical Rule applies to normal distributions, Chebyshev’s Inequality applies to any distribution, making it a more universal method.  "
+},
+{
+  "id": "statistics-chebyshev-definition",
+  "level": "2",
+  "url": "statistics-chebyshev.html#statistics-chebyshev-definition",
+  "type": "Definition",
+  "number": "19.12.1",
+  "title": "Chebyshev’s Inequality.",
+  "body": " Chebyshev’s Inequality   The formula for Chebyshev’s Inequality is:     Key Percentages    : at least 75% of the data lies within 2 standard deviations of the mean.  : at least 88.9% of the data lies within 3 standard deviations of the mean.  : at least 93.75% of the data lies within 4 standard deviations of the mean.     "
+},
+{
+  "id": "statistics-chebyshev-example-1",
+  "level": "2",
+  "url": "statistics-chebyshev.html#statistics-chebyshev-example-1",
+  "type": "Example",
+  "number": "19.12.2",
+  "title": "Example 1.",
+  "body": " Example 1   A hospital is studying systolic blood pressure in a particular age group. Blood pressure is known to be skewed, not normally distributed. The mean systolic blood pressure is 120 mmHg with standard deviation 15 mmHg. Use Chebyshev’s Inequality to determine the minimum percentage of patients with systolic blood pressure between 90 mmHg and 150 mmHg.    Determine how many standard deviations each endpoint is from the mean:     For 90 mmHg:  For 150 mmHg:    Since both values are 2 standard deviations from the mean, apply Chebyshev’s Inequality with :   Conclusion. At least 75% of patients have systolic blood pressure between 90 mmHg and 150 mmHg.   "
+},
+{
+  "id": "statistics-percentile",
+  "level": "1",
+  "url": "statistics-percentile.html",
+  "type": "Section",
+  "number": "19.13",
+  "title": "How to Calculate a Percentile",
+  "body": " How to Calculate a Percentile  Percentiles describe how a data value compares to the rest of a dataset by identifying the percentage of values below it. This section explains how to calculate percentiles by hand, interpret their meaning, and use technology tools to find percentiles efficiently.   Percentiles By Hand   A percentile gives the relative standing of a data value within a dataset. The percentile is the value below which of the data falls.  Formula for the percentile rank of a data value :   How to find the data value for a specific percentile:    Step 1: Compute , where is dataset size.  Step 2: Use that position in the ordered list:  If the result is decimal, average the values at the lower and next positions.  If the result is whole, average the values at that position and the next position.       Percentiles are often denoted . For example, the 45th percentile is .     Example 1   The following data gives the number of three-point shots made by 50 randomly selected NBA players who played at least 50 games in a season.    Part A: Find the percentile of the dataset.  Part B: Find the percentile rank of a player who made 180 three-pointers.     Three-Point Shots Made by 50 NBA Players   Number of Three-Point Shots (Ordered)  5 8 12 18 22 28 35 40 48 55  60 68 72 80 85 90 98 105 110 118  125 130 135 140 148 150 158 165 170 175  180 185 190 198 205 210 220 230 240 250  260 270 280 290 300 310 320 330 340 350      Part A: Finding  Compute the location:   Since 40 is whole, average the 40th and 41st values:  three-point shots.  Part B: Percentile rank of 180   There are 30 values below 180, so  .  Therefore, 180 is the percentile, i.e. .     Percentiles Using GeoGebra   The next example uses technology to compute percentiles and percentile ranks.     Example 2   Using the same three-point dataset, answer:    Part A: Find the percentile.  Part B: Find the percentile rank of 180.      Part A  In the Summary Statistics Calculator , load the data, enable the Percentile checkbox, enter 70, and read .   The calculator reports the 70th percentile as 208.5.    For this context, round up to 209 so all values below are included.  Part B  In the Frequency Distribution Tool , disable classes and show relative\/cumulative percentages.   Tool settings for raw-data cumulative percentages.    Locate 180 in the table.   180 shows cumulative relative frequency 62%.    Cumulative relative frequency is “less than or equal to 180,” while percentile rank here is “less than 180.” So subtract 1 percentage point: 180 is the percentile.     Difference Between Cumulative Relative Frequency and Percentiles     Cumulative Relative Frequency measures the proportion less than or equal to a value in the dataset.  Percentiles measure the proportion less than a value across the data range.       Relationship Between the Median and Percentiles   The median is the 50th percentile: .  Technology may compute medians and percentiles with slightly different conventions, so values can differ slightly in practice.     Interpreting Percentiles   Interpret each statement:    Part A: A baby’s weight is in the 85th percentile.  Part B: A household income is at the 70th percentile.  Part C: A patient’s blood pressure is in the 40th percentile.  Part D: A student’s GPA is in the 75th percentile in their school.  Part E: A machine produces parts in the 98th percentile for accuracy.      Part A: The baby weighs more than 85% of peers and less than 15%.  Part B: The household earns more than 70% of households and less than 30%.  Part C: The blood pressure is higher than 40% and lower than 60% of the population.  Part D: The student’s GPA is higher than 75% of classmates; 25% are higher.  Part E: The machine is more accurate than 98% of machines; 2% are more accurate.    Percentiles let us compare individual values to a full dataset. Along with mean, median, and mode, they provide another way to describe clustering and spread, and they connect naturally to the five-number summary.  "
+},
+{
+  "id": "statistics-percentile-definition",
+  "level": "2",
+  "url": "statistics-percentile.html#statistics-percentile-definition",
+  "type": "Definition",
+  "number": "19.13.1",
+  "title": "Percentiles By Hand.",
+  "body": " Percentiles By Hand   A percentile gives the relative standing of a data value within a dataset. The percentile is the value below which of the data falls.  Formula for the percentile rank of a data value :   How to find the data value for a specific percentile:    Step 1: Compute , where is dataset size.  Step 2: Use that position in the ordered list:  If the result is decimal, average the values at the lower and next positions.  If the result is whole, average the values at that position and the next position.       Percentiles are often denoted . For example, the 45th percentile is .   "
+},
+{
+  "id": "statistics-percentile-example-1",
+  "level": "2",
+  "url": "statistics-percentile.html#statistics-percentile-example-1",
+  "type": "Example",
+  "number": "19.13.2",
+  "title": "Example 1.",
+  "body": " Example 1   The following data gives the number of three-point shots made by 50 randomly selected NBA players who played at least 50 games in a season.    Part A: Find the percentile of the dataset.  Part B: Find the percentile rank of a player who made 180 three-pointers.     Three-Point Shots Made by 50 NBA Players   Number of Three-Point Shots (Ordered)  5 8 12 18 22 28 35 40 48 55  60 68 72 80 85 90 98 105 110 118  125 130 135 140 148 150 158 165 170 175  180 185 190 198 205 210 220 230 240 250  260 270 280 290 300 310 320 330 340 350      Part A: Finding  Compute the location:   Since 40 is whole, average the 40th and 41st values:  three-point shots.  Part B: Percentile rank of 180   There are 30 values below 180, so  .  Therefore, 180 is the percentile, i.e. .   "
+},
+{
+  "id": "statistics-percentile-geogebra-heading",
+  "level": "2",
+  "url": "statistics-percentile.html#statistics-percentile-geogebra-heading",
+  "type": "Definition",
+  "number": "19.13.4",
+  "title": "Percentiles Using GeoGebra.",
+  "body": " Percentiles Using GeoGebra   The next example uses technology to compute percentiles and percentile ranks.   "
+},
+{
+  "id": "statistics-percentile-example-2",
+  "level": "2",
+  "url": "statistics-percentile.html#statistics-percentile-example-2",
+  "type": "Example",
+  "number": "19.13.5",
+  "title": "Example 2.",
+  "body": " Example 2   Using the same three-point dataset, answer:    Part A: Find the percentile.  Part B: Find the percentile rank of 180.      Part A  In the Summary Statistics Calculator , load the data, enable the Percentile checkbox, enter 70, and read .   The calculator reports the 70th percentile as 208.5.    For this context, round up to 209 so all values below are included.  Part B  In the Frequency Distribution Tool , disable classes and show relative\/cumulative percentages.   Tool settings for raw-data cumulative percentages.    Locate 180 in the table.   180 shows cumulative relative frequency 62%.    Cumulative relative frequency is “less than or equal to 180,” while percentile rank here is “less than 180.” So subtract 1 percentage point: 180 is the percentile.   "
+},
+{
+  "id": "statistics-percentile-vs-cumrelfreq",
+  "level": "2",
+  "url": "statistics-percentile.html#statistics-percentile-vs-cumrelfreq",
+  "type": "Definition",
+  "number": "19.13.9",
+  "title": "Difference Between Cumulative Relative Frequency and Percentiles.",
+  "body": " Difference Between Cumulative Relative Frequency and Percentiles     Cumulative Relative Frequency measures the proportion less than or equal to a value in the dataset.  Percentiles measure the proportion less than a value across the data range.     "
+},
+{
+  "id": "statistics-percentile-median-relationship",
+  "level": "2",
+  "url": "statistics-percentile.html#statistics-percentile-median-relationship",
+  "type": "Definition",
+  "number": "19.13.10",
+  "title": "Relationship Between the Median and Percentiles.",
+  "body": " Relationship Between the Median and Percentiles   The median is the 50th percentile: .  Technology may compute medians and percentiles with slightly different conventions, so values can differ slightly in practice.   "
+},
+{
+  "id": "statistics-percentile-example-3",
+  "level": "2",
+  "url": "statistics-percentile.html#statistics-percentile-example-3",
+  "type": "Example",
+  "number": "19.13.11",
+  "title": "Interpreting Percentiles.",
+  "body": " Interpreting Percentiles   Interpret each statement:    Part A: A baby’s weight is in the 85th percentile.  Part B: A household income is at the 70th percentile.  Part C: A patient’s blood pressure is in the 40th percentile.  Part D: A student’s GPA is in the 75th percentile in their school.  Part E: A machine produces parts in the 98th percentile for accuracy.      Part A: The baby weighs more than 85% of peers and less than 15%.  Part B: The household earns more than 70% of households and less than 30%.  Part C: The blood pressure is higher than 40% and lower than 60% of the population.  Part D: The student’s GPA is higher than 75% of classmates; 25% are higher.  Part E: The machine is more accurate than 98% of machines; 2% are more accurate.   "
+},
+{
+  "id": "statistics-z-score",
+  "level": "1",
+  "url": "statistics-z-score.html",
+  "type": "Section",
+  "number": "19.14",
+  "title": "How to Calculate a <span class=\"process-math\">\\(z\\)<\/span>-score",
+  "body": " How to Calculate a -score  A -score measures how many standard deviations a data point is from the mean, which allows direct comparisons across different datasets. This is useful for identifying unusually high or low values in settings such as test scores, physical measurements, and financial data.   -scores   A -score , also called a standard score , measures how many standard deviations a data value is above or below the mean.     Example 1   Consider a normal distribution of heights with mean 175 cm and standard deviation 7 cm.   Distribution of Heights    Height (cm)  Empirical Rule Calculation  -score   154 -3  161 -2  168 -1  175 0  182 1  189 2  196 3    Notice the multiplier on equals the -score. So, a -score directly counts how many standard deviations a value is above or below the mean.   Normal distribution with heights and z-scores labeled on the axis.       How to Calculate a -score   The general structure is:      -Score for Different Contexts      Individuals in a Population:     Individuals in a Sample:       Two normal distributions: one on the original scale and one on the z-score scale.       Important Features of -Scores     -scores measure distance from the mean and have no units.  A positive -score means the value is above the mean.  A negative -score means the value is below the mean.  A value is significantly low if .  A value is significantly high if .  -scores allow relative comparisons across different datasets.       Example 2   Men’s and women’s heights are both bell-shaped. Mean and standard deviation are:   Average Heights and Standard Deviations    Group  Mean Height (in)  Standard Deviation (in)   Men 69.9 3.0  Women 64.3 2.6    Who is relatively taller: a man or a woman who is 5'8\" (68 inches)?    Step 1: Compute z-scores    Step 2: Interpret  For men, 68 inches is below average; for women, 68 inches is above average. Since the woman’s z-score is larger, a 5'8\" woman is relatively taller than a 5'8\" man.     Example 3   The ACT has mean 20.8 and standard deviation 5.8. The SAT has mean 1500 and standard deviation 300. Who performed worse relative to peers: SAT score 1075 or ACT score 15?    Step 1: Compute z-scores    Step 2: Interpret  The SAT z-score is lower, so the SAT student performed worse relative to peers.     Extreme Values   Let and be values from one or more normal distributions. Value is more extreme than if its distance from its mean (in standard deviation units) is greater.  To compare extremeness, use absolute z-scores:    Step 1: Compute both z-scores.  Step 2: Take absolute values.  Step 3: Larger absolute z-score means more extreme value.       Example 4   Men’s weights in their 30s: mean 208 lbs, standard deviation 25 lbs. Women’s weights in their 30s: mean 175 lbs, standard deviation 20 lbs. Which is more extreme: a man who weighs 155 lbs or a woman who weighs 224 lbs?    Compute absolute z-scores.  Man (155 lbs):   Woman (224 lbs):   Since , the woman’s weight is more extreme.   Man: distance from z = -2.12 to z = 0.     Woman: distance from z = 0 to z = 2.45.       -scores provide a standardized method to compare values within and across distributions by measuring how many standard deviations a value is from the mean. They are essential for identifying extreme values, assessing relative standing, and preparing for later topics involving probabilities, confidence intervals, and hypothesis tests.  "
+},
+{
+  "id": "statistics-zscore-definition",
+  "level": "2",
+  "url": "statistics-z-score.html#statistics-zscore-definition",
+  "type": "Definition",
+  "number": "19.14.1",
+  "title": "<span class=\"process-math\">\\(z\\)<\/span>-scores.",
+  "body": " -scores   A -score , also called a standard score , measures how many standard deviations a data value is above or below the mean.   "
+},
+{
+  "id": "statistics-zscore-example-1",
+  "level": "2",
+  "url": "statistics-z-score.html#statistics-zscore-example-1",
+  "type": "Example",
+  "number": "19.14.2",
+  "title": "Example 1.",
+  "body": " Example 1   Consider a normal distribution of heights with mean 175 cm and standard deviation 7 cm.   Distribution of Heights    Height (cm)  Empirical Rule Calculation  -score   154 -3  161 -2  168 -1  175 0  182 1  189 2  196 3    Notice the multiplier on equals the -score. So, a -score directly counts how many standard deviations a value is above or below the mean.   Normal distribution with heights and z-scores labeled on the axis.     "
+},
+{
+  "id": "statistics-zscore-formula",
+  "level": "2",
+  "url": "statistics-z-score.html#statistics-zscore-formula",
+  "type": "Definition",
+  "number": "19.14.5",
+  "title": "How to Calculate a <span class=\"process-math\">\\(z\\)<\/span>-score.",
+  "body": " How to Calculate a -score   The general structure is:    "
+},
+{
+  "id": "statistics-zscore-context-formulas",
+  "level": "2",
+  "url": "statistics-z-score.html#statistics-zscore-context-formulas",
+  "type": "Definition",
+  "number": "19.14.6",
+  "title": "<span class=\"process-math\">\\(z\\)<\/span>-Score for Different Contexts.",
+  "body": " -Score for Different Contexts      Individuals in a Population:     Individuals in a Sample:       Two normal distributions: one on the original scale and one on the z-score scale.     "
+},
+{
+  "id": "statistics-zscore-features",
+  "level": "2",
+  "url": "statistics-z-score.html#statistics-zscore-features",
+  "type": "Definition",
+  "number": "19.14.8",
+  "title": "Important Features of <span class=\"process-math\">\\(z\\)<\/span>-Scores.",
+  "body": " Important Features of -Scores     -scores measure distance from the mean and have no units.  A positive -score means the value is above the mean.  A negative -score means the value is below the mean.  A value is significantly low if .  A value is significantly high if .  -scores allow relative comparisons across different datasets.     "
+},
+{
+  "id": "statistics-zscore-example-2",
+  "level": "2",
+  "url": "statistics-z-score.html#statistics-zscore-example-2",
+  "type": "Example",
+  "number": "19.14.9",
+  "title": "Example 2.",
+  "body": " Example 2   Men’s and women’s heights are both bell-shaped. Mean and standard deviation are:   Average Heights and Standard Deviations    Group  Mean Height (in)  Standard Deviation (in)   Men 69.9 3.0  Women 64.3 2.6    Who is relatively taller: a man or a woman who is 5'8\" (68 inches)?    Step 1: Compute z-scores    Step 2: Interpret  For men, 68 inches is below average; for women, 68 inches is above average. Since the woman’s z-score is larger, a 5'8\" woman is relatively taller than a 5'8\" man.   "
+},
+{
+  "id": "statistics-zscore-example-3",
+  "level": "2",
+  "url": "statistics-z-score.html#statistics-zscore-example-3",
+  "type": "Example",
+  "number": "19.14.11",
+  "title": "Example 3.",
+  "body": " Example 3   The ACT has mean 20.8 and standard deviation 5.8. The SAT has mean 1500 and standard deviation 300. Who performed worse relative to peers: SAT score 1075 or ACT score 15?    Step 1: Compute z-scores    Step 2: Interpret  The SAT z-score is lower, so the SAT student performed worse relative to peers.   "
+},
+{
+  "id": "statistics-zscore-extreme-values",
+  "level": "2",
+  "url": "statistics-z-score.html#statistics-zscore-extreme-values",
+  "type": "Definition",
+  "number": "19.14.12",
+  "title": "Extreme Values.",
+  "body": " Extreme Values   Let and be values from one or more normal distributions. Value is more extreme than if its distance from its mean (in standard deviation units) is greater.  To compare extremeness, use absolute z-scores:    Step 1: Compute both z-scores.  Step 2: Take absolute values.  Step 3: Larger absolute z-score means more extreme value.     "
+},
+{
+  "id": "statistics-zscore-example-4",
+  "level": "2",
+  "url": "statistics-z-score.html#statistics-zscore-example-4",
+  "type": "Example",
+  "number": "19.14.13",
+  "title": "Example 4.",
+  "body": " Example 4   Men’s weights in their 30s: mean 208 lbs, standard deviation 25 lbs. Women’s weights in their 30s: mean 175 lbs, standard deviation 20 lbs. Which is more extreme: a man who weighs 155 lbs or a woman who weighs 224 lbs?    Compute absolute z-scores.  Man (155 lbs):   Woman (224 lbs):   Since , the woman’s weight is more extreme.   Man: distance from z = -2.12 to z = 0.     Woman: distance from z = 0 to z = 2.45.     "
+},
+{
+  "id": "statistics-five-number-summary",
+  "level": "1",
+  "url": "statistics-five-number-summary.html",
+  "type": "Section",
+  "number": "19.15",
+  "title": "How to Calculate the Five-Number Summary",
+  "body": " How to Calculate the Five-Number Summary  Quartiles and the five-number summary are essential for describing a dataset’s distribution. Quartiles divide ordered data into four parts, and the five-number summary captures key locations that describe center and spread.   Quartiles   Quartiles split an ordered dataset into four equal parts.    First quartile  : the 25th percentile.  Second quartile  : the 50th percentile (the median).  Third quartile  : the 75th percentile.       Example 1   Scientists recorded meteorite crater diameters (km). Find and .   Meteorite Impact Crater Diameters (km)   Crater Diameters (km)   1.2 3.5 2.8 4.0 6.7 5.2 8.1 3.1 4.5 2.9 6.0 7.4       Order the data:   Median:   Lower half:  Upper half:       Example 2   A set of esports reaction times (ms) is given below. Use the Summary Statistics Calculator to compute and .   Reaction Times in an Esports Tournament (ms)   Reaction Times (ms)  175 180 185 189 190 195 195 198 200 202  205 210 210 215 215 220 225 230 235 240  245 250 250 255 260 265 270 275 280 290      Paste the data into the Summary Statistics Calculator and check the boxes for and .   The calculator reports Q1 = 198 and Q3 = 250.    Therefore, and .     The Five-Number Summary   The five-number summary is a quick numerical description of a dataset using:    Minimum   Median ( )   Maximum       Example 3   Engineers recorded top speeds (mph) of 30 roller coasters. Compute the five-number summary.   Speeds of Roller Coasters Around the World (mph)   Roller Coaster Speeds (mph)  44.7 60.9 65.2 52.8 74.6 68.4 59.0 63.3 55.3 80.8  88.2 49.7 77.7 85.7 55.9 61.5 78.9 93.2 67.1 57.8  62.1 71.3 54.0 83.9 90.2 50.9 99.4 96.3 86.8 46.6      Paste the data into the Summary Statistics Calculator , then check Minimum, , Median, , and Maximum.   The calculator displays the five-number summary.    The five-number summary is:     Quartiles and the five-number summary are fundamental tools for describing distribution shape and spread. They also prepare us for box plots and the interquartile range (IQR), which further support outlier detection and visual analysis.  "
+},
+{
+  "id": "statistics-quartiles-definition",
+  "level": "2",
+  "url": "statistics-five-number-summary.html#statistics-quartiles-definition",
+  "type": "Definition",
+  "number": "19.15.1",
+  "title": "Quartiles.",
+  "body": " Quartiles   Quartiles split an ordered dataset into four equal parts.    First quartile  : the 25th percentile.  Second quartile  : the 50th percentile (the median).  Third quartile  : the 75th percentile.     "
+},
+{
+  "id": "statistics-quartiles-example-1",
+  "level": "2",
+  "url": "statistics-five-number-summary.html#statistics-quartiles-example-1",
+  "type": "Example",
+  "number": "19.15.2",
+  "title": "Example 1.",
+  "body": " Example 1   Scientists recorded meteorite crater diameters (km). Find and .   Meteorite Impact Crater Diameters (km)   Crater Diameters (km)   1.2 3.5 2.8 4.0 6.7 5.2 8.1 3.1 4.5 2.9 6.0 7.4       Order the data:   Median:   Lower half:  Upper half:     "
+},
+{
+  "id": "statistics-quartiles-example-2",
+  "level": "2",
+  "url": "statistics-five-number-summary.html#statistics-quartiles-example-2",
+  "type": "Example",
+  "number": "19.15.4",
+  "title": "Example 2.",
+  "body": " Example 2   A set of esports reaction times (ms) is given below. Use the Summary Statistics Calculator to compute and .   Reaction Times in an Esports Tournament (ms)   Reaction Times (ms)  175 180 185 189 190 195 195 198 200 202  205 210 210 215 215 220 225 230 235 240  245 250 250 255 260 265 270 275 280 290      Paste the data into the Summary Statistics Calculator and check the boxes for and .   The calculator reports Q1 = 198 and Q3 = 250.    Therefore, and .   "
+},
+{
+  "id": "statistics-five-number-summary-definition",
+  "level": "2",
+  "url": "statistics-five-number-summary.html#statistics-five-number-summary-definition",
+  "type": "Definition",
+  "number": "19.15.7",
+  "title": "The Five-Number Summary.",
+  "body": " The Five-Number Summary   The five-number summary is a quick numerical description of a dataset using:    Minimum   Median ( )   Maximum     "
+},
+{
+  "id": "statistics-five-number-summary-example-3",
+  "level": "2",
+  "url": "statistics-five-number-summary.html#statistics-five-number-summary-example-3",
+  "type": "Example",
+  "number": "19.15.8",
+  "title": "Example 3.",
+  "body": " Example 3   Engineers recorded top speeds (mph) of 30 roller coasters. Compute the five-number summary.   Speeds of Roller Coasters Around the World (mph)   Roller Coaster Speeds (mph)  44.7 60.9 65.2 52.8 74.6 68.4 59.0 63.3 55.3 80.8  88.2 49.7 77.7 85.7 55.9 61.5 78.9 93.2 67.1 57.8  62.1 71.3 54.0 83.9 90.2 50.9 99.4 96.3 86.8 46.6      Paste the data into the Summary Statistics Calculator , then check Minimum, , Median, , and Maximum.   The calculator displays the five-number summary.    The five-number summary is:    "
+},
+{
+  "id": "statistics-iqr-rule",
+  "level": "1",
+  "url": "statistics-iqr-rule.html",
+  "type": "Section",
+  "number": "19.16",
+  "title": "How to Find Outliers for Skewed Data",
+  "body": " How to Find Outliers for Skewed Data  When data is skewed, the empirical rule is not reliable for identifying outliers. Instead, the interquartile range (IQR) method uses the spread of the middle 50% of the data to detect unusually low or high values.   Interquartile Range   The interquartile range (IQR) measures the spread of the middle 50% of a dataset:   The IQR is useful for skewed data because it is resistant to extreme values.     Example 1   Astronomers recorded brightness (apparent magnitude) for newly discovered exoplanets. Compute the interquartile range.   Exoplanet Brightness Measurements   Brightness (Magnitude)   -3.4 -2.9 -2.5 -2.2 -1.8 -1.5 -1.2 -0.9 -0.7 -0.5    -0.3 -0.1 0.2 0.4 0.7 1.0 1.3 1.7 2.1 3.8       Step 1: Use the Summary Statistics Calculator to find and .   The calculator reports Q1 = -1.65 and Q3 = 0.85.    Step 2: Compute IQR.      IQR Rule for Outliers   For skewed data, a value is an outlier if it lies too far from the middle 50% of the distribution.    Any value less than is significantly low .  Any value greater than is significantly high .       Example 2   A record label tracks song streams (millions) for new releases. Identify outliers using the IQR method.   Music Streaming Counts (Millions)   Streams   1.2 1.5 2.1 2.4 2.9 3.3 3.6 4.0 4.2 4.8    5.1 5.7 6.0 6.2 6.8 7.3 8.1 8.5 9.0 15.4       Step 1: Use the Summary Statistics Calculator to find and .   The calculator reports Q1 = 3.1 and Q3 = 7.05.    Step 2: Compute IQR.   Step 3: Compute outlier bounds.    Step 4: Identify outliers.  No stream counts are below the lower bound. The value 15.4 is above 12.975, so it is significantly high.    The IQR method is a robust way to identify outliers in skewed datasets across many fields. Next, boxplots use the five-number summary and IQR to visualize distribution shape and outliers.  "
+},
+{
+  "id": "statistics-iqr-definition",
+  "level": "2",
+  "url": "statistics-iqr-rule.html#statistics-iqr-definition",
+  "type": "Definition",
+  "number": "19.16.1",
+  "title": "Interquartile Range.",
+  "body": " Interquartile Range   The interquartile range (IQR) measures the spread of the middle 50% of a dataset:   The IQR is useful for skewed data because it is resistant to extreme values.   "
+},
+{
+  "id": "statistics-iqr-example-1",
+  "level": "2",
+  "url": "statistics-iqr-rule.html#statistics-iqr-example-1",
+  "type": "Example",
+  "number": "19.16.2",
+  "title": "Example 1.",
+  "body": " Example 1   Astronomers recorded brightness (apparent magnitude) for newly discovered exoplanets. Compute the interquartile range.   Exoplanet Brightness Measurements   Brightness (Magnitude)   -3.4 -2.9 -2.5 -2.2 -1.8 -1.5 -1.2 -0.9 -0.7 -0.5    -0.3 -0.1 0.2 0.4 0.7 1.0 1.3 1.7 2.1 3.8       Step 1: Use the Summary Statistics Calculator to find and .   The calculator reports Q1 = -1.65 and Q3 = 0.85.    Step 2: Compute IQR.    "
+},
+{
+  "id": "statistics-iqr-outlier-rule",
+  "level": "2",
+  "url": "statistics-iqr-rule.html#statistics-iqr-outlier-rule",
+  "type": "Definition",
+  "number": "19.16.5",
+  "title": "IQR Rule for Outliers.",
+  "body": " IQR Rule for Outliers   For skewed data, a value is an outlier if it lies too far from the middle 50% of the distribution.    Any value less than is significantly low .  Any value greater than is significantly high .     "
+},
+{
+  "id": "statistics-iqr-example-2",
+  "level": "2",
+  "url": "statistics-iqr-rule.html#statistics-iqr-example-2",
+  "type": "Example",
+  "number": "19.16.6",
+  "title": "Example 2.",
+  "body": " Example 2   A record label tracks song streams (millions) for new releases. Identify outliers using the IQR method.   Music Streaming Counts (Millions)   Streams   1.2 1.5 2.1 2.4 2.9 3.3 3.6 4.0 4.2 4.8    5.1 5.7 6.0 6.2 6.8 7.3 8.1 8.5 9.0 15.4       Step 1: Use the Summary Statistics Calculator to find and .   The calculator reports Q1 = 3.1 and Q3 = 7.05.    Step 2: Compute IQR.   Step 3: Compute outlier bounds.    Step 4: Identify outliers.  No stream counts are below the lower bound. The value 15.4 is above 12.975, so it is significantly high.   "
+},
+{
+  "id": "statistics-boxplot",
+  "level": "1",
+  "url": "statistics-boxplot.html",
+  "type": "Section",
+  "number": "19.17",
+  "title": "How to Create a Boxplot",
+  "body": " How to Create a Boxplot  A boxplot (box-and-whisker plot) is a graphical summary of a dataset. It uses the five-number summary to show spread and skewness and can also be used to identify outliers.   Boxplot   A boxplot displays distribution shape and spread using a box and whiskers based on the five-number summary.    Draw vertical marks at , , and , then connect and to form the box.  Draw a whisker from the left side of the box ( ) to the minimum value.  Draw a whisker from the right side of the box ( ) to the maximum value.    Some boxplots mark outliers, but the version here does not.     How to Draw a Boxplot   Steps to construct a boxplot:    Find the five-number summary.  Draw the box: from to , with a vertical line at the median.  Draw the whiskers: from the box out to the minimum and maximum.       Example 1   This dataset gives gaming session lengths (minutes) for 25 players. Construct a boxplot.   Gaming Session Lengths (Minutes)   Session Lengths (Minutes)  15 30 45 60 75  120 150 90 200 180  95 110 130 140 85  70 160 170 55 40  190 210 35 100 250      Load the data into the Summary Statistics Calculator and show Minimum, , Median, , and Maximum.   The five-number summary for gaming session lengths.    This gives .  Draw a number line and mark the five summary values, then add vertical marks at , Median, and .   Marked number line with vertical lines at Q1, median, and Q3.    Draw the box.   The box is drawn from Q1 to Q3 with the median line.    Draw the left whisker from to the minimum.   The left whisker is added.    Draw the right whisker from to the maximum.   The completed boxplot with both whiskers.       Example 2   During exam week, researchers recorded cups of coffee consumed daily by 30 students. Use the Boxplot Generator to construct a boxplot.   Coffee Consumption (Cups per Day)   Number of Cups  0 1 2 3 5 3 4 6 7 2  3 4 5 1 0 8 3 6 4 5  2 7 3 4 6 2 1 5 3 4      Paste the data into the Boxplot Generator spreadsheet and close it. The boxplot is generated automatically.   Boxplot for cups of coffee consumed per day.       Skewness in Boxplots   A boxplot reveals skewness from median location and whisker lengths.    Approximately normal: median centered in the box and whiskers of similar length.  Left skewed: median closer to or left whisker longer.  Right skewed: median closer to or right whisker longer.     Example of a roughly normal boxplot.     Example of a left-skewed boxplot.     Example of a right-skewed boxplot.       Comparing Datasets Using Boxplots   Boxplots are useful for comparison because they provide:    Side-by-side distribution comparison of center, spread, and skewness.  Quick variability insight through the IQR (box width).  Easy skewness detection from median placement and whisker lengths.  Compact summaries that are easy to read in reports.       Example 3   Compare 100m sprint times (seconds) for high-school and Olympic athletes using the Boxplot Generator .   100m Sprint Times: High School vs. Olympic Athletes    High School (s)  Olympic (s)   10.55 10.60 10.65 10.72 10.78 9.58 9.69 9.72 9.76 9.81  10.82 10.85 10.89 10.94 10.98 9.85 9.88 9.91 9.93 9.95  11.02 11.07 11.10 11.14 11.18 9.98 10.01 10.03 10.05 10.08  11.21 11.25 11.29 11.35 11.40 10.12 10.15 10.19 10.22 10.25      Paste the two-column data into the Boxplot Generator. First, the high-school plot appears.   Boxplot for high-school sprint times.    Set number of datasets to Two and choose column B for dataset 2 to show side-by-side plots.   Side-by-side boxplots for high-school and Olympic times.    The high-school times are slower overall and show a wider IQR (more variability). Olympic times are lower and slightly left-skewed, indicating a few exceptionally fast performances.    Boxplots summarize distribution shape, spread, and potential outliers in a compact graph. They are especially useful for comparing populations such as high-school and Olympic athletes with different performance levels.  "
+},
+{
+  "id": "statistics-boxplot-definition",
+  "level": "2",
+  "url": "statistics-boxplot.html#statistics-boxplot-definition",
+  "type": "Definition",
+  "number": "19.17.1",
+  "title": "Boxplot.",
+  "body": " Boxplot   A boxplot displays distribution shape and spread using a box and whiskers based on the five-number summary.    Draw vertical marks at , , and , then connect and to form the box.  Draw a whisker from the left side of the box ( ) to the minimum value.  Draw a whisker from the right side of the box ( ) to the maximum value.    Some boxplots mark outliers, but the version here does not.   "
+},
+{
+  "id": "statistics-boxplot-steps",
+  "level": "2",
+  "url": "statistics-boxplot.html#statistics-boxplot-steps",
+  "type": "Definition",
+  "number": "19.17.2",
+  "title": "How to Draw a Boxplot.",
+  "body": " How to Draw a Boxplot   Steps to construct a boxplot:    Find the five-number summary.  Draw the box: from to , with a vertical line at the median.  Draw the whiskers: from the box out to the minimum and maximum.     "
+},
+{
+  "id": "statistics-boxplot-example-1",
+  "level": "2",
+  "url": "statistics-boxplot.html#statistics-boxplot-example-1",
+  "type": "Example",
+  "number": "19.17.3",
+  "title": "Example 1.",
+  "body": " Example 1   This dataset gives gaming session lengths (minutes) for 25 players. Construct a boxplot.   Gaming Session Lengths (Minutes)   Session Lengths (Minutes)  15 30 45 60 75  120 150 90 200 180  95 110 130 140 85  70 160 170 55 40  190 210 35 100 250      Load the data into the Summary Statistics Calculator and show Minimum, , Median, , and Maximum.   The five-number summary for gaming session lengths.    This gives .  Draw a number line and mark the five summary values, then add vertical marks at , Median, and .   Marked number line with vertical lines at Q1, median, and Q3.    Draw the box.   The box is drawn from Q1 to Q3 with the median line.    Draw the left whisker from to the minimum.   The left whisker is added.    Draw the right whisker from to the maximum.   The completed boxplot with both whiskers.     "
+},
+{
+  "id": "statistics-boxplot-example-2",
+  "level": "2",
+  "url": "statistics-boxplot.html#statistics-boxplot-example-2",
+  "type": "Example",
+  "number": "19.17.10",
+  "title": "Example 2.",
+  "body": " Example 2   During exam week, researchers recorded cups of coffee consumed daily by 30 students. Use the Boxplot Generator to construct a boxplot.   Coffee Consumption (Cups per Day)   Number of Cups  0 1 2 3 5 3 4 6 7 2  3 4 5 1 0 8 3 6 4 5  2 7 3 4 6 2 1 5 3 4      Paste the data into the Boxplot Generator spreadsheet and close it. The boxplot is generated automatically.   Boxplot for cups of coffee consumed per day.     "
+},
+{
+  "id": "statistics-boxplot-skewness",
+  "level": "2",
+  "url": "statistics-boxplot.html#statistics-boxplot-skewness",
+  "type": "Definition",
+  "number": "19.17.13",
+  "title": "Skewness in Boxplots.",
+  "body": " Skewness in Boxplots   A boxplot reveals skewness from median location and whisker lengths.    Approximately normal: median centered in the box and whiskers of similar length.  Left skewed: median closer to or left whisker longer.  Right skewed: median closer to or right whisker longer.     Example of a roughly normal boxplot.     Example of a left-skewed boxplot.     Example of a right-skewed boxplot.     "
+},
+{
+  "id": "statistics-boxplot-comparison-advantages",
+  "level": "2",
+  "url": "statistics-boxplot.html#statistics-boxplot-comparison-advantages",
+  "type": "Definition",
+  "number": "19.17.17",
+  "title": "Comparing Datasets Using Boxplots.",
+  "body": " Comparing Datasets Using Boxplots   Boxplots are useful for comparison because they provide:    Side-by-side distribution comparison of center, spread, and skewness.  Quick variability insight through the IQR (box width).  Easy skewness detection from median placement and whisker lengths.  Compact summaries that are easy to read in reports.     "
+},
+{
+  "id": "statistics-boxplot-example-3",
+  "level": "2",
+  "url": "statistics-boxplot.html#statistics-boxplot-example-3",
+  "type": "Example",
+  "number": "19.17.18",
+  "title": "Example 3.",
+  "body": " Example 3   Compare 100m sprint times (seconds) for high-school and Olympic athletes using the Boxplot Generator .   100m Sprint Times: High School vs. Olympic Athletes    High School (s)  Olympic (s)   10.55 10.60 10.65 10.72 10.78 9.58 9.69 9.72 9.76 9.81  10.82 10.85 10.89 10.94 10.98 9.85 9.88 9.91 9.93 9.95  11.02 11.07 11.10 11.14 11.18 9.98 10.01 10.03 10.05 10.08  11.21 11.25 11.29 11.35 11.40 10.12 10.15 10.19 10.22 10.25      Paste the two-column data into the Boxplot Generator. First, the high-school plot appears.   Boxplot for high-school sprint times.    Set number of datasets to Two and choose column B for dataset 2 to show side-by-side plots.   Side-by-side boxplots for high-school and Olympic times.    The high-school times are slower overall and show a wider IQR (more variability). Olympic times are lower and slightly left-skewed, indicating a few exceptionally fast performances.   "
+},
+{
   "id": "appendix-a",
   "level": "1",
   "url": "appendix-a.html",
@@ -3875,7 +4775,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-def-quadratic-equations",
   "type": "Definition",
-  "number": "C.1.27",
+  "number": "C.1.22",
   "title": "Quadratic Equations.",
   "body": " Quadratic Equations   Let , , and be real numbers with . Any equation of the form is called a quadratic equation in .   "
 },
@@ -3893,7 +4793,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-def-zero-product-property",
   "type": "Theorem",
-  "number": "C.1.28",
+  "number": "C.1.23",
   "title": "The Zero Product Property.",
   "body": " The Zero Product Property   Let and be algebraic expressions such that . Then or .   "
 },
@@ -3929,7 +4829,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-thm-difference-of-squares",
   "type": "Theorem",
-  "number": "C.1.29",
+  "number": "C.1.24",
   "title": "Difference of Squares.",
   "body": " Difference of Squares   For all positive real numbers , , the equation is always true.   "
 },
@@ -3947,7 +4847,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-thm-sum-of-cubes",
   "type": "Theorem",
-  "number": "C.1.30",
+  "number": "C.1.25",
   "title": "Sum of Cubes.",
   "body": " Sum of Cubes   For all real numbers and , the equation is true.   "
 },
@@ -3965,7 +4865,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-thm-difference-of-cubes",
   "type": "Theorem",
-  "number": "C.1.31",
+  "number": "C.1.26",
   "title": "Difference of Cubes.",
   "body": " Difference of Cubes   For all real numbers and , the equation is true.   "
 },
@@ -3983,7 +4883,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-solving-by-grouping",
   "type": "Procedure",
-  "number": "C.1.32",
+  "number": "C.1.27",
   "title": "Solving an Equation by Factoring by Grouping.",
   "body": " Solving an Equation by Factoring by Grouping   Consider any polynomial with an even number of terms. The following steps show how to solve an equation using the factor by grouping method.    Make sure one side of the equation is equal to zero.  Group terms into pairs using parentheses. Put a plus sign between each pair of terms. All negative or minus signs come into the parentheses with the number.  Factor out the GCF from each grouped pair.  The binomial left behind after factoring out the GCF should be the same for each term. If it is not, repeat steps 1 and 2 until you get a common binomial.  Factor out the common binomial.  Perform any additional factoring needed until you get a complete factorization.  Use the Zero Product Property to finish solving the problem.     "
 },
@@ -4001,7 +4901,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-ac-method",
   "type": "Procedure",
-  "number": "C.1.33",
+  "number": "C.1.28",
   "title": "Using the <span class=\"process-math\">\\(ac\\)<\/span>-Method to Solve a Quadratic Equation.",
   "body": " Using the -Method to Solve a Quadratic Equation   Let be a quadratic function. If there are factors of the product that add to , we can factor this trinomial and use the Zero Product Property to solve for . Here is how to check if we can factor using this method.    Compute the product .  List all the factors of the product. You are looking for one of two things:  If , find two numbers whose sum equals .  If , find two numbers whose difference equals .  If you cannot find such a pair, you cannot use this method.     Suppose you find factors and such that and . Then replace with to get .  Use Factor by Grouping to solve the equation.     "
 },
@@ -4019,7 +4919,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-slide-and-divide",
   "type": "Procedure",
-  "number": "C.1.34",
+  "number": "C.1.29",
   "title": "Slide and Divide.",
   "body": " Slide and Divide   Let with . To perform slide-and-divide, follow these steps:    Rewrite the equation as . (This is the slide step.)  Factor using the -method as .  Divide the values of and by to get .  Simplify the fractions.  Use the Zero Product Property to solve for .     "
 },
@@ -4037,7 +4937,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-thm-square-root-theorem",
   "type": "Theorem",
-  "number": "C.1.35",
+  "number": "C.1.30",
   "title": "Square Root Theorem.",
   "body": " Square Root Theorem   Let . If , then .   "
 },
@@ -4055,7 +4955,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-def-perfect-square-trinomials",
   "type": "Definition",
-  "number": "C.1.36",
+  "number": "C.1.31",
   "title": "Perfect Square Trinomials.",
   "body": " Perfect Square Trinomials   Let and be any real, nonzero numbers. Then the following two equations are true.      "
 },
@@ -4064,7 +4964,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-how-to-recognize-perfect-square-trinomials",
   "type": "Procedure",
-  "number": "C.1.37",
+  "number": "C.1.32",
   "title": "How to Recognize Perfect Square Trinomials.",
   "body": " How to Recognize Perfect Square Trinomials   If you notice that the coefficient of and the constant term are both perfect squares, it is worth checking if you have a perfect square trinomial. In order to do this:    Take the square root of the coefficient of and the constant term.  Multiply these resulting numbers together.  See if the coefficient of is twice those numbers. If it is, you can use one of the above equations.   The equation you use is based on the sign of the coefficient of .  If the coefficient of is positive, use the identity .  If the coefficient of is negative, use the identity .        "
 },
@@ -4082,7 +4982,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-completing-the-square-traditional-method",
   "type": "Procedure",
-  "number": "C.1.38",
+  "number": "C.1.33",
   "title": "Completing the Square (Traditional Method).",
   "body": " Completing the Square (Traditional Method)   Let with and . Follow the steps below to complete the square.    Move to the other side of the equation to get .  Divide each term by the leading coefficient to get .  Divide by 2 to get .  Compute .  Add to both sides of the equation.  The left-hand side is now a perfect square trinomial and can be factored as . The equation becomes .  Use the Square Root Property to solve for .     "
 },
@@ -4100,7 +5000,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-equations.html#lecture-notes-lem-completing-the-square-box-method",
   "type": "Procedure",
-  "number": "C.1.39",
+  "number": "C.1.34",
   "title": "Completing the Square (Box Method).",
   "body": " Completing the Square (Box Method)   Let with and . Follow the steps below to complete the square.    Move to the other side of the equation to get .  Divide each term by the leading coefficient to get .  Divide by 2 to get .   Draw a box similar to the table below.   Box Method                     The area of the box is . This becomes the new left-hand side of the equation.  Add to the right-hand side of the equation.  Use the Square Root Property to solve for .     "
 },
@@ -4127,7 +5027,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-def-definition-of-i",
   "type": "Definition",
-  "number": "C.2.41",
+  "number": "C.2.36",
   "title": "Definition of <span class=\"process-math\">\\(i\\)<\/span>.",
   "body": " Definition of   The imaginary number  is the positive solution to the equation .   "
 },
@@ -4136,7 +5036,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-thm-divisibility-rule-for-4",
   "type": "Theorem",
-  "number": "C.2.42",
+  "number": "C.2.37",
   "title": "Divisibility Rule for 4.",
   "body": " Divisibility Rule for 4   An integer is divisible by if its last two digits form a number that is divisible by .   "
 },
@@ -4145,7 +5045,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-note-divisibility-rule-in-terms-of-remainders",
   "type": "Note",
-  "number": "C.2.43",
+  "number": "C.2.38",
   "title": "Divisibility Rule in Terms of Remainders.",
   "body": " Divisibility Rule in Terms of Remainders  In the language above, this means that a number is divisible by if you divide the last two digits by and get a remainder of .  "
 },
@@ -4154,7 +5054,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-lem-computing-powers-of-i",
   "type": "Procedure",
-  "number": "C.2.44",
+  "number": "C.2.39",
   "title": "Computing Powers of <span class=\"process-math\">\\(i\\)<\/span>.",
   "body": " Computing Powers of   To evaluate for any positive integer , complete the following steps.    Divide the last two digits of by using long division and determine the remainder. You should get , , , or .   The remainder tells you which power of to use from this list.       "
 },
@@ -4172,7 +5072,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-def-complex-number",
   "type": "Definition",
-  "number": "C.2.45",
+  "number": "C.2.40",
   "title": "Complex Number.",
   "body": " Complex Number   Let and be any real numbers. A complex number is any number of the form .   "
 },
@@ -4181,7 +5081,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-fig-rectangular-and-complex-visualization",
   "type": "Figure",
-  "number": "C.2.46",
+  "number": "C.2.41",
   "title": "",
   "body": " Two ways to visualize the point . In rectangular coordinates, it is represented as a dot. As a complex number, it is represented as an arrow pointing from to .   An arrow labeled 3+4i points from the origin to the point (3,4).   "
 },
@@ -4190,7 +5090,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-lem-how-to-add-complex-numbers",
   "type": "Procedure",
-  "number": "C.2.47",
+  "number": "C.2.42",
   "title": "How to Add Complex Numbers.",
   "body": " How to Add Complex Numbers   Let and be any two complex numbers. Then .  In other words, just add like terms.   "
 },
@@ -4208,7 +5108,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-lem-how-to-subtract-complex-numbers",
   "type": "Procedure",
-  "number": "C.2.48",
+  "number": "C.2.43",
   "title": "How to Subtract Complex Numbers.",
   "body": " How to Subtract Complex Numbers   Let and be any two complex numbers. Then .  In other words, distribute the negative and add like terms.   "
 },
@@ -4226,7 +5126,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-lem-how-to-multiply-complex-numbers",
   "type": "Procedure",
-  "number": "C.2.49",
+  "number": "C.2.44",
   "title": "How to Multiply Complex Numbers.",
   "body": " How to Multiply Complex Numbers   Let and be any two complex numbers. Then .  In other words, just FOIL it out and simplify using .   "
 },
@@ -4244,7 +5144,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-def-the-complex-conjugate",
   "type": "Definition",
-  "number": "C.2.50",
+  "number": "C.2.45",
   "title": "The Complex Conjugate.",
   "body": " The Complex Conjugate   Let be any complex number. Then its complex conjugate is the complex number .   "
 },
@@ -4280,7 +5180,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-thm-sum-of-squares-formula",
   "type": "Theorem",
-  "number": "C.2.51",
+  "number": "C.2.46",
   "title": "Sum of Squares Formula.",
   "body": " Sum of Squares Formula   For any real numbers and , it is always true that . In other words, the sum of squares is the product of a complex number and its complex conjugate.   "
 },
@@ -4307,7 +5207,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-complex-numbers.html#lecture-notes-pulling-out-negative",
   "type": "Theorem",
-  "number": "C.2.52",
+  "number": "C.2.47",
   "title": "Pulling out the Negative as <span class=\"process-math\">\\(i\\)<\/span>.",
   "body": " Pulling out the Negative as   Let . Then .   "
 },
@@ -4361,7 +5261,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "lecture-notes-worksheet-quadratic-formula.html#lecture-notes-the-quadratic-formula",
   "type": "Theorem",
-  "number": "C.3.53",
+  "number": "C.3.48",
   "title": "The Quadratic Formula.",
   "body": " The Quadratic Formula   Let , , and be any real numbers with . Then the solutions to the quadratic equation can be found using the formula    "
 },
@@ -4397,7 +5297,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "lecture-notes-worksheet-quadratic-formula.html#lecture-notes-the-discriminant",
   "type": "Definition",
-  "number": "C.3.54",
+  "number": "C.3.49",
   "title": "The Discriminant.",
   "body": " The Discriminant   We call the value the discriminant of the quadratic equation. We denote the discriminant by the letter , which gives us the equation .  In particular, the discriminant tells us the following information:    If , then the quadratic equation has two distinct, real-valued solutions.  If , then the quadratic equation has a unique, real-valued solution.  If , then the quadratic equation has a pair of complex-valued solutions that are complex conjugates of one another.     "
 },
@@ -4433,7 +5333,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "lecture-notes-worksheet-quadratic-formula.html#lecture-notes-solving-equations-that-are-quadratic-in-form",
   "type": "Procedure",
-  "number": "C.3.55",
+  "number": "C.3.50",
   "title": "Solving Equations that are Quadratic in Form.",
   "body": " Solving Equations that are Quadratic in Form     Make a substitution that transforms the given equation into the quadratic equation .  Solve this new quadratic with any method you know.  You should get one or two equations starting with . Use your original substitution from Step 1 to convert your equations back to .  Solve the equation(s) for .  Check your solutions (required).     "
 },
@@ -4469,7 +5369,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#worksheet-quadratic-functions-2",
   "type": "Figure",
-  "number": "C.4.56",
+  "number": "C.4.51",
   "title": "",
   "body": " The two possible graphs of a quadratic function    The parabola opens upwards when a > 0   The graph of f(x) = x^2 + 4x + 5     The parabola opens downwards when a < 0   The graph of f(x) = -x^2 + 2x + 1     "
 },
@@ -4478,7 +5378,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-quadratic-functions-summary",
   "type": "Table",
-  "number": "C.4.57",
+  "number": "C.4.52",
   "title": "Properties of Quadratic Functions",
   "body": " Properties of Quadratic Functions    Direction  Upwards  Downwards    Value of Leading Coefficient      Standard Form      Vertex Form      Vertex      Axis of Symmetry      Domain      Range      -intercept(s) Only exist when . Otherwise, DNE.      -intercept      Increasing      Decreasing      Constant  N\/A  N\/A    Local Extrema      Absolute Extrema      "
 },
@@ -4487,7 +5387,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-standard-form-of-a-quadratic",
   "type": "Definition",
-  "number": "C.4.58",
+  "number": "C.4.53",
   "title": "The Standard Form of a Quadratic.",
   "body": " The Standard Form of a Quadratic   The standard form of a quadratic function is   "
 },
@@ -4496,7 +5396,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-vertex-form-and-related-information",
   "type": "Theorem",
-  "number": "C.4.59",
+  "number": "C.4.54",
   "title": "The Vertex Form and Related Information.",
   "body": " The Vertex Form and Related Information   Let be a quadratic function in standard form. The vertex form of a quadratic function is given by where and are the coordinates for the vertex of the function.  There are two important definitions related to the vertex form.    The vertex of the parabola is the absolute minimum (when ) or the absolute maximum (when ) of the function. Note that the vertex is both a local and absolute extremum.  The axis of symmetry of a parabola is the vertical line that divides the parabola into two mirror images. Every point on one side of this line has a corresponding point on the other side that is the same distance from the line.     The graph of a generic parabola with the vertex and axis of symmetry labeled. Two mirrored points are labeled, and the distances from the points to the axis of symmetry are shown as equal.    An upwards-facing parabola.   A labeled, upwards-facing parabola with vertex and axis of symmetry.     A downwards-facing parabola.   A labeled, downwards-facing parabola with vertex and axis of symmetry.       "
 },
@@ -4514,7 +5414,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-formula-for-the-vertex-of-a-parabola",
   "type": "Theorem",
-  "number": "C.4.61",
+  "number": "C.4.56",
   "title": "Formula for the Vertex of a Parabola.",
   "body": " Formula for the Vertex of a Parabola   Let be a quadratic function. Then the formula for the vertex is   We can also rewrite this as the pair of equations      "
 },
@@ -4532,7 +5432,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-graphing-quadratic-functions",
   "type": "Procedure",
-  "number": "C.4.62",
+  "number": "C.4.57",
   "title": "Graphing Quadratic Functions.",
   "body": " Graphing Quadratic Functions   Let be a quadratic function in vertex form. Perform the following steps to plot its graph.    Plot the vertex .  To find another point, add to and add to . Then plot the point.  To find an additional point, add to and add to . Then plot the point.  Use the axis of symmetry to find and plot the last two points.  Draw a parabola through all five points.     "
 },
@@ -4586,7 +5486,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-quadratic-functions.html#lecture-notes-height-of-projectiles",
   "type": "Theorem",
-  "number": "C.4.64",
+  "number": "C.4.59",
   "title": "Height of Projectiles.",
   "body": " Height of Projectiles   The height of a projectile (in feet, ignoring air resistance) is given by the equation where is the initial velocity (in feet per second) and is the initial height (in feet).   "
 },
@@ -4622,7 +5522,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-polynomial-function",
   "type": "Definition",
-  "number": "C.5.66",
+  "number": "C.5.61",
   "title": "Polynomial Function.",
   "body": " Polynomial Function   Let , , , , , be any real numbers with and an integer . The standard form of a polynomial function is any function of the form . There are four important definitions related to polynomial functions that we will use in Chapters 5 and 6.  The highest power of is called the degree of the polynomial function. The degree of a generic function is denoted as .  The term containing the highest power of is called the leading term . The leading term of a generic polynomial function is denoted as .  is called the leading coefficient .  The term without any variables is called the constant term . The constant term of a generic polynomial is denoted as .     "
 },
@@ -4667,7 +5567,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-leading-coefficient-test",
   "type": "Theorem",
-  "number": "C.5.67",
+  "number": "C.5.62",
   "title": "The Leading Coefficient Test.",
   "body": " The Leading Coefficient Test   Let be any polynomial function with leading term . The following figures describe the four different types of end behavior a polynomial function may have.   For odd degree polynomials, the graph will have opposite end behaviors.     If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow falling down to the left.      The graph of an odd degree polynomial with positive leading coefficient.      If and is odd, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow rising up to the left.      The graph of an odd degree polynomial with negative leading coefficient.       For even degree polynomials, the graph will have the same end behaviors.     If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow rising up to the right and an arrow rising up to the left.      The graph of an even degree polynomial with positive leading coefficient.      If and is even, then  will approach as approaches ,  will approach as approaches , and  we draw an arrow falling down to the right and an arrow falling down to the left.      The graph of an even degree polynomial with negative leading coefficient.       "
 },
@@ -4685,7 +5585,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-complete-linear-factorization-theorem",
   "type": "Theorem",
-  "number": "C.5.70",
+  "number": "C.5.65",
   "title": "",
   "body": "  The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .   "
 },
@@ -4703,7 +5603,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-zero-of-a-polynomial",
   "type": "Definition",
-  "number": "C.5.71",
+  "number": "C.5.66",
   "title": "",
   "body": " A complex number is a zero of a polynomial function if .  "
 },
@@ -4712,7 +5612,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-zeros-alternate-names",
   "type": "Note",
-  "number": "C.5.72",
+  "number": "C.5.67",
   "title": "",
   "body": " Zeros are also called the roots or solutions of the polynomial equation .  "
 },
@@ -4730,7 +5630,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-multiplicity-of-a-zero-definition",
   "type": "Definition",
-  "number": "C.5.73",
+  "number": "C.5.68",
   "title": "The Multiplicity of a Zero.",
   "body": " The Multiplicity of a Zero   Let be any polynomial function that has a factor of , where .   The exponent is called the multiplicity of the zero .    If , then is called a repeated zero of .      "
 },
@@ -4748,7 +5648,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-properties-polynomials.html#lecture-notes-shape-of-graph-near-x-intercept",
   "type": "Theorem",
-  "number": "C.5.74",
+  "number": "C.5.69",
   "title": "The Shape of the Graph Near an <span class=\"process-math\">\\(x\\)<\/span>-intercept.",
   "body": " The Shape of the Graph Near an -intercept   Suppose is a zero of a polynomial that has multiplicity . The following figures illustrate the different ways a polynomial can behave near the -intercept .   The graph will cross as a straight-ish line if .    The graph can either cross from upper left to lower right.     Or the graph can cross from lower left to upper right.       The graph will cross at similar to how crosses at if and is odd.    The graph can either cross from upper left to lower right while flattening at .     Or the graph can cross from lower left to upper right while flattening at .       The graph will bounce off the -axis at if is even.    Bounce off the -axis at from above.     Bounce off the -axis at from below.       "
 },
@@ -4775,7 +5675,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-graphing-polynomial-functions",
   "type": "Procedure",
-  "number": "C.6.78",
+  "number": "C.6.73",
   "title": "Graphing Polynomial Functions.",
   "body": " Graphing Polynomial Functions   Let be any polynomial function. Use the following steps to sketch a graph by hand.  Determine the end behavior.  Find the -intercept.  Determine the zeroes (if they exist) and their multiplicities.  Plot additional points as necessary.  Make sure there are no more than turning points (local extrema).     "
 },
@@ -4793,7 +5693,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#ws-factor-theorem-5",
   "type": "Figure",
-  "number": "C.6.79",
+  "number": "C.6.74",
   "title": "",
   "body": " The graph of .   "
 },
@@ -4802,7 +5702,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-division-algorithm-natural-numbers",
   "type": "Theorem",
-  "number": "C.6.80",
+  "number": "C.6.75",
   "title": "The Division Algorithm for Natural Numbers.",
   "body": " The Division Algorithm for Natural Numbers   Let and be natural numbers (nonzero, positive, whole numbers). Then there exist two unique numbers, a quotient  and a remainder  , such that , where .  is known as the dividend .  is known as the divisor .     "
 },
@@ -4829,7 +5729,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-zero-polynomial",
   "type": "Definition",
-  "number": "C.6.81",
+  "number": "C.6.76",
   "title": "The Zero Polynomial.",
   "body": " The Zero Polynomial   The zero polynomial is the polynomial whose value is zero for every value of . We write the zero polynomial as for all real numbers .   "
 },
@@ -4838,7 +5738,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#ws-factor-theorem-11",
   "type": "Note",
-  "number": "C.6.82",
+  "number": "C.6.77",
   "title": "",
   "body": " Don’t confuse the zero polynomial with solving a polynomial equation . While the notations are identical, the contexts are very different. Thankfully, these concepts don’t typically come into direct contact with one another, so the context of the problem will tell you which version of the notation we are using.  "
 },
@@ -4847,7 +5747,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-division-algorithm-polynomials",
   "type": "Theorem",
-  "number": "C.6.83",
+  "number": "C.6.78",
   "title": "The Division Algorithm.",
   "body": " The Division Algorithm   Let and be polynomials, where is not the zero polynomial. Then there exist unique polynomials, a quotient  and a remainder  , such that   where the degree of is less than the degree of .  is called the dividend .  is called the divisor .     "
 },
@@ -4910,7 +5810,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-remainder-theorem",
   "type": "Theorem",
-  "number": "C.6.84",
+  "number": "C.6.79",
   "title": "The Remainder Theorem.",
   "body": " The Remainder Theorem   Let be any polynomial function and let for some real number . Then the remainder is equal to .   "
 },
@@ -4928,7 +5828,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-factor-theorem.html#lecture-notes-thm-the-factor-theorem",
   "type": "Theorem",
-  "number": "C.6.85",
+  "number": "C.6.80",
   "title": "The Factor Theorem.",
   "body": " The Factor Theorem   Let be any polynomial function. The following two statements are equivalent to each other.  is a zero of .  is a factor of .     "
 },
@@ -4955,7 +5855,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-test-for-pm1",
   "type": "Theorem",
-  "number": "C.7.86",
+  "number": "C.7.81",
   "title": "Test for <span class=\"process-math\">\\(\\pm1\\)<\/span>.",
   "body": " Test for   Let be any polynomial function.    If the coefficients of sum to , then is a zero of .  If the coefficients of sum to , then is a zero of .     "
 },
@@ -4991,7 +5891,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-rational-root-theorem",
   "type": "Theorem",
-  "number": "C.7.87",
+  "number": "C.7.82",
   "title": "Rational Root Theorem.",
   "body": " Rational Root Theorem  Let be any polynomial function with leading coefficient and constant term . Then any rational root has the form , where divides and divides .  "
 },
@@ -5036,7 +5936,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-complex-zeroes-real-polynomials",
   "type": "Theorem",
-  "number": "C.7.88",
+  "number": "C.7.83",
   "title": "Complex Zeroes of a Real Polynomial.",
   "body": " Complex Zeroes of a Real Polynomial   Let be any polynomial with real coefficients. Then the complex zeroes of the polynomial come in complex conjugate pairs.   "
 },
@@ -5063,7 +5963,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-fundamental-theorem-algebra",
   "type": "Theorem",
-  "number": "C.7.89",
+  "number": "C.7.84",
   "title": "The Fundamental Theorem of Algebra.",
   "body": " The Fundamental Theorem of Algebra   Let be any degree polynomial function. Then a complex zero exists.   "
 },
@@ -5072,7 +5972,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-cor-any-polynomial-factors",
   "type": "Theorem",
-  "number": "C.7.90",
+  "number": "C.7.85",
   "title": "",
   "body": "  Any degree polynomial can be factored.   "
 },
@@ -5081,7 +5981,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-cor-complete-linear-factorization-theorem",
   "type": "Theorem",
-  "number": "C.7.91",
+  "number": "C.7.86",
   "title": "",
   "body": "  The complete linear factorization of a degree polynomial function with leading coefficient is given by the formula where , , , , are the (not necessarily distinct) solutions to the equation .   "
 },
@@ -5117,7 +6017,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-def-irreducible-polynomial",
   "type": "Definition",
-  "number": "C.7.92",
+  "number": "C.7.87",
   "title": "",
   "body": "  A real-valued polynomial is irreducible if it can be only be factored using complex numbers.   "
 },
@@ -5126,7 +6026,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-reducible-real-polynomials",
   "type": "Theorem",
-  "number": "C.7.93",
+  "number": "C.7.88",
   "title": "",
   "body": "  Any degree polynomial is reducible over the real numbers.   "
 },
@@ -5144,7 +6044,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-irreducibility-of-the-quadratic",
   "type": "Theorem",
-  "number": "C.7.94",
+  "number": "C.7.89",
   "title": "",
   "body": "  Let be any quadratic function. If the discriminant is negative, then is irreducible over the real numbers.    By the Complete Linear Factorization Theorem, The solutions to the equation given by the Quadratic Formula are the values of and by the Factor Theorem. We know that the Quadratic Formula only gives complex solutions when the discriminant is negative. Therefore, a quadratic polynomial is irreducible when the discriminant is negative.   "
 },
@@ -5153,7 +6053,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-polynomial-linear-quadratic-factors",
   "type": "Theorem",
-  "number": "C.7.95",
+  "number": "C.7.90",
   "title": "",
   "body": "  Let be any real-valued polynomial. Then it can always be factored using linear and irreducible quadratic factors.   "
 },
@@ -5163,7 +6063,7 @@ var ptx_lunr_docs = [
   "url": "ws-fundamental-theorem-of-algebra.html#lecture-notes-thm-hard-example-factoring",
   "type": "Worksheet Exercise",
   "number": "C.7.14",
-  "title": "Illustrative example of Theorem C.7.95.",
+  "title": "Illustrative example of Theorem C.7.90.",
   "body": " Illustrative example of   Factor .        "
 },
 {
@@ -5180,7 +6080,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-rational-function",
   "type": "Definition",
-  "number": "C.8.96",
+  "number": "C.8.91",
   "title": "Definition.",
   "body": " Definition   A function is rational if there exist two polynomial functions and such that    "
 },
@@ -5198,7 +6098,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-def-zero-rational-function",
   "type": "Definition",
-  "number": "C.8.97",
+  "number": "C.8.92",
   "title": "Zeroes of a Rational Function.",
   "body": " Zeroes of a Rational Function   Let be any fully simplified rational function. Then is a zero of only if it is in the domain of and a zero of .   "
 },
@@ -5207,7 +6107,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-def-multiplicity-rational-function",
   "type": "Definition",
-  "number": "C.8.98",
+  "number": "C.8.93",
   "title": "The Multiplicities of Zeroes for Rational Functions.",
   "body": " The Multiplicities of Zeroes for Rational Functions   Let be any fully simplified rational function. The zero has multiplicity only if is a factor of .   "
 },
@@ -5225,7 +6125,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#worksheet-graphing-rational-function-7",
   "type": "Theorem",
-  "number": "C.8.99",
+  "number": "C.8.94",
   "title": "The Domain of a Rational Function.",
   "body": " The Domain of a Rational Function   The domain of a rational function are all values of except those that make the denominator equal to zero before canceling any common factors.   "
 },
@@ -5243,7 +6143,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-arrow-notation-x",
   "type": "Table",
-  "number": "C.8.100",
+  "number": "C.8.95",
   "title": "Arrow Notation for x",
   "body": " Arrow Notation for x    Symbol  Read as…  Graphical Example     x approaches a from the left.    Example of a function that only approaches x = 2 from the left.       x approaches a from the right.    Example of a function that only approaches x = 2 from the right.       x approaches a (from both the left and right).    Function that approaches x = 2 from the left and from the right.       x approaches negative infinity.    An example where x approaches negative infinity.       x approaches (positive) infinity.    An example where x approaches positive infinity.      "
 },
@@ -5252,7 +6152,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-arrow-notation-y",
   "type": "Table",
-  "number": "C.8.101",
+  "number": "C.8.96",
   "title": "Arrow Notation for y",
   "body": " Arrow Notation for y    Symbol  Read as…  Graphical Example     y approaches b.    Example of a function that approaches y = 2.       y approaches negative infinity.    An example where y approaches negative infinity.       y approaches (positive) infinity.    An example where y approaches positive infinity.      "
 },
@@ -5261,7 +6161,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-vertical-asymptote-def",
   "type": "Definition",
-  "number": "C.8.102",
+  "number": "C.8.97",
   "title": "Vertical Asymptote.",
   "body": " Vertical Asymptote   The vertical line is a vertical asymptote of any fully simplified, rational function if as .   "
 },
@@ -5270,7 +6170,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#worksheet-graphing-rational-function-12",
   "type": "Note",
-  "number": "C.8.103",
+  "number": "C.8.98",
   "title": "Note.",
   "body": " Note  A function can never cross a vertical asymptote.  "
 },
@@ -5279,7 +6179,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-vertical-asymptote-examples",
   "type": "Table",
-  "number": "C.8.104",
+  "number": "C.8.99",
   "title": "Examples of Vertical Asymptotes",
   "body": " Examples of Vertical Asymptotes    Symbols  Graphical Example    as    y approaches infinity when x approaches a from the right.      as    y approaches infinity when x approaches a from the left.      as    y approaches negative infinity when x approaches a from the right.      as    y approaches negative infinity when x approaches a from the left.      "
 },
@@ -5288,7 +6188,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-method-finding-vertical-asymptotes",
   "type": "Procedure",
-  "number": "C.8.105",
+  "number": "C.8.100",
   "title": "How to Find a Vertical Asymptote of a Rational Function.",
   "body": " How to Find a Vertical Asymptote of a Rational Function   Let be any rational function. To find the vertical asymptotes of the graph, follow this procedure.  Completely factor the numerator and denominator into their linear and irreducible quadratic factors.  Find all the linear factors of the denominator. By the Factor Theorem, each linear factor corresponds to a zero of the denominator and will make undefined.   For each linear factor of the denominator, determine if it also appears in the numerator.  If it doesn't, then is a vertical asymptote of .  If the linear factor also appears in the numerator, then we have a vertical asymptote at only if the multiplicity of the denominator is larger than the multiplicity of the numerator.        "
 },
@@ -5315,7 +6215,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#worksheet-graphing-rational-function-19",
   "type": "Figure",
-  "number": "C.8.106",
+  "number": "C.8.101",
   "title": "",
   "body": " The graphs of two rational functions with a vertical asymptote . The multiplicity of is odd.    The graph of crosses from to at .     The graph of crosses from to at .     "
 },
@@ -5324,7 +6224,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#worksheet-graphing-rational-function-21",
   "type": "Figure",
-  "number": "C.8.107",
+  "number": "C.8.102",
   "title": "",
   "body": " The graphs of two rational functions with a vertical asymptote . The multiplicity of is even.    The graph of bounces off at .     The graph of bounces off at .     "
 },
@@ -5333,7 +6233,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#worksheet-graphing-rational-function-22",
   "type": "Note",
-  "number": "C.8.108",
+  "number": "C.8.103",
   "title": "Simplifying and Finding Multiplicities For the Denominator.",
   "body": " Simplifying and Finding Multiplicities For the Denominator  When finding the multiplicities for the zeroes of the denominator, be sure to use the fully simplified version of the rational function. Any common factors that were canceled off will affect the multiplicities of the zeroes of the denominator.  "
 },
@@ -5351,7 +6251,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-holes-common-factor-theorem",
   "type": "Theorem",
-  "number": "C.8.109",
+  "number": "C.8.104",
   "title": "Theorem.",
   "body": " Theorem   Let be any rational function whose numerator and denominator have a common factor of , where the integer and the integer .  Then is undefined at since we cannot divide by zero, but comparing the multiplicities of in the numerator and denominator can still yield information about the behavior of the graph near . There are three different behaviors that can occur, as summarized in the following table.   Behaviors when a common factor (x − c) appears in numerator and denominator    Condition  Type of Behavior  Graphical Example     The line is a vertical asymptote.    Zero of the denominator produces a vertical asymptote.       There is a hole at the point .    Zero of the denominator produces a non–x-axis hole.       There is a hole at the point .    Hole occurs where an x-intercept would be; even multiplicity gives a bounce.        "
 },
@@ -5387,7 +6287,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-horizontal-asymptote-def",
   "type": "Definition",
-  "number": "C.8.111",
+  "number": "C.8.106",
   "title": "Horizontal Asymptote.",
   "body": " Horizontal Asymptote   The horizontal line is a horizontal asymptote for if as .   "
 },
@@ -5396,7 +6296,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-horizontal-asymptote-table",
   "type": "Table",
-  "number": "C.8.112",
+  "number": "C.8.107",
   "title": "Horizontal Asymptotes",
   "body": " Horizontal Asymptotes    Symbols  Graphical Example    as    Approach b from below as x approaches infinity.      as    Approach b from above as x approaches negative infinity.      as    Approach the same horizontal line in both directions.      "
 },
@@ -5405,7 +6305,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-oblique-asymptote-def",
   "type": "Definition",
-  "number": "C.8.113",
+  "number": "C.8.108",
   "title": "Oblique (Slant) Asymptote.",
   "body": " Oblique (Slant) Asymptote   The line is an oblique asymptote for if approaches the graph of as .   "
 },
@@ -5414,7 +6314,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-oblique-asymptote-table",
   "type": "Table",
-  "number": "C.8.114",
+  "number": "C.8.109",
   "title": "Oblique Asymptotes",
   "body": " Oblique Asymptotes    Symbols  Graphical Example    as    Function approaching a slant line as x approaches positive or negative infinity.      "
 },
@@ -5423,7 +6323,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-nonlinear-asymptote-def",
   "type": "Definition",
-  "number": "C.8.115",
+  "number": "C.8.110",
   "title": "Nonlinear Asymptote.",
   "body": " Nonlinear Asymptote   A nonlinear function is a nonlinear asymptote for if approaches the graph of as .   "
 },
@@ -5432,7 +6332,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-nonlinear-asymptote-table",
   "type": "Table",
-  "number": "C.8.116",
+  "number": "C.8.111",
   "title": "Nonlinear Asymptotes",
   "body": " Nonlinear Asymptotes    Symbols  Graphical Example    as    Approach a quadratic curve as x approaches positive or negative infinity.         Approach a cubic curve as x approaches positive or negative infinity.      "
 },
@@ -5441,7 +6341,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-end-behavior-theorem",
   "type": "Theorem",
-  "number": "C.8.117",
+  "number": "C.8.112",
   "title": "End Behavior Criterion.",
   "body": " End Behavior Criterion   Let be a rational function. Let be the degree of with leading coefficient , and let be the degree of with leading coefficient . The end behavior is determined by comparing and as summarized below.   "
 },
@@ -5450,7 +6350,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-end-behavior-summary-table",
   "type": "Table",
-  "number": "C.8.118",
+  "number": "C.8.113",
   "title": "Summary of End Behavior by Degrees",
   "body": " Summary of End Behavior by Degrees    Condition  Type of Asymptote  How to Calculate Asymptote  Graphical Example     Horizontal  Line (the x-axis).    Degree denominator > degree numerator (case 1).           Degree denominator > degree numerator (case 2).       Horizontal  Line .    Approach constant ratio as x approaches plus or minus infinity.       Oblique  Use polynomial long division.    Slant asymptote from the division quotient.       Nonlinear  Use polynomial long division.    Nonlinear (e.g., quadratic) asymptote.      "
 },
@@ -5495,7 +6395,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-lem-crossing-asymptotes",
   "type": "Procedure",
-  "number": "C.8.119",
+  "number": "C.8.114",
   "title": "How To Determine if a Rational Function Crosses Its Horizontal, Oblique, or Nonlinear Asymptote.",
   "body": " How To Determine if a Rational Function Crosses Its Horizontal, Oblique, or Nonlinear Asymptote   Let be a rational function with a horizontal, oblique, or nonlinear asymptote.  To find where crosses its horizontal, oblique, or nonlinear asymptote,  Set equal to the asymptote and solve for .  For each solution, evaluate to find the corresponding -coordinate.  Plot each point on the graph of .     "
 },
@@ -5513,7 +6413,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "worksheet-graphing-rational-function.html#lecture-notes-procedure-for-graphing-rational-functions",
   "type": "Procedure",
-  "number": "C.8.120",
+  "number": "C.8.115",
   "title": "Procedure.",
   "body": " Procedure  Let be any rational function. Use the following steps to graph the function.   Find the -intercept (if it exists) and express it as a point .    Factor the numerator and denominator, but do not cancel any factors yet.    Find the zeroes of the denominator (if they exist) and determine the type of behavior (vertical asymptote or hole) for each zero.    Cancel off the common factors.    Determine the end behavior of the function.    Determine if the graph crosses the horizontal, oblique, or nonlinear asymptote. Plot any points of intersection.    Find the zeroes of the numerator (if they exist) and their multiplicities.  Express your -intercepts as and graph them as solid dots unless they correspond to a hole, in which case use an open dot.  Use the multiplicities to determine whether the graph crosses or bounces at each intercept.      Determine the multiplicities of the remaining zeroes of the denominator. The multiplicities of the denominator determine the graph's behavior near the vertical asymptotes.  Even multiplicities mean that the graph “bounces off infinity.”  Odd multiplicities mean that the graph “crosses from positive to negative infinity,” or vice versa.      Use the intercepts, end behavior, and multiplicities to draw a general sketch of the graph. Plot additional points as needed to further define the shape of the graph.     "
 },
@@ -5540,7 +6440,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-definition-operations-on-functions",
   "type": "Definition",
-  "number": "C.9.121",
+  "number": "C.9.116",
   "title": "Arithmetic Operations on Functions.",
   "body": " Arithmetic Operations on Functions   Let and be functions.   The sum of and , denoted , is given by     The difference of and , denoted , is given by     The product of and , denoted , is given by     The quotient of and , denoted , is given by       "
 },
@@ -5558,7 +6458,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-theorem-domains-of-functions",
   "type": "Theorem",
-  "number": "C.9.122",
+  "number": "C.9.117",
   "title": "The Domains of Sums, Differences, and Products of Functions.",
   "body": " The Domains of Sums, Differences, and Products of Functions     The domain of , , and consists of all elements common to the domains of and .    The domain of consists of all elements common to the domains of and , excluding any for which .     "
 },
@@ -5576,7 +6476,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-def-composition",
   "type": "Definition",
-  "number": "C.9.123",
+  "number": "C.9.118",
   "title": "Composition of Functions.",
   "body": " Composition of Functions   Let and be functions.  The composition of and , denoted , is given by There are two additional definitions that are associated with composition.   is called the inner function since it appears inside the input of .    is called the outer function since it appears outside the input of .      "
 },
@@ -5621,7 +6521,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-def-one-to-one",
   "type": "Definition",
-  "number": "C.9.124",
+  "number": "C.9.119",
   "title": "Definition.",
   "body": " Definition   A function is one-to-one whenever implies .   Examples of One-to-One and Not One-to-One Functions    The graph is one to one since the -coordinate of every point on the graph is unique.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) lie on different horizontal lines.     The graph is not one to one since three different -coordinates all have the same -coordinate.   The points (x_1, f(x_1)), (x_2, f(x_2)), and (x_3, f(x_3)) all have the same y-coordinate since they lie on the same horizontal line.       "
 },
@@ -5630,7 +6530,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-note-informal-1-1",
   "type": "Note",
-  "number": "C.9.126",
+  "number": "C.9.121",
   "title": "Note.",
   "body": " Note  An informal description: a function is one-to-one if different inputs give different outputs.  "
 },
@@ -5639,7 +6539,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-thm-horizontal-line-test",
   "type": "Theorem",
-  "number": "C.9.127",
+  "number": "C.9.122",
   "title": "The Horizontal Line Test.",
   "body": " The Horizontal Line Test  A function is one-to-one if and only if no horizontal line intersects its graph more than once.  "
 },
@@ -5666,7 +6566,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-def-inverse-as-swapped-pairs",
   "type": "Definition",
-  "number": "C.9.130",
+  "number": "C.9.125",
   "title": "Definition.",
   "body": " Definition   Let be any function and let be any point on its graph. Then the inverse of is the set of all points of the form .   "
 },
@@ -5675,7 +6575,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-note-inverse-rarely-a-function",
   "type": "Note",
-  "number": "C.9.131",
+  "number": "C.9.126",
   "title": "Important Note.",
   "body": " Important Note  The inverse of a function is rarely a function itself.  "
 },
@@ -5693,7 +6593,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-thm-hlt-implies-inverse-is-function",
   "type": "Theorem",
-  "number": "C.9.132",
+  "number": "C.9.127",
   "title": "Theorem.",
   "body": " Theorem  Any function that passes the horizontal line test has an inverse that is also a function.  "
 },
@@ -5702,7 +6602,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-remark-notation-inverse-function",
   "type": "Notation",
-  "number": "C.9.133",
+  "number": "C.9.128",
   "title": "Notation for an Inverse Function.",
   "body": " Notation for an Inverse Function  If the inverse of is a function, we denote it by .  "
 },
@@ -5711,7 +6611,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-warning-inverse-vs-reciprocal",
   "type": "Note",
-  "number": "C.9.134",
+  "number": "C.9.129",
   "title": "Warning.",
   "body": " Warning  . If we want the reciprocal, we write .  "
 },
@@ -5729,7 +6629,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-thm-inverse-composition-properties",
   "type": "Theorem",
-  "number": "C.9.135",
+  "number": "C.9.130",
   "title": "Inverse Function Property.",
   "body": " Inverse Function Property   Let be any one-to-one function. Then the inverse function exists and has the following properties.    for any in the domain of .  for any in the range of .  The domain of equals the range of .  The range of equals the domain of .     "
 },
@@ -5756,7 +6656,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-lem-find-inverse-technique",
   "type": "Procedure",
-  "number": "C.9.136",
+  "number": "C.9.131",
   "title": "Finding the Inverse of a Function Algebraically.",
   "body": " Finding the Inverse of a Function Algebraically     Replace with .  Interchange and .  Solve for .  Replace with .     "
 },
@@ -5783,7 +6683,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-thm-graph-points-swap",
   "type": "Theorem",
-  "number": "C.9.137",
+  "number": "C.9.132",
   "title": "Graphs of Inverse Functions.",
   "body": " Graphs of Inverse Functions   If the point is on the graph of , then the point is on the graph of .   "
 },
@@ -5801,7 +6701,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-inverse-functions.html#lecture-notes-lem-creating-inverses",
   "type": "Procedure",
-  "number": "C.9.139",
+  "number": "C.9.134",
   "title": "Creating Inverses by restricting a function.",
   "body": " Creating Inverses by restricting a function   Let be a function that is not one-to-one. If we restrict the domain of so that it is one-to-one on that domain, then the inverse of the restricted function will be a function.   "
 },
@@ -5846,7 +6746,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-thm-exponential-functions-a-gt-1",
   "type": "Theorem",
-  "number": "C.10.141",
+  "number": "C.10.136",
   "title": "Exponential Functions with <span class=\"process-math\">\\(a &gt; 1\\)<\/span>.",
   "body": " Exponential Functions with   Let be an exponential function where . The graph of has the following properties:  Domain:  Range:  -intercept: .   End Behavior:  As  As . This implies the -axis is a horizontal asymptote.     The function is increasing on .     The graph of where . The sample points , , , , and are plotted.   Graph of f(x)=a^x for a>1     "
 },
@@ -5864,7 +6764,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-thm-exponential-functions-a-lt-1",
   "type": "Theorem",
-  "number": "C.10.143",
+  "number": "C.10.138",
   "title": "Exponential Functions with <span class=\"process-math\">\\(0 &lt; a &lt; 1\\)<\/span>.",
   "body": " Exponential Functions with   Let be an exponential function where . The graph of has the following properties:  Domain:  Range:  -intercept: .   End Behavior:  As . This implies the -axis is a horizontal asymptote.  As     The function is decreasing on .     The graph of where . The sample points , , , , and are plotted.   Graph of f(x)=a^x for 0<a<1     "
 },
@@ -5882,7 +6782,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-def-e",
   "type": "Definition",
-  "number": "C.10.145",
+  "number": "C.10.140",
   "title": "",
   "body": "     The mathematical constant is an irrational number approximately equal to .    The function is called the natural exponential function .      The graph of the natural exponential function . The graph of is shown as a red, dashed curve, and is shown as a blue, dashed curve for comparison.     "
 },
@@ -5891,7 +6791,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-evaluting-functions-base-e",
   "type": "Example",
-  "number": "C.10.147",
+  "number": "C.10.142",
   "title": "Evaluating <span class=\"process-math\">\\(y=e^x\\)<\/span>.",
   "body": " Evaluating   Use a calculator to evaluate the following.  at  at  at  at     "
 },
@@ -5900,7 +6800,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-example-solve-for-variable-in-exponent-using-graphs",
   "type": "Example",
-  "number": "C.10.148",
+  "number": "C.10.143",
   "title": "How to Solve for a Variable in the Exponent using graphs.",
   "body": " How to Solve for a Variable in the Exponent using graphs   Let . Solve the equation using a graph.   "
 },
@@ -5909,7 +6809,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-def-logarithm",
   "type": "Definition",
-  "number": "C.10.149",
+  "number": "C.10.144",
   "title": "",
   "body": "  Let be an exponential function with and . The inverse function of is called the logarithmic function with base and is denoted by . This means that if and only if . In other words, is the exponent to which we must raise to obtain the value .   "
 },
@@ -5918,7 +6818,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#ws-exponential-logarithmic-functions-12",
   "type": "Note",
-  "number": "C.10.150",
+  "number": "C.10.145",
   "title": "Parentheses in Logarithmic Expressions.",
   "body": " Parentheses in Logarithmic Expressions     When you take a logarithm of a single term, it is common practice to drop the parentheses like this: . I will never drop the parentheses in my lecture notes.    Taking the logarithm of an expression with more than one term always requires parentheses: .     "
 },
@@ -5927,7 +6827,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notation-common-natural-log",
   "type": "Notation",
-  "number": "C.10.151",
+  "number": "C.10.146",
   "title": "",
   "body": "  Two logarithmic functions are given special notation.  The logarithmic function with base 10 is called the common logarithm and is denoted by . In other words, .  The logarithmic function with base is called the natural logarithm and is denoted by . In other words, .     "
 },
@@ -5936,7 +6836,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-converting-log-to-exponential",
   "type": "Example",
-  "number": "C.10.152",
+  "number": "C.10.147",
   "title": "Converting Logarithmic to Exponential Form.",
   "body": " Converting Logarithmic to Exponential Form   Convert each logarithmic equation to its equivalent exponential form.        "
 },
@@ -5945,7 +6845,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-exponential-logarithmic-functions.html#lecture-notes-converting-exponential-to-log",
   "type": "Example",
-  "number": "C.10.153",
+  "number": "C.10.148",
   "title": "Converting Exponential to Logarithmic Form.",
   "body": " Converting Exponential to Logarithmic Form   Convert each exponential equation to its equivalent logarithmic form.        "
 },
@@ -5963,7 +6863,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-thm-cancellation-properties",
   "type": "Theorem",
-  "number": "C.11.154",
+  "number": "C.11.149",
   "title": "",
   "body": "  Let be an exponential function with inverse . Then the following cancellation properties are true:    for all .     for all real numbers .      "
 },
@@ -5972,7 +6872,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-logarithmic-cancellation-properties",
   "type": "Example",
-  "number": "C.11.155",
+  "number": "C.11.150",
   "title": "Using the Cancellation Properties.",
   "body": " Using the Cancellation Properties   Use the cancellation properties of logarithms to simplify each expression.         "
 },
@@ -5981,7 +6881,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-evaluating-logarithmic-calculator",
   "type": "Example",
-  "number": "C.11.156",
+  "number": "C.11.151",
   "title": "Evaluating Logarithmic Expressions with a Calculator.",
   "body": " Evaluating Logarithmic Expressions with a Calculator   Use a calculator to evaluate each expression. Round your answer to four decimal places, if necessary.       "
 },
@@ -5990,7 +6890,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-thm-other-useful-properties",
   "type": "Theorem",
-  "number": "C.11.157",
+  "number": "C.11.152",
   "title": "Other Useful Properties of Logarithms.",
   "body": " Other Useful Properties of Logarithms   let . Then the following properties are true for any base :               "
 },
@@ -5999,7 +6899,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-other-useful-properties",
   "type": "Example",
-  "number": "C.11.158",
+  "number": "C.11.153",
   "title": "Using Other Useful Properties of Logarithms.",
   "body": " Using Other Useful Properties of Logarithms   Use the properties of logarithms to simplify each expression.       "
 },
@@ -6008,7 +6908,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-thm-laws-of-logarithms",
   "type": "Theorem",
-  "number": "C.11.159",
+  "number": "C.11.154",
   "title": "Laws of Logarithms.",
   "body": " Laws of Logarithms   Let . Then the following laws are true for any base :                    "
 },
@@ -6017,7 +6917,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-1",
   "type": "Example",
-  "number": "C.11.160",
+  "number": "C.11.155",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Evaluate the logarithmic expression .   "
 },
@@ -6026,7 +6926,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-2",
   "type": "Example",
-  "number": "C.11.161",
+  "number": "C.11.156",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Evaluate the logarithmic expression .   "
 },
@@ -6035,7 +6935,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-3",
   "type": "Example",
-  "number": "C.11.162",
+  "number": "C.11.157",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Evaluate the logarithmic expression .   "
 },
@@ -6044,7 +6944,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-2",
   "type": "Example",
-  "number": "C.11.163",
+  "number": "C.11.158",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
 },
@@ -6053,7 +6953,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-1",
   "type": "Example",
-  "number": "C.11.164",
+  "number": "C.11.159",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
 },
@@ -6062,7 +6962,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-3",
   "type": "Example",
-  "number": "C.11.165",
+  "number": "C.11.160",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
 },
@@ -6071,7 +6971,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-4",
   "type": "Example",
-  "number": "C.11.166",
+  "number": "C.11.161",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithmic expression as a sum and\/or difference of logarithms where all variables are raised to the first power only.   "
 },
@@ -6080,7 +6980,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-5",
   "type": "Example",
-  "number": "C.11.167",
+  "number": "C.11.162",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
 },
@@ -6089,7 +6989,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-6",
   "type": "Example",
-  "number": "C.11.168",
+  "number": "C.11.163",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
 },
@@ -6098,7 +6998,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-7",
   "type": "Example",
-  "number": "C.11.169",
+  "number": "C.11.164",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
 },
@@ -6107,7 +7007,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-using-laws-of-logarithms-rewrite-8",
   "type": "Example",
-  "number": "C.11.170",
+  "number": "C.11.165",
   "title": "Using the Laws of Logarithms.",
   "body": " Using the Laws of Logarithms   Rewrite the logarithm as a single logarithm.   "
 },
@@ -6116,7 +7016,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-def-change-of-base-formula",
   "type": "Definition",
-  "number": "C.11.171",
+  "number": "C.11.166",
   "title": "Change of Base Formula.",
   "body": " Change of Base Formula   For any positive numbers , , and , where and , the logarithm of with base can be computed using logarithms with base as follows:    "
 },
@@ -6125,7 +7025,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-change-of-base-calculator",
   "type": "Example",
-  "number": "C.11.172",
+  "number": "C.11.167",
   "title": "Using the Change of Base Formula with a Calculator.",
   "body": " Using the Change of Base Formula with a Calculator   Use the change of base formula to evaluate using a calculator or Desmos. Round your answer to four decimal places, if necessary.   "
 },
@@ -6134,7 +7034,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-laws.html#lecture-notes-ex-graph-change-of-base-calculator-2",
   "type": "Example",
-  "number": "C.11.173",
+  "number": "C.11.168",
   "title": "Using the Change of Base Formula to Graph a Logarithmic Function with a Calculator.",
   "body": " Using the Change of Base Formula to Graph a Logarithmic Function with a Calculator   Graph the function using a calculator or Desmos.   "
 },
@@ -6152,7 +7052,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lem-method-exponential-same-base",
   "type": "Procedure",
-  "number": "C.12.174",
+  "number": "C.12.169",
   "title": "Solving Exponential Equations by Rewriting with a Common Base.",
   "body": " Solving Exponential Equations by Rewriting with a Common Base   Use the following steps to solve exponential equations that can be rewritten with the same base.   Rewrite both sides of the equation as for some base .    Apply to both sides of the equation.    Use the cancellation property to get an equation of the form .    Solve the resulting equation for .      "
 },
@@ -6161,7 +7061,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-exponential-same-base-1",
   "type": "Example",
-  "number": "C.12.175",
+  "number": "C.12.170",
   "title": "Solving Exponential Equations by Rewriting with a Common Base.",
   "body": " Solving Exponential Equations by Rewriting with a Common Base   Solve .   "
 },
@@ -6170,7 +7070,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-exponential-same-base-2",
   "type": "Example",
-  "number": "C.12.176",
+  "number": "C.12.171",
   "title": "Solving Exponential Equations by Rewriting with a Common Base.",
   "body": " Solving Exponential Equations by Rewriting with a Common Base   Solve .   "
 },
@@ -6179,7 +7079,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lem-method-solving-exponential-equations-different-bases",
   "type": "Procedure",
-  "number": "C.12.177",
+  "number": "C.12.172",
   "title": "Solving Exponential Equations Using Logarithms.",
   "body": " Solving Exponential Equations Using Logarithms   Use the following steps to solve exponential equations that cannot be rewritten with a common base.   Rewrite both sides of the equation as ., where .    Apply to both sides of the equation, where is any positive real number not equal to 1. Common choices for are 10 or .    Use the law to rewrite the equation in the form . This will remove any variables from the exponents.    Solve the resulting equation for .      "
 },
@@ -6188,7 +7088,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-exponential-different-bases-1",
   "type": "Example",
-  "number": "C.12.178",
+  "number": "C.12.173",
   "title": "Solving Exponential Equations Using Logarithms.",
   "body": " Solving Exponential Equations Using Logarithms   Solve .   "
 },
@@ -6197,7 +7097,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-exponential-different-bases-2",
   "type": "Example",
-  "number": "C.12.179",
+  "number": "C.12.174",
   "title": "Solving Exponential Equations Using Logarithms.",
   "body": " Solving Exponential Equations Using Logarithms   Solve .   "
 },
@@ -6206,7 +7106,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-lem-solving-logarithmic-equations",
   "type": "Procedure",
-  "number": "C.12.180",
+  "number": "C.12.175",
   "title": "Solving Logarithmic Equations.",
   "body": " Solving Logarithmic Equations   Use the following steps to solve logarithmic equations.    Rewrite your equation as .    Apply the function to both sides of the equation to get the equation .    Use the cancellation property to get the equation .    Solve the resulting equation for .    Check your solution(s) in the original equation for extraneous solutions.     "
 },
@@ -6215,7 +7115,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-logarithmic-equations-1",
   "type": "Example",
-  "number": "C.12.181",
+  "number": "C.12.176",
   "title": "Solving Logarithmic Equations.",
   "body": " Solving Logarithmic Equations   Solve .   "
 },
@@ -6224,7 +7124,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-solving-logarithmic-equations-2",
   "type": "Example",
-  "number": "C.12.182",
+  "number": "C.12.177",
   "title": "Solving Logarithmic Equations.",
   "body": " Solving Logarithmic Equations   Solve .   "
 },
@@ -6233,7 +7133,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-thm-compound-interest",
   "type": "Theorem",
-  "number": "C.12.183",
+  "number": "C.12.178",
   "title": "Compound Interest Formula.",
   "body": " Compound Interest Formula   The formula for calculating the amount in an account after years with a principal amount , an annual interest rate (written as a decimal), and interest compounded times per year is .   "
 },
@@ -6242,7 +7142,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-compound-interest-1",
   "type": "Example",
-  "number": "C.12.184",
+  "number": "C.12.179",
   "title": "Compound Interest.",
   "body": " Compound Interest   Find the amount in an account after 10 years if $5,000 is deposited at an annual interest rate of 6% compounded monthly.   "
 },
@@ -6251,7 +7151,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-compound-interest-2",
   "type": "Example",
-  "number": "C.12.185",
+  "number": "C.12.180",
   "title": "Compound Interest.",
   "body": " Compound Interest   How long will it take for an investment of $8,000 to double if the annual interest rate is 5% compounded quarterly?   "
 },
@@ -6260,7 +7160,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-compound-interest-3",
   "type": "Example",
-  "number": "C.12.186",
+  "number": "C.12.181",
   "title": "Compound Interest.",
   "body": " Compound Interest   Find the annual interest rate needed for an investment of $12,000 to grow to $20,000 in 8 years if the interest is compounded daily.   "
 },
@@ -6269,7 +7169,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-thm-exponential-growth-decay",
   "type": "Theorem",
-  "number": "C.12.187",
+  "number": "C.12.182",
   "title": "Exponential Growth and Decay.",
   "body": " Exponential Growth and Decay   The formula for exponential growth and decay is , where is the initial amount, is the amount after time , and is the growth or decay rate.   If , the equation models exponential growth.    If , the equation models exponential decay.      "
 },
@@ -6278,7 +7178,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-exponential-growth-1",
   "type": "Example",
-  "number": "C.12.188",
+  "number": "C.12.183",
   "title": "Exponential Growth.",
   "body": " Exponential Growth   A skull cleaning factory cleans animal skulls such as deer, buffalo, and other types of animal skulls using flesh-eating beetles to clean the skulls. The factory owner started with only 10 adult beetles. After 40 days, the beetle population grew to 30 adult beetles. How long did it take before the beetle population reached 10,000 beetles? Round to the nearest whole number.   "
 },
@@ -6287,7 +7187,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-logarithmic-equations-applications.html#lecture-notes-ex-exponential-decay-1",
   "type": "Example",
-  "number": "C.12.189",
+  "number": "C.12.184",
   "title": "Exponential Decay.",
   "body": " Exponential Decay   A certain radioactive isotope leaks into a small stream. Three hundred days after the leak, 2% of the original amount of the substance remained. Determine the half-life of this radioactive isotope. Round to the nearest whole number.   "
 },
@@ -6305,7 +7205,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-angle",
   "type": "Definition",
-  "number": "D.1.190",
+  "number": "D.1.185",
   "title": "Angles.",
   "body": " Angles      An angle is formed by two rays with a common endpoint.    The ray where the angle measurement begins is called the initial side .    The ray where the angle measurement ends is called the terminal side .    The common endpoint is called the vertex of the angle.      "
 },
@@ -6314,7 +7214,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-standard-position",
   "type": "Definition",
-  "number": "D.1.191",
+  "number": "D.1.186",
   "title": "Standard Position of an Angle.",
   "body": " Standard Position of an Angle   An angle is in standard position if the following two conditions are true.   The vertex is located at the origin of a coordinate plane.    The initial side lies on the positive -axis.      "
 },
@@ -6323,7 +7223,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-positive-negative-angles",
   "type": "Definition",
-  "number": "D.1.192",
+  "number": "D.1.187",
   "title": "Positive and Negative Angles.",
   "body": " Positive and Negative Angles      An angle is positive if it measures a counterclockwise rotation.    An angle is negative if it measures a clockwise rotation.      "
 },
@@ -6332,7 +7232,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-classifying-angles",
   "type": "Definition",
-  "number": "D.1.193",
+  "number": "D.1.188",
   "title": "",
   "body": "     An angle whose terminal side lies in Quadrant 1 is called a Quadrant 1 angle.     An angle whose terminal side lies in Quadrant 2 is called a Quadrant 2 angle.     An angle whose terminal side lies in Quadrant 3 is called a Quadrant 3 angle.     An angle whose terminal side lies in Quadrant 4 is called a Quadrant 4 angle.     An angle whose terminal side lies on one of the axes is called a quadrantal angle.       "
 },
@@ -6341,7 +7241,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-central-angle",
   "type": "Definition",
-  "number": "D.1.194",
+  "number": "D.1.189",
   "title": "Central Angles and the Arc It Intercepts.",
   "body": " Central Angles and the Arc It Intercepts      A central angle is an angle whose vertex is at the center of a circle.    The arc that lies between the two sides of a central angle is called the arc intercepted by the angle.       "
 },
@@ -6350,7 +7250,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-radian-measure",
   "type": "Definition",
-  "number": "D.1.195",
+  "number": "D.1.190",
   "title": "Radian Measure.",
   "body": " Radian Measure   Consider a circle with radius whose central angle intercepts an arc of length . The radian measure of the angle in radians is given by the following formula.    "
 },
@@ -6359,7 +7259,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#fig-radian-measures-1-2-3",
   "type": "Figure",
-  "number": "D.1.196",
+  "number": "D.1.191",
   "title": "",
   "body": " Measuring Angles in Integer Radians    rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is labeled as r.     rad   A circle whose central angle is labeled theta, the radius is labeled as r, and the intercepted arc is segmented into three equal parts all labelled r.     "
 },
@@ -6368,7 +7268,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ws-radian-measure-9",
   "type": "Note",
-  "number": "D.1.197",
+  "number": "D.1.192",
   "title": "",
   "body": "  Since the radian measure of an angle is a ratio of two lengths, it is a unitless measure and can be expressed without writing down \"rad\".   "
 },
@@ -6377,7 +7277,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-radian-measure-1",
   "type": "Example",
-  "number": "D.1.198",
+  "number": "D.1.193",
   "title": "",
   "body": "  A circle has a radius of 5 cm and the central angle intercepts an arc that is 27 cm long. What is the radian measure of the central angle?   "
 },
@@ -6386,7 +7286,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-radian-measure-2",
   "type": "Example",
-  "number": "D.1.199",
+  "number": "D.1.194",
   "title": "",
   "body": "  A circle has a radius of 1 ft and the central angle intercepts an arc that is 10 in long. What is the radian measure of the central angle?   "
 },
@@ -6395,7 +7295,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-radian-measure-3",
   "type": "Example",
-  "number": "D.1.200",
+  "number": "D.1.195",
   "title": "",
   "body": "  What is the radian measure of the central angle of a circle if we make one complete revolution around the circle?   "
 },
@@ -6404,7 +7304,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-converting-between-degrees-radians",
   "type": "Theorem",
-  "number": "D.1.201",
+  "number": "D.1.196",
   "title": "Converting Between Degrees and Radians.",
   "body": " Converting Between Degrees and Radians      To convert from degrees to radians, multiply the angle by .    To convert from radians to degrees, multiply the angle by .      "
 },
@@ -6413,7 +7313,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-convert-degrees-to-radians-1",
   "type": "Example",
-  "number": "D.1.202",
+  "number": "D.1.197",
   "title": "Converting from Degrees to Radians.",
   "body": " Converting from Degrees to Radians   Convert to radians.   "
 },
@@ -6422,7 +7322,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-convert-radians-to-degrees-1",
   "type": "Example",
-  "number": "D.1.203",
+  "number": "D.1.198",
   "title": "Converting from Radians to Degrees.",
   "body": " Converting from Radians to Degrees   Convert radians to degrees.   "
 },
@@ -6431,7 +7331,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#table-common-angles",
   "type": "Table",
-  "number": "D.1.204",
+  "number": "D.1.199",
   "title": "Common Angle Measures",
   "body": " Common Angle Measures    Degrees             Radians             Degrees            Radians            "
 },
@@ -6440,7 +7340,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-drawing-angles-45-degrees",
   "type": "Procedure",
-  "number": "D.1.205",
+  "number": "D.1.200",
   "title": "",
   "body": "  In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into eight equal sections by drawing both the horizontal and vertical diameters as well as the two diagonals,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.     "
 },
@@ -6449,7 +7349,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-drawing-angles-45-degrees",
   "type": "Example",
-  "number": "D.1.206",
+  "number": "D.1.201",
   "title": "Drawing an Angle of <span class=\"process-math\">\\(-\\frac{3\\pi}{4}\\)<\/span> Radians.",
   "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
 },
@@ -6458,7 +7358,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-drawing-angles-30-degrees",
   "type": "Procedure",
-  "number": "D.1.207",
+  "number": "D.1.202",
   "title": "",
   "body": "  In order to accurately draw an angle that is a multiple of radians ( ),  we will first divide the circle into twelve equal sections by drawing both the horizontal and vertical diameters and split each quadrant into three equal sections,  we use the number in the numerator to count how many of those sections to include in our angle,  and we use the sign of the angle to determine whether to measure the angle in a clockwise or counterclockwise direction.     "
 },
@@ -6467,7 +7367,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-drawing-angles-30-degrees",
   "type": "Example",
-  "number": "D.1.208",
+  "number": "D.1.203",
   "title": "Drawing an Angle of <span class=\"process-math\">\\(\\frac{11\\pi}{6}\\)<\/span> Radians.",
   "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
 },
@@ -6476,7 +7376,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-drawing-angles-negative-30-degrees",
   "type": "Example",
-  "number": "D.1.209",
+  "number": "D.1.204",
   "title": "Drawing an Angle of <span class=\"process-math\">\\(-\\frac{5\\pi}{3}\\)<\/span> Radians.",
   "body": " Drawing an Angle of Radians   Draw an angle of radians in standard position.   "
 },
@@ -6485,7 +7385,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-coterminal-angles",
   "type": "Definition",
-  "number": "D.1.210",
+  "number": "D.1.205",
   "title": "",
   "body": "  Two angles are called coterminal if they share the same initial side and terminal side.   "
 },
@@ -6494,7 +7394,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-coterminal-angles-degrees",
   "type": "Procedure",
-  "number": "D.1.211",
+  "number": "D.1.206",
   "title": "",
   "body": "  We typically only want to express angles in degrees using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .      "
 },
@@ -6503,7 +7403,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-degrees-1",
   "type": "Example",
-  "number": "D.1.212",
+  "number": "D.1.207",
   "title": "Finding a Coterminal Angle in Degrees.",
   "body": " Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .   "
 },
@@ -6512,7 +7412,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-degrees-2",
   "type": "Example",
-  "number": "D.1.213",
+  "number": "D.1.208",
   "title": "Finding a Coterminal Angle in Degrees.",
   "body": " Finding a Coterminal Angle in Degrees   Find a coterminal angle for that satisfies .   "
 },
@@ -6521,7 +7421,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#lem-coterminal-angles-radians",
   "type": "Procedure",
-  "number": "D.1.214",
+  "number": "D.1.209",
   "title": "",
   "body": "  We typically only want to express angles in radians using an angle measure satisfying since any angle outside this range is coterminal to an angle within this range.   If , we can find a coterminal angle by repeatedly subtracting until the result is less than .    If , we can find a coterminal angle by repeatedly adding until the result is greater than or equal to .      "
 },
@@ -6530,7 +7430,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-radians-1",
   "type": "Example",
-  "number": "D.1.215",
+  "number": "D.1.210",
   "title": "Finding a Coterminal Angle in Radians.",
   "body": " Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .   "
 },
@@ -6539,7 +7439,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-coterminal-angles-radians-2",
   "type": "Example",
-  "number": "D.1.216",
+  "number": "D.1.211",
   "title": "Finding a Coterminal Angle in Radians.",
   "body": " Finding a Coterminal Angle in Radians   Find a coterminal angle for that satisfies .   "
 },
@@ -6548,7 +7448,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-arc-length",
   "type": "Theorem",
-  "number": "D.1.217",
+  "number": "D.1.212",
   "title": "Arc Length.",
   "body": " Arc Length   The length of an arc intercepted by a central angle with radian measure in a circle of radius is given by the formula    "
 },
@@ -6557,7 +7457,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-arc-length",
   "type": "Example",
-  "number": "D.1.218",
+  "number": "D.1.213",
   "title": "",
   "body": "  Find the length of an arc intercepted by a central angle measuring radians in a circle with a radius of 9 cm.   "
 },
@@ -6566,7 +7466,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-sector-area",
   "type": "Theorem",
-  "number": "D.1.219",
+  "number": "D.1.214",
   "title": "Area of a Sector.",
   "body": " Area of a Sector   The area of a sector formed by a central angle with radian measure in a circle of radius is given by the formula    "
 },
@@ -6575,7 +7475,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-sector-area",
   "type": "Example",
-  "number": "D.1.220",
+  "number": "D.1.215",
   "title": "",
   "body": "  Find the area of a sector formed by a central angle measuring radians in a circle with a radius of 6 in.   "
 },
@@ -6584,7 +7484,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#def-linear-angular-speed",
   "type": "Definition",
-  "number": "D.1.221",
+  "number": "D.1.216",
   "title": "Linear and Angular Speed.",
   "body": " Linear and Angular Speed   If a point is motion on a circle of radius through an angle of radians in time, then its linear speed  is given by the formula where is the length of the arc traveled, and the angular speed  of the point is given by the formula    "
 },
@@ -6593,7 +7493,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-converting-to-radian-angular-speed",
   "type": "Example",
-  "number": "D.1.222",
+  "number": "D.1.217",
   "title": "",
   "body": "  A wheel with a radius of 0.5 m is rotating at 720 revolutions per minute (rpm). What is the angular speed of the wheel in radians per second?   "
 },
@@ -6602,7 +7502,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#thm-linear-speed",
   "type": "Theorem",
-  "number": "D.1.223",
+  "number": "D.1.218",
   "title": "",
   "body": "  The linear speed of a point moving on a circle of radius with an angular speed of is given by the formula In plain English, the linear speed equals the radius times the angular speed.   "
 },
@@ -6611,7 +7511,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-radian-measure.html#ex-finding-linear-speed",
   "type": "Example",
-  "number": "D.1.224",
+  "number": "D.1.219",
   "title": "",
   "body": "  Before digital music, CDs, and cassette players, records were recorded on vinyl discs that spun at either 45 revolutions per minute (rpm) or 75 rpm. Find the linear speed, in inches per minute, at the point where the needle is 1.5 inches from the record's center for a 45 rpm vinyl record.   "
 },
@@ -6629,7 +7529,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#def-six-trigonometric-functions-right-triangle",
   "type": "Definition",
-  "number": "D.2.225",
+  "number": "D.2.220",
   "title": "",
   "body": "  Consider a right triangle whose short leg has length , whose long leg has length , and whose hypotenuse has length . Let be the angle opposite the short leg.   A right triangle where the short leg has length , the long leg has length , and the hypotenuse has length . The vertex of the angle opposite to side is labeled , the vertex of the angle opposite to side is labeled , and the vertex of the right angle is labeled . The angle is labeled .    The six trigonometric functions of the angle are defined as follows:    "
 },
@@ -6638,7 +7538,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#ws-right-triangle-trigonometry-3",
   "type": "Note",
-  "number": "D.2.227",
+  "number": "D.2.222",
   "title": "",
   "body": " Three of the six trigonometric functions can be remembered using the mnemonic SOH-CAH-TOA, where   "
 },
@@ -6647,7 +7547,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluating-trigonometric-functions-right-triangle",
   "type": "Example",
-  "number": "D.2.228",
+  "number": "D.2.223",
   "title": "",
   "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose short leg has length 33, long leg has length 56, and measures the side opposite the short leg.     "
 },
@@ -6656,7 +7556,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluating-isosceles-triangle",
   "type": "Example",
-  "number": "D.2.230",
+  "number": "D.2.225",
   "title": "",
   "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions of the angle .   A right triangle whose legs each have length 3, and measures the angle opposite side .     "
 },
@@ -6665,7 +7565,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluating-30-60-90-triangle",
   "type": "Example",
-  "number": "D.2.232",
+  "number": "D.2.227",
   "title": "",
   "body": "  Given the right triangle pictured below, find the value of the six trigonometric functions for both the angle and the angle .   A right triangle whose short leg has length , long leg has length , and hypotenuse has length . measures the angle opposite the long leg, and measures the angle opposite the short leg.     "
 },
@@ -6674,7 +7574,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#table-trigonometric-functions-common-angles",
   "type": "Table",
-  "number": "D.2.234",
+  "number": "D.2.229",
   "title": "Trigonometric Functions of Common Angles",
   "body": " Trigonometric Functions of Common Angles                            "
 },
@@ -6683,7 +7583,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-reciprocal-identities",
   "type": "Theorem",
-  "number": "D.2.235",
+  "number": "D.2.230",
   "title": "Reciprocal Identities.",
   "body": " Reciprocal Identities   Let be any angle. The reciprocal identities are given by the following equations:    "
 },
@@ -6692,7 +7592,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-quotient-identities",
   "type": "Theorem",
-  "number": "D.2.236",
+  "number": "D.2.231",
   "title": "Quotient Identities.",
   "body": " Quotient Identities   Let be any angle. The quotient identities are given by the following equations:    "
 },
@@ -6701,7 +7601,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-evaluting-trigonometric-functions-reciprocal-quotient",
   "type": "Example",
-  "number": "D.2.237",
+  "number": "D.2.232",
   "title": "",
   "body": "  Given that , find the values of the other five trigonometric functions of .   "
 },
@@ -6710,7 +7610,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-pythagorean-identities",
   "type": "Theorem",
-  "number": "D.2.238",
+  "number": "D.2.233",
   "title": "Pythagorean Identities.",
   "body": " Pythagorean Identities   Let be any angle. The Pythagorean identities are given by the following equations:    "
 },
@@ -6719,7 +7619,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-pythagorean-identities",
   "type": "Example",
-  "number": "D.2.239",
+  "number": "D.2.234",
   "title": "",
   "body": "  Given that , find the values of the other five trigonometric functions of .   "
 },
@@ -6728,7 +7628,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#def-complement-angles",
   "type": "Definition",
-  "number": "D.2.240",
+  "number": "D.2.235",
   "title": "",
   "body": "  Two positive angles are complementary angles if the sum of their measures is or radians.   "
 },
@@ -6737,7 +7637,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#thm-cofunction-identities",
   "type": "Theorem",
-  "number": "D.2.241",
+  "number": "D.2.236",
   "title": "Cofunction Identities.",
   "body": " Cofunction Identities   Let be an acute angle. The cofunction identities are given by the following equations:    "
 },
@@ -6746,7 +7646,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-cofunction-identities",
   "type": "Example",
-  "number": "D.2.242",
+  "number": "D.2.237",
   "title": "",
   "body": "  Find a cofunction with the same values as .   "
 },
@@ -6755,7 +7655,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-degrees",
   "type": "Example",
-  "number": "D.2.243",
+  "number": "D.2.238",
   "title": "",
   "body": "  Use a calculator to find the value of , rounded to four decimal places.   "
 },
@@ -6764,7 +7664,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-radians",
   "type": "Example",
-  "number": "D.2.244",
+  "number": "D.2.239",
   "title": "",
   "body": "  Use a calculator to find the value of , rounded to four decimal places.   "
 },
@@ -6773,7 +7673,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-using-calculator-inverse-trig",
   "type": "Example",
-  "number": "D.2.245",
+  "number": "D.2.240",
   "title": "",
   "body": "  Use a calculator to find the approximate value (in degrees) of .   "
 },
@@ -6782,7 +7682,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#def-angle-elevation-depression",
   "type": "Definition",
-  "number": "D.2.246",
+  "number": "D.2.241",
   "title": "",
   "body": "    The horizontal line of sight is the line formed when an observer looks straight ahead.  The angle of elevation is the angle formed between the horizontal line of sight and the line of sight to an object above the observer.  The angle of depression is the angle formed between the horizontal line of sight and the line of sight to an object below the observer.     An observer is at a vertex shared by two right triangles. The horizontal line of sight from the observer forms a common side shared by both triangles. The line of sight to an object above the observer forms the hypotenuse of the upper triangle, and the line of sight to an object below the observer forms the hypotenuse of the lower triangle. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the above object as the terminal side is the angle of elevation. The angle formed by using the horizontal line of sight as the initial side and the line of sight to the below object as the terminal side is the angle of depression.     "
 },
@@ -6791,7 +7691,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-angle-elevation",
   "type": "Example",
-  "number": "D.2.248",
+  "number": "D.2.243",
   "title": "",
   "body": "  An observer stands 150 feet away from the base of a building. The angle of elevation from the observer to the top of the building is . Find the height of the building, rounded to the nearest foot.   "
 },
@@ -6800,7 +7700,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-right-triangle-trigonometry.html#exa-finding-angle-depression",
   "type": "Example",
-  "number": "D.2.249",
+  "number": "D.2.244",
   "title": "",
   "body": "  An observer stands on the edge of a cliff that is 200 feet above sea level and observes a boat that is 150 feet away from the base of the cliff. Find the angle of depression from the observer to the boat, rounded to the nearest tenth of a degree.   "
 },
@@ -6818,7 +7718,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#def-reference-triangle",
   "type": "Definition",
-  "number": "D.3.250",
+  "number": "D.3.245",
   "title": "",
   "body": "  Let be any angle and be any point on the terminal side of the angle. The reference triangle for is the right triangle formed by dropping a perpendicular from the point to the -axis.   "
 },
@@ -6827,7 +7727,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#thm-sides-reference-triangle",
   "type": "Theorem",
-  "number": "D.3.251",
+  "number": "D.3.246",
   "title": "",
   "body": "  Let be any angle in standard position and let be a point on the terminal side of the angle. Then the distance from to is given by , and the six trigonometric functions are defined as follows.    "
 },
@@ -6836,7 +7736,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-any-angle-1",
   "type": "Example",
-  "number": "D.3.252",
+  "number": "D.3.247",
   "title": "",
   "body": "  Find the exact values of the six trigonometric functions of an angle in standard position whose terminal side passes through the point .   "
 },
@@ -6845,7 +7745,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-any-angle-2",
   "type": "Example",
-  "number": "D.3.253",
+  "number": "D.3.248",
   "title": "",
   "body": "  Find the exact values of the six trigonometric functions of an angle in standard position whose terminal side passes through the point .   "
 },
@@ -6854,7 +7754,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#thm-trig-functions-quadrants",
   "type": "Theorem",
-  "number": "D.3.254",
+  "number": "D.3.249",
   "title": "",
   "body": "  Let be any non-quadrantal angle in standard position. The signs of the six trigonometric functions of in each quadrant are as follows    Quadrant 1: All six trigonometric functions are positive.     Quadrant 2: Only and are positive; the other four functions are negative.     Quadrant 3: Only and are positive; the other four functions are negative.     Quadrant 4: Only and are positive; the other four functions are negative.      "
 },
@@ -6863,7 +7763,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#note-how-to-remember-trig-signs",
   "type": "Note",
-  "number": "D.3.255",
+  "number": "D.3.250",
   "title": "How to Remember the Signs of Trigonometric Functions.",
   "body": " How to Remember the Signs of Trigonometric Functions  A common mnemonic to help remember the signs of the trigonometric functions is   "
 },
@@ -6872,7 +7772,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-find-quadrant",
   "type": "Example",
-  "number": "D.3.256",
+  "number": "D.3.251",
   "title": "",
   "body": "  If and , in which quadrant does the terminal side of lie?   "
 },
@@ -6881,7 +7781,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-any-angle-3",
   "type": "Example",
-  "number": "D.3.257",
+  "number": "D.3.252",
   "title": "",
   "body": "  Given that and that the terminal side of lies in Quadrant II, find the exact values of all six trigonometric functions of .   "
 },
@@ -6890,7 +7790,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#def-reference-angle",
   "type": "Definition",
-  "number": "D.3.258",
+  "number": "D.3.253",
   "title": "",
   "body": "  The reference angle for an angle in standard position is the acute angle formed by the terminal side of and the x-axis in a reference triangle.   "
 },
@@ -6899,7 +7799,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ws-trig-functions-any-angle-11",
   "type": "Note",
-  "number": "D.3.259",
+  "number": "D.3.254",
   "title": "",
   "body": " The reference angle is always a positive acute angle since the reference angle is part of a right triangle.              "
 },
@@ -6908,7 +7808,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#thm-calculating-reference-angles",
   "type": "Theorem",
-  "number": "D.3.260",
+  "number": "D.3.255",
   "title": "",
   "body": "  Let be any angle in standard position and let be its reference angle. If , the reference angle in degrees can be calculated as follows.   If is in Quadrant I, then .    If is in Quadrant II, then .    If is in Quadrant III, then .    If is in Quadrant IV, then .     If , the reference angle in radians can be calculated as follows.   If is in Quadrant I, then .    If is in Quadrant II, then .    If is in Quadrant III, then .    If is in Quadrant IV, then .      "
 },
@@ -6917,7 +7817,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-reference-angle-1",
   "type": "Example",
-  "number": "D.3.261",
+  "number": "D.3.256",
   "title": "",
   "body": "  Find the reference angle for .   "
 },
@@ -6926,7 +7826,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-reference-angle-2",
   "type": "Example",
-  "number": "D.3.262",
+  "number": "D.3.257",
   "title": "",
   "body": "  Find the reference angle for .   "
 },
@@ -6935,7 +7835,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#thm-relationship-reference-and-angle",
   "type": "Theorem",
-  "number": "D.3.263",
+  "number": "D.3.258",
   "title": "",
   "body": "  Let be any angle in standard position and let be its reference angle. Then the following equations are true. The sign in each equation is determined by the quadrant in which the terminal side of lies.   "
 },
@@ -6944,7 +7844,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ws-trig-functions-any-angle-16",
   "type": "Note",
-  "number": "D.3.264",
+  "number": "D.3.259",
   "title": "",
   "body": " This theorem implies that if two angles have the same reference angle, then the value of the trigonometric functions of those two angles will differ at most by a negative sign.  "
 },
@@ -6953,7 +7853,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-reference-angle",
   "type": "Example",
-  "number": "D.3.265",
+  "number": "D.3.260",
   "title": "",
   "body": "  Recall that . Find the values of , , and .   "
 },
@@ -6962,7 +7862,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#table-expanded-trigonometric-functions-common-angles",
   "type": "Table",
-  "number": "D.3.266",
+  "number": "D.3.261",
   "title": "Expanded Trigonometric Functions of Common Angles",
   "body": " Expanded Trigonometric Functions of Common Angles                                    "
 },
@@ -6971,7 +7871,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-common-angles",
   "type": "Example",
-  "number": "D.3.267",
+  "number": "D.3.262",
   "title": "",
   "body": "  Find the exact values of the six trigonometric functions when .   "
 },
@@ -6980,7 +7880,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-common-angles-2",
   "type": "Example",
-  "number": "D.3.268",
+  "number": "D.3.263",
   "title": "",
   "body": "  Find the exact values of the six trigonometric functions when .   "
 },
@@ -6989,7 +7889,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-trig-functions-any-angle.html#ex-trig-functions-common-angles-3",
   "type": "Example",
-  "number": "D.3.269",
+  "number": "D.3.264",
   "title": "",
   "body": "  Find the exact values of the six trigonometric functions when .   "
 },
@@ -7007,7 +7907,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-circle-functions",
   "type": "Theorem",
-  "number": "D.4.270",
+  "number": "D.4.265",
   "title": "",
   "body": "  Consider a circle of radius centered at the origin and a point on the terminal side of an angle . Then the values of and are determined by the following pair of equations:    "
 },
@@ -7016,7 +7916,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-unit-circle-1",
   "type": "Example",
-  "number": "D.4.271",
+  "number": "D.4.266",
   "title": "",
   "body": " Find the coordinates of the point on the terminal side of a angle that lies on a circle of radius . Then, find the value of the six trigonometric functions at this angle.  "
 },
@@ -7025,7 +7925,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-unit-circle-2",
   "type": "Example",
-  "number": "D.4.272",
+  "number": "D.4.267",
   "title": "",
   "body": " Find the coordinates of the point on the terminal side of a angle that lies on a circle of radius . Then, find the value of the six trigonometric functions at this angle.  "
 },
@@ -7034,7 +7934,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#def-unit-circle",
   "type": "Definition",
-  "number": "D.4.273",
+  "number": "D.4.268",
   "title": "",
   "body": "  The unit circle is a circle of radius centered at the origin.   "
 },
@@ -7043,7 +7943,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-unit-circle-trig-values",
   "type": "Theorem",
-  "number": "D.4.274",
+  "number": "D.4.269",
   "title": "",
   "body": "  Let be an angle in standard position on the unit circle, and let be the point on the unit circle corresponding to . Then the values of the six trigonometric functions at are given by the following equations:    "
 },
@@ -7052,7 +7952,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ws-unit-circle-7",
   "type": "Note",
-  "number": "D.4.275",
+  "number": "D.4.270",
   "title": "Putting it All Together.",
   "body": " Putting it All Together  The unit circle is a memory device that allows us to quickly determine the values of trigonometric functions at any angle. In order to use the unit circle effectively for common angles, you need to know the following topics.   Coterminal angles    The signs of the trigonometric functions in each quadrant.    Reference angles.    The following pattern of common angles (in degrees and radians)     The following list of values both forwards and backwards.      "
 },
@@ -7061,7 +7961,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-building-the-unit-circle",
   "type": "Example",
-  "number": "D.4.276",
+  "number": "D.4.271",
   "title": "",
   "body": " Complete the blank unit circle given below with the common angles (in both degrees and radians) and their corresponding coordinates. Use the following hints to help you complete it.    Use the table of common angles (duplicated below for your convenience) to fill in the angles in quadrant 1.     Use your knowledge of reference angles and signs of the trigonometric functions to complete the information in the other quadrants.      Expanded Trigonometric Functions of Common Angles                              The unit circle. A line segment is drawn from the origin to the points on the circles that correspond to the multiples of , , and . Each line segment has four blanks for students to fill in: one for the radian measure, one for the degree measure, and a pair of blanks for the coordinates on the unit circle.    "
 },
@@ -7070,7 +7970,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-trig-functions-from-point",
   "type": "Example",
-  "number": "D.4.279",
+  "number": "D.4.274",
   "title": "",
   "body": " The point lies on the unit circle. Find the value of the six trigonometric functions of the angle that is associated to this point.  "
 },
@@ -7079,7 +7979,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-trig-functions-from-point-2",
   "type": "Example",
-  "number": "D.4.280",
+  "number": "D.4.275",
   "title": "",
   "body": " The point lies on the unit circle. Find the value of the six trigonometric functions of the angle that is associated to this point.  "
 },
@@ -7088,7 +7988,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-domain-range-sin-cos",
   "type": "Theorem",
-  "number": "D.4.281",
+  "number": "D.4.276",
   "title": "Domain and Range of Sine and Cosine.",
   "body": " Domain and Range of Sine and Cosine   Sine and Cosine both have domain and range .   "
 },
@@ -7097,7 +7997,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-parity-trig-functions",
   "type": "Theorem",
-  "number": "D.4.282",
+  "number": "D.4.277",
   "title": "",
   "body": "  The functions sine, cosecant, tangent, and cotangent are odd functions. In other words, The functions cosine and secant are even functions. In other words,    "
 },
@@ -7106,7 +8006,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-even-trig-functions",
   "type": "Example",
-  "number": "D.4.283",
+  "number": "D.4.278",
   "title": "",
   "body": " Find the exact value of .  "
 },
@@ -7115,7 +8015,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-odd-trig-functions",
   "type": "Example",
-  "number": "D.4.284",
+  "number": "D.4.279",
   "title": "",
   "body": " Find the exact value of .  "
 },
@@ -7124,7 +8024,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#def-periodic-function",
   "type": "Definition",
-  "number": "D.4.285",
+  "number": "D.4.280",
   "title": "Periodic Functions.",
   "body": " Periodic Functions   A function is periodic if there exists a positive number such that for all in the domain of . The smallest such positive number is called the period of the function    "
 },
@@ -7133,7 +8033,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-periodicity-sine-cosine",
   "type": "Theorem",
-  "number": "D.4.286",
+  "number": "D.4.281",
   "title": "The Periodicity of Sine and Cosine.",
   "body": " The Periodicity of Sine and Cosine   The period of both the sine and cosine functions is . In other words, for any angle ,    "
 },
@@ -7142,7 +8042,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-periodicity-sine-cosine",
   "type": "Example",
-  "number": "D.4.287",
+  "number": "D.4.282",
   "title": "",
   "body": " Find the exact value of .  "
 },
@@ -7151,7 +8051,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#thm-periodicity-tan",
   "type": "Theorem",
-  "number": "D.4.288",
+  "number": "D.4.283",
   "title": "The Periodicity of Tangent and Cotangent.",
   "body": " The Periodicity of Tangent and Cotangent   The period of both the tangent is . In other words, for any angle ,    "
 },
@@ -7160,7 +8060,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ex-periodicity-tangent",
   "type": "Example",
-  "number": "D.4.289",
+  "number": "D.4.284",
   "title": "",
   "body": " Find the exact value of .  "
 },
@@ -7169,7 +8069,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-unit-circle.html#ws-unit-circle-20",
   "type": "Note",
-  "number": "D.4.290",
+  "number": "D.4.285",
   "title": "Period of All Six Trigonometric Functions.",
   "body": " Period of All Six Trigonometric Functions  Since taking reciprocals does not change the period of a function, we know the periods of all six trigonometric functions:    , , , and all have period .     and both have period .   In particular, we can extend this result to any multiple of the period. Therefore, for any integer , we have the following equations.   "
 },
@@ -7187,7 +8087,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-graph-sine",
   "type": "Definition",
-  "number": "D.5.291",
+  "number": "D.5.286",
   "title": "Graph of the Sine Function.",
   "body": " Graph of the Sine Function   The equation is found by plotting the points where is measured in radians.  Instead of a circle, this graph is a wave that oscillates between and , and this wave pattern repeats every units on the -axis. Unless more of the graph is needed, we typically only draw one period of the graph.   Points on the graph of .                                                    A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.     "
 },
@@ -7196,7 +8096,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-graph-cosine",
   "type": "Definition",
-  "number": "D.5.294",
+  "number": "D.5.289",
   "title": "Graph of the Cosine Function.",
   "body": " Graph of the Cosine Function   The equation is found by plotting the points where is measured in radians.  Similar to the sine graph, the graph of cosine is a wave that oscillates between and , and this wave pattern also repeats every units on the -axis. Furthermore, if we consider the cofunction identity , we see that the graph of cosine is a transformation of the sine graph by performing a horizontal reflection and then a shift right by .   Points on the graph of .                                                    A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.     "
 },
@@ -7205,7 +8105,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-amplitude",
   "type": "Definition",
-  "number": "D.5.297",
+  "number": "D.5.292",
   "title": "The Amplitude of Sine and Cosine Graphs.",
   "body": " The Amplitude of Sine and Cosine Graphs   Let or where . The amplitude of the graph is one-half the vertical distance between the absolute maximum and the absolute minimum of the graph. The distance measured by the amplitude is given by the formula    The graph of . The point is labeled as the absolute maximum and the point is labeled as the absolute minimum. One vertical line segment measures the distance between the -axis and the absolute maximum, and another vertical line segment measures the distance between the -axis and the absolute minimum. Both segments are labeled with the distance .     The graph of . The point is labeled as the absolute maximum and the point is labeled as the absolute minimum. One vertical line segment measures the distance between the -axis and the absolute maximum, and another vertical line segment measures the distance between the -axis and the absolute minimum. Both segments are labeled with the distance .     "
 },
@@ -7214,7 +8114,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#ws-sine-cosine-graphs-5",
   "type": "Note",
-  "number": "D.5.300",
+  "number": "D.5.295",
   "title": "Algebraic Interpretation of Amplitude.",
   "body": " Algebraic Interpretation of Amplitude  The amplitude measure the vertical stretch or compression applied to the base graph or . In order to graph or , we can first graph the base graph and multiply the -coordinates by . Notice we didn't apply absolute values to this multiplication. If is negative, multiplying by will also reflect the graph across the -axis in addition to stretching or compressing the graph.  "
 },
@@ -7223,7 +8123,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-1",
   "type": "Procedure",
-  "number": "D.5.301",
+  "number": "D.5.296",
   "title": "Rapid Sketch Method (Amplitude Only Version).",
   "body": " Rapid Sketch Method (Amplitude Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are multiples of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
 },
@@ -7232,7 +8132,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-graphing-sine-1",
   "type": "Example",
-  "number": "D.5.302",
+  "number": "D.5.297",
   "title": "Graphing a Sine Function.",
   "body": " Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on . The graph is labeled at , and a graph, dashed grid is imposed on the background; each square of the grid has dimensions .     "
 },
@@ -7241,7 +8141,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-graphing-cosine-1",
   "type": "Example",
-  "number": "D.5.304",
+  "number": "D.5.299",
   "title": "Graphing a Cosine Function.",
   "body": " Graphing a Cosine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on . The graph is labeled at , and a graph, dashed grid is imposed on the background; each square of the grid has dimensions .     "
 },
@@ -7250,7 +8150,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-find-equation-graph-sine-cosine",
   "type": "Example",
-  "number": "D.5.306",
+  "number": "D.5.301",
   "title": "Finding the Equation from the Graph of a Sine or Cosine Function.",
   "body": " Finding the Equation from the Graph of a Sine or Cosine Function   Find the equation of the sine or cosine graph shown below.   A graph of either a sine or cosine function.   Graph passing through the points (0,0), (pi\/2,5\/4), (pi,0), (3pi\/2,-5\/4), and (2pi,0).     "
 },
@@ -7259,7 +8159,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-period-sine-cosine",
   "type": "Definition",
-  "number": "D.5.308",
+  "number": "D.5.303",
   "title": "",
   "body": "  Let or where and . The period of the graph is the horizontal distance between consecutive absolute maximums (or equivalently between consecutive absolute minimums) of the graph. The length of this horizontal distance is given by the following formula:    The graph of . Line segments measuring the horizontal distance between absolute extrema have been added to the graph of Figure . Each segment is labeled with the distance .     The graph of . Line segments measuring the horizontal distance between absolute extrema have been added to the graph of Figure . Each segment is labeled with the distance .     "
 },
@@ -7268,7 +8168,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-2",
   "type": "Procedure",
-  "number": "D.5.311",
+  "number": "D.5.306",
   "title": "Rapid Sketch Method (Amplitude and Period Only Version).",
   "body": " Rapid Sketch Method (Amplitude and Period Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are multiples of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
 },
@@ -7277,7 +8177,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-graphing-sine-2",
   "type": "Example",
-  "number": "D.5.312",
+  "number": "D.5.307",
   "title": "Graphing a Sine Function.",
   "body": " Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .     "
 },
@@ -7286,7 +8186,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-graphing-cosine-2",
   "type": "Example",
-  "number": "D.5.314",
+  "number": "D.5.309",
   "title": "Graphing a Cosine Function.",
   "body": " Graphing a Cosine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .     "
 },
@@ -7295,7 +8195,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-graphing-sine-3",
   "type": "Example",
-  "number": "D.5.316",
+  "number": "D.5.311",
   "title": "Graphing a Sine Function.",
   "body": " Graphing a Sine Function   Graph one period of the function .   The graph of is drawn as a red, dashed curve on .     "
 },
@@ -7304,7 +8204,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-find-equation-graph-sine-cosine-2",
   "type": "Example",
-  "number": "D.5.318",
+  "number": "D.5.313",
   "title": "Finding the Equation from the Graph of a Sine or Cosine Function.",
   "body": " Finding the Equation from the Graph of a Sine or Cosine Function   Find the equation of the sine or cosine graph shown below.   A graph of either a sine or cosine function.   Graph passing through the points (0,-1), (2,0), (4,1), (6,0)), and (8,-1).     "
 },
@@ -7313,7 +8213,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-phase-shift-sine-cosine",
   "type": "Definition",
-  "number": "D.5.320",
+  "number": "D.5.315",
   "title": "",
   "body": "  Let or where , , and is any real number. The phase shift of the graph is the horizontal distance the graph of or is shifted left or right. The length of the shift is given by the following equation: If the phase shift is positive, the graph is shifted to the right, and if the phase shift is negative, the graph is shifted to the left.   The graph of . The graph of Figure has been shifted to the right by units, where . A horizontal line segment measuring the distance of the phase shift has been added to the graph and is labeled with the distance .     "
 },
@@ -7322,7 +8222,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-3",
   "type": "Procedure",
-  "number": "D.5.322",
+  "number": "D.5.317",
   "title": "Rapid Sketch Method (Amplitude, Period, Phase Shift Only Version).",
   "body": " Rapid Sketch Method (Amplitude, Period, Phase Shift Only Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are equal to plus a multiple of .  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
 },
@@ -7331,7 +8231,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#ws-sine-cosine-graphs-18",
   "type": "Example",
-  "number": "D.5.323",
+  "number": "D.5.318",
   "title": "Graphing a Cosine Function.",
   "body": " Graphing a Cosine Function   Graph one period of the function    The graph of is drawn as a red, dashed curve on .     "
 },
@@ -7340,7 +8240,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-vertical-shift-sine-cosine",
   "type": "Definition",
-  "number": "D.5.325",
+  "number": "D.5.320",
   "title": "",
   "body": "  Let or where , , is any real number, and is any real number. The vertical shift of the graph is the vertical distance the graph of or is shifted up or down. The length of the shift is given by the following equation: If the vertical shift is positive, the graph is shifted up, and if the vertical shift is negative, the graph is shifted down.   The graph of . The graph of Figure has been shifted up by units, where . A vertical line segment measuring the distance of the vertical shift has been added to the graph and is labeled with the distance .     "
 },
@@ -7349,7 +8249,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#def-midline-sine-cosine",
   "type": "Definition",
-  "number": "D.5.327",
+  "number": "D.5.322",
   "title": "Midline of Sine and Cosine Graphs.",
   "body": " Midline of Sine and Cosine Graphs   Let or where , , is any real number, and is any real number. The midline of the graph is the horizontal line that is equidistant from the absolute extrema the graph. The equation of the midline for sine and cosine is    "
 },
@@ -7358,7 +8258,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#lem-rapid-sketch-method-version-4",
   "type": "Procedure",
-  "number": "D.5.328",
+  "number": "D.5.323",
   "title": "Rapid Sketch Method (Full Version).",
   "body": " Rapid Sketch Method (Full Version)   In order to rapidly sketch the graph of or , we only graph the absolute maximums, the absolute minimums, and the zeroes of the function. For both functions, these points correspond to the -coordinates that are equal to plus a multiple of and have , , or as their -coordinates.  For , the pattern of points for one period (starting at ) is:   For , the pattern of points for one period (starting at ) is:    "
 },
@@ -7367,7 +8267,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#ws-sine-cosine-graphs-22",
   "type": "Example",
-  "number": "D.5.329",
+  "number": "D.5.324",
   "title": "Graphing a Cosine Function.",
   "body": " Graphing a Cosine Function   Graph one period of the function    The graph of is drawn as a red, dashed curve on .     "
 },
@@ -7376,7 +8276,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-sine-cosine-graphs.html#exa-applied-problem-graphs-sine-cosine",
   "type": "Example",
-  "number": "D.5.331",
+  "number": "D.5.326",
   "title": "Applied Problem Involving Graphs of Sine and Cosine.",
   "body": " Applied Problem Involving Graphs of Sine and Cosine   A region that is N of the equator averages a minimum of hours of daylight in December and a maximum of hours of daylight in June. Let represent the month of the year, with corresponding to January, to February, etc. If represents the number of daylight hours in month , find a sine to model the average number of daylight hours in any given month.   "
 },
@@ -7394,7 +8294,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#def-graph-tangent",
   "type": "Definition",
-  "number": "D.6.332",
+  "number": "D.6.327",
   "title": "Graph of the Tangent Function.",
   "body": " Graph of the Tangent Function   The equation is found by plotting the points where is measured in radians.  Instead of a circle, we get a graph that looks similar to that repeats over and over again. A vertical asymptote defines the boundary where one branch of tangent ends and another branch begins.   Points on the graph of .                     Undefined                       Undefined          A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.     "
 },
@@ -7403,7 +8303,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#def-graph-cotangent",
   "type": "Definition",
-  "number": "D.6.335",
+  "number": "D.6.330",
   "title": "Graph of the Cotangent Function.",
   "body": " Graph of the Cotangent Function   The equation is found by plotting the points where is measured in radians.  Similar to the tangent graph, the graph of cotangent looks similar to but is reflected, shifted horizontally, and repeats over and over again. A vertical asymptote defines the boundary where one branch of cotangent ends and another branch begins.   Points on the graph of .                 undefined         undefined                            A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.     "
 },
@@ -7412,7 +8312,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#ws-other-four-graphs-4",
   "type": "Note",
-  "number": "D.6.338",
+  "number": "D.6.333",
   "title": "A Note on Transformations of Tangent and Cotangent.",
   "body": " A Note on Transformations of Tangent and Cotangent  All the transformations we applied to sine and cosine can be applied to tangent and cotangent. There are two differences:   While still defines a vertical stretch and reflection (since this is true for any function ), is not called an amplitude since tangent and cotangent do not have absolute extrema.    Since the period of tangent and cotangent is , the formula for the period of a transformed tangent or cotangent graph is    While it is not required, it is recommended to draw the -axis from to when graphing a transformed tangent or cotangent graph.  "
 },
@@ -7421,7 +8321,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#lem-rapid-sketch-method-tangent-cotangent",
   "type": "Procedure",
-  "number": "D.6.339",
+  "number": "D.6.334",
   "title": "Rapid Sketch Method (Tangent and Cotangent Version).",
   "body": " Rapid Sketch Method (Tangent and Cotangent Version)   In order to rapidly sketch the graph of or , we only need to graph the vertical asymptotes and make sure the graph crosses the midline halfway between the successive vertical asymptotes.  For tangent, the equation of the vertical asymptotes can be found using the formula where is any integer.  For cotangent, the equation of the vertical asymptotes can be found using the formula where is any integer.   "
 },
@@ -7430,7 +8330,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#ws-other-four-graphs-6",
   "type": "Note",
-  "number": "D.6.340",
+  "number": "D.6.335",
   "title": "Asymptotes of Tangent and Cotangent.",
   "body": " Asymptotes of Tangent and Cotangent  In practice, it is sufficient to find only one of the vertical asymptotes using . Then you can add and subtract the period repeatedly to find the other asymptotes.  "
 },
@@ -7439,7 +8339,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#ex-tangent-graph",
   "type": "Example",
-  "number": "D.6.341",
+  "number": "D.6.336",
   "title": "Graphing a Tangent Function.",
   "body": " Graphing a Tangent Function   Graph one period of .   The graph of is drawn as a red, dashed curve on . A dashed grid is imposed on the background; each square of the grid has dimensions .     "
 },
@@ -7448,7 +8348,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#ex-cotangent-graph",
   "type": "Example",
-  "number": "D.6.343",
+  "number": "D.6.338",
   "title": "Graphing a Cotangent Function.",
   "body": " Graphing a Cotangent Function   Graph one period of .   The graph of is drawn as a red, dashed curve on . A dashed grid is imposed on the background; each square of the grid has dimensions .     "
 },
@@ -7457,7 +8357,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#def-graph-cosecant",
   "type": "Definition",
-  "number": "D.6.345",
+  "number": "D.6.340",
   "title": "Graph of the Cosecant Function.",
   "body": " Graph of the Cosecant Function   The equation is found by plotting the points where is measured in radians.  Instead of a circle, that look like a collection of parabolas that alternate opening upwards and downwards.  Unlike the other graphs, we can construct the graph of cosecant using the graph of sine. The following steps explain how to do this.   Lightly graph the sine function.    For each point where the sine graph crosses the midline, draw a vertical asymptote on the cosecant graph.    For each absolute maximum, draw a parabola-like shape opening upwards from the absolute maximum of sine.    For each absolute minimum, draw a parabola-like shape opening downwards from the absolute minimum of sine.      A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.     "
 },
@@ -7466,7 +8366,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#def-graph-secant",
   "type": "Definition",
-  "number": "D.6.347",
+  "number": "D.6.342",
   "title": "Graph of the Secant Function.",
   "body": " Graph of the Secant Function   The equation is found by plotting the points where is measured in radians.  Unlike the other graphs, we can construct the graph of secant using the graph of cosine. The following steps explain how to do this.   Lightly graph the cosine function.    For each point where the cosine graph crosses the midline, draw a vertical asymptote on the secant graph.    For each absolute maximum, draw a parabola-like shape opening upwards from the absolute maximum of cosine.    For each absolute minimum, draw a parabola-like shape opening downwards from the absolute minimum of cosine.      A blank graph of the coordinate plane where the -axis is labeled every units and the -axis is labeled every units. A dashed grid outlines by rectangles.     "
 },
@@ -7475,7 +8375,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#ws-other-four-graphs-11",
   "type": "Note",
-  "number": "D.6.349",
+  "number": "D.6.344",
   "title": "A Note on Transformations of Cosecant and Secant.",
   "body": " A Note on Transformations of Cosecant and Secant  All the transformations we applied to sine and cosine can be applied to cosecant and secant. There is only one difference:   While still defines a vertical stretch and reflection (since this is true for any function ), is not called an amplitude since cosecant and secant do not have absolute extrema.     "
 },
@@ -7484,7 +8384,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#ex-cosecant-graph",
   "type": "Example",
-  "number": "D.6.350",
+  "number": "D.6.345",
   "title": "Graphing a Cosecant Function.",
   "body": " Graphing a Cosecant Function   Graph one period of .   A blank coordinate plane plotted on . A dashed grid is imposed on the background; each square of the grid has dimensions .     "
 },
@@ -7493,7 +8393,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-other-four-graphs.html#ex-secant-graph",
   "type": "Example",
-  "number": "D.6.352",
+  "number": "D.6.347",
   "title": "Graphing a Secant Function.",
   "body": " Graphing a Secant Function   Graph one period of .   A blank coordinate plane plotted on . A dashed grid is imposed on the background; each square of the grid has dimensions .     "
 },
@@ -7525,13 +8425,742 @@ var ptx_lunr_docs = [
   "body": " Appendix G: Calculus 3 Lecture Notes   This appendix contains lecture notes for the Calculus 3 section.    "
 },
 {
-  "id": "appendix-h",
+  "id": "appendix-statistics-chapter-1",
   "level": "1",
-  "url": "appendix-h.html",
-  "type": "Appendix",
-  "number": "H",
-  "title": "Appendix H: Statistics Lecture Notes",
-  "body": " Appendix H: Statistics Lecture Notes   This appendix contains lecture notes for the Statistics section.    "
+  "url": "appendix-statistics-chapter-1.html",
+  "type": "Worksheet",
+  "number": "H.1",
+  "title": "Chapter 1 Lecture Notes",
+  "body": " Chapter 1 Lecture Notes  "
+},
+{
+  "id": "appendix-statistics-chapter-2",
+  "level": "1",
+  "url": "appendix-statistics-chapter-2.html",
+  "type": "Worksheet",
+  "number": "H.2",
+  "title": "Chapter 2 Lecture Notes",
+  "body": " Chapter 2 Lecture Notes  "
+},
+{
+  "id": "appendix-statistics-chapter-3",
+  "level": "1",
+  "url": "appendix-statistics-chapter-3.html",
+  "type": "Worksheet",
+  "number": "H.3",
+  "title": "Chapter 3 Lecture Notes",
+  "body": " Chapter 3 Lecture Notes   Mean   The mean , also called the average , is the sum of all data values divided by the number of values.  Population Mean:   Sample Mean:      What do these symbols mean?     means sum or add all values.  represents individual data values.  is population size.  is sample size.       Why do we have two formulas for mean?   We use one formula for populations and one for samples because they represent different contexts and notations.     Example 1   Consider exam scores: 75, 80, 85, 90, 95. Calculate the average score.   Test Scores of Five Students   Score  75  80  85  90  95       Example 2   Complete the Understanding the Idea of Average Value\/Mean interactive example.     Example 3   Use the Summary Statistics Calculator to find the mean of a sample of 50 LSAT scores.     Median   The median of an ordered dataset separates the lower 50% and upper 50%. It may or may not be a data value and is often denoted .     How do I calculate the Median?   Let be sample size.    Order data from smallest to largest.  Check parity of :  If is odd, median is entry .  If is even, median is average of entries and .          Example 1   Weekly study hours for 7 students are shown below. Find the median by hand.   Sample of Weekly Study Hours (in hours)   Study Hours Per Week  12 15 10 18 14 11 16       Example 2   Cholesterol levels (mg\/dL) for 10 people are shown below. Find the median by hand.   Sample of 10 Cholesterol Levels   Cholesterol Level (mg\/dL)  154 240 171 188 235  203 184 173 181 275       Example 3   Use the Summary Statistics Calculator to find the median of a sample of 50 LSAT scores.     Mode   The mode of a dataset is the value(s) that occur locally with highest frequency.    Unimodal distributions have one peak.  Multimodal distributions have multiple peaks.  Uniform distributions have no distinct peak.       Revised Definition: Mode   The mode is the value(s) that occur most frequently.     Example 1   Find the mode of 2016–2017 tuition and fees (in thousands of dollars) for top U.S. universities.   2016–2017 Tuition and Fees (in $1000s)   Tuition and Fees  45 47 52 49 55 48 48  51 51 50 51 48 51 51       Example 2   Use the Summary Statistics Calculator to identify mode(s) for a sample of LSAT scores and classify the distribution.     Example 3   Use the Frequency Distribution Tool to determine the mode for shirt-size sales data.     Outliers   An outlier is a data point that does not follow the overall distribution pattern and is usually much larger or smaller than most values.     Example 1   Given scores :    Find mean, median, and mode.  Add outlier 41 and recompute.  Determine which center changed most and least.       Resistance to Outliers   A statistic is resistant if extreme values cause little or no change.  In this context, mean is not resistant, while median and mode are resistant.     The Mean, Median, and Mode in Unimodal Distributions   Normal:  .  Skew-right:  .  Skew-left:  .     Example 1   For data , calculate mean by direct definition, grouped multiplication, and simplified weighted form.     What is a Weighted Mean?   A weighted mean is a mean where values carry frequencies or weights.  Using frequencies:   Using weights:      Example 2   Compute current course grade with weighted categories using the Summary Statistics Calculator .   Sample Grades for a Course   Category Grade (%) Percentage of Grade  MyLab Stat 43% 7.5%  Quizzes 63% 7.5%  Exam 1 92% 20%  Exam 2 67% 20%  Exam 3 76% 20%       Example 3   Estimate mean gas mileage for family sedans from grouped data using midpoint-frequency weighted mean.   A Frequency Distribution for the Gas Mileage of 24 Family Sedans   Gas Mileage (mpg) Midpoint Frequency  22 to 27 16  28 to 33 2  34 to 39 2  40 to 45 4       Is the Mean Enough to Describe a Dataset?   The mean is one of the most commonly used measures to summarize a dataset. While it provides useful information about central tendency, it does not always tell the whole story. Different datasets can have the same mean and still have very different distributions.     Example 1     Part A: Find the mean of .  Part B: Find the mean of .  Part C: Even though the means are the same, describe how the datasets differ.       Range   .     Advantages and Disadvantages of the Range     Advantage: simple and quick to compute.  Disadvantage: depends only on the minimum and maximum values, so it is sensitive to outliers.       Example 1   Scientists track migration distances (in miles) for 10 birds.   Migration Distances   Distance (in miles)  354 400 412 375 389 410 368 390 405 392      Part A: Find the range.  Part B: Explain what the range says about variation.       Example 2   Ages (in years) of 12 participants in a community program are listed below.   Participants in a Community Program   Age (in years)  22 25 31 28 24 35 45 41 29 33 38 40       Deviation   The deviation of a data point is the difference between the value and the mean.  Population:   Sample:   .     Notes on Deviation     Positive deviation means the data point is above the mean.  Negative deviation means the data point is below the mean.       Example 1   Salaries for a sample of 10 individuals are shown below (in thousands of dollars).   Sample of 10 Salaries (in Thousands of Dollars)   Salaries (in thousands of dollars)  40 23 41 50 49 32 41 59 52 58      Part A: Calculate each salary's deviation.  Part B: Use the Summary Statistics Calculator to find average deviation.       Understanding Standard Deviation   Standard deviation is a key measure of variability and describes typical distance from the mean.     Squared Deviation   Population:   Sample:      Example 1   Compute squared deviations for the salary data and find their sum.     Variance   Population:   Sample:      Why does sample variance use ?   This is related to degrees of freedom .     Example 2   Compute variance for the salary dataset.    Variance has squared units.  Variance can be numerically large because deviations are squared.       Standard Deviation   Population:   Sample:      Important Properties of Standard Deviation     Measures average distance from the mean.  Always greater than or equal to zero.  Larger values indicate more variation.  Not resistant to outliers.  Uses the same units as the data.       Example 3   Use the Summary Statistics Calculator to compute standard deviation for the salary data.     How to Find Outliers for Normal Distributions   Outliers are extreme values that stand apart from most of a dataset.     Example 1   Unemployment rates are approximately normal with mean and standard deviation . Classify:    Part A:   Part B:   Part C:        The Empirical Rule     About of data lies between and .  About of data lies between and .  About of data lies between and .       Example 1   A sample has mean height inches and standard deviation inches. Use the Empirical Rule Calculator :    Part A: Percent between and .  Part B: Percent taller than .  Part C: Percent shorter than .       Chebyshev's Inequality   At least of data lies within standard deviations of the mean, for .    : at least  : at least  : at least       Example 1   A hospital has systolic blood-pressure data with mean mmHg and standard deviation mmHg. Use Chebyshev's inequality to find the minimum percentage between and mmHg.     How to Calculate a Percentile   A percentile indicates the relative standing of a data value in a dataset. The percentile is the value below which of the data falls.     Percentiles By Hand   Formula for percentile rank of a value :   How to find a data value for a given percentile:    Step 1: Compute .  Step 2: Use the position in the ordered data:  If decimal, use adjacent positions and average those two values.  If whole number, use that position and the next position, then average.       Notation: denotes the percentile (for example, ).     Example 1   The dataset below gives three-point shots made by 50 NBA players.    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.     Three-Point Shots Made by 50 NBA Players   Number of Three-Point Shots (Ordered)  5 8 12 18 22 28 35 40 48 55  60 68 72 80 85 90 98 105 110 118  125 130 135 140 148 150 158 165 170 175  180 185 190 198 205 210 220 230 240 250  260 270 280 290 300 310 320 330 340 350       Percentiles using GeoGebra: Example 2   Using the same dataset above:    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.       Cumulative Relative Frequency vs Percentiles   Cumulative relative frequency uses “less than or equal to,” while percentile rank is typically interpreted as “less than.”     Relationship Between the Median and Percentiles   The median is the 50th percentile, i.e. .     Interpreting Percentiles   Interpret each scenario:    Part A: A baby’s weight is in the 85th percentile.  Part B: A household income is at the 70th percentile.  Part C: A patient’s blood pressure is in the 40th percentile.  Part D: A student’s GPA is in the 75th percentile in their school.  Part E: A machine produces parts in the 98th percentile for accuracy.       How to Calculate a -score   A -score (standard score) measures how many standard deviations a value lies above or below the mean.     Example 1   A normal distribution has mean 175 cm and standard deviation 7 cm.   Distribution of Heights   Height (cm) Empirical Rule Calculation -score  154 -3  161 -2  168 -1  175 0  182 1  189 2  196 3       -Score Formulas   General structure:  Population:   Sample:      Important Features of -Scores     -scores are unitless.  Positive means above the mean; negative means below.  Absolute -score measures extremeness.       Example 2   Who is relatively taller at 68 inches: a man or a woman?   Average Heights and Standard Deviations   Group Mean Height (in) Standard Deviation (in)  Men 69.9 3.0  Women 64.3 2.6       Example 3   The ACT has mean 20.8 and standard deviation 5.8. The SAT has mean 1500 and standard deviation 300. Who performed worse relative to peers: SAT 1075 or ACT 15?     Extreme Values   A value is more extreme when its absolute -score is larger.    Step 1: Compute both -scores.  Step 2: Take absolute values.  Step 3: Larger absolute value is more extreme.       Example 4   Determine which is more extreme: a man who weighs 145 lbs (mean 208, sd 25) or a woman who weighs 224 lbs (mean 175, sd 25).     How to Calculate the Five-Number Summary   Quartiles divide ordered data into four parts.    : first quartile  : median  : third quartile       Quartiles: Example 1   Find and for meteorite crater diameters.   Meteorite Impact Crater Diameters (km)   Crater Diameters (km)  1.2 3.5 2.8 4.0 6.7 5.2 8.1 3.1 4.5 2.9 6.0 7.4       Quartiles: Example 2   Use the Summary Statistics Calculator to find and for esports reaction times.   Reaction Times in an Esports Tournament (ms)   Reaction Times (ms)  175 180 185 189 190 195 195 198 200 202  205 210 210 215 215 220 225 230 235 240  245 250 250 255 260 265 270 275 280 290       The Five-Number Summary   The five-number summary consists of minimum, , median, , and maximum.     Example 3   Compute the five-number summary for roller coaster speeds.   Speeds of Roller Coasters Around the World (mph)   Roller Coaster Speeds (mph)  44.7 60.9 65.2 52.8 74.6 68.4 59.0 63.3 55.3 80.8  88.2 49.7 77.7 85.7 55.9 61.5 78.9 93.2 67.1 57.8  62.1 71.3 54.0 83.9 90.2 50.9 99.4 96.3 86.8 46.6       How to Find Outliers for Skewed Data   The interquartile range is , and it measures spread of the middle 50% of skewed data.     Example 1   Compute IQR for exoplanet brightness data.   Exoplanet Brightness Measurements   Brightness (Magnitude)  -3.4 -2.9 -2.5 -2.2 -1.8 -1.5 -1.2 -0.9 -0.7 -0.5  -0.3 -0.1 0.2 0.4 0.7 1.0 1.3 1.7 2.1 3.8       IQR Rule for Outliers     Significantly low if value .  Significantly high if value .       Example 2   Identify outliers in music streaming counts using IQR.   Music Streaming Counts (Millions)   Streams  1.2 1.5 2.1 2.4 2.9 3.3 3.6 4.0 4.2 4.8  5.1 5.7 6.0 6.2 6.8 7.3 8.1 8.5 9.0 15.4       How to Create a Boxplot   A boxplot summarizes the distribution using the five-number summary and whiskers.     Steps to Construct a Boxplot     Find the five-number summary.  Draw a box from to with a median line.  Draw whiskers to minimum and maximum.       Example 1   Construct a boxplot for gaming session lengths.   Gaming Session Lengths (Minutes)   Session Lengths (Minutes)  15 30 45 60 75  120 150 90 200 180  95 110 130 140 85  70 160 170 55 40  190 210 35 100 250       Example 2   Use the Boxplot Generator to create a boxplot for coffee consumption.   Coffee Consumption (Cups per Day)   Number of Cups  0 1 2 3 5 3 4 6 7 2  3 4 5 1 0 8 3 6 4 5  2 7 3 4 6 2 1 5 3 4       Skewness in Boxplots     Approximately normal: median centered and whiskers similar length.  Left skewed: median closer to or left whisker longer.  Right skewed: median closer to or right whisker longer.       Comparing Datasets Using Boxplots     Side-by-side distribution comparison  Quick insight into variability  Compact but informative summaries       Example 3   Compare 100m sprint times for high-school and Olympic athletes using the Boxplot Generator .   100m Sprint Times: High School vs. Olympic Athletes   High School (s) Olympic (s)  10.55 10.60 10.65 10.72 10.78 9.58 9.69 9.72 9.76 9.81  10.82 10.85 10.89 10.94 10.98 9.85 9.88 9.91 9.93 9.95  11.02 11.07 11.10 11.14 11.18 9.98 10.01 10.03 10.05 10.08  11.21 11.25 11.29 11.35 11.40 10.12 10.15 10.19 10.22 10.25      "
+},
+{
+  "id": "appendix-statistics-ch3-mean-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-definition",
+  "type": "Definition",
+  "number": "H.3.349",
+  "title": "Mean.",
+  "body": " Mean   The mean , also called the average , is the sum of all data values divided by the number of values.  Population Mean:   Sample Mean:    "
+},
+{
+  "id": "appendix-statistics-ch3-mean-symbols",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-symbols",
+  "type": "Definition",
+  "number": "H.3.350",
+  "title": "What do these symbols mean?",
+  "body": " What do these symbols mean?     means sum or add all values.  represents individual data values.  is population size.  is sample size.     "
+},
+{
+  "id": "appendix-statistics-ch3-mean-two-formulas",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-two-formulas",
+  "type": "Definition",
+  "number": "H.3.351",
+  "title": "Why do we have two formulas for mean?",
+  "body": " Why do we have two formulas for mean?   We use one formula for populations and one for samples because they represent different contexts and notations.   "
+},
+{
+  "id": "appendix-statistics-ch3-mean-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-1",
+  "type": "Example",
+  "number": "H.3.352",
+  "title": "Example 1.",
+  "body": " Example 1   Consider exam scores: 75, 80, 85, 90, 95. Calculate the average score.   Test Scores of Five Students   Score  75  80  85  90  95     "
+},
+{
+  "id": "appendix-statistics-ch3-mean-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-2",
+  "type": "Example",
+  "number": "H.3.354",
+  "title": "Example 2.",
+  "body": " Example 2   Complete the Understanding the Idea of Average Value\/Mean interactive example.   "
+},
+{
+  "id": "appendix-statistics-ch3-mean-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-3",
+  "type": "Example",
+  "number": "H.3.355",
+  "title": "Example 3.",
+  "body": " Example 3   Use the Summary Statistics Calculator to find the mean of a sample of 50 LSAT scores.   "
+},
+{
+  "id": "appendix-statistics-ch3-median-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-definition",
+  "type": "Definition",
+  "number": "H.3.356",
+  "title": "Median.",
+  "body": " Median   The median of an ordered dataset separates the lower 50% and upper 50%. It may or may not be a data value and is often denoted .   "
+},
+{
+  "id": "appendix-statistics-ch3-median-steps",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-steps",
+  "type": "Definition",
+  "number": "H.3.357",
+  "title": "How do I calculate the Median?",
+  "body": " How do I calculate the Median?   Let be sample size.    Order data from smallest to largest.  Check parity of :  If is odd, median is entry .  If is even, median is average of entries and .        "
+},
+{
+  "id": "appendix-statistics-ch3-median-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-1",
+  "type": "Example",
+  "number": "H.3.358",
+  "title": "Example 1.",
+  "body": " Example 1   Weekly study hours for 7 students are shown below. Find the median by hand.   Sample of Weekly Study Hours (in hours)   Study Hours Per Week  12 15 10 18 14 11 16     "
+},
+{
+  "id": "appendix-statistics-ch3-median-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-2",
+  "type": "Example",
+  "number": "H.3.360",
+  "title": "Example 2.",
+  "body": " Example 2   Cholesterol levels (mg\/dL) for 10 people are shown below. Find the median by hand.   Sample of 10 Cholesterol Levels   Cholesterol Level (mg\/dL)  154 240 171 188 235  203 184 173 181 275     "
+},
+{
+  "id": "appendix-statistics-ch3-median-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-3",
+  "type": "Example",
+  "number": "H.3.362",
+  "title": "Example 3.",
+  "body": " Example 3   Use the Summary Statistics Calculator to find the median of a sample of 50 LSAT scores.   "
+},
+{
+  "id": "appendix-statistics-ch3-mode-definition-local",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-definition-local",
+  "type": "Definition",
+  "number": "H.3.363",
+  "title": "Mode.",
+  "body": " Mode   The mode of a dataset is the value(s) that occur locally with highest frequency.    Unimodal distributions have one peak.  Multimodal distributions have multiple peaks.  Uniform distributions have no distinct peak.     "
+},
+{
+  "id": "appendix-statistics-ch3-mode-definition-revised",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-definition-revised",
+  "type": "Definition",
+  "number": "H.3.364",
+  "title": "Revised Definition: Mode.",
+  "body": " Revised Definition: Mode   The mode is the value(s) that occur most frequently.   "
+},
+{
+  "id": "appendix-statistics-ch3-mode-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-1",
+  "type": "Example",
+  "number": "H.3.365",
+  "title": "Example 1.",
+  "body": " Example 1   Find the mode of 2016–2017 tuition and fees (in thousands of dollars) for top U.S. universities.   2016–2017 Tuition and Fees (in $1000s)   Tuition and Fees  45 47 52 49 55 48 48  51 51 50 51 48 51 51     "
+},
+{
+  "id": "appendix-statistics-ch3-mode-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-2",
+  "type": "Example",
+  "number": "H.3.367",
+  "title": "Example 2.",
+  "body": " Example 2   Use the Summary Statistics Calculator to identify mode(s) for a sample of LSAT scores and classify the distribution.   "
+},
+{
+  "id": "appendix-statistics-ch3-mode-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-3",
+  "type": "Example",
+  "number": "H.3.368",
+  "title": "Example 3.",
+  "body": " Example 3   Use the Frequency Distribution Tool to determine the mode for shirt-size sales data.   "
+},
+{
+  "id": "appendix-statistics-ch3-outlier-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outlier-definition",
+  "type": "Definition",
+  "number": "H.3.369",
+  "title": "Outliers.",
+  "body": " Outliers   An outlier is a data point that does not follow the overall distribution pattern and is usually much larger or smaller than most values.   "
+},
+{
+  "id": "appendix-statistics-ch3-skewness-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-skewness-example-1",
+  "type": "Example",
+  "number": "H.3.370",
+  "title": "Example 1.",
+  "body": " Example 1   Given scores :    Find mean, median, and mode.  Add outlier 41 and recompute.  Determine which center changed most and least.     "
+},
+{
+  "id": "appendix-statistics-ch3-resistance-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-resistance-definition",
+  "type": "Definition",
+  "number": "H.3.371",
+  "title": "Resistance to Outliers.",
+  "body": " Resistance to Outliers   A statistic is resistant if extreme values cause little or no change.  In this context, mean is not resistant, while median and mode are resistant.   "
+},
+{
+  "id": "appendix-statistics-ch3-unimodal-center-relationships",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-unimodal-center-relationships",
+  "type": "Definition",
+  "number": "H.3.372",
+  "title": "The Mean, Median, and Mode in Unimodal Distributions.",
+  "body": " The Mean, Median, and Mode in Unimodal Distributions   Normal:  .  Skew-right:  .  Skew-left:  .   "
+},
+{
+  "id": "appendix-statistics-ch3-weighted-mean-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-1",
+  "type": "Example",
+  "number": "H.3.373",
+  "title": "Example 1.",
+  "body": " Example 1   For data , calculate mean by direct definition, grouped multiplication, and simplified weighted form.   "
+},
+{
+  "id": "appendix-statistics-ch3-weighted-mean-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-definition",
+  "type": "Definition",
+  "number": "H.3.374",
+  "title": "What is a Weighted Mean?",
+  "body": " What is a Weighted Mean?   A weighted mean is a mean where values carry frequencies or weights.  Using frequencies:   Using weights:    "
+},
+{
+  "id": "appendix-statistics-ch3-weighted-mean-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-2",
+  "type": "Example",
+  "number": "H.3.375",
+  "title": "Example 2.",
+  "body": " Example 2   Compute current course grade with weighted categories using the Summary Statistics Calculator .   Sample Grades for a Course   Category Grade (%) Percentage of Grade  MyLab Stat 43% 7.5%  Quizzes 63% 7.5%  Exam 1 92% 20%  Exam 2 67% 20%  Exam 3 76% 20%     "
+},
+{
+  "id": "appendix-statistics-ch3-weighted-mean-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-3",
+  "type": "Example",
+  "number": "H.3.377",
+  "title": "Example 3.",
+  "body": " Example 3   Estimate mean gas mileage for family sedans from grouped data using midpoint-frequency weighted mean.   A Frequency Distribution for the Gas Mileage of 24 Family Sedans   Gas Mileage (mpg) Midpoint Frequency  22 to 27 16  28 to 33 2  34 to 39 2  40 to 45 4     "
+},
+{
+  "id": "appendix-statistics-ch3-mean-not-enough-overview",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-not-enough-overview",
+  "type": "Definition",
+  "number": "H.3.379",
+  "title": "Is the Mean Enough to Describe a Dataset?",
+  "body": " Is the Mean Enough to Describe a Dataset?   The mean is one of the most commonly used measures to summarize a dataset. While it provides useful information about central tendency, it does not always tell the whole story. Different datasets can have the same mean and still have very different distributions.   "
+},
+{
+  "id": "appendix-statistics-ch3-mean-not-enough-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-not-enough-example-1",
+  "type": "Example",
+  "number": "H.3.380",
+  "title": "Example 1.",
+  "body": " Example 1     Part A: Find the mean of .  Part B: Find the mean of .  Part C: Even though the means are the same, describe how the datasets differ.     "
+},
+{
+  "id": "appendix-statistics-ch3-range-definition-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-definition-extra",
+  "type": "Definition",
+  "number": "H.3.381",
+  "title": "Range.",
+  "body": " Range   .   "
+},
+{
+  "id": "appendix-statistics-ch3-range-advantages-disadvantages",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-advantages-disadvantages",
+  "type": "Definition",
+  "number": "H.3.382",
+  "title": "Advantages and Disadvantages of the Range.",
+  "body": " Advantages and Disadvantages of the Range     Advantage: simple and quick to compute.  Disadvantage: depends only on the minimum and maximum values, so it is sensitive to outliers.     "
+},
+{
+  "id": "appendix-statistics-ch3-range-example-1-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-example-1-extra",
+  "type": "Example",
+  "number": "H.3.383",
+  "title": "Example 1.",
+  "body": " Example 1   Scientists track migration distances (in miles) for 10 birds.   Migration Distances   Distance (in miles)  354 400 412 375 389 410 368 390 405 392      Part A: Find the range.  Part B: Explain what the range says about variation.     "
+},
+{
+  "id": "appendix-statistics-ch3-range-example-2-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-example-2-extra",
+  "type": "Example",
+  "number": "H.3.385",
+  "title": "Example 2.",
+  "body": " Example 2   Ages (in years) of 12 participants in a community program are listed below.   Participants in a Community Program   Age (in years)  22 25 31 28 24 35 45 41 29 33 38 40     "
+},
+{
+  "id": "appendix-statistics-ch3-deviation-definition-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-definition-extra",
+  "type": "Definition",
+  "number": "H.3.387",
+  "title": "Deviation.",
+  "body": " Deviation   The deviation of a data point is the difference between the value and the mean.  Population:   Sample:   .   "
+},
+{
+  "id": "appendix-statistics-ch3-deviation-notes-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-notes-extra",
+  "type": "Definition",
+  "number": "H.3.388",
+  "title": "Notes on Deviation.",
+  "body": " Notes on Deviation     Positive deviation means the data point is above the mean.  Negative deviation means the data point is below the mean.     "
+},
+{
+  "id": "appendix-statistics-ch3-deviation-example-1-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-example-1-extra",
+  "type": "Example",
+  "number": "H.3.389",
+  "title": "Example 1.",
+  "body": " Example 1   Salaries for a sample of 10 individuals are shown below (in thousands of dollars).   Sample of 10 Salaries (in Thousands of Dollars)   Salaries (in thousands of dollars)  40 23 41 50 49 32 41 59 52 58      Part A: Calculate each salary's deviation.  Part B: Use the Summary Statistics Calculator to find average deviation.     "
+},
+{
+  "id": "appendix-statistics-ch3-standard-deviation-overview-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-overview-extra",
+  "type": "Definition",
+  "number": "H.3.391",
+  "title": "Understanding Standard Deviation.",
+  "body": " Understanding Standard Deviation   Standard deviation is a key measure of variability and describes typical distance from the mean.   "
+},
+{
+  "id": "appendix-statistics-ch3-squared-deviation-definition-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-squared-deviation-definition-extra",
+  "type": "Definition",
+  "number": "H.3.392",
+  "title": "Squared Deviation.",
+  "body": " Squared Deviation   Population:   Sample:    "
+},
+{
+  "id": "appendix-statistics-ch3-squared-deviation-example-1-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-squared-deviation-example-1-extra",
+  "type": "Example",
+  "number": "H.3.393",
+  "title": "Example 1.",
+  "body": " Example 1   Compute squared deviations for the salary data and find their sum.   "
+},
+{
+  "id": "appendix-statistics-ch3-variance-definition-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-definition-extra",
+  "type": "Definition",
+  "number": "H.3.394",
+  "title": "Variance.",
+  "body": " Variance   Population:   Sample:    "
+},
+{
+  "id": "appendix-statistics-ch3-variance-n-minus-one-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-n-minus-one-extra",
+  "type": "Definition",
+  "number": "H.3.395",
+  "title": "Why does sample variance use <span class=\"process-math\">\\(n-1\\text{?}\\)<\/span>",
+  "body": " Why does sample variance use ?   This is related to degrees of freedom .   "
+},
+{
+  "id": "appendix-statistics-ch3-variance-example-2-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-example-2-extra",
+  "type": "Example",
+  "number": "H.3.396",
+  "title": "Example 2.",
+  "body": " Example 2   Compute variance for the salary dataset.    Variance has squared units.  Variance can be numerically large because deviations are squared.     "
+},
+{
+  "id": "appendix-statistics-ch3-standard-deviation-definition-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-definition-extra",
+  "type": "Definition",
+  "number": "H.3.397",
+  "title": "Standard Deviation.",
+  "body": " Standard Deviation   Population:   Sample:    "
+},
+{
+  "id": "appendix-statistics-ch3-standard-deviation-properties-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-properties-extra",
+  "type": "Definition",
+  "number": "H.3.398",
+  "title": "Important Properties of Standard Deviation.",
+  "body": " Important Properties of Standard Deviation     Measures average distance from the mean.  Always greater than or equal to zero.  Larger values indicate more variation.  Not resistant to outliers.  Uses the same units as the data.     "
+},
+{
+  "id": "appendix-statistics-ch3-standard-deviation-example-3-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-example-3-extra",
+  "type": "Example",
+  "number": "H.3.399",
+  "title": "Example 3.",
+  "body": " Example 3   Use the Summary Statistics Calculator to compute standard deviation for the salary data.   "
+},
+{
+  "id": "appendix-statistics-ch3-outliers-normal-overview-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outliers-normal-overview-extra",
+  "type": "Definition",
+  "number": "H.3.400",
+  "title": "How to Find Outliers for Normal Distributions.",
+  "body": " How to Find Outliers for Normal Distributions   Outliers are extreme values that stand apart from most of a dataset.   "
+},
+{
+  "id": "appendix-statistics-ch3-outliers-normal-example-1-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outliers-normal-example-1-extra",
+  "type": "Example",
+  "number": "H.3.401",
+  "title": "Example 1.",
+  "body": " Example 1   Unemployment rates are approximately normal with mean and standard deviation . Classify:    Part A:   Part B:   Part C:      "
+},
+{
+  "id": "appendix-statistics-ch3-empirical-rule-definition-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-empirical-rule-definition-extra",
+  "type": "Definition",
+  "number": "H.3.402",
+  "title": "The Empirical Rule.",
+  "body": " The Empirical Rule     About of data lies between and .  About of data lies between and .  About of data lies between and .     "
+},
+{
+  "id": "appendix-statistics-ch3-empirical-rule-example-1-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-empirical-rule-example-1-extra",
+  "type": "Example",
+  "number": "H.3.403",
+  "title": "Example 1.",
+  "body": " Example 1   A sample has mean height inches and standard deviation inches. Use the Empirical Rule Calculator :    Part A: Percent between and .  Part B: Percent taller than .  Part C: Percent shorter than .     "
+},
+{
+  "id": "appendix-statistics-ch3-chebyshev-definition-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-chebyshev-definition-extra",
+  "type": "Definition",
+  "number": "H.3.404",
+  "title": "Chebyshev’s Inequality.",
+  "body": " Chebyshev's Inequality   At least of data lies within standard deviations of the mean, for .    : at least  : at least  : at least     "
+},
+{
+  "id": "appendix-statistics-ch3-chebyshev-example-1-extra",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-chebyshev-example-1-extra",
+  "type": "Example",
+  "number": "H.3.405",
+  "title": "Example 1.",
+  "body": " Example 1   A hospital has systolic blood-pressure data with mean mmHg and standard deviation mmHg. Use Chebyshev's inequality to find the minimum percentage between and mmHg.   "
+},
+{
+  "id": "appendix-statistics-ch3b-percentile-overview",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-overview",
+  "type": "Definition",
+  "number": "H.3.406",
+  "title": "How to Calculate a Percentile.",
+  "body": " How to Calculate a Percentile   A percentile indicates the relative standing of a data value in a dataset. The percentile is the value below which of the data falls.   "
+},
+{
+  "id": "appendix-statistics-ch3b-percentile-by-hand",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-by-hand",
+  "type": "Definition",
+  "number": "H.3.407",
+  "title": "Percentiles By Hand.",
+  "body": " Percentiles By Hand   Formula for percentile rank of a value :   How to find a data value for a given percentile:    Step 1: Compute .  Step 2: Use the position in the ordered data:  If decimal, use adjacent positions and average those two values.  If whole number, use that position and the next position, then average.       Notation: denotes the percentile (for example, ).   "
+},
+{
+  "id": "appendix-statistics-ch3b-percentile-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-1",
+  "type": "Example",
+  "number": "H.3.408",
+  "title": "Example 1.",
+  "body": " Example 1   The dataset below gives three-point shots made by 50 NBA players.    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.     Three-Point Shots Made by 50 NBA Players   Number of Three-Point Shots (Ordered)  5 8 12 18 22 28 35 40 48 55  60 68 72 80 85 90 98 105 110 118  125 130 135 140 148 150 158 165 170 175  180 185 190 198 205 210 220 230 240 250  260 270 280 290 300 310 320 330 340 350     "
+},
+{
+  "id": "appendix-statistics-ch3b-percentile-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-2",
+  "type": "Example",
+  "number": "H.3.410",
+  "title": "Percentiles using GeoGebra: Example 2.",
+  "body": " Percentiles using GeoGebra: Example 2   Using the same dataset above:    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.     "
+},
+{
+  "id": "appendix-statistics-ch3b-percentile-notes",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-notes",
+  "type": "Definition",
+  "number": "H.3.411",
+  "title": "Cumulative Relative Frequency vs Percentiles.",
+  "body": " Cumulative Relative Frequency vs Percentiles   Cumulative relative frequency uses “less than or equal to,” while percentile rank is typically interpreted as “less than.”   "
+},
+{
+  "id": "appendix-statistics-ch3b-percentile-median-relation",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-median-relation",
+  "type": "Definition",
+  "number": "H.3.412",
+  "title": "Relationship Between the Median and Percentiles.",
+  "body": " Relationship Between the Median and Percentiles   The median is the 50th percentile, i.e. .   "
+},
+{
+  "id": "appendix-statistics-ch3b-percentile-example-3-interpret",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-3-interpret",
+  "type": "Example",
+  "number": "H.3.413",
+  "title": "Interpreting Percentiles.",
+  "body": " Interpreting Percentiles   Interpret each scenario:    Part A: A baby’s weight is in the 85th percentile.  Part B: A household income is at the 70th percentile.  Part C: A patient’s blood pressure is in the 40th percentile.  Part D: A student’s GPA is in the 75th percentile in their school.  Part E: A machine produces parts in the 98th percentile for accuracy.     "
+},
+{
+  "id": "appendix-statistics-ch3b-zscore-overview",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-overview",
+  "type": "Definition",
+  "number": "H.3.414",
+  "title": "How to Calculate a <span class=\"process-math\">\\(z\\)<\/span>-score.",
+  "body": " How to Calculate a -score   A -score (standard score) measures how many standard deviations a value lies above or below the mean.   "
+},
+{
+  "id": "appendix-statistics-ch3b-zscore-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-1",
+  "type": "Example",
+  "number": "H.3.415",
+  "title": "Example 1.",
+  "body": " Example 1   A normal distribution has mean 175 cm and standard deviation 7 cm.   Distribution of Heights   Height (cm) Empirical Rule Calculation -score  154 -3  161 -2  168 -1  175 0  182 1  189 2  196 3     "
+},
+{
+  "id": "appendix-statistics-ch3b-zscore-formulas",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-formulas",
+  "type": "Definition",
+  "number": "H.3.417",
+  "title": "<span class=\"process-math\">\\(z\\)<\/span>-Score Formulas.",
+  "body": " -Score Formulas   General structure:  Population:   Sample:    "
+},
+{
+  "id": "appendix-statistics-ch3b-zscore-features",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-features",
+  "type": "Definition",
+  "number": "H.3.418",
+  "title": "Important Features of <span class=\"process-math\">\\(z\\)<\/span>-Scores.",
+  "body": " Important Features of -Scores     -scores are unitless.  Positive means above the mean; negative means below.  Absolute -score measures extremeness.     "
+},
+{
+  "id": "appendix-statistics-ch3b-zscore-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-2",
+  "type": "Example",
+  "number": "H.3.419",
+  "title": "Example 2.",
+  "body": " Example 2   Who is relatively taller at 68 inches: a man or a woman?   Average Heights and Standard Deviations   Group Mean Height (in) Standard Deviation (in)  Men 69.9 3.0  Women 64.3 2.6     "
+},
+{
+  "id": "appendix-statistics-ch3b-zscore-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-3",
+  "type": "Example",
+  "number": "H.3.421",
+  "title": "Example 3.",
+  "body": " Example 3   The ACT has mean 20.8 and standard deviation 5.8. The SAT has mean 1500 and standard deviation 300. Who performed worse relative to peers: SAT 1075 or ACT 15?   "
+},
+{
+  "id": "appendix-statistics-ch3b-zscore-extreme",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-extreme",
+  "type": "Definition",
+  "number": "H.3.422",
+  "title": "Extreme Values.",
+  "body": " Extreme Values   A value is more extreme when its absolute -score is larger.    Step 1: Compute both -scores.  Step 2: Take absolute values.  Step 3: Larger absolute value is more extreme.     "
+},
+{
+  "id": "appendix-statistics-ch3b-zscore-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-4",
+  "type": "Example",
+  "number": "H.3.423",
+  "title": "Example 4.",
+  "body": " Example 4   Determine which is more extreme: a man who weighs 145 lbs (mean 208, sd 25) or a woman who weighs 224 lbs (mean 175, sd 25).   "
+},
+{
+  "id": "appendix-statistics-ch3b-five-number-overview",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-overview",
+  "type": "Definition",
+  "number": "H.3.424",
+  "title": "How to Calculate the Five-Number Summary.",
+  "body": " How to Calculate the Five-Number Summary   Quartiles divide ordered data into four parts.    : first quartile  : median  : third quartile     "
+},
+{
+  "id": "appendix-statistics-ch3b-five-number-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-1",
+  "type": "Example",
+  "number": "H.3.425",
+  "title": "Quartiles: Example 1.",
+  "body": " Quartiles: Example 1   Find and for meteorite crater diameters.   Meteorite Impact Crater Diameters (km)   Crater Diameters (km)  1.2 3.5 2.8 4.0 6.7 5.2 8.1 3.1 4.5 2.9 6.0 7.4     "
+},
+{
+  "id": "appendix-statistics-ch3b-five-number-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-2",
+  "type": "Example",
+  "number": "H.3.427",
+  "title": "Quartiles: Example 2.",
+  "body": " Quartiles: Example 2   Use the Summary Statistics Calculator to find and for esports reaction times.   Reaction Times in an Esports Tournament (ms)   Reaction Times (ms)  175 180 185 189 190 195 195 198 200 202  205 210 210 215 215 220 225 230 235 240  245 250 250 255 260 265 270 275 280 290     "
+},
+{
+  "id": "appendix-statistics-ch3b-five-number-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-definition",
+  "type": "Definition",
+  "number": "H.3.429",
+  "title": "The Five-Number Summary.",
+  "body": " The Five-Number Summary   The five-number summary consists of minimum, , median, , and maximum.   "
+},
+{
+  "id": "appendix-statistics-ch3b-five-number-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-3",
+  "type": "Example",
+  "number": "H.3.430",
+  "title": "Example 3.",
+  "body": " Example 3   Compute the five-number summary for roller coaster speeds.   Speeds of Roller Coasters Around the World (mph)   Roller Coaster Speeds (mph)  44.7 60.9 65.2 52.8 74.6 68.4 59.0 63.3 55.3 80.8  88.2 49.7 77.7 85.7 55.9 61.5 78.9 93.2 67.1 57.8  62.1 71.3 54.0 83.9 90.2 50.9 99.4 96.3 86.8 46.6     "
+},
+{
+  "id": "appendix-statistics-ch3b-iqr-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-definition",
+  "type": "Definition",
+  "number": "H.3.432",
+  "title": "How to Find Outliers for Skewed Data.",
+  "body": " How to Find Outliers for Skewed Data   The interquartile range is , and it measures spread of the middle 50% of skewed data.   "
+},
+{
+  "id": "appendix-statistics-ch3b-iqr-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-example-1",
+  "type": "Example",
+  "number": "H.3.433",
+  "title": "Example 1.",
+  "body": " Example 1   Compute IQR for exoplanet brightness data.   Exoplanet Brightness Measurements   Brightness (Magnitude)  -3.4 -2.9 -2.5 -2.2 -1.8 -1.5 -1.2 -0.9 -0.7 -0.5  -0.3 -0.1 0.2 0.4 0.7 1.0 1.3 1.7 2.1 3.8     "
+},
+{
+  "id": "appendix-statistics-ch3b-iqr-rule",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-rule",
+  "type": "Definition",
+  "number": "H.3.435",
+  "title": "IQR Rule for Outliers.",
+  "body": " IQR Rule for Outliers     Significantly low if value .  Significantly high if value .     "
+},
+{
+  "id": "appendix-statistics-ch3b-iqr-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-example-2",
+  "type": "Example",
+  "number": "H.3.436",
+  "title": "Example 2.",
+  "body": " Example 2   Identify outliers in music streaming counts using IQR.   Music Streaming Counts (Millions)   Streams  1.2 1.5 2.1 2.4 2.9 3.3 3.6 4.0 4.2 4.8  5.1 5.7 6.0 6.2 6.8 7.3 8.1 8.5 9.0 15.4     "
+},
+{
+  "id": "appendix-statistics-ch3b-boxplot-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-definition",
+  "type": "Definition",
+  "number": "H.3.438",
+  "title": "How to Create a Boxplot.",
+  "body": " How to Create a Boxplot   A boxplot summarizes the distribution using the five-number summary and whiskers.   "
+},
+{
+  "id": "appendix-statistics-ch3b-boxplot-steps",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-steps",
+  "type": "Definition",
+  "number": "H.3.439",
+  "title": "Steps to Construct a Boxplot.",
+  "body": " Steps to Construct a Boxplot     Find the five-number summary.  Draw a box from to with a median line.  Draw whiskers to minimum and maximum.     "
+},
+{
+  "id": "appendix-statistics-ch3b-boxplot-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-1",
+  "type": "Example",
+  "number": "H.3.440",
+  "title": "Example 1.",
+  "body": " Example 1   Construct a boxplot for gaming session lengths.   Gaming Session Lengths (Minutes)   Session Lengths (Minutes)  15 30 45 60 75  120 150 90 200 180  95 110 130 140 85  70 160 170 55 40  190 210 35 100 250     "
+},
+{
+  "id": "appendix-statistics-ch3b-boxplot-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-2",
+  "type": "Example",
+  "number": "H.3.442",
+  "title": "Example 2.",
+  "body": " Example 2   Use the Boxplot Generator to create a boxplot for coffee consumption.   Coffee Consumption (Cups per Day)   Number of Cups  0 1 2 3 5 3 4 6 7 2  3 4 5 1 0 8 3 6 4 5  2 7 3 4 6 2 1 5 3 4     "
+},
+{
+  "id": "appendix-statistics-ch3b-boxplot-skewness",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-skewness",
+  "type": "Definition",
+  "number": "H.3.444",
+  "title": "Skewness in Boxplots.",
+  "body": " Skewness in Boxplots     Approximately normal: median centered and whiskers similar length.  Left skewed: median closer to or left whisker longer.  Right skewed: median closer to or right whisker longer.     "
+},
+{
+  "id": "appendix-statistics-ch3b-boxplot-comparison",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-comparison",
+  "type": "Definition",
+  "number": "H.3.445",
+  "title": "Comparing Datasets Using Boxplots.",
+  "body": " Comparing Datasets Using Boxplots     Side-by-side distribution comparison  Quick insight into variability  Compact but informative summaries     "
+},
+{
+  "id": "appendix-statistics-ch3b-boxplot-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-3",
+  "type": "Example",
+  "number": "H.3.446",
+  "title": "Example 3.",
+  "body": " Example 3   Compare 100m sprint times for high-school and Olympic athletes using the Boxplot Generator .   100m Sprint Times: High School vs. Olympic Athletes   High School (s) Olympic (s)  10.55 10.60 10.65 10.72 10.78 9.58 9.69 9.72 9.76 9.81  10.82 10.85 10.89 10.94 10.98 9.85 9.88 9.91 9.93 9.95  11.02 11.07 11.10 11.14 11.18 9.98 10.01 10.03 10.05 10.08  11.21 11.25 11.29 11.35 11.40 10.12 10.15 10.19 10.22 10.25     "
 },
 {
   "id": "sec-summary-statistics-calculator",
