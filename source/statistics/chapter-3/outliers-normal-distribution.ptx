@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-outliers-normal-distribution" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Find Outliers for Normal Distributions</title>
+
+  <p>
+    Outliers are extreme data points that stand apart from most of a dataset. In normal distributions, identifying outliers is essential for understanding variability and detecting unusual events. This section explains how to determine whether a data point is significantly low, significantly high, or a potential outlier based on its relationship to the mean and standard deviation.
+  </p>
+
+  <definition xml:id="statistics-outlier-normal-definition">
+    <title>Outliers</title>
+    <statement>
+      <p>
+        Let <m>\mu</m> and <m>\sigma</m> be the mean and standard deviation of a population, and let <m>x</m> be any random value sampled from that population.
+      </p>
+      <p>
+        <ul>
+          <li>We say <m>x</m> is <term>significantly low</term> if <m>x\leq \mu-2\sigma</m>.</li>
+          <li>We say <m>x</m> is <term>significantly high</term> if <m>x\geq \mu+2\sigma</m>.</li>
+          <li>We say <m>x</m> is a <term>potential outlier</term> if it is significantly low or significantly high.</li>
+          <li>We say <m>x</m> is <term>not significant</term> if it is not a potential outlier.</li>
+        </ul>
+      </p>
+      <p>
+        <em>Important Note.</em> What counts as an outlier depends on the dataset, so we use the phrase potential outlier. These are general guidelines for what is commonly treated as extreme data, and the definition will be refined further.
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-outlier-normal-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>
+        In the United States, unemployment rates follow a normal distribution with mean 5.7% and standard deviation 1.9%. Determine whether each unemployment rate is significantly high, significantly low, or not significant.
+      </p>
+      <p>
+        <ul>
+          <li><em>Part A:</em> 8.2%</li>
+          <li><em>Part B:</em> 1.6%</li>
+          <li><em>Part C:</em> 12.4%</li>
+        </ul>
+      </p>
+    </statement>
+    <solution>
+      <p>The significance thresholds are:</p>
+      <p>
+        <ul>
+          <li><em>Significantly Low:</em> <m>\leq 5.7\%-2(1.9\%)=1.9\%</m></li>
+          <li><em>Significantly High:</em> <m>\geq 5.7\%+2(1.9\%)=9.5\%</m></li>
+        </ul>
+      </p>
+      <p><em>Part A: 8.2%</em></p>
+      <p>
+        Since 8.2% is greater than 1.9% and less than 9.5%, it is <term>not significant</term>.
+      </p>
+      <p><em>Part B: 1.6%</em></p>
+      <p>
+        Since 1.6% is less than 1.9%, it is <term>significantly low</term>.
+      </p>
+      <p><em>Part C: 12.4%</em></p>
+      <p>
+        Since 12.4% is greater than 9.5%, it is <term>significantly high</term>.
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Outliers help identify unusual data points that may represent errors, anomalies, or special cases. For normal distributions, a data point is considered a potential outlier when it lies at least two standard deviations from the mean. Knowing how to detect outliers improves interpretation and analysis.
+  </p>
+</section>

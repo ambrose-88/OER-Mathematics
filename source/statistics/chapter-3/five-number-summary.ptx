@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-five-number-summary" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Calculate the Five-Number Summary</title>
+
+  <p>
+    Quartiles and the five-number summary are essential for describing a dataset’s distribution. Quartiles divide ordered data into four parts, and the five-number summary captures key locations that describe center and spread.
+  </p>
+
+  <definition xml:id="statistics-quartiles-definition">
+    <title>Quartiles</title>
+    <statement>
+      <p>
+        Quartiles split an ordered dataset into four equal parts.
+      </p>
+      <p>
+        <ul>
+          <li><em>First quartile</em> <m>Q_1</m>: the 25th percentile.</li>
+          <li><em>Second quartile</em> <m>Q_2</m>: the 50th percentile (the median).</li>
+          <li><em>Third quartile</em> <m>Q_3</m>: the 75th percentile.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-quartiles-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>
+        Scientists recorded meteorite crater diameters (km). Find <m>Q_1</m> and <m>Q_3</m>.
+      </p>
+      <table xml:id="statistics-quartiles-table-craters">
+        <title>Meteorite Impact Crater Diameters (km)</title>
+        <tabular>
+          <row header="yes"><cell colspan="12">Crater Diameters (km)</cell></row>
+          <row bottom="major">
+            <cell>1.2</cell><cell>3.5</cell><cell>2.8</cell><cell>4.0</cell><cell>6.7</cell><cell>5.2</cell><cell>8.1</cell><cell>3.1</cell><cell>4.5</cell><cell>2.9</cell><cell>6.0</cell><cell>7.4</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p>Order the data:</p>
+      <p><m>1.2,\ 2.8,\ 2.9,\ 3.1,\ 3.5,\ 4.0,\ 4.5,\ 5.2,\ 6.0,\ 6.7,\ 7.4,\ 8.1</m></p>
+      <p>Median:</p>
+      <p><m>Q_2=\dfrac{4.0+4.5}{2}=4.25</m></p>
+      <p>Lower half: <m>1.2,\ 2.8,\ 2.9,\ 3.1,\ 3.5,\ 4.0</m></p>
+      <p>Upper half: <m>4.5,\ 5.2,\ 6.0,\ 6.7,\ 7.4,\ 8.1</m></p>
+      <p><m>Q_1=\dfrac{2.9+3.1}{2}=3.0</m></p>
+      <p><m>Q_3=\dfrac{6.0+6.7}{2}=6.35</m></p>
+    </solution>
+  </example>
+
+  <example xml:id="statistics-quartiles-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>
+        A set of esports reaction times (ms) is given below. Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to compute <m>Q_1</m> and <m>Q_3</m>.
+      </p>
+      <table xml:id="statistics-quartiles-table-esports">
+        <title>Reaction Times in an Esports Tournament (ms)</title>
+        <tabular>
+          <row header="yes"><cell colspan="10">Reaction Times (ms)</cell></row>
+          <row><cell>175</cell><cell>180</cell><cell>185</cell><cell>189</cell><cell>190</cell><cell>195</cell><cell>195</cell><cell>198</cell><cell>200</cell><cell>202</cell></row>
+          <row><cell>205</cell><cell>210</cell><cell>210</cell><cell>215</cell><cell>215</cell><cell>220</cell><cell>225</cell><cell>230</cell><cell>235</cell><cell>240</cell></row>
+          <row bottom="major"><cell>245</cell><cell>250</cell><cell>250</cell><cell>255</cell><cell>260</cell><cell>265</cell><cell>270</cell><cell>275</cell><cell>280</cell><cell>290</cell></row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p>
+        Paste the data into the Summary Statistics Calculator and check the boxes for <m>Q_1</m> and <m>Q_3</m>.
+      </p>
+      <figure xml:id="statistics-quartiles-example-2-figure">
+        <caption>The calculator reports Q1 = 198 and Q3 = 250.</caption>
+        <image source="statistics/quartiles1.png" decorative="yes"/>
+      </figure>
+      <p>Therefore, <m>Q_1=198</m> and <m>Q_3=250</m>.</p>
+    </solution>
+  </example>
+
+  <definition xml:id="statistics-five-number-summary-definition">
+    <title>The Five-Number Summary</title>
+    <statement>
+      <p>
+        The five-number summary is a quick numerical description of a dataset using:
+      </p>
+      <p>
+        <ul>
+          <li>Minimum</li>
+          <li><m>Q_1</m></li>
+          <li>Median (<m>Q_2</m>)</li>
+          <li><m>Q_3</m></li>
+          <li>Maximum</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-five-number-summary-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>
+        Engineers recorded top speeds (mph) of 30 roller coasters. Compute the five-number summary.
+      </p>
+      <table xml:id="statistics-five-number-summary-table-coasters">
+        <title>Speeds of Roller Coasters Around the World (mph)</title>
+        <tabular>
+          <row header="yes"><cell colspan="10">Roller Coaster Speeds (mph)</cell></row>
+          <row><cell>44.7</cell><cell>60.9</cell><cell>65.2</cell><cell>52.8</cell><cell>74.6</cell><cell>68.4</cell><cell>59.0</cell><cell>63.3</cell><cell>55.3</cell><cell>80.8</cell></row>
+          <row><cell>88.2</cell><cell>49.7</cell><cell>77.7</cell><cell>85.7</cell><cell>55.9</cell><cell>61.5</cell><cell>78.9</cell><cell>93.2</cell><cell>67.1</cell><cell>57.8</cell></row>
+          <row bottom="major"><cell>62.1</cell><cell>71.3</cell><cell>54.0</cell><cell>83.9</cell><cell>90.2</cell><cell>50.9</cell><cell>99.4</cell><cell>96.3</cell><cell>86.8</cell><cell>46.6</cell></row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p>
+        Paste the data into the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url>, then check Minimum, <m>Q_1</m>, Median, <m>Q_3</m>, and Maximum.
+      </p>
+      <figure xml:id="statistics-five-number-summary-example-3-figure">
+        <caption>The calculator displays the five-number summary.</caption>
+        <image source="statistics/quartiles2.png" decorative="yes"/>
+      </figure>
+      <p>
+        The five-number summary is:
+      </p>
+      <p><m>\text{Minimum}=44.7,\ Q_1=55.9,\ \text{Median}=66.15,\ Q_3=83.9,\ \text{Maximum}=99.4</m></p>
+    </solution>
+  </example>
+
+  <p>
+    Quartiles and the five-number summary are fundamental tools for describing distribution shape and spread. They also prepare us for box plots and the interquartile range (IQR), which further support outlier detection and visual analysis.
+  </p>
+</section>

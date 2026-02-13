@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-percentile" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Calculate a Percentile</title>
+
+  <p>
+    Percentiles describe how a data value compares to the rest of a dataset by identifying the percentage of values below it. This section explains how to calculate percentiles by hand, interpret their meaning, and use technology tools to find percentiles efficiently.
+  </p>
+
+  <definition xml:id="statistics-percentile-definition">
+    <title>Percentiles By Hand</title>
+    <statement>
+      <p>
+        A <term>percentile</term> gives the relative standing of a data value within a dataset. The <m>p^{\text{th}}</m> percentile is the value below which <m>p\%</m> of the data falls.
+      </p>
+      <p><em>Formula for the percentile rank of a data value <m>x</m>:</em></p>
+      <p><m>\text{Percentile}=\left(\dfrac{\text{number of values less than }x}{\text{total number of values}}\right)\times 100</m></p>
+      <p><em>How to find the data value for a specific percentile:</em></p>
+      <p>
+        <ul>
+          <li><em>Step 1:</em> Compute <m>\dfrac{p}{100}\times n</m>, where <m>n</m> is dataset size.</li>
+          <li><p><em>Step 2:</em> Use that position in the ordered list:
+            <ul>
+              <li>If the result is decimal, average the values at the lower and next positions.</li>
+              <li>If the result is whole, average the values at that position and the next position.</li>
+            </ul>
+        </p>
+          </li>
+        </ul>
+      </p>
+      <p>
+        Percentiles are often denoted <m>P_n</m>. For example, the 45th percentile is <m>P_{45}</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-percentile-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>
+        The following data gives the number of three-point shots made by 50 randomly selected NBA players who played at least 50 games in a season.
+      </p>
+      <p>
+        <ul>
+          <li><em>Part A:</em> Find the <m>80^{\text{th}}</m> percentile of the dataset.</li>
+          <li><em>Part B:</em> Find the percentile rank of a player who made 180 three-pointers.</li>
+        </ul>
+      </p>
+      <table xml:id="statistics-percentile-table-nba-ordered">
+        <title>Three-Point Shots Made by 50 NBA Players</title>
+        <tabular>
+          <row header="yes"><cell colspan="10">Number of Three-Point Shots (Ordered)</cell></row>
+          <row><cell>5</cell><cell>8</cell><cell>12</cell><cell>18</cell><cell>22</cell><cell>28</cell><cell>35</cell><cell>40</cell><cell>48</cell><cell>55</cell></row>
+          <row><cell>60</cell><cell>68</cell><cell>72</cell><cell>80</cell><cell>85</cell><cell>90</cell><cell>98</cell><cell>105</cell><cell>110</cell><cell>118</cell></row>
+          <row><cell>125</cell><cell>130</cell><cell>135</cell><cell>140</cell><cell>148</cell><cell>150</cell><cell>158</cell><cell>165</cell><cell>170</cell><cell>175</cell></row>
+          <row><cell>180</cell><cell>185</cell><cell>190</cell><cell>198</cell><cell>205</cell><cell>210</cell><cell>220</cell><cell>230</cell><cell>240</cell><cell>250</cell></row>
+          <row bottom="major"><cell>260</cell><cell>270</cell><cell>280</cell><cell>290</cell><cell>300</cell><cell>310</cell><cell>320</cell><cell>330</cell><cell>340</cell><cell>350</cell></row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p><em>Part A: Finding <m>P_{80}</m></em></p>
+      <p>
+        Compute the location:
+      </p>
+      <p><m>\text{position}=\dfrac{p}{100}\times n=\dfrac{80}{100}\times 50=40</m></p>
+      <p>
+        Since 40 is whole, average the 40th and 41st values:
+      </p>
+      <p><m>P_{80}=\dfrac{250+260}{2}=255</m> three-point shots.</p>
+
+      <p><em>Part B: Percentile rank of 180</em></p>
+      <p><m>\text{Percentile}=\left(\dfrac{\text{number below }x}{n}\right)\times 100</m></p>
+      <p>
+        There are 30 values below 180, so
+      </p>
+      <p><m>\left(\dfrac{30}{50}\right)\times 100=60</m>.</p>
+      <p>
+        Therefore, 180 is the <m>60^{\text{th}}</m> percentile, i.e. <m>P_{60}=180</m>.
+      </p>
+    </solution>
+  </example>
+
+  <definition xml:id="statistics-percentile-geogebra-heading">
+    <title>Percentiles Using GeoGebra</title>
+    <statement>
+      <p>The next example uses technology to compute percentiles and percentile ranks.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-percentile-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>
+        Using the same three-point dataset, answer:
+      </p>
+      <p>
+        <ul>
+          <li><em>Part A:</em> Find the <m>70^{\text{th}}</m> percentile.</li>
+          <li><em>Part B:</em> Find the percentile rank of 180.</li>
+        </ul>
+      </p>
+    </statement>
+    <solution>
+      <p><em>Part A</em></p>
+      <p>
+        In the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url>, load the data, enable the Percentile checkbox, enter 70, and read <m>P_{70}=208.5</m>.
+      </p>
+      <figure xml:id="statistics-percentile-example-2-step-1">
+        <caption>The calculator reports the 70th percentile as 208.5.</caption>
+        <image source="statistics/percentiles1.png" decorative="yes"/>
+      </figure>
+      <p>
+        For this context, round up to 209 so all values below are included.
+      </p>
+
+      <p><em>Part B</em></p>
+      <p>
+        In the <url href="https://www.geogebra.org/m/qg4j4jc4">Frequency Distribution Tool</url>, disable classes and show relative/cumulative percentages.
+      </p>
+      <figure xml:id="statistics-percentile-example-2-step-2">
+        <caption>Tool settings for raw-data cumulative percentages.</caption>
+        <image source="statistics/percentiles2.png" decorative="yes"/>
+      </figure>
+      <p>Locate 180 in the table.</p>
+      <figure xml:id="statistics-percentile-example-2-step-3">
+        <caption>180 shows cumulative relative frequency 62%.</caption>
+        <image source="statistics/percentiles3.png" decorative="yes"/>
+      </figure>
+      <p>
+        Cumulative relative frequency is “less than or equal to 180,” while percentile rank here is “less than 180.” So subtract 1 percentage point: 180 is the <m>61^{\text{st}}</m> percentile.
+      </p>
+    </solution>
+  </example>
+
+  <definition xml:id="statistics-percentile-vs-cumrelfreq">
+    <title>Difference Between Cumulative Relative Frequency and Percentiles</title>
+    <statement>
+      <p>
+        <ul>
+          <li><term>Cumulative Relative Frequency</term> measures the proportion <em>less than or equal to</em> a value in the dataset.</li>
+          <li><term>Percentiles</term> measure the proportion <em>less than</em> a value across the data range.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="statistics-percentile-median-relationship">
+    <title>Relationship Between the Median and Percentiles</title>
+    <statement>
+      <p>
+        The median is the 50th percentile:
+        <m>\text{Median}=P_{50}</m>.
+      </p>
+      <p>
+        Technology may compute medians and percentiles with slightly different conventions, so values can differ slightly in practice.
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-percentile-example-3">
+    <title>Interpreting Percentiles</title>
+    <statement>
+      <p>Interpret each statement:</p>
+      <p>
+        <ul>
+          <li><em>Part A:</em> A baby’s weight is in the 85th percentile.</li>
+          <li><em>Part B:</em> A household income is at the 70th percentile.</li>
+          <li><em>Part C:</em> A patient’s blood pressure is in the 40th percentile.</li>
+          <li><em>Part D:</em> A student’s GPA is in the 75th percentile in their school.</li>
+          <li><em>Part E:</em> A machine produces parts in the 98th percentile for accuracy.</li>
+        </ul>
+      </p>
+    </statement>
+    <solution>
+      <p><em>Part A:</em> The baby weighs more than 85% of peers and less than 15%.</p>
+      <p><em>Part B:</em> The household earns more than 70% of households and less than 30%.</p>
+      <p><em>Part C:</em> The blood pressure is higher than 40% and lower than 60% of the population.</p>
+      <p><em>Part D:</em> The student’s GPA is higher than 75% of classmates; 25% are higher.</p>
+      <p><em>Part E:</em> The machine is more accurate than 98% of machines; 2% are more accurate.</p>
+    </solution>
+  </example>
+
+  <p>
+    Percentiles let us compare individual values to a full dataset. Along with mean, median, and mode, they provide another way to describe clustering and spread, and they connect naturally to the five-number summary.
+  </p>
+</section>

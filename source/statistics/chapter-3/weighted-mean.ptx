@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-weighted-mean" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Calculate a Weighted Mean</title>
+
+  <p>
+    The mean is a fundamental measure of central tendency, but not all data points contribute equally in every scenario. In cases where there are many repeated values, we use the weighted mean to calculate the mean faster than a standard calculation. This section explores different methods for calculating a weighted mean and demonstrates its applications through practical examples.
+  </p>
+
+  <definition xml:id="statistics-weighted-means-heading">
+    <title>Weighted Means</title>
+    <statement>
+      <p>We begin with a hand calculation to motivate the weighted-mean formulas.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-weighted-mean-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>
+        A small retail store tracks the number of sales transactions completed by seven different employees during a particular week:
+        <m>12,\ 15,\ 15,\ 18,\ 18,\ 18,\ 25</m>. Calculate the mean using the following methods.
+      </p>
+      <p>
+        <ul>
+          <li><em>Part A:</em> Using the definition of the mean.</li>
+          <li><em>Part B:</em> Using the definition of multiplication to simplify the numerator.</li>
+          <li><em>Part C:</em> Using the definition of multiplication and simplifying the fraction.</li>
+        </ul>
+      </p>
+    </statement>
+    <solution>
+      <p><em>Part A</em></p>
+      <p><m>\overline{x}=\dfrac{12+15+15+18+18+18+25}{7}=\dfrac{121}{7}\approx 17.29</m></p>
+
+      <p><em>Part B</em></p>
+      <p>
+        We can rewrite repeated values using multiplication:
+        <m>12=1\times 12,\ \ 15+15=2\times 15,\ \ 18+18+18=3\times 18,\ \ 25=1\times 25</m>.
+        Using this, we calculate the mean as
+      </p>
+      <p><m>\overline{x}=\dfrac{1\times 12+2\times 15+3\times 18+1\times 25}{7}=\dfrac{12+30+54+25}{7}\approx 17.29</m></p>
+
+      <p>
+        <em>Important Note.</em> Each term in the numerator follows the pattern frequency <m>\times</m> data. Using <m>f</m> for frequency and <m>x</m> for data, we express the numerator as <m>\sum(f\cdot x)</m> and the denominator as <m>\sum f</m>. This leads to
+        <m>\overline{x}=\dfrac{\sum(f\cdot x)}{\sum f}</m>,
+        which is useful for computing the mean from a frequency distribution.
+      </p>
+
+      <p><em>Part C</em></p>
+      <p>First, consider the relative-frequency distribution for this dataset.</p>
+      <table xml:id="statistics-weighted-mean-relative-frequency-table">
+        <title>Relative Frequency Table</title>
+        <tabular>
+          <row header="yes">
+            <cell>Data Value (<m>x</m>)</cell>
+            <cell>Frequency (<m>f</m>)</cell>
+            <cell>Relative Frequency (<m>w=\dfrac{f}{\sum f}</m>)</cell>
+          </row>
+          <row>
+            <cell>12</cell>
+            <cell>1</cell>
+            <cell><m>\dfrac{1}{7}</m></cell>
+          </row>
+          <row>
+            <cell>15</cell>
+            <cell>2</cell>
+            <cell><m>\dfrac{2}{7}</m></cell>
+          </row>
+          <row>
+            <cell>18</cell>
+            <cell>3</cell>
+            <cell><m>\dfrac{3}{7}</m></cell>
+          </row>
+          <row>
+            <cell>25</cell>
+            <cell>1</cell>
+            <cell><m>\dfrac{1}{7}</m></cell>
+          </row>
+          <row bottom="major">
+            <cell>Total</cell>
+            <cell><m>\sum f=7</m></cell>
+            <cell>1</cell>
+          </row>
+        </tabular>
+      </table>
+
+      <p>Now simplify the Part B calculation:</p>
+      <p><m>\overline{x}=\dfrac{1\times 12+2\times 15+3\times 18+1\times 25}{7}</m></p>
+      <p><m>=\dfrac{1\times 12}{7}+\dfrac{2\times 15}{7}+\dfrac{3\times 18}{7}+\dfrac{1\times 25}{7}</m></p>
+      <p><m>=\dfrac{1}{7}\times 12+\dfrac{2}{7}\times 15+\dfrac{3}{7}\times 18+\dfrac{1}{7}\times 25</m></p>
+      <p><m>\approx 17.29</m></p>
+
+      <p>
+        <em>Important Note.</em> Here, the mean is expressed as relative frequency <m>\times</m> data. In the context of a mean, a relative frequency is often called a <term>weight</term>, so we use <m>w</m>. Therefore, for a relative-frequency distribution,
+        <m>\overline{x}=\sum(w\cdot x)</m>
+        as long as the sum of the relative frequencies is 1.
+      </p>
+      <p>
+        Sometimes we compute an average using only some of the weights (for example, a current grade that ignores ungraded items). In that case,
+        <m>\overline{x}=\dfrac{\sum(w\cdot x)}{\sum w}</m>.
+      </p>
+    </solution>
+  </example>
+
+  <p>The discussion in Example 1 motivates the following definition.</p>
+
+  <definition xml:id="statistics-weighted-mean-definition">
+    <title>What is a Weighted Mean?</title>
+    <statement>
+      <p>
+        A <term>weighted mean</term> is the mean of a dataset where each value has an associated weight or frequency. Two common formulas are
+      </p>
+      <p>
+        <ul>
+          <li>Using frequencies: <m>\overline{x}=\dfrac{\sum(f\cdot x)}{\sum f}</m></li>
+          <li>Using weights or relative frequencies: <m>\overline{x}=\dfrac{\sum(w\cdot x)}{\sum w}</m></li>
+        </ul>
+      </p>
+      <p>
+        <em>Note.</em> In many cases, <m>\sum w=1</m> because we include all categories in the dataset.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Now that we understand the weighted mean, we use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to calculate weighted means in context.
+  </p>
+
+  <example xml:id="statistics-weighted-mean-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>
+        Suppose you just took your third exam, and your grade distribution is given below. Calculate your current grade using the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url>.
+      </p>
+      <table xml:id="statistics-weighted-mean-grades-table">
+        <title>Sample Grades for a Course</title>
+        <tabular>
+          <row header="yes">
+            <cell>Category</cell>
+            <cell>Grade (%)</cell>
+            <cell>Percentage of Grade</cell>
+          </row>
+          <row>
+            <cell>MyLab Stat</cell>
+            <cell>43%</cell>
+            <cell>7.5%</cell>
+          </row>
+          <row>
+            <cell>Quizzes</cell>
+            <cell>63%</cell>
+            <cell>7.5%</cell>
+          </row>
+          <row>
+            <cell>Exam 1</cell>
+            <cell>92%</cell>
+            <cell>20%</cell>
+          </row>
+          <row>
+            <cell>Exam 2</cell>
+            <cell>67%</cell>
+            <cell>20%</cell>
+          </row>
+          <row bottom="major">
+            <cell>Exam 3</cell>
+            <cell>76%</cell>
+            <cell>20%</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p>Load the dataset into the Summary Statistics Calculator.</p>
+      <figure xml:id="statistics-weighted-mean-example-2-step-1">
+        <caption>The grade data is in one column and the weights are in another column.</caption>
+        <image source="statistics/weighted_example2a.png" decorative="yes"/>
+      </figure>
+      <p>
+        The first column is descriptive text only. Use numeric grades as data and convert percentage weights to decimals. Then set Problem Type to Weighted Statistics, set Data to the grade column, and set Weights to the weight column.
+      </p>
+      <figure xml:id="statistics-weighted-mean-example-2-step-2">
+        <caption>The weighted mean calculated by the tool is 73.27.</caption>
+        <image source="statistics/weighted_example2c.png" decorative="yes"/>
+      </figure>
+      <p>
+        The calculator computes <m>\overline{x}=73.27</m>. Therefore, the current grade in the course is a C.
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Often, data is reported in a frequency distribution rather than as raw values. We can use that distribution to estimate the mean from class midpoints and frequencies. The next example illustrates this process.
+  </p>
+
+  <example xml:id="statistics-weighted-mean-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>
+        Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to estimate the mean gas mileage (mpg) for 24 family sedans.
+      </p>
+      <table xml:id="statistics-weighted-mean-gas-frequency-table">
+        <title>A Frequency Distribution for the Gas Mileage of 24 Family Sedans</title>
+        <tabular>
+          <row header="yes">
+            <cell>Gas Mileage (mpg)</cell>
+            <cell>Frequency</cell>
+          </row>
+          <row>
+            <cell>22 to 27</cell>
+            <cell>16</cell>
+          </row>
+          <row>
+            <cell>28 to 33</cell>
+            <cell>2</cell>
+          </row>
+          <row>
+            <cell>34 to 39</cell>
+            <cell>2</cell>
+          </row>
+          <row bottom="major">
+            <cell>40 to 45</cell>
+            <cell>4</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p>First, compute the class midpoints and pair them with frequencies.</p>
+      <table xml:id="statistics-weighted-mean-gas-midpoint-table">
+        <title>A Frequency Distribution for the Gas Mileage of 24 Family Sedans</title>
+        <tabular>
+          <row header="yes">
+            <cell>Gas Mileage (mpg)</cell>
+            <cell>Midpoint</cell>
+            <cell>Frequency</cell>
+          </row>
+          <row>
+            <cell>22 to 27</cell>
+            <cell>24.5</cell>
+            <cell>16</cell>
+          </row>
+          <row>
+            <cell>28 to 33</cell>
+            <cell>30.5</cell>
+            <cell>2</cell>
+          </row>
+          <row>
+            <cell>34 to 39</cell>
+            <cell>36.5</cell>
+            <cell>2</cell>
+          </row>
+          <row bottom="major">
+            <cell>40 to 45</cell>
+            <cell>42.5</cell>
+            <cell>4</cell>
+          </row>
+        </tabular>
+      </table>
+      <p>
+        Enter midpoint values and frequencies manually into the calculator spreadsheet.
+      </p>
+      <figure xml:id="statistics-weighted-mean-example-3-step-1">
+        <caption>The midpoint and frequency columns entered into the spreadsheet.</caption>
+        <image source="statistics/weighted_example3a.png" decorative="yes"/>
+      </figure>
+      <p>
+        Row 1 should be headers only. Place data in rows below, then choose weighted statistics with midpoints as data and frequencies as weights.
+      </p>
+      <figure xml:id="statistics-weighted-mean-example-3-step-2">
+        <caption>The weighted mean is computed as 29.</caption>
+        <image source="statistics/weighted_example3b.png" decorative="yes"/>
+      </figure>
+      <p>
+        Therefore, the estimated average gas mileage is <m>\overline{x}=29</m> mpg.
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Now that we understand the weighted mean and have explored examples using both frequencies and weights, we see how it provides a quicker calculation when many data points are repeated. With tools like the Summary Statistics Calculator, we can efficiently compute weighted means in practical scenarios such as grades, sales, and performance tracking.
+  </p>
+</section>

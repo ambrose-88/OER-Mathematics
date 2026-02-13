@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-range" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Understanding the Range of a Data Set</title>
+
+  <p>
+    The range measures the spread of a dataset by subtracting the minimum value from the maximum. It is easy to calculate and provides a quick estimate of variability. However, since it only uses two values, it can be misleading if outliers are present.
+  </p>
+
+  <definition xml:id="statistics-range-definition">
+    <title>Range</title>
+    <statement>
+      <p>
+        The range of a dataset is given by the formula
+        <m>\text{Range}=\text{maximum value}-\text{minimum value}</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="statistics-range-advantages">
+    <title>What are the Advantages of the Range?</title>
+    <statement>
+      <p>
+        <ul>
+          <li><em>Simple to calculate:</em> Subtract the minimum value from the maximum value.</li>
+          <li><em>Quick estimate of spread:</em> It gives a fast sense of overall spread.</li>
+          <li><em>Useful for small datasets:</em> It can provide a rough indication of variability.</li>
+          <li><em>Identifies possible outliers:</em> A large range may indicate extreme values.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="statistics-range-disadvantages">
+    <title>What are the Disadvantages of the Range?</title>
+    <statement>
+      <p>
+        <ul>
+          <li><em>Ignores most data points:</em> It depends only on the minimum and maximum values.</li>
+          <li><em>Sensitive to outliers:</em> One extreme value can drastically change the range.</li>
+          <li><em>No distribution detail:</em> It does not show how values are spread between endpoints.</li>
+          <li><em>Limited in large datasets:</em> It often fails to represent overall variability well.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-range-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>
+        Scientists are tracking migration distances of a species of birds over several years. The distances (in miles) for a sample of 10 birds are:
+      </p>
+      <table xml:id="statistics-range-table-migration">
+        <title>Migration Distances</title>
+        <tabular>
+          <row header="yes">
+            <cell colspan="10">Distance (in miles)</cell>
+          </row>
+          <row bottom="major">
+            <cell>354</cell>
+            <cell>400</cell>
+            <cell>412</cell>
+            <cell>375</cell>
+            <cell>389</cell>
+            <cell>410</cell>
+            <cell>368</cell>
+            <cell>390</cell>
+            <cell>405</cell>
+            <cell>392</cell>
+          </row>
+        </tabular>
+      </table>
+      <p>Answer the following questions based on the data.</p>
+      <p>
+        <ul>
+          <li><em>Part A:</em> Find the range of the migration distances.</li>
+          <li><em>Part B:</em> Explain what the range tells us about variation in the birds' migration distances.</li>
+        </ul>
+      </p>
+    </statement>
+    <solution>
+      <p><em>Part A</em></p>
+      <p>
+        To find the range, calculate the difference between the maximum and minimum values.
+      </p>
+      <p>
+        <ul>
+          <li>Maximum distance = 412 miles</li>
+          <li>Minimum distance = 354 miles</li>
+        </ul>
+      </p>
+      <p><m>\text{Range}=412-354=58\text{ miles}</m></p>
+      <p><em>Part B</em></p>
+      <p>
+        The range of 58 miles represents the spread of migration distances among the 10 birds. A relatively small range suggests similar migration patterns, with no extreme outliers in these distances.
+      </p>
+    </solution>
+  </example>
+
+  <example xml:id="statistics-range-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>
+        A sociologist is studying the ages of participants in a community program aimed at improving digital literacy. The ages (in years) of 12 participants are:
+      </p>
+      <table xml:id="statistics-range-table-ages">
+        <title>Participants in a Community Program</title>
+        <tabular>
+          <row header="yes">
+            <cell colspan="12">Age (in years)</cell>
+          </row>
+          <row bottom="major">
+            <cell>22</cell>
+            <cell>25</cell>
+            <cell>31</cell>
+            <cell>28</cell>
+            <cell>24</cell>
+            <cell>35</cell>
+            <cell>45</cell>
+            <cell>41</cell>
+            <cell>29</cell>
+            <cell>33</cell>
+            <cell>38</cell>
+            <cell>40</cell>
+          </row>
+        </tabular>
+      </table>
+      <p>
+        Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Stats Calculator</url> to find the range of the participants' ages.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Upload the dataset to the Summary Stats Calculator, then click the Minimum and Maximum checkboxes to reveal the smallest and largest values.
+      </p>
+      <figure xml:id="statistics-range-example-2-calculator">
+        <caption>The maximum checkbox reveals 45 and the minimum checkbox reveals 22.</caption>
+        <image source="statistics/range_example2.png" decorative="yes"/>
+      </figure>
+      <p>
+        Using the maximum and minimum values, the range is
+        <m>45-22=23</m>.
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    The range is a simple tool for understanding data spread, but it lacks detail about overall variability. While useful for quick insights, it should be paired with other measures such as variance or standard deviation for a more complete analysis.
+  </p>
+</section>

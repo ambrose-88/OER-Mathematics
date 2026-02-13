@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-mean" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<title>How to Calculate the Mean of a Data Set</title>
+<introduction>
+	<p>
+		The <term>mean</term>, or <term>average</term>, is a fundamental statistical measure that represents the center of a dataset by balancing values above and below it. It is widely used in fields like business, healthcare, and education. This section explains the mean, its formulas, and how to calculate it manually and with technology. Through examples, we see how the mean helps summarize and interpret data efficiently.
+	</p>
+</introduction>
+<subsection xml:id="statistics-definition-mean">
+	<title>Definition of the Mean</title>
+	<definition xml:id="statistics-mean-definition">
+		<title>What is the Mean?</title>
+		<statement>
+			<p>
+				The <term>mean</term>, also commonly known as the <term>average</term>, is the sum of all data values divided by the number of values. The sample mean is often denoted as <m>\bar{x}</m>, while the population mean is denoted as <m>\mu</m>.
+			</p>
+			<p>
+				Population mean: <m>\mu = \dfrac{\sum x}{N}</m>.
+			</p>
+			<p>
+				Sample mean: <m>\bar{x} = \dfrac{\sum x}{n}</m>.
+			</p>
+		</statement>
+	</definition>
+
+	<p>
+		Although the primary focus of this text is interpretation, it is still a math textbook, so we encounter mathematical symbols and formulas throughout. To aid understanding, these symbols are explained as they appear, especially since many are used repeatedly throughout the text.
+	</p>
+	<p>
+		<ul>
+			<li>The symbol <m>\sum</m> means “sum” or “add everything up.”</li>
+			<li>The symbol <m>x</m> represents individual data values.</li>
+			<li><m>N</m> denotes the total number of values in a population and is often referred to as the population size.</li>
+			<li><m>n</m> denotes the number of values in a sample and is often referred to as the sample size.</li>
+		</ul>
+	</p>
+	<p>
+		It is important to note that <m>\sum</m> cannot stand alone; it must be followed by another symbol specifying what is being summed. In these formulas, <m>\sum x</m> in the numerator instructs us to add up all the data values. This notation is especially useful when dealing with large datasets containing hundreds or thousands of values, as it eliminates the need to list each number individually.
+	</p>
+	<p>
+		Populations and samples each have their own formulas for related concepts, such as the mean. In this case, the formulas are functionally identical, but as we explore other topics later in this chapter, some formulas differ between populations and samples.
+	</p>
+	<p>
+		Additionally, <m>\mu</m> represents the population mean and is classified as a parameter, while <m>\overline{x}</m> represents the sample mean and is classified as a statistic.
+	</p>
+	<p>
+		By convention, parameters (which describe populations) are often represented by Greek letters, whereas statistics (which describe samples) are typically denoted using Latin letters.
+	</p>
+
+	<p>
+		Now that we know the formulas for mean and how to interpret them, the next example shows how to perform a calculation.
+	</p>
+
+		<example xml:id="statistics-mean-example-1">
+			<title>Example 1</title>
+			<statement>
+				<p>
+					Consider the following data representing test scores of five students on their first exam: 75, 80, 85, 90, 95. Use this data to calculate the average exam score for this sample.
+				</p>
+				<table xml:id="statistics-mean-table-test-scores">
+					<title>Test Scores of Five Students</title>
+					<tabular>
+						<row header="yes">
+							<cell>Score</cell>
+						</row>
+						<row><cell>75</cell></row>
+						<row><cell>80</cell></row>
+						<row><cell>85</cell></row>
+						<row><cell>90</cell></row>
+						<row bottom="major"><cell>95</cell></row>
+					</tabular>
+				</table>
+			</statement>
+			<solution>
+				<p>
+					To find the mean of this sample, sum all the test scores and divide by the number of scores.
+				</p>
+				<p>
+					<m>\sum x = 75 + 80 + 85 + 90 + 95 = 425</m>
+				</p>
+				<p>
+					Since <m>x</m> represents an individual test score and <m>\sum x</m> means to sum all test scores, and the sample size is <m>n=5</m>, the final calculation is:
+				</p>
+				<p><m>\bar{x} = \dfrac{\sum x}{n}</m></p>
+				<p><m>= \dfrac{75+80+85+90+95}{5}</m></p>
+				<p><m>= \dfrac{425}{5}</m></p>
+				<p><m>= 85</m></p>
+			</solution>
+		</example>
+	</subsection>
+	<subsection xml:id="statistics-mean-interpretation">
+		<title>Interpreting the Mean</title>
+		<p>
+			Now that we understand how to calculate the mean, we next focus on what this number represents. One way to think about the mean is in terms of wealth redistribution: the mean represents the amount each person would have if all resources were redistributed equally.
+		</p>
+		<p>
+			In the prior example, 75 is 10 points below the mean while 95 is 10 points above the mean. Transferring 10 points from 95 to 75 makes both 85. Likewise, 80 is 5 below and 90 is 5 above, and transferring 5 points from 90 to 80 makes both 85. After these adjustments, each student has 85.
+		</p>
+		<p>
+			This illustrates that the mean balances values above and below average to give a single number that evenly distributes the data across all individuals in a sample or population.
+		</p>
+		<p>
+			We do not actually redistribute scores or money in this way. The purpose of the mean is to understand central tendency, the balance point between high and low values.
+		</p>
+
+		<example xml:id="statistics-mean-example-2">
+			<title>Example 2</title>
+			<statement>
+				<p>
+					Complete the <url href="https://www.geogebra.org/m/w5ubnzje">Understanding the Idea of Average Value/Mean</url> interactive example.
+				</p>
+			</statement>
+		</example>
+	</subsection>
+	<subsection xml:id="statistics-mean-calculation-technology">
+		<title>Calculating the Mean with Technology</title>
+		<p>
+			Now that we understand what a mean is and how to calculate it, we need to see how to calculate the mean using technology since many datasets contain hundreds or thousands of values. Manually calculating large datasets is time-consuming and prone to errors.
+		</p>
+
+		<example xml:id="statistics-mean-example-3">
+			<title>Example 3</title>
+			<statement>
+				<p>
+					The following Law School Admission Test (LSAT) scores for a sample of 50 students are given below. Find the mean of the sample using the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url>.
+				</p>
+				<table xml:id="statistics-mean-table-lsat">
+					<title>Sample of 50 LSAT Scores</title>
+					<tabular>
+						<row header="yes">
+							<cell colspan="10">LSAT Scores</cell>
+						</row>
+						<row>
+							<cell>174</cell><cell>172</cell><cell>169</cell><cell>176</cell><cell>169</cell><cell>170</cell><cell>175</cell><cell>171</cell><cell>168</cell><cell>177</cell>
+						</row>
+						<row>
+							<cell>165</cell><cell>180</cell><cell>173</cell><cell>166</cell><cell>178</cell><cell>170</cell><cell>174</cell><cell>167</cell><cell>179</cell><cell>172</cell>
+						</row>
+						<row>
+							<cell>163</cell><cell>181</cell><cell>171</cell><cell>164</cell><cell>177</cell><cell>169</cell><cell>175</cell><cell>168</cell><cell>180</cell><cell>170</cell>
+						</row>
+						<row>
+							<cell>162</cell><cell>182</cell><cell>170</cell><cell>165</cell><cell>176</cell><cell>168</cell><cell>174</cell><cell>166</cell><cell>178</cell><cell>171</cell>
+						</row>
+						<row bottom="major">
+							<cell>161</cell><cell>183</cell><cell>169</cell><cell>167</cell><cell>175</cell><cell>167</cell><cell>173</cell><cell>165</cell><cell>177</cell><cell>172</cell>
+						</row>
+					</tabular>
+				</table>
+			</statement>
+			<solution>
+				<p>
+					Load the data into the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> with default settings. The sample mean is calculated automatically as <m>\overline{x}\approx 171.68</m>.
+				</p>
+				<figure xml:id="statistics-mean-example-3-calculator-screenshot">
+					<caption>A screenshot of the Summary Statistics Calculator showing that the average value is 171.68.</caption>
+					<image source="statistics/example3-mean.png" decorative="yes"/>
+				</figure>
+			</solution>
+		</example>
+	</subsection>
+	<conclusion>
+	<p>
+		The mean provides a simple yet powerful way to understand the central tendency of a dataset. It balances values above and below it, making it a key tool for data analysis. While calculating the mean manually is useful for small datasets, technology is essential for handling larger ones efficiently. Understanding the mean is a crucial step in mastering statistical analysis.
+	</p>
+</conclusion>
+</section>

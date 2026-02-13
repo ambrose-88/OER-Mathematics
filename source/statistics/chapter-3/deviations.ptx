@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-deviations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Calculate the Deviations of a Dataset</title>
+
+  <p>
+    Deviation measures how far a data point is from the mean of a dataset. It helps determine whether a specific value is above or below the average and by how much. Positive deviations indicate values larger than the mean, while negative deviations indicate values smaller than the mean. In this section, we calculate deviation and interpret its significance with a practical example.
+  </p>
+
+  <definition xml:id="statistics-deviation-definition">
+    <title>Deviation</title>
+    <statement>
+      <p>
+        The deviation of a data point <m>x</m> in a distribution is the difference between that data value and the mean of the dataset.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="statistics-deviation-formulas">
+    <title>Formula for Deviation</title>
+    <statement>
+      <p>
+        <ul>
+          <li><em>Population Deviation:</em> <m>\text{deviation}=x-\mu</m></li>
+          <li><em>Sample Deviation:</em> <m>\text{deviation}=x-\overline{x}</m></li>
+        </ul>
+      </p>
+      <p>
+        In words, <m>\text{deviation}=\text{data}-\text{mean}</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="statistics-deviation-notes">
+    <title>Notes on Deviation</title>
+    <statement>
+      <p>
+        <ul>
+          <li>If the deviation is positive, the data point is larger than the average value.</li>
+          <li>If the deviation is negative, the data point is smaller than the average value.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-deviation-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>The salaries for a random sample of 10 individuals are given below.</p>
+      <table xml:id="statistics-deviation-table-salaries">
+        <title>Sample of 10 Salaries (in Thousands of Dollars)</title>
+        <tabular>
+          <row header="yes">
+            <cell colspan="10">Salaries (in thousands of dollars)</cell>
+          </row>
+          <row bottom="major">
+            <cell>40</cell>
+            <cell>23</cell>
+            <cell>41</cell>
+            <cell>50</cell>
+            <cell>49</cell>
+            <cell>32</cell>
+            <cell>41</cell>
+            <cell>59</cell>
+            <cell>52</cell>
+            <cell>58</cell>
+          </row>
+        </tabular>
+      </table>
+      <p>
+        <ul>
+          <li><em>Part A:</em> Calculate the deviation for each salary in the dataset.</li>
+          <li><em>Part B:</em> Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to find the average deviation for the dataset.</li>
+        </ul>
+      </p>
+    </statement>
+    <solution>
+      <p><em>Part A</em></p>
+      <p>
+        First, use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to compute the average value of the data.
+      </p>
+      <figure xml:id="statistics-deviation-example-1-mean">
+        <caption>The average value of the dataset is 44.5.</caption>
+        <image source="statistics/deviations_example1.png" decorative="yes"/>
+      </figure>
+      <p>Now subtract 44.5 from each salary to compute each deviation.</p>
+      <table xml:id="statistics-deviation-table-computed">
+        <title>Salaries and Their Deviations</title>
+        <tabular>
+          <row header="yes">
+            <cell>Salary (in Thousands)</cell>
+            <cell>Deviation (<m>x-44.5</m>)</cell>
+          </row>
+          <row><cell>40</cell><cell>40 - 44.5 = -4.5</cell></row>
+          <row><cell>23</cell><cell>23 - 44.5 = -21.5</cell></row>
+          <row><cell>41</cell><cell>41 - 44.5 = -3.5</cell></row>
+          <row><cell>50</cell><cell>50 - 44.5 = 5.5</cell></row>
+          <row><cell>49</cell><cell>49 - 44.5 = 4.5</cell></row>
+          <row><cell>32</cell><cell>32 - 44.5 = -12.5</cell></row>
+          <row><cell>41</cell><cell>41 - 44.5 = -3.5</cell></row>
+          <row><cell>59</cell><cell>59 - 44.5 = 14.5</cell></row>
+          <row><cell>52</cell><cell>52 - 44.5 = 7.5</cell></row>
+          <row bottom="major"><cell>58</cell><cell>58 - 44.5 = 13.5</cell></row>
+        </tabular>
+      </table>
+
+      <p><em>Part B</em></p>
+      <p>
+        To find the average deviation, create a second column in the tool with the computed deviations in the same order as the salary data.
+      </p>
+      <figure xml:id="statistics-deviation-example-1-spreadsheet">
+        <caption>The deviations are entered into a second spreadsheet column in the same order as Part A.</caption>
+        <image source="statistics/deviations_example1b.png" decorative="yes"/>
+      </figure>
+      <p>
+        Then close the spreadsheet and change the data column to the deviations column. The calculator recomputes the mean and shows <m>\overline{x}=0</m>.
+      </p>
+      <figure xml:id="statistics-deviation-example-1-mean-deviation">
+        <caption>The average value of the deviations is 0 for any dataset.</caption>
+        <image source="statistics/deviations_example1c.png" decorative="yes"/>
+      </figure>
+      <p>
+        So, the average value of the deviations of any dataset is always 0. This means average deviation from the mean is not, by itself, a useful measure of variability.
+      </p>
+
+      <p><em>Note.</em> Think back to balancing dot stacks around the mean: deficits below the mean are negative and excesses above the mean are positive, and these cancel when added.</p>
+      <figure xml:id="statistics-deviation-example-1-dots">
+        <caption>Missing dots below the mean and extra dots above the mean cancel each other.</caption>
+        <image source="statistics/deviations_example1d.png" decorative="yes"/>
+      </figure>
+      <p>
+        Since positive and negative deviations cancel, their sum is always 0. Dividing by the number of data values still gives 0.
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Deviation helps identify how individual data points relate to the mean, but its usefulness is limited because the sum of all deviations is always zero. Therefore, deviation alone cannot measure variation in a dataset. In the next section, we introduce standard deviation, which overcomes this limitation and provides a more effective measure of variability.
+  </p>
+</section>

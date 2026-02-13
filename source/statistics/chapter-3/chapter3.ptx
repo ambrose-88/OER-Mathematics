@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="statistics-chapter3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Numerical Summaries of Data</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <xi:include href="mean.ptx" />
+  <xi:include href="median.ptx" />
+  <xi:include href="mode.ptx" />
+  <xi:include href="central-tendency-and-distributions.ptx" />
+  <xi:include href="weighted-mean.ptx" />
+  <xi:include href="mean-not-enough.ptx" />
+  <xi:include href="range.ptx" />
+  <xi:include href="deviations.ptx" />
+  <xi:include href="standard-deviation.ptx" />
+  <xi:include href="outliers-normal-distribution.ptx" />
+  <xi:include href="empirical-rule.ptx" />
+  <xi:include href="chebyshev.ptx" />
+  <xi:include href="percentile.ptx" />
+  <xi:include href="z-score.ptx" />
+  <xi:include href="five-number-summary.ptx" />
+  <xi:include href="iqr-rule.ptx" />
+  <xi:include href="boxplot.ptx" />
+</chapter>

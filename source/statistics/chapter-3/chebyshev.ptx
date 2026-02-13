@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-chebyshev" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Chebyshev’s Inequality</title>
+
+  <p>
+    Chebyshev’s Inequality is a powerful tool in statistics that applies to all data distributions, not only normal ones. Unlike the Empirical Rule, which is intended for bell-shaped distributions, Chebyshev’s Inequality guarantees a minimum percentage of data within a specified number of standard deviations from the mean regardless of shape. This makes it especially useful for skewed data.
+  </p>
+
+  <definition xml:id="statistics-chebyshev-definition">
+    <title>Chebyshev’s Inequality</title>
+    <statement>
+      <p>The formula for Chebyshev’s Inequality is:</p>
+      <p>
+        <m>\text{At least }\left(1-\dfrac{1}{k^2}\right)\times 100\%\text{ of the data lies within }k\text{ standard deviations of the mean, for }k&gt;1.</m>
+      </p>
+      <p><em>Key Percentages</em></p>
+      <p>
+        <ul>
+          <li><m>k=2</m>: at least 75% of the data lies within 2 standard deviations of the mean.</li>
+          <li><m>k=3</m>: at least 88.9% of the data lies within 3 standard deviations of the mean.</li>
+          <li><m>k=4</m>: at least 93.75% of the data lies within 4 standard deviations of the mean.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-chebyshev-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>
+        A hospital is studying systolic blood pressure in a particular age group. Blood pressure is known to be skewed, not normally distributed. The mean systolic blood pressure is 120 mmHg with standard deviation 15 mmHg. Use Chebyshev’s Inequality to determine the minimum percentage of patients with systolic blood pressure between 90 mmHg and 150 mmHg.
+      </p>
+    </statement>
+    <solution>
+      <p>Determine how many standard deviations each endpoint is from the mean:</p>
+      <p><m>k=\dfrac{\text{value}-\text{mean}}{\text{standard deviation}}</m></p>
+      <p>
+        <ul>
+          <li>For 90 mmHg: <m>k=\dfrac{120-90}{15}=2</m></li>
+          <li>For 150 mmHg: <m>k=\dfrac{150-120}{15}=2</m></li>
+        </ul>
+      </p>
+      <p>Since both values are 2 standard deviations from the mean, apply Chebyshev’s Inequality with <m>k=2</m>:</p>
+      <p><m>\text{At least }\left(1-\dfrac{1}{2^2}\right)\times 100\%=\left(1-\dfrac{1}{4}\right)\times 100\%=75\%</m></p>
+      <p><em>Conclusion.</em> At least 75% of patients have systolic blood pressure between 90 mmHg and 150 mmHg.</p>
+    </solution>
+  </example>
+
+  <p>
+    Chebyshev’s Inequality is an essential tool when a distribution is unknown or skewed. It guarantees a minimum proportion of data within a specified number of standard deviations from the mean. While the Empirical Rule applies to normal distributions, Chebyshev’s Inequality applies to any distribution, making it a more universal method.
+  </p>
+</section>

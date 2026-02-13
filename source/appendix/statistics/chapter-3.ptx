@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="appendix-statistics-chapter-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Chapter 3 Lecture Notes</title>
+
+    <definition xml:id="appendix-statistics-ch3-mean-definition">
+      <title>Mean</title>
+      <statement>
+        <p>
+          The <term>mean</term>, also called the <term>average</term>, is the sum of all data values divided by the number of values.
+        </p>
+        <p><em>Population Mean:</em> <m>\mu=\dfrac{\sum x}{N}</m></p>
+        <p><em>Sample Mean:</em> <m>\overline{x}=\dfrac{\sum x}{n}</m></p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3-mean-symbols">
+      <title>What do these symbols mean?</title>
+      <statement>
+        <p>
+          <ul>
+            <li><m>\sum</m> means sum or add all values.</li>
+            <li><m>x</m> represents individual data values.</li>
+            <li><m>N</m> is population size.</li>
+            <li><m>n</m> is sample size.</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3-mean-two-formulas">
+      <title>Why do we have two formulas for mean?</title>
+      <statement>
+        <p>
+          We use one formula for populations and one for samples because they represent different contexts and notations.
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-mean-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>
+          Consider exam scores: 75, 80, 85, 90, 95. Calculate the average score.
+        </p>
+        <table xml:id="appendix-statistics-ch3-mean-table-1">
+          <title>Test Scores of Five Students</title>
+          <tabular>
+            <row header="yes"><cell>Score</cell></row>
+            <row><cell>75</cell></row>
+            <row><cell>80</cell></row>
+            <row><cell>85</cell></row>
+            <row><cell>90</cell></row>
+            <row bottom="major"><cell>95</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3-mean-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>
+          Complete the <url href="https://www.geogebra.org/m/w5ubnzje">Understanding the Idea of Average Value/Mean</url> interactive example.
+        </p>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3-mean-example-3">
+      <title>Example 3</title>
+      <statement>
+        <p>
+          Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to find the mean of a sample of 50 LSAT scores.
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-median-definition">
+      <title>Median</title>
+      <statement>
+        <p>
+          The <term>median</term> of an ordered dataset separates the lower 50% and upper 50%. It may or may not be a data value and is often denoted <m>M</m>.
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3-median-steps">
+      <title>How do I calculate the Median?</title>
+      <statement>
+        <p>Let <m>n</m> be sample size.</p>
+        <p>
+          <ul>
+            <li>Order data from smallest to largest.</li>
+            <li><p>Check parity of <m>n</m>:
+              <ul>
+                <li>If <m>n</m> is odd, median is entry <m>\dfrac{n+1}{2}</m>.</li>
+                <li>If <m>n</m> is even, median is average of entries <m>\dfrac{n}{2}</m> and <m>\dfrac{n}{2}+1</m>.</li>
+              </ul>
+            </p>
+            </li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-median-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>
+          Weekly study hours for 7 students are shown below. Find the median by hand.
+        </p>
+        <table xml:id="appendix-statistics-ch3-median-table-1">
+          <title>Sample of Weekly Study Hours (in hours)</title>
+          <tabular>
+            <row header="yes"><cell colspan="7">Study Hours Per Week</cell></row>
+            <row bottom="major"><cell>12</cell><cell>15</cell><cell>10</cell><cell>18</cell><cell>14</cell><cell>11</cell><cell>16</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3-median-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>
+          Cholesterol levels (mg/dL) for 10 people are shown below. Find the median by hand.
+        </p>
+        <table xml:id="appendix-statistics-ch3-median-table-2">
+          <title>Sample of 10 Cholesterol Levels</title>
+          <tabular>
+            <row header="yes"><cell colspan="5">Cholesterol Level (mg/dL)</cell></row>
+            <row><cell>154</cell><cell>240</cell><cell>171</cell><cell>188</cell><cell>235</cell></row>
+            <row bottom="major"><cell>203</cell><cell>184</cell><cell>173</cell><cell>181</cell><cell>275</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3-median-example-3">
+      <title>Example 3</title>
+      <statement>
+        <p>
+          Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to find the median of a sample of 50 LSAT scores.
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-mode-definition-local">
+      <title>Mode</title>
+      <statement>
+        <p>
+          The <term>mode</term> of a dataset is the value(s) that occur locally with highest frequency.
+        </p>
+        <p>
+          <ul>
+            <li>Unimodal distributions have one peak.</li>
+            <li>Multimodal distributions have multiple peaks.</li>
+            <li>Uniform distributions have no distinct peak.</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3-mode-definition-revised">
+      <title>Revised Definition: Mode</title>
+      <statement>
+        <p>
+          The mode is the value(s) that occur most frequently.
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-mode-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>
+          Find the mode of 2016–2017 tuition and fees (in thousands of dollars) for top U.S. universities.
+        </p>
+        <table xml:id="appendix-statistics-ch3-mode-table-1">
+          <title>2016–2017 Tuition and Fees (in $1000s)</title>
+          <tabular>
+            <row header="yes"><cell colspan="7">Tuition and Fees</cell></row>
+            <row><cell>45</cell><cell>47</cell><cell>52</cell><cell>49</cell><cell>55</cell><cell>48</cell><cell>48</cell></row>
+            <row bottom="major"><cell>51</cell><cell>51</cell><cell>50</cell><cell>51</cell><cell>48</cell><cell>51</cell><cell>51</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3-mode-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>
+          Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to identify mode(s) for a sample of LSAT scores and classify the distribution.
+        </p>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3-mode-example-3">
+      <title>Example 3</title>
+      <statement>
+        <p>
+          Use the <url href="https://www.geogebra.org/m/qg4j4jc4">Frequency Distribution Tool</url> to determine the mode for shirt-size sales data.
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-outlier-definition">
+      <title>Outliers</title>
+      <statement>
+        <p>
+          An <term>outlier</term> is a data point that does not follow the overall distribution pattern and is usually much larger or smaller than most values.
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-skewness-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>Given scores <m>78,\ 82,\ 84,\ 91,\ 91</m>:</p>
+        <p>
+          <ul>
+            <li>Find mean, median, and mode.</li>
+            <li>Add outlier 41 and recompute.</li>
+            <li>Determine which center changed most and least.</li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-resistance-definition">
+      <title>Resistance to Outliers</title>
+      <statement>
+        <p>
+          A statistic is <term>resistant</term> if extreme values cause little or no change.
+        </p>
+        <p>
+          In this context, mean is not resistant, while median and mode are resistant.
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3-unimodal-center-relationships">
+      <title>The Mean, Median, and Mode in Unimodal Distributions</title>
+      <statement>
+        <p><em>Normal:</em> <m>\text{mean}=\text{median}=\text{mode}</m>.</p>
+        <p><em>Skew-right:</em> <m>\text{mode}&lt;\text{median}&lt;\text{mean}</m>.</p>
+        <p><em>Skew-left:</em> <m>\text{mean}&lt;\text{median}&lt;\text{mode}</m>.</p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-weighted-mean-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>
+          For data <m>12,15,15,18,18,18,25</m>, calculate mean by direct definition, grouped multiplication, and simplified weighted form.
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-weighted-mean-definition">
+      <title>What is a Weighted Mean?</title>
+      <statement>
+        <p>
+          A <term>weighted mean</term> is a mean where values carry frequencies or weights.
+        </p>
+        <p><em>Using frequencies:</em> <m>\overline{x}=\dfrac{\sum(f\cdot x)}{\sum f}</m></p>
+        <p><em>Using weights:</em> <m>\overline{x}=\dfrac{\sum(w\cdot x)}{\sum w}</m></p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-weighted-mean-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>
+          Compute current course grade with weighted categories using the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url>.
+        </p>
+        <table xml:id="appendix-statistics-ch3-weighted-mean-table-grades">
+          <title>Sample Grades for a Course</title>
+          <tabular>
+            <row header="yes"><cell>Category</cell><cell>Grade (%)</cell><cell>Percentage of Grade</cell></row>
+            <row><cell>MyLab Stat</cell><cell>43%</cell><cell>7.5%</cell></row>
+            <row><cell>Quizzes</cell><cell>63%</cell><cell>7.5%</cell></row>
+            <row><cell>Exam 1</cell><cell>92%</cell><cell>20%</cell></row>
+            <row><cell>Exam 2</cell><cell>67%</cell><cell>20%</cell></row>
+            <row bottom="major"><cell>Exam 3</cell><cell>76%</cell><cell>20%</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3-weighted-mean-example-3">
+      <title>Example 3</title>
+      <statement>
+        <p>
+          Estimate mean gas mileage for family sedans from grouped data using midpoint-frequency weighted mean.
+        </p>
+        <table xml:id="appendix-statistics-ch3-weighted-mean-table-gas">
+          <title>A Frequency Distribution for the Gas Mileage of 24 Family Sedans</title>
+          <tabular>
+            <row header="yes"><cell>Gas Mileage (mpg)</cell><cell>Midpoint</cell><cell>Frequency</cell></row>
+            <row><cell>22 to 27</cell><cell></cell><cell>16</cell></row>
+            <row><cell>28 to 33</cell><cell></cell><cell>2</cell></row>
+            <row><cell>34 to 39</cell><cell></cell><cell>2</cell></row>
+            <row bottom="major"><cell>40 to 45</cell><cell></cell><cell>4</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-mean-not-enough-overview">
+      <title>Is the Mean Enough to Describe a Dataset?</title>
+      <statement>
+        <p>
+          The mean is one of the most commonly used measures to summarize a dataset. While it provides useful information about central tendency, it does not always tell the whole story. Different datasets can have the same mean and still have very different distributions.
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-mean-not-enough-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>
+          <ul>
+            <li><em>Part A:</em> Find the mean of <m>76,74,83,97,70</m>.</li>
+            <li><em>Part B:</em> Find the mean of <m>82,81,76,85,76</m>.</li>
+            <li><em>Part C:</em> Even though the means are the same, describe how the datasets differ.</li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-range-definition-extra">
+      <title>Range</title>
+      <statement>
+        <p><m>\text{Range}=\text{maximum value}-\text{minimum value}</m>.</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3-range-advantages-disadvantages">
+      <title>Advantages and Disadvantages of the Range</title>
+      <statement>
+        <p>
+          <ul>
+            <li>Advantage: simple and quick to compute.</li>
+            <li>Disadvantage: depends only on the minimum and maximum values, so it is sensitive to outliers.</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-range-example-1-extra">
+      <title>Example 1</title>
+      <statement>
+        <p>Scientists track migration distances (in miles) for 10 birds.</p>
+        <table xml:id="appendix-statistics-ch3-range-table-migration-extra">
+          <title>Migration Distances</title>
+          <tabular>
+            <row header="yes"><cell colspan="10">Distance (in miles)</cell></row>
+            <row bottom="major"><cell>354</cell><cell>400</cell><cell>412</cell><cell>375</cell><cell>389</cell><cell>410</cell><cell>368</cell><cell>390</cell><cell>405</cell><cell>392</cell></row>
+          </tabular>
+        </table>
+        <p>
+          <ul>
+            <li><em>Part A:</em> Find the range.</li>
+            <li><em>Part B:</em> Explain what the range says about variation.</li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3-range-example-2-extra">
+      <title>Example 2</title>
+      <statement>
+        <p>Ages (in years) of 12 participants in a community program are listed below.</p>
+        <table xml:id="appendix-statistics-ch3-range-table-ages-extra">
+          <title>Participants in a Community Program</title>
+          <tabular>
+            <row header="yes"><cell colspan="12">Age (in years)</cell></row>
+            <row bottom="major"><cell>22</cell><cell>25</cell><cell>31</cell><cell>28</cell><cell>24</cell><cell>35</cell><cell>45</cell><cell>41</cell><cell>29</cell><cell>33</cell><cell>38</cell><cell>40</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-deviation-definition-extra">
+      <title>Deviation</title>
+      <statement>
+        <p>The deviation of a data point <m>x</m> is the difference between the value and the mean.</p>
+        <p><em>Population:</em> <m>\text{deviation}=x-\mu</m></p>
+        <p><em>Sample:</em> <m>\text{deviation}=x-\overline{x}</m></p>
+        <p><m>\text{deviation}=\text{data}-\text{mean}</m>.</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3-deviation-notes-extra">
+      <title>Notes on Deviation</title>
+      <statement>
+        <p>
+          <ul>
+            <li>Positive deviation means the data point is above the mean.</li>
+            <li>Negative deviation means the data point is below the mean.</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-deviation-example-1-extra">
+      <title>Example 1</title>
+      <statement>
+        <p>Salaries for a sample of 10 individuals are shown below (in thousands of dollars).</p>
+        <table xml:id="appendix-statistics-ch3-deviation-table-salaries-extra">
+          <title>Sample of 10 Salaries (in Thousands of Dollars)</title>
+          <tabular>
+            <row header="yes"><cell colspan="10">Salaries (in thousands of dollars)</cell></row>
+            <row bottom="major"><cell>40</cell><cell>23</cell><cell>41</cell><cell>50</cell><cell>49</cell><cell>32</cell><cell>41</cell><cell>59</cell><cell>52</cell><cell>58</cell></row>
+          </tabular>
+        </table>
+        <p>
+          <ul>
+            <li><em>Part A:</em> Calculate each salary's deviation.</li>
+            <li><em>Part B:</em> Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to find average deviation.</li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-standard-deviation-overview-extra">
+      <title>Understanding Standard Deviation</title>
+      <statement>
+        <p>Standard deviation is a key measure of variability and describes typical distance from the mean.</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3-squared-deviation-definition-extra">
+      <title>Squared Deviation</title>
+      <statement>
+        <p><em>Population:</em> <m>(x-\mu)^2</m></p>
+        <p><em>Sample:</em> <m>(x-\overline{x})^2</m></p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-squared-deviation-example-1-extra">
+      <title>Example 1</title>
+      <statement>
+        <p>Compute squared deviations for the salary data and find their sum.</p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-variance-definition-extra">
+      <title>Variance</title>
+      <statement>
+        <p><em>Population:</em> <m>\sigma^2=\dfrac{\sum (x-\mu)^2}{N}</m></p>
+        <p><em>Sample:</em> <m>s^2=\dfrac{\sum (x-\overline{x})^2}{n-1}</m></p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3-variance-n-minus-one-extra">
+      <title>Why does sample variance use <m>n-1</m>?</title>
+      <statement>
+        <p>This is related to <term>degrees of freedom</term>.</p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-variance-example-2-extra">
+      <title>Example 2</title>
+      <statement>
+        <p>Compute variance for the salary dataset.</p>
+        <p>
+          <ul>
+            <li>Variance has squared units.</li>
+            <li>Variance can be numerically large because deviations are squared.</li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-standard-deviation-definition-extra">
+      <title>Standard Deviation</title>
+      <statement>
+        <p><em>Population:</em> <m>\sigma=\sqrt{\dfrac{\sum (x-\mu)^2}{N}}</m></p>
+        <p><em>Sample:</em> <m>s=\sqrt{\dfrac{\sum (x-\overline{x})^2}{n-1}}</m></p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3-standard-deviation-properties-extra">
+      <title>Important Properties of Standard Deviation</title>
+      <statement>
+        <p>
+          <ul>
+            <li>Measures average distance from the mean.</li>
+            <li>Always greater than or equal to zero.</li>
+            <li>Larger values indicate more variation.</li>
+            <li>Not resistant to outliers.</li>
+            <li>Uses the same units as the data.</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-standard-deviation-example-3-extra">
+      <title>Example 3</title>
+      <statement>
+        <p>Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to compute standard deviation for the salary data.</p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-outliers-normal-overview-extra">
+      <title>How to Find Outliers for Normal Distributions</title>
+      <statement>
+        <p>Outliers are extreme values that stand apart from most of a dataset.</p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-outliers-normal-example-1-extra">
+      <title>Example 1</title>
+      <statement>
+        <p>Unemployment rates are approximately normal with mean <m>5.7\%</m> and standard deviation <m>1.9\%</m>. Classify:</p>
+        <p>
+          <ul>
+            <li><em>Part A:</em> <m>8.2\%</m></li>
+            <li><em>Part B:</em> <m>1.6\%</m></li>
+            <li><em>Part C:</em> <m>12.4\%</m></li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-empirical-rule-definition-extra">
+      <title>The Empirical Rule</title>
+      <statement>
+        <p>
+          <ul>
+            <li>About <m>68\%</m> of data lies between <m>\mu-\sigma</m> and <m>\mu+\sigma</m>.</li>
+            <li>About <m>95\%</m> of data lies between <m>\mu-2\sigma</m> and <m>\mu+2\sigma</m>.</li>
+            <li>About <m>99.7\%</m> of data lies between <m>\mu-3\sigma</m> and <m>\mu+3\sigma</m>.</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-empirical-rule-example-1-extra">
+      <title>Example 1</title>
+      <statement>
+        <p>A sample has mean height <m>64.2</m> inches and standard deviation <m>2.9</m> inches. Use the <url href="https://www.geogebra.org/m/xttfsxzr">Empirical Rule Calculator</url>:</p>
+        <p>
+          <ul>
+            <li><em>Part A:</em> Percent between <m>64.2</m> and <m>67.1</m>.</li>
+            <li><em>Part B:</em> Percent taller than <m>70</m>.</li>
+            <li><em>Part C:</em> Percent shorter than <m>55.5</m>.</li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3-chebyshev-definition-extra">
+      <title>Chebyshev's Inequality</title>
+      <statement>
+        <p>
+          At least <m>\left(1-\dfrac{1}{k^2}\right)\times 100\%</m> of data lies within <m>k</m> standard deviations of the mean, for <m>k&gt;1</m>.
+        </p>
+        <p>
+          <ul>
+            <li><m>k=2</m>: at least <m>75\%</m></li>
+            <li><m>k=3</m>: at least <m>88.9\%</m></li>
+            <li><m>k=4</m>: at least <m>93.75\%</m></li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3-chebyshev-example-1-extra">
+      <title>Example 1</title>
+      <statement>
+        <p>
+          A hospital has systolic blood-pressure data with mean <m>120</m> mmHg and standard deviation <m>15</m> mmHg. Use Chebyshev's inequality to find the minimum percentage between <m>90</m> and <m>150</m> mmHg.
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3b-percentile-overview">
+      <title>How to Calculate a Percentile</title>
+      <statement>
+        <p>
+          A <term>percentile</term> indicates the relative standing of a data value in a dataset. The <m>p^{\text{th}}</m> percentile is the value below which <m>p\%</m> of the data falls.
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3b-percentile-by-hand">
+      <title>Percentiles By Hand</title>
+      <statement>
+        <p><em>Formula for percentile rank of a value <m>x</m>:</em></p>
+        <p><m>\text{Percentile}=\left(\dfrac{\text{number of values less than }x}{\text{total number of values}}\right)\times 100</m></p>
+        <p><em>How to find a data value for a given percentile:</em></p>
+        <p>
+          <ul>
+            <li><em>Step 1:</em> Compute <m>\dfrac{p}{100}\times n</m>.</li>
+            <li><p><em>Step 2:</em> Use the position in the ordered data:
+              <ul>
+                <li>If decimal, use adjacent positions and average those two values.</li>
+                <li>If whole number, use that position and the next position, then average.</li>
+              </ul>
+            </p>
+            </li>
+          </ul>
+        </p>
+        <p>Notation: <m>P_n</m> denotes the <m>n^{\text{th}}</m> percentile (for example, <m>P_{45}</m>).</p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3b-percentile-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>The dataset below gives three-point shots made by 50 NBA players.</p>
+        <p>
+          <ul>
+            <li><em>Part A:</em> Find the <m>80^{\text{th}}</m> percentile.</li>
+            <li><em>Part B:</em> Find the percentile rank of 180 three-pointers.</li>
+          </ul>
+        </p>
+        <table xml:id="appendix-statistics-ch3b-percentile-table-nba-1">
+          <title>Three-Point Shots Made by 50 NBA Players</title>
+          <tabular>
+            <row header="yes"><cell colspan="10">Number of Three-Point Shots (Ordered)</cell></row>
+            <row><cell>5</cell><cell>8</cell><cell>12</cell><cell>18</cell><cell>22</cell><cell>28</cell><cell>35</cell><cell>40</cell><cell>48</cell><cell>55</cell></row>
+            <row><cell>60</cell><cell>68</cell><cell>72</cell><cell>80</cell><cell>85</cell><cell>90</cell><cell>98</cell><cell>105</cell><cell>110</cell><cell>118</cell></row>
+            <row><cell>125</cell><cell>130</cell><cell>135</cell><cell>140</cell><cell>148</cell><cell>150</cell><cell>158</cell><cell>165</cell><cell>170</cell><cell>175</cell></row>
+            <row><cell>180</cell><cell>185</cell><cell>190</cell><cell>198</cell><cell>205</cell><cell>210</cell><cell>220</cell><cell>230</cell><cell>240</cell><cell>250</cell></row>
+            <row bottom="major"><cell>260</cell><cell>270</cell><cell>280</cell><cell>290</cell><cell>300</cell><cell>310</cell><cell>320</cell><cell>330</cell><cell>340</cell><cell>350</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3b-percentile-example-2">
+      <title>Percentiles using GeoGebra: Example 2</title>
+      <statement>
+        <p>Using the same dataset above:</p>
+        <p>
+          <ul>
+            <li><em>Part A:</em> Find the <m>70^{\text{th}}</m> percentile.</li>
+            <li><em>Part B:</em> Find the percentile rank of 180 three-pointers.</li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3b-percentile-notes">
+      <title>Cumulative Relative Frequency vs Percentiles</title>
+      <statement>
+        <p>Cumulative relative frequency uses “less than or equal to,” while percentile rank is typically interpreted as “less than.”</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3b-percentile-median-relation">
+      <title>Relationship Between the Median and Percentiles</title>
+      <statement>
+        <p>The median is the 50th percentile, i.e. <m>P_{50}</m>.</p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3b-percentile-example-3-interpret">
+      <title>Interpreting Percentiles</title>
+      <statement>
+        <p>Interpret each scenario:</p>
+        <p>
+          <ul>
+            <li><em>Part A:</em> A baby’s weight is in the 85th percentile.</li>
+            <li><em>Part B:</em> A household income is at the 70th percentile.</li>
+            <li><em>Part C:</em> A patient’s blood pressure is in the 40th percentile.</li>
+            <li><em>Part D:</em> A student’s GPA is in the 75th percentile in their school.</li>
+            <li><em>Part E:</em> A machine produces parts in the 98th percentile for accuracy.</li>
+          </ul>
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3b-zscore-overview">
+      <title>How to Calculate a <m>z</m>-score</title>
+      <statement>
+        <p>A <term><m>z</m>-score</term> (standard score) measures how many standard deviations a value lies above or below the mean.</p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3b-zscore-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>A normal distribution has mean 175 cm and standard deviation 7 cm.</p>
+        <table xml:id="appendix-statistics-ch3b-zscore-table-heights">
+          <title>Distribution of Heights</title>
+          <tabular>
+            <row header="yes"><cell>Height (cm)</cell><cell>Empirical Rule Calculation</cell><cell><m>z</m>-score</cell></row>
+            <row><cell>154</cell><cell><m>175+(-3\times 7)=154</m></cell><cell>-3</cell></row>
+            <row><cell>161</cell><cell><m>175+(-2\times 7)=161</m></cell><cell>-2</cell></row>
+            <row><cell>168</cell><cell><m>175+(-1\times 7)=168</m></cell><cell>-1</cell></row>
+            <row><cell>175</cell><cell><m>175+(0\times 7)=175</m></cell><cell>0</cell></row>
+            <row><cell>182</cell><cell><m>175+(1\times 7)=182</m></cell><cell>1</cell></row>
+            <row><cell>189</cell><cell><m>175+(2\times 7)=189</m></cell><cell>2</cell></row>
+            <row bottom="major"><cell>196</cell><cell><m>175+(3\times 7)=196</m></cell><cell>3</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3b-zscore-formulas">
+      <title><m>z</m>-Score Formulas</title>
+      <statement>
+        <p>General structure: <m>z=\dfrac{\text{data}-\text{mean}}{\text{standard deviation}}</m></p>
+        <p><em>Population:</em> <m>z=\dfrac{x-\mu}{\sigma}</m></p>
+        <p><em>Sample:</em> <m>z=\dfrac{x-\overline{x}}{s}</m></p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3b-zscore-features">
+      <title>Important Features of <m>z</m>-Scores</title>
+      <statement>
+        <p>
+          <ul>
+            <li><m>z</m>-scores are unitless.</li>
+            <li>Positive means above the mean; negative means below.</li>
+            <li>Absolute <m>z</m>-score measures extremeness.</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3b-zscore-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>Who is relatively taller at 68 inches: a man or a woman?</p>
+        <table xml:id="appendix-statistics-ch3b-zscore-table-heights-2">
+          <title>Average Heights and Standard Deviations</title>
+          <tabular>
+            <row header="yes"><cell>Group</cell><cell>Mean Height (in)</cell><cell>Standard Deviation (in)</cell></row>
+            <row><cell>Men</cell><cell>69.9</cell><cell>3.0</cell></row>
+            <row bottom="major"><cell>Women</cell><cell>64.3</cell><cell>2.6</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3b-zscore-example-3">
+      <title>Example 3</title>
+      <statement>
+        <p>The ACT has mean 20.8 and standard deviation 5.8. The SAT has mean 1500 and standard deviation 300. Who performed worse relative to peers: SAT 1075 or ACT 15?</p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3b-zscore-extreme">
+      <title>Extreme Values</title>
+      <statement>
+        <p>A value is more extreme when its absolute <m>z</m>-score is larger.</p>
+        <p>
+          <ul>
+            <li><em>Step 1:</em> Compute both <m>z</m>-scores.</li>
+            <li><em>Step 2:</em> Take absolute values.</li>
+            <li><em>Step 3:</em> Larger absolute value is more extreme.</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3b-zscore-example-4">
+      <title>Example 4</title>
+      <statement>
+        <p>Determine which is more extreme: a man who weighs 145 lbs (mean 208, sd 25) or a woman who weighs 224 lbs (mean 175, sd 25).</p>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3b-five-number-overview">
+      <title>How to Calculate the Five-Number Summary</title>
+      <statement>
+        <p>Quartiles divide ordered data into four parts.</p>
+        <p>
+          <ul>
+            <li><m>Q_1</m>: first quartile</li>
+            <li><m>Q_2</m>: median</li>
+            <li><m>Q_3</m>: third quartile</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3b-five-number-example-1">
+      <title>Quartiles: Example 1</title>
+      <statement>
+        <p>Find <m>Q_1</m> and <m>Q_3</m> for meteorite crater diameters.</p>
+        <table xml:id="appendix-statistics-ch3b-five-number-table-craters">
+          <title>Meteorite Impact Crater Diameters (km)</title>
+          <tabular>
+            <row header="yes"><cell colspan="12">Crater Diameters (km)</cell></row>
+            <row bottom="major"><cell>1.2</cell><cell>3.5</cell><cell>2.8</cell><cell>4.0</cell><cell>6.7</cell><cell>5.2</cell><cell>8.1</cell><cell>3.1</cell><cell>4.5</cell><cell>2.9</cell><cell>6.0</cell><cell>7.4</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3b-five-number-example-2">
+      <title>Quartiles: Example 2</title>
+      <statement>
+        <p>Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to find <m>Q_1</m> and <m>Q_3</m> for esports reaction times.</p>
+        <table xml:id="appendix-statistics-ch3b-five-number-table-esports">
+          <title>Reaction Times in an Esports Tournament (ms)</title>
+          <tabular>
+            <row header="yes"><cell colspan="10">Reaction Times (ms)</cell></row>
+            <row><cell>175</cell><cell>180</cell><cell>185</cell><cell>189</cell><cell>190</cell><cell>195</cell><cell>195</cell><cell>198</cell><cell>200</cell><cell>202</cell></row>
+            <row><cell>205</cell><cell>210</cell><cell>210</cell><cell>215</cell><cell>215</cell><cell>220</cell><cell>225</cell><cell>230</cell><cell>235</cell><cell>240</cell></row>
+            <row bottom="major"><cell>245</cell><cell>250</cell><cell>250</cell><cell>255</cell><cell>260</cell><cell>265</cell><cell>270</cell><cell>275</cell><cell>280</cell><cell>290</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3b-five-number-definition">
+      <title>The Five-Number Summary</title>
+      <statement>
+        <p>The five-number summary consists of minimum, <m>Q_1</m>, median, <m>Q_3</m>, and maximum.</p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3b-five-number-example-3">
+      <title>Example 3</title>
+      <statement>
+        <p>Compute the five-number summary for roller coaster speeds.</p>
+        <table xml:id="appendix-statistics-ch3b-five-number-table-coaster">
+          <title>Speeds of Roller Coasters Around the World (mph)</title>
+          <tabular>
+            <row header="yes"><cell colspan="10">Roller Coaster Speeds (mph)</cell></row>
+            <row><cell>44.7</cell><cell>60.9</cell><cell>65.2</cell><cell>52.8</cell><cell>74.6</cell><cell>68.4</cell><cell>59.0</cell><cell>63.3</cell><cell>55.3</cell><cell>80.8</cell></row>
+            <row><cell>88.2</cell><cell>49.7</cell><cell>77.7</cell><cell>85.7</cell><cell>55.9</cell><cell>61.5</cell><cell>78.9</cell><cell>93.2</cell><cell>67.1</cell><cell>57.8</cell></row>
+            <row bottom="major"><cell>62.1</cell><cell>71.3</cell><cell>54.0</cell><cell>83.9</cell><cell>90.2</cell><cell>50.9</cell><cell>99.4</cell><cell>96.3</cell><cell>86.8</cell><cell>46.6</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3b-iqr-definition">
+      <title>How to Find Outliers for Skewed Data</title>
+      <statement>
+        <p>The interquartile range is <m>\text{IQR}=Q_3-Q_1</m>, and it measures spread of the middle 50% of skewed data.</p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3b-iqr-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>Compute IQR for exoplanet brightness data.</p>
+        <table xml:id="appendix-statistics-ch3b-iqr-table-exoplanets">
+          <title>Exoplanet Brightness Measurements</title>
+          <tabular>
+            <row header="yes"><cell colspan="10">Brightness (Magnitude)</cell></row>
+            <row><cell>-3.4</cell><cell>-2.9</cell><cell>-2.5</cell><cell>-2.2</cell><cell>-1.8</cell><cell>-1.5</cell><cell>-1.2</cell><cell>-0.9</cell><cell>-0.7</cell><cell>-0.5</cell></row>
+            <row bottom="major"><cell>-0.3</cell><cell>-0.1</cell><cell>0.2</cell><cell>0.4</cell><cell>0.7</cell><cell>1.0</cell><cell>1.3</cell><cell>1.7</cell><cell>2.1</cell><cell>3.8</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3b-iqr-rule">
+      <title>IQR Rule for Outliers</title>
+      <statement>
+        <p>
+          <ul>
+            <li>Significantly low if value <m>&lt;Q_1-1.5(\text{IQR})</m>.</li>
+            <li>Significantly high if value <m>&gt;Q_3+1.5(\text{IQR})</m>.</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3b-iqr-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>Identify outliers in music streaming counts using IQR.</p>
+        <table xml:id="appendix-statistics-ch3b-iqr-table-streams">
+          <title>Music Streaming Counts (Millions)</title>
+          <tabular>
+            <row header="yes"><cell colspan="10">Streams</cell></row>
+            <row><cell>1.2</cell><cell>1.5</cell><cell>2.1</cell><cell>2.4</cell><cell>2.9</cell><cell>3.3</cell><cell>3.6</cell><cell>4.0</cell><cell>4.2</cell><cell>4.8</cell></row>
+            <row bottom="major"><cell>5.1</cell><cell>5.7</cell><cell>6.0</cell><cell>6.2</cell><cell>6.8</cell><cell>7.3</cell><cell>8.1</cell><cell>8.5</cell><cell>9.0</cell><cell>15.4</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3b-boxplot-definition">
+      <title>How to Create a Boxplot</title>
+      <statement>
+        <p>A boxplot summarizes the distribution using the five-number summary and whiskers.</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3b-boxplot-steps">
+      <title>Steps to Construct a Boxplot</title>
+      <statement>
+        <p>
+          <ol>
+            <li>Find the five-number summary.</li>
+            <li>Draw a box from <m>Q_1</m> to <m>Q_3</m> with a median line.</li>
+            <li>Draw whiskers to minimum and maximum.</li>
+          </ol>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3b-boxplot-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>Construct a boxplot for gaming session lengths.</p>
+        <table xml:id="appendix-statistics-ch3b-boxplot-table-gaming">
+          <title>Gaming Session Lengths (Minutes)</title>
+          <tabular>
+            <row header="yes"><cell colspan="5">Session Lengths (Minutes)</cell></row>
+            <row><cell>15</cell><cell>30</cell><cell>45</cell><cell>60</cell><cell>75</cell></row>
+            <row><cell>120</cell><cell>150</cell><cell>90</cell><cell>200</cell><cell>180</cell></row>
+            <row><cell>95</cell><cell>110</cell><cell>130</cell><cell>140</cell><cell>85</cell></row>
+            <row><cell>70</cell><cell>160</cell><cell>170</cell><cell>55</cell><cell>40</cell></row>
+            <row bottom="major"><cell>190</cell><cell>210</cell><cell>35</cell><cell>100</cell><cell>250</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <example xml:id="appendix-statistics-ch3b-boxplot-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>Use the <url href="https://www.geogebra.org/m/gyymcsbx">Boxplot Generator</url> to create a boxplot for coffee consumption.</p>
+        <table xml:id="appendix-statistics-ch3b-boxplot-table-coffee">
+          <title>Coffee Consumption (Cups per Day)</title>
+          <tabular>
+            <row header="yes"><cell colspan="10">Number of Cups</cell></row>
+            <row><cell>0</cell><cell>1</cell><cell>2</cell><cell>3</cell><cell>5</cell><cell>3</cell><cell>4</cell><cell>6</cell><cell>7</cell><cell>2</cell></row>
+            <row><cell>3</cell><cell>4</cell><cell>5</cell><cell>1</cell><cell>0</cell><cell>8</cell><cell>3</cell><cell>6</cell><cell>4</cell><cell>5</cell></row>
+            <row bottom="major"><cell>2</cell><cell>7</cell><cell>3</cell><cell>4</cell><cell>6</cell><cell>2</cell><cell>1</cell><cell>5</cell><cell>3</cell><cell>4</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+
+    <definition xml:id="appendix-statistics-ch3b-boxplot-skewness">
+      <title>Skewness in Boxplots</title>
+      <statement>
+        <p>
+          <ul>
+            <li>Approximately normal: median centered and whiskers similar length.</li>
+            <li>Left skewed: median closer to <m>Q_3</m> or left whisker longer.</li>
+            <li>Right skewed: median closer to <m>Q_1</m> or right whisker longer.</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="appendix-statistics-ch3b-boxplot-comparison">
+      <title>Comparing Datasets Using Boxplots</title>
+      <statement>
+        <p>
+          <ul>
+            <li>Side-by-side distribution comparison</li>
+            <li>Quick insight into variability</li>
+            <li>Compact but informative summaries</li>
+          </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="appendix-statistics-ch3b-boxplot-example-3">
+      <title>Example 3</title>
+      <statement>
+        <p>Compare 100m sprint times for high-school and Olympic athletes using the <url href="https://www.geogebra.org/m/gyymcsbx">Boxplot Generator</url>.</p>
+        <table xml:id="appendix-statistics-ch3b-boxplot-table-sprints">
+          <title>100m Sprint Times: High School vs. Olympic Athletes</title>
+          <tabular>
+            <row header="yes"><cell colspan="5">High School (s)</cell><cell colspan="5">Olympic (s)</cell></row>
+            <row><cell>10.55</cell><cell>10.60</cell><cell>10.65</cell><cell>10.72</cell><cell>10.78</cell><cell>9.58</cell><cell>9.69</cell><cell>9.72</cell><cell>9.76</cell><cell>9.81</cell></row>
+            <row><cell>10.82</cell><cell>10.85</cell><cell>10.89</cell><cell>10.94</cell><cell>10.98</cell><cell>9.85</cell><cell>9.88</cell><cell>9.91</cell><cell>9.93</cell><cell>9.95</cell></row>
+            <row><cell>11.02</cell><cell>11.07</cell><cell>11.10</cell><cell>11.14</cell><cell>11.18</cell><cell>9.98</cell><cell>10.01</cell><cell>10.03</cell><cell>10.05</cell><cell>10.08</cell></row>
+            <row bottom="major"><cell>11.21</cell><cell>11.25</cell><cell>11.29</cell><cell>11.35</cell><cell>11.40</cell><cell>10.12</cell><cell>10.15</cell><cell>10.19</cell><cell>10.22</cell><cell>10.25</cell></row>
+          </tabular>
+        </table>
+      </statement>
+    </example>
+</worksheet>

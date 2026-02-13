@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-central-tendency-distributions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How Skewness Affects the Mean, Median, and Mode of a Dataset</title>
+
+  <p>
+    Measures of central tendency—mean, median, and mode—help us describe datasets. However, their values are influenced by the shape of the distribution and the presence of outliers. In this section, we define outliers, explore how outliers impact these measures, and how their relationships change based on the skewness of a dataset.
+  </p>
+
+  <definition xml:id="statistics-outlier-definition">
+    <title>Outliers</title>
+    <statement>
+      <p>
+        An <term>outlier</term> is a data point that does not follow the overall pattern or shape of a distribution. These are data points that are typically much larger or much smaller than other points in the dataset.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Let’s look at an example to see how outliers affect the mean, median, and mode.
+  </p>
+
+  <example xml:id="statistics-central-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>A list of five exam scores is given below:</p>
+      <p><m>78\qquad 82\qquad 84\qquad 91\qquad 91</m></p>
+      <p>
+        <ul>
+          <li><em>Part A:</em> Find the mean, median, and mode of this distribution.</li>
+          <li><em>Part B:</em> Another student scored a 41 on the exam, which is an outlier compared to the other five scores. Re-evaluate the mean, median, and mode.</li>
+          <li><em>Part C:</em> Which measure of center changed the least? Which changed the most? Did any remain unchanged?</li>
+        </ul>
+      </p>
+    </statement>
+    <solution>
+      <p><em>Part A</em></p>
+      <p>
+        <ul>
+          <li><m>\textbf{mean }=\dfrac{78+82+84+91+91}{5}=85.2</m></li>
+          <li><m>\textbf{median }=84</m></li>
+          <li><m>\textbf{mode }=91</m></li>
+        </ul>
+      </p>
+      <p><em>Part B</em></p>
+      <p>
+        <ul>
+          <li><m>\textbf{mean }=\dfrac{41+78+82+84+91+91}{6}\approx 77.83</m></li>
+          <li><m>\textbf{median }=\dfrac{82+84}{2}=83</m></li>
+          <li><m>\textbf{mode }=91</m></li>
+        </ul>
+      </p>
+      <p><em>Part C</em></p>
+      <p>
+        <ul>
+          <li>The <term>mean</term> changed the most.</li>
+          <li>The <term>median</term> changed the least.</li>
+          <li>The <term>mode</term> did not change at all.</li>
+        </ul>
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Since an outlier affects each one of these measurements differently, we get the following definition.
+  </p>
+
+  <definition xml:id="statistics-resistance-definition">
+    <title>What is resistance to outliers?</title>
+    <statement>
+      <p>
+        A statistic is <term>resistant to outliers</term> if extreme values cause little to no change in its value.
+      </p>
+      <p>In Example 1, notice that</p>
+      <p>
+        <ul>
+          <li>the mean is <em>not resistant</em> to outliers,</li>
+          <li>the median and mode are resistant to outliers.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="statistics-unimodal-distributions-center">
+    <title>The Mean, Median, and Mode in Unimodal Distributions</title>
+    <statement>
+      <p>
+        We use resistance to outliers to describe the relative locations of the mean, median, and mode in unimodal distributions.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="statistics-normal-distribution-center">
+    <title>Normal Distribution</title>
+    <statement>
+      <p>In a normal distribution, we have <m>\text{mean }=\text{ median }=\text{ mode}</m>.</p>
+      <p>
+        Since many real-world datasets follow a normal distribution, this is one reason we often focus on the mean rather than the median or mode. The following figure demonstrates the positions of the mean, median, and mode by marking their location on top of a normal distribution.
+      </p>
+      <figure xml:id="statistics-normal-mean-median-mode">
+        <caption>In a normal distribution, the x-coordinate of the peak is the mean, median, and mode of the dataset.</caption>
+        <image source="statistics/normal.png" decorative="yes"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <definition xml:id="statistics-skew-right-distribution-center">
+    <title>Skew-Right Distribution</title>
+    <statement>
+      <p>
+        In a skew-right distribution, part of the reason we get a skew to the right is because there is unusually large data in the distribution. Unusually large data pulls both the mean and median to the right, with the mean pulled farther to the right than the median. The mode remains unchanged in this case. Overall, this change from a normal distribution can be summarized as <m>\text{mode }&lt;\text{ median }&lt;\text{ mean}</m>.
+      </p>
+      <figure xml:id="statistics-skew-right-mean-median-mode">
+        <caption>A skew-right distribution pulls the mean and median to the right, away from the mode, with the mean pulled farther than the median.</caption>
+        <image source="statistics/skewright.png" decorative="yes"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <definition xml:id="statistics-skew-left-distribution-center">
+    <title>Skew-Left Distribution</title>
+    <statement>
+      <p>
+        In a skew-left distribution, part of the reason we get a skew to the left is because there is unusually small data in the distribution. Unusually small data pulls both the mean and median to the left, with the mean pulled farther to the left than the median. The mode remains unchanged in this case. Overall, this change from a normal distribution can be summarized as <m>\text{mean }&lt;\text{ median }&lt;\text{ mode}</m>.
+      </p>
+      <figure xml:id="statistics-skew-left-mean-median-mode">
+        <caption>A skew-left distribution pulls the mean and median to the left, away from the mode, with the mean pulled farther than the median.</caption>
+        <image source="statistics/skewleft.png" decorative="yes"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <p>
+    The mean, median, and mode each describe the center of a dataset but respond differently to outliers and skewness. The mean is sensitive to extreme values and shifts in the direction of skewness, while the median is resistant to outliers and better represents center in skewed distributions. The mode remains unchanged by outliers and identifies the most frequently occurring value(s). Understanding these differences helps in choosing the most appropriate measure for analyzing real-world data. We will explore that issue in more depth later in this chapter.
+  </p>
+</section>

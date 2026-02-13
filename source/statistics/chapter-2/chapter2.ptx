@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="statistics-chapter2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Chapter 2</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <!-- <xi:include href="chapter2-1.ptx" /> -->
+  <!-- <xi:include href="chapter2-2.ptx" /> -->
+  <!-- <xi:include href="chapter2-3.ptx" /> -->
+  <!-- <xi:include href="chapter2-4.ptx" /> -->
+  <!-- <xi:include href="chapter2-5.ptx" /> -->
+  <!-- <xi:include href="chapter2-6.ptx" /> -->
+  <!-- <xi:include href="chapter2-7.ptx" /> -->
+  <!-- <xi:include href="chapter2-8.ptx" /> -->
+</chapter>

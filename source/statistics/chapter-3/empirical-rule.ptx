@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-empirical-rule" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>What is the Empirical Rule?</title>
+
+  <p>
+    The Empirical Rule provides a simple way to understand how data is distributed in normal distributions. It states that for approximately normal datasets, the percentage of values within one, two, or three standard deviations of the mean follows predictable patterns.
+  </p>
+
+  <definition xml:id="statistics-empirical-rule-definition">
+    <title>The Empirical Rule</title>
+    <statement>
+      <p>
+        Let <m>\mu</m> and <m>\sigma</m> be the mean and standard deviation for a normally distributed population. Then the data follow these guidelines:
+      </p>
+      <p>
+        <ul>
+          <li><em>Approximately 68% of the data</em> is within one standard deviation of the mean, i.e., between <m>\mu-\sigma</m> and <m>\mu+\sigma</m>.</li>
+          <li><em>Approximately 95% of the data</em> is within two standard deviations of the mean, i.e., between <m>\mu-2\sigma</m> and <m>\mu+2\sigma</m>.</li>
+          <li><em>Approximately 99.7% of the data</em> is within three standard deviations of the mean, i.e., between <m>\mu-3\sigma</m> and <m>\mu+3\sigma</m>.</li>
+        </ul>
+      </p>
+      <p><em>Notes.</em></p>
+      <p>
+        When graphing a normal distribution with known mean and standard deviation, we often label the horizontal axis at <m>\mu</m>, <m>\mu\pm\sigma</m>, <m>\mu\pm2\sigma</m>, and <m>\mu\pm3\sigma</m>. For example, if <m>\mu=85</m> and <m>\sigma=15</m>, the normal distribution is shown below.
+      </p>
+      <figure xml:id="statistics-empirical-rule-normal-85-15">
+        <caption>A normal distribution with mean 85 and standard deviation 15.</caption>
+        <image source="statistics/normalempirical85_15.png" decorative="yes"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <p>
+    Traditionally, the Empirical Rule involved adding and subtracting multiple areas by hand. With modern tools, we can focus on the key idea: the relationship between relative frequency (percentage of data) and value ranges in a normal distribution.
+  </p>
+
+  <example xml:id="statistics-empirical-rule-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>
+        In a national survey, women aged 20 to 29 in the United States had a mean height of 64.2 inches and a standard deviation of 2.9 inches. Use the <url href="https://www.geogebra.org/m/xttfsxzr">Empirical Rule Calculator</url> to answer the following.
+      </p>
+      <p>
+        <ul>
+          <li><em>Part A:</em> What percentage of women aged 20 to 29 would you expect to be between 64.2 and 67.1 inches tall?</li>
+          <li><em>Part B:</em> What percentage would you expect to be taller than 70 inches?</li>
+          <li><em>Part C:</em> What percentage would you expect to be shorter than 55.5 inches?</li>
+        </ul>
+      </p>
+    </statement>
+    <solution>
+      <p><em>Part A</em></p>
+      <p>
+        In the calculator, choose tail type <em>Between</em>, set <m>\mu=64.2</m> and <m>\sigma=2.9</m>.
+      </p>
+      <figure xml:id="statistics-empirical-rule-example-1-step-1">
+        <caption>The Empirical Rule Calculator with mean 64.2 and standard deviation 2.9.</caption>
+        <image source="statistics/empirical1.png" decorative="yes"/>
+      </figure>
+      <p>
+        Since 64.2 is the peak, it is <m>\mu</m>. The value 67.1 is one standard deviation to the right, so <m>67.1=\mu+\sigma</m>. Set lower value to <m>\mu</m> and upper value to <m>\mu+\sigma</m>.
+      </p>
+      <figure xml:id="statistics-empirical-rule-example-1-step-2">
+        <caption>The percentage shown is 34%.</caption>
+        <image source="statistics/empirical2.png" decorative="yes"/>
+      </figure>
+      <p>Therefore, approximately 34% are between 64.2 and 67.1 inches tall.</p>
+
+      <p><em>Part B</em></p>
+      <p>
+        Switch tail type to <em>Right Tail</em>. Re-enter <m>\mu=64.2</m> and <m>\sigma=2.9</m> (the tool may reset these). Since 70 is two standard deviations above the mean, <m>70=\mu+2\sigma</m>, so set <m>x=\mu+2\sigma</m>.
+      </p>
+      <figure xml:id="statistics-empirical-rule-example-1-step-3">
+        <caption>The right-tail percentage shown is 2.5%.</caption>
+        <image source="statistics/empirical3.png" decorative="yes"/>
+      </figure>
+      <p>Therefore, approximately 2.5% are taller than 70 inches.</p>
+
+      <p><em>Part C</em></p>
+      <p>
+        Switch tail type to <em>Left Tail</em>. Re-enter <m>\mu=64.2</m> and <m>\sigma=2.9</m>. Since 55.5 is three standard deviations below the mean, <m>55.5=\mu-3\sigma</m>, so set <m>x=\mu-3\sigma</m>.
+      </p>
+      <figure xml:id="statistics-empirical-rule-example-1-step-4">
+        <caption>The left-tail percentage shown is 0.15%.</caption>
+        <image source="statistics/empirical4.png" decorative="yes"/>
+      </figure>
+      <p>Therefore, approximately 0.15% are shorter than 55.5 inches.</p>
+    </solution>
+  </example>
+
+  <p>
+    The Empirical Rule is a powerful tool for understanding normal data. Given a mean and standard deviation, it lets us estimate percentages within value ranges and identify what is typical versus potentially unusual.
+  </p>
+</section>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-mode" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Calculate the Mode of a Dataset</title>
+
+  <p>
+    The mode is a measure of central tendency that identifies the most frequently occurring value(s) in a dataset. Unlike the mean and median, the mode does not require numerical calculations but instead focuses on how often values appear. In this section, we define the mode, discuss its characteristics, and explore examples of how to determine and interpret it.
+  </p>
+
+  <definition xml:id="statistics-mode-definition-local">
+    <title>What is the Mode?</title>
+    <statement>
+      <p>
+        The <term>mode</term> of a dataset is the value(s) that occur locally with the highest frequency.
+      </p>
+      <p>
+        When discussing the shape of histograms, we encountered <term>unimodal</term>, <term>multimodal</term>, and <term>uniform</term> distributions. The mode corresponds to the peaks in these distributions.
+      </p>
+      <p>
+        <ul>
+          <li>A <term>unimodal</term> distribution has one peak.</li>
+          <li>A <term>multimodal</term> distribution has multiple peaks with similar frequencies.</li>
+          <li>A <term>uniform</term> distribution has no distinct peaks, meaning no mode exists.</li>
+        </ul>
+      </p>
+      <figure xml:id="statistics-mode-unimodal-figure">
+        <caption>The red curve drawn over the histogram looks like a bell.</caption>
+        <image source="statistics/normal2.png" decorative="yes"/>
+      </figure>
+      <figure xml:id="statistics-mode-multimodal-figure">
+        <caption>A bimodal distribution with its two peaks labeled.</caption>
+        <image source="statistics/bimodal2.png" decorative="yes"/>
+      </figure>
+      <figure xml:id="statistics-mode-uniform-figure">
+        <caption>A uniform distribution has bars that are all approximately the same height.</caption>
+        <image source="statistics/uniform2.png" decorative="yes"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <p>
+    Identifying these peaks precisely requires advanced mathematical techniques, such as calculus, even though many multimodal distributions are intuitive and can be visualized easily with histograms, stem-and-leaf plots, and dot plots. Human height, for example, is bimodal because there is a mode for men and a mode for women since, on average, men tend to be about five inches taller than women. Therefore, we refine our definition of mode to avoid local considerations.
+  </p>
+
+  <definition xml:id="statistics-mode-definition-revised">
+    <title>Revised Definition: Mode</title>
+    <statement>
+      <p>
+        The <term>mode</term> of a dataset is the value(s) that occur most frequently.
+      </p>
+      <p>
+        By removing the term “occur locally,” we ensure that all identified modes have the same frequency. This revised definition makes it easier to identify all the modes at a glance from frequency distributions.
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-mode-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>
+        Find the mode of the 2016–2017 tuition and fees (in thousands of dollars) for the top 14 universities in the U.S. by hand.
+      </p>
+      <table xml:id="statistics-mode-table-tuition">
+        <title>2016–2017 Tuition and Fees (in $1000s)</title>
+        <tabular>
+          <row header="yes">
+            <cell colspan="7">Tuition and Fees</cell>
+          </row>
+          <row>
+            <cell>45</cell>
+            <cell>47</cell>
+            <cell>52</cell>
+            <cell>49</cell>
+            <cell>55</cell>
+            <cell>48</cell>
+            <cell>48</cell>
+          </row>
+          <row bottom="major">
+            <cell>51</cell>
+            <cell>51</cell>
+            <cell>50</cell>
+            <cell>51</cell>
+            <cell>48</cell>
+            <cell>51</cell>
+            <cell>51</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p>By observation, the most frequently occurring value is 51, which appears five times.</p>
+      <figure xml:id="statistics-mode-example-1-marked-table">
+        <caption>A copy of the tuition-and-fees table with the five instances of 51 enclosed in black boxes.</caption>
+        <image source="statistics/mode_example1.png" decorative="yes"/>
+      </figure>
+      <p>Thus, the mode is <m>51</m>.</p>
+    </solution>
+  </example>
+
+  <example xml:id="statistics-mode-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>
+        The following LSAT scores for a sample of 50 students are recorded below. Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to determine if a mode exists, and if it does, identify the mode(s). Also, classify the dataset as unimodal, multimodal, or having no mode.
+      </p>
+      <table xml:id="statistics-mode-table-lsat">
+        <title>Sample of 50 LSAT Scores</title>
+        <tabular>
+          <row header="yes">
+            <cell colspan="10">LSAT Scores</cell>
+          </row>
+          <row>
+            <cell>174</cell><cell>172</cell><cell>169</cell><cell>176</cell><cell>169</cell><cell>170</cell><cell>175</cell><cell>171</cell><cell>168</cell><cell>177</cell>
+          </row>
+          <row>
+            <cell>165</cell><cell>180</cell><cell>173</cell><cell>166</cell><cell>178</cell><cell>170</cell><cell>174</cell><cell>167</cell><cell>179</cell><cell>172</cell>
+          </row>
+          <row>
+            <cell>163</cell><cell>181</cell><cell>171</cell><cell>164</cell><cell>177</cell><cell>169</cell><cell>175</cell><cell>168</cell><cell>180</cell><cell>170</cell>
+          </row>
+          <row>
+            <cell>162</cell><cell>182</cell><cell>170</cell><cell>165</cell><cell>176</cell><cell>168</cell><cell>174</cell><cell>166</cell><cell>178</cell><cell>171</cell>
+          </row>
+          <row bottom="major">
+            <cell>161</cell><cell>183</cell><cell>169</cell><cell>167</cell><cell>175</cell><cell>167</cell><cell>173</cell><cell>165</cell><cell>177</cell><cell>172</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p>Load the data into the Summary Statistics Calculator.</p>
+      <figure xml:id="statistics-mode-example-2-step-1">
+        <caption>A screenshot of the Summary Statistics Calculator showing the loaded LSAT data.</caption>
+        <image source="statistics/example3-mean.png" decorative="yes"/>
+      </figure>
+      <p>Click on the Mode checkbox.</p>
+      <figure xml:id="statistics-mode-example-2-step-2">
+        <caption>The mode checkbox reveals that 169 and 170 are the two modes, indicating a bimodal set.</caption>
+        <image source="statistics/mode_example2.png" decorative="yes"/>
+      </figure>
+      <p>The tool reveals that <m>169</m> and <m>170</m> are the modes of the dataset, so the distribution is bimodal, which is a type of multimodal distribution.</p>
+    </solution>
+  </example>
+
+  <p>
+    The mode is particularly useful to summarize certain types of qualitative data. Unfortunately, the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> does not handle qualitative data. Therefore, we use the <url href="https://www.geogebra.org/m/qg4j4jc4">Frequency Distribution Tool</url> to make a frequency distribution and then find the data point(s) with the highest frequency.
+  </p>
+
+  <example xml:id="statistics-mode-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>
+        The following dataset represents the size of shirts sold over the last 30 days at a clothing retailer. Use the <url href="https://www.geogebra.org/m/qg4j4jc4">Frequency Distribution Tool</url> to determine the mode of the dataset.
+      </p>
+      <table xml:id="statistics-mode-table-shirt-sizes">
+        <title>Shirt Sizes Sold Over the Last 30 Days</title>
+        <tabular>
+          <row header="yes">
+            <cell colspan="10">Shirt Sizes</cell>
+          </row>
+          <row>
+            <cell>Small</cell><cell>Medium</cell><cell>Large</cell><cell>X-Large</cell><cell>X-Large</cell><cell>Medium</cell><cell>Large</cell><cell>X-Large</cell><cell>Small</cell><cell>X-Large</cell>
+          </row>
+          <row>
+            <cell>Medium</cell><cell>X-Large</cell><cell>X-Large</cell><cell>Large</cell><cell>Small</cell><cell>X-Large</cell><cell>Medium</cell><cell>X-Large</cell><cell>Large</cell><cell>X-Large</cell>
+          </row>
+          <row>
+            <cell>X-Large</cell><cell>X-Large</cell><cell>Large</cell><cell>Small</cell><cell>Medium</cell><cell>X-Large</cell><cell>X-Large</cell><cell>X-Large</cell><cell>Large</cell><cell>Medium</cell>
+          </row>
+          <row>
+            <cell>X-Large</cell><cell>Large</cell><cell>Medium</cell><cell>X-Large</cell><cell>X-Large</cell><cell>Small</cell><cell>Medium</cell><cell>Large</cell><cell>X-Large</cell><cell>X-Large</cell>
+          </row>
+          <row bottom="major">
+            <cell>Large</cell><cell>X-Large</cell><cell>Medium</cell><cell>Small</cell><cell>X-Large</cell><cell>X-Large</cell><cell>X-Large</cell><cell>Large</cell><cell>Small</cell><cell>Medium</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p>Load the data into the Frequency Distribution Tool. Initially, nothing appears because classes are built for quantitative data.</p>
+      <figure xml:id="statistics-mode-example-3-step-1">
+        <caption>The data has been loaded into the GeoGebra tool, and nothing is displayed yet.</caption>
+        <image source="statistics/mode_example3.png" decorative="yes"/>
+      </figure>
+      <p>To display a frequency distribution of the raw data, deselect the Organize Data Into Classes checkbox. The distribution then appears on the right.</p>
+      <figure xml:id="statistics-mode-example-3-step-2">
+        <caption>The organize-data-into-classes checkbox is deselected, and X-Large appears as the most frequent size.</caption>
+        <image source="statistics/mode_example3a.png" decorative="yes"/>
+      </figure>
+      <p>From the distribution, the most frequently sold size is X-Large, with a count of 23.</p>
+    </solution>
+  </example>
+
+  <p>
+    The mode helps identify the most common values in a dataset, making it useful for analyzing both quantitative and qualitative data. Unlike the mean and median, the mode may not always exist and can have multiple values. By understanding how to determine the mode and classify distributions as unimodal, multimodal, or having no mode, we gain deeper insights into data patterns.
+  </p>
+</section>

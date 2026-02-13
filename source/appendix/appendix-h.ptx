@@ -7,5 +7,7 @@
       This appendix contains lecture notes for the Statistics section.
     </p>
   </introduction>
-  <!-- Add lecture notes for Statistics here -->
+ <xi:include href="./statistics/chapter-1.ptx"/>
+ <xi:include href="./statistics/chapter-2.ptx"/> 
+  <xi:include href="./statistics/chapter-3.ptx"/>
 </appendix>

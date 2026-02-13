@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-standard-deviation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Understanding Standard Deviation</title>
+
+  <p>
+    Standard deviation is one of the most important measures of variability in statistics. It tells us how much data values typically deviate from the mean. Before calculating standard deviation, we first study squared deviations and variance. This section develops these ideas step by step and then defines standard deviation and its main properties.
+  </p>
+
+  <definition xml:id="statistics-squared-deviation-definition">
+    <title>Squared Deviation</title>
+    <statement>
+      <p>The squared deviation is the square of the deviation value.</p>
+      <p>
+        <ul>
+          <li><em>Population Squared Deviation:</em> <m>(x-\mu)^2</m></li>
+          <li><em>Sample Squared Deviation:</em> <m>(x-\overline{x})^2</m></li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-standard-deviation-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>
+        Compute the squared deviation for the salary dataset from <xref ref="statistics-deviation-example-1"/> and find their sum.
+      </p>
+    </statement>
+    <solution>
+      <table xml:id="statistics-standard-deviation-table-squared-dev">
+        <title>Salaries, Deviations, and Squared Deviations (in Thousands of Dollars)</title>
+        <tabular>
+          <row header="yes">
+            <cell>Salary (in Thousands)</cell>
+            <cell>Deviation (<m>x-44.5</m>)</cell>
+            <cell>Squared Deviation (<m>(x-44.5)^2</m>)</cell>
+          </row>
+          <row><cell>40</cell><cell>-4.5</cell><cell>(-4.5)^2 = 20.25</cell></row>
+          <row><cell>23</cell><cell>-21.5</cell><cell>(-21.5)^2 = 462.25</cell></row>
+          <row><cell>41</cell><cell>-3.5</cell><cell>(-3.5)^2 = 12.25</cell></row>
+          <row><cell>50</cell><cell>5.5</cell><cell>(5.5)^2 = 30.25</cell></row>
+          <row><cell>49</cell><cell>4.5</cell><cell>(4.5)^2 = 20.25</cell></row>
+          <row><cell>32</cell><cell>-12.5</cell><cell>(-12.5)^2 = 156.25</cell></row>
+          <row><cell>41</cell><cell>-3.5</cell><cell>(-3.5)^2 = 12.25</cell></row>
+          <row><cell>59</cell><cell>14.5</cell><cell>(14.5)^2 = 210.25</cell></row>
+          <row><cell>52</cell><cell>7.5</cell><cell>(7.5)^2 = 56.25</cell></row>
+          <row><cell>58</cell><cell>13.5</cell><cell>(13.5)^2 = 182.25</cell></row>
+          <row bottom="major"><cell><em>Total</em></cell><cell><em>0</em></cell><cell><em>1162.50</em></cell></row>
+        </tabular>
+      </table>
+    </solution>
+  </example>
+
+  <p>
+    Unlike deviations, squared deviations add to a nonzero number because every squared deviation is nonnegative. This sets up the idea of taking an average of squared deviations, called variance.
+  </p>
+
+  <definition xml:id="statistics-variance-definition">
+    <title>Variance</title>
+    <statement>
+      <p>The variance of a distribution is the average value of its squared deviations.</p>
+      <p>
+        <ul>
+          <li><em>Population Variance:</em> <m>\sigma^2=\dfrac{\sum (x-\mu)^2}{N}</m></li>
+          <li><em>Sample Variance:</em> <m>s^2=\dfrac{\sum (x-\overline{x})^2}{n-1}</m></li>
+        </ul>
+      </p>
+      <p><em>Why does sample variance use <m>n-1</m>?</em></p>
+      <p>
+        If we know the sample mean and all but one data value, the last value is forced by the others. So only <m>n-1</m> values are free to vary independently.
+      </p>
+      <p>
+        This is called <term>degrees of freedom</term>.
+      </p>
+      <figure xml:id="statistics-variance-df-1">
+        <caption>Stacks of 1, 2, 4, 2, 3, and 5 dots.</caption>
+        <image source="statistics/variance1.png" decorative="yes"/>
+      </figure>
+      <figure xml:id="statistics-variance-df-2">
+        <caption>After rearranging, one stack is still short by one dot.</caption>
+        <image source="statistics/variance2.png" decorative="yes"/>
+      </figure>
+      <figure xml:id="statistics-variance-df-3">
+        <caption>The missing stack must be height 4 to keep mean 3.</caption>
+        <image source="statistics/variance3.png" decorative="yes"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-standard-deviation-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>Compute the variance for the salary example.</p>
+    </statement>
+    <solution>
+      <p>
+        From Example 1, <m>\sum (x-\overline{x})^2=1162.50</m>. Since <m>n=10</m>, divide by <m>n-1=9</m>:
+      </p>
+      <p><m>s^2=\dfrac{1162.50}{9}\approx 129.167</m>.</p>
+    </solution>
+  </example>
+
+  <p>Two disadvantages of variance are:</p>
+  <p>
+    <ul>
+      <li><em>The units are squared:</em> for example, dollars-squared.</li>
+      <li><em>The value is inflated:</em> squaring makes larger deviations much bigger.</li>
+    </ul>
+  </p>
+  <p>
+    Taking the square root of variance fixes both issues and gives the standard deviation.
+  </p>
+
+  <definition xml:id="statistics-standard-deviation-definition">
+    <title>Standard Deviation</title>
+    <statement>
+      <p>The standard deviation is the square root of the variance.</p>
+      <p>
+        <ul>
+          <li><em>Population Standard Deviation:</em> <m>\sigma=\sqrt{\dfrac{\sum (x-\mu)^2}{N}}</m></li>
+          <li><em>Sample Standard Deviation:</em> <m>s=\sqrt{\dfrac{\sum (x-\overline{x})^2}{n-1}}</m></li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="statistics-standard-deviation-properties">
+    <title>Important Properties of Standard Deviation</title>
+    <statement>
+      <p>
+        <ul>
+          <li>Measures how much data values deviate from the mean on average.</li>
+          <li>Always nonnegative; it is 0 only if all data values are identical.</li>
+          <li>Larger values indicate more variation.</li>
+          <li>Not resistant to outliers.</li>
+          <li>Has the same units as the dataset.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="statistics-standard-deviation-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>
+        Use the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to calculate the standard deviation of the salaries.
+      </p>
+    </statement>
+    <solution>
+      <p>If your tool is still set to deviations, it should look like this:</p>
+      <figure xml:id="statistics-standard-deviation-example-3-step-1">
+        <caption>The average value of the deviations is 0.</caption>
+        <image source="statistics/deviations_example1c.png" decorative="yes"/>
+      </figure>
+      <p>
+        Change the data column back to the salary column. The standard deviation checkbox is selected by default, giving <m>s\approx 11.365</m>.
+      </p>
+      <figure xml:id="statistics-standard-deviation-example-3-step-2">
+        <caption>The column is changed back and the standard deviation is 11.3652.</caption>
+        <image source="statistics/std1.png" decorative="yes"/>
+      </figure>
+      <p><em>Quick Note.</em> The calculator can also display the variance.</p>
+      <figure xml:id="statistics-standard-deviation-example-3-step-3">
+        <caption>The variance checkbox reveals a variance of 129.1667.</caption>
+        <image source="statistics/std2.png" decorative="yes"/>
+      </figure>
+    </solution>
+  </example>
+
+  <p>
+    Standard deviation is a powerful measure of variability. Using squared deviations and variance, it quantifies how far values typically lie from the mean. In practice, standard deviation helps interpret spread, compare distributions, and identify potential outliers.
+  </p>
+</section>

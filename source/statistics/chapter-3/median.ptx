@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="statistics-median" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Calculate the Median of a Data Set</title>
+
+  <p>
+    The median is a measure of central tendency that represents the middle value of an ordered dataset. In this section, we define the median, discuss how to calculate it, and explore examples both by hand and using technology.
+  </p>
+
+  <definition xml:id="statistics-median-definition">
+    <title>What is the Median?</title>
+    <statement>
+      <p>
+        The <term>median</term> of an ordered dataset is the value that separates the lower 50% from the upper 50%. This number may or may not be part of the dataset. Unlike the mean, the median does not have a universally accepted notation, but many people represent it as <m>M</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="statistics-median-procedure">
+    <title>How do I calculate the Median?</title>
+    <statement>
+      <p>Let <m>n</m> be the sample size of your data.</p>
+      <p>
+        <ul>
+          <li><em>Step 1:</em> Order the data from smallest to largest. Ensure all repeated values are included.</li>
+          <li><p><em>Step 2:</em> Determine whether <m>n</m> is even or odd:
+            <ul>
+              <li>If <m>n</m> is odd, the median is the <m>\dfrac{n+1}{2}</m> entry in the ordered list.</li>
+              <li>If <m>n</m> is even, the median is the average of the <m>\dfrac{n}{2}</m> and <m>\dfrac{n}{2}+1</m> entries in the ordered list.</li>
+            </ul>
+          </p>
+          </li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    While the procedure for calculating the median seems hard on the surface, it is in fact very easy to calculate, especially for small data sets. The next two examples demonstrate the process step by step. The first example illustrates how to find the median with an odd sample size.
+  </p>
+
+  <example xml:id="statistics-median-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>
+        The following weekly hours spent studying for a sample of 7 students are recorded below. Find the median number of study hours by hand.
+      </p>
+      <table xml:id="statistics-median-table-study-hours">
+        <title>Sample of Weekly Study Hours (in hours)</title>
+        <tabular>
+          <row header="yes">
+            <cell colspan="7">Study Hours Per Week</cell>
+          </row>
+          <row bottom="major">
+            <cell>12</cell>
+            <cell>15</cell>
+            <cell>10</cell>
+            <cell>18</cell>
+            <cell>14</cell>
+            <cell>11</cell>
+            <cell>16</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p>First, order the data from smallest to largest.</p>
+      <figure xml:id="statistics-median-example-1-ordered">
+        <caption>The data has been ordered as 10, 11, 12, 14, 15, 16, 18.</caption>
+        <image source="statistics/median_example1.png" decorative="yes"/>
+      </figure>
+      <p>Next, strike out the first and last numbers.</p>
+      <figure xml:id="statistics-median-example-1-strike-1">
+        <caption>The 10 and 18 have been cross off the list of numbers.</caption>
+        <image source="statistics/median_example1a.png" decorative="yes"/>
+      </figure>
+      <p>Then, strike out the next two inner numbers.</p>
+      <figure xml:id="statistics-median-example-1-strike-2">
+        <caption>The 11 and 16 are now struck out.</caption>
+        <image source="statistics/median_example1b.png" decorative="yes"/>
+      </figure>
+      <p>Again, strike out the next two inner numbers.</p>
+      <figure xml:id="statistics-median-example-1-strike-3">
+        <caption>The 12 and 15 have been struck out.</caption>
+        <image source="statistics/median_example1c.png" decorative="yes"/>
+      </figure>
+      <p>Now, notice that only one number remains.</p>
+      <figure xml:id="statistics-median-example-1-final">
+        <caption>The remaining number 14 has been boxed.</caption>
+        <image source="statistics/median_example1d.png" decorative="yes"/>
+      </figure>
+      <p>Since there is only one number left, <m>14</m> is the median.</p>
+      <p>
+        <em>Note.</em> What do we mean by separating the upper 50% of data from the lower 50% of data? In this case, there are the same number of values to the left of 14 as there are to the right of 14. The median is determined by its position in the ordered list, not its value.
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Finding the median for an even sample size follows the same steps, except for the final calculation.
+  </p>
+
+  <example xml:id="statistics-median-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>
+        The cholesterol levels (mg/dL) of a sample of 10 people are recorded below. Find the median cholesterol level by hand.
+      </p>
+      <table xml:id="statistics-median-table-cholesterol">
+        <title>Sample of 10 Cholesterol Levels</title>
+        <tabular>
+          <row header="yes">
+            <cell colspan="5">Cholesterol Level (mg/dL)</cell>
+          </row>
+          <row>
+            <cell>154</cell><cell>240</cell><cell>171</cell><cell>188</cell><cell>235</cell>
+          </row>
+          <row bottom="major">
+            <cell>203</cell><cell>184</cell><cell>173</cell><cell>181</cell><cell>275</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p>First, order the data from smallest to largest.</p>
+      <figure xml:id="statistics-median-example-2-ordered">
+        <caption>The data has been ordered as 154, 171, 173, 181, 184, 188, 203, 235, 240, 275.</caption>
+        <image source="statistics/median_example2_transparent.png" decorative="yes"/>
+      </figure>
+      <p>Now, strike off the first and last numbers in the list.</p>
+      <figure xml:id="statistics-median-example-2-strike-1">
+        <caption>154 and 275 have been stricken from the list.</caption>
+        <image source="statistics/median_example2a_transparent.png" decorative="yes"/>
+      </figure>
+      <p>Then, strike out the next two inner numbers.</p>
+      <figure xml:id="statistics-median-example-2-strike-2">
+        <caption>171 and 240 have been stricken off.</caption>
+        <image source="statistics/median_example2b_transparent.png" decorative="yes"/>
+      </figure>
+      <p>Again, strike out the next two inner numbers.</p>
+      <figure xml:id="statistics-median-example-2-strike-3">
+        <caption>173 and 235 have been stricken out.</caption>
+        <image source="statistics/median_example2c_transparent.png" decorative="yes"/>
+      </figure>
+      <p>Again, strike out the next two inner numbers.</p>
+      <figure xml:id="statistics-median-example-2-strike-4">
+        <caption>181 and 203 have been stricken out.</caption>
+        <image source="statistics/median_example2d_transparent.png" decorative="yes"/>
+      </figure>
+      <p>Instead of arriving at a single central number, we end up with two central numbers—184 and 188.</p>
+      <figure xml:id="statistics-median-example-2-final">
+        <caption>184 and 188 have been boxed since they are the last two numbers remaining.</caption>
+        <image source="statistics/median_example2e_transparent.png" decorative="yes"/>
+      </figure>
+      <p>When we end up with two central numbers, we average them to find the median: <m>\text{median} = \dfrac{184+188}{2}=186</m>.</p>
+      <p>
+        <em>Note.</em> The median is the average of the two central numbers, so it may not be an actual data point, even if it matches a value in the list. It lies exactly between the two central numbers, dividing the dataset into two equal parts. In this case, the lower half consists of 154, 171, 173, 181, and 184, while the upper half consists of 188, 203, 235, 240, and 275.
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Just like the mean, we often compute the median from large data sets. The next example uses the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url> to compute the median.
+  </p>
+
+  <example xml:id="statistics-median-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>
+        The following LSAT scores for a sample of 50 students are given below. Find the median of the sample using the <url href="https://www.geogebra.org/m/gka7dwu7">Summary Statistics Calculator</url>.
+      </p>
+      <table xml:id="statistics-median-table-lsat">
+        <title>Sample of 50 LSAT Scores</title>
+        <tabular>
+          <row header="yes">
+            <cell colspan="10">LSAT Scores</cell>
+          </row>
+          <row>
+            <cell>174</cell><cell>172</cell><cell>169</cell><cell>176</cell><cell>169</cell><cell>170</cell><cell>175</cell><cell>171</cell><cell>168</cell><cell>177</cell>
+          </row>
+          <row>
+            <cell>165</cell><cell>180</cell><cell>173</cell><cell>166</cell><cell>178</cell><cell>170</cell><cell>174</cell><cell>167</cell><cell>179</cell><cell>172</cell>
+          </row>
+          <row bottom="major">
+            <cell>163</cell><cell>181</cell><cell>171</cell><cell>164</cell><cell>177</cell><cell>169</cell><cell>175</cell><cell>168</cell><cell>180</cell><cell>170</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+      <p>Load the data into the Summary Statistics Calculator with default settings.</p>
+      <figure xml:id="statistics-median-example-3-step-1">
+        <caption>A screenshot of the Summary Statistics Calculator showing that the average value is 171.68.</caption>
+        <image source="statistics/example3-mean.png" decorative="yes"/>
+      </figure>
+      <p>Click on the Median checkbox to reveal the value of the median.</p>
+      <figure xml:id="statistics-median-example-3-step-2">
+        <caption>The median checkbox is clicked. The value of the median is 171.</caption>
+        <image source="statistics/example3-media.png" decorative="yes"/>
+      </figure>
+      <p>Therefore, the value of the median is <m>171</m>.</p>
+    </solution>
+  </example>
+
+  <p>
+    The median is a valuable measure of central tendency because it is resistant to outliers. By understanding how to calculate the median manually and using technology, we can analyze data more effectively in various contexts.
+  </p>
+</section>

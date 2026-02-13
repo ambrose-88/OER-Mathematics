@@ -74,6 +74,8 @@
       <title>Statistics</title>
       
       <xi:include href="./statistics/chapter-1/chapter1.ptx" />
+      <xi:include href="./statistics/chapter-2/chapter2.ptx" />
+      <xi:include href="./statistics/chapter-3/chapter3.ptx" />
     </part>
 
     <!-- Include backmatter -->
