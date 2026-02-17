@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="statistics-chapter1" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Chapter 1</title>
+  <title>Populations and their Samples</title>
 
   <introduction>
     <p> Text before the first section. </p>
   </introduction>
-
   <!-- include sections -->
-  <!-- <xi:include href="chapter1-1.ptx" /> -->
-  <!-- <xi:include href="chapter1-2.ptx" /> -->
-  <!-- <xi:include href="chapter1-3.ptx" /> -->
-  <!-- <xi:include href="chapter1-4.ptx" /> -->
-  <!-- <xi:include href="chapter1-5.ptx" /> -->
-  <!-- <xi:include href="chapter1-6.ptx" /> -->
-  <!-- <xi:include href="chapter1-7.ptx" /> -->
-  <!-- <xi:include href="chapter1-8.ptx" /> -->
-</chapter>
+  <xi:include href="data-thought-process.ptx" />
+  <xi:include href="population-sample.ptx" />
+  <xi:include href="parameter-statistics.ptx" />
+  <xi:include href="data-collection-bias.ptx" />
+  <xi:include href="levels-measurement.ptx" />
+  <xi:include href="sampling-methods.ptx" />
+  <xi:include href="experimental-design.ptx" />
+
+  </chapter>

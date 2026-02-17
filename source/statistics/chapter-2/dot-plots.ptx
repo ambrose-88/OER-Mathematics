@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch2-dot-plots" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Construct Dot Plots</title>
+  <introduction>
+    <p>A dot plot is a simple visual tool for representing data, where each dot corresponds to a specific data point. It effectively displays frequency distributions, highlighting patterns, peaks, and left or right skew. Dot plots are ideal for small to moderately sized datasets in various fields such as education, biology, and economics.</p>
+  </introduction>
+
+  <subsection xml:id="stats-ch2-dot-plots-basics">
+    <title>Dot Plots</title>
+
+    <definition xml:id="stats-ch2-def-dot-plot">
+      <title>How do I make a Dot Plot?</title>
+      <statement>
+        <p>To create a dot plot by hand, follow these steps</p>
+        <p>
+        <ol>
+          <li>Draw a horizontal axis to represent the range of values, labeling it appropriately.</li>
+          <li>Divide the axis into evenly spaced intervals to cover all data points.</li>
+          <li>For each value in the dataset, place a dot above its corresponding position on the axis, stacking dots vertically for repeated values.</li>
+          <li>Add a title and labels to clarify the data being represented.</li>
+        </ol>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="stats-ch2-dot-plot-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>The following data represents the length in centimeters of a sample of 10 white oak leaves. Make a dotplot of this data.</p>
+        <table>
+          <title>Leaf Length Data (in cm)</title>
+          <tabular>
+            <row header="yes">
+              <cell>Length (cm)</cell>
+              <cell>Length (cm)</cell>
+            </row>
+            <row>
+              <cell>17</cell>
+              <cell>18</cell>
+            </row>
+            <row>
+              <cell>18</cell>
+              <cell>15</cell>
+            </row>
+            <row>
+              <cell>13</cell>
+              <cell>19</cell>
+            </row>
+            <row>
+              <cell>16</cell>
+              <cell>17</cell>
+            </row>
+            <row>
+              <cell>17</cell>
+              <cell>16</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <p>First, we note that the range of values are from 13 to 19, so we label the <m>x</m>-axis from 13 to 19. Since 13 only appears once, we will put one dot above 13.</p>
+        <figure>
+          <caption>x-axis labeled from 13 to 19. There is one dot above 13.</caption>
+          <image source="statistics/dotplot_example1_1.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Next, since 15 only appears once, we will put one dot above 15.</p>
+        <figure>
+          <caption>One dot was added above 15 on the dotplot in addition to the previous dot.</caption>
+          <image source="statistics/dotplot_example1_2.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Next, since 16 appears twice, we will put two dots above 16.</p>
+        <figure>
+          <caption>Two dots are added above 16 in addition to the previous dots.</caption>
+          <image source="statistics/dotplot_example1_3.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Next, since 17 appears 3 times, we will put three dots above 17.</p>
+        <figure>
+          <caption>Three dots are put above 17 in addition to the previous dots.</caption>
+          <image source="statistics/dotplot_example1_3.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Next, since 18 appears 2 times, we will put two dots above 18.</p>
+        <figure>
+          <caption>Two dots are drawn above 18 in addition to the previous dots.</caption>
+          <image source="statistics/dotplot_example1_5.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Finally, since 19 appears once and is the largest data point, we will add a dot above 19, and that completes the dotplot.</p>
+        <figure>
+          <caption>A single dot is placed above 19 in addition to the previous dots, and that completes the graph.</caption>
+          <image source="statistics/dotplot_example1_6.png" width="80%" decorative="yes"/>
+        </figure>
+      </solution>
+    </example>
+
+    <p>Of course, when doing anything by hand, this introduces human error. Like with our other displays, we will use GeoGebra to construct our Dot Plots. In this case, we will use the <url href="https://www.geogebra.org/m/svdxyybm">Dot Plot Generator Tool</url>. Let's use the tool on our next example.</p>
+
+    <example xml:id="stats-ch2-dot-plot-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>A customer service manager wants to evaluate the team's efficiency in responding to support tickets during peak hours. The response times (in minutes) for 10 randomly selected tickets are given in the table below. Make a dot plot of this data.</p>
+        <table>
+          <title>Response Time to Support Tickets (in Minutes)</title>
+          <tabular>
+            <row header="yes">
+              <cell>Response Time (minutes)</cell>
+              <cell>Response Time (minutes)</cell>
+            </row>
+            <row>
+              <cell>5.9</cell>
+              <cell>5.7</cell>
+            </row>
+            <row>
+              <cell>4.9</cell>
+              <cell>5.8</cell>
+            </row>
+            <row>
+              <cell>7.6</cell>
+              <cell>6.2</cell>
+            </row>
+            <row>
+              <cell>6.4</cell>
+              <cell>5.7</cell>
+            </row>
+            <row>
+              <cell>5.4</cell>
+              <cell>5.9</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <p>Download the data and enter it into the <url href="https://www.geogebra.org/m/svdxyybm">Dot Plot Generator Tool</url>. Close the Spreadsheet Tab, and notice that the tool has already put the dots on the graph for you.</p>
+        <figure>
+          <caption>The data from Example 2 is loaded into GeoGebra. The dots are correct, but the x-axis scale is incorrect.</caption>
+          <image source="statistics/dotplot_example2_1.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>The dots are correctly placed, but the <m>x</m>-axis labels start at 4.9 and increase by 1. This happens because the Dot Plot Generator defaults to integers. Since the data is rounded to one decimal place, select <m>0.1</m> from the dropdown menu. (Note: Due to an unresolved bug, <m>0.1</m> appears as <m>1/10</m>.) Adjusting this fixes the <m>x</m>-scale, making all ticks and labels display correctly.</p>
+        <figure>
+          <caption>Rounding option changed to 0.1. Arrow points to option reads Adjust this.</caption>
+          <image source="statistics/dotplot_example2_2.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Title your Dot Plot and <m>x</m>-axis, and your graph is done.</p>
+        <figure>
+          <caption>Title is Times for 10 Support Tickets. The x-axis label is Time (minutes).</caption>
+          <image source="statistics/dotplot_example2_3.png" width="80%" decorative="yes"/>
+        </figure>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="stats-ch2-interpreting-dot-plots">
+    <title>Interpreting Dot Plots</title>
+
+    <p>Dot plots give us another way to see the shape of the distribution. But unlike histograms, it gives us a way to identify the exact data points that are either unusually small or unusually large compared to the other data points.</p>
+    <p>If we look at the dot plot for Example 1 and draw a curve over it, we see that since 13 is smaller than the rest of the data clustered around the peak at 17, and this unusually small data point skews the distribution to the left by elongating the left tail.</p>
+    <figure>
+      <caption>The dot plot from Example 1. A curve is drawn over it, showing a skew-left distribution.</caption>
+      <image source="statistics/dotplot_example1_6_with_curve.png" width="80%" decorative="yes"/>
+    </figure>
+    <p>Similarly, if we draw a curve over the dot plot for Example 2, we see that since 7.8 is larger than the rest of the data clustered around the peak approximately 5.6-5.9, and this unusually large data point skews the distribution to the right by elongating the right tail.</p>
+    <figure>
+      <caption>The dot plot from Example 1. A curve is drawn over it, showing a skew-right distribution.</caption>
+      <image source="statistics/dotplot_example2_3_with_curve.png" width="80%" decorative="yes"/>
+    </figure>
+
+    <note>
+      <title>Note</title>
+      <p>We will formally introduce the criteria for when a data point is significantly small or significantly large later in this course.</p>
+    </note>
+  </subsection>
+</section>

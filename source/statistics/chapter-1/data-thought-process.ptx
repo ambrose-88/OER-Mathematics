@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch1-data-thought-process" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Data and the Thought Process of Statistics</title>
+  <introduction>
+    <p>Statistics are widely used in everyday life, from crime and sports to education and real estate. Whether reading a newspaper, watching TV, or browsing the internet, we often encounter statistical information based on samples. This data helps assess the accuracy of claims to help us all make better and informed decisions. Understanding statistical methods is essential for analyzing information thoughtfully, whether buying a house, managing a budget, or working in fields like economics, business, psychology, biology, or law. This module introduces the fundamentals of statistics including the mindset for being a statistics student, learning the relevant definitions, explaining how data is collected, and how to identify reliable data.</p>
+  </introduction>
+
+  <subsection xml:id="stats-ch1-data-and-statistics">
+    <title>Data and Statistics</title>
+
+    <p>Before diving into the details of statistics, we need to define what statistics actually is. Since statistics relies on data, that is where we will begin.</p>
+
+    <definition xml:id="stats-ch1-def-data">
+      <title>What is Data?</title>
+      <statement>
+        <p><term>Data</term> is any collections of observations, counts, measurements, or survey responses.</p>
+      </statement>
+    </definition>
+
+    <p>Examples of data include:</p>
+    <p>
+    <ol>
+      <li>An instructor asks students how many hours they studied last week, with responses ranging from 30 minutes to 4 hours. These responses are considered data.</li>
+      <li>A survey online asks users to identify their favorite fast food restaurant. Responses like Zaxby's and McDonald's are considered data.</li>
+    </ol>
+    </p>
+
+    <p>Now that we have a basic understanding of what data is, we can proceed to define what the science of statistics should entail.</p>
+
+    <definition xml:id="stats-ch1-def-statistics">
+      <title>What is Statistics?</title>
+      <statement>
+        <p><term>Statistics</term> is the science of collecting, organizing, analyzing, and interpreting data from a sample to draw conclusions about a population.</p>
+      </statement>
+    </definition>
+
+    <p>We know what data is, but what does it mean to "collect, organize, analyze, and interpret data from a sample to make inferences about a population"? That is the focus of this course.</p>
+
+    <p>The course is structured as follows:</p>
+    <p>
+    <ul>
+      <li>Chapter 1 introduces the best ways to collect data and ensures it represents the real world.</li>
+      <li>Chapters 2 and 3 focus on organizing and analyzing data.</li>
+      <li>Chapters 7-10 teach us how to interpret data from a sample to draw conclusions about a population.</li>
+    </ul>
+    </p>
+
+    <p>Statistics is a process you will learn throughout the semester; it is not something mastered in a day. You may be wondering about Chapters 4-6. These chapters cover probability and probability distributions, which are essential for understanding the inferences we make in Chapters 7-10. While Chapters 4-6 are the most theoretical and challenging, they provide the foundation needed for the rest of the course.</p>
+
+    <p>By the end of this course, you will be equipped to understand and apply statistical methods confidently.</p>
+  </subsection>
+</section>

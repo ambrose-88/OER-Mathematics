@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch1-parameter-statistics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Parameters and Statistics</title>
+  <introduction>
+    <p>In statistics, understanding the distinction between key concepts is essential for analyzing data effectively. Two foundational terms, parameter and statistic, play a crucial role in summarizing and interpreting information.</p>
+  </introduction>
+
+  <subsection xml:id="stats-ch1-parameters-and-statistics">
+    <title>Parameters and Statistics</title>
+
+    <definition xml:id="stats-ch1-def-parameter">
+      <title>What is a parameter?</title>
+      <statement>
+        <p>A <term>parameter</term> is a numerical measurement describing some characteristic of a population. It is often theoretical and unknown.</p>
+      </statement>
+    </definition>
+
+    <p>An example of a parameter is the average height of all people living in Nashville, TN, and its surrounding suburbs. While it is theoretically possible to measure the height of every individual in the area to determine this parameter, doing so would require a complete census, which is impractical. Many people might refuse to participate, and certain groups, such as homeless individuals or undocumented immigrants, can be difficult to locate and include. As a result, although this exact number exists, the inability to conduct a full census means it will likely remain unknown.</p>
+
+    <p>This is why we take samples. While we cannot calculate this number for the entire population, we can measure the heights of a subset of individuals who are willing to participate. The average height calculated from this subset is called a statistic, which is used to estimate the unknown parameter.</p>
+
+    <definition xml:id="stats-ch1-def-statistic">
+      <title>What is a statistic?</title>
+      <statement>
+        <p>A <term>statistic</term> is a number that is calculated from and describes some characteristic of a sample. They are used to estimate unknown parameters.</p>
+      </statement>
+    </definition>
+
+    <p>Returning to our Nashville example, we could take a random sample of 500 individuals and calculate their average height. To ensure accuracy, the sample should be randomly selected from different neighborhoods and include a diverse mix of ages, genders, ethnicities, and socio-economic backgrounds. This approach can provide a reasonably accurate estimate of the average height of people living in the Nashville area, provided it is free from bias or sampling errors, which we will discuss shortly.</p>
+  </subsection>
+
+  <subsection xml:id="stats-ch1-parameter-vs-statistic">
+    <title>Telling the Difference Between a Parameter and a Statistic</title>
+
+    <p>Parameter and statistic can be confusing terms at first. So, here is a helpful memory device for sorting out which value goes with which group of individuals.</p>
+
+    <definition xml:id="stats-ch1-def-parameter-vs-statistic">
+      <title>How do I tell the difference between a parameter and a statistic?</title>
+      <statement>
+        <p>
+        <ul>
+          <li>Parameter refers to a population (both start with "p").</li>
+          <li>Statistic refers to a sample (both start with "s").</li>
+        </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <p>Now that we understand the concepts of parameters and statistics, let's explore some examples. As with populations and samples, we will begin with straightforward cases, but our second example will be more ambiguous.</p>
+
+    <example xml:id="stats-ch1-parameter-statistic-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>For each scenario below, tell if each of the bolded values is a parameter or a statistic. If the value is a statistic, explain what could be changed about the scenario to make the bolded value become a parameter:</p>
+        <p>
+        <ul>
+          <li>Part A: A study of all 2223 passengers aboard the Titanic found that 706 survived when it sank.</li>
+          <li>Part B: In a large sample of households, the median annual income per household for high school graduates is $19,856 (based on data from the U.S. Census Bureau).</li>
+          <li>Part C: Among the Senators in the current Congress, 45% are Democrats.</li>
+          <li>Part D: The author measured the voltage supplied to his home on 40 different days, and the average (mean) value is 123.7 volts.</li>
+        </ul>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        <ul>
+          <li>Part A: The number 706 is a parameter.</li>
+          <li>Part B: The value $19,856 is a statistic. It would be a parameter by removing "sample of households" and adding "all the households in Tennessee" or "every household in the county" to indicate it is a complete collection of households.</li>
+          <li>Part C: The percentage 45% is a parameter.</li>
+          <li>Part D: The value 123.7 is a statistic. This would be a parameter if the "40 different days" was changed to "all 365 days of the year" or "all 30 days of this month" to indicate that the voltage measurements are a complete collection.</li>
+        </ul>
+        </p>
+      </solution>
+    </example>
+
+    <example xml:id="stats-ch1-parameter-statistic-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>Determine if the boldface number is a parameter or a statistic: In 2022, the average math score for a female student who took the ACT that year was 19.7.</p>
+      </statement>
+      <solution>
+        <p>Whether 19.7 is a parameter or a statistic depends on the context of the data:</p>
+        <p>
+        <ul>
+          <li>If we are only considering female students who took the ACT in 2022, then 19.7 would be a parameter because it represents a characteristic of the entire population for that year.</li>
+          <li>However, if we are studying how the average score changes over multiple years, then 19.7 would be a statistic because it represents a single data point (a sample) in a larger analysis of trends.</li>
+        </ul>
+        </p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="stats-ch1-parameter-statistics-conclusion">
+    <title>Conclusion</title>
+    <p>Understanding the distinction between parameters and statistics is fundamental in statistical analysis. While parameters describe entire populations, they are often theoretical and difficult to calculate due to practical constraints. Statistics, on the other hand, are calculated from samples and provide a way to estimate these unknown parameters. By carefully designing samples to be representative and minimizing bias, we can make reliable conclusions about populations from data we collect from samples. Using statistics to estimate parameters forms the foundation for much of the work in statistics, allowing us to draw meaningful conclusions from data and apply them to real-world contexts.</p>
+  </subsection>
+</section>

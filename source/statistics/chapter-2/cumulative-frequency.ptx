@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch2-cumulative-frequency" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Compute Cumulative Frequency Distributions</title>
+<introduction>
+  <p>Another important concept related to frequency is cumulative frequency, which keeps a running total of frequencies up to a specific value or class. This provides insight into how data accumulates over a specific range of values, and is fundamental in understanding ideas such as median, quartiles, interquartile ranges, and computing area under the uniform, normal, and Student T curves. By synthesizing raw data into meaningful patterns, cumulative frequency serves as a stepping stone to deeper statistical concepts, emphasizing the relationship between individual data points and their overall context within a dataset.</p>
+</introduction>
+  <subsection xml:id="stats-ch2-cumulative-frequency-basics">
+    <title>Cumulative Frequency</title>
+
+    <definition xml:id="stats-ch2-def-cumulative-frequency">
+      <title>What is Cumulative Frequency?</title>
+      <statement>
+        <p><term>Cumulative frequency</term> is the number of data points that are less than or equal to some given number (not necessarily in the data set).</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="stats-ch2-def-cumulative-frequency-distribution">
+      <title>What is a Cumulative Frequency Distribution?</title>
+      <statement>
+        <p>A <term>cumulative frequency distribution</term> is a table that lists either the raw data or classes in the first column and the corresponding cumulative frequencies in the second column.</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="stats-ch2-def-compute-cumulative-frequency">
+      <title>How do I compute Cumulative Frequency?</title>
+      <statement>
+        <p>Let's turn to our Frequency Distribution about tornado deaths in Tennessee from Example 1 in <xref ref="stats-ch2-frequency-distribution">How to Create Frequency Distributions</xref>:</p>
+        <figure>
+          <caption>Frequency distribution table with columns Data and Frequency; Data is Qualitative checkbox selected and column B chosen.</caption>
+          <image source="statistics/frequencydistribution_example1_f~.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Suppose we are interested in the number of years with 3 or fewer deaths. From the frequency distribution, 32 years had 0 deaths, 10 years had 1 death, 6 years had 2 deaths, and 7 years had 3 deaths. Adding up the number of years gives
+        <me>32+10+6+7=55</me>
+        so the cumulative frequency for <m>3</m> is 55. Therefore, 55 years between 1950 and 2023 had 3 or fewer tornado-related deaths in Tennessee.</p>
+      </statement>
+    </definition>
+
+    <p>While it is good to have an idea of how to compute a cumulative frequency, the multiple manual calculations needed for a cumulative frequency distribution increases the likelihood of a calculation error. In our next example, we will see how to use our GeoGebra tool to create a cumulative frequency distribution.</p>
+
+    <example xml:id="stats-ch2-cumulative-frequency-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>For the data from Example 1 in <xref ref="stats-ch2-frequency-distribution">How to Create Frequency Distributions</xref>, create a cumulative frequency distribution for the raw data.</p>
+      </statement>
+      <solution>
+        <p>Load your data into GeoGebra (see Example 1 of <xref ref="stats-ch2-frequency-distribution">How to Create Frequency Distributions</xref> if you need a refresher).</p>
+        <figure>
+          <caption>Frequency distribution table with columns Data and Frequency.</caption>
+          <image source="statistics/frequencydistribution_example1_f~.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>While we can create a relative frequency distribution for the classes, as a first example, it is easier to work with and interpret the raw data. So, we are just going to click on the Cumulative Frequency checkbox to change the second column from frequencies to cumulative frequencies.</p>
+        <figure>
+          <caption>The cumulative frequency distribution for deaths by tornadoes in Tennessee.</caption>
+          <image source="statistics/cumulative_frequency_example1.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>
+        The Raw Data column gives all the unique values of the raw data, listed from smallest to largest. The Cumulative Frequency column tells us the number of years where the death total for the year is less than or equal to the value in the Data column. For example, for <m>x=17</m> deaths, the cumulative frequency of 68 indicates that, between 1950 and 2023, there were 68 years in which the number of deaths caused by tornadoes in Tennessee was 17 or fewer.
+        </p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="stats-ch2-relative-cumulative-frequency">
+    <title>Relative Cumulative Frequency</title>
+
+    <p>Relative cumulative frequency, which integrates the concepts of relative frequency and cumulative frequency, offers a powerful tool for understanding data distributions in a statistical context. It represents the percentage of data points at or below a specific value. When we study area under the normal curve later in this course, we will use both cumulative frequencies and relative cumulative frequencies.</p>
+
+    <definition xml:id="stats-ch2-def-relative-cumulative-frequency">
+      <title>What is Relative Cumulative Frequency?</title>
+      <statement>
+        <p><term>Relative cumulative frequency</term> is the percentage of data points that are less than or equal to some given number (not necessarily in the data set). As with relative frequency, we will always express the percentage as a decimal, such as <m>0.2934</m> instead of <m>29.34</m>%. Using percentages instead of decimals can cause errors in many of the formulas we will use in this course, as they require values to be expressed as decimals for accurate computation. As a formula, we can express this as
+        <me>\text{relative cumulative frequency}=\dfrac{\text{cumulative frequency}}{n}</me>
+        where <m>n</m> is the number of data points.</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="stats-ch2-def-relative-cumulative-frequency-distribution">
+      <title>What is a Relative Cumulative Frequency Distribution?</title>
+      <statement>
+        <p>A <term>relative cumulative frequency distribution</term> is a table that lists either the raw data or classes in the first column and the corresponding relative cumulative frequencies in the second column.</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="stats-ch2-def-compute-relative-cumulative-frequency">
+      <title>How do I Compute a Relative Cumulative Frequency?</title>
+      <statement>
+        <p>Let's consider our Cumulative Frequency Distribution from Example 1:</p>
+        <figure>
+          <caption>The cumulative frequency distribution for deaths by tornadoes in Tennessee.</caption>
+          <image source="statistics/cumulative_frequency_example1.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>One useful feature of a cumulative frequency distribution is that the last row provides the total number of data points, which in this case is 74. Now, let's pick a data point, such as 5. To calculate the relative cumulative frequency, divide its cumulative frequency by the total number of data points:
+        <me>\dfrac{61}{74}\approx 0.8243</me>
+        This means that 82.43% of the years had 5 or fewer deaths. As with relative frequency, we always round to four decimal places.</p>
+      </statement>
+    </definition>
+
+    <p>While it is good to have an idea of how to compute a relative cumulative frequency, the multiple manual calculations needed for a cumulative frequency distribution increases the likelihood of a calculation error. In our next example, we will see how to use our GeoGebra tool to create a cumulative frequency distribution.</p>
+
+    <example xml:id="stats-ch2-cumulative-frequency-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>For the data from Example 1, create a cumulative relative frequency distribution for the raw data.</p>
+      </statement>
+      <solution>
+        <p>For the data from Example 1 in <xref ref="stats-ch2-frequency-distribution">How to Create Frequency Distributions</xref>, the Frequency Distribution Tool should look like this if you are continuing from Example 1:</p>
+        <figure>
+          <caption>The cumulative frequency distribution for deaths by tornadoes in Tennessee.</caption>
+          <image source="statistics/cumulative_frequency_example1.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>We just need to make sure the Relative Frequencies checkbox is also checked, and it will change the cumulative frequencies column to relative cumulative frequencies. If you have done this correctly, your tool should look like this:</p>
+        <figure>
+          <caption>The relative cumulative frequency distribution of the tornado deaths in Tennessee.</caption>
+          <image source="statistics/cumulative_frequency_example2.png" width="80%" decorative="yes"/>
+        </figure>
+          <p>The Raw Data column gives all the unique values of the raw data, listed from smallest to largest. The Relative Cumulative Frequency column tells us the percentage of years where the death total for the year is less than or equal to the value in the Data column. For example, for <m>x=17</m> deaths, the relative cumulative frequency of <m>0.9189</m> indicates that 91.89% of the years between 1950 and 2023 had 17 or fewer deaths.</p>
+      </solution>
+    </example>
+
+    <p>Just like relative frequencies, cumulative relative frequencies can be displayed as percentages or side-by-side with cumulative frequencies.</p>
+
+    <definition xml:id="stats-ch2-def-relative-cumulative-frequency-options">
+      <title>Relative Cumulative Frequency Distribution Options</title>
+      <statement>
+          <p>If you click on the Display as Percentages checkbox, it will convert the relative cumulative frequencies to cumulative percentages.</p>
+          <figure>
+            <caption>The relative cumulative frequency distribution with cumulative percentages instead of relative cumulative frequencies.</caption>
+            <image source="statistics/cumulative_frequency_options1.png" width="80%" decorative="yes"/>
+          </figure>
+          <p>If you click on the Show Relative and Non-Relative checkbox, a third column will be added showing the original cumulative frequencies so you can have the cumulative frequency and relative cumulative frequency data side-by-side.</p>
+          <figure>
+            <caption>A third column containing the raw cumulative frequencies was added to the cumulative relative frequency distribution.</caption>
+            <image source="statistics/cumulative_frequency_options2.png" width="80%" decorative="yes"/>
+          </figure>
+          <p>You can also select both options at once to compare cumulative percentages to cumulative frequencies.</p>
+          <figure>
+            <caption>Both options are checked, allowed comparisons of cumulative percentages and raw cumulative frequencies.</caption>
+            <image source="statistics/cumulative_frequency_options3.png" width="80%" decorative="yes"/>
+          </figure>
+      </statement>
+    </definition>
+  </subsection>
+</section>

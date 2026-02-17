@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch2-bar-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Construct Bar Graphs</title>
+  <introduction>
+    <p>A bar graph uses proportional vertical or horizontal bars to represent the frequency of categorical data. This allows for the quick comparison of different categories of data. A common variation of a bar graph is the Pareto graph, which sorts the bars from tallest to shortest.</p>
+  </introduction>
+
+  <subsection xml:id="stats-ch2-bar-graphs-basics">
+    <title>Bar Graphs</title>
+
+    <p>Bar graphs are a powerful tool to visually compare categories of data. To understand how they work, let us explore an example that demonstrates the process of creating a bar graph using our <url href="https://www.geogebra.org/m/tmu6ja9y">Bar and Pie Chart Generator Tool</url>.</p>
+
+    <example xml:id="stats-ch2-bar-graph-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>A survey of 100 people was conducted to determine their favorite fast food restaurant among various national brands. The results are summarized in the table below. Using the data, create a bar graph to represent the distribution of responses.</p>
+        <table>
+          <title>Favorite Restaurants</title>
+          <tabular>
+            <row header="yes">
+              <cell>Response from Survey</cell>
+              <cell>Response from Survey</cell>
+              <cell>Response from Survey</cell>
+              <cell>Response from Survey</cell>
+              <cell>Response from Survey</cell>
+              <cell>Response from Survey</cell>
+              <cell>Response from Survey</cell>
+              <cell>Response from Survey</cell>
+            </row>
+            <row>
+              <cell>Chick-fil-A</cell>
+              <cell>McDonald's</cell>
+              <cell>Domino's</cell>
+              <cell>Taco Bell</cell>
+              <cell>McDonald's</cell>
+              <cell>McDonald's</cell>
+              <cell>McDonald's</cell>
+              <cell>Chick-fil-A</cell>
+            </row>
+            <row>
+              <cell>Wendy's</cell>
+              <cell>Burger King</cell>
+              <cell>Burger King</cell>
+              <cell>Domino's</cell>
+              <cell>McDonald's</cell>
+              <cell>Subway</cell>
+              <cell>Subway</cell>
+              <cell>KFC</cell>
+            </row>
+            <row>
+              <cell>KFC</cell>
+              <cell>Domino's</cell>
+              <cell>Chipotle</cell>
+              <cell>Domino's</cell>
+              <cell>Chipotle</cell>
+              <cell>Domino's</cell>
+              <cell>Taco Bell</cell>
+              <cell>Wendy's</cell>
+            </row>
+            <row>
+              <cell>Chipotle</cell>
+              <cell>Burger King</cell>
+              <cell>Pizza Hut</cell>
+              <cell>Wendy's</cell>
+              <cell>Taco Bell</cell>
+              <cell>Domino's</cell>
+              <cell>KFC</cell>
+              <cell>Domino's</cell>
+            </row>
+            <row>
+              <cell>Chipotle</cell>
+              <cell>Burger King</cell>
+              <cell>Chipotle</cell>
+              <cell>Wendy's</cell>
+              <cell>Domino's</cell>
+              <cell>KFC</cell>
+              <cell>Domino's</cell>
+              <cell>KFC</cell>
+            </row>
+            <row>
+              <cell>Subway</cell>
+              <cell>Chipotle</cell>
+              <cell>Burger King</cell>
+              <cell>Subway</cell>
+              <cell>Wendy's</cell>
+              <cell>Burger King</cell>
+              <cell>KFC</cell>
+              <cell>Wendy's</cell>
+            </row>
+            <row>
+              <cell>McDonald's</cell>
+              <cell>Chick-fil-A</cell>
+              <cell>McDonald's</cell>
+              <cell>Chick-fil-A</cell>
+              <cell>Subway</cell>
+              <cell>Domino's</cell>
+              <cell>Wendy's</cell>
+              <cell>Subway</cell>
+            </row>
+            <row>
+              <cell>Burger King</cell>
+              <cell>McDonald's</cell>
+              <cell>Burger King</cell>
+              <cell>McDonald's</cell>
+              <cell>Burger King</cell>
+              <cell>Burger King</cell>
+              <cell>Subway</cell>
+              <cell>Wendy's</cell>
+            </row>
+            <row>
+              <cell>Pizza Hut</cell>
+              <cell>Taco Bell</cell>
+              <cell>Burger King</cell>
+              <cell>Taco Bell</cell>
+              <cell>Chipotle</cell>
+              <cell>Pizza Hut</cell>
+              <cell>Wendy's</cell>
+              <cell>KFC</cell>
+            </row>
+            <row>
+              <cell>Subway</cell>
+              <cell>Subway</cell>
+              <cell>KFC</cell>
+              <cell>Taco Bell</cell>
+              <cell>Chick-fil-A</cell>
+              <cell>Subway</cell>
+              <cell>Subway</cell>
+              <cell>Chipotle</cell>
+            </row>
+            <row>
+              <cell>Taco Bell</cell>
+              <cell>Domino's</cell>
+              <cell>Chipotle</cell>
+              <cell>Chipotle</cell>
+              <cell>Burger King</cell>
+              <cell>Wendy's</cell>
+              <cell>Wendy's</cell>
+              <cell>Taco Bell</cell>
+            </row>
+            <row>
+              <cell>Wendy's</cell>
+              <cell>McDonald's</cell>
+              <cell>Pizza Hut</cell>
+              <cell>Wendy's</cell>
+              <cell>McDonald's</cell>
+              <cell>Taco Bell</cell>
+              <cell>Burger King</cell>
+              <cell>Subway</cell>
+            </row>
+            <row>
+              <cell>Domino's</cell>
+              <cell>Taco Bell</cell>
+              <cell>Domino's</cell>
+              <cell>McDonald's</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <p>Copy the data to the clipboard, and load it into the <url href="https://www.geogebra.org/m/tmu6ja9y">Bar and Pie Chart Generator Tool</url>. The tool should automatically generate the bar graph by default since the data is located in column A. If you load a data set where your information is not in A, you will have to change the drop box to the appropriate column.</p>
+        <figure>
+          <caption>A bar graph of the survey data on favorite fast food restaurant.</caption>
+          <image source="statistics/bargraph_example1a.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Just add in your title and labels, and you are done. I left the <m>x</m>-axis label blank in my example since it is clear all the bars are food food restaurants.</p>
+        <figure>
+          <caption>The title and y-axis have been labeled. The x-axis label was removed.</caption>
+          <image source="statistics/bargraph_example1b.png" width="80%" decorative="yes"/>
+        </figure>
+      </solution>
+    </example>
+    <note>
+      <title>Note</title>
+      <p>For this tool, I have enabled pan and zoom since labels on the <m>x</m>-axis can be bunched together and hard to read. This is something I plan to fix in the future. For now, you can use your mouse, touch pad, or fingers to change the size of the graph.</p>
+    </note>
+  </subsection>
+
+  <subsection xml:id="stats-ch2-pareto-graphs">
+    <title>Pareto Graphs</title>
+
+    <p>While standard bar graphs are effective at showcasing categorical data, there are scenarios where sorting the bars in descending order provides greater clarity. This leads us to a specialized variation of the bar graph known as the Pareto graph. Let's modify Example 1 so that all the bars are sorted from largest to smallest.</p>
+
+    <example xml:id="stats-ch2-bar-graph-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>Create a Pareto graph of the preferred fast food restaurants from Example 1.</p>
+      </statement>
+      <solution>
+        <p>Here is our result from Example 1.</p>
+        <figure>
+          <caption>The title and y-axis have been labeled. The x-axis label was removed.</caption>
+          <image source="statistics/bargraph_example1b.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Notice there is a checkbox next to Bar Graph Checkbox that says Pareto. Click on this box, and it will sort the bars for you.</p>
+        <figure>
+          <caption>The Pareto box has been check, and the bars are now sorted from longest to shortest.</caption>
+          <image source="statistics/bargraph_example1c.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Notice that is is now easier to see that, in this sample, the most popular restaurants are Wendy's, Domino's, and Burger King, and the least popular are KFC, Chick-fil-A, and Pizza Hut.</p>
+      </solution>
+    </example>
+  </subsection>
+</section>

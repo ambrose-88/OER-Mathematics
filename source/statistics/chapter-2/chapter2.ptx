@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="statistics-chapter2" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Chapter 2</title>
+  <title>Organizing Data Visually</title>
 
   <introduction>
     <p> Text before the first section. </p>
   </introduction>
 
   <!-- include sections -->
-  <!-- <xi:include href="chapter2-1.ptx" /> -->
-  <!-- <xi:include href="chapter2-2.ptx" /> -->
-  <!-- <xi:include href="chapter2-3.ptx" /> -->
-  <!-- <xi:include href="chapter2-4.ptx" /> -->
-  <!-- <xi:include href="chapter2-5.ptx" /> -->
-  <!-- <xi:include href="chapter2-6.ptx" /> -->
-  <!-- <xi:include href="chapter2-7.ptx" /> -->
-  <!-- <xi:include href="chapter2-8.ptx" /> -->
+  <xi:include href="frequency-distribution.ptx" />
+  <xi:include href="relative-frequency.ptx" />
+  <xi:include href="cumulative-frequency.ptx" />
+  <xi:include href="frequency-histogram.ptx" />
+  <xi:include href="shapes-distributions.ptx" />
+  <xi:include href="stem-leaf-plot.ptx" />
+  <xi:include href="dot-plots.ptx" />
+  <xi:include href="time-series.ptx" />
+  <xi:include href="bar-graphs.ptx" />
+  <xi:include href="pie-charts.ptx" />
 </chapter>

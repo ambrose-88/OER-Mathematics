@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch1-population-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Samples and Their Populations</title>
+  <introduction>
+    <p>Statistics operates by using studies, surveys, polls, and other data collection tools to gather information from a subset of a larger group, allowing insights about the entire group. This principle reflects the core purpose of statistics and the objective of this course: understanding some larger group by analyzing data from a representative subset. In this section, we will discuss the difference between the larger group, called a population, and the subset of that group, called a sample.</p>
+  </introduction>
+
+  <subsection xml:id="stats-ch1-populations">
+    <title>Populations</title>
+
+    <p>In data science, we want to understand the behavior of a population of interest. There are two main ways to do this: take a census or a sample. But before we talk about censuses and samples, we need to define what a population is.</p>
+
+    <definition xml:id="stats-ch1-def-population">
+      <title>What is a Population?</title>
+      <statement>
+        <p>A <term>population</term> is the complete collection of all individuals to be studied.</p>
+        <p>Individuals often refer to people, but not always. For example, individuals can also refer to animals in a wildlife study, products in a quality control inspection, plants in a botanical experiment, or even stars in an astronomical survey.</p>
+      </statement>
+    </definition>
+
+    <p>Consider the example of products in a quality control inspection. As the manufacturer, you want all your products to be free of defects. You have two options: test every product or test a small selection and use the results to evaluate the entire product line. Most manufacturers choose the latter because testing every product is more expensive and may damage or destroy the items being tested.</p>
+
+    <p>This example highlights the difference between a census, which involves testing every product, and a sample, which involves testing only a subset. Let's define these terms further.</p>
+
+    <definition xml:id="stats-ch1-def-census">
+      <title>What is a Census?</title>
+      <statement>
+        <p>A <term>census</term> collects data from every member of a population.</p>
+        <p>Examples include:</p>
+        <p>
+        <ul>
+          <li>The U.S. Population Census, which gathers data to determine congressional representation and allocate government funding.</li>
+          <li>A professor surveying all their students about their average nightly sleep habits.</li>
+          <li>Collecting scores from all competitors in an ice skating competition.</li>
+        </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <p>While it is easy to conduct a census for small populations, like students in a class or competitors in a sporting event, large-scale efforts like the U.S. Population Census are expensive and often incomplete. Challenges such as inaccessible locations, nonresponses, and underreporting make a full count impossible. However, it is still called a census because it aims to include everyone, using statistical tools to adjust for underreported groups and ensure representativeness. Due to the high cost and labor involved in large-scale censuses, many studies focus on samples instead, which we now define.</p>
+
+    <definition xml:id="stats-ch1-def-sample">
+      <title>What is a sample?</title>
+      <statement>
+        <p>A <term>sample</term> is a subset of members selected from a population.</p>
+        <p>Examples include:</p>
+        <p>
+        <ul>
+          <li>Political polls study a randomly selected group of households across various states to estimate trends for the entire U.S. population. This approach is more efficient and cost-effective than conducting a full census, as political organizations and journalists lack the resources or time for a true census.</li>
+          <li>The professor surveys only 5 of their 30 students about their sleep habits, rather than collecting data from every student.</li>
+          <li>The top 8 scores from a competition are sampled to assess whether the overall skill level of the athletes is improving.</li>
+        </ul>
+        </p>
+      </statement>
+    </definition>
+  </subsection>
+
+  <subsection xml:id="stats-ch1-populations-versus-samples">
+    <title>Populations Versus Samples</title>
+
+    <p>The differences between populations and samples are not always clear. Let's explore a few examples so we understand clearly what is a population and what is a sample. These first two examples, it is pretty clear cut what is a population and what is a sample.</p>
+
+    <example xml:id="stats-ch1-pop-sample-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>Determine the population and sample for the given situation: A Gallup poll is given to all eligible voters, and there are 2.3 million responses.</p>
+      </statement>
+      <solution>
+        <p>The sample in this scenario is the 2.3 million respondents or responses, and the population is all adults eligible to vote.</p>
+      </solution>
+    </example>
+
+    <example xml:id="stats-ch1-pop-sample-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>Determine whether the following data is from a population or a sample:</p>
+        <p>
+        <ul>
+          <li>Part A: The age of every fourth person entering a grocery store.</li>
+          <li>Part B: The major for each student at a community college.</li>
+        </ul>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        <ul>
+          <li>Part A: This data is from a sample because we are collecting age information for only some of the customers, not all of them.</li>
+          <li>Part B: This data is from a population because the community college has information about all students.</li>
+        </ul>
+        </p>
+      </solution>
+    </example>
+
+    <p>Many times, the difference between a population and a sample is not clear. Be careful with the following examples; they represent common errors in distinguishing a population from a sample.</p>
+
+    <example xml:id="stats-ch1-pop-sample-example-3">
+      <title>Example 3</title>
+      <statement>
+        <p>Identify the population and sample for this situation: A company surveys 850 of its employees and finds that 520 are satisfied with their job.</p>
+      </statement>
+      <solution>
+        <p>Many people assume the 850 employees is the population because it is a large number, but this is incorrect. A population includes all members of a group, while specific numbers, like 850, generally refer to a sample.</p>
+        <p>In this case:</p>
+        <p>
+        <ul>
+          <li>The 850 employees surveyed represent a sample of the population of all employees at the company.</li>
+          <li>The 520 is a statistic calculated from the sample, not the sample itself.</li>
+        </ul>
+        </p>
+      </solution>
+    </example>
+
+    <example xml:id="stats-ch1-pop-sample-example-4">
+      <title>Example 4</title>
+      <statement>
+        <p>An ecologist wants to study the nesting habits of birds in a particular forest. They identify 1800 trees in the northwest region of the forest and randomly select 300 trees to observe. Of those, 120 trees contain nests.</p>
+        <p>
+        <ul>
+          <li>Part A: What is the population the ecologist wants to study?</li>
+          <li>Part B: What is the sample they obtained?</li>
+          <li>Part C: About which population can the ecologist draw conclusions?</li>
+        </ul>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        <ul>
+          <li>Part A: The ecologist wants to study all trees in the forest where birds might build nests. The 1800 trees is misleading because it only represents one part of the forest.</li>
+          <li>Part B: The sample is the 300 trees the ecologist selected to observe because samples include only the individuals from whom data is collected.</li>
+          <li>Part C: Since the ecologist only observed trees in the northwest region, they can only make inferences about the population of trees in the northwest region, not the entire forest.</li>
+        </ul>
+        </p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="stats-ch1-population-sample-conclusion">
+    <title>Conclusion</title>
+    <p>Understanding the distinction between populations and samples is fundamental to statistical analysis. Populations represent the entire group under study, while samples are subsets used to make inferences about the population. Although a census provides comprehensive data, it is often impractical for large populations, making sampling a more efficient and feasible approach. Recognizing these differences and correctly identifying populations and samples in various contexts ensures accurate interpretations and better decision-making in studies.</p>
+  </subsection>
+</section>

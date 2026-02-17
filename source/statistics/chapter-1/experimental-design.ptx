@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch1-experimental-design" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Experimental Design</title>
+  <introduction>
+    <p>Experimental design ensures reliable and unbiased results by structuring studies to isolate treatment effects and control variability. This section covers three key designs: completely randomized, randomized block, and matched pairs.</p>
+  </introduction>
+
+  <subsection xml:id="stats-ch1-types-designs">
+    <title>Types of Designs</title>
+
+    <definition xml:id="stats-ch1-def-completely-randomized">
+      <title>What is a Completely Randomized Design?</title>
+      <statement>
+        <p>A <term>completely randomized design</term> assigns treatments to subjects entirely at random, without grouping or blocking. This design works well when the subjects are similar and there are no additional variables that need to be controlled.</p>
+        <p>Example: A clinical trial randomly assigns participants to receive one of three medications to treat high blood pressure. Results are compared across all participants.</p>
+      </statement>
+    </definition>
+
+    <example xml:id="stats-ch1-experimental-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>Many utility companies have introduced programs to encourage energy conservation among their customers. A particular company has three options:</p>
+        <p>
+        <ul>
+          <li>Place a small digital display in households to show current electricity usage.</li>
+          <li>Give customers a chart and information about monitoring their use from the outside meter.</li>
+          <li>Use a control group that receives general information about conserving energy but no tools to monitor their use.</li>
+        </ul>
+        </p>
+        <p>Design a flowchart that models this experiment.</p>
+      </statement>
+      <solution>
+        <p>The experiment can be modeled using a completely randomized design as follows.</p>
+        <p>First, we have a block to represent all the individuals in the sample.</p>
+        <figure>
+          <caption>The initial block in the flowchart.</caption>
+          <image source="statistics/Completely Randomized Design 1.png" decorative="yes" />
+        </figure>
+        <p>Next, we randomly sort the individuals into three groups: one group for each treatment and one placebo group. We label the groups 1, 2, and 3. We draw an arrow from our initial block to each of the three groups.</p>
+        <figure>
+          <caption>Groups 1, 2, and 3 are added to the flowchart.</caption>
+          <image source="statistics/Completely Randomized Design 2.png" decorative="yes" />
+        </figure>
+        <p>Next, we add a block for each treatment and one for the placebo. We assign the treatments to the groups at random. In the diagram, we then draw an arrow from the group to the treatment it receives. Typically, the treatment block is drawn to the right of the group block it is assigned to.</p>
+        <figure>
+          <caption>Added the three treatment types to the flowchart.</caption>
+          <image source="statistics/Completely Randomized Design 3.png" decorative="yes" />
+        </figure>
+        <p>Finally, we add a single block at the end indicating that the data is collected, and the results from all the treatment and placebo groups should be compared. In the flowchart, we indicate this by drawing an arrow from each treatment to the Compare Results box, and our flowchart is complete.</p>
+        <figure>
+          <caption>Added a block for comparing all the results.</caption>
+          <image source="statistics/Completely Randomized Design 4(1).png" decorative="yes" />
+        </figure>
+      </solution>
+    </example>
+
+    <definition xml:id="stats-ch1-def-randomized-block">
+      <title>What is a Randomized Block Design?</title>
+      <statement>
+        <p>A <term>randomized block design</term> groups subjects into blocks based on shared characteristics or variables that may influence the results. Treatments are then randomly assigned within each block, and comparisons are made within the blocks.</p>
+        <p>Example: In a weight loss study, participants are grouped into blocks by gender (for example, male and female). Within each block, participants are randomly assigned to different diet plans, and results are compared separately for males and females.</p>
+      </statement>
+    </definition>
+
+    <example xml:id="stats-ch1-experimental-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>A cosmetics company wants to compare the effectiveness of two facial creams: Cream A, which claims to reduce wrinkles, and Cream B, which claims to improve skin hydration. The company recruits 40 participants and divides them into blocks based on skin type: oily, dry, combination, and sensitive. Each block contains 10 participants. Within each block, participants are randomly assigned to use either Cream A or Cream B for four weeks, and their skin condition is evaluated at the end of the study.</p>
+        <p>Design a diagram that models this experiment.</p>
+      </statement>
+      <solution>
+        <p>This experiment uses a randomized block design, and the flowchart can be designed as follows.</p>
+        <p>As before, we start with a block to represent all the individuals in the sample.</p>
+        <figure>
+          <caption>Start with a block for the random sample.</caption>
+          <image source="statistics/Block Design 1.png" decorative="yes" />
+        </figure>
+        <p>Next, we add in blocks for the different skin types since the creams may affect different skin types differently. We draw an arrow from the sample to each of the different skin types.</p>
+        <figure>
+          <caption>Next, separate the groups by skin type.</caption>
+          <image source="statistics/Block Design 2.png" decorative="yes" />
+        </figure>
+        <p>Now, we treat each block as its own SRS, and assign members in each block into one of two groups.</p>
+        <figure>
+          <caption>Next, sort the blocks into groups.</caption>
+          <image source="statistics/Block Design 3.png" decorative="yes" />
+        </figure>
+        <p>Since we are treating each block as its own SRS, we assign each group within a block one of the two creams.</p>
+        <figure>
+          <caption>Within each block, assign the treatments to the groups. Treat each group as its own SRS.</caption>
+          <image source="statistics/Block Design 4.png" decorative="yes" />
+        </figure>
+        <p>The whole point of the block design is to account for the different types of skin. So, when we get to the compare results step, we only compare results within each block. This ensures that any differences observed are due to the treatment and not the characteristics defining the blocks.</p>
+        <p>The final flowchart shown below.</p>
+        <figure>
+          <caption>The final part is to compare results among the individual blocks only, not between blocks.</caption>
+          <image source="statistics/Block Design 5.png" decorative="yes" />
+        </figure>
+      </solution>
+    </example>
+
+    <definition xml:id="stats-ch1-def-matched-pairs">
+      <title>What is a Matched Pairs Design?</title>
+      <statement>
+        <p>A <term>matched pairs design</term> is a special case of the randomized block design where subjects are paired or matched in some way. This design is used to compare two treatments.</p>
+        <p>
+        <ul>
+          <li>
+            <p>Version 1: Pair two individuals based on shared characteristics. Randomly assign one individual in each pair to receive the first treatment, and the other to receive the second treatment. Compare results within each pair.</p>
+            <p>Example: Two participants of similar age and fitness level are paired. One is assigned to a new exercise routine, and the other follows a standard routine. Their progress is compared after four weeks.</p>
+          </li>
+          <li>
+            <p>Version 2: Use the same individual for both treatments. Assign one of the treatments to the individual at random, and once the experiment is concluded, apply the other treatment at a later time under similar conditions. Compare the results for that individual.</p>
+            <p>Example: A participant tests two different types of running shoes by running a set distance with each pair on different days. Their times are compared to determine which shoe performs better.</p>
+          </li>
+        </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="stats-ch1-experimental-example-3">
+      <title>Example 3</title>
+      <statement>
+        <p>Researchers are studying the effect of two different dashboard layouts on driver reaction times during sudden stops. The two layouts are:</p>
+        <p>
+        <ul>
+          <li>Layout A: A traditional dashboard with analog gauges.</li>
+          <li>Layout B: A modern digital dashboard with heads-up display features.</li>
+        </ul>
+        </p>
+        <p>Each participant is randomly assigned to use one dashboard layout while completing a driving simulation. After a break, the same participants repeat the simulation with the other dashboard layout under similar conditions. Reaction times are measured during each simulation.</p>
+        <p>Describe and diagram a matched pairs experiment to determine if the modern dashboard increases safety.</p>
+      </statement>
+      <solution>
+        <p>This is a <term>matched-pairs design (Version 2)</term> because each participant serves as their own control by testing both dashboard layouts. As before, we start off with the random sample.</p>
+        <figure>
+          <caption>The first block is always the random sample.</caption>
+          <image source="statistics/Matched Pairs 1.png" decorative="yes" />
+        </figure>
+        <p>Next, assign the participants into one of two groups.</p>
+        <figure>
+          <caption>The participants are split evenly into two groups.</caption>
+          <image source="statistics/Matched Pairs 2.png" decorative="yes" />
+        </figure>
+        <p>Next, randomly assign one of the two treatments to each group.</p>
+        <figure>
+          <caption>The group is randomly assigned one of the two treatments.</caption>
+          <image source="statistics/Matched Pairs 3.png" decorative="yes" />
+        </figure>
+        <p>After a period of time has passed and under similar conditions, the groups are given the other treatment.</p>
+        <figure>
+          <caption>At a different time and under similar conditions, the groups do the other treatment.</caption>
+          <image source="statistics/Matched Pairs 4.png" decorative="yes" />
+        </figure>
+        <p>Finally, you compute the difference in results between the two treatments, and compare all the differences among the participants.</p>
+        <figure>
+          <caption>Finally, you compare the differences between the two treatments among all participants.</caption>
+          <image source="statistics/Matched Pairs 5.png" decorative="yes" />
+        </figure>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="stats-ch1-experimental-conclusion">
+    <title>Conclusion</title>
+    <p>Good experimental design minimizes bias, controls variability, and ensures valid comparisons. Completely randomized designs work for homogeneous groups, randomized block designs account for shared characteristics, and matched pairs designs allow detailed within-subject or paired comparisons. Proper design leads to meaningful and reliable results.</p>
+  </subsection>
+</section>

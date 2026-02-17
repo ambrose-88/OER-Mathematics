@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch1-levels-measurement" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Types of Data and Levels of Measurement</title>
+  <introduction>
+    <p>Understanding data begins with recognizing its classification and the processes used to collect it. Data can broadly be categorized into two classifications, with each providing unique insight into a population or sample, allowing for a more targeted analysis of particular aspects. When collecting data, it is important to implement an appropriate sampling method so that the data can be used to learn something about the population it originated from. This section will detail data types as well as the common sampling methods used to collect that data.</p>
+  </introduction>
+
+  <subsection xml:id="stats-ch1-data-classification">
+    <title>Data Classification</title>
+
+    <p>Data originates from either a population or a sample and can be classified into two main categories: qualitative data and quantitative data.</p>
+
+    <definition xml:id="stats-ch1-def-qualitative">
+      <title>What is Qualitative Data?</title>
+      <statement>
+        <p>Qualitative data (or categorical data) categorizes or describes attributes of a population, often using words or letters but can include labels that are numerical. Examples include:</p>
+        <p>
+        <ul>
+          <li>Hair color (e.g., black, brown)</li>
+          <li>Blood type (e.g., AB+, O-)</li>
+          <li>Zip Codes (e.g., 49715, 26537)</li>
+        </ul>
+        </p>
+        <p>This type of data is not generally suited for mathematical analysis, meaning that averages or standard deviations are not meaningful (e.g., you would not be able to calculate an average hair color).</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="stats-ch1-def-quantitative">
+      <title>What is Quantitative Data?</title>
+      <statement>
+        <p>Quantitative data represents numerical values obtained by counting or measuring attributes. Examples include:</p>
+        <p>
+        <ul>
+          <li>Weight</li>
+          <li>Pulse rate</li>
+          <li>The number of people or objects</li>
+        </ul>
+        </p>
+        <p>Quantitative data is further divided into two subcategories:</p>
+        <p>
+        <ul>
+          <li>
+            <p>Discrete data: Occurs when the possible values are finite or countable (e.g., 0 calls, 1 call, 2 calls, etc.). Examples include:
+            <ul>
+              <li>The number of phone calls made by a telemarketer</li>
+              <li>The number of classes a student enrolls in during a semester</li>
+            </ul>
+            </p>
+          </li>
+          <li>
+            <p>Continuous data: Consists of infinitely many possible values along a continuous scale with no gaps, interruptions, or jumps (e.g., weight, time, or distance). Examples include:
+            <ul>
+              <li>The weight of a newborn might be 7.5 pounds</li>
+              <li>The duration of a song might be 3.8 minutes</li>
+              <li>The distance traveled to work might be 12.3 miles</li>
+            </ul>
+            These measurements can be made as precise as necessary, reflecting the continuous nature of the scale.</p>
+          </li>
+        </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="stats-ch1-data-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>For each of the following, determine whether the data is quantitative or qualitative. If it is quantitative, specify whether it is discrete or continuous:</p>
+        <p>
+        <ul>
+          <li>Part A: The number of pairs of shoes you own</li>
+          <li>Part B: The type of car you drive</li>
+          <li>Part C: The distance from your home to the nearest grocery store</li>
+          <li>Part D: The number of classes you take per school year</li>
+          <li>Part E: The type of calculator you use</li>
+          <li>Part F: Weights of dogs at an animal shelter</li>
+          <li>Part G: The number of correct answers on a quiz</li>
+          <li>Part H: The amount of money you spend at the local Quickmart</li>
+        </ul>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        <ul>
+          <li>Part A: Discrete quantitative. The number of pairs of shoes you own is countable (e.g., 1 pair, 2 pairs, 3 pairs, etc.), which makes it quantitative and discrete.</li>
+          <li>Part B: Qualitative. The type of car you drive (e.g., SUV, sedan, truck) is categorical and cannot be measured or counted, making it qualitative data.</li>
+          <li>Part C: Continuous quantitative. The distance to the nearest grocery store can be measured along a continuous scale (e.g., 1.5 miles, 3.2 miles), allowing for infinite precision, so it is quantitative and continuous.</li>
+          <li>Part D: Discrete quantitative. The number of classes you take per school year is countable (e.g., 4 classes, 5 classes, etc.), so it is quantitative and discrete.</li>
+          <li>Part E: Qualitative. The type of calculator you use (e.g., graphing calculator, scientific calculator) is descriptive and categorical, making it qualitative data.</li>
+          <li>Part F: Continuous quantitative. The weights of dogs at an animal shelter can be measured along a continuous scale (e.g., 12.7 pounds, 23.4 pounds) with infinite precision, making this data quantitative and continuous.</li>
+          <li>Part G: Discrete quantitative. The number of correct answers on a quiz is countable (e.g., 1 correct answer, 2 correct answers), so it is quantitative and discrete.</li>
+          <li>Part H: Discrete quantitative. Although the amount of money spent at a store can include decimals (e.g., $5.75), money is not measured on a continuous scale because it is typically limited to two decimal places (cents). Thus, it is quantitative and discrete.</li>
+        </ul>
+        </p>
+      </solution>
+    </example>
+
+    <example xml:id="stats-ch1-data-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>Consider the following information and table, then answer the questions below.</p>
+        <p>
+        <ul>
+          <li>Part A: Which information is categorical data?</li>
+          <li>Part B: Which information is quantitative data?</li>
+        </ul>
+        </p>
+        <table>
+          <title>Selected Vehicle Data</title>
+          <tabular>
+            <row header="yes">
+              <cell>Make/Model</cell>
+              <cell>Class</cell>
+              <cell>Transmission</cell>
+              <cell>Cylinders</cell>
+              <cell>City MPG</cell>
+              <cell>Highway MPG</cell>
+              <cell>Annual Fuel Cost</cell>
+            </row>
+            <row>
+              <cell>Chevrolet Corvette</cell>
+              <cell>Two-Seater</cell>
+              <cell>Manual</cell>
+              <cell>8</cell>
+              <cell>17</cell>
+              <cell>29</cell>
+              <cell>$2,650</cell>
+            </row>
+            <row>
+              <cell>Nissan Cube</cell>
+              <cell>Station Wagon</cell>
+              <cell>Manual</cell>
+              <cell>4</cell>
+              <cell>25</cell>
+              <cell>30</cell>
+              <cell>$1,850</cell>
+            </row>
+            <row>
+              <cell>Ford Fusion</cell>
+              <cell>Midsize</cell>
+              <cell>Automatic</cell>
+              <cell>4</cell>
+              <cell>23</cell>
+              <cell>36</cell>
+              <cell>$1,800</cell>
+            </row>
+            <row>
+              <cell>Chevrolet Impala</cell>
+              <cell>Large</cell>
+              <cell>Automatic</cell>
+              <cell>6</cell>
+              <cell>18</cell>
+              <cell>28</cell>
+              <cell>$2,400</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <p>
+        <ul>
+          <li>
+            <p>Part A: Categorical data describes attributes or categories and cannot be measured numerically. From the table, the categorical data includes:
+            <ul>
+              <li>Make/Model: The names of vehicles, such as "Chevrolet Corvette" or "Nissan Cube."</li>
+              <li>Class: The vehicle category, such as "Two-Seater" or "Midsize."</li>
+              <li>Transmission: The type of transmission, either "Manual" or "Automatic."</li>
+              <li>Cylinders: The number of engine cylinders (e.g., 4, 6, 8) is categorical because it classifies the engine type rather than measuring it.</li>
+            </ul>
+            </p>
+          </li>
+          <li>
+            <p>Part B: Quantitative data includes numerical values obtained by counting or measuring. From the table, the quantitative data includes:
+            <ul>
+              <li>City MPG: The number of miles per gallon in city driving (e.g., 17, 25, 23, etc.).</li>
+              <li>Highway MPG: The number of miles per gallon in highway driving (e.g., 29, 30, 36, etc.).</li>
+              <li>Annual Fuel Cost: The cost of fuel for one year, measured in dollars (e.g., $2,650, $1,850).</li>
+            </ul>
+            </p>
+          </li>
+        </ul>
+        </p>
+      </solution>
+    </example>
+
+    <example xml:id="stats-ch1-data-example-3">
+      <title>Example 3: Type of Data from an Image</title>
+      <statement>
+        <p>The registrar at State University keeps records of the number of credit hours students complete each semester. The data collected are summarized in the histogram. The class boundaries are 10 to less than 13, 13 to less than 16, 16 to less than 19, 19 to less than 22, and 22 to less than 25.</p>
+        <figure>
+          <caption>Histogram with intervals 10-13, 13-16, 16-19, 19-22, 22-25; bar heights: 250, 580, 740, 625, 240.</caption>
+          <image source="statistics/StudentCreditHours.jpg" width="80%" decorative="yes"/>
+        </figure>
+      </statement>
+      <solution>
+        <p>Since students would be countable (i.e., 0 students, 1 student, 2 students, etc.) this graph depicts data that is discrete quantitative.</p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="stats-ch1-levels-measurement-levels">
+    <title>Levels of Measurement</title>
+
+    <p>Statistics involves understanding, analyzing, and interpreting data, and a key component is determining the level of measurement of data. Levels of measurement are important because they determine the types of statistical analyses that can be performed and ensure proper interpretation of data. There are four levels of measurement, each building on the previous level:</p>
+
+    <definition xml:id="stats-ch1-def-measurement-levels">
+      <title>Different Levels of Measurement</title>
+      <statement>
+        <p>
+        <ul>
+          <li>Nominal level: Data at this level are categorized without any order. Examples include gender, eye color, and types of fruits.</li>
+          <li>Ordinal level: Data are categorized with a meaningful order, but differences between categories are not measurable. Examples include rankings in a competition or survey responses such as "satisfied," "neutral," or "dissatisfied."</li>
+          <li>Interval level: Data have meaningful order and measurable differences, but no true zero point. Examples include temperature in Celsius or years on a calendar.</li>
+          <li>Ratio level: Data have a meaningful order, measurable differences, and a true zero point, allowing for meaningful ratios. Examples include weight, height, or age.</li>
+        </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <example xml:id="stats-ch1-measurement-example-1">
+      <title>Example 3</title>
+      <statement>
+        <p>Classify the following scenarios by their level of measurement:</p>
+        <p>
+        <ul>
+          <li>Part A: Types of cars (e.g., SUV, sedan, truck).</li>
+          <li>Part B: The ranking of runners in a race.</li>
+          <li>Part C: Temperature readings in Fahrenheit.</li>
+          <li>Part D: The time it takes for participants to complete a task, measured in seconds.</li>
+        </ul>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        <ul>
+          <li>Part A: Nominal. Types of cars are categorized without order.</li>
+          <li>Part B: Ordinal. Rankings in a race indicate an order but do not provide measurable differences between positions.</li>
+          <li>Part C: Interval. Fahrenheit temperatures provide measurable differences but lack a true zero since the zero for this temperature scale is chosen arbitrarily.</li>
+          <li>Part D: Ratio. Time in seconds includes meaningful differences and a true zero, allowing for ratios.</li>
+        </ul>
+        </p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="stats-ch1-levels-measurement-conclusion">
+    <title>Conclusion</title>
+    <p>Understanding the classification of data and its levels of measurement is essential for conducting accurate and meaningful statistical analysis. By distinguishing between qualitative and quantitative data, and recognizing whether data is discrete or continuous, we can better select appropriate methods for summarizing and analyzing information. Similarly, identifying the level of measurement, nominal, ordinal, interval, or ratio, ensures we apply the correct statistical tools and interpret results accurately. These foundational concepts provide the framework for understanding how data is collected, categorized, and analyzed, paving the way for more advanced statistical techniques.</p>
+  </subsection>
+</section>

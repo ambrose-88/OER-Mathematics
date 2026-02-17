@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch2-relative-frequency" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Create Relative Frequency Distributions</title>
+<introduction>
+  <p>An important concept related to frequency is <term>relative frequency</term>, and it is a foundational concept for several key topics in this course. We will use relative frequencies when discussing cumulative frequencies (discussed below), creating histograms, studying probability and probability distributions, and using statistical inference to discuss population proportions. By connecting data analysis to probability theory and statistical inference, relative frequency serves as a bridge between descriptive and inferential methods in a statistics course.</p>
+</introduction>
+  <subsection xml:id="stats-ch2-relative-frequency-distributions">
+    <title>Relative Frequency Distributions</title>
+
+    <definition xml:id="stats-ch2-def-relative-frequency">
+      <title>What is Relative Frequency?</title>
+      <statement>
+        <p><term>Relative frequency</term> has two interpretations.
+        <ul>
+          <li>For <em>raw data</em>, relative frequency is the percentage of times that a particular value appears in a data set.</li>
+          <li>For <em>data sorted into classes</em>, relative frequency is the percentage of data that appear in a given class.</li>
+        </ul>
+        </p>
+        <p>In both cases, the formula for relative frequency is identical:
+        <me>\text{relative frequency}=\dfrac{\text{frequency}}{n}</me>
+        Here, <m>n</m> is the number of data points in the sample.</p>
+        <p>Notice that this will always give a percentage as a decimal, so we will always write <m>0.3947</m> instead of <m>39.47</m>% in this course. Using percentages instead of decimals can cause errors in many of the formulas because most statistical formulas use relative frequencies rather than percentages to ensure accurate calculations.</p>
+      </statement>
+    </definition>
+    
+        <note>
+          <title>Warning</title>
+          <p>Relative frequencies will always yield a number between 0 and 1. If you get a number larger than 1 or a negative number, double check your work because you made a calculation error.</p>
+        </note>
+
+    <definition xml:id="stats-ch2-def-relative-frequency-distribution">
+      <title>What is a Relative Frequency Distribution?</title>
+      <statement>
+        <p>A <term>relative frequency distribution</term> is a table that lists either the raw data or classes in the first column and the corresponding relative frequencies in the second column.</p>
+      </statement>
+    </definition>
+
+    <definition xml:id="stats-ch2-def-compute-relative-frequency">
+      <title>How Do I Compute a Relative Frequency?</title>
+      <statement>
+        <p>Let's consider our Frequency Distribution from Example 4 in <xref ref="stats-ch2-frequency-distribution">How to Create Frequency Distributions</xref>:</p>
+        <figure>
+          <caption>Frequency Distribution with the extra class removed.</caption>
+          <image source="statistics/frequencydistribution_example4a.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>To determine the number of data points, we first choose a class, such as the interval 0 to 9, and note its frequency, which is 64. The relative frequency is found by dividing the class frequency by the total number of years, 74, as follows:</p>
+        <p><me>\dfrac{64}{74}\approx 0.8649</me></p>
+        <p>Thus, <m>0.8649</m> is the relative frequency for 0 to 10, meaning 86.49% of the years from 1950 to 2023 had 0 to 10 deaths (excluding 10). Note we will always round relative frequency to four decimal places, which is a standard practice in statistics.</p>
+      </statement>
+    </definition>
+
+    <p>While it is essential to know how to compute a relative frequency, performing multiple manual calculations to create a relative frequency distribution increases the risk of calculation errors. In our next example, we will see how to use our Frequency Distribution Tool to create a relative frequency distribution.</p>
+
+    <example xml:id="stats-ch2-relative-frequency-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>According to <url href="https://seer.cancer.gov/statistics-network/">National Institutes of Health Cancer Statistics</url>, the rate at which men get Colon-Rectal cancer each year (per 100,000 men, rounded to one decimal place) from 2000 to 2021 is given in the table below. Find the relative frequency distribution for this data if we use a lower class boundary of 35 and a class width of 5.</p>
+        <table>
+          <title>Colon-Rectal Cancer Diagnosis Rates (Per 100,000 Men)</title>
+          <tabular>
+            <row header="yes">
+              <cell>Year</cell>
+              <cell>Rate</cell>
+              <cell>Year</cell>
+              <cell>Rate</cell>
+            </row>
+            <row>
+              <cell>2000</cell>
+              <cell>70.8</cell>
+              <cell>2011</cell>
+              <cell>49.5</cell>
+            </row>
+            <row>
+              <cell>2001</cell>
+              <cell>69.6</cell>
+              <cell>2012</cell>
+              <cell>48.0</cell>
+            </row>
+            <row>
+              <cell>2002</cell>
+              <cell>68.3</cell>
+              <cell>2013</cell>
+              <cell>46.9</cell>
+            </row>
+            <row>
+              <cell>2003</cell>
+              <cell>66.3</cell>
+              <cell>2014</cell>
+              <cell>46.7</cell>
+            </row>
+            <row>
+              <cell>2004</cell>
+              <cell>64.0</cell>
+              <cell>2015</cell>
+              <cell>45.5</cell>
+            </row>
+            <row>
+              <cell>2005</cell>
+              <cell>61.9</cell>
+              <cell>2016</cell>
+              <cell>44.5</cell>
+            </row>
+            <row>
+              <cell>2006</cell>
+              <cell>59.1</cell>
+              <cell>2017</cell>
+              <cell>43.5</cell>
+            </row>
+            <row>
+              <cell>2007</cell>
+              <cell>58.1</cell>
+              <cell>2018</cell>
+              <cell>42.9</cell>
+            </row>
+            <row>
+              <cell>2008</cell>
+              <cell>56.2</cell>
+              <cell>2019</cell>
+              <cell>42.7</cell>
+            </row>
+            <row>
+              <cell>2009</cell>
+              <cell>53.1</cell>
+              <cell>2020</cell>
+              <cell>37.2</cell>
+            </row>
+            <row>
+              <cell>2010</cell>
+              <cell>51.0</cell>
+              <cell>2021</cell>
+              <cell>40.8</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+
+      <solution>
+        <p>Load your data into GeoGebra (see Example 1 of <xref ref="stats-ch2-frequency-distribution">How to Create Frequency Distributions</xref> if you need a refresher). Make sure to select column B since the rates are in that column. Since our data is in decimals, this is a good time to choose our lower boundary manually, which is why I gave it to you in the problem. Enter 35 for the lower class boundary and 5 for the class width. Also, make sure the Deselect if Last Row Equals 0 checkbox is checked since our classes only go from 35 up to 70 and our largest data point is 70.8. If you have everything set correctly, your Frequency Distribution Tool should look like this.</p>
+        <figure>
+          <caption>The Frequency Distribution Tool with column B selected, lower boundary of 35, and a class width of 5.</caption>
+          <image source="statistics/relativefrequencydistribution_example1.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Now that we have this set up correctly, all we have to do is check the Relative Frequencies checkbox to convert all the frequencies to relative frequencies. The Frequency Distribution Tool will automatically update the table.</p>
+        <figure>
+          <caption>The relative frequencies checkbox has been marked, converting the last column to relative frequencies.</caption>
+          <image source="statistics/relativefrequencydistribution_example1b.png" width="80%" decorative="yes"/>
+        </figure>
+          <p>The class bin 45-49 has a relative frequency of 0.2773, meaning 27.73% of the years from 2000 to 2021 had 45-49 men per 100,000 diagnosed with Colon-Rectal Cancer.</p>
+      </solution>
+    </example>
+
+    <p>There are two important options for Relative Frequency Distributions you should be aware of.</p>
+
+    <definition xml:id="stats-ch2-def-relative-frequency-options">
+      <title>Relative Frequency Distribution Options</title>
+      <statement>
+          <p>If you click on the Display as Percentages checkbox, it will convert the relative frequencies to percentages.</p>
+          <figure>
+            <caption>The relative frequency distribution from Example 1 with percentages instead of relative frequencies.</caption>
+            <image source="statistics/relativefrequencydistribution_options1.png" width="80%" decorative="yes"/>
+          </figure>
+          <p>If you click on the Show Relative and Non-Relative checkbox, a third column will be added showing the original frequencies so you can have the frequency and relative frequency data side-by-side.</p>
+          <figure>
+            <caption>A third column containing the raw frequencies was added to the relative frequency distribution.</caption>
+            <image source="statistics/relativefrequencydistribution_options2.png" width="80%" decorative="yes"/>
+          </figure>
+          <p>You can also select both options at once to compare percentages to frequencies.</p>
+          <figure>
+            <caption>Both options are checked, allowed comparisons of percentages and raw frequencies.</caption>
+            <image source="statistics/relativefrequencydistribution_options3.png" width="80%" decorative="yes"/>
+          </figure>
+      </statement>
+    </definition>
+
+    <p>Even though the computer does most of the heavy lifting for us, it is still important to know how to perform the calculations by hand to make sure there are no errors in the data or output.</p>
+
+    <example xml:id="stats-ch2-relative-frequency-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>Consider the following frequency distribution for average August temperatures in Nashville, TN. (Source: <url href="https://www.wunderground.com">Weather UnderGround</url>) Find the relative frequency for the class 86 to 88.</p>
+        <table>
+          <title>Average August Temperature in Nashville, TN (1948-2024)</title>
+          <tabular>
+            <row header="yes">
+              <cell>Degrees Fahrenheit</cell>
+              <cell>Number of Years</cell>
+            </row>
+            <row>
+              <cell>80 to 82</cell>
+              <cell>2</cell>
+            </row>
+            <row>
+              <cell>83 to 85</cell>
+              <cell>14</cell>
+            </row>
+            <row>
+              <cell>86 to 88</cell>
+              <cell>33</cell>
+            </row>
+            <row>
+              <cell>89 to 91</cell>
+              <cell>22</cell>
+            </row>
+            <row>
+              <cell>92 to 94</cell>
+              <cell>5</cell>
+            </row>
+            <row>
+              <cell>95 to 97</cell>
+              <cell>1</cell>
+            </row>
+            <row>
+              <cell>Total</cell>
+              <cell>77</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <p>Since 33 of the 77 years had an average temperature of <m>86^\circ</m>F to <m>88^\circ</m>F, the relative frequency is</p>
+        <p><me>\dfrac{33}{77}\approx 0.4286</me></p>
+          <p>In Nashville, TN, 42.86% of the years between 1948 and 2024 experienced an average August temperature ranging from <m>86^\circ</m>F up to but not including <m>89^\circ</m>F.</p>
+      </solution>
+    </example>
+  </subsection>
+</section>

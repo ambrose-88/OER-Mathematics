@@ -2,4 +2,570 @@
 
 <worksheet xml:id="appendix-statistics-chapter-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Chapter 1 Lecture Notes</title>
+
+  <definition xml:id="stats-app-ch1-data-definition">
+    <title>Data</title>
+    <statement>
+      <p><term>Data</term> is any collection of observations, counts, measurements, or survey responses.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-examples-of-data">
+    <title>Examples of Data</title>
+    <statement>
+      <p>Data can include numerical measurements, categorical information, survey responses, and observational records.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-statistics-definition">
+    <title>Statistics</title>
+    <statement>
+      <p><term>Statistics</term> is the science of collecting, organizing, analyzing, and interpreting data from a sample to draw conclusions about a population.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-course-structure">
+    <title>Course Structure Overview</title>
+    <statement>
+      <p>The course is structured as follows:</p>
+      <ul>
+        <li><em>Chapter 1:</em> Introduces the best ways to collect data and ensures it represents the real world.</li>
+        <li><em>Chapters 2 and 3:</em> Focus on organizing and analyzing data.</li>
+        <li><em>Chapters 4–6:</em> Cover probability and probability distributions, which are essential for understanding inferences made in Chapters 7–10. These chapters are the most theoretical and challenging but provide the necessary foundation.</li>
+        <li><em>Chapters 7–10:</em> Teach how to interpret data from a sample to draw conclusions about a population.</li>
+      </ul>
+      <p>Statistics is a process you'll learn throughout the semester—it's not something mastered in a day.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-population-definition">
+    <title>Population</title>
+    <statement>
+      <p>A <term>population</term> is the complete collection of all individuals to be studied.</p>
+      <p>Individuals often refer to people, but not always. For example, individuals can also refer to animals, plants, objects, or any entities of interest.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-census-definition">
+    <title>Census</title>
+    <statement>
+      <p>A <term>census</term> collects data from every member of a population.</p>
+      <p>Examples include the U.S. Census, surveys of all employees at a company, or studies examining every item in a production batch.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-sample-definition">
+    <title>Sample</title>
+    <statement>
+      <p>A <term>sample</term> is a subset of members selected from a population.</p>
+      <p>Examples include polling a subset of voters, surveying students from selected schools, or testing a portion of a product batch.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-pop-sample-example-1" workspace="1in">
+    <title>Example 1</title>
+    <statement>
+      <p>Determine the population and sample for the given situation: A Gallup poll is given to a sample of eligible voters, and there are 2.3 million responses.</p>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch1-pop-sample-example-2" workspace="2in">
+    <title>Example 2</title>
+    <statement>
+      <p>Determine whether the following data is from a population or a sample:</p>
+      <ul>
+        <li><em>Part A:</em> The age of every fourth person entering a grocery store.</li>
+        <li><em>Part B:</em> The major for each student at a community college.</li>
+      </ul>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch1-pop-sample-example-3" workspace="1in">
+    <title>Example 3</title>
+    <statement>
+      <p>Identify the population and sample for this situation: A company surveys 850 of its employees and finds that 520 are satisfied with their job.</p>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch1-pop-sample-example-4">
+    <title>Example 4</title>
+    <statement>
+      <p>An ecologist wants to study the nesting habits of birds in a particular forest. They identify 1800 trees in the northwest region of the forest and randomly select 300 trees to observe. Of those, 120 trees contain nests.</p>
+      <ul>
+        <li><em>Part A:</em> What is the population the ecologist wants to study?</li>
+        <li><em>Part B:</em> What is the sample they obtained?</li>
+        <li><em>Part C:</em> About which population can the ecologist draw conclusions?</li>
+      </ul>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-parameter-definition">
+    <title>Parameter</title>
+    <statement>
+      <p>A <term>parameter</term> is a numerical measurement describing some characteristic of a population. It is often theoretical and unknown.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-statistic-definition">
+    <title>Statistic</title>
+    <statement>
+      <p>A <term>statistic</term> is a number calculated from and describing some characteristic of a sample. Statistics are used to estimate unknown parameters.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-param-vs-stat">
+    <title>How to Tell the Difference Between a Parameter and a Statistic</title>
+    <statement>
+      <p>
+        <ul>
+          <li><term>Parameter</term> refers to a <term>population</term> (both start with "p").</li>
+          <li><term>Statistic</term> refers to a <term>sample</term> (both start with "s").</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-param-stat-example-1" workspace="1in">
+    <title>Example 1</title>
+    <statement>
+      <p>For each scenario below, tell if each bolded value is a parameter or a statistic. If the value is a statistic, explain what could be changed about the scenario to make the bolded value a parameter:</p>
+      <ul>
+        <li><em>Part A:</em> A study of all 2223 passengers aboard the Titanic found that <m>\mathbf{706}</m> survived when it sank.</li>
+        <li><em>Part B:</em> In a large sample of households, the median annual income per household for high school graduates is <m>\mathbf{\$19,856}</m> (based on data from the U.S. Census Bureau).</li>
+        <li><em>Part C:</em> Among the Senators in the current Congress, <m>\mathbf{45\%}</m> are Democrats.</li>
+        <li><em>Part D:</em> The author measured the voltage supplied to his home on 40 different days, and the average (mean) value is <m>\mathbf{123.7}</m> volts.</li>
+      </ul>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch1-param-stat-example-2" workspace="2in">
+    <title>Example 2</title>
+    <statement>
+      <p>Determine if the boldface number is a parameter or a statistic: In 2022, the average math score for a female student who took the ACT that year was <m>\mathbf{19.7}</m>.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-qualitative-data">
+    <title>Qualitative Data</title>
+    <statement>
+      <p>Qualitative data (or categorical data) categorizes or describes attributes of a population, often using words or letters but can include labels that are numerical.</p>
+      <p>Examples include gender, ethnicity, color, brand names, and categories.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-quantitative-data">
+    <title>Quantitative Data</title>
+    <statement>
+      <p>Quantitative data represents numerical values obtained by counting or measuring attributes.</p>
+      <p>Examples include height, weight, temperature, number of students, and salary.</p>
+      <p>Quantitative data is further divided into two subcategories:</p>
+      <ul>
+        <li><em>Discrete Data:</em> Occurs when the possible values are finite or countable (e.g., 0 calls, 1 call, 2 calls, etc.). Examples include number of children, number of cars owned, and count of defective items.</li>
+        <li><em>Continuous Data:</em> Consists of infinitely many possible values along a continuous scale with no gaps, interruptions, or jumps (e.g., weight, time, or distance). Examples include height: 5'8.1", 5'8 3/16", etc.; weight; and temperature.</li>
+      </ul>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-data-types-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>For each of the following, determine whether the data is quantitative or qualitative. If it is quantitative, specify whether it is discrete or continuous:</p>
+      <ul>
+        <li><em>Part A:</em> The number of pairs of shoes you own</li>
+        <li><em>Part B:</em> The type of car you drive</li>
+        <li><em>Part C:</em> The distance from your home to the nearest grocery store</li>
+        <li><em>Part D:</em> The number of classes you take per school year</li>
+        <li><em>Part E:</em> The type of calculator you use</li>
+        <li><em>Part F:</em> Weights of dogs at an animal shelter</li>
+        <li><em>Part G:</em> The number of correct answers on a quiz</li>
+        <li><em>Part H:</em> The amount of money you spend at the local Quickmart</li>
+      </ul>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch1-data-types-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>Consider the following information and table, then answer the questions below.</p>
+      <ul>
+        <li><em>Part A:</em> Which information is categorical data?</li>
+        <li><em>Part B:</em> Which information is quantitative data?</li>
+      </ul>
+      <table xml:id="stats-app-ch1-vehicle-data-table">
+        <title>Selected Vehicle Data</title>
+        <tabular>
+          <row header="yes">
+            <cell>Make/Model</cell>
+            <cell>Class</cell>
+            <cell>Transmission</cell>
+            <cell>Cylinders</cell>
+            <cell>City MPG</cell>
+            <cell>Highway MPG</cell>
+            <cell>Annual Fuel Cost</cell>
+          </row>
+          <row>
+            <cell>Chevrolet Corvette</cell>
+            <cell>Two-Seater</cell>
+            <cell>Manual</cell>
+            <cell>8</cell>
+            <cell>17</cell>
+            <cell>29</cell>
+            <cell>$2,650</cell>
+          </row>
+          <row>
+            <cell>Nissan Cube</cell>
+            <cell>Station Wagon</cell>
+            <cell>Manual</cell>
+            <cell>4</cell>
+            <cell>25</cell>
+            <cell>30</cell>
+            <cell>$1,850</cell>
+          </row>
+          <row>
+            <cell>Ford Fusion</cell>
+            <cell>Midsize</cell>
+            <cell>Automatic</cell>
+            <cell>4</cell>
+            <cell>23</cell>
+            <cell>36</cell>
+            <cell>$1,800</cell>
+          </row>
+          <row bottom="major">
+            <cell>Chevrolet Impala</cell>
+            <cell>Large</cell>
+            <cell>Automatic</cell>
+            <cell>6</cell>
+            <cell>18</cell>
+            <cell>28</cell>
+            <cell>$2,400</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch1-data-types-example-3">
+    <title>Example 3: Type of Data from an Image</title>
+    <statement>
+      <p>The registrar at State University keeps records of the number of credit hours students complete each semester. The data collected are summarized in the histogram. The class boundaries are 10 to less than 13, 13 to less than 16, 16 to less than 19, 19 to less than 22, and 22 to less than 25.</p>
+      <figure xml:id="stats-app-ch1-student-credit-hours-fig">
+        <caption>Histogram with intervals 10-13, 13-16, 16-19, 19-22, 22-25; bar heights: 250, 580, 740, 625, 240.</caption>
+        <image source="statistics/StudentCreditHours.jpg"/>
+      </figure>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-nominal-level">
+    <title>Nominal Level</title>
+    <statement>
+      <p>Data at the <term>nominal level</term> are categorized without any order. Examples include gender, eye color, and types of fruits.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-ordinal-level">
+    <title>Ordinal Level</title>
+    <statement>
+      <p>Data at the <term>ordinal level</term> are categorized with a meaningful order, but differences between categories are not measurable. Examples include rankings in a competition or survey responses such as "satisfied," "neutral," or "dissatisfied."</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-interval-level">
+    <title>Interval Level</title>
+    <statement>
+      <p>Data at the <term>interval level</term> have meaningful order and measurable differences, but no true zero point. Examples include temperature in Celsius or years on a calendar.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-ratio-level">
+    <title>Ratio Level</title>
+    <statement>
+      <p>Data at the <term>ratio level</term> have meaningful order, measurable differences, and a true zero point, allowing for meaningful ratios. Examples include weight, height, or age.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-measurement-level-example">
+    <title>Example: Levels of Measurement</title>
+    <statement>
+      <p>Classify the following scenarios by their level of measurement:</p>
+      <ul>
+        <li><em>Part A:</em> Types of cars (e.g., SUV, sedan, truck).</li>
+        <li><em>Part B:</em> The ranking of runners in a race.</li>
+        <li><em>Part C:</em> Temperature readings in Fahrenheit.</li>
+        <li><em>Part D:</em> The time it takes for participants to complete a task, measured in seconds.</li>
+      </ul>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-observational-study">
+    <title>Observational Study</title>
+    <statement>
+      <p>In an <term>observational study</term>, a researcher observes and measures characteristics but does not change any existing conditions.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-experiment-definition">
+    <title>Experiment and Treatment</title>
+    <statement>
+      <p>In an <term>experiment</term>, a researcher imposes a change in some preexisting condition, called a <term>treatment</term>, onto a sample of a population and measures their response to that change.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-control-group">
+    <title>Control Group</title>
+    <statement>
+      <p>A <term>control group</term> is a sample that receives no treatment and is used as a baseline to compare other samples to.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-obs-exp-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>Determine whether the study is observational or an experiment. Explain your reasoning.</p>
+      <ul>
+        <li><em>Part A:</em> In a survey of 1033 US adults, 51% of respondents said that US presidents should release all medical information that might affect their ability to serve.</li>
+        <li><em>Part B:</em> Researchers demonstrated that adults using an intensive program to lower systolic blood pressure to less than 120 millimeters of mercury reduce the risk of death from all causes by 27%.</li>
+      </ul>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-replication">
+    <title>Replication</title>
+    <statement>
+      <p><term>Replication:</term> Assign enough individuals to each treatment to reduce the variation in the results. This ensures that similar experiments conducted under the same conditions will yield similar results.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-randomization">
+    <title>Randomization</title>
+    <statement>
+      <p><term>Randomization:</term> Select subjects randomly so that variations in results occur purely by chance, not external factors.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-study-design-example-2" workspace="1in">
+    <title>Example 2</title>
+    <statement>
+      <p>In statistics, it is often said that a single data study doesn't prove a result. Explain why this is true.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-blinding">
+    <title>Blinding</title>
+    <statement>
+      <p><term>Blinding</term> ensures that subjects do not know whether they are receiving a placebo or an actual treatment. This reduces the risk of bias caused by participants' expectations influencing the results.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-single-blind">
+    <title>Single-Blind Experiment</title>
+    <statement>
+      <p>In a <term>single-blind experiment</term>, the participants do not know whether they are receiving the treatment or a placebo, but the researchers administering the treatment do know.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-double-blind">
+    <title>Double-Blind Experiment</title>
+    <statement>
+      <p>In a <term>double-blind experiment</term>, neither the participants nor the researchers administering the treatment know who is receiving the treatment or the placebo.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-blinding-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>An experiment that claimed to show that meditation reduces anxiety proceeded as follows:</p>
+      <p>The experimenter interviewed the subjects and rated their level of anxiety. Then the subjects were randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply told to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety levels. The meditation group now had less anxiety.</p>
+      <p>Psychologists said that the results were suspect because the ratings were not blind. Explain what this means and show how the lack of blindness could introduce bias into the reported results.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-response-bias">
+    <title>Response Bias</title>
+    <statement>
+      <p>Response bias occurs when the behavior of the respondent or the interviewer influences the response that the respondent gives. This can result in inaccurate or misleading data that does not accurately represent the population being studied.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-wording-effects">
+    <title>Wording Effects</title>
+    <statement>
+      <p>Wording effects occur when the phrasing, choice of words, or order in which questions are asked affects the responses collected. Even slight changes in how a question is framed can result in significantly different answers, which can introduce bias into the data.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-nonresponse">
+    <title>Nonresponse</title>
+    <statement>
+      <p>Nonresponse occurs when a respondent refuses to participate or cannot be reached. This results in missing data and can skew the results if the nonrespondents differ systematically from those who do respond.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-bias-example-4">
+    <title>Example 4</title>
+    <statement>
+      <p>An opinion poll calls 2000 randomly chosen households and asks an adult member of the household, "How many movies have you watched in a movie theater in the last 12 months?" Only 831 people responded.</p>
+      <ul>
+        <li>What is the rate of nonresponse?</li>
+        <li>Why do you think the nonresponse rate was so high?</li>
+      </ul>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-simple-random-sampling">
+    <title>Simple Random Sampling</title>
+    <statement>
+      <p>In <term>simple random sampling</term>, every individual in the population has an equal chance of being selected, ensuring that all samples of the same size are equally likely.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-stratified-sampling">
+    <title>Stratified Sampling</title>
+    <statement>
+      <p>In <term>stratified sampling</term>, divide the population into groups (strata) and take a proportionate random sample from each group. For instance, sample students from various departments to represent a college population.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-cluster-sampling">
+    <title>Cluster Sampling</title>
+    <statement>
+      <p>In <term>cluster sampling</term>, divide the population into clusters, then randomly select some clusters and include all members from those clusters in the sample. For example, randomly select departments in a college and survey all their students.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-systematic-sampling">
+    <title>Systematic Sampling</title>
+    <statement>
+      <p>In <term>systematic sampling</term>, randomly select a starting point and pick every nth member from a population list. For example, choose every 50th name in a phone book for a survey.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-convenience-sampling">
+    <title>Convenience Sampling</title>
+    <statement>
+      <p>In <term>convenience sampling</term>, individuals are chosen based on accessibility and ease rather than randomness. For example, surveying the first 20 people entering a grocery store about their shopping habits.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-sampling-techniques-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>A study intends to determine the average tuition paid by Tennessee Technological University undergraduate students per semester. Identify the sampling method used in each scenario:</p>
+      <ul>
+        <li><em>Part A:</em> Organize students by year (e.g., first-year, sophomore), then select 25 from each.</li>
+        <li><em>Part B:</em> Use a random number generator to select one student, then pick every 50th student until 75 students are included.</li>
+        <li><em>Part C:</em> Select 75 students completely at random, with equal probability for all.</li>
+        <li><em>Part D:</em> Randomly pick two years (e.g., first-year and senior), and survey all students in those years.</li>
+        <li><em>Part E:</em> Survey the first 100 students encountered in front of the library on a specific day.</li>
+      </ul>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-random-sampling-error">
+    <title>Random Sampling Error</title>
+    <statement>
+      <p>A <term>random sampling error</term> occurs when there is a discrepancy between a sample result and the true population result. This type of error arises purely due to chance, as a sample is only a subset of the population and may not perfectly represent it. For example, if a random sample of 50 students is drawn from a school of 1,000, the sample mean test score might differ slightly from the population mean simply by chance.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-nonrandom-sampling-error">
+    <title>Nonrandom Sampling Error</title>
+    <statement>
+      <p>There are three important types of nonrandom sampling errors: <term>undercoverage</term>, <term>nonresponse</term>, and <term>volunteer response</term>.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-undercoverage">
+    <title>Undercoverage</title>
+    <statement>
+      <p>Undercoverage occurs when some groups in the population are systematically excluded from the sampling process, making the sample unrepresentative of the entire population.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-volunteer-response">
+    <title>Volunteer Response Bias</title>
+    <statement>
+      <p>Volunteer response occurs when participants self-select into the sample rather than being randomly chosen, often leading to an overrepresentation of individuals with strong opinions.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-sampling-errors-example-2" workspace="1in">
+    <title>Example 2</title>
+    <statement>
+      <p>A university is conducting a study to understand student preferences for campus dining options. The following scenarios describe how data was collected. Identify the type of nonrandom sampling error for each part and explain your reasoning.</p>
+      <ul>
+        <li><em>Part A:</em> The university posts a survey link on its social media pages and encourages students to share their opinions. Most responses come from students who are either very satisfied or very dissatisfied with campus dining options.</li>
+        <li><em>Part B:</em> The university randomly emails 1,000 students asking them to complete the survey. Only 250 students respond, and many of the responses are from students who frequently use campus dining services.</li>
+        <li><em>Part C:</em> The university conducts the survey at a single campus dining hall during lunchtime. Students who do not use the dining hall or eat lunch on campus are excluded from the sample.</li>
+      </ul>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-non-sampling-error">
+    <title>Non-sampling Error</title>
+    <statement>
+      <p>A <term>non-sampling error</term> is caused by human error or flaws in the data collection process. These errors can occur regardless of how the sample is chosen. Examples include mistyping data into a computer, misinterpreting survey questions, or using faulty measuring instruments.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch1-completely-randomized-design">
+    <title>Completely Randomized Design</title>
+    <statement>
+      <p>A <term>completely randomized design</term> assigns treatments to subjects entirely at random, without grouping or blocking. This design works well when the subjects are similar and there are no additional variables that need to be controlled.</p>
+      <p><em>Example:</em> A clinical trial randomly assigns participants to receive one of three medications to treat high blood pressure. Results are compared across all participants.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-exp-design-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>Many utility companies have introduced programs to encourage energy conservation among their customers. A particular company has three options:</p>
+      <ul>
+        <li>Place a small digital display in households to show current electricity usage.</li>
+        <li>Give customers a chart and information about monitoring their use from the outside meter.</li>
+        <li>Use a control group that receives general information about conserving energy but no tools to monitor their use.</li>
+      </ul>
+      <p>Design a flowchart that models this experiment.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-randomized-block-design">
+    <title>Randomized Block Design</title>
+    <statement>
+      <p>A <term>randomized block design</term> groups subjects into blocks based on shared characteristics or variables that may influence the results. Treatments are then randomly assigned within each block, and comparisons are made within the blocks.</p>
+      <p><em>Example:</em> In a weight loss study, participants are grouped into blocks by gender (e.g., male and female). Within each block, participants are randomly assigned to different diet plans, and results are compared separately for males and females.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-exp-design-example-2" workspace="3in">
+    <title>Example 2</title>
+    <statement>
+      <p>A cosmetics company wants to compare the effectiveness of two facial creams: Cream A, which claims to reduce wrinkles, and Cream B, which claims to improve skin hydration. The company recruits 40 participants and divides them into blocks based on skin type: oily, dry, combination, and sensitive. Each block contains 10 participants. Within each block, participants are randomly assigned to use either Cream A or Cream B for four weeks, and their skin condition is evaluated at the end of the study.</p>
+      <p>Design a diagram that models this experiment.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch1-matched-pairs-design">
+    <title>Matched Pairs Design</title>
+    <statement>
+      <p>A <term>matched pairs design</term> is a special case of the randomized block design where subjects are paired or matched in some way. This design is used to compare two treatments.</p>
+      <p><em>Version 1:</em> Pair two individuals based on shared characteristics. Randomly assign one individual in each pair to receive the first treatment, and the other to receive the second treatment. Compare results within each pair.</p>
+      <p><em>Example:</em> Two participants of similar age and fitness level are paired. One is assigned to a new exercise routine, and the other follows a standard routine. Their progress is compared after four weeks.</p>
+      <p><em>Version 2:</em> Use the same individual for both treatments. Assign one of the treatments to the individual at random, and once the experiment is concluded, apply the other treatment at a later time under similar conditions. Compare the results for that individual.</p>
+      <p><em>Example:</em> A participant tests two different types of running shoes by running a set distance with each pair on different days. Their times are compared to determine which shoe performs better.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch1-exp-design-example-3" workspace="3in">
+    <title>Example 3</title>
+    <statement>
+      <p>Researchers are studying the effect of two different dashboard layouts on driver reaction times during sudden stops. The two layouts are:</p>
+      <ul>
+        <li><em>Layout A:</em> A traditional dashboard with analog gauges.</li>
+        <li><em>Layout B:</em> A modern digital dashboard with heads-up display features.</li>
+      </ul>
+      <p>Each participant is randomly assigned to use one dashboard layout while completing a driving simulation. After a break, the same participants repeat the simulation with the other dashboard layout under similar conditions. Reaction times are measured during each simulation.</p>
+      <p>Describe and diagram a matched pairs experiment to determine if the modern dashboard increases safety.</p>
+    </statement>
+  </example>
+
 </worksheet>

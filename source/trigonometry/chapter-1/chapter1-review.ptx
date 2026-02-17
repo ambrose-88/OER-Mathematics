@@ -1,4 +1,4 @@
-<section xml:id="sec-chapter1-review">
+<worksheet xml:id="sec-chapter1-review">
     <title>Exam 1 Review</title>
     <example>
         <title>Computing an Angle in Radians</title>
@@ -404,4 +404,4 @@
             </figure>
         </answer>
     </example>
-</section>
+</worksheet>

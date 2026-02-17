@@ -151,11 +151,27 @@
         <p>
           The <term>mode</term> of a dataset is the value(s) that occur locally with highest frequency.
         </p>
+        <p>When discussing the shape of histograms, we use the following classifications:</p>
         <p>
           <ul>
-            <li>Unimodal distributions have one peak.</li>
-            <li>Multimodal distributions have multiple peaks.</li>
-            <li>Uniform distributions have no distinct peak.</li>
+            <li><p>A <term>unimodal</term> distribution has one peak.</p>
+            <figure xml:id="appendix-statistics-ch3-unimodal-fig">
+              <caption>Example of a unimodal distribution with a peak in the center.</caption>
+              <image source="statistics/normal2.png"/>
+            </figure>
+            </li>
+            <li><p>A <term>multimodal</term> distribution has multiple peaks.</p>
+            <figure xml:id="appendix-statistics-ch3-multimodal-fig">
+              <caption>A bimodal distribution with its two peaks labeled.</caption>
+              <image source="statistics/bimodal2.png"/>
+            </figure>
+            </li>
+            <li><p>A <term>uniform</term> distribution has no distinct peak.</p>
+            <figure xml:id="appendix-statistics-ch3-uniform-fig">
+              <caption>A uniform distribution has bars that are all approximately the same height.</caption>
+              <image source="statistics/uniform2.png"/>
+            </figure>
+            </li>
           </ul>
         </p>
       </statement>
@@ -243,9 +259,21 @@
     <definition xml:id="appendix-statistics-ch3-unimodal-center-relationships">
       <title>The Mean, Median, and Mode in Unimodal Distributions</title>
       <statement>
-        <p><em>Normal:</em> <m>\text{mean}=\text{median}=\text{mode}</m>.</p>
-        <p><em>Skew-right:</em> <m>\text{mode}&lt;\text{median}&lt;\text{mean}</m>.</p>
-        <p><em>Skew-left:</em> <m>\text{mean}&lt;\text{median}&lt;\text{mode}</m>.</p>
+        <p><em>Normal Distribution:</em> <m>\text{mean}=\text{median}=\text{mode}</m>.</p>
+        <figure xml:id="appendix-statistics-ch3-normal-dist-fig">
+          <caption>In a normal distribution, the mean, median, and mode are equal and located at the peak.</caption>
+          <image source="statistics/normal.png"/>
+        </figure>
+        <p><em>Skew-right Distribution:</em> <m>\text{mode}&lt;\text{median}&lt;\text{mean}</m>.</p>
+        <figure xml:id="appendix-statistics-ch3-skew-right-fig">
+          <caption>A skew-right distribution pulls the mean and median to the right, away from the mode. The mean is pulled farther than the median.</caption>
+          <image source="statistics/skewright.png"/>
+        </figure>
+        <p><em>Skew-left Distribution:</em> <m>\text{mean}&lt;\text{median}&lt;\text{mode}</m>.</p>
+        <figure xml:id="appendix-statistics-ch3-skew-left-fig">
+          <caption>A skew-left distribution pulls the mean and median to the left, away from the mode. The mean is pulled farther than the median.</caption>
+          <image source="statistics/skewleft.png"/>
+        </figure>
       </statement>
     </definition>
 
@@ -459,6 +487,18 @@
       <title>Why does sample variance use <m>n-1</m>?</title>
       <statement>
         <p>This is related to <term>degrees of freedom</term>.</p>
+        <figure xml:id="stats-ch3-variance-fig-1">
+          <caption>Stacks of 1, 2, 4, 2, 3, and 5 dots, respectively.</caption>
+          <image source="statistics/variance1.png"/>
+        </figure>
+        <figure xml:id="stats-ch3-variance-fig-2">
+          <caption>One stack is still height 2 after arranging all the dots into even stacks of 3.</caption>
+          <image source="statistics/variance2.png"/>
+        </figure>
+        <figure xml:id="stats-ch3-variance-fig-3">
+          <caption>The original stacks with a stack of four dots adding as the seventh stack.</caption>
+          <image source="statistics/variance3.png"/>
+        </figure>
       </statement>
     </definition>
 
@@ -709,6 +749,10 @@
         <p>General structure: <m>z=\dfrac{\text{data}-\text{mean}}{\text{standard deviation}}</m></p>
         <p><em>Population:</em> <m>z=\dfrac{x-\mu}{\sigma}</m></p>
         <p><em>Sample:</em> <m>z=\dfrac{x-\overline{x}}{s}</m></p>
+        <figure xml:id="stats-ch3-zscore-fig-1">
+          <caption>Normal distribution with heights and z-scores labeled on the x-axis.</caption>
+          <image source="statistics/recreated_zscores.png"/>
+        </figure>
       </statement>
     </definition>
 
@@ -722,6 +766,10 @@
             <li>Absolute <m>z</m>-score measures extremeness.</li>
           </ul>
         </p>
+        <figure xml:id="stats-ch3-zscore-fig-2">
+          <caption>Two normal distributions, one with data on the x-axis, one with z-scores on the x-axis.</caption>
+          <image source="statistics/zscores2.png"/>
+        </figure>
       </statement>
     </definition>
 
@@ -943,9 +991,24 @@
       <statement>
         <p>
           <ul>
-            <li>Approximately normal: median centered and whiskers similar length.</li>
-            <li>Left skewed: median closer to <m>Q_3</m> or left whisker longer.</li>
-            <li>Right skewed: median closer to <m>Q_1</m> or right whisker longer.</li>
+            <li>Approximately normal: median centered and whiskers similar length.
+              <figure xml:id="stats-ch3-boxplot-fig-normal">
+                <caption>A boxplot of a normal distribution for free throw percentages.</caption>
+                <image source="statistics/normalbox.png"/>
+              </figure>
+            </li>
+            <li>Left skewed: median closer to <m>Q_3</m> or left whisker longer.
+              <figure xml:id="stats-ch3-boxplot-fig-leftskew">
+                <caption>Skew-left boxplot on the number of hours of sleep a new parent gets.</caption>
+                <image source="statistics/leftbox.png"/>
+              </figure>
+            </li>
+            <li>Right skewed: median closer to <m>Q_1</m> or right whisker longer.
+              <figure xml:id="stats-ch3-boxplot-fig-rightskew">
+                <caption>A strong skew-right boxplot for student loan payments.</caption>
+                <image source="statistics/rightbox.png"/>
+              </figure>
+            </li>
           </ul>
         </p>
       </statement>
@@ -971,11 +1034,11 @@
         <table xml:id="appendix-statistics-ch3b-boxplot-table-sprints">
           <title>100m Sprint Times: High School vs. Olympic Athletes</title>
           <tabular>
-            <row header="yes"><cell colspan="5">High School (s)</cell><cell colspan="5">Olympic (s)</cell></row>
-            <row><cell>10.55</cell><cell>10.60</cell><cell>10.65</cell><cell>10.72</cell><cell>10.78</cell><cell>9.58</cell><cell>9.69</cell><cell>9.72</cell><cell>9.76</cell><cell>9.81</cell></row>
-            <row><cell>10.82</cell><cell>10.85</cell><cell>10.89</cell><cell>10.94</cell><cell>10.98</cell><cell>9.85</cell><cell>9.88</cell><cell>9.91</cell><cell>9.93</cell><cell>9.95</cell></row>
-            <row><cell>11.02</cell><cell>11.07</cell><cell>11.10</cell><cell>11.14</cell><cell>11.18</cell><cell>9.98</cell><cell>10.01</cell><cell>10.03</cell><cell>10.05</cell><cell>10.08</cell></row>
-            <row bottom="major"><cell>11.21</cell><cell>11.25</cell><cell>11.29</cell><cell>11.35</cell><cell>11.40</cell><cell>10.12</cell><cell>10.15</cell><cell>10.19</cell><cell>10.22</cell><cell>10.25</cell></row>
+            <row header="yes"><cell colspan="5">High School (s)</cell><cell colspan="5" left="major">Olympic (s)</cell></row>
+            <row><cell>10.55</cell><cell>10.60</cell><cell>10.65</cell><cell>10.72</cell><cell>10.78</cell><cell left="major">9.58</cell><cell>9.69</cell><cell>9.72</cell><cell>9.76</cell><cell>9.81</cell></row>
+            <row><cell>10.82</cell><cell>10.85</cell><cell>10.89</cell><cell>10.94</cell><cell>10.98</cell><cell left="major">9.85</cell><cell>9.88</cell><cell>9.91</cell><cell>9.93</cell><cell>9.95</cell></row>
+            <row><cell>11.02</cell><cell>11.07</cell><cell>11.10</cell><cell>11.14</cell><cell>11.18</cell><cell left="major">9.98</cell><cell>10.01</cell><cell>10.03</cell><cell>10.05</cell><cell>10.08</cell></row>
+            <row bottom="major"><cell>11.21</cell><cell>11.25</cell><cell>11.29</cell><cell>11.35</cell><cell>11.40</cell><cell left="major">10.12</cell><cell>10.15</cell><cell>10.19</cell><cell>10.22</cell><cell>10.25</cell></row>
           </tabular>
         </table>
       </statement>

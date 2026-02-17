@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch2-frequency-histograms" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Create Frequency Histograms</title>
+<introduction>
+  <p>In the previous section, we used tables to summarize the frequency of data points within specific classes. However, humans are naturally drawn to visual representations, which are often more effective than scanning a table of numbers that might seem meaningless. In this section, we will learn how to visualize frequency distributions using frequency histograms. Histograms play a crucial role later in this course, as they help connect the concepts of probability and the area under a curve. Therefore, it is essential to understand how to construct and interpret histograms now.</p>
+</introduction>
+  <subsection xml:id="stats-ch2-frequency-histograms-basics">
+    <title>Frequency Histograms</title>
+
+    <definition xml:id="stats-ch2-def-frequency-histogram">
+      <title>What is a Frequency Histogram?</title>
+      <statement>
+        <p>A <term>frequency histogram</term> is a type of bar graph used to visualize the frequency distribution of data. Below are its key features:
+        <ul>
+          <li>The <m>x</m>-axis represents the data values, with tick marks indicating the class boundaries of the frequency distribution.</li>
+          <li>The <m>y</m>-axis represents the frequencies of the classes. The scale always starts at 0, but the other tick marks are determined by the data and are used to scale the heights of the bars.</li>
+          <li>Each bar represents a class. The base of the bar spans the range of values for that class, while the height corresponds to the frequency of the class.</li>
+          <li>The bars of successive classes touch each other.</li>
+          <li>If any class has a frequency of <m>0</m>, no bar is drawn for that class.</li>
+        </ul>
+        </p>
+      </statement>
+    </definition>
+
+    <p>Traditionally, a student or researcher had to first build a frequency distribution and then construct the frequency histogram from the distribution. Modern statistical programs (and our GeoGebra tools) build the distribution in the background and just display the histogram. Our next example shows how to precisely do this.</p>
+
+    <example xml:id="stats-ch2-frequency-histogram-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>Using the data on Tornado deaths in Tennessee from Example 1 in <xref ref="stats-ch2-frequency-distribution">How to Create Frequency Distributions</xref>, create a Frequency Histogram that has 8 classes.</p>
+      </statement>
+      <solution>
+        <p>First, click on the Copy Data to Clipboard button and a popup should appear that indicates the copy was successful.</p>
+        <figure>
+          <caption>Copy Data to Clipboard button highlighted with a confirmation popup saying 'Dataset copied to clipboard' at the top.</caption>
+          <image source="statistics/frequencydistribution_example1_a.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Next, open the Histogram Generator Tool by clicking on <url href="https://www.geogebra.org/m/betpufbt">this link</url> or by going to the GeoGebra Tools module and clicking the link provided there. Once Frequency Distribution Tool is opened, click on the Spreadsheet tab.</p>
+        <figure>
+          <caption>GeoGebra interface showing the Spreadsheet tab highlighted with 'Click Here' annotation.</caption>
+          <image source="statistics/frequencydistribution_example1_b.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Click on the A1 Cell, and right click to open up the Context Menu.</p>
+        <figure>
+          <caption>Spreadsheet context menu with 'Paste' highlighted.</caption>
+          <image source="statistics/frequencydistribution_example1_c.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Select Paste from the Menu, and the data will copy into the spreadsheet. (This may take a moment to load. Please be patient.)</p>
+        <figure>
+          <caption>Spreadsheet view showing 'Year' and 'Direct Fatality' columns populated with data in GeoGebra Calculator Suite.</caption>
+          <image source="statistics/frequencydistribution_example1_d.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Notice that the data in which we are interested is in column B. Remember this. Click on the Spreadsheet tab to hide the data.</p>
+        <figure>
+          <caption>Arrow pointing to the Spreadsheet icon with text Click Here indicating where to click.</caption>
+          <image source="statistics/frequencyhistogram_example1a.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Notice that the tool is set by default to column A. If we click on the dropdown box and select column B, the smallest data point (in this case, 0) will load into the Lower Boundary textbox. Notice that, like the Frequency Distribution, the Add an Extra Class checkbox is clicked on by default.</p>
+        <figure>
+          <caption>Histogram Generator tool with column B selected and lower boundary set to 0.</caption>
+          <image source="statistics/frequencyhistogram_example1b.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>We need to specify either a class width or the number of classes. We saw in Example 4 in <xref ref="stats-ch2-frequency-distribution">How to Create Frequency Distributions</xref> that if we choose 8 classes, we get a class width of 10. So, let's enter in 8 for Class Width, and 10 will autofill in for the Number of Classes. Notice that the last class does not contain the maximum value of the data set; therefore, we can uncheck the Add an Extra Class checkbox. If you have everything set up correctly, the Histogram Generator Tool will look like this.</p>
+        <figure>
+          <caption>The histogram is generated with number of classes set to 8 and no extra class.</caption>
+          <image source="statistics/frequencyhistogram_example1c.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>Finally, use the textboxes to update at least the title and <m>x</m>-axis label so your reader knows what data your histogram describes. For my example, I will also update the <m>y</m>-axis label.</p>
+        <figure>
+          <caption>Title, x-axis, and y-axis of histograms have custom labels.</caption>
+          <image source="statistics/frequencyhistogram_example1d.png" width="80%" decorative="yes"/>
+        </figure>
+          <p>The base of the bars indicate which class they belong to. For example, the base of the second bar starts at 10 and ends at 20. This represents the class 10 to 19 in the frequency distribution. The height of the bar gives the frequency, but it is not always easy to read an exact number from the graph.</p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="stats-ch2-relative-frequency-histograms">
+    <title>Relative Frequency Histograms</title>
+
+    <p>Each type of frequency distribution can be converted into a histogram. All that changes is the height of the bars and the labels and the values on the <m>y</m>-axis. For relative frequency histograms, the <m>y</m>-axis will always start at 0 and end at 1 to represent 0% to 100% of the data. The next example will show you how to convert our frequency histogram from Example 1 to a relative frequency histogram.</p>
+
+    <example xml:id="stats-ch2-frequency-histogram-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>Using the data on Tornado deaths in Tennessee from Example 1 in <xref ref="stats-ch2-frequency-distribution">How to Create Frequency Distributions</xref>, create a Relative Frequency Histogram that has 8 classes.</p>
+      </statement>
+      <solution>
+        <p>If you do not have the data loaded from Example 1 above, load it now. We will still have column B selected, Number of Classes set to 8, and unselect the Add an Extra Class checkbox.</p>
+        <figure>
+          <caption>Title, x-axis, and y-axis of histograms have custom labels.</caption>
+          <image source="statistics/frequencyhistogram_example1d.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>All you have to do to convert your <m>y</m>-axis to relative frequencies is to check the Relative Frequencies checkbox, and your <m>y</m>-axis will update with the correct values. I will also update the <m>y</m>-axis to be labeled as "Percentage of Years."</p>
+        <figure>
+          <caption>The Relative Frequencies checkbox is selected, labeling the y-axis with relative frequencies.</caption>
+          <image source="statistics/frequencyhistogram_example2.png" width="80%" decorative="yes"/>
+        </figure>
+          <p>If you compare the frequency histogram from Example 1 with this relative frequency histogram, they are identical except for the labeling of the <m>y</m>-axis. Both histograms have the same shape, but the frequency histogram shows the number of data points in each class, while the relative frequency histogram shows the percentage of data in each class.</p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="stats-ch2-cumulative-frequency-histograms">
+    <title>Cumulative Frequency Histograms</title>
+
+    <p>For cumulative frequency histograms, the height of each bar will represent the cumulative frequency of the distribution. Our next example will show you how to create one in the Histogram Generator Tool.</p>
+
+    <example xml:id="stats-ch2-frequency-histogram-example-3">
+      <title>Example 3</title>
+      <statement>
+        <p>Using the data on Tornado deaths in Tennessee from Example 1 in <xref ref="stats-ch2-frequency-distribution">How to Create Frequency Distributions</xref>, create a Cumulative Frequency Histogram that has 8 classes.</p>
+      </statement>
+      <solution>
+        <p>If you do not have the data loaded from Example 1 above, load it now. We will still have column B selected, Number of Classes set to 8, and unselect the Add an Extra Class checkbox.</p>
+        <figure>
+          <caption>Title, x-axis, and y-axis of histograms have custom labels.</caption>
+          <image source="statistics/frequencyhistogram_example1d.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>All you have to do to convert your <m>y</m>-axis to cumulative frequencies is to check the Cumulative Frequencies checkbox, and the heights of your bars will update.</p>
+        <figure>
+          <caption>The Cumulative Frequencies checkbox is selected, adjusting the bar heights to show their cumulative frequencies.</caption>
+          <image source="statistics/frequencyhistogram_example3.png" width="80%" decorative="yes"/>
+        </figure>
+          <p>If you compare the frequency histogram from Example 1 with this cumulative frequency histogram, they differ only in bar heights. Both use the same <m>y</m>-axis labels, but the frequency histogram shows the number of years in each category, while the cumulative frequency histogram shows the running total up to that class.</p>
+      </solution>
+    </example>
+  </subsection>
+
+  <subsection xml:id="stats-ch2-cumulative-relative-frequency-histograms">
+    <title>Cumulative Relative Frequency Histograms</title>
+
+    <p>For cumulative relative frequency histograms, the height of each bar will represent the running total for the relative frequencies of the distribution. Our next example will show you how to create one in the Histogram Generator Tool.</p>
+
+    <example xml:id="stats-ch2-frequency-histogram-example-4">
+      <title>Example 4</title>
+      <statement>
+        <p>Using the data on Tornado deaths in Tennessee from Example 1 in <xref ref="stats-ch2-frequency-distribution">How to Create Frequency Distributions</xref>, create a Cumulative Relative Frequency Histogram that has 8 classes.</p>
+      </statement>
+      <solution>
+        <p>If you do not have the data loaded from Example 1 above, load it now. We will still have column B selected, Number of Classes set to 8, and unselect the Add an Extra Class checkbox.</p>
+        <figure>
+          <caption>Title, x-axis, and y-axis of histograms have custom labels.</caption>
+          <image source="statistics/frequencyhistogram_example1d.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>All you have to do to convert your <m>y</m>-axis to cumulative relative frequencies is to select both the Relative Frequencies checkbox and the Cumulative Frequencies checkbox, and the histogram will update. I will also update the <m>y</m>-axis label to read "Percentage of Years."</p>
+        <figure>
+          <caption>The Relative and Cumulative Frequencies checkboxes are selected.</caption>
+          <image source="statistics/frequencyhistogram_example4.png" width="80%" decorative="yes"/>
+        </figure>
+          <p>If you compare the cumulative histogram from Example 3 with this relative cumulative frequency histogram, they are identical except for the labeling of the <m>y</m>-axis. Both histograms have the same shape, but the cumulative frequency histogram shows the running total for the number of years, while the relative cumulative frequency histogram shows the running total for the percentage of data.</p>
+      </solution>
+    </example>
+  </subsection>
+</section>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch2-frequency-distribution" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Create Frequency Distributions</title>
+  <introduction>
+  <p>Distributions hold significant theoretical importance in this course. In this section, we will learn about frequency distributions, which is the basis for many of the concepts in this course.</p>
+  </introduction>
+  <subsection xml:id="stats-ch2-basics-frequency">
+    <title>Basics of Frequency Distributions</title>
+    
+    <definition xml:id="stats-ch2-def-frequency">
+      <title>What is Frequency?</title>
+      <statement>
+        <p>The <term>frequency</term> of a data point is how many times it shows up in the data set.</p>
+      </statement>
+    </definition>
+    
+    <definition xml:id="stats-ch2-def-freq-dist">
+      <title>What is a Frequency Distribution?</title>
+      <statement>
+        <p>A <term>frequency distribution</term> is a table that lists either the raw data or classes (defined below) in the first column and corresponding frequency in the second column.</p>
+      </statement>
+    </definition>
+    
+    <p>Before the advent of computers, frequency distributions were created manually. This involved arranging the data in ascending order and marking a tally for each occurrence of a data point. This process was prone to human errors such as miscounting or duplicating data.</p>
+    
+    <p>With computers, creating frequency distributions is much faster and more accurate than manual methods. Tools like SPSS, MATLAB, and Excel offer advanced statistical capabilities. GeoGebra, however, is particularly useful in educational settings because of its simplicity and visualization tools, making it ideal for students learning this process.</p>
+    
+    <example xml:id="stats-ch2-freq-dist-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>The data on the number of deaths directly caused by tornadoes in Tennessee is given in the table below. Create a Frequency Distribution for the number of deaths per year.</p>
+        
+        <table>
+          <title>Direct Fatalities Caused by Tornadoes in Tennessee (1950-2023)</title>
+          <tabular>
+            <row header="yes">
+              <cell>Year</cell>
+              <cell>Direct Fatalities</cell>
+              <cell>Year</cell>
+              <cell>Direct Fatalities</cell>
+              <cell>Year</cell>
+              <cell>Direct Fatalities</cell>
+              <cell>Year</cell>
+              <cell>Direct Fatalities</cell>
+            </row>
+            <row>
+              <cell>2023</cell>
+              <cell>17</cell>
+              <cell>2004</cell>
+              <cell>0</cell>
+              <cell>1985</cell>
+              <cell>0</cell>
+              <cell>1966</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>2022</cell>
+              <cell>0</cell>
+              <cell>2003</cell>
+              <cell>12</cell>
+              <cell>1984</cell>
+              <cell>1</cell>
+              <cell>1965</cell>
+              <cell>1</cell>
+            </row>
+            <row>
+              <cell>2021</cell>
+              <cell>4</cell>
+              <cell>2002</cell>
+              <cell>17</cell>
+              <cell>1983</cell>
+              <cell>0</cell>
+              <cell>1964</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>2020</cell>
+              <cell>27</cell>
+              <cell>2001</cell>
+              <cell>3</cell>
+              <cell>1982</cell>
+              <cell>0</cell>
+              <cell>1963</cell>
+              <cell>4</cell>
+            </row>
+            <row>
+              <cell>2019</cell>
+              <cell>0</cell>
+              <cell>2000</cell>
+              <cell>1</cell>
+              <cell>1981</cell>
+              <cell>0</cell>
+              <cell>1962</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>2018</cell>
+              <cell>1</cell>
+              <cell>1999</cell>
+              <cell>12</cell>
+              <cell>1980</cell>
+              <cell>0</cell>
+              <cell>1961</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>2017</cell>
+              <cell>0</cell>
+              <cell>1998</cell>
+              <cell>7</cell>
+              <cell>1979</cell>
+              <cell>2</cell>
+              <cell>1960</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>2016</cell>
+              <cell>2</cell>
+              <cell>1997</cell>
+              <cell>1</cell>
+              <cell>1978</cell>
+              <cell>0</cell>
+              <cell>1959</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>2015</cell>
+              <cell>2</cell>
+              <cell>1996</cell>
+              <cell>0</cell>
+              <cell>1977</cell>
+              <cell>0</cell>
+              <cell>1958</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>2014</cell>
+              <cell>2</cell>
+              <cell>1995</cell>
+              <cell>3</cell>
+              <cell>1976</cell>
+              <cell>0</cell>
+              <cell>1957</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>2013</cell>
+              <cell>0</cell>
+              <cell>1994</cell>
+              <cell>5</cell>
+              <cell>1975</cell>
+              <cell>3</cell>
+              <cell>1956</cell>
+              <cell>3</cell>
+            </row>
+            <row>
+              <cell>2012</cell>
+              <cell>3</cell>
+              <cell>1993</cell>
+              <cell>1</cell>
+              <cell>1974</cell>
+              <cell>47</cell>
+              <cell>1955</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>2011</cell>
+              <cell>32</cell>
+              <cell>1992</cell>
+              <cell>1</cell>
+              <cell>1973</cell>
+              <cell>1</cell>
+              <cell>1954</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>2010</cell>
+              <cell>1</cell>
+              <cell>1991</cell>
+              <cell>5</cell>
+              <cell>1972</cell>
+              <cell>0</cell>
+              <cell>1953</cell>
+              <cell>4</cell>
+            </row>
+            <row>
+              <cell>2009</cell>
+              <cell>2</cell>
+              <cell>1990</cell>
+              <cell>0</cell>
+              <cell>1971</cell>
+              <cell>3</cell>
+              <cell>1952</cell>
+              <cell>75</cell>
+            </row>
+            <row>
+              <cell>2008</cell>
+              <cell>31</cell>
+              <cell>1989</cell>
+              <cell>1</cell>
+              <cell>1970</cell>
+              <cell>3</cell>
+              <cell>1951</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>2007</cell>
+              <cell>0</cell>
+              <cell>1988</cell>
+              <cell>6</cell>
+              <cell>1969</cell>
+              <cell>0</cell>
+              <cell>1950</cell>
+              <cell>9</cell>
+            </row>
+            <row>
+              <cell>2006</cell>
+              <cell>34</cell>
+              <cell>1987</cell>
+              <cell>0</cell>
+              <cell>1968</cell>
+              <cell>4</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      
+      <solution>
+        <p>First, click on the Copy Data to Clipboard button and a popup should appear that indicates the copy was successful.</p>
+        
+        <figure>
+          <caption>Copy Data to Clipboard button highlighted with a confirmation popup saying 'Dataset copied to clipboard' at the top.</caption>
+          <image source="statistics/frequencydistribution_example1_a.png" width="80%"/>
+        </figure>
+        
+        <p>Next, open the Frequency Distribution Tool by clicking on <url href="https://www.geogebra.org/m/qg4j4jc4">this link</url> or by going to the GeoGebra Tools module and clicking the link provided there. Once Frequency Distribution Tool is opened, click on the Spreadsheet tab.</p>
+        
+        <figure>
+          <caption>GeoGebra interface showing the Spreadsheet tab highlighted with 'Click Here' annotation.</caption>
+          <image source="statistics/frequencydistribution_example1_b.png" width="80%"/>
+        </figure>
+        
+        <p>Click on the A1 Cell, and right click to open up the Context Menu.</p>
+        
+        <figure>
+          <caption>Spreadsheet context menu with 'Paste' highlighted.</caption>
+          <image source="statistics/frequencydistribution_example1_c.png" width="80%"/>
+        </figure>
+        
+        <p>Select Paste from the Menu, and the data will copy into the spreadsheet. (This may take a moment to load. Please be patient.)</p>
+        
+        <figure>
+          <caption>Spreadsheet view showing 'Year' and 'Direct Fatality' columns populated with data in GeoGebra Calculator Suite.</caption>
+          <image source="statistics/frequencydistribution_example1_d.png" width="80%"/>
+        </figure>
+        
+        <p>Notice that the data in which we are interested is in column B. Remember this! Click on the Spreadsheet tab to hide the data.</p>
+        
+        <figure>
+          <caption>Arrow pointing to the Spreadsheet icon with text Click Here Again indicating where to click.</caption>
+          <image source="statistics/frequencydistribution_example1_e.png" width="80%"/>
+        </figure>
+        
+        <p>Notice that the tool is set by default to column A. If we click on the dropdown box and select column B, we will get the correct frequency distribution.</p>
+        
+        <figure>
+          <caption>Frequency distribution table with columns Data and Frequency.</caption>
+          <image source="statistics/frequencydistribution_example1_f.png" width="80%"/>
+        </figure>
+        
+          <p>The numbers in the Data column represents the number of deaths reported. The numbers in the Frequency column represent the number of years from 1950 to 2023 that reported that many deaths. For example, 10 years between 1950 and 2023 reported 1 death caused by Tornadoes in Tennessee.</p>
+        
+          <p>The Title and Column headers as customizable. Just click on the corresponding TextBox in the lower right corner, delete the existing text, and enter what you want to appear there. There is also a slider above the title so you can adjust the horizontal positioning of the title.</p>
+          
+          <figure>
+            <caption>Frequency distribution table of tornado deaths in Tennessee (1950-2023) with deaths and years columns.</caption>
+            <image source="statistics/frequencydistribution_example1_g.png" width="80%"/>
+          </figure>
+      </solution>
+    </example>
+    
+    <p>While Example 1 works well for small data sets, many frequency distributions group data into ranges instead of listing each unique data point individually. For example, we could group the number of years with 0 to 4 deaths, 5 to 9 deaths, 10 to 14 deaths, and so on, creating a row in the table for each of these ranges. These ranges are called <term>classes</term> or <term>bins</term> in statistics.</p>
+    
+    <p>If we created a new class for every 5 deaths, we would need 16 classes to cover all the data, from the class with 0 to 4 deaths up to the class with 75 to 79 deaths. However, this approach would lead to many classes with a frequency of 0, which makes the table less meaningful. To avoid this, we want the ranges to be large enough to capture meaningful data but not so small that most classes are empty.</p>
+    
+    <p>So how many classes should we have? As the researcher, you get to decide, but a good rule of thumb is to aim for 5 to 20 classes. Once the number of classes is chosen, the formula below will help determine the range for each class, known as the <term>class width</term>.</p>
+    
+    <definition xml:id="stats-ch2-def-class-width">
+      <title>How do you calculate class width?</title>
+      <statement>
+        <p>The <term>class width</term> is the size of each class and determines how data is grouped. It is calculated using the formula
+        \[
+        \text{class width} = \frac{\text{largest value} - \text{smallest value}}{\text{number of classes}}.
+        \]
+        </p>
+        
+        <p>If the result is a decimal, always round up to the next whole number to ensure all data points fit into the intervals. For example, if the calculated width is 9.38, round it up to 10. This ensures every data point fits into one of the classes without gaps.</p>
+        
+          <p>The class width measures the difference between the smallest numbers in successive classes. For example, if our first class is from 0 to 4 deaths and our second class is from 5 to 9 deaths, then the class width is 5 since <m>5-0=5</m>.</p>
+        
+          <p>Yes! This formula isn't perfect, and occasionally excludes the maximal data point. Sometimes, you have a preferred width you would like to use. It is up to you! For academic purposes though, we will always use the formula unless a problem requires otherwise.</p>
+      </statement>
+    </definition>
+    
+    <example xml:id="stats-ch2-class-width-example">
+      <title>Example 2</title>
+      <statement>
+        <p>Our data from Example 1 range from 0 deaths to 75 deaths. Find the class width that you will need if you want 6 classes.</p>
+      </statement>
+      
+      <solution>
+        <p>Using the formula above, we have that
+        \begin{align*}
+        \text{class width} &amp;= \frac{\text{largest value} - \text{smallest value}}{\text{number of classes}}\\
+        &amp;= \frac{75-0}{6}\\
+        &amp;\approx 12.5
+        \end{align*}
+        </p>
+        
+        <p>Since our output gave us a decimal, we round it up to the next integer. Therefore, we will need 13 classes.</p>
+      </solution>
+    </example>
+    
+    <p>Class widths, along with the minimum value of the data set, define what is known as the <term>boundary points</term> of the classes. Boundary points define where one class ends and another class begins.</p>
+    
+    <definition xml:id="stats-ch2-def-boundary-points">
+      <title>How do I compute the Boundary Points?</title>
+      <statement>
+        <p>The minimum value is typically the first boundary point. To find the other boundary points, keep adding the class width until you get a value that is larger than (but not equal to) the maximal value in our data set.</p>
+        
+        <p>For example, if we wanted a class width of 5 for the classes of tornado deaths, the boundary points are 0, 5, 10, 15, 20, <m>\ldots</m>, 70, 75, 80.</p>
+        
+          <p>Yes! If you choose your own class size, typically you also choose the first boundary points as well. Just remember to keep adding the class width until you get a number larger than the largest value in the data set.</p>
+      </statement>
+    </definition>
+    
+    <example xml:id="stats-ch2-boundary-points-example">
+      <title>Example 3</title>
+      <statement>
+        <p>Our data from Example 1 range from 0 deaths to 75 deaths. Suppose you want your boundary points to start at 7 and have class width 10. Find all the boundary points.</p>
+      </statement>
+      
+      <solution>
+        <p>We just start at 7 and keep adding 10 until we get a number larger than 75. So, the boundary points starting with 7 are
+        \[
+        7, \quad 17, \quad 27, \quad 37, \quad 47, \quad 57, \quad 67, \quad 77
+        \]
+        </p>
+      </solution>
+    </example>
+    
+    <p>Calculating boundary points and determining the number of classes is straightforward. However, tallying data points in each class can be tedious and error-prone. Instead, we'll use our GeoGebra tool to automate the tallying and format it into a table. The next example demonstrates this process.</p>
+    
+    <example xml:id="stats-ch2-freq-dist-classes-example">
+      <title>Example 4</title>
+      <statement>
+        <p>Using our data from Example 1, create a frequency distribution with 8 different classes.</p>
+      </statement>
+      
+      <solution>
+        <p>The data from Example 1 should already be loaded into GeoGebra. If it is not, follow the steps at the beginning of Example 1 to load the data in and selected option B from the dropbox. Your tool should like this:</p>
+        
+        <figure>
+          <caption>Frequency distribution table of tornado deaths in Tennessee (1950-2023) with deaths and years columns.</caption>
+          <image source="statistics/frequencydistribution_example1_g.png" width="80%"/>
+        </figure>
+        
+        <p>The first thing we are going to do is check the Organize Data into Classes checkbox. Multiple new options appear: Lower Class Boundary, Class Width, Number of Classes. (There are other new options; we can ignore them for now.) Notice that the Lower Class Boundary will automatically become the value of the smallest data point; the class width and number of classes will default to preassigned values.</p>
+        
+        <p>First, we want to calculate the class width. Since we want 8 classes, we will enter that value into class width. Notice that the number of classes will update to 10 since
+        \begin{align*}
+        \text{class width} &amp;= \frac{\text{largest value} - \text{smallest value}}{\text{number of classes}}\\
+        &amp;= \frac{75-0}{8}\\
+        &amp;\approx 9.375\\
+        &amp;= 10 \text{ (rounding up)}
+        \end{align*}
+        </p>
+        
+        <figure>
+          <caption>Frequency distribution with 8 classes, a class width of 10, showing frequencies for tornado deaths in Tennessee.</caption>
+          <image source="statistics/frequencydistribution_example4.png" width="80%"/>
+        </figure>
+        
+        <p>Now, if you count up the number of classes in the table, notice there is 11 different classes. Why is there 11 when Number of Classes is set to 10? Sometimes, the largest value of the data set gets counted in the last classes when it should not be. It is a quirk of how GeoGebra defined class frequencies. (And there is nothing wrong with that the method GeoGebra uses; it is just uses a slightly different definition of boundary points than was given above.) To correct for this difference, the Frequency Distribution Tool automatically adds an extra class by default. But, notice that the last class has a frequency of 0. That means the extra class wasn't needed, and we can click on the Deselect if Last Row Equals 0 checkbox to remove it. Therefore, we get the following frequency distribution.</p>
+        
+        <figure>
+          <caption>Frequency Distribution with the extra class removed.</caption>
+          <image source="statistics/frequencydistribution_example4a.png" width="80%"/>
+        </figure>
+        
+          <p>The classes/bins column gives the range of values for each class, always including the first number in the range and excluding the last number in the range. For example, the interval 0 to 9 means the range of values starting at 0 and include all the numbers up to but not including 10. The Frequency, as before, tells us the number of years whose number of deaths fell into that range of values. For example, there were 64 years that had 0 up to 10 deaths.</p>
+        
+          <p>Some instructors/websites prefer to use interval notation to describe the classes/bins. For example, 0 to 9 would be written as <m>[0,10)</m> since <m>[0</m> indicates to start and include 0 and <m>10)</m> means to include all the numbers up to but not including 10. When the check box is clicked, the frequency distribution looks like this.</p>
+          
+          <figure>
+            <caption>The classes/bins column is now expressed in interval notation.</caption>
+            <image source="statistics/frequencydistribution_example4c.png" width="80%"/>
+          </figure>
+          
+          <p>For future examples, we will not use interval notation.</p>
+      </solution>
+    </example>
+    
+    <p>Before we close this section out, we will give a demonstration of creating a frequency distribution that starts at a value other than the minimum value of the data set.</p>
+    
+    <example xml:id="stats-ch2-custom-boundary-example">
+      <title>Example 5</title>
+      <statement>
+        <p>Use our data set from Example 1 to create a frequency distribution that starts at 7 and has a class width of 6.</p>
+      </statement>
+      
+      <solution>
+        <p>The data from Example 1 should already be loaded into GeoGebra. If it is not, follow the steps at the beginning of Example 1 to load the data in and selected option B from the dropbox. Your tool should like this if you've been doing all the examples in order on this page:</p>
+        
+        <figure>
+          <caption>The classes/bins column is now expressed in interval notation.</caption>
+          <image source="statistics/frequencydistribution_example4c.png" width="80%"/>
+        </figure>
+        
+        <p>All we need to do enter 7 for the Lower Class Boundary and 8 for the Class Width. Notice the Number of Classes will update to 10 since Since we want 8 classes, we will enter that value into class width. Notice that the number of classes will update to 10 since
+        \begin{align*}
+        \text{number of classes} &amp;= \frac{\text{largest value} - \text{smallest value}}{\text{class width}}\\
+        &amp;= \frac{75-0}{6}\\
+        &amp;\approx 12.5\\
+        &amp;= 13 \text{ (rounding up)}
+        \end{align*}
+        </p>
+        
+        <figure>
+          <caption>Frequency distribution with lower boundary 7 and class width 6.</caption>
+          <image source="statistics/frequencydistribution_example5.png" width="80%"/>
+        </figure>
+        
+        
+      </solution>
+    </example>
+    <note>
+          <title>Warning</title>
+          <p>Notice there are 13 classes, and each has a class width of 6. But, notice that the last class has a 0 in it. The best Frequency Distributions always have a non-zero frequency for the first and last class. Also, notice we missed all the years that had fewer than 7 deaths. So, while this is a correctly constructed Frequency Distribution, it is also a bit misleading.</p>
+          
+          <p>That is why it is better to let the Lower Boundary be the minimum value. We get all the data, and our first and last classes will be a non-zero frequency ensuring that our table is just the right size for the number of classes or class width we desire.</p>
+        </note>
+  </subsection>
+  
+</section>

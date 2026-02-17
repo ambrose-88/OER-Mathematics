@@ -70,12 +70,18 @@
     </part>
 
     <!-- Part 8: Statistics -->
-    <part xml:id="statistics">
-      <title>Statistics</title>
+    <part xml:id="introductory-statistics">
+      <title>Introductory Statistics</title>
       
       <xi:include href="./statistics/chapter-1/chapter1.ptx" />
       <xi:include href="./statistics/chapter-2/chapter2.ptx" />
       <xi:include href="./statistics/chapter-3/chapter3.ptx" />
+    </part>
+
+    <part xml:id="finite-mathematics">
+      <title>Finite Mathematics</title>
+      
+      <xi:include href="./finite-mathematics/chapter-1/chapter1.ptx" />
     </part>
 
     <!-- Include backmatter -->

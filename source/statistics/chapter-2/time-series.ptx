@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="stats-ch2-time-series" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>How to Construct Time Series Plots</title>
+  <introduction>
+    <p>Time series plots are essential tools in statistics for visualizing data points collected over time. By highlighting patterns and variations, these plots provide valuable insights for decision-making in fields like economics, finance, weather prediction, and performance monitoring.</p>
+  </introduction>
+
+  <subsection xml:id="stats-ch2-time-series-basics">
+    <title>Time Series Plots</title>
+
+    <definition xml:id="stats-ch2-def-time-series">
+      <title>How do I make a Time Series Plot?</title>
+      <statement>
+        <p>
+        <ol>
+          <li>Label the <m>x</m>-axis with the range of days, months, or years, and label the <m>y</m>-axis with the units of the data. Make sure to title your graph as well.</li>
+          <li>Plot each data point as <m>(x,y)=(\text{time}, \text{data})</m>.</li>
+          <li>Draw straight line segments between consecutive points to connect them.</li>
+        </ol>
+        </p>
+      </statement>
+    </definition>
+
+    <p>In this course, we will exclusively build the time series plots in our <url href="https://www.geogebra.org/m/khx9mq7k">Time Series Generator Tool</url> and focus on interpreting the data.</p>
+
+    <example xml:id="stats-ch2-time-series-example-1">
+      <title>Example 1</title>
+      <statement>
+        <p>According to the <url href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Beginners:GDP_-_What_is_gross_domestic_product_(GDP)">European Commission</url>, "Gross domestic product (GDP) is the most common measure for the size of an economy, and it measures the value of total final output of goods and services produced by that economy in a certain period of time." The following data from the <url href="https://data.worldbank.org/">World Bank Group</url> describes the U.S. GDP (in trillions of dollars) for each year from 2010 to 2023. Use this data to construct a time series plot.</p>
+        <table>
+          <title>GDP Data by Year (in US$ Trillions)</title>
+          <tabular>
+            <row header="yes">
+              <cell>Year</cell>
+              <cell>GDP</cell>
+              <cell>Year</cell>
+              <cell>GDP</cell>
+            </row>
+            <row>
+              <cell>2010</cell>
+              <cell>15.05</cell>
+              <cell>2017</cell>
+              <cell>19.61</cell>
+            </row>
+            <row>
+              <cell>2011</cell>
+              <cell>15.60</cell>
+              <cell>2018</cell>
+              <cell>20.66</cell>
+            </row>
+            <row>
+              <cell>2012</cell>
+              <cell>16.25</cell>
+              <cell>2019</cell>
+              <cell>21.54</cell>
+            </row>
+            <row>
+              <cell>2013</cell>
+              <cell>16.88</cell>
+              <cell>2020</cell>
+              <cell>21.35</cell>
+            </row>
+            <row>
+              <cell>2014</cell>
+              <cell>17.61</cell>
+              <cell>2021</cell>
+              <cell>23.68</cell>
+            </row>
+            <row>
+              <cell>2015</cell>
+              <cell>18.30</cell>
+              <cell>2022</cell>
+              <cell>26.01</cell>
+            </row>
+            <row>
+              <cell>2016</cell>
+              <cell>18.80</cell>
+              <cell>2023</cell>
+              <cell>27.72</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <p>First, copy and paste the data into the <url href="https://www.geogebra.org/m/khx9mq7k">Time Series Generator Tool</url>. The data you copied should already be defaulted so that the years are in column A and the GDP is in column B, and the tool should look like this after you load the data.</p>
+        <figure>
+          <caption>The time series plot for the US GDP (2010-2023).</caption>
+          <image source="statistics/time_series_example1_a.png" width="80%" decorative="yes"/>
+        </figure>
+        <p>All we have to do is update the title and axes labels, and we are done. Remember you can adjust the sliders to reposition the title and labels, if you so desire.</p>
+        <figure>
+          <caption>The title and axes labels have been updated.</caption>
+          <image source="statistics/time_series_example1_b.png" width="80%" decorative="yes"/>
+        </figure>
+      </solution>
+    </example>
+
+    <p>The most important part of time series plots are being able to interpret them. The next example asks questions about the plot we just created.</p>
+
+    <example xml:id="stats-ch2-time-series-example-2">
+      <title>Example 2</title>
+      <statement>
+        <p>Use the time series plot we created in Example 1 to answer the following questions.</p>
+        <p>
+        <ol>
+          <li>In what year did the GDP grow the slowest?</li>
+          <li>In what year did the GDP grow the fastest?</li>
+          <li>The only year we had a decrease in GDP was from 2019 to 2020. What historical event explains the drop in GDP?</li>
+        </ol>
+        </p>
+      </statement>
+      <solution>
+        <p>
+        <ol>
+          <li>We are looking for the line segment that has the most horizontal since its slope (which measure the yearly change) will be closest to zero. In this case, it is the line segment from 2015 to 2016 is the most horizontal, and it was not easy to see at all. (I had to enlarge the graph to figure it out.) Note: We do not want 2019-2020 since the GDP did not grow that year, we actually lost some GDP that year.</li>
+          <li>We are looking for the line that is most vertical since this line segment will have the largest slope, which is from 2020 to 2021.</li>
+          <li>The COVID pandemic hit in 2020 since the pandemic disrupted many of the systems we relied on to keep the economy running.</li>
+        </ol>
+        </p>
+      </solution>
+    </example>
+  </subsection>
+</section>

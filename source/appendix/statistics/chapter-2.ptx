@@ -2,4 +2,696 @@
 
 <worksheet xml:id="appendix-statistics-chapter-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Chapter 2 Lecture Notes</title>
+
+  <definition xml:id="stats-app-ch2-frequency-def">
+    <title>Frequency</title>
+    <statement>
+      <p>The <term>frequency</term> of a data point is how many times it shows up in the data set.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-freq-dist-def">
+    <title>Frequency Distribution</title>
+    <statement>
+      <p>A <term>frequency distribution</term> is a table that lists either the raw data or classes (defined below) in the first column and corresponding frequency in the second column.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-freq-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>The data on the number of deaths directly caused by tornadoes in Tennessee is given in the table below. Create a Frequency Distribution for the number of deaths per year.</p>
+    </statement>
+  </example>
+
+  <p>While Example 1 works well for small data sets, many frequency distributions group data into ranges instead of listing each unique data point individually. For example, we could group the number of years with 0 to 4 deaths, 5 to 9 deaths, 10 to 14 deaths, and so on, creating a row in the table for each of these ranges. These ranges are called <em>classes</em> or <em>bins</em> in statistics.</p>
+
+  <p>So how many classes should we have? As the researcher, you get to decide, but a good rule of thumb is to aim for 5 to 20 classes. Once the number of classes is chosen, the formula below will help determine the range for each class, known as the <em>class width</em>.</p>
+
+  <definition xml:id="stats-app-ch2-class-width">
+    <title>Class Width</title>
+    <statement>
+      <p>The <term>class width</term> is the size of each class and determines how data is grouped. It is calculated using the formula:
+      <me>\text{class width} = \frac{\text{largest value} - \text{smallest value}}{\text{number of classes}}</me>
+      If the result is a decimal, always round up to the next whole number to ensure all data points fit into the intervals.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-freq-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>Our data from Example 1 range from 0 deaths to 75 deaths. Find the class width that you will need if you want 6 classes.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-boundary-points">
+    <title>Boundary Points</title>
+    <statement>
+      <p>The minimum value is typically the first boundary point. To find the other boundary points, keep adding the class width until you get a value that is larger than (but not equal to) the maximal value in our data set.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-freq-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>Our data from Example 1 range from 0 deaths to 75 deaths. Suppose you want your boundary points to start at 7 and have class width 10. Find all the boundary points.</p>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch2-freq-example-4">
+    <title>Example 4</title>
+    <statement>
+      <p>Using our data from Example 1, create a frequency distribution with 8 different classes.</p>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch2-freq-example-5">
+    <title>Example 5</title>
+    <statement>
+      <p>Use our data set from Example 1 to create a frequency distribution that starts at 7 and has a class width of 6.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-rel-freq-def">
+    <title>Relative Frequency</title>
+    <statement>
+      <p><term>Relative Frequency</term> has two interpretations:</p>
+      <ul>
+        <li>For <em>raw data</em>, relative frequency is the percentage of times that a particular value appears in a data set.</li>
+        <li>For <em>data sorted into classes</em>, relative frequency is the percentage of data that appear in a given class.</li>
+      </ul>
+      <p>In both cases, the formula for relative frequency is identical: 
+      <me>\text{relative frequency} = \frac{\text{frequency}}{n}</me>
+      where <m>n</m> is the number of data points in the sample. Notice that this will always give a percentage as a decimal, so we will always write <m>0.3947</m> instead of <m>39.47\%</m> in this course.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-rel-freq-dist-def">
+    <title>Relative Frequency Distribution</title>
+    <statement>
+      <p>A <term>relative frequency distribution</term> is a table that lists either the raw data or classes in the first column and the corresponding relative frequencies in the second column.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-compute-rel-freq">
+    <title>Computing Relative Frequency</title>
+    <statement>
+      <p>To determine the relative frequency for a class, divide its frequency by the total number of data points:
+      <me>\text{relative frequency} = \frac{\text{frequency}}{\text{total data points}}</me>
+      For example, consider a frequency of 64 in a class and a total of 74 data points.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-rel-freq-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>According to <url href="https://seer.cancer.gov/statistics-network/">National Institutes of Health Cancer Statistics</url>, the rate at which men get Colon-Rectal cancer each year (per 100,000 men, rounded to one decimal place) from 2000 to 2021 is given in the table below. Find the relative frequency distribution for this data if we use a lower class boundary of 35 and a class width of 5.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-rel-freq-options">
+    <title>Relative Frequency Distribution Options</title>
+    <statement>
+      <p>There are several options when displaying relative frequency distributions:</p>
+      <figure xml:id="stats-app-ch2-rel-freq-fig-1">
+        <caption>Convert To Percentage: The relative frequency distribution with percentages instead of relative frequencies.</caption>
+        <image source="statistics/relativefrequencydistribution_options1.png"/>
+      </figure>
+      <figure xml:id="stats-app-ch2-rel-freq-fig-2">
+        <caption>Compare Frequency to Relative Frequency: A third column containing the raw frequencies was added to the relative frequency distribution.</caption>
+        <image source="statistics/relativefrequencydistribution_options2.png"/>
+      </figure>
+      <figure xml:id="stats-app-ch2-rel-freq-fig-3">
+        <caption>Both Options: Both options are checked, allowing comparisons of percentages and raw frequencies.</caption>
+        <image source="statistics/relativefrequencydistribution_options3.png"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-rel-freq-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>Consider the following frequency distribution for average August temperatures in Nashville, TN. (Source: <url href="https://www.wunderground.com">Weather UnderGround</url>) Find the relative frequency for the class <em>86 to 88</em>.</p>
+      
+      <table>
+        <title>Average August Temperature in Nashville, TN (1948-2024)</title>
+        <tabular>
+          <row header="yes">
+            <cell>Degrees Fahrenheit</cell>
+            <cell>Number of Years</cell>
+          </row>
+          <row>
+            <cell>80 to 82</cell>
+            <cell>2</cell>
+          </row>
+          <row>
+            <cell>83 to 85</cell>
+            <cell>14</cell>
+          </row>
+          <row>
+            <cell>86 to 88</cell>
+            <cell>33</cell>
+          </row>
+          <row>
+            <cell>89 to 91</cell>
+            <cell>22</cell>
+          </row>
+          <row>
+            <cell>92 to 94</cell>
+            <cell>5</cell>
+          </row>
+          <row>
+            <cell>95 to 97</cell>
+            <cell>1</cell>
+          </row>
+          <row>
+            <cell>Total</cell>
+            <cell>77</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-cum-freq-def">
+    <title>Cumulative Frequency</title>
+    <statement>
+      <p><term>Cumulative Frequency</term> is the number of data points that are less than or equal to some given number (not necessarily in the data set).</p>
+      <p>To illustrate, let's turn to our Frequency Distribution about tornado deaths in Tennessee from Example 1 in the Frequency Distribution section:</p>
+      <figure xml:id="stats-app-ch2-cum-freq-intro-fig">
+        <caption>Frequency distribution table with columns Data and Frequency.</caption>
+        <image source="statistics/frequencydistribution_example1_f~.png"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-cum-freq-dist-def">
+    <title>Cumulative Frequency Distribution</title>
+    <statement>
+      <p>A <term>cumulative frequency distribution</term> is a table that lists either the raw data or classes in the first column and the corresponding cumulative frequencies in the second column.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-cum-freq-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>For the data from Example 1 in the Frequency Distribution section, create a cumulative frequency distribution for the raw data.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-rel-cum-freq-def">
+    <title>Relative Cumulative Frequency</title>
+    <statement>
+      <p><term>Relative Cumulative Frequency</term> is the percentage of data points that are less than or equal to some given number (not necessarily in the data set). As with relative frequency, we will always express the percentage as a decimal, such as <m>0.2934</m> instead of <m>29.34\%</m>. Using percentages instead of decimals can cause errors in many of the formulas we will use in this course, as they require values to be expressed as decimals for accurate computation. As a formula, we can express this as
+      <me>\text{relative cumulative frequency} = \frac{\text{cumulative frequency}}{n}</me>
+      where <m>n</m> is the number of data points.</p>
+      <p>Let's consider our Cumulative Frequency Distribution from Example 1:</p>
+      <figure xml:id="stats-app-ch2-rel-cum-freq-intro-fig">
+        <caption>The cumulative frequency distribution for deaths by tornadoes in Tennessee.</caption>
+        <image source="statistics/cumulative_frequency_example1.png"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-rel-cum-freq-dist-def">
+    <title>Relative Cumulative Frequency Distribution</title>
+    <statement>
+      <p>A <term>relative cumulative frequency distribution</term> is a table that lists either the raw data or classes in the first column and the corresponding relative cumulative frequencies in the second column.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-rel-cum-freq-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>For the data from Example 1 in the Cumulative Frequency section, create a cumulative relative frequency distribution for the raw data.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-histogram-def">
+    <title>Frequency Histogram</title>
+    <statement>
+      <p>A <term>frequency histogram</term> is a type of bar graph used to visualize the frequency distribution of data. Below are its key features:</p>
+      <ul>
+        <li>The <m>x</m>-axis represents the data values, with tick marks indicating the class boundaries of the frequency distribution.</li>
+        <li>The <m>y</m>-axis represents the frequencies of the classes. The scale always starts at 0, but the other tick marks are determined by the data and are used to scale the heights of the bars.</li>
+        <li>Each bar represents a class. The base of the bar spans the range of values for that class, while the height corresponds to the frequency of the class.</li>
+        <li>The bars of successive classes touch each other.</li>
+        <li>If any class has a frequency of <m>0</m>, no bar is drawn for that class.</li>
+      </ul>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-histogram-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Frequency Histogram that has 8 classes.</p>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch2-histogram-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Relative Frequency Histogram that has 8 classes.</p>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch2-histogram-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Cumulative Frequency Histogram that has 8 classes.</p>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch2-histogram-example-4">
+    <title>Example 4</title>
+    <statement>
+      <p>Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Cumulative Relative Frequency Histogram that has 8 classes.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-peak-def">
+    <title>Peak of a Distribution</title>
+    <statement>
+      <p>The <term>peak of a distribution</term> refers to the tallest part of the histogram, which represents the class(es) with the most data.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-tails-def">
+    <title>Tails of a Distribution</title>
+    <statement>
+      <p>The <term>tails of a distribution</term> refer to the far ends of the distribution, which represent the extreme values of the dataset.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-unimodal">
+    <title>Unimodal Distributions</title>
+    <statement>
+      <p><term>Unimodal distributions</term> have a single peak. There are three subtypes: <em>normal</em>, <em>skew-left</em>, and <em>skew-right</em>.</p>
+      <figure xml:id="stats-app-ch2-unimodal-fig">
+        <caption>Example of a unimodal distribution with a peak at class the 70 to 79.</caption>
+        <image source="statistics/normal1.png"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-normal">
+    <title>Normal Distributions</title>
+    <statement>
+      <p><term>Normal distributions</term> (also called bell-shaped distributions) are symmetric with the peak in the center.</p>
+      <figure xml:id="stats-app-ch2-normal-fig-1">
+        <caption>Example of a unimodal distribution. Areas corresponding to its peak and tails are labeled.</caption>
+        <image source="statistics/normal2.png"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-skew-left">
+    <title>Skew-Left Distributions</title>
+    <statement>
+      <p><term>Skew-left distributions</term> have the left tail longer than the right tail.</p>
+      <figure xml:id="stats-app-ch2-skew-left-fig">
+        <caption>Distribution is left-skewed since the left tail is longer than the right tail.</caption>
+        <image source="statistics/leftskew.png"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-skew-right">
+    <title>Skew-Right Distributions</title>
+    <statement>
+      <p><term>Skew-right distributions</term> have the right tail longer than the left tail.</p>
+      <figure xml:id="stats-app-ch2-skew-right-fig">
+        <caption>Distribution is right-skewed because its right tail is longer than its left tail.</caption>
+        <image source="statistics/rightskew.png"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-multimodal">
+    <title>Multimodal Distributions</title>
+    <statement>
+      <p><term>Multimodal distributions</term> have multiple peaks.</p>
+      <figure xml:id="stats-app-ch2-multimodal-fig">
+        <caption>A bimodal distribution with its two peaks labeled.</caption>
+        <image source="statistics/bimodal2.png"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-uniform">
+    <title>Uniform Distributions</title>
+    <statement>
+      <p><term>Uniform distributions</term> have bars that are all approximately the same height with no distinct peak.</p>
+      <p>For homework problems that ask you to identify the shape of a distribution, the easiest way to determine the shape is by drawing (or visualizing) a curve through the tops of the bars. If the distribution is uniform, all the bars should be approximately the same height.</p>
+      <figure xml:id="stats-app-ch2-uniform-fig">
+        <caption>Uniform distribution have bars that are all approximately the same height.</caption>
+        <image source="statistics/uniform2.png"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-stem-leaf-def">
+    <title>Stem-and-Leaf Plot</title>
+    <statement>
+      <p>A <term>stem-and-leaf plot</term> is a way to organize rounded numerical data by splitting each value into a <term>stem</term> (the leading digit(s), such as tens) and a <term>leaf</term> (the trailing digit(s), based on the chosen rounding level).</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-stem-rounding">
+    <title>Choosing Stems</title>
+    <statement>
+      <p>There is a bit of an art to deciding how to create a stem-and-leaf plot. The best stems are those that appear frequently in your data and group it meaningfully. The goal is to create a plot that organizes the data clearly and effectively, without being cluttered or too sparse.</p>
+      <p>Here are three examples:</p>
+      <sidebyside>
+        <figure xml:id="stats-app-ch2-stems-clustered">
+          <caption>Too Clustered: The stems are all in a single row.</caption>
+          <image source="statistics/clumpedstems.png"/>
+        </figure>
+        <figure xml:id="stats-app-ch2-stems-good">
+          <caption>Good Balance of Leaves: There are five stems and there are no lines without any leaves.</caption>
+          <image source="statistics/goodstems.png"/>
+        </figure>
+        <figure xml:id="stats-app-ch2-stems-spread">
+          <caption>Too Spread Out: Many stems have no leaves. While some gaps are okay, if most stems are empty, your data is too spread out.</caption>
+          <image source="statistics/spreadstems.png"/>
+        </figure>
+      </sidebyside>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-stem-leaf-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>The following dataset represents the monthly average rainfall (in mm) for a Midwestern town from 2018 to 2022. Construct a stem-and-leaf plot for the data, and describe the shape of the distribution.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-split-def">
+    <title>Split Stems</title>
+    <statement>
+      <p>To <term>split stems</term> in a stem-and-leaf plot means dividing each stem into smaller groups to spread out the data and make the plot easier to interpret.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-split-when">
+    <title>When to Split Stems</title>
+    <statement>
+      <p>Split stems when:</p>
+      <ul>
+        <li>A single stem has too many leaves, making the plot crowded and difficult to read.</li>
+        <li>Precision matters, such as with decimal data or closely spaced values.</li>
+        <li>One stem has significantly more leaves than others.</li>
+      </ul>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-stem-leaf-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>The following dataset represents the weights (in kilograms) of items in a shipment. Explain why you should split the stems, and then construct a stem-and-leaf plot with split stems. Describe the shape of the distribution.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-back-to-back">
+    <title>Back-to-Back Stem-and-Leaf Plots</title>
+    <statement>
+      <p>If we want to compare two sets of data, we can make a <term>back-to-back stem-and-leaf plot</term>. In this setup, the stems will be up the middle. The leaves of the first dataset are to the right of the stems. The leaves of the second dataset appear to the left of the stems, written in reverse order for comparison. Back-to-back stem-and-leaf plots may have split stems.</p>
+      <figure xml:id="stats-app-ch2-back-to-back-fig">
+        <caption>Example of a Back-to-Back Stem Plot</caption>
+        <image source="statistics/btbexample.png"/>
+      </figure>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-stem-leaf-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>The following datasets represent the ages of participants in two different training programs.</p>
+      <ul>
+        <li><em>Part A</em>: Create a Stem-and-Leaf Plot and compare the shapes of the two distributions.</li>
+        <li><em>Part B</em>: Split the stems and compare the shapes again. Then compare this stem-and-leaf plot to the original one and explain how splitting the stems gives you a more detailed view of the distribution of both datasets.</li>
+      </ul>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-dot-plot-def">
+    <title>Dot Plot</title>
+    <statement>
+      <p>A <term>dot plot</term> is a simple visual tool for representing data, where each dot corresponds to a specific data point. It effectively displays frequency distributions, highlighting patterns, peaks, and left/right-skew. Dot plots are ideal for small to moderately sized datasets in various fields such as education, biology, and economics.</p>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-dot-plot-how">
+    <title>How to Make a Dot Plot</title>
+    <statement>
+      <ol>
+        <li>Draw a horizontal axis to represent the range of values, labeling it appropriately.</li>
+        <li>Divide the axis into evenly spaced intervals to cover all data points.</li>
+        <li>For each value in the dataset, place a dot above its corresponding position on the axis, stacking dots vertically for repeated values.</li>
+        <li>Add a title and labels to clarify the data being represented.</li>
+      </ol>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-dot-plot-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>The following data represents the length in centimeters of a sample of 10 white oak leaves. Make a dot plot of this data.</p>
+      
+      <table>
+        <title>Leaf Length Data (in cm)</title>
+        <tabular>
+          <row header="yes">
+            <cell>Length (cm)</cell>
+            <cell>Length (cm)</cell>
+          </row>
+          <row>
+            <cell>17</cell>
+            <cell>18</cell>
+          </row>
+          <row>
+            <cell>18</cell>
+            <cell>15</cell>
+          </row>
+          <row>
+            <cell>13</cell>
+            <cell>19</cell>
+          </row>
+          <row>
+            <cell>16</cell>
+            <cell>17</cell>
+          </row>
+          <row>
+            <cell>17</cell>
+            <cell>16</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch2-dot-plot-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>A customer service manager wants to evaluate the team's efficiency in responding to support tickets during peak hours. The response times (in minutes) for 10 randomly selected tickets are given in the table below. Make a dot plot of this data.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-dot-plot-interpret">
+    <title>Interpreting Dot Plots</title>
+    <statement>
+      <p>Dot plots give us another way to see the shape of the distribution. But unlike histograms, it gives us a way to identify the exact data points that are either unusually small or unusually large compared to the other data points.</p>
+      <sidebyside>
+        <figure xml:id="stats-app-ch2-dotplot-skew-left">
+          <caption>The dot plot showing a skew-left distribution with curve.</caption>
+          <image source="statistics/dotplot_example1_6_with_curve.png"/>
+        </figure>
+        <figure xml:id="stats-app-ch2-dotplot-skew-right">
+          <caption>The dot plot showing a skew-right distribution with curve.</caption>
+          <image source="statistics/dotplot_example2_3_with_curve.png"/>
+        </figure>
+      </sidebyside>
+    </statement>
+  </definition>
+
+  <definition xml:id="stats-app-ch2-time-series-how">
+    <title>How to Make a Time Series Plot</title>
+    <statement>
+      <ol>
+        <li>Label the <m>x</m>-axis with the range of days, months, or years, and label the <m>y</m>-axis with the units of the data. Make sure to title your graph as well.</li>
+        <li>Plot each data point as <m>(x,y) = (\text{time}, \text{data})</m>.</li>
+        <li>Draw straight line segments between consecutive points to connect them.</li>
+      </ol>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-time-series-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>According to the <url href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Beginners:GDP_-_What_is_gross_domestic_product_(GDP)?%23:~:text=Gross%20domestic%20product%20(GDP)%20is,a%20certain%20period%20of%20time.">European Commission</url>, <q>Gross domestic product (GDP) is the most common measure for the size of an economy, and it measures the value of total final output of goods and services produced by that economy in a certain period of time.</q> The following data from the <url href="https://data.worldbank.org/">World Bank Group</url> describes the U.S. GDP (in trillions of dollars) for each year from 2010 to 2023. Use this data to construct a time series plot.</p>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch2-time-series-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>Use the time series plot we created in Example 1 to answer the following questions.</p>
+      <ol>
+        <li>In what year did the GDP grow the slowest?</li>
+        <li>In what year did the GDP grow the fastest?</li>
+        <li>The only year we had a decrease in GDP was from 2019 to 2020. What historical event explains the drop in GDP?</li>
+      </ol>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch2-bar-graph-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>A survey of 100 people was conducted to determine their favorite fast food restaurant among various national brands. The results are summarized in the table below. Using the data, create a bar graph to represent the distribution of responses.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-pareto-graphs">
+    <title>Pareto Graphs</title>
+    <statement>
+      <p>While standard bar graphs are effective at showcasing categorical data, there are scenarios where sorting the bars in descending order provides greater clarity. This leads us to a specialized variation of the bar graph known as the <term>Pareto graph</term>.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-pareto-example">
+    <title>Example 2</title>
+    <statement>
+      <p>Create a Pareto graph of the preferred fast food restaurants from Example 1, sorting all bars from largest to smallest.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="stats-app-ch2-pie-when">
+    <title>When to Use a Pie Graph</title>
+    <statement>
+      <p>A pie graph should only be used under two specific conditions:</p>
+      <ol>
+        <li>Data can belong to exactly one of the categories.</li>
+        <li>Categories must be parts of a whole.</li>
+      </ol>
+    </statement>
+  </definition>
+
+  <example xml:id="stats-app-ch2-pie-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>Suppose a survey asked which department(s) a customer purchased from during their last visit to a particular department store. Explain why a pie graph cannot be used with the following set of data.</p>
+      
+      <table>
+        <title>Percentage of People Shopping in Each Department</title>
+        <tabular>
+          <row header="yes">
+            <cell>Department</cell>
+            <cell>Percentage of Shoppers</cell>
+          </row>
+          <row>
+            <cell>Electronics</cell>
+            <cell>40%</cell>
+          </row>
+          <row>
+            <cell>Clothing</cell>
+            <cell>55%</cell>
+          </row>
+          <row>
+            <cell>Groceries</cell>
+            <cell>70%</cell>
+          </row>
+          <row>
+            <cell>Home &amp; Furniture</cell>
+            <cell>30%</cell>
+          </row>
+          <row>
+            <cell>Sports &amp; Outdoors</cell>
+            <cell>25%</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch2-pie-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>A survey was conducted to determine the types of activities people prefer on weekends. A survey of 1,303 people were asked, <q>Which of the follow activities do you most prefer to do on weekends? Please select only one option.</q> The percentages were tabulated and reported in the table below. Explain why a pie chart cannot be created from this table and suggest how it could be corrected.</p>
+      
+      <table>
+        <title>Weekend Activity Preferences</title>
+        <tabular>
+          <row header="yes">
+            <cell>Activity</cell>
+            <cell>Percentage</cell>
+          </row>
+          <row>
+            <cell>Watching Movies</cell>
+            <cell>25%</cell>
+          </row>
+          <row>
+            <cell>Outdoor Sports</cell>
+            <cell>30%</cell>
+          </row>
+          <row>
+            <cell>Reading Books</cell>
+            <cell>20%</cell>
+          </row>
+          <row>
+            <cell>Cooking</cell>
+            <cell>15%</cell>
+          </row>
+          <row>
+            <cell>Playing Video Games</cell>
+            <cell>8%</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch2-pie-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>A survey asked 1,373 respondents, <q>What is your favorite activity while on vacation?</q> The responses are summarized in the following table. Explain why this data cannot be used to make a Pie Chart.</p>
+      
+      <table>
+        <title>Vacation Activity Preferences</title>
+        <tabular>
+          <row header="yes">
+            <cell>Activity</cell>
+            <cell>Percentage</cell>
+          </row>
+          <row>
+            <cell>Sightseeing</cell>
+            <cell>35%</cell>
+          </row>
+          <row>
+            <cell>Relaxing on the beach</cell>
+            <cell>25%</cell>
+          </row>
+          <row>
+            <cell>Trying local cuisine</cell>
+            <cell>20%</cell>
+          </row>
+          <row>
+            <cell>Outdoor adventures (e.g., hiking or kayaking)</cell>
+            <cell>10%</cell>
+          </row>
+          <row>
+            <cell>Shopping</cell>
+            <cell>10%</cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+  </example>
+
+  <example xml:id="stats-app-ch2-pie-example-4">
+    <title>Example 4</title>
+    <statement>
+      <p>A survey of 50 patients who were recently discharged from a hospital were asked to rate their overall stay at the hospital as Very Satisfied, Satisfied, Neutral, Dissatisfied, or Very Dissatisfied. The results are compiled in the table below. Use the <url href="https://www.geogebra.org/m/tmu6ja9y">Bar and Pie Chart Generator Tool</url> to make a Pie Graph of the data.</p>
+    </statement>
+  </example>
+
 </worksheet>

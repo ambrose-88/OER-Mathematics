@@ -8,4 +8,5 @@
     </p>
   </introduction>
   <xi:include href="./statistics-geogebra/summary-statistics-calculator.ptx"/>
+  <xi:include href="./statistics-geogebra/empirical-rule-tool.ptx"/>
 </appendix>
