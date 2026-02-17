@@ -3613,7 +3613,7 @@ var ptx_lunr_docs = [
   "id": "sec-chapter1-review",
   "level": "1",
   "url": "sec-chapter1-review.html",
-  "type": "Section",
+  "type": "Worksheet",
   "number": "13.1",
   "title": "Exam 1 Review",
   "body": " Exam 1 Review   Computing an Angle in Radians   A circle of radius yards has an angle that intercepts an arc measuring inches. What is the radian measure of the angle ?     radians.     Drawing and Labeling an Angle in Standard Position   Draw the angle in standard position. Label the initial side, terminal side, and the angle .     An angle of radians drawn in standard position. The angle is labeled and indicates a counterclockwise rotation. The positive -axis is labeled as the initial side, and the ray passing through the point is labeled as the terminal side.       Converting an Angle from Radians to Degrees   Convert the angle radians to degrees.          Converting an Angle from Degrees to Radians   Convert the angle to radians.     radians.     Finding a Coterminal Angle in Radians   Find a positive angle that is coterminal to the angle , where .     radians.     Finding a Coterminal Angle in Degrees   Find a positive angle that is coterminal to the angle , where .     .     Finding the Arc Length and Area of a Sector   Using the circle given in the figure, find the length of the arc and the area of the sector formed by the central angle . For both the area and the arc length, give both the exact value and approximate the value to one decimal place. Make sure to include the correct units in your answers.   A circle with radius cm and central angle . is not in standard position; its initial side is in Quadrant 1 and terminal side is in Quadrant 2. The length of the radius and central angle are labeled with its measurements, and the arc intercepted by is labeled .         The length of the arc is .    The area of the sector is .        Find Linear and Angular Speed   The wheels of a certain bicycle has a diameter. If the wheels are rotating at a constant rate of , how fast is the bicycle moving in miles per hour? Round your answer to decimal places. Include the correct units in your answer.       Writing all the units out in your calculation will help with the unit conversions needed to solve this problem.    For example, write as .    Your goal is to make the the units of measurement in the numerator miles and the denominator hours.    Remember, units cancel in the numerator and denominator just like numbers do!       The bicycle is moving at approximately .     Find the Six Trigonometric Function using Right Trangles   Suppose is one of the non-right angles in a right triangle where the side opposite has length and has a hypotenuse of length . Find the exact value of the six trigonometric functions of .     Note: , which means the following are also acceptable answers:      Deriving Pythagorean Identities   Recall that for any angle , . Prove that and that .    Divide by either or and use quotient identities.     Use a Calculator to Evaluate a Trigonometric Function in Degrees   Use a calculator to evaluate . Round your answer to four decimal places.     .     Use a Calculator to Evaluate a Trigonometric Function in Radians   Use a calculator to evaluate . Round your answer to four decimal places.     .     Applications using Right Triangles   The ramp of a moving truck touches the ground away from the end of the truck. If the ramp makes an angle of with the ground, how long is the ramp? Round your answer to two decimal places and include the correct units in your answer.    The ramp is approximately long.     Applications using Right Triangles   A telephone pole is tall. A guy wire long is attached from the ground to the top of the pole. Find the angle between the wire and the pole to the nearest degree.    The angle between the wire and the pole is approximately .     Using Reference Angles to Evaluate Trigonometric Functions   Suppose the point is a point on the terminal side of an angle in standard position. Draw the reference triangle for this point, label the sides and the reference angle, and find the exact value of the six trigonometric functions of .     A reference triangle for the point . The angle is in standard position, and the reference angle is labeled as the angle between the hypotenuse and the negative x-axis. The triangle is a right triangle with one vertex at the origin, one vertex at the point , and the last vertex on the point . The side adjacent to has length , the side opposite has length , and the hypotenuse has length .    The six trigonometric functions of are calculated below.      Finding the Quadrant of an Angle   If and , in which quadrant does the angle lie?    The angle lies in Quadrant 4.     Finding the Quadrant of an Angle   If and , in which quadrant does the angle lie?    The angle lies in Quadrant 3.     Finding the value of a Trigonometric Function of a Negative Angle   Find the exact value of using the fact that sine is an odd function. You may have to use additional techniques in addition to the oddness of sine to get a final answer.     .     Use the Periodicity of Sine or Cosine to Evaluate a Trigonometric Function   Use the periodicity of cosine to evaluate . You may have to use additional techniques in addition to the periodicity of cosine to get a final answer.     .     Graph a Transformation of a Sine Function   Graph one period of the function . Identify the amplitude, period, phase shift, and vertical shift of the function.                             The graph of plotted on . A line segment measuring the distance from to is labeled, \"One period of .\"       Graph a Transformation of a Cosine Function   Graph one period of the function . Identify the amplitude, period, phase shift, and vertical shift of the function.                             The graph of plotted on . A line segment measuring the distance from to is labeled, \"One period of .\"      "
@@ -3835,22 +3835,1156 @@ var ptx_lunr_docs = [
   "body": " Chapter 1   Text before the first section.            "
 },
 {
-  "id": "statistics-chapter1",
+  "id": "stats-ch1-data-thought-process",
   "level": "1",
-  "url": "statistics-chapter1.html",
-  "type": "Chapter",
-  "number": "17",
-  "title": "Chapter 1",
-  "body": " Chapter 1   Text before the first section.            "
+  "url": "stats-ch1-data-thought-process.html",
+  "type": "Section",
+  "number": "17.1",
+  "title": "Data and the Thought Process of Statistics",
+  "body": " Data and the Thought Process of Statistics   Statistics are widely used in everyday life, from crime and sports to education and real estate. Whether reading a newspaper, watching TV, or browsing the internet, we often encounter statistical information based on samples. This data helps assess the accuracy of claims to help us all make better and informed decisions. Understanding statistical methods is essential for analyzing information thoughtfully, whether buying a house, managing a budget, or working in fields like economics, business, psychology, biology, or law. This module introduces the fundamentals of statistics including the mindset for being a statistics student, learning the relevant definitions, explaining how data is collected, and how to identify reliable data.    Data and Statistics  Before diving into the details of statistics, we need to define what statistics actually is. Since statistics relies on data, that is where we will begin.   What is Data?   Data is any collections of observations, counts, measurements, or survey responses.    Examples of data include:    An instructor asks students how many hours they studied last week, with responses ranging from 30 minutes to 4 hours. These responses are considered data.  A survey online asks users to identify their favorite fast food restaurant. Responses like Zaxby's and McDonald's are considered data.    Now that we have a basic understanding of what data is, we can proceed to define what the science of statistics should entail.   What is Statistics?   Statistics is the science of collecting, organizing, analyzing, and interpreting data from a sample to draw conclusions about a population.    We know what data is, but what does it mean to \"collect, organize, analyze, and interpret data from a sample to make inferences about a population\"? That is the focus of this course.  The course is structured as follows:    Chapter 1 introduces the best ways to collect data and ensures it represents the real world.  Chapters 2 and 3 focus on organizing and analyzing data.  Chapters 7-10 teach us how to interpret data from a sample to draw conclusions about a population.    Statistics is a process you will learn throughout the semester; it is not something mastered in a day. You may be wondering about Chapters 4-6. These chapters cover probability and probability distributions, which are essential for understanding the inferences we make in Chapters 7-10. While Chapters 4-6 are the most theoretical and challenging, they provide the foundation needed for the rest of the course.  By the end of this course, you will be equipped to understand and apply statistical methods confidently.   "
 },
 {
-  "id": "statistics-chapter2",
+  "id": "stats-ch1-def-data",
+  "level": "2",
+  "url": "stats-ch1-data-thought-process.html#stats-ch1-def-data",
+  "type": "Definition",
+  "number": "17.1.1",
+  "title": "What is Data?",
+  "body": " What is Data?   Data is any collections of observations, counts, measurements, or survey responses.   "
+},
+{
+  "id": "stats-ch1-def-statistics",
+  "level": "2",
+  "url": "stats-ch1-data-thought-process.html#stats-ch1-def-statistics",
+  "type": "Definition",
+  "number": "17.1.2",
+  "title": "What is Statistics?",
+  "body": " What is Statistics?   Statistics is the science of collecting, organizing, analyzing, and interpreting data from a sample to draw conclusions about a population.   "
+},
+{
+  "id": "stats-ch1-population-sample",
   "level": "1",
-  "url": "statistics-chapter2.html",
-  "type": "Chapter",
-  "number": "18",
-  "title": "Chapter 2",
-  "body": " Chapter 2   Text before the first section.            "
+  "url": "stats-ch1-population-sample.html",
+  "type": "Section",
+  "number": "17.2",
+  "title": "Samples and Their Populations",
+  "body": " Samples and Their Populations   Statistics operates by using studies, surveys, polls, and other data collection tools to gather information from a subset of a larger group, allowing insights about the entire group. This principle reflects the core purpose of statistics and the objective of this course: understanding some larger group by analyzing data from a representative subset. In this section, we will discuss the difference between the larger group, called a population, and the subset of that group, called a sample.    Populations  In data science, we want to understand the behavior of a population of interest. There are two main ways to do this: take a census or a sample. But before we talk about censuses and samples, we need to define what a population is.   What is a Population?   A population is the complete collection of all individuals to be studied.  Individuals often refer to people, but not always. For example, individuals can also refer to animals in a wildlife study, products in a quality control inspection, plants in a botanical experiment, or even stars in an astronomical survey.    Consider the example of products in a quality control inspection. As the manufacturer, you want all your products to be free of defects. You have two options: test every product or test a small selection and use the results to evaluate the entire product line. Most manufacturers choose the latter because testing every product is more expensive and may damage or destroy the items being tested.  This example highlights the difference between a census, which involves testing every product, and a sample, which involves testing only a subset. Let's define these terms further.   What is a Census?   A census collects data from every member of a population.  Examples include:    The U.S. Population Census, which gathers data to determine congressional representation and allocate government funding.  A professor surveying all their students about their average nightly sleep habits.  Collecting scores from all competitors in an ice skating competition.      While it is easy to conduct a census for small populations, like students in a class or competitors in a sporting event, large-scale efforts like the U.S. Population Census are expensive and often incomplete. Challenges such as inaccessible locations, nonresponses, and underreporting make a full count impossible. However, it is still called a census because it aims to include everyone, using statistical tools to adjust for underreported groups and ensure representativeness. Due to the high cost and labor involved in large-scale censuses, many studies focus on samples instead, which we now define.   What is a sample?   A sample is a subset of members selected from a population.  Examples include:    Political polls study a randomly selected group of households across various states to estimate trends for the entire U.S. population. This approach is more efficient and cost-effective than conducting a full census, as political organizations and journalists lack the resources or time for a true census.  The professor surveys only 5 of their 30 students about their sleep habits, rather than collecting data from every student.  The top 8 scores from a competition are sampled to assess whether the overall skill level of the athletes is improving.        Populations Versus Samples  The differences between populations and samples are not always clear. Let's explore a few examples so we understand clearly what is a population and what is a sample. These first two examples, it is pretty clear cut what is a population and what is a sample.   Example 1   Determine the population and sample for the given situation: A Gallup poll is given to all eligible voters, and there are 2.3 million responses.    The sample in this scenario is the 2.3 million respondents or responses, and the population is all adults eligible to vote.     Example 2   Determine whether the following data is from a population or a sample:    Part A: The age of every fourth person entering a grocery store.  Part B: The major for each student at a community college.        Part A: This data is from a sample because we are collecting age information for only some of the customers, not all of them.  Part B: This data is from a population because the community college has information about all students.      Many times, the difference between a population and a sample is not clear. Be careful with the following examples; they represent common errors in distinguishing a population from a sample.   Example 3   Identify the population and sample for this situation: A company surveys 850 of its employees and finds that 520 are satisfied with their job.    Many people assume the 850 employees is the population because it is a large number, but this is incorrect. A population includes all members of a group, while specific numbers, like 850, generally refer to a sample.  In this case:    The 850 employees surveyed represent a sample of the population of all employees at the company.  The 520 is a statistic calculated from the sample, not the sample itself.       Example 4   An ecologist wants to study the nesting habits of birds in a particular forest. They identify 1800 trees in the northwest region of the forest and randomly select 300 trees to observe. Of those, 120 trees contain nests.    Part A: What is the population the ecologist wants to study?  Part B: What is the sample they obtained?  Part C: About which population can the ecologist draw conclusions?        Part A: The ecologist wants to study all trees in the forest where birds might build nests. The 1800 trees is misleading because it only represents one part of the forest.  Part B: The sample is the 300 trees the ecologist selected to observe because samples include only the individuals from whom data is collected.  Part C: Since the ecologist only observed trees in the northwest region, they can only make inferences about the population of trees in the northwest region, not the entire forest.        Conclusion  Understanding the distinction between populations and samples is fundamental to statistical analysis. Populations represent the entire group under study, while samples are subsets used to make inferences about the population. Although a census provides comprehensive data, it is often impractical for large populations, making sampling a more efficient and feasible approach. Recognizing these differences and correctly identifying populations and samples in various contexts ensures accurate interpretations and better decision-making in studies.   "
+},
+{
+  "id": "stats-ch1-def-population",
+  "level": "2",
+  "url": "stats-ch1-population-sample.html#stats-ch1-def-population",
+  "type": "Definition",
+  "number": "17.2.1",
+  "title": "What is a Population?",
+  "body": " What is a Population?   A population is the complete collection of all individuals to be studied.  Individuals often refer to people, but not always. For example, individuals can also refer to animals in a wildlife study, products in a quality control inspection, plants in a botanical experiment, or even stars in an astronomical survey.   "
+},
+{
+  "id": "stats-ch1-def-census",
+  "level": "2",
+  "url": "stats-ch1-population-sample.html#stats-ch1-def-census",
+  "type": "Definition",
+  "number": "17.2.2",
+  "title": "What is a Census?",
+  "body": " What is a Census?   A census collects data from every member of a population.  Examples include:    The U.S. Population Census, which gathers data to determine congressional representation and allocate government funding.  A professor surveying all their students about their average nightly sleep habits.  Collecting scores from all competitors in an ice skating competition.     "
+},
+{
+  "id": "stats-ch1-def-sample",
+  "level": "2",
+  "url": "stats-ch1-population-sample.html#stats-ch1-def-sample",
+  "type": "Definition",
+  "number": "17.2.3",
+  "title": "What is a sample?",
+  "body": " What is a sample?   A sample is a subset of members selected from a population.  Examples include:    Political polls study a randomly selected group of households across various states to estimate trends for the entire U.S. population. This approach is more efficient and cost-effective than conducting a full census, as political organizations and journalists lack the resources or time for a true census.  The professor surveys only 5 of their 30 students about their sleep habits, rather than collecting data from every student.  The top 8 scores from a competition are sampled to assess whether the overall skill level of the athletes is improving.     "
+},
+{
+  "id": "stats-ch1-pop-sample-example-1",
+  "level": "2",
+  "url": "stats-ch1-population-sample.html#stats-ch1-pop-sample-example-1",
+  "type": "Example",
+  "number": "17.2.4",
+  "title": "Example 1.",
+  "body": " Example 1   Determine the population and sample for the given situation: A Gallup poll is given to all eligible voters, and there are 2.3 million responses.    The sample in this scenario is the 2.3 million respondents or responses, and the population is all adults eligible to vote.   "
+},
+{
+  "id": "stats-ch1-pop-sample-example-2",
+  "level": "2",
+  "url": "stats-ch1-population-sample.html#stats-ch1-pop-sample-example-2",
+  "type": "Example",
+  "number": "17.2.5",
+  "title": "Example 2.",
+  "body": " Example 2   Determine whether the following data is from a population or a sample:    Part A: The age of every fourth person entering a grocery store.  Part B: The major for each student at a community college.        Part A: This data is from a sample because we are collecting age information for only some of the customers, not all of them.  Part B: This data is from a population because the community college has information about all students.     "
+},
+{
+  "id": "stats-ch1-pop-sample-example-3",
+  "level": "2",
+  "url": "stats-ch1-population-sample.html#stats-ch1-pop-sample-example-3",
+  "type": "Example",
+  "number": "17.2.6",
+  "title": "Example 3.",
+  "body": " Example 3   Identify the population and sample for this situation: A company surveys 850 of its employees and finds that 520 are satisfied with their job.    Many people assume the 850 employees is the population because it is a large number, but this is incorrect. A population includes all members of a group, while specific numbers, like 850, generally refer to a sample.  In this case:    The 850 employees surveyed represent a sample of the population of all employees at the company.  The 520 is a statistic calculated from the sample, not the sample itself.     "
+},
+{
+  "id": "stats-ch1-pop-sample-example-4",
+  "level": "2",
+  "url": "stats-ch1-population-sample.html#stats-ch1-pop-sample-example-4",
+  "type": "Example",
+  "number": "17.2.7",
+  "title": "Example 4.",
+  "body": " Example 4   An ecologist wants to study the nesting habits of birds in a particular forest. They identify 1800 trees in the northwest region of the forest and randomly select 300 trees to observe. Of those, 120 trees contain nests.    Part A: What is the population the ecologist wants to study?  Part B: What is the sample they obtained?  Part C: About which population can the ecologist draw conclusions?        Part A: The ecologist wants to study all trees in the forest where birds might build nests. The 1800 trees is misleading because it only represents one part of the forest.  Part B: The sample is the 300 trees the ecologist selected to observe because samples include only the individuals from whom data is collected.  Part C: Since the ecologist only observed trees in the northwest region, they can only make inferences about the population of trees in the northwest region, not the entire forest.     "
+},
+{
+  "id": "stats-ch1-parameter-statistics",
+  "level": "1",
+  "url": "stats-ch1-parameter-statistics.html",
+  "type": "Section",
+  "number": "17.3",
+  "title": "Parameters and Statistics",
+  "body": " Parameters and Statistics   In statistics, understanding the distinction between key concepts is essential for analyzing data effectively. Two foundational terms, parameter and statistic, play a crucial role in summarizing and interpreting information.    Parameters and Statistics   What is a parameter?   A parameter is a numerical measurement describing some characteristic of a population. It is often theoretical and unknown.    An example of a parameter is the average height of all people living in Nashville, TN, and its surrounding suburbs. While it is theoretically possible to measure the height of every individual in the area to determine this parameter, doing so would require a complete census, which is impractical. Many people might refuse to participate, and certain groups, such as homeless individuals or undocumented immigrants, can be difficult to locate and include. As a result, although this exact number exists, the inability to conduct a full census means it will likely remain unknown.  This is why we take samples. While we cannot calculate this number for the entire population, we can measure the heights of a subset of individuals who are willing to participate. The average height calculated from this subset is called a statistic, which is used to estimate the unknown parameter.   What is a statistic?   A statistic is a number that is calculated from and describes some characteristic of a sample. They are used to estimate unknown parameters.    Returning to our Nashville example, we could take a random sample of 500 individuals and calculate their average height. To ensure accuracy, the sample should be randomly selected from different neighborhoods and include a diverse mix of ages, genders, ethnicities, and socio-economic backgrounds. This approach can provide a reasonably accurate estimate of the average height of people living in the Nashville area, provided it is free from bias or sampling errors, which we will discuss shortly.    Telling the Difference Between a Parameter and a Statistic  Parameter and statistic can be confusing terms at first. So, here is a helpful memory device for sorting out which value goes with which group of individuals.   How do I tell the difference between a parameter and a statistic?     Parameter refers to a population (both start with \"p\").  Statistic refers to a sample (both start with \"s\").      Now that we understand the concepts of parameters and statistics, let's explore some examples. As with populations and samples, we will begin with straightforward cases, but our second example will be more ambiguous.   Example 1   For each scenario below, tell if each of the bolded values is a parameter or a statistic. If the value is a statistic, explain what could be changed about the scenario to make the bolded value become a parameter:    Part A: A study of all 2223 passengers aboard the Titanic found that 706 survived when it sank.  Part B: In a large sample of households, the median annual income per household for high school graduates is $19,856 (based on data from the U.S. Census Bureau).  Part C: Among the Senators in the current Congress, 45% are Democrats.  Part D: The author measured the voltage supplied to his home on 40 different days, and the average (mean) value is 123.7 volts.        Part A: The number 706 is a parameter.  Part B: The value $19,856 is a statistic. It would be a parameter by removing \"sample of households\" and adding \"all the households in Tennessee\" or \"every household in the county\" to indicate it is a complete collection of households.  Part C: The percentage 45% is a parameter.  Part D: The value 123.7 is a statistic. This would be a parameter if the \"40 different days\" was changed to \"all 365 days of the year\" or \"all 30 days of this month\" to indicate that the voltage measurements are a complete collection.       Example 2   Determine if the boldface number is a parameter or a statistic: In 2022, the average math score for a female student who took the ACT that year was 19.7.    Whether 19.7 is a parameter or a statistic depends on the context of the data:    If we are only considering female students who took the ACT in 2022, then 19.7 would be a parameter because it represents a characteristic of the entire population for that year.  However, if we are studying how the average score changes over multiple years, then 19.7 would be a statistic because it represents a single data point (a sample) in a larger analysis of trends.        Conclusion  Understanding the distinction between parameters and statistics is fundamental in statistical analysis. While parameters describe entire populations, they are often theoretical and difficult to calculate due to practical constraints. Statistics, on the other hand, are calculated from samples and provide a way to estimate these unknown parameters. By carefully designing samples to be representative and minimizing bias, we can make reliable conclusions about populations from data we collect from samples. Using statistics to estimate parameters forms the foundation for much of the work in statistics, allowing us to draw meaningful conclusions from data and apply them to real-world contexts.   "
+},
+{
+  "id": "stats-ch1-def-parameter",
+  "level": "2",
+  "url": "stats-ch1-parameter-statistics.html#stats-ch1-def-parameter",
+  "type": "Definition",
+  "number": "17.3.1",
+  "title": "What is a parameter?",
+  "body": " What is a parameter?   A parameter is a numerical measurement describing some characteristic of a population. It is often theoretical and unknown.   "
+},
+{
+  "id": "stats-ch1-def-statistic",
+  "level": "2",
+  "url": "stats-ch1-parameter-statistics.html#stats-ch1-def-statistic",
+  "type": "Definition",
+  "number": "17.3.2",
+  "title": "What is a statistic?",
+  "body": " What is a statistic?   A statistic is a number that is calculated from and describes some characteristic of a sample. They are used to estimate unknown parameters.   "
+},
+{
+  "id": "stats-ch1-def-parameter-vs-statistic",
+  "level": "2",
+  "url": "stats-ch1-parameter-statistics.html#stats-ch1-def-parameter-vs-statistic",
+  "type": "Definition",
+  "number": "17.3.3",
+  "title": "How do I tell the difference between a parameter and a statistic?",
+  "body": " How do I tell the difference between a parameter and a statistic?     Parameter refers to a population (both start with \"p\").  Statistic refers to a sample (both start with \"s\").     "
+},
+{
+  "id": "stats-ch1-parameter-statistic-example-1",
+  "level": "2",
+  "url": "stats-ch1-parameter-statistics.html#stats-ch1-parameter-statistic-example-1",
+  "type": "Example",
+  "number": "17.3.4",
+  "title": "Example 1.",
+  "body": " Example 1   For each scenario below, tell if each of the bolded values is a parameter or a statistic. If the value is a statistic, explain what could be changed about the scenario to make the bolded value become a parameter:    Part A: A study of all 2223 passengers aboard the Titanic found that 706 survived when it sank.  Part B: In a large sample of households, the median annual income per household for high school graduates is $19,856 (based on data from the U.S. Census Bureau).  Part C: Among the Senators in the current Congress, 45% are Democrats.  Part D: The author measured the voltage supplied to his home on 40 different days, and the average (mean) value is 123.7 volts.        Part A: The number 706 is a parameter.  Part B: The value $19,856 is a statistic. It would be a parameter by removing \"sample of households\" and adding \"all the households in Tennessee\" or \"every household in the county\" to indicate it is a complete collection of households.  Part C: The percentage 45% is a parameter.  Part D: The value 123.7 is a statistic. This would be a parameter if the \"40 different days\" was changed to \"all 365 days of the year\" or \"all 30 days of this month\" to indicate that the voltage measurements are a complete collection.     "
+},
+{
+  "id": "stats-ch1-parameter-statistic-example-2",
+  "level": "2",
+  "url": "stats-ch1-parameter-statistics.html#stats-ch1-parameter-statistic-example-2",
+  "type": "Example",
+  "number": "17.3.5",
+  "title": "Example 2.",
+  "body": " Example 2   Determine if the boldface number is a parameter or a statistic: In 2022, the average math score for a female student who took the ACT that year was 19.7.    Whether 19.7 is a parameter or a statistic depends on the context of the data:    If we are only considering female students who took the ACT in 2022, then 19.7 would be a parameter because it represents a characteristic of the entire population for that year.  However, if we are studying how the average score changes over multiple years, then 19.7 would be a statistic because it represents a single data point (a sample) in a larger analysis of trends.     "
+},
+{
+  "id": "stats-ch1-data-collection-bias",
+  "level": "1",
+  "url": "stats-ch1-data-collection-bias.html",
+  "type": "Section",
+  "number": "17.4",
+  "title": "Data Collection and Bias",
+  "body": " Data Collection and Bias   Effective data collection is essential for reliable statistical studies. Observational studies measure characteristics without intervention, while experiments impose treatments to observe their effects. Key techniques like randomization, replication, and blinding reduce bias and improve accuracy. Understanding and addressing sources of bias, such as response bias and nonresponse, ensures valid and meaningful results.    Data Collection Methods   What is an Observational Study?   In an observational study , a researcher observes and measures characteristics but does not change any existing conditions.     What is an Experiment and a Treatment?   In an experiment , a researcher imposes a change in some preexisting condition, called a treatment , onto a sample of a population and measures their response to that change.     What is a Control Group?   A control group is a sample that receives no treatment and is used as a baseline to compare other samples to.     Example 1   Determine whether the study is observational or an experiment. Explain your reasoning.    Part A: In a survey of 1033 US adults, 51% of respondents said that US presidents should release all medical information that might affect their ability to serve.  Part B: Researchers demonstrated that adults using an intensive program to lower systolic blood pressure to less than 120 millimeters of mercury reduce the risk of death from all causes by 27%.        Part A: Observational study. The researchers surveyed respondents and recorded their opinions without imposing any changes or treatments. No variables were manipulated.  Part B: Experiment. The researchers imposed a treatment by implementing an intensive program to lower systolic blood pressure. They then measured the participants' responses (reduction in the risk of death).        Elements of a Well-Designed Study   What is Replication?   Replication assigns enough individuals to each treatment to reduce the variation in the results. This ensures that similar experiments conducted under the same conditions will yield similar results.  For example, a medical researcher is testing the effectiveness of a new drug to lower blood pressure. To ensure reliable results, the researcher assigns 500 participants to the treatment group (receiving the drug) and 500 participants to the control group (receiving a placebo). By assigning a large number of participants to each group, the researcher reduces the variability in results that might occur due to chance or individual differences. Replication ensures that the outcomes are consistent and reproducible if the experiment is repeated under the same conditions.  We will learn in Chapter 6 why larger sample sizes lead to less variation.     What is Randomization?   Randomization selects subjects randomly so that variations in results occur purely by chance, not external factors.  For example, in a clinical trial testing a pain medication, 200 participants are randomly assigned to two groups: 100 receive the medication, and 100 receive a placebo. Randomization ensures that differences between the groups are due to the treatment and not factors like age or health.  As the study is replicated, probability theory, the subject of Chapter 4, predicts that the effects of random variation diminish. Consistently similar results across replications increase confidence that the findings reflect the true population characteristics.     Example 2   In statistics, it is often said that a single data study does not prove a result. Explain why this is true.    A single study does not prove a result because of the following issues.    Any single study is subject to random variation due to chance, as a sample may not perfectly represent the population. This error can cause the results to differ from the true population characteristics purely by chance.  Without replication, it is difficult to determine whether the observed result is reliable or simply due to random variation. A single study cannot confirm the consistency of findings across repeated experiments.       What is Blinding?   Blinding ensures that subjects do not know whether they are receiving a placebo or an actual treatment. This reduces the risk of bias caused by participants' expectations influencing the results.  What is a Single-Blind Experiment? In a single-blind experiment, the participants do not know whether they are receiving the treatment or a placebo, but the researchers administering the treatment do know.  For example, in a clinical trial testing a new allergy medication, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. The participants do not know which group they are in, but the researchers administering the medication do. This prevents participants' expectations from influencing the results, though it still leaves room for potential researcher bias.  What is a Double-Blind Experiment? In a double-blind experiment, neither the participants nor the researchers administering the treatment know who is receiving the treatment or the placebo.  For example, in the same allergy medication trial, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. Neither the participants nor the researchers administering the treatment know who is in which group. This eliminates both participant and researcher bias, ensuring that the results are as unbiased as possible.     Example 3   An experiment that claimed to show that meditation reduces anxiety proceeded as follows:  The experimenter interviewed the subjects and rated their level of anxiety. Then the subjects were randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply told to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety levels. The meditation group now had less anxiety.  Psychologists said that the results were suspect because the ratings were not blind. Explain what this means and show how the lack of blindness could introduce bias into the reported results.    The psychologists' concern about the lack of blindness refers to the fact that the experimenter, who rated the subjects' anxiety levels both before and after the experiment, knew which group each subject belonged to (meditation or relaxation). This lack of blindness could introduce bias in the following ways:    The experimenter might have unconsciously expected the meditation group to show greater improvement, leading them to rate that group's anxiety levels more favorably.  Since the experimenter knew the treatment assignments, their personal beliefs about meditation's effectiveness could have influenced their ratings, even if unintentionally.    To reduce bias, the experimenter could have implemented a double-blind procedure. In a double-blind experiment, the experimenter conducting the interviews would not know which group each subject was in. This would ensure that the ratings are based solely on the subjects' behavior and responses, without being influenced by the experimenter's expectations.  By using proper blinding, the anxiety ratings would be less likely to reflect the experimenter's or subjects' biases, leading to more reliable and unbiased results.      Common Sources of Bias in Statistical Study  Accurate data collection is the foundation of any statistical analysis, providing the raw information needed to draw meaningful conclusions about populations. However, the process of collecting data is not without its challenges. This section explores key aspects of data collection and common sources of bias, including response bias, wording effects, and nonresponse. By understanding these challenges, we can design better methods for collecting high-quality data and minimize the impact of bias on our results.   What is Response Bias?   Response bias occurs when the behavior of the respondent or the interviewer influences the response that the respondent gives. This can result in inaccurate or misleading data that does not accurately represent the population being studied.     Example 4   When asked a question such as, \"Did you vote in the last presidential election?\", many people will indicate they voted when in reality they did not. Why do you think people lied, and why is this an example of response bias?    Many people lie in response to this question because voting is socially desirable. People may feel pressure to give an answer that aligns with societal expectations, even if it is not truthful. This is an example of response bias because the respondent's behavior (lying to conform to expectations) influences the data, making it inaccurate.     What are Wording Effects?   Wording effects occur when the phrasing, choice of words, or order in which questions are asked affects the responses collected. Even slight changes in how a question is framed can result in significantly different answers, which can introduce bias into the data.     Example 5   Which question do you think people agreed more with?    Question A: Is the government spending too much on assistance to the poor?  Question B: Is the government spending too much on welfare?    Discuss how the choice of words could affect how people respond to these questions.    People are more likely to agree with Question A because the phrase \"assistance to the poor\" evokes a sense of helping those in need. In contrast, the term \"welfare\" may carry negative connotations for some people, as it is often associated with misuse or dependency. This demonstrates how subtle changes in wording can influence how respondents perceive and answer questions, a key example of wording effects.     What is Nonresponse?   Nonresponse occurs when a respondent refuses to participate or cannot be reached. This results in missing data and can skew the results if the nonrespondents differ systematically from those who do respond.     Example 6   An opinion poll calls 2000 randomly chosen households and asks an adult member of the household, \"How many movies have you watched in a movie theater in the last 12 months?\" Only 831 people responded.    What is the rate of nonresponse?  Why do you think the nonresponse rate was so high?      The total number of households contacted was 2000, and the number of responses was 831. To calculate the rate of nonresponse:   The nonresponse rate is 58.45%, which is quite high. The likely reasons include:    People may not answer calls from unknown numbers or may be busy when called.  Some people may not feel comfortable sharing personal information, such as how often they go to the movies.  The question may not seem relevant to everyone, leading to disengagement.        Conclusion  Accurate statistical results rely on well-designed studies that minimize bias and random variation. Incorporating replication, randomization, and blinding enhances reliability, while addressing issues like response bias, wording effects, and nonresponse improves data quality. Proactively identifying and mitigating these challenges during study design ensures results are both valid and reproducible, forming a strong basis for meaningful analysis and decision-making.   "
+},
+{
+  "id": "stats-ch1-def-observational-study",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-observational-study",
+  "type": "Definition",
+  "number": "17.4.1",
+  "title": "What is an Observational Study?",
+  "body": " What is an Observational Study?   In an observational study , a researcher observes and measures characteristics but does not change any existing conditions.   "
+},
+{
+  "id": "stats-ch1-def-experiment-treatment",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-experiment-treatment",
+  "type": "Definition",
+  "number": "17.4.2",
+  "title": "What is an Experiment and a Treatment?",
+  "body": " What is an Experiment and a Treatment?   In an experiment , a researcher imposes a change in some preexisting condition, called a treatment , onto a sample of a population and measures their response to that change.   "
+},
+{
+  "id": "stats-ch1-def-control-group",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-control-group",
+  "type": "Definition",
+  "number": "17.4.3",
+  "title": "What is a Control Group?",
+  "body": " What is a Control Group?   A control group is a sample that receives no treatment and is used as a baseline to compare other samples to.   "
+},
+{
+  "id": "stats-ch1-observation-experiment-example-1",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-observation-experiment-example-1",
+  "type": "Example",
+  "number": "17.4.4",
+  "title": "Example 1.",
+  "body": " Example 1   Determine whether the study is observational or an experiment. Explain your reasoning.    Part A: In a survey of 1033 US adults, 51% of respondents said that US presidents should release all medical information that might affect their ability to serve.  Part B: Researchers demonstrated that adults using an intensive program to lower systolic blood pressure to less than 120 millimeters of mercury reduce the risk of death from all causes by 27%.        Part A: Observational study. The researchers surveyed respondents and recorded their opinions without imposing any changes or treatments. No variables were manipulated.  Part B: Experiment. The researchers imposed a treatment by implementing an intensive program to lower systolic blood pressure. They then measured the participants' responses (reduction in the risk of death).     "
+},
+{
+  "id": "stats-ch1-def-replication",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-replication",
+  "type": "Definition",
+  "number": "17.4.5",
+  "title": "What is Replication?",
+  "body": " What is Replication?   Replication assigns enough individuals to each treatment to reduce the variation in the results. This ensures that similar experiments conducted under the same conditions will yield similar results.  For example, a medical researcher is testing the effectiveness of a new drug to lower blood pressure. To ensure reliable results, the researcher assigns 500 participants to the treatment group (receiving the drug) and 500 participants to the control group (receiving a placebo). By assigning a large number of participants to each group, the researcher reduces the variability in results that might occur due to chance or individual differences. Replication ensures that the outcomes are consistent and reproducible if the experiment is repeated under the same conditions.  We will learn in Chapter 6 why larger sample sizes lead to less variation.   "
+},
+{
+  "id": "stats-ch1-def-randomization",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-randomization",
+  "type": "Definition",
+  "number": "17.4.6",
+  "title": "What is Randomization?",
+  "body": " What is Randomization?   Randomization selects subjects randomly so that variations in results occur purely by chance, not external factors.  For example, in a clinical trial testing a pain medication, 200 participants are randomly assigned to two groups: 100 receive the medication, and 100 receive a placebo. Randomization ensures that differences between the groups are due to the treatment and not factors like age or health.  As the study is replicated, probability theory, the subject of Chapter 4, predicts that the effects of random variation diminish. Consistently similar results across replications increase confidence that the findings reflect the true population characteristics.   "
+},
+{
+  "id": "stats-ch1-replication-example-2",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-replication-example-2",
+  "type": "Example",
+  "number": "17.4.7",
+  "title": "Example 2.",
+  "body": " Example 2   In statistics, it is often said that a single data study does not prove a result. Explain why this is true.    A single study does not prove a result because of the following issues.    Any single study is subject to random variation due to chance, as a sample may not perfectly represent the population. This error can cause the results to differ from the true population characteristics purely by chance.  Without replication, it is difficult to determine whether the observed result is reliable or simply due to random variation. A single study cannot confirm the consistency of findings across repeated experiments.     "
+},
+{
+  "id": "stats-ch1-def-blinding",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-blinding",
+  "type": "Definition",
+  "number": "17.4.8",
+  "title": "What is Blinding?",
+  "body": " What is Blinding?   Blinding ensures that subjects do not know whether they are receiving a placebo or an actual treatment. This reduces the risk of bias caused by participants' expectations influencing the results.  What is a Single-Blind Experiment? In a single-blind experiment, the participants do not know whether they are receiving the treatment or a placebo, but the researchers administering the treatment do know.  For example, in a clinical trial testing a new allergy medication, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. The participants do not know which group they are in, but the researchers administering the medication do. This prevents participants' expectations from influencing the results, though it still leaves room for potential researcher bias.  What is a Double-Blind Experiment? In a double-blind experiment, neither the participants nor the researchers administering the treatment know who is receiving the treatment or the placebo.  For example, in the same allergy medication trial, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. Neither the participants nor the researchers administering the treatment know who is in which group. This eliminates both participant and researcher bias, ensuring that the results are as unbiased as possible.   "
+},
+{
+  "id": "stats-ch1-blinding-example-3",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-blinding-example-3",
+  "type": "Example",
+  "number": "17.4.9",
+  "title": "Example 3.",
+  "body": " Example 3   An experiment that claimed to show that meditation reduces anxiety proceeded as follows:  The experimenter interviewed the subjects and rated their level of anxiety. Then the subjects were randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply told to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety levels. The meditation group now had less anxiety.  Psychologists said that the results were suspect because the ratings were not blind. Explain what this means and show how the lack of blindness could introduce bias into the reported results.    The psychologists' concern about the lack of blindness refers to the fact that the experimenter, who rated the subjects' anxiety levels both before and after the experiment, knew which group each subject belonged to (meditation or relaxation). This lack of blindness could introduce bias in the following ways:    The experimenter might have unconsciously expected the meditation group to show greater improvement, leading them to rate that group's anxiety levels more favorably.  Since the experimenter knew the treatment assignments, their personal beliefs about meditation's effectiveness could have influenced their ratings, even if unintentionally.    To reduce bias, the experimenter could have implemented a double-blind procedure. In a double-blind experiment, the experimenter conducting the interviews would not know which group each subject was in. This would ensure that the ratings are based solely on the subjects' behavior and responses, without being influenced by the experimenter's expectations.  By using proper blinding, the anxiety ratings would be less likely to reflect the experimenter's or subjects' biases, leading to more reliable and unbiased results.   "
+},
+{
+  "id": "stats-ch1-def-response-bias",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-response-bias",
+  "type": "Definition",
+  "number": "17.4.10",
+  "title": "What is Response Bias?",
+  "body": " What is Response Bias?   Response bias occurs when the behavior of the respondent or the interviewer influences the response that the respondent gives. This can result in inaccurate or misleading data that does not accurately represent the population being studied.   "
+},
+{
+  "id": "stats-ch1-response-bias-example-4",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-response-bias-example-4",
+  "type": "Example",
+  "number": "17.4.11",
+  "title": "Example 4.",
+  "body": " Example 4   When asked a question such as, \"Did you vote in the last presidential election?\", many people will indicate they voted when in reality they did not. Why do you think people lied, and why is this an example of response bias?    Many people lie in response to this question because voting is socially desirable. People may feel pressure to give an answer that aligns with societal expectations, even if it is not truthful. This is an example of response bias because the respondent's behavior (lying to conform to expectations) influences the data, making it inaccurate.   "
+},
+{
+  "id": "stats-ch1-def-wording-effects",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-wording-effects",
+  "type": "Definition",
+  "number": "17.4.12",
+  "title": "What are Wording Effects?",
+  "body": " What are Wording Effects?   Wording effects occur when the phrasing, choice of words, or order in which questions are asked affects the responses collected. Even slight changes in how a question is framed can result in significantly different answers, which can introduce bias into the data.   "
+},
+{
+  "id": "stats-ch1-wording-effects-example-5",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-wording-effects-example-5",
+  "type": "Example",
+  "number": "17.4.13",
+  "title": "Example 5.",
+  "body": " Example 5   Which question do you think people agreed more with?    Question A: Is the government spending too much on assistance to the poor?  Question B: Is the government spending too much on welfare?    Discuss how the choice of words could affect how people respond to these questions.    People are more likely to agree with Question A because the phrase \"assistance to the poor\" evokes a sense of helping those in need. In contrast, the term \"welfare\" may carry negative connotations for some people, as it is often associated with misuse or dependency. This demonstrates how subtle changes in wording can influence how respondents perceive and answer questions, a key example of wording effects.   "
+},
+{
+  "id": "stats-ch1-def-nonresponse",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-nonresponse",
+  "type": "Definition",
+  "number": "17.4.14",
+  "title": "What is Nonresponse?",
+  "body": " What is Nonresponse?   Nonresponse occurs when a respondent refuses to participate or cannot be reached. This results in missing data and can skew the results if the nonrespondents differ systematically from those who do respond.   "
+},
+{
+  "id": "stats-ch1-nonresponse-example-6",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-nonresponse-example-6",
+  "type": "Example",
+  "number": "17.4.15",
+  "title": "Example 6.",
+  "body": " Example 6   An opinion poll calls 2000 randomly chosen households and asks an adult member of the household, \"How many movies have you watched in a movie theater in the last 12 months?\" Only 831 people responded.    What is the rate of nonresponse?  Why do you think the nonresponse rate was so high?      The total number of households contacted was 2000, and the number of responses was 831. To calculate the rate of nonresponse:   The nonresponse rate is 58.45%, which is quite high. The likely reasons include:    People may not answer calls from unknown numbers or may be busy when called.  Some people may not feel comfortable sharing personal information, such as how often they go to the movies.  The question may not seem relevant to everyone, leading to disengagement.     "
+},
+{
+  "id": "stats-ch1-levels-measurement",
+  "level": "1",
+  "url": "stats-ch1-levels-measurement.html",
+  "type": "Section",
+  "number": "17.5",
+  "title": "Types of Data and Levels of Measurement",
+  "body": " Types of Data and Levels of Measurement   Understanding data begins with recognizing its classification and the processes used to collect it. Data can broadly be categorized into two classifications, with each providing unique insight into a population or sample, allowing for a more targeted analysis of particular aspects. When collecting data, it is important to implement an appropriate sampling method so that the data can be used to learn something about the population it originated from. This section will detail data types as well as the common sampling methods used to collect that data.    Data Classification  Data originates from either a population or a sample and can be classified into two main categories: qualitative data and quantitative data.   What is Qualitative Data?   Qualitative data (or categorical data) categorizes or describes attributes of a population, often using words or letters but can include labels that are numerical. Examples include:    Hair color (e.g., black, brown)  Blood type (e.g., AB+, O-)  Zip Codes (e.g., 49715, 26537)    This type of data is not generally suited for mathematical analysis, meaning that averages or standard deviations are not meaningful (e.g., you would not be able to calculate an average hair color).     What is Quantitative Data?   Quantitative data represents numerical values obtained by counting or measuring attributes. Examples include:    Weight  Pulse rate  The number of people or objects    Quantitative data is further divided into two subcategories:     Discrete data: Occurs when the possible values are finite or countable (e.g., 0 calls, 1 call, 2 calls, etc.). Examples include:  The number of phone calls made by a telemarketer  The number of classes a student enrolls in during a semester      Continuous data: Consists of infinitely many possible values along a continuous scale with no gaps, interruptions, or jumps (e.g., weight, time, or distance). Examples include:  The weight of a newborn might be 7.5 pounds  The duration of a song might be 3.8 minutes  The distance traveled to work might be 12.3 miles  These measurements can be made as precise as necessary, reflecting the continuous nature of the scale.        Example 1   For each of the following, determine whether the data is quantitative or qualitative. If it is quantitative, specify whether it is discrete or continuous:    Part A: The number of pairs of shoes you own  Part B: The type of car you drive  Part C: The distance from your home to the nearest grocery store  Part D: The number of classes you take per school year  Part E: The type of calculator you use  Part F: Weights of dogs at an animal shelter  Part G: The number of correct answers on a quiz  Part H: The amount of money you spend at the local Quickmart        Part A: Discrete quantitative. The number of pairs of shoes you own is countable (e.g., 1 pair, 2 pairs, 3 pairs, etc.), which makes it quantitative and discrete.  Part B: Qualitative. The type of car you drive (e.g., SUV, sedan, truck) is categorical and cannot be measured or counted, making it qualitative data.  Part C: Continuous quantitative. The distance to the nearest grocery store can be measured along a continuous scale (e.g., 1.5 miles, 3.2 miles), allowing for infinite precision, so it is quantitative and continuous.  Part D: Discrete quantitative. The number of classes you take per school year is countable (e.g., 4 classes, 5 classes, etc.), so it is quantitative and discrete.  Part E: Qualitative. The type of calculator you use (e.g., graphing calculator, scientific calculator) is descriptive and categorical, making it qualitative data.  Part F: Continuous quantitative. The weights of dogs at an animal shelter can be measured along a continuous scale (e.g., 12.7 pounds, 23.4 pounds) with infinite precision, making this data quantitative and continuous.  Part G: Discrete quantitative. The number of correct answers on a quiz is countable (e.g., 1 correct answer, 2 correct answers), so it is quantitative and discrete.  Part H: Discrete quantitative. Although the amount of money spent at a store can include decimals (e.g., $5.75), money is not measured on a continuous scale because it is typically limited to two decimal places (cents). Thus, it is quantitative and discrete.       Example 2   Consider the following information and table, then answer the questions below.    Part A: Which information is categorical data?  Part B: Which information is quantitative data?     Selected Vehicle Data    Make\/Model  Class  Transmission  Cylinders  City MPG  Highway MPG  Annual Fuel Cost    Chevrolet Corvette  Two-Seater  Manual  8  17  29  $2,650    Nissan Cube  Station Wagon  Manual  4  25  30  $1,850    Ford Fusion  Midsize  Automatic  4  23  36  $1,800    Chevrolet Impala  Large  Automatic  6  18  28  $2,400          Part A: Categorical data describes attributes or categories and cannot be measured numerically. From the table, the categorical data includes:  Make\/Model: The names of vehicles, such as \"Chevrolet Corvette\" or \"Nissan Cube.\"  Class: The vehicle category, such as \"Two-Seater\" or \"Midsize.\"  Transmission: The type of transmission, either \"Manual\" or \"Automatic.\"  Cylinders: The number of engine cylinders (e.g., 4, 6, 8) is categorical because it classifies the engine type rather than measuring it.      Part B: Quantitative data includes numerical values obtained by counting or measuring. From the table, the quantitative data includes:  City MPG: The number of miles per gallon in city driving (e.g., 17, 25, 23, etc.).  Highway MPG: The number of miles per gallon in highway driving (e.g., 29, 30, 36, etc.).  Annual Fuel Cost: The cost of fuel for one year, measured in dollars (e.g., $2,650, $1,850).          Example 3: Type of Data from an Image   The registrar at State University keeps records of the number of credit hours students complete each semester. The data collected are summarized in the histogram. The class boundaries are 10 to less than 13, 13 to less than 16, 16 to less than 19, 19 to less than 22, and 22 to less than 25.   Histogram with intervals 10-13, 13-16, 16-19, 19-22, 22-25; bar heights: 250, 580, 740, 625, 240.      Since students would be countable (i.e., 0 students, 1 student, 2 students, etc.) this graph depicts data that is discrete quantitative.      Levels of Measurement  Statistics involves understanding, analyzing, and interpreting data, and a key component is determining the level of measurement of data. Levels of measurement are important because they determine the types of statistical analyses that can be performed and ensure proper interpretation of data. There are four levels of measurement, each building on the previous level:   Different Levels of Measurement     Nominal level: Data at this level are categorized without any order. Examples include gender, eye color, and types of fruits.  Ordinal level: Data are categorized with a meaningful order, but differences between categories are not measurable. Examples include rankings in a competition or survey responses such as \"satisfied,\" \"neutral,\" or \"dissatisfied.\"  Interval level: Data have meaningful order and measurable differences, but no true zero point. Examples include temperature in Celsius or years on a calendar.  Ratio level: Data have a meaningful order, measurable differences, and a true zero point, allowing for meaningful ratios. Examples include weight, height, or age.       Example 3   Classify the following scenarios by their level of measurement:    Part A: Types of cars (e.g., SUV, sedan, truck).  Part B: The ranking of runners in a race.  Part C: Temperature readings in Fahrenheit.  Part D: The time it takes for participants to complete a task, measured in seconds.        Part A: Nominal. Types of cars are categorized without order.  Part B: Ordinal. Rankings in a race indicate an order but do not provide measurable differences between positions.  Part C: Interval. Fahrenheit temperatures provide measurable differences but lack a true zero since the zero for this temperature scale is chosen arbitrarily.  Part D: Ratio. Time in seconds includes meaningful differences and a true zero, allowing for ratios.        Conclusion  Understanding the classification of data and its levels of measurement is essential for conducting accurate and meaningful statistical analysis. By distinguishing between qualitative and quantitative data, and recognizing whether data is discrete or continuous, we can better select appropriate methods for summarizing and analyzing information. Similarly, identifying the level of measurement, nominal, ordinal, interval, or ratio, ensures we apply the correct statistical tools and interpret results accurately. These foundational concepts provide the framework for understanding how data is collected, categorized, and analyzed, paving the way for more advanced statistical techniques.   "
+},
+{
+  "id": "stats-ch1-def-qualitative",
+  "level": "2",
+  "url": "stats-ch1-levels-measurement.html#stats-ch1-def-qualitative",
+  "type": "Definition",
+  "number": "17.5.1",
+  "title": "What is Qualitative Data?",
+  "body": " What is Qualitative Data?   Qualitative data (or categorical data) categorizes or describes attributes of a population, often using words or letters but can include labels that are numerical. Examples include:    Hair color (e.g., black, brown)  Blood type (e.g., AB+, O-)  Zip Codes (e.g., 49715, 26537)    This type of data is not generally suited for mathematical analysis, meaning that averages or standard deviations are not meaningful (e.g., you would not be able to calculate an average hair color).   "
+},
+{
+  "id": "stats-ch1-def-quantitative",
+  "level": "2",
+  "url": "stats-ch1-levels-measurement.html#stats-ch1-def-quantitative",
+  "type": "Definition",
+  "number": "17.5.2",
+  "title": "What is Quantitative Data?",
+  "body": " What is Quantitative Data?   Quantitative data represents numerical values obtained by counting or measuring attributes. Examples include:    Weight  Pulse rate  The number of people or objects    Quantitative data is further divided into two subcategories:     Discrete data: Occurs when the possible values are finite or countable (e.g., 0 calls, 1 call, 2 calls, etc.). Examples include:  The number of phone calls made by a telemarketer  The number of classes a student enrolls in during a semester      Continuous data: Consists of infinitely many possible values along a continuous scale with no gaps, interruptions, or jumps (e.g., weight, time, or distance). Examples include:  The weight of a newborn might be 7.5 pounds  The duration of a song might be 3.8 minutes  The distance traveled to work might be 12.3 miles  These measurements can be made as precise as necessary, reflecting the continuous nature of the scale.      "
+},
+{
+  "id": "stats-ch1-data-example-1",
+  "level": "2",
+  "url": "stats-ch1-levels-measurement.html#stats-ch1-data-example-1",
+  "type": "Example",
+  "number": "17.5.3",
+  "title": "Example 1.",
+  "body": " Example 1   For each of the following, determine whether the data is quantitative or qualitative. If it is quantitative, specify whether it is discrete or continuous:    Part A: The number of pairs of shoes you own  Part B: The type of car you drive  Part C: The distance from your home to the nearest grocery store  Part D: The number of classes you take per school year  Part E: The type of calculator you use  Part F: Weights of dogs at an animal shelter  Part G: The number of correct answers on a quiz  Part H: The amount of money you spend at the local Quickmart        Part A: Discrete quantitative. The number of pairs of shoes you own is countable (e.g., 1 pair, 2 pairs, 3 pairs, etc.), which makes it quantitative and discrete.  Part B: Qualitative. The type of car you drive (e.g., SUV, sedan, truck) is categorical and cannot be measured or counted, making it qualitative data.  Part C: Continuous quantitative. The distance to the nearest grocery store can be measured along a continuous scale (e.g., 1.5 miles, 3.2 miles), allowing for infinite precision, so it is quantitative and continuous.  Part D: Discrete quantitative. The number of classes you take per school year is countable (e.g., 4 classes, 5 classes, etc.), so it is quantitative and discrete.  Part E: Qualitative. The type of calculator you use (e.g., graphing calculator, scientific calculator) is descriptive and categorical, making it qualitative data.  Part F: Continuous quantitative. The weights of dogs at an animal shelter can be measured along a continuous scale (e.g., 12.7 pounds, 23.4 pounds) with infinite precision, making this data quantitative and continuous.  Part G: Discrete quantitative. The number of correct answers on a quiz is countable (e.g., 1 correct answer, 2 correct answers), so it is quantitative and discrete.  Part H: Discrete quantitative. Although the amount of money spent at a store can include decimals (e.g., $5.75), money is not measured on a continuous scale because it is typically limited to two decimal places (cents). Thus, it is quantitative and discrete.     "
+},
+{
+  "id": "stats-ch1-data-example-2",
+  "level": "2",
+  "url": "stats-ch1-levels-measurement.html#stats-ch1-data-example-2",
+  "type": "Example",
+  "number": "17.5.4",
+  "title": "Example 2.",
+  "body": " Example 2   Consider the following information and table, then answer the questions below.    Part A: Which information is categorical data?  Part B: Which information is quantitative data?     Selected Vehicle Data    Make\/Model  Class  Transmission  Cylinders  City MPG  Highway MPG  Annual Fuel Cost    Chevrolet Corvette  Two-Seater  Manual  8  17  29  $2,650    Nissan Cube  Station Wagon  Manual  4  25  30  $1,850    Ford Fusion  Midsize  Automatic  4  23  36  $1,800    Chevrolet Impala  Large  Automatic  6  18  28  $2,400          Part A: Categorical data describes attributes or categories and cannot be measured numerically. From the table, the categorical data includes:  Make\/Model: The names of vehicles, such as \"Chevrolet Corvette\" or \"Nissan Cube.\"  Class: The vehicle category, such as \"Two-Seater\" or \"Midsize.\"  Transmission: The type of transmission, either \"Manual\" or \"Automatic.\"  Cylinders: The number of engine cylinders (e.g., 4, 6, 8) is categorical because it classifies the engine type rather than measuring it.      Part B: Quantitative data includes numerical values obtained by counting or measuring. From the table, the quantitative data includes:  City MPG: The number of miles per gallon in city driving (e.g., 17, 25, 23, etc.).  Highway MPG: The number of miles per gallon in highway driving (e.g., 29, 30, 36, etc.).  Annual Fuel Cost: The cost of fuel for one year, measured in dollars (e.g., $2,650, $1,850).        "
+},
+{
+  "id": "stats-ch1-data-example-3",
+  "level": "2",
+  "url": "stats-ch1-levels-measurement.html#stats-ch1-data-example-3",
+  "type": "Example",
+  "number": "17.5.6",
+  "title": "Example 3: Type of Data from an Image.",
+  "body": " Example 3: Type of Data from an Image   The registrar at State University keeps records of the number of credit hours students complete each semester. The data collected are summarized in the histogram. The class boundaries are 10 to less than 13, 13 to less than 16, 16 to less than 19, 19 to less than 22, and 22 to less than 25.   Histogram with intervals 10-13, 13-16, 16-19, 19-22, 22-25; bar heights: 250, 580, 740, 625, 240.      Since students would be countable (i.e., 0 students, 1 student, 2 students, etc.) this graph depicts data that is discrete quantitative.   "
+},
+{
+  "id": "stats-ch1-def-measurement-levels",
+  "level": "2",
+  "url": "stats-ch1-levels-measurement.html#stats-ch1-def-measurement-levels",
+  "type": "Definition",
+  "number": "17.5.8",
+  "title": "Different Levels of Measurement.",
+  "body": " Different Levels of Measurement     Nominal level: Data at this level are categorized without any order. Examples include gender, eye color, and types of fruits.  Ordinal level: Data are categorized with a meaningful order, but differences between categories are not measurable. Examples include rankings in a competition or survey responses such as \"satisfied,\" \"neutral,\" or \"dissatisfied.\"  Interval level: Data have meaningful order and measurable differences, but no true zero point. Examples include temperature in Celsius or years on a calendar.  Ratio level: Data have a meaningful order, measurable differences, and a true zero point, allowing for meaningful ratios. Examples include weight, height, or age.     "
+},
+{
+  "id": "stats-ch1-measurement-example-1",
+  "level": "2",
+  "url": "stats-ch1-levels-measurement.html#stats-ch1-measurement-example-1",
+  "type": "Example",
+  "number": "17.5.9",
+  "title": "Example 3.",
+  "body": " Example 3   Classify the following scenarios by their level of measurement:    Part A: Types of cars (e.g., SUV, sedan, truck).  Part B: The ranking of runners in a race.  Part C: Temperature readings in Fahrenheit.  Part D: The time it takes for participants to complete a task, measured in seconds.        Part A: Nominal. Types of cars are categorized without order.  Part B: Ordinal. Rankings in a race indicate an order but do not provide measurable differences between positions.  Part C: Interval. Fahrenheit temperatures provide measurable differences but lack a true zero since the zero for this temperature scale is chosen arbitrarily.  Part D: Ratio. Time in seconds includes meaningful differences and a true zero, allowing for ratios.     "
+},
+{
+  "id": "stats-ch1-sampling-methods",
+  "level": "1",
+  "url": "stats-ch1-sampling-methods.html",
+  "type": "Section",
+  "number": "17.6",
+  "title": "Sampling Techniques and Errors",
+  "body": " Sampling Techniques and Errors   Sampling techniques are essential for collecting data efficiently when surveying an entire population is impractical or too costly. Random sampling methods aim to ensure that samples represent the population by reducing bias and allowing for accurate generalizations. Nonrandom sampling methods, while simpler, often introduce bias and limit the reliability of conclusions. This section explores common sampling techniques, errors that can arise during sampling, and methods to mitigate these issues.    Sampling Techniques  Sampling is used when gathering data from an entire population is impractical or too expensive. A sample should represent the population's characteristics, and random sampling methods help achieve this.   What are the Common Sampling Techniques?   These are not an exhaustive list, just the most common types you are likely to encounter.  Random Sampling Techniques    Simple Random Sampling: Every individual in the population has an equal chance of being selected, ensuring that all samples of the same size are equally likely.  Stratified Sampling: Divide the population into groups (strata) and take a proportionate random sample from each group. For instance, sample students from various departments to represent a college population.  Cluster Sampling: Divide the population into clusters, then randomly select some clusters and include all members from those clusters in the sample. For example, randomly select departments in a college and survey all their students.  Systematic Sampling: Randomly select a starting point and pick every nth member from a population list. For example, choose every 50th name in a phone book for a survey.    Non-Random Sampling Techniques    Convenience Sampling: Individuals are chosen based on accessibility and ease rather than randomness. For example, surveying the first 20 people entering a grocery store about their shopping habits.      Nonrandom sampling methods, such as convenience sampling, should generally be avoided as they can lead to biased results. For example, surveying the first 20 customers entering a coffee shop might overrepresent certain groups, such as early risers or individuals with flexible schedules, while excluding others, like night-shift workers.  Random sampling methods aim to reduce bias and ensure representativeness by giving all individuals an equal chance of selection. However, even random sampling is subject to random sampling error, where chance variations may cause the sample to differ from the population. Larger sample sizes reduce this error, improving the reliability of the results. Researchers must also address nonrandom sampling errors like undercoverage, nonresponse, and volunteer response bias, as these can further skew results. We will discuss these sampling errors shortly.  For now, we want to focus on identifying the common types of sampling techniques.   Example 1   A study intends to determine the average tuition paid by Tennessee Technological University undergraduate students per semester. Identify the sampling method used in each scenario:    Part A: Organize students by year (e.g., first-year, sophomore), then select 25 from each.  Part B: Use a random number generator to select one student, then pick every 50th student until 75 students are included.  Part C: Select 75 students completely at random, with equal probability for all.  Part D: Randomly pick two years (e.g., first-year and senior), and survey all students in those years.  Part E: Survey the first 100 students encountered in front of the library on a specific day.        Part A: Stratified Sampling. Students are grouped by year and sampled proportionally.  Part B: Systematic Sampling. A starting point is randomly selected, and every 50th student is chosen.  Part C: Simple Random Sampling. All students have an equal probability of selection.  Part D: Cluster Sampling. Entire years are selected, and all students in those years are included.  Part E: Convenience Sampling. Students are chosen based on availability, leading to potential bias.        Sampling Errors   What is a Random Sampling Error?   A random sampling error occurs when there is a discrepancy between a sample result and the true population result. This type of error arises purely due to chance, as a sample is only a subset of the population and may not perfectly represent it. For example, if a random sample of 50 students is drawn from a school of 1,000, the sample mean test score might differ slightly from the population mean simply by chance.  Key point: Random sampling error is unavoidable in any sampling process but can be minimized by increasing the sample size.     What is a Nonrandom Sampling Error?   There are three important types of nonrandom sampling errors: undercoverage, nonresponse, and volunteer response.    What is Undercoverage? Undercoverage occurs when some groups in the population are systematically excluded from the sampling process, making the sample unrepresentative of the entire population. Example: A survey conducted by randomly calling landline phone numbers will exclude people who only use cell phones, such as younger adults, leading to biased results.  What is Nonresponse? Nonresponse occurs when a portion of the selected sample does not participate in the study, and their responses may differ systematically from those who do respond. Example: In a mail survey asking about personal finances, people who feel uncomfortable sharing financial information may choose not to respond, skewing the results toward those who are more open about their finances.  What is a Volunteer Response? Volunteer response occurs when participants self-select into the sample rather than being randomly chosen, often leading to an overrepresentation of individuals with strong opinions. Example: An online poll about a controversial policy is likely to attract participants who feel strongly for or against the policy, while those who are neutral or indifferent are less likely to respond.       Example 2   A university is conducting a study to understand student preferences for campus dining options. The following scenarios describe how data was collected. Identify the type of nonrandom sampling error for each part and explain your reasoning.    Part A: The university posts a survey link on its social media pages and encourages students to share their opinions. Most responses come from students who are either very satisfied or very dissatisfied with campus dining options.  Part B: The university randomly emails 1,000 students asking them to complete the survey. Only 250 students respond, and many of the responses are from students who frequently use campus dining services.  Part C: The university conducts the survey at a single campus dining hall during lunchtime. Students who do not use the dining hall or eat lunch on campus are excluded from the sample.        Part A: Volunteer response. The survey link was shared publicly, allowing students to self-select into the sample. This leads to volunteer response bias, as students with strong opinions are more likely to participate, while those with neutral opinions are underrepresented.  Part B: Nonresponse. Out of the 1,000 students contacted, only 250 responded, creating nonresponse bias. The opinions of nonrespondents may differ systematically from those of respondents, particularly since frequent diners are overrepresented in the responses.  Part C: Undercoverage. The survey was conducted at a single dining hall during lunchtime, excluding students who do not use the dining hall or eat lunch on campus. This undercoverage results in a sample that is not representative of the entire student population.       What is a Non-sampling Error?   A non-sampling error is caused by human error or flaws in the data collection process. These errors can occur regardless of how the sample is chosen. Examples include mistyping data into a computer, misinterpreting survey questions, or using faulty measuring instruments.  Key point: Non-sampling errors can often be reduced by careful planning, training, and implementing quality control measures during data collection and entry.      Conclusion  Effective sampling is key to obtaining reliable and meaningful data. Random sampling methods, like stratified and systematic sampling, reduce bias and provide representative samples, while nonrandom methods, such as convenience sampling, often produce unreliable results. Identifying and addressing common sampling errors, including undercoverage and nonresponse, further improves the quality of data collection. By carefully selecting sampling techniques and minimizing errors, researchers can ensure their findings are accurate and applicable.   "
+},
+{
+  "id": "stats-ch1-def-sampling-techniques",
+  "level": "2",
+  "url": "stats-ch1-sampling-methods.html#stats-ch1-def-sampling-techniques",
+  "type": "Definition",
+  "number": "17.6.1",
+  "title": "What are the Common Sampling Techniques?",
+  "body": " What are the Common Sampling Techniques?   These are not an exhaustive list, just the most common types you are likely to encounter.  Random Sampling Techniques    Simple Random Sampling: Every individual in the population has an equal chance of being selected, ensuring that all samples of the same size are equally likely.  Stratified Sampling: Divide the population into groups (strata) and take a proportionate random sample from each group. For instance, sample students from various departments to represent a college population.  Cluster Sampling: Divide the population into clusters, then randomly select some clusters and include all members from those clusters in the sample. For example, randomly select departments in a college and survey all their students.  Systematic Sampling: Randomly select a starting point and pick every nth member from a population list. For example, choose every 50th name in a phone book for a survey.    Non-Random Sampling Techniques    Convenience Sampling: Individuals are chosen based on accessibility and ease rather than randomness. For example, surveying the first 20 people entering a grocery store about their shopping habits.     "
+},
+{
+  "id": "stats-ch1-sampling-example-1",
+  "level": "2",
+  "url": "stats-ch1-sampling-methods.html#stats-ch1-sampling-example-1",
+  "type": "Example",
+  "number": "17.6.2",
+  "title": "Example 1.",
+  "body": " Example 1   A study intends to determine the average tuition paid by Tennessee Technological University undergraduate students per semester. Identify the sampling method used in each scenario:    Part A: Organize students by year (e.g., first-year, sophomore), then select 25 from each.  Part B: Use a random number generator to select one student, then pick every 50th student until 75 students are included.  Part C: Select 75 students completely at random, with equal probability for all.  Part D: Randomly pick two years (e.g., first-year and senior), and survey all students in those years.  Part E: Survey the first 100 students encountered in front of the library on a specific day.        Part A: Stratified Sampling. Students are grouped by year and sampled proportionally.  Part B: Systematic Sampling. A starting point is randomly selected, and every 50th student is chosen.  Part C: Simple Random Sampling. All students have an equal probability of selection.  Part D: Cluster Sampling. Entire years are selected, and all students in those years are included.  Part E: Convenience Sampling. Students are chosen based on availability, leading to potential bias.     "
+},
+{
+  "id": "stats-ch1-def-random-sampling-error",
+  "level": "2",
+  "url": "stats-ch1-sampling-methods.html#stats-ch1-def-random-sampling-error",
+  "type": "Definition",
+  "number": "17.6.3",
+  "title": "What is a Random Sampling Error?",
+  "body": " What is a Random Sampling Error?   A random sampling error occurs when there is a discrepancy between a sample result and the true population result. This type of error arises purely due to chance, as a sample is only a subset of the population and may not perfectly represent it. For example, if a random sample of 50 students is drawn from a school of 1,000, the sample mean test score might differ slightly from the population mean simply by chance.  Key point: Random sampling error is unavoidable in any sampling process but can be minimized by increasing the sample size.   "
+},
+{
+  "id": "stats-ch1-def-nonrandom-sampling-error",
+  "level": "2",
+  "url": "stats-ch1-sampling-methods.html#stats-ch1-def-nonrandom-sampling-error",
+  "type": "Definition",
+  "number": "17.6.4",
+  "title": "What is a Nonrandom Sampling Error?",
+  "body": " What is a Nonrandom Sampling Error?   There are three important types of nonrandom sampling errors: undercoverage, nonresponse, and volunteer response.    What is Undercoverage? Undercoverage occurs when some groups in the population are systematically excluded from the sampling process, making the sample unrepresentative of the entire population. Example: A survey conducted by randomly calling landline phone numbers will exclude people who only use cell phones, such as younger adults, leading to biased results.  What is Nonresponse? Nonresponse occurs when a portion of the selected sample does not participate in the study, and their responses may differ systematically from those who do respond. Example: In a mail survey asking about personal finances, people who feel uncomfortable sharing financial information may choose not to respond, skewing the results toward those who are more open about their finances.  What is a Volunteer Response? Volunteer response occurs when participants self-select into the sample rather than being randomly chosen, often leading to an overrepresentation of individuals with strong opinions. Example: An online poll about a controversial policy is likely to attract participants who feel strongly for or against the policy, while those who are neutral or indifferent are less likely to respond.     "
+},
+{
+  "id": "stats-ch1-sampling-example-2",
+  "level": "2",
+  "url": "stats-ch1-sampling-methods.html#stats-ch1-sampling-example-2",
+  "type": "Example",
+  "number": "17.6.5",
+  "title": "Example 2.",
+  "body": " Example 2   A university is conducting a study to understand student preferences for campus dining options. The following scenarios describe how data was collected. Identify the type of nonrandom sampling error for each part and explain your reasoning.    Part A: The university posts a survey link on its social media pages and encourages students to share their opinions. Most responses come from students who are either very satisfied or very dissatisfied with campus dining options.  Part B: The university randomly emails 1,000 students asking them to complete the survey. Only 250 students respond, and many of the responses are from students who frequently use campus dining services.  Part C: The university conducts the survey at a single campus dining hall during lunchtime. Students who do not use the dining hall or eat lunch on campus are excluded from the sample.        Part A: Volunteer response. The survey link was shared publicly, allowing students to self-select into the sample. This leads to volunteer response bias, as students with strong opinions are more likely to participate, while those with neutral opinions are underrepresented.  Part B: Nonresponse. Out of the 1,000 students contacted, only 250 responded, creating nonresponse bias. The opinions of nonrespondents may differ systematically from those of respondents, particularly since frequent diners are overrepresented in the responses.  Part C: Undercoverage. The survey was conducted at a single dining hall during lunchtime, excluding students who do not use the dining hall or eat lunch on campus. This undercoverage results in a sample that is not representative of the entire student population.     "
+},
+{
+  "id": "stats-ch1-def-non-sampling-error",
+  "level": "2",
+  "url": "stats-ch1-sampling-methods.html#stats-ch1-def-non-sampling-error",
+  "type": "Definition",
+  "number": "17.6.6",
+  "title": "What is a Non-sampling Error?",
+  "body": " What is a Non-sampling Error?   A non-sampling error is caused by human error or flaws in the data collection process. These errors can occur regardless of how the sample is chosen. Examples include mistyping data into a computer, misinterpreting survey questions, or using faulty measuring instruments.  Key point: Non-sampling errors can often be reduced by careful planning, training, and implementing quality control measures during data collection and entry.   "
+},
+{
+  "id": "stats-ch1-experimental-design",
+  "level": "1",
+  "url": "stats-ch1-experimental-design.html",
+  "type": "Section",
+  "number": "17.7",
+  "title": "Experimental Design",
+  "body": " Experimental Design   Experimental design ensures reliable and unbiased results by structuring studies to isolate treatment effects and control variability. This section covers three key designs: completely randomized, randomized block, and matched pairs.    Types of Designs   What is a Completely Randomized Design?   A completely randomized design assigns treatments to subjects entirely at random, without grouping or blocking. This design works well when the subjects are similar and there are no additional variables that need to be controlled.  Example: A clinical trial randomly assigns participants to receive one of three medications to treat high blood pressure. Results are compared across all participants.     Example 1   Many utility companies have introduced programs to encourage energy conservation among their customers. A particular company has three options:    Place a small digital display in households to show current electricity usage.  Give customers a chart and information about monitoring their use from the outside meter.  Use a control group that receives general information about conserving energy but no tools to monitor their use.    Design a flowchart that models this experiment.    The experiment can be modeled using a completely randomized design as follows.  First, we have a block to represent all the individuals in the sample.   The initial block in the flowchart.    Next, we randomly sort the individuals into three groups: one group for each treatment and one placebo group. We label the groups 1, 2, and 3. We draw an arrow from our initial block to each of the three groups.   Groups 1, 2, and 3 are added to the flowchart.    Next, we add a block for each treatment and one for the placebo. We assign the treatments to the groups at random. In the diagram, we then draw an arrow from the group to the treatment it receives. Typically, the treatment block is drawn to the right of the group block it is assigned to.   Added the three treatment types to the flowchart.    Finally, we add a single block at the end indicating that the data is collected, and the results from all the treatment and placebo groups should be compared. In the flowchart, we indicate this by drawing an arrow from each treatment to the Compare Results box, and our flowchart is complete.   Added a block for comparing all the results.       What is a Randomized Block Design?   A randomized block design groups subjects into blocks based on shared characteristics or variables that may influence the results. Treatments are then randomly assigned within each block, and comparisons are made within the blocks.  Example: In a weight loss study, participants are grouped into blocks by gender (for example, male and female). Within each block, participants are randomly assigned to different diet plans, and results are compared separately for males and females.     Example 2   A cosmetics company wants to compare the effectiveness of two facial creams: Cream A, which claims to reduce wrinkles, and Cream B, which claims to improve skin hydration. The company recruits 40 participants and divides them into blocks based on skin type: oily, dry, combination, and sensitive. Each block contains 10 participants. Within each block, participants are randomly assigned to use either Cream A or Cream B for four weeks, and their skin condition is evaluated at the end of the study.  Design a diagram that models this experiment.    This experiment uses a randomized block design, and the flowchart can be designed as follows.  As before, we start with a block to represent all the individuals in the sample.   Start with a block for the random sample.    Next, we add in blocks for the different skin types since the creams may affect different skin types differently. We draw an arrow from the sample to each of the different skin types.   Next, separate the groups by skin type.    Now, we treat each block as its own SRS, and assign members in each block into one of two groups.   Next, sort the blocks into groups.    Since we are treating each block as its own SRS, we assign each group within a block one of the two creams.   Within each block, assign the treatments to the groups. Treat each group as its own SRS.    The whole point of the block design is to account for the different types of skin. So, when we get to the compare results step, we only compare results within each block. This ensures that any differences observed are due to the treatment and not the characteristics defining the blocks.  The final flowchart shown below.   The final part is to compare results among the individual blocks only, not between blocks.       What is a Matched Pairs Design?   A matched pairs design is a special case of the randomized block design where subjects are paired or matched in some way. This design is used to compare two treatments.     Version 1: Pair two individuals based on shared characteristics. Randomly assign one individual in each pair to receive the first treatment, and the other to receive the second treatment. Compare results within each pair.  Example: Two participants of similar age and fitness level are paired. One is assigned to a new exercise routine, and the other follows a standard routine. Their progress is compared after four weeks.    Version 2: Use the same individual for both treatments. Assign one of the treatments to the individual at random, and once the experiment is concluded, apply the other treatment at a later time under similar conditions. Compare the results for that individual.  Example: A participant tests two different types of running shoes by running a set distance with each pair on different days. Their times are compared to determine which shoe performs better.        Example 3   Researchers are studying the effect of two different dashboard layouts on driver reaction times during sudden stops. The two layouts are:    Layout A: A traditional dashboard with analog gauges.  Layout B: A modern digital dashboard with heads-up display features.    Each participant is randomly assigned to use one dashboard layout while completing a driving simulation. After a break, the same participants repeat the simulation with the other dashboard layout under similar conditions. Reaction times are measured during each simulation.  Describe and diagram a matched pairs experiment to determine if the modern dashboard increases safety.    This is a matched-pairs design (Version 2) because each participant serves as their own control by testing both dashboard layouts. As before, we start off with the random sample.   The first block is always the random sample.    Next, assign the participants into one of two groups.   The participants are split evenly into two groups.    Next, randomly assign one of the two treatments to each group.   The group is randomly assigned one of the two treatments.    After a period of time has passed and under similar conditions, the groups are given the other treatment.   At a different time and under similar conditions, the groups do the other treatment.    Finally, you compute the difference in results between the two treatments, and compare all the differences among the participants.   Finally, you compare the differences between the two treatments among all participants.        Conclusion  Good experimental design minimizes bias, controls variability, and ensures valid comparisons. Completely randomized designs work for homogeneous groups, randomized block designs account for shared characteristics, and matched pairs designs allow detailed within-subject or paired comparisons. Proper design leads to meaningful and reliable results.   "
+},
+{
+  "id": "stats-ch1-def-completely-randomized",
+  "level": "2",
+  "url": "stats-ch1-experimental-design.html#stats-ch1-def-completely-randomized",
+  "type": "Definition",
+  "number": "17.7.1",
+  "title": "What is a Completely Randomized Design?",
+  "body": " What is a Completely Randomized Design?   A completely randomized design assigns treatments to subjects entirely at random, without grouping or blocking. This design works well when the subjects are similar and there are no additional variables that need to be controlled.  Example: A clinical trial randomly assigns participants to receive one of three medications to treat high blood pressure. Results are compared across all participants.   "
+},
+{
+  "id": "stats-ch1-experimental-example-1",
+  "level": "2",
+  "url": "stats-ch1-experimental-design.html#stats-ch1-experimental-example-1",
+  "type": "Example",
+  "number": "17.7.2",
+  "title": "Example 1.",
+  "body": " Example 1   Many utility companies have introduced programs to encourage energy conservation among their customers. A particular company has three options:    Place a small digital display in households to show current electricity usage.  Give customers a chart and information about monitoring their use from the outside meter.  Use a control group that receives general information about conserving energy but no tools to monitor their use.    Design a flowchart that models this experiment.    The experiment can be modeled using a completely randomized design as follows.  First, we have a block to represent all the individuals in the sample.   The initial block in the flowchart.    Next, we randomly sort the individuals into three groups: one group for each treatment and one placebo group. We label the groups 1, 2, and 3. We draw an arrow from our initial block to each of the three groups.   Groups 1, 2, and 3 are added to the flowchart.    Next, we add a block for each treatment and one for the placebo. We assign the treatments to the groups at random. In the diagram, we then draw an arrow from the group to the treatment it receives. Typically, the treatment block is drawn to the right of the group block it is assigned to.   Added the three treatment types to the flowchart.    Finally, we add a single block at the end indicating that the data is collected, and the results from all the treatment and placebo groups should be compared. In the flowchart, we indicate this by drawing an arrow from each treatment to the Compare Results box, and our flowchart is complete.   Added a block for comparing all the results.     "
+},
+{
+  "id": "stats-ch1-def-randomized-block",
+  "level": "2",
+  "url": "stats-ch1-experimental-design.html#stats-ch1-def-randomized-block",
+  "type": "Definition",
+  "number": "17.7.7",
+  "title": "What is a Randomized Block Design?",
+  "body": " What is a Randomized Block Design?   A randomized block design groups subjects into blocks based on shared characteristics or variables that may influence the results. Treatments are then randomly assigned within each block, and comparisons are made within the blocks.  Example: In a weight loss study, participants are grouped into blocks by gender (for example, male and female). Within each block, participants are randomly assigned to different diet plans, and results are compared separately for males and females.   "
+},
+{
+  "id": "stats-ch1-experimental-example-2",
+  "level": "2",
+  "url": "stats-ch1-experimental-design.html#stats-ch1-experimental-example-2",
+  "type": "Example",
+  "number": "17.7.8",
+  "title": "Example 2.",
+  "body": " Example 2   A cosmetics company wants to compare the effectiveness of two facial creams: Cream A, which claims to reduce wrinkles, and Cream B, which claims to improve skin hydration. The company recruits 40 participants and divides them into blocks based on skin type: oily, dry, combination, and sensitive. Each block contains 10 participants. Within each block, participants are randomly assigned to use either Cream A or Cream B for four weeks, and their skin condition is evaluated at the end of the study.  Design a diagram that models this experiment.    This experiment uses a randomized block design, and the flowchart can be designed as follows.  As before, we start with a block to represent all the individuals in the sample.   Start with a block for the random sample.    Next, we add in blocks for the different skin types since the creams may affect different skin types differently. We draw an arrow from the sample to each of the different skin types.   Next, separate the groups by skin type.    Now, we treat each block as its own SRS, and assign members in each block into one of two groups.   Next, sort the blocks into groups.    Since we are treating each block as its own SRS, we assign each group within a block one of the two creams.   Within each block, assign the treatments to the groups. Treat each group as its own SRS.    The whole point of the block design is to account for the different types of skin. So, when we get to the compare results step, we only compare results within each block. This ensures that any differences observed are due to the treatment and not the characteristics defining the blocks.  The final flowchart shown below.   The final part is to compare results among the individual blocks only, not between blocks.     "
+},
+{
+  "id": "stats-ch1-def-matched-pairs",
+  "level": "2",
+  "url": "stats-ch1-experimental-design.html#stats-ch1-def-matched-pairs",
+  "type": "Definition",
+  "number": "17.7.14",
+  "title": "What is a Matched Pairs Design?",
+  "body": " What is a Matched Pairs Design?   A matched pairs design is a special case of the randomized block design where subjects are paired or matched in some way. This design is used to compare two treatments.     Version 1: Pair two individuals based on shared characteristics. Randomly assign one individual in each pair to receive the first treatment, and the other to receive the second treatment. Compare results within each pair.  Example: Two participants of similar age and fitness level are paired. One is assigned to a new exercise routine, and the other follows a standard routine. Their progress is compared after four weeks.    Version 2: Use the same individual for both treatments. Assign one of the treatments to the individual at random, and once the experiment is concluded, apply the other treatment at a later time under similar conditions. Compare the results for that individual.  Example: A participant tests two different types of running shoes by running a set distance with each pair on different days. Their times are compared to determine which shoe performs better.      "
+},
+{
+  "id": "stats-ch1-experimental-example-3",
+  "level": "2",
+  "url": "stats-ch1-experimental-design.html#stats-ch1-experimental-example-3",
+  "type": "Example",
+  "number": "17.7.15",
+  "title": "Example 3.",
+  "body": " Example 3   Researchers are studying the effect of two different dashboard layouts on driver reaction times during sudden stops. The two layouts are:    Layout A: A traditional dashboard with analog gauges.  Layout B: A modern digital dashboard with heads-up display features.    Each participant is randomly assigned to use one dashboard layout while completing a driving simulation. After a break, the same participants repeat the simulation with the other dashboard layout under similar conditions. Reaction times are measured during each simulation.  Describe and diagram a matched pairs experiment to determine if the modern dashboard increases safety.    This is a matched-pairs design (Version 2) because each participant serves as their own control by testing both dashboard layouts. As before, we start off with the random sample.   The first block is always the random sample.    Next, assign the participants into one of two groups.   The participants are split evenly into two groups.    Next, randomly assign one of the two treatments to each group.   The group is randomly assigned one of the two treatments.    After a period of time has passed and under similar conditions, the groups are given the other treatment.   At a different time and under similar conditions, the groups do the other treatment.    Finally, you compute the difference in results between the two treatments, and compare all the differences among the participants.   Finally, you compare the differences between the two treatments among all participants.     "
+},
+{
+  "id": "stats-ch2-frequency-distribution",
+  "level": "1",
+  "url": "stats-ch2-frequency-distribution.html",
+  "type": "Section",
+  "number": "18.1",
+  "title": "How to Create Frequency Distributions",
+  "body": " How to Create Frequency Distributions   Distributions hold significant theoretical importance in this course. In this section, we will learn about frequency distributions, which is the basis for many of the concepts in this course.    Basics of Frequency Distributions   What is Frequency?   The frequency of a data point is how many times it shows up in the data set.     What is a Frequency Distribution?   A frequency distribution is a table that lists either the raw data or classes (defined below) in the first column and corresponding frequency in the second column.    Before the advent of computers, frequency distributions were created manually. This involved arranging the data in ascending order and marking a tally for each occurrence of a data point. This process was prone to human errors such as miscounting or duplicating data.  With computers, creating frequency distributions is much faster and more accurate than manual methods. Tools like SPSS, MATLAB, and Excel offer advanced statistical capabilities. GeoGebra, however, is particularly useful in educational settings because of its simplicity and visualization tools, making it ideal for students learning this process.   Example 1   The data on the number of deaths directly caused by tornadoes in Tennessee is given in the table below. Create a Frequency Distribution for the number of deaths per year.   Direct Fatalities Caused by Tornadoes in Tennessee (1950-2023)    Year  Direct Fatalities  Year  Direct Fatalities  Year  Direct Fatalities  Year  Direct Fatalities    2023  17  2004  0  1985  0  1966  0    2022  0  2003  12  1984  1  1965  1    2021  4  2002  17  1983  0  1964  0    2020  27  2001  3  1982  0  1963  4    2019  0  2000  1  1981  0  1962  0    2018  1  1999  12  1980  0  1961  0    2017  0  1998  7  1979  2  1960  0    2016  2  1997  1  1978  0  1959  0    2015  2  1996  0  1977  0  1958  0    2014  2  1995  3  1976  0  1957  0    2013  0  1994  5  1975  3  1956  3    2012  3  1993  1  1974  47  1955  0    2011  32  1992  1  1973  1  1954  0    2010  1  1991  5  1972  0  1953  4    2009  2  1990  0  1971  3  1952  75    2008  31  1989  1  1970  3  1951  0    2007  0  1988  6  1969  0  1950  9    2006  34  1987  0  1968  4         First, click on the Copy Data to Clipboard button and a popup should appear that indicates the copy was successful.   Copy Data to Clipboard button highlighted with a confirmation popup saying 'Dataset copied to clipboard' at the top.    Next, open the Frequency Distribution Tool by clicking on this link or by going to the GeoGebra Tools module and clicking the link provided there. Once Frequency Distribution Tool is opened, click on the Spreadsheet tab.   GeoGebra interface showing the Spreadsheet tab highlighted with 'Click Here' annotation.    Click on the A1 Cell, and right click to open up the Context Menu.   Spreadsheet context menu with 'Paste' highlighted.    Select Paste from the Menu, and the data will copy into the spreadsheet. (This may take a moment to load. Please be patient.)   Spreadsheet view showing 'Year' and 'Direct Fatality' columns populated with data in GeoGebra Calculator Suite.    Notice that the data in which we are interested is in column B. Remember this! Click on the Spreadsheet tab to hide the data.   Arrow pointing to the Spreadsheet icon with text Click Here Again indicating where to click.    Notice that the tool is set by default to column A. If we click on the dropdown box and select column B, we will get the correct frequency distribution.   Frequency distribution table with columns Data and Frequency.    The numbers in the Data column represents the number of deaths reported. The numbers in the Frequency column represent the number of years from 1950 to 2023 that reported that many deaths. For example, 10 years between 1950 and 2023 reported 1 death caused by Tornadoes in Tennessee.  The Title and Column headers as customizable. Just click on the corresponding TextBox in the lower right corner, delete the existing text, and enter what you want to appear there. There is also a slider above the title so you can adjust the horizontal positioning of the title.   Frequency distribution table of tornado deaths in Tennessee (1950-2023) with deaths and years columns.      While Example 1 works well for small data sets, many frequency distributions group data into ranges instead of listing each unique data point individually. For example, we could group the number of years with 0 to 4 deaths, 5 to 9 deaths, 10 to 14 deaths, and so on, creating a row in the table for each of these ranges. These ranges are called classes or bins in statistics.  If we created a new class for every 5 deaths, we would need 16 classes to cover all the data, from the class with 0 to 4 deaths up to the class with 75 to 79 deaths. However, this approach would lead to many classes with a frequency of 0, which makes the table less meaningful. To avoid this, we want the ranges to be large enough to capture meaningful data but not so small that most classes are empty.  So how many classes should we have? As the researcher, you get to decide, but a good rule of thumb is to aim for 5 to 20 classes. Once the number of classes is chosen, the formula below will help determine the range for each class, known as the class width .   How do you calculate class width?   The class width is the size of each class and determines how data is grouped. It is calculated using the formula \\[ \\text{class width} = \\frac{\\text{largest value} - \\text{smallest value}}{\\text{number of classes}}. \\]  If the result is a decimal, always round up to the next whole number to ensure all data points fit into the intervals. For example, if the calculated width is 9.38, round it up to 10. This ensures every data point fits into one of the classes without gaps.  The class width measures the difference between the smallest numbers in successive classes. For example, if our first class is from 0 to 4 deaths and our second class is from 5 to 9 deaths, then the class width is 5 since .  Yes! This formula isn't perfect, and occasionally excludes the maximal data point. Sometimes, you have a preferred width you would like to use. It is up to you! For academic purposes though, we will always use the formula unless a problem requires otherwise.     Example 2   Our data from Example 1 range from 0 deaths to 75 deaths. Find the class width that you will need if you want 6 classes.    Using the formula above, we have that \\begin{align*} \\text{class width} &= \\frac{\\text{largest value} - \\text{smallest value}}{\\text{number of classes}}\\\\ &= \\frac{75-0}{6}\\\\ &\\approx 12.5 \\end{align*}  Since our output gave us a decimal, we round it up to the next integer. Therefore, we will need 13 classes.    Class widths, along with the minimum value of the data set, define what is known as the boundary points of the classes. Boundary points define where one class ends and another class begins.   How do I compute the Boundary Points?   The minimum value is typically the first boundary point. To find the other boundary points, keep adding the class width until you get a value that is larger than (but not equal to) the maximal value in our data set.  For example, if we wanted a class width of 5 for the classes of tornado deaths, the boundary points are 0, 5, 10, 15, 20, , 70, 75, 80.  Yes! If you choose your own class size, typically you also choose the first boundary points as well. Just remember to keep adding the class width until you get a number larger than the largest value in the data set.     Example 3   Our data from Example 1 range from 0 deaths to 75 deaths. Suppose you want your boundary points to start at 7 and have class width 10. Find all the boundary points.    We just start at 7 and keep adding 10 until we get a number larger than 75. So, the boundary points starting with 7 are \\[ 7, \\quad 17, \\quad 27, \\quad 37, \\quad 47, \\quad 57, \\quad 67, \\quad 77 \\]    Calculating boundary points and determining the number of classes is straightforward. However, tallying data points in each class can be tedious and error-prone. Instead, we'll use our GeoGebra tool to automate the tallying and format it into a table. The next example demonstrates this process.   Example 4   Using our data from Example 1, create a frequency distribution with 8 different classes.    The data from Example 1 should already be loaded into GeoGebra. If it is not, follow the steps at the beginning of Example 1 to load the data in and selected option B from the dropbox. Your tool should like this:   Frequency distribution table of tornado deaths in Tennessee (1950-2023) with deaths and years columns.    The first thing we are going to do is check the Organize Data into Classes checkbox. Multiple new options appear: Lower Class Boundary, Class Width, Number of Classes. (There are other new options; we can ignore them for now.) Notice that the Lower Class Boundary will automatically become the value of the smallest data point; the class width and number of classes will default to preassigned values.  First, we want to calculate the class width. Since we want 8 classes, we will enter that value into class width. Notice that the number of classes will update to 10 since \\begin{align*} \\text{class width} &= \\frac{\\text{largest value} - \\text{smallest value}}{\\text{number of classes}}\\\\ &= \\frac{75-0}{8}\\\\ &\\approx 9.375\\\\ &= 10 \\text{ (rounding up)} \\end{align*}   Frequency distribution with 8 classes, a class width of 10, showing frequencies for tornado deaths in Tennessee.    Now, if you count up the number of classes in the table, notice there is 11 different classes. Why is there 11 when Number of Classes is set to 10? Sometimes, the largest value of the data set gets counted in the last classes when it should not be. It is a quirk of how GeoGebra defined class frequencies. (And there is nothing wrong with that the method GeoGebra uses; it is just uses a slightly different definition of boundary points than was given above.) To correct for this difference, the Frequency Distribution Tool automatically adds an extra class by default. But, notice that the last class has a frequency of 0. That means the extra class wasn't needed, and we can click on the Deselect if Last Row Equals 0 checkbox to remove it. Therefore, we get the following frequency distribution.   Frequency Distribution with the extra class removed.    The classes\/bins column gives the range of values for each class, always including the first number in the range and excluding the last number in the range. For example, the interval 0 to 9 means the range of values starting at 0 and include all the numbers up to but not including 10. The Frequency, as before, tells us the number of years whose number of deaths fell into that range of values. For example, there were 64 years that had 0 up to 10 deaths.  Some instructors\/websites prefer to use interval notation to describe the classes\/bins. For example, 0 to 9 would be written as since indicates to start and include 0 and means to include all the numbers up to but not including 10. When the check box is clicked, the frequency distribution looks like this.   The classes\/bins column is now expressed in interval notation.    For future examples, we will not use interval notation.    Before we close this section out, we will give a demonstration of creating a frequency distribution that starts at a value other than the minimum value of the data set.   Example 5   Use our data set from Example 1 to create a frequency distribution that starts at 7 and has a class width of 6.    The data from Example 1 should already be loaded into GeoGebra. If it is not, follow the steps at the beginning of Example 1 to load the data in and selected option B from the dropbox. Your tool should like this if you've been doing all the examples in order on this page:   The classes\/bins column is now expressed in interval notation.    All we need to do enter 7 for the Lower Class Boundary and 8 for the Class Width. Notice the Number of Classes will update to 10 since Since we want 8 classes, we will enter that value into class width. Notice that the number of classes will update to 10 since \\begin{align*} \\text{number of classes} &= \\frac{\\text{largest value} - \\text{smallest value}}{\\text{class width}}\\\\ &= \\frac{75-0}{6}\\\\ &\\approx 12.5\\\\ &= 13 \\text{ (rounding up)} \\end{align*}   Frequency distribution with lower boundary 7 and class width 6.       Warning  Notice there are 13 classes, and each has a class width of 6. But, notice that the last class has a 0 in it. The best Frequency Distributions always have a non-zero frequency for the first and last class. Also, notice we missed all the years that had fewer than 7 deaths. So, while this is a correctly constructed Frequency Distribution, it is also a bit misleading.  That is why it is better to let the Lower Boundary be the minimum value. We get all the data, and our first and last classes will be a non-zero frequency ensuring that our table is just the right size for the number of classes or class width we desire.    "
+},
+{
+  "id": "stats-ch2-def-frequency",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-def-frequency",
+  "type": "Definition",
+  "number": "18.1.1",
+  "title": "What is Frequency?",
+  "body": " What is Frequency?   The frequency of a data point is how many times it shows up in the data set.   "
+},
+{
+  "id": "stats-ch2-def-freq-dist",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-def-freq-dist",
+  "type": "Definition",
+  "number": "18.1.2",
+  "title": "What is a Frequency Distribution?",
+  "body": " What is a Frequency Distribution?   A frequency distribution is a table that lists either the raw data or classes (defined below) in the first column and corresponding frequency in the second column.   "
+},
+{
+  "id": "stats-ch2-freq-dist-example-1",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-freq-dist-example-1",
+  "type": "Example",
+  "number": "18.1.3",
+  "title": "Example 1.",
+  "body": " Example 1   The data on the number of deaths directly caused by tornadoes in Tennessee is given in the table below. Create a Frequency Distribution for the number of deaths per year.   Direct Fatalities Caused by Tornadoes in Tennessee (1950-2023)    Year  Direct Fatalities  Year  Direct Fatalities  Year  Direct Fatalities  Year  Direct Fatalities    2023  17  2004  0  1985  0  1966  0    2022  0  2003  12  1984  1  1965  1    2021  4  2002  17  1983  0  1964  0    2020  27  2001  3  1982  0  1963  4    2019  0  2000  1  1981  0  1962  0    2018  1  1999  12  1980  0  1961  0    2017  0  1998  7  1979  2  1960  0    2016  2  1997  1  1978  0  1959  0    2015  2  1996  0  1977  0  1958  0    2014  2  1995  3  1976  0  1957  0    2013  0  1994  5  1975  3  1956  3    2012  3  1993  1  1974  47  1955  0    2011  32  1992  1  1973  1  1954  0    2010  1  1991  5  1972  0  1953  4    2009  2  1990  0  1971  3  1952  75    2008  31  1989  1  1970  3  1951  0    2007  0  1988  6  1969  0  1950  9    2006  34  1987  0  1968  4         First, click on the Copy Data to Clipboard button and a popup should appear that indicates the copy was successful.   Copy Data to Clipboard button highlighted with a confirmation popup saying 'Dataset copied to clipboard' at the top.    Next, open the Frequency Distribution Tool by clicking on this link or by going to the GeoGebra Tools module and clicking the link provided there. Once Frequency Distribution Tool is opened, click on the Spreadsheet tab.   GeoGebra interface showing the Spreadsheet tab highlighted with 'Click Here' annotation.    Click on the A1 Cell, and right click to open up the Context Menu.   Spreadsheet context menu with 'Paste' highlighted.    Select Paste from the Menu, and the data will copy into the spreadsheet. (This may take a moment to load. Please be patient.)   Spreadsheet view showing 'Year' and 'Direct Fatality' columns populated with data in GeoGebra Calculator Suite.    Notice that the data in which we are interested is in column B. Remember this! Click on the Spreadsheet tab to hide the data.   Arrow pointing to the Spreadsheet icon with text Click Here Again indicating where to click.    Notice that the tool is set by default to column A. If we click on the dropdown box and select column B, we will get the correct frequency distribution.   Frequency distribution table with columns Data and Frequency.    The numbers in the Data column represents the number of deaths reported. The numbers in the Frequency column represent the number of years from 1950 to 2023 that reported that many deaths. For example, 10 years between 1950 and 2023 reported 1 death caused by Tornadoes in Tennessee.  The Title and Column headers as customizable. Just click on the corresponding TextBox in the lower right corner, delete the existing text, and enter what you want to appear there. There is also a slider above the title so you can adjust the horizontal positioning of the title.   Frequency distribution table of tornado deaths in Tennessee (1950-2023) with deaths and years columns.     "
+},
+{
+  "id": "stats-ch2-basics-frequency-7",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-basics-frequency-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "classes bins "
+},
+{
+  "id": "stats-ch2-basics-frequency-9",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-basics-frequency-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "class width "
+},
+{
+  "id": "stats-ch2-def-class-width",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-def-class-width",
+  "type": "Definition",
+  "number": "18.1.12",
+  "title": "How do you calculate class width?",
+  "body": " How do you calculate class width?   The class width is the size of each class and determines how data is grouped. It is calculated using the formula \\[ \\text{class width} = \\frac{\\text{largest value} - \\text{smallest value}}{\\text{number of classes}}. \\]  If the result is a decimal, always round up to the next whole number to ensure all data points fit into the intervals. For example, if the calculated width is 9.38, round it up to 10. This ensures every data point fits into one of the classes without gaps.  The class width measures the difference between the smallest numbers in successive classes. For example, if our first class is from 0 to 4 deaths and our second class is from 5 to 9 deaths, then the class width is 5 since .  Yes! This formula isn't perfect, and occasionally excludes the maximal data point. Sometimes, you have a preferred width you would like to use. It is up to you! For academic purposes though, we will always use the formula unless a problem requires otherwise.   "
+},
+{
+  "id": "stats-ch2-class-width-example",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-class-width-example",
+  "type": "Example",
+  "number": "18.1.13",
+  "title": "Example 2.",
+  "body": " Example 2   Our data from Example 1 range from 0 deaths to 75 deaths. Find the class width that you will need if you want 6 classes.    Using the formula above, we have that \\begin{align*} \\text{class width} &= \\frac{\\text{largest value} - \\text{smallest value}}{\\text{number of classes}}\\\\ &= \\frac{75-0}{6}\\\\ &\\approx 12.5 \\end{align*}  Since our output gave us a decimal, we round it up to the next integer. Therefore, we will need 13 classes.   "
+},
+{
+  "id": "stats-ch2-basics-frequency-12",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-basics-frequency-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "boundary points "
+},
+{
+  "id": "stats-ch2-def-boundary-points",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-def-boundary-points",
+  "type": "Definition",
+  "number": "18.1.14",
+  "title": "How do I compute the Boundary Points?",
+  "body": " How do I compute the Boundary Points?   The minimum value is typically the first boundary point. To find the other boundary points, keep adding the class width until you get a value that is larger than (but not equal to) the maximal value in our data set.  For example, if we wanted a class width of 5 for the classes of tornado deaths, the boundary points are 0, 5, 10, 15, 20, , 70, 75, 80.  Yes! If you choose your own class size, typically you also choose the first boundary points as well. Just remember to keep adding the class width until you get a number larger than the largest value in the data set.   "
+},
+{
+  "id": "stats-ch2-boundary-points-example",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-boundary-points-example",
+  "type": "Example",
+  "number": "18.1.15",
+  "title": "Example 3.",
+  "body": " Example 3   Our data from Example 1 range from 0 deaths to 75 deaths. Suppose you want your boundary points to start at 7 and have class width 10. Find all the boundary points.    We just start at 7 and keep adding 10 until we get a number larger than 75. So, the boundary points starting with 7 are \\[ 7, \\quad 17, \\quad 27, \\quad 37, \\quad 47, \\quad 57, \\quad 67, \\quad 77 \\]   "
+},
+{
+  "id": "stats-ch2-freq-dist-classes-example",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-freq-dist-classes-example",
+  "type": "Example",
+  "number": "18.1.16",
+  "title": "Example 4.",
+  "body": " Example 4   Using our data from Example 1, create a frequency distribution with 8 different classes.    The data from Example 1 should already be loaded into GeoGebra. If it is not, follow the steps at the beginning of Example 1 to load the data in and selected option B from the dropbox. Your tool should like this:   Frequency distribution table of tornado deaths in Tennessee (1950-2023) with deaths and years columns.    The first thing we are going to do is check the Organize Data into Classes checkbox. Multiple new options appear: Lower Class Boundary, Class Width, Number of Classes. (There are other new options; we can ignore them for now.) Notice that the Lower Class Boundary will automatically become the value of the smallest data point; the class width and number of classes will default to preassigned values.  First, we want to calculate the class width. Since we want 8 classes, we will enter that value into class width. Notice that the number of classes will update to 10 since \\begin{align*} \\text{class width} &= \\frac{\\text{largest value} - \\text{smallest value}}{\\text{number of classes}}\\\\ &= \\frac{75-0}{8}\\\\ &\\approx 9.375\\\\ &= 10 \\text{ (rounding up)} \\end{align*}   Frequency distribution with 8 classes, a class width of 10, showing frequencies for tornado deaths in Tennessee.    Now, if you count up the number of classes in the table, notice there is 11 different classes. Why is there 11 when Number of Classes is set to 10? Sometimes, the largest value of the data set gets counted in the last classes when it should not be. It is a quirk of how GeoGebra defined class frequencies. (And there is nothing wrong with that the method GeoGebra uses; it is just uses a slightly different definition of boundary points than was given above.) To correct for this difference, the Frequency Distribution Tool automatically adds an extra class by default. But, notice that the last class has a frequency of 0. That means the extra class wasn't needed, and we can click on the Deselect if Last Row Equals 0 checkbox to remove it. Therefore, we get the following frequency distribution.   Frequency Distribution with the extra class removed.    The classes\/bins column gives the range of values for each class, always including the first number in the range and excluding the last number in the range. For example, the interval 0 to 9 means the range of values starting at 0 and include all the numbers up to but not including 10. The Frequency, as before, tells us the number of years whose number of deaths fell into that range of values. For example, there were 64 years that had 0 up to 10 deaths.  Some instructors\/websites prefer to use interval notation to describe the classes\/bins. For example, 0 to 9 would be written as since indicates to start and include 0 and means to include all the numbers up to but not including 10. When the check box is clicked, the frequency distribution looks like this.   The classes\/bins column is now expressed in interval notation.    For future examples, we will not use interval notation.   "
+},
+{
+  "id": "stats-ch2-custom-boundary-example",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-custom-boundary-example",
+  "type": "Example",
+  "number": "18.1.21",
+  "title": "Example 5.",
+  "body": " Example 5   Use our data set from Example 1 to create a frequency distribution that starts at 7 and has a class width of 6.    The data from Example 1 should already be loaded into GeoGebra. If it is not, follow the steps at the beginning of Example 1 to load the data in and selected option B from the dropbox. Your tool should like this if you've been doing all the examples in order on this page:   The classes\/bins column is now expressed in interval notation.    All we need to do enter 7 for the Lower Class Boundary and 8 for the Class Width. Notice the Number of Classes will update to 10 since Since we want 8 classes, we will enter that value into class width. Notice that the number of classes will update to 10 since \\begin{align*} \\text{number of classes} &= \\frac{\\text{largest value} - \\text{smallest value}}{\\text{class width}}\\\\ &= \\frac{75-0}{6}\\\\ &\\approx 12.5\\\\ &= 13 \\text{ (rounding up)} \\end{align*}   Frequency distribution with lower boundary 7 and class width 6.     "
+},
+{
+  "id": "stats-ch2-basics-frequency-19",
+  "level": "2",
+  "url": "stats-ch2-frequency-distribution.html#stats-ch2-basics-frequency-19",
+  "type": "Note",
+  "number": "18.1.24",
+  "title": "Warning.",
+  "body": " Warning  Notice there are 13 classes, and each has a class width of 6. But, notice that the last class has a 0 in it. The best Frequency Distributions always have a non-zero frequency for the first and last class. Also, notice we missed all the years that had fewer than 7 deaths. So, while this is a correctly constructed Frequency Distribution, it is also a bit misleading.  That is why it is better to let the Lower Boundary be the minimum value. We get all the data, and our first and last classes will be a non-zero frequency ensuring that our table is just the right size for the number of classes or class width we desire.  "
+},
+{
+  "id": "stats-ch2-relative-frequency",
+  "level": "1",
+  "url": "stats-ch2-relative-frequency.html",
+  "type": "Section",
+  "number": "18.2",
+  "title": "How to Create Relative Frequency Distributions",
+  "body": " How to Create Relative Frequency Distributions   An important concept related to frequency is relative frequency , and it is a foundational concept for several key topics in this course. We will use relative frequencies when discussing cumulative frequencies (discussed below), creating histograms, studying probability and probability distributions, and using statistical inference to discuss population proportions. By connecting data analysis to probability theory and statistical inference, relative frequency serves as a bridge between descriptive and inferential methods in a statistics course.    Relative Frequency Distributions   What is Relative Frequency?   Relative frequency has two interpretations.  For raw data , relative frequency is the percentage of times that a particular value appears in a data set.  For data sorted into classes , relative frequency is the percentage of data that appear in a given class.    In both cases, the formula for relative frequency is identical: Here, is the number of data points in the sample.  Notice that this will always give a percentage as a decimal, so we will always write instead of % in this course. Using percentages instead of decimals can cause errors in many of the formulas because most statistical formulas use relative frequencies rather than percentages to ensure accurate calculations.     Warning  Relative frequencies will always yield a number between 0 and 1. If you get a number larger than 1 or a negative number, double check your work because you made a calculation error.    What is a Relative Frequency Distribution?   A relative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative frequencies in the second column.     How Do I Compute a Relative Frequency?   Let's consider our Frequency Distribution from Example 4 in How to Create Frequency Distributions :   Frequency Distribution with the extra class removed.    To determine the number of data points, we first choose a class, such as the interval 0 to 9, and note its frequency, which is 64. The relative frequency is found by dividing the class frequency by the total number of years, 74, as follows:   Thus, is the relative frequency for 0 to 10, meaning 86.49% of the years from 1950 to 2023 had 0 to 10 deaths (excluding 10). Note we will always round relative frequency to four decimal places, which is a standard practice in statistics.    While it is essential to know how to compute a relative frequency, performing multiple manual calculations to create a relative frequency distribution increases the risk of calculation errors. In our next example, we will see how to use our Frequency Distribution Tool to create a relative frequency distribution.   Example 1   According to National Institutes of Health Cancer Statistics , the rate at which men get Colon-Rectal cancer each year (per 100,000 men, rounded to one decimal place) from 2000 to 2021 is given in the table below. Find the relative frequency distribution for this data if we use a lower class boundary of 35 and a class width of 5.   Colon-Rectal Cancer Diagnosis Rates (Per 100,000 Men)    Year  Rate  Year  Rate    2000  70.8  2011  49.5    2001  69.6  2012  48.0    2002  68.3  2013  46.9    2003  66.3  2014  46.7    2004  64.0  2015  45.5    2005  61.9  2016  44.5    2006  59.1  2017  43.5    2007  58.1  2018  42.9    2008  56.2  2019  42.7    2009  53.1  2020  37.2    2010  51.0  2021  40.8       Load your data into GeoGebra (see Example 1 of How to Create Frequency Distributions if you need a refresher). Make sure to select column B since the rates are in that column. Since our data is in decimals, this is a good time to choose our lower boundary manually, which is why I gave it to you in the problem. Enter 35 for the lower class boundary and 5 for the class width. Also, make sure the Deselect if Last Row Equals 0 checkbox is checked since our classes only go from 35 up to 70 and our largest data point is 70.8. If you have everything set correctly, your Frequency Distribution Tool should look like this.   The Frequency Distribution Tool with column B selected, lower boundary of 35, and a class width of 5.    Now that we have this set up correctly, all we have to do is check the Relative Frequencies checkbox to convert all the frequencies to relative frequencies. The Frequency Distribution Tool will automatically update the table.   The relative frequencies checkbox has been marked, converting the last column to relative frequencies.    The class bin 45-49 has a relative frequency of 0.2773, meaning 27.73% of the years from 2000 to 2021 had 45-49 men per 100,000 diagnosed with Colon-Rectal Cancer.    There are two important options for Relative Frequency Distributions you should be aware of.   Relative Frequency Distribution Options   If you click on the Display as Percentages checkbox, it will convert the relative frequencies to percentages.   The relative frequency distribution from Example 1 with percentages instead of relative frequencies.    If you click on the Show Relative and Non-Relative checkbox, a third column will be added showing the original frequencies so you can have the frequency and relative frequency data side-by-side.   A third column containing the raw frequencies was added to the relative frequency distribution.    You can also select both options at once to compare percentages to frequencies.   Both options are checked, allowed comparisons of percentages and raw frequencies.      Even though the computer does most of the heavy lifting for us, it is still important to know how to perform the calculations by hand to make sure there are no errors in the data or output.   Example 2   Consider the following frequency distribution for average August temperatures in Nashville, TN. (Source: Weather UnderGround ) Find the relative frequency for the class 86 to 88.   Average August Temperature in Nashville, TN (1948-2024)    Degrees Fahrenheit  Number of Years    80 to 82  2    83 to 85  14    86 to 88  33    89 to 91  22    92 to 94  5    95 to 97  1    Total  77       Since 33 of the 77 years had an average temperature of F to F, the relative frequency is   In Nashville, TN, 42.86% of the years between 1948 and 2024 experienced an average August temperature ranging from F up to but not including F.     "
+},
+{
+  "id": "stats-ch2-relative-frequency-2-1",
+  "level": "2",
+  "url": "stats-ch2-relative-frequency.html#stats-ch2-relative-frequency-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "relative frequency "
+},
+{
+  "id": "stats-ch2-def-relative-frequency",
+  "level": "2",
+  "url": "stats-ch2-relative-frequency.html#stats-ch2-def-relative-frequency",
+  "type": "Definition",
+  "number": "18.2.1",
+  "title": "What is Relative Frequency?",
+  "body": " What is Relative Frequency?   Relative frequency has two interpretations.  For raw data , relative frequency is the percentage of times that a particular value appears in a data set.  For data sorted into classes , relative frequency is the percentage of data that appear in a given class.    In both cases, the formula for relative frequency is identical: Here, is the number of data points in the sample.  Notice that this will always give a percentage as a decimal, so we will always write instead of % in this course. Using percentages instead of decimals can cause errors in many of the formulas because most statistical formulas use relative frequencies rather than percentages to ensure accurate calculations.   "
+},
+{
+  "id": "stats-ch2-relative-frequency-distributions-3",
+  "level": "2",
+  "url": "stats-ch2-relative-frequency.html#stats-ch2-relative-frequency-distributions-3",
+  "type": "Note",
+  "number": "18.2.2",
+  "title": "Warning.",
+  "body": " Warning  Relative frequencies will always yield a number between 0 and 1. If you get a number larger than 1 or a negative number, double check your work because you made a calculation error.  "
+},
+{
+  "id": "stats-ch2-def-relative-frequency-distribution",
+  "level": "2",
+  "url": "stats-ch2-relative-frequency.html#stats-ch2-def-relative-frequency-distribution",
+  "type": "Definition",
+  "number": "18.2.3",
+  "title": "What is a Relative Frequency Distribution?",
+  "body": " What is a Relative Frequency Distribution?   A relative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative frequencies in the second column.   "
+},
+{
+  "id": "stats-ch2-def-compute-relative-frequency",
+  "level": "2",
+  "url": "stats-ch2-relative-frequency.html#stats-ch2-def-compute-relative-frequency",
+  "type": "Definition",
+  "number": "18.2.4",
+  "title": "How Do I Compute a Relative Frequency?",
+  "body": " How Do I Compute a Relative Frequency?   Let's consider our Frequency Distribution from Example 4 in How to Create Frequency Distributions :   Frequency Distribution with the extra class removed.    To determine the number of data points, we first choose a class, such as the interval 0 to 9, and note its frequency, which is 64. The relative frequency is found by dividing the class frequency by the total number of years, 74, as follows:   Thus, is the relative frequency for 0 to 10, meaning 86.49% of the years from 1950 to 2023 had 0 to 10 deaths (excluding 10). Note we will always round relative frequency to four decimal places, which is a standard practice in statistics.   "
+},
+{
+  "id": "stats-ch2-relative-frequency-example-1",
+  "level": "2",
+  "url": "stats-ch2-relative-frequency.html#stats-ch2-relative-frequency-example-1",
+  "type": "Example",
+  "number": "18.2.6",
+  "title": "Example 1.",
+  "body": " Example 1   According to National Institutes of Health Cancer Statistics , the rate at which men get Colon-Rectal cancer each year (per 100,000 men, rounded to one decimal place) from 2000 to 2021 is given in the table below. Find the relative frequency distribution for this data if we use a lower class boundary of 35 and a class width of 5.   Colon-Rectal Cancer Diagnosis Rates (Per 100,000 Men)    Year  Rate  Year  Rate    2000  70.8  2011  49.5    2001  69.6  2012  48.0    2002  68.3  2013  46.9    2003  66.3  2014  46.7    2004  64.0  2015  45.5    2005  61.9  2016  44.5    2006  59.1  2017  43.5    2007  58.1  2018  42.9    2008  56.2  2019  42.7    2009  53.1  2020  37.2    2010  51.0  2021  40.8       Load your data into GeoGebra (see Example 1 of How to Create Frequency Distributions if you need a refresher). Make sure to select column B since the rates are in that column. Since our data is in decimals, this is a good time to choose our lower boundary manually, which is why I gave it to you in the problem. Enter 35 for the lower class boundary and 5 for the class width. Also, make sure the Deselect if Last Row Equals 0 checkbox is checked since our classes only go from 35 up to 70 and our largest data point is 70.8. If you have everything set correctly, your Frequency Distribution Tool should look like this.   The Frequency Distribution Tool with column B selected, lower boundary of 35, and a class width of 5.    Now that we have this set up correctly, all we have to do is check the Relative Frequencies checkbox to convert all the frequencies to relative frequencies. The Frequency Distribution Tool will automatically update the table.   The relative frequencies checkbox has been marked, converting the last column to relative frequencies.    The class bin 45-49 has a relative frequency of 0.2773, meaning 27.73% of the years from 2000 to 2021 had 45-49 men per 100,000 diagnosed with Colon-Rectal Cancer.   "
+},
+{
+  "id": "stats-ch2-def-relative-frequency-options",
+  "level": "2",
+  "url": "stats-ch2-relative-frequency.html#stats-ch2-def-relative-frequency-options",
+  "type": "Definition",
+  "number": "18.2.10",
+  "title": "Relative Frequency Distribution Options.",
+  "body": " Relative Frequency Distribution Options   If you click on the Display as Percentages checkbox, it will convert the relative frequencies to percentages.   The relative frequency distribution from Example 1 with percentages instead of relative frequencies.    If you click on the Show Relative and Non-Relative checkbox, a third column will be added showing the original frequencies so you can have the frequency and relative frequency data side-by-side.   A third column containing the raw frequencies was added to the relative frequency distribution.    You can also select both options at once to compare percentages to frequencies.   Both options are checked, allowed comparisons of percentages and raw frequencies.     "
+},
+{
+  "id": "stats-ch2-relative-frequency-example-2",
+  "level": "2",
+  "url": "stats-ch2-relative-frequency.html#stats-ch2-relative-frequency-example-2",
+  "type": "Example",
+  "number": "18.2.14",
+  "title": "Example 2.",
+  "body": " Example 2   Consider the following frequency distribution for average August temperatures in Nashville, TN. (Source: Weather UnderGround ) Find the relative frequency for the class 86 to 88.   Average August Temperature in Nashville, TN (1948-2024)    Degrees Fahrenheit  Number of Years    80 to 82  2    83 to 85  14    86 to 88  33    89 to 91  22    92 to 94  5    95 to 97  1    Total  77       Since 33 of the 77 years had an average temperature of F to F, the relative frequency is   In Nashville, TN, 42.86% of the years between 1948 and 2024 experienced an average August temperature ranging from F up to but not including F.   "
+},
+{
+  "id": "stats-ch2-cumulative-frequency",
+  "level": "1",
+  "url": "stats-ch2-cumulative-frequency.html",
+  "type": "Section",
+  "number": "18.3",
+  "title": "How to Compute Cumulative Frequency Distributions",
+  "body": " How to Compute Cumulative Frequency Distributions   Another important concept related to frequency is cumulative frequency, which keeps a running total of frequencies up to a specific value or class. This provides insight into how data accumulates over a specific range of values, and is fundamental in understanding ideas such as median, quartiles, interquartile ranges, and computing area under the uniform, normal, and Student T curves. By synthesizing raw data into meaningful patterns, cumulative frequency serves as a stepping stone to deeper statistical concepts, emphasizing the relationship between individual data points and their overall context within a dataset.    Cumulative Frequency   What is Cumulative Frequency?   Cumulative frequency is the number of data points that are less than or equal to some given number (not necessarily in the data set).     What is a Cumulative Frequency Distribution?   A cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding cumulative frequencies in the second column.     How do I compute Cumulative Frequency?   Let's turn to our Frequency Distribution about tornado deaths in Tennessee from Example 1 in How to Create Frequency Distributions :   Frequency distribution table with columns Data and Frequency; Data is Qualitative checkbox selected and column B chosen.    Suppose we are interested in the number of years with 3 or fewer deaths. From the frequency distribution, 32 years had 0 deaths, 10 years had 1 death, 6 years had 2 deaths, and 7 years had 3 deaths. Adding up the number of years gives so the cumulative frequency for is 55. Therefore, 55 years between 1950 and 2023 had 3 or fewer tornado-related deaths in Tennessee.    While it is good to have an idea of how to compute a cumulative frequency, the multiple manual calculations needed for a cumulative frequency distribution increases the likelihood of a calculation error. In our next example, we will see how to use our GeoGebra tool to create a cumulative frequency distribution.   Example 1   For the data from Example 1 in How to Create Frequency Distributions , create a cumulative frequency distribution for the raw data.    Load your data into GeoGebra (see Example 1 of How to Create Frequency Distributions if you need a refresher).   Frequency distribution table with columns Data and Frequency.    While we can create a relative frequency distribution for the classes, as a first example, it is easier to work with and interpret the raw data. So, we are just going to click on the Cumulative Frequency checkbox to change the second column from frequencies to cumulative frequencies.   The cumulative frequency distribution for deaths by tornadoes in Tennessee.    The Raw Data column gives all the unique values of the raw data, listed from smallest to largest. The Cumulative Frequency column tells us the number of years where the death total for the year is less than or equal to the value in the Data column. For example, for deaths, the cumulative frequency of 68 indicates that, between 1950 and 2023, there were 68 years in which the number of deaths caused by tornadoes in Tennessee was 17 or fewer.      Relative Cumulative Frequency  Relative cumulative frequency, which integrates the concepts of relative frequency and cumulative frequency, offers a powerful tool for understanding data distributions in a statistical context. It represents the percentage of data points at or below a specific value. When we study area under the normal curve later in this course, we will use both cumulative frequencies and relative cumulative frequencies.   What is Relative Cumulative Frequency?   Relative cumulative frequency is the percentage of data points that are less than or equal to some given number (not necessarily in the data set). As with relative frequency, we will always express the percentage as a decimal, such as instead of %. Using percentages instead of decimals can cause errors in many of the formulas we will use in this course, as they require values to be expressed as decimals for accurate computation. As a formula, we can express this as where is the number of data points.     What is a Relative Cumulative Frequency Distribution?   A relative cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative cumulative frequencies in the second column.     How do I Compute a Relative Cumulative Frequency?   Let's consider our Cumulative Frequency Distribution from Example 1:   The cumulative frequency distribution for deaths by tornadoes in Tennessee.    One useful feature of a cumulative frequency distribution is that the last row provides the total number of data points, which in this case is 74. Now, let's pick a data point, such as 5. To calculate the relative cumulative frequency, divide its cumulative frequency by the total number of data points: This means that 82.43% of the years had 5 or fewer deaths. As with relative frequency, we always round to four decimal places.    While it is good to have an idea of how to compute a relative cumulative frequency, the multiple manual calculations needed for a cumulative frequency distribution increases the likelihood of a calculation error. In our next example, we will see how to use our GeoGebra tool to create a cumulative frequency distribution.   Example 2   For the data from Example 1, create a cumulative relative frequency distribution for the raw data.    For the data from Example 1 in How to Create Frequency Distributions , the Frequency Distribution Tool should look like this if you are continuing from Example 1:   The cumulative frequency distribution for deaths by tornadoes in Tennessee.    We just need to make sure the Relative Frequencies checkbox is also checked, and it will change the cumulative frequencies column to relative cumulative frequencies. If you have done this correctly, your tool should look like this:   The relative cumulative frequency distribution of the tornado deaths in Tennessee.    The Raw Data column gives all the unique values of the raw data, listed from smallest to largest. The Relative Cumulative Frequency column tells us the percentage of years where the death total for the year is less than or equal to the value in the Data column. For example, for deaths, the relative cumulative frequency of indicates that 91.89% of the years between 1950 and 2023 had 17 or fewer deaths.    Just like relative frequencies, cumulative relative frequencies can be displayed as percentages or side-by-side with cumulative frequencies.   Relative Cumulative Frequency Distribution Options   If you click on the Display as Percentages checkbox, it will convert the relative cumulative frequencies to cumulative percentages.   The relative cumulative frequency distribution with cumulative percentages instead of relative cumulative frequencies.    If you click on the Show Relative and Non-Relative checkbox, a third column will be added showing the original cumulative frequencies so you can have the cumulative frequency and relative cumulative frequency data side-by-side.   A third column containing the raw cumulative frequencies was added to the cumulative relative frequency distribution.    You can also select both options at once to compare cumulative percentages to cumulative frequencies.   Both options are checked, allowed comparisons of cumulative percentages and raw cumulative frequencies.       "
+},
+{
+  "id": "stats-ch2-def-cumulative-frequency",
+  "level": "2",
+  "url": "stats-ch2-cumulative-frequency.html#stats-ch2-def-cumulative-frequency",
+  "type": "Definition",
+  "number": "18.3.1",
+  "title": "What is Cumulative Frequency?",
+  "body": " What is Cumulative Frequency?   Cumulative frequency is the number of data points that are less than or equal to some given number (not necessarily in the data set).   "
+},
+{
+  "id": "stats-ch2-def-cumulative-frequency-distribution",
+  "level": "2",
+  "url": "stats-ch2-cumulative-frequency.html#stats-ch2-def-cumulative-frequency-distribution",
+  "type": "Definition",
+  "number": "18.3.2",
+  "title": "What is a Cumulative Frequency Distribution?",
+  "body": " What is a Cumulative Frequency Distribution?   A cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding cumulative frequencies in the second column.   "
+},
+{
+  "id": "stats-ch2-def-compute-cumulative-frequency",
+  "level": "2",
+  "url": "stats-ch2-cumulative-frequency.html#stats-ch2-def-compute-cumulative-frequency",
+  "type": "Definition",
+  "number": "18.3.3",
+  "title": "How do I compute Cumulative Frequency?",
+  "body": " How do I compute Cumulative Frequency?   Let's turn to our Frequency Distribution about tornado deaths in Tennessee from Example 1 in How to Create Frequency Distributions :   Frequency distribution table with columns Data and Frequency; Data is Qualitative checkbox selected and column B chosen.    Suppose we are interested in the number of years with 3 or fewer deaths. From the frequency distribution, 32 years had 0 deaths, 10 years had 1 death, 6 years had 2 deaths, and 7 years had 3 deaths. Adding up the number of years gives so the cumulative frequency for is 55. Therefore, 55 years between 1950 and 2023 had 3 or fewer tornado-related deaths in Tennessee.   "
+},
+{
+  "id": "stats-ch2-cumulative-frequency-example-1",
+  "level": "2",
+  "url": "stats-ch2-cumulative-frequency.html#stats-ch2-cumulative-frequency-example-1",
+  "type": "Example",
+  "number": "18.3.5",
+  "title": "Example 1.",
+  "body": " Example 1   For the data from Example 1 in How to Create Frequency Distributions , create a cumulative frequency distribution for the raw data.    Load your data into GeoGebra (see Example 1 of How to Create Frequency Distributions if you need a refresher).   Frequency distribution table with columns Data and Frequency.    While we can create a relative frequency distribution for the classes, as a first example, it is easier to work with and interpret the raw data. So, we are just going to click on the Cumulative Frequency checkbox to change the second column from frequencies to cumulative frequencies.   The cumulative frequency distribution for deaths by tornadoes in Tennessee.    The Raw Data column gives all the unique values of the raw data, listed from smallest to largest. The Cumulative Frequency column tells us the number of years where the death total for the year is less than or equal to the value in the Data column. For example, for deaths, the cumulative frequency of 68 indicates that, between 1950 and 2023, there were 68 years in which the number of deaths caused by tornadoes in Tennessee was 17 or fewer.   "
+},
+{
+  "id": "stats-ch2-def-relative-cumulative-frequency",
+  "level": "2",
+  "url": "stats-ch2-cumulative-frequency.html#stats-ch2-def-relative-cumulative-frequency",
+  "type": "Definition",
+  "number": "18.3.8",
+  "title": "What is Relative Cumulative Frequency?",
+  "body": " What is Relative Cumulative Frequency?   Relative cumulative frequency is the percentage of data points that are less than or equal to some given number (not necessarily in the data set). As with relative frequency, we will always express the percentage as a decimal, such as instead of %. Using percentages instead of decimals can cause errors in many of the formulas we will use in this course, as they require values to be expressed as decimals for accurate computation. As a formula, we can express this as where is the number of data points.   "
+},
+{
+  "id": "stats-ch2-def-relative-cumulative-frequency-distribution",
+  "level": "2",
+  "url": "stats-ch2-cumulative-frequency.html#stats-ch2-def-relative-cumulative-frequency-distribution",
+  "type": "Definition",
+  "number": "18.3.9",
+  "title": "What is a Relative Cumulative Frequency Distribution?",
+  "body": " What is a Relative Cumulative Frequency Distribution?   A relative cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative cumulative frequencies in the second column.   "
+},
+{
+  "id": "stats-ch2-def-compute-relative-cumulative-frequency",
+  "level": "2",
+  "url": "stats-ch2-cumulative-frequency.html#stats-ch2-def-compute-relative-cumulative-frequency",
+  "type": "Definition",
+  "number": "18.3.10",
+  "title": "How do I Compute a Relative Cumulative Frequency?",
+  "body": " How do I Compute a Relative Cumulative Frequency?   Let's consider our Cumulative Frequency Distribution from Example 1:   The cumulative frequency distribution for deaths by tornadoes in Tennessee.    One useful feature of a cumulative frequency distribution is that the last row provides the total number of data points, which in this case is 74. Now, let's pick a data point, such as 5. To calculate the relative cumulative frequency, divide its cumulative frequency by the total number of data points: This means that 82.43% of the years had 5 or fewer deaths. As with relative frequency, we always round to four decimal places.   "
+},
+{
+  "id": "stats-ch2-cumulative-frequency-example-2",
+  "level": "2",
+  "url": "stats-ch2-cumulative-frequency.html#stats-ch2-cumulative-frequency-example-2",
+  "type": "Example",
+  "number": "18.3.12",
+  "title": "Example 2.",
+  "body": " Example 2   For the data from Example 1, create a cumulative relative frequency distribution for the raw data.    For the data from Example 1 in How to Create Frequency Distributions , the Frequency Distribution Tool should look like this if you are continuing from Example 1:   The cumulative frequency distribution for deaths by tornadoes in Tennessee.    We just need to make sure the Relative Frequencies checkbox is also checked, and it will change the cumulative frequencies column to relative cumulative frequencies. If you have done this correctly, your tool should look like this:   The relative cumulative frequency distribution of the tornado deaths in Tennessee.    The Raw Data column gives all the unique values of the raw data, listed from smallest to largest. The Relative Cumulative Frequency column tells us the percentage of years where the death total for the year is less than or equal to the value in the Data column. For example, for deaths, the relative cumulative frequency of indicates that 91.89% of the years between 1950 and 2023 had 17 or fewer deaths.   "
+},
+{
+  "id": "stats-ch2-def-relative-cumulative-frequency-options",
+  "level": "2",
+  "url": "stats-ch2-cumulative-frequency.html#stats-ch2-def-relative-cumulative-frequency-options",
+  "type": "Definition",
+  "number": "18.3.15",
+  "title": "Relative Cumulative Frequency Distribution Options.",
+  "body": " Relative Cumulative Frequency Distribution Options   If you click on the Display as Percentages checkbox, it will convert the relative cumulative frequencies to cumulative percentages.   The relative cumulative frequency distribution with cumulative percentages instead of relative cumulative frequencies.    If you click on the Show Relative and Non-Relative checkbox, a third column will be added showing the original cumulative frequencies so you can have the cumulative frequency and relative cumulative frequency data side-by-side.   A third column containing the raw cumulative frequencies was added to the cumulative relative frequency distribution.    You can also select both options at once to compare cumulative percentages to cumulative frequencies.   Both options are checked, allowed comparisons of cumulative percentages and raw cumulative frequencies.     "
+},
+{
+  "id": "stats-ch2-frequency-histograms",
+  "level": "1",
+  "url": "stats-ch2-frequency-histograms.html",
+  "type": "Section",
+  "number": "18.4",
+  "title": "How to Create Frequency Histograms",
+  "body": " How to Create Frequency Histograms   In the previous section, we used tables to summarize the frequency of data points within specific classes. However, humans are naturally drawn to visual representations, which are often more effective than scanning a table of numbers that might seem meaningless. In this section, we will learn how to visualize frequency distributions using frequency histograms. Histograms play a crucial role later in this course, as they help connect the concepts of probability and the area under a curve. Therefore, it is essential to understand how to construct and interpret histograms now.    Frequency Histograms   What is a Frequency Histogram?   A frequency histogram is a type of bar graph used to visualize the frequency distribution of data. Below are its key features:  The -axis represents the data values, with tick marks indicating the class boundaries of the frequency distribution.  The -axis represents the frequencies of the classes. The scale always starts at 0, but the other tick marks are determined by the data and are used to scale the heights of the bars.  Each bar represents a class. The base of the bar spans the range of values for that class, while the height corresponds to the frequency of the class.  The bars of successive classes touch each other.  If any class has a frequency of , no bar is drawn for that class.      Traditionally, a student or researcher had to first build a frequency distribution and then construct the frequency histogram from the distribution. Modern statistical programs (and our GeoGebra tools) build the distribution in the background and just display the histogram. Our next example shows how to precisely do this.   Example 1   Using the data on Tornado deaths in Tennessee from Example 1 in How to Create Frequency Distributions , create a Frequency Histogram that has 8 classes.    First, click on the Copy Data to Clipboard button and a popup should appear that indicates the copy was successful.   Copy Data to Clipboard button highlighted with a confirmation popup saying 'Dataset copied to clipboard' at the top.    Next, open the Histogram Generator Tool by clicking on this link or by going to the GeoGebra Tools module and clicking the link provided there. Once Frequency Distribution Tool is opened, click on the Spreadsheet tab.   GeoGebra interface showing the Spreadsheet tab highlighted with 'Click Here' annotation.    Click on the A1 Cell, and right click to open up the Context Menu.   Spreadsheet context menu with 'Paste' highlighted.    Select Paste from the Menu, and the data will copy into the spreadsheet. (This may take a moment to load. Please be patient.)   Spreadsheet view showing 'Year' and 'Direct Fatality' columns populated with data in GeoGebra Calculator Suite.    Notice that the data in which we are interested is in column B. Remember this. Click on the Spreadsheet tab to hide the data.   Arrow pointing to the Spreadsheet icon with text Click Here indicating where to click.    Notice that the tool is set by default to column A. If we click on the dropdown box and select column B, the smallest data point (in this case, 0) will load into the Lower Boundary textbox. Notice that, like the Frequency Distribution, the Add an Extra Class checkbox is clicked on by default.   Histogram Generator tool with column B selected and lower boundary set to 0.    We need to specify either a class width or the number of classes. We saw in Example 4 in How to Create Frequency Distributions that if we choose 8 classes, we get a class width of 10. So, let's enter in 8 for Class Width, and 10 will autofill in for the Number of Classes. Notice that the last class does not contain the maximum value of the data set; therefore, we can uncheck the Add an Extra Class checkbox. If you have everything set up correctly, the Histogram Generator Tool will look like this.   The histogram is generated with number of classes set to 8 and no extra class.    Finally, use the textboxes to update at least the title and -axis label so your reader knows what data your histogram describes. For my example, I will also update the -axis label.   Title, x-axis, and y-axis of histograms have custom labels.    The base of the bars indicate which class they belong to. For example, the base of the second bar starts at 10 and ends at 20. This represents the class 10 to 19 in the frequency distribution. The height of the bar gives the frequency, but it is not always easy to read an exact number from the graph.      Relative Frequency Histograms  Each type of frequency distribution can be converted into a histogram. All that changes is the height of the bars and the labels and the values on the -axis. For relative frequency histograms, the -axis will always start at 0 and end at 1 to represent 0% to 100% of the data. The next example will show you how to convert our frequency histogram from Example 1 to a relative frequency histogram.   Example 2   Using the data on Tornado deaths in Tennessee from Example 1 in How to Create Frequency Distributions , create a Relative Frequency Histogram that has 8 classes.    If you do not have the data loaded from Example 1 above, load it now. We will still have column B selected, Number of Classes set to 8, and unselect the Add an Extra Class checkbox.   Title, x-axis, and y-axis of histograms have custom labels.    All you have to do to convert your -axis to relative frequencies is to check the Relative Frequencies checkbox, and your -axis will update with the correct values. I will also update the -axis to be labeled as \"Percentage of Years.\"   The Relative Frequencies checkbox is selected, labeling the y-axis with relative frequencies.    If you compare the frequency histogram from Example 1 with this relative frequency histogram, they are identical except for the labeling of the -axis. Both histograms have the same shape, but the frequency histogram shows the number of data points in each class, while the relative frequency histogram shows the percentage of data in each class.      Cumulative Frequency Histograms  For cumulative frequency histograms, the height of each bar will represent the cumulative frequency of the distribution. Our next example will show you how to create one in the Histogram Generator Tool.   Example 3   Using the data on Tornado deaths in Tennessee from Example 1 in How to Create Frequency Distributions , create a Cumulative Frequency Histogram that has 8 classes.    If you do not have the data loaded from Example 1 above, load it now. We will still have column B selected, Number of Classes set to 8, and unselect the Add an Extra Class checkbox.   Title, x-axis, and y-axis of histograms have custom labels.    All you have to do to convert your -axis to cumulative frequencies is to check the Cumulative Frequencies checkbox, and the heights of your bars will update.   The Cumulative Frequencies checkbox is selected, adjusting the bar heights to show their cumulative frequencies.    If you compare the frequency histogram from Example 1 with this cumulative frequency histogram, they differ only in bar heights. Both use the same -axis labels, but the frequency histogram shows the number of years in each category, while the cumulative frequency histogram shows the running total up to that class.      Cumulative Relative Frequency Histograms  For cumulative relative frequency histograms, the height of each bar will represent the running total for the relative frequencies of the distribution. Our next example will show you how to create one in the Histogram Generator Tool.   Example 4   Using the data on Tornado deaths in Tennessee from Example 1 in How to Create Frequency Distributions , create a Cumulative Relative Frequency Histogram that has 8 classes.    If you do not have the data loaded from Example 1 above, load it now. We will still have column B selected, Number of Classes set to 8, and unselect the Add an Extra Class checkbox.   Title, x-axis, and y-axis of histograms have custom labels.    All you have to do to convert your -axis to cumulative relative frequencies is to select both the Relative Frequencies checkbox and the Cumulative Frequencies checkbox, and the histogram will update. I will also update the -axis label to read \"Percentage of Years.\"   The Relative and Cumulative Frequencies checkboxes are selected.    If you compare the cumulative histogram from Example 3 with this relative cumulative frequency histogram, they are identical except for the labeling of the -axis. Both histograms have the same shape, but the cumulative frequency histogram shows the running total for the number of years, while the relative cumulative frequency histogram shows the running total for the percentage of data.     "
+},
+{
+  "id": "stats-ch2-def-frequency-histogram",
+  "level": "2",
+  "url": "stats-ch2-frequency-histograms.html#stats-ch2-def-frequency-histogram",
+  "type": "Definition",
+  "number": "18.4.1",
+  "title": "What is a Frequency Histogram?",
+  "body": " What is a Frequency Histogram?   A frequency histogram is a type of bar graph used to visualize the frequency distribution of data. Below are its key features:  The -axis represents the data values, with tick marks indicating the class boundaries of the frequency distribution.  The -axis represents the frequencies of the classes. The scale always starts at 0, but the other tick marks are determined by the data and are used to scale the heights of the bars.  Each bar represents a class. The base of the bar spans the range of values for that class, while the height corresponds to the frequency of the class.  The bars of successive classes touch each other.  If any class has a frequency of , no bar is drawn for that class.     "
+},
+{
+  "id": "stats-ch2-frequency-histogram-example-1",
+  "level": "2",
+  "url": "stats-ch2-frequency-histograms.html#stats-ch2-frequency-histogram-example-1",
+  "type": "Example",
+  "number": "18.4.2",
+  "title": "Example 1.",
+  "body": " Example 1   Using the data on Tornado deaths in Tennessee from Example 1 in How to Create Frequency Distributions , create a Frequency Histogram that has 8 classes.    First, click on the Copy Data to Clipboard button and a popup should appear that indicates the copy was successful.   Copy Data to Clipboard button highlighted with a confirmation popup saying 'Dataset copied to clipboard' at the top.    Next, open the Histogram Generator Tool by clicking on this link or by going to the GeoGebra Tools module and clicking the link provided there. Once Frequency Distribution Tool is opened, click on the Spreadsheet tab.   GeoGebra interface showing the Spreadsheet tab highlighted with 'Click Here' annotation.    Click on the A1 Cell, and right click to open up the Context Menu.   Spreadsheet context menu with 'Paste' highlighted.    Select Paste from the Menu, and the data will copy into the spreadsheet. (This may take a moment to load. Please be patient.)   Spreadsheet view showing 'Year' and 'Direct Fatality' columns populated with data in GeoGebra Calculator Suite.    Notice that the data in which we are interested is in column B. Remember this. Click on the Spreadsheet tab to hide the data.   Arrow pointing to the Spreadsheet icon with text Click Here indicating where to click.    Notice that the tool is set by default to column A. If we click on the dropdown box and select column B, the smallest data point (in this case, 0) will load into the Lower Boundary textbox. Notice that, like the Frequency Distribution, the Add an Extra Class checkbox is clicked on by default.   Histogram Generator tool with column B selected and lower boundary set to 0.    We need to specify either a class width or the number of classes. We saw in Example 4 in How to Create Frequency Distributions that if we choose 8 classes, we get a class width of 10. So, let's enter in 8 for Class Width, and 10 will autofill in for the Number of Classes. Notice that the last class does not contain the maximum value of the data set; therefore, we can uncheck the Add an Extra Class checkbox. If you have everything set up correctly, the Histogram Generator Tool will look like this.   The histogram is generated with number of classes set to 8 and no extra class.    Finally, use the textboxes to update at least the title and -axis label so your reader knows what data your histogram describes. For my example, I will also update the -axis label.   Title, x-axis, and y-axis of histograms have custom labels.    The base of the bars indicate which class they belong to. For example, the base of the second bar starts at 10 and ends at 20. This represents the class 10 to 19 in the frequency distribution. The height of the bar gives the frequency, but it is not always easy to read an exact number from the graph.   "
+},
+{
+  "id": "stats-ch2-frequency-histogram-example-2",
+  "level": "2",
+  "url": "stats-ch2-frequency-histograms.html#stats-ch2-frequency-histogram-example-2",
+  "type": "Example",
+  "number": "18.4.11",
+  "title": "Example 2.",
+  "body": " Example 2   Using the data on Tornado deaths in Tennessee from Example 1 in How to Create Frequency Distributions , create a Relative Frequency Histogram that has 8 classes.    If you do not have the data loaded from Example 1 above, load it now. We will still have column B selected, Number of Classes set to 8, and unselect the Add an Extra Class checkbox.   Title, x-axis, and y-axis of histograms have custom labels.    All you have to do to convert your -axis to relative frequencies is to check the Relative Frequencies checkbox, and your -axis will update with the correct values. I will also update the -axis to be labeled as \"Percentage of Years.\"   The Relative Frequencies checkbox is selected, labeling the y-axis with relative frequencies.    If you compare the frequency histogram from Example 1 with this relative frequency histogram, they are identical except for the labeling of the -axis. Both histograms have the same shape, but the frequency histogram shows the number of data points in each class, while the relative frequency histogram shows the percentage of data in each class.   "
+},
+{
+  "id": "stats-ch2-frequency-histogram-example-3",
+  "level": "2",
+  "url": "stats-ch2-frequency-histograms.html#stats-ch2-frequency-histogram-example-3",
+  "type": "Example",
+  "number": "18.4.14",
+  "title": "Example 3.",
+  "body": " Example 3   Using the data on Tornado deaths in Tennessee from Example 1 in How to Create Frequency Distributions , create a Cumulative Frequency Histogram that has 8 classes.    If you do not have the data loaded from Example 1 above, load it now. We will still have column B selected, Number of Classes set to 8, and unselect the Add an Extra Class checkbox.   Title, x-axis, and y-axis of histograms have custom labels.    All you have to do to convert your -axis to cumulative frequencies is to check the Cumulative Frequencies checkbox, and the heights of your bars will update.   The Cumulative Frequencies checkbox is selected, adjusting the bar heights to show their cumulative frequencies.    If you compare the frequency histogram from Example 1 with this cumulative frequency histogram, they differ only in bar heights. Both use the same -axis labels, but the frequency histogram shows the number of years in each category, while the cumulative frequency histogram shows the running total up to that class.   "
+},
+{
+  "id": "stats-ch2-frequency-histogram-example-4",
+  "level": "2",
+  "url": "stats-ch2-frequency-histograms.html#stats-ch2-frequency-histogram-example-4",
+  "type": "Example",
+  "number": "18.4.17",
+  "title": "Example 4.",
+  "body": " Example 4   Using the data on Tornado deaths in Tennessee from Example 1 in How to Create Frequency Distributions , create a Cumulative Relative Frequency Histogram that has 8 classes.    If you do not have the data loaded from Example 1 above, load it now. We will still have column B selected, Number of Classes set to 8, and unselect the Add an Extra Class checkbox.   Title, x-axis, and y-axis of histograms have custom labels.    All you have to do to convert your -axis to cumulative relative frequencies is to select both the Relative Frequencies checkbox and the Cumulative Frequencies checkbox, and the histogram will update. I will also update the -axis label to read \"Percentage of Years.\"   The Relative and Cumulative Frequencies checkboxes are selected.    If you compare the cumulative histogram from Example 3 with this relative cumulative frequency histogram, they are identical except for the labeling of the -axis. Both histograms have the same shape, but the cumulative frequency histogram shows the running total for the number of years, while the relative cumulative frequency histogram shows the running total for the percentage of data.   "
+},
+{
+  "id": "stats-ch2-shapes-distributions",
+  "level": "1",
+  "url": "stats-ch2-shapes-distributions.html",
+  "type": "Section",
+  "number": "18.5",
+  "title": "Shapes of Frequency Distributions",
+  "body": " Shapes of Frequency Distributions   The shape of a frequency distribution is an important geometric property that we can determine from its histogram. While there is one shape that is the most important, we will discuss other shapes at various points during the course. Before diving into the different shapes, it is helpful to understand some important concepts related to distributions: the peak and tails of a distribution.    The Peak and Tails   What is the peak of a distribution?   The peak of a distribution refers to the tallest part of the histogram, which represents the class(es) with the most data. Distributions can have one peak (unimodal).   Example of a unimodal distribution with a peak at class the 70 to 79.    Distributions can have multiple peaks (multimodal).   Example of multimodal distribution with two peaks.    Distributions can have no distinct peak (uniform).   Example of a Uniform Distribution.       What are the tails of a distribution?   The tails of a distribution refer to the far ends of the distribution, which represent the extreme values of the dataset. For example, in a histogram, the left tail corresponds to the smallest values, while the right tail corresponds to the largest values. The shape and behavior of the tails can provide insights into the skewness and outliers of the distribution.   Example of a unimodal distribution. Areas corresponding to its peak and tails are labeled.      Now that we understand the tails and peaks of frequency distributions, let's examine the different shapes these distributions can take.    Shapes of Distributions   What are the different shapes of frequency distributions?   There are three main shapes: unimodal, multimodal, and uniform.  Unimodal Distributions (single-peak). Unimodal distributions have a single peak in their histogram. These distributions begin with small bars that gradually increase in height from left to right, reach a peak at one class, and then decrease from left to right. There are three subtypes of unimodal distributions: normal, skew-left, and skew-right.  Normal Distributions (aka bell-shaped distribution). This is the most important distribution in the course. A normal distribution is symmetric, with its peak located at the center. Its tails extend in both directions but gradually get closer and closer to the horizontal axis as they extend outward. The shape of the histogram for a normal distribution resembles a bell, hence the name \"bell-shaped distribution.\"   The red curve drawn over the histogram looks like a bell.    Skew-Left Distributions. A skew-left distribution (also called negatively skewed) is a distribution where the left tail is longer than the right tail. In these distributions, the majority of the data values are concentrated toward the right side of the histogram, with fewer values on the left. This creates a tail that extends toward smaller values.   Distribution is left-skewed since the left tail is longer than the right tail.    Skew-Right Distributions. A skew-right distribution (also called positively skewed) is a distribution where the right tail is longer than the left tail. In these distributions, the majority of the data values are concentrated toward the left side of the histogram, with fewer values on the right. This creates a tail that extends toward larger values.   Distribution is right-skewed because its right tail is longer than its left tail.    Multimodal Distributions (multiple peaks). Multimodal distributions have multiple peaks in their histogram. A bimodal distribution has two peaks, a trimodal distribution has three, and anything with four or more peaks is just called a multimodal distribution. While we won't cover multimodal distributions in this course, you may encounter them in advanced statistics courses.   A bimodal distribution with its two peaks labeled.    Uniform Distributions. Uniform distributions have bars that are all approximately the same height (give or take a small margin of error).   Uniform distribution have bars that are all approximately the same height.    Homework Note: Homework problems will ask you to identify the shape of a distribution. The easiest way to determine the shape is by drawing or visualizing a curve through the tops of the bars, as shown in the examples above for unimodal and multimodal distributions. If the distribution is uniform, all the bars should be approximately the same height.     "
+},
+{
+  "id": "stats-ch2-def-peak",
+  "level": "2",
+  "url": "stats-ch2-shapes-distributions.html#stats-ch2-def-peak",
+  "type": "Definition",
+  "number": "18.5.1",
+  "title": "What is the peak of a distribution?",
+  "body": " What is the peak of a distribution?   The peak of a distribution refers to the tallest part of the histogram, which represents the class(es) with the most data. Distributions can have one peak (unimodal).   Example of a unimodal distribution with a peak at class the 70 to 79.    Distributions can have multiple peaks (multimodal).   Example of multimodal distribution with two peaks.    Distributions can have no distinct peak (uniform).   Example of a Uniform Distribution.     "
+},
+{
+  "id": "stats-ch2-def-tails",
+  "level": "2",
+  "url": "stats-ch2-shapes-distributions.html#stats-ch2-def-tails",
+  "type": "Definition",
+  "number": "18.5.5",
+  "title": "What are the tails of a distribution?",
+  "body": " What are the tails of a distribution?   The tails of a distribution refer to the far ends of the distribution, which represent the extreme values of the dataset. For example, in a histogram, the left tail corresponds to the smallest values, while the right tail corresponds to the largest values. The shape and behavior of the tails can provide insights into the skewness and outliers of the distribution.   Example of a unimodal distribution. Areas corresponding to its peak and tails are labeled.     "
+},
+{
+  "id": "stats-ch2-def-distribution-shapes",
+  "level": "2",
+  "url": "stats-ch2-shapes-distributions.html#stats-ch2-def-distribution-shapes",
+  "type": "Definition",
+  "number": "18.5.7",
+  "title": "What are the different shapes of frequency distributions?",
+  "body": " What are the different shapes of frequency distributions?   There are three main shapes: unimodal, multimodal, and uniform.  Unimodal Distributions (single-peak). Unimodal distributions have a single peak in their histogram. These distributions begin with small bars that gradually increase in height from left to right, reach a peak at one class, and then decrease from left to right. There are three subtypes of unimodal distributions: normal, skew-left, and skew-right.  Normal Distributions (aka bell-shaped distribution). This is the most important distribution in the course. A normal distribution is symmetric, with its peak located at the center. Its tails extend in both directions but gradually get closer and closer to the horizontal axis as they extend outward. The shape of the histogram for a normal distribution resembles a bell, hence the name \"bell-shaped distribution.\"   The red curve drawn over the histogram looks like a bell.    Skew-Left Distributions. A skew-left distribution (also called negatively skewed) is a distribution where the left tail is longer than the right tail. In these distributions, the majority of the data values are concentrated toward the right side of the histogram, with fewer values on the left. This creates a tail that extends toward smaller values.   Distribution is left-skewed since the left tail is longer than the right tail.    Skew-Right Distributions. A skew-right distribution (also called positively skewed) is a distribution where the right tail is longer than the left tail. In these distributions, the majority of the data values are concentrated toward the left side of the histogram, with fewer values on the right. This creates a tail that extends toward larger values.   Distribution is right-skewed because its right tail is longer than its left tail.    Multimodal Distributions (multiple peaks). Multimodal distributions have multiple peaks in their histogram. A bimodal distribution has two peaks, a trimodal distribution has three, and anything with four or more peaks is just called a multimodal distribution. While we won't cover multimodal distributions in this course, you may encounter them in advanced statistics courses.   A bimodal distribution with its two peaks labeled.    Uniform Distributions. Uniform distributions have bars that are all approximately the same height (give or take a small margin of error).   Uniform distribution have bars that are all approximately the same height.    Homework Note: Homework problems will ask you to identify the shape of a distribution. The easiest way to determine the shape is by drawing or visualizing a curve through the tops of the bars, as shown in the examples above for unimodal and multimodal distributions. If the distribution is uniform, all the bars should be approximately the same height.   "
+},
+{
+  "id": "stats-ch2-stem-leaf-plot",
+  "level": "1",
+  "url": "stats-ch2-stem-leaf-plot.html",
+  "type": "Section",
+  "number": "18.6",
+  "title": "How to Construct Stem-and-Leaf Plots",
+  "body": " How to Construct Stem-and-Leaf Plots   Stem-and-leaf plots are a simple, effective way to organize and visualize numerical data. They reveal patterns, clusters, and unusually small or large data, making them valuable for understanding distributions. This page covers how to create these plots, handle repeated values, decide on rounding, split stems for clarity, and compare datasets using back-to-back plots. Through examples and explanations, you will learn to master stem-and-leaf plots for various data types.    Stem-and-Leaf Plots   What is a Stem-and-Leaf Plot?   A stem-and-leaf plot is a way to organize rounded numerical data by splitting each value into a stem (the leading digit(s), such as tens) and a leaf (the trailing digit(s), based on the chosen rounding level). For example, if the dataset includes , , and , rounded to the nearest one, the plot would look like:   Here, the stem represents the tens, and the leaf represents the ones. The leaf represents the level of rounding, allowing the plot to effectively display and organize data.  What if I have two or more data point with the same value? If the same value shows up more than once in a dataset, it will get a leaf for each time it appears. If we change our example to , , , , the plot would look like   and the two 5's represent the fact that 35 showed up twice in the data.     Where should I round my data?   There is a bit of an art to deciding how to create a stem-and-leaf plot. The best stems are those that appear frequently in your data and group it meaningfully.  For example, if most of your data falls between 300 and 340, you are likely to have many numbers in the ranges 300-309, 310-319, 320-329, and 330-339. In this case, 30, 31, 32, and 33 would be good choices for stems, and the ones digit would make a good leaf.  On the other hand, if most of your data ranges from 500 to 900, you will likely see many numbers in the broader ranges 500-599, 600-699, 700-799, and 800-899. In this case, 5, 6, 7, and 8 would be better choices for stems. By rounding to the nearest 10, the tens digit becomes your leaf.  The goal is to create a plot that organizes the data clearly and effectively, without being cluttered or too sparse.  Too Clustered   The stems are all in a single row.    Good Balance of Leaves   There are five stems and there are no lines without any leaves.    Too Spread Out   Many stems have no leaves. While some gaps are okay, if most stems are empty, your data is too spread out.       Example 1   The following dataset represents the monthly average rainfall (in mm) for a Midwestern town from 2018 to 2022. Construct a stem-and-leaf plot for the data, and describe the shape of the distribution.   Monthly Rainfall (2018-2022)    Month (2018)  Rainfall (mm)  Month (2019)  Rainfall (mm)  Month (2020)  Rainfall (mm)  Month (2021)  Rainfall (mm)  Month (2022)  Rainfall (mm)    January  32  January  36  January  31  January  34  January  33    February  46  February  44  February  47  February  48  February  45    March  53  March  50  March  54  March  52  March  51    April  67  April  69  April  65  April  68  April  70    May  41  May  45  May  43  May  42  May  40    June  78  June  80  June  74  June  79  June  77    July  35  July  38  July  37  July  36  July  34    August  64  August  63  August  66  August  62  August  65    September  52  September  55  September  50  September  53  September  54    October  90  October  87  October  88  October  89  October  91    November  48  November  50  November  49  November  47  November  46    December  73  December  76  December  72  December  75  December  74       To keep the Stem-and-Leaf Plot Generator running smoothly, it is important to determine the stems and leaves before starting. Since our data ranges from 31 to 91, the most logical choice is to use the tens digit as the stem and the ones digit as the leaf. Set the tool's rounding to 1.   The rounding is set to the ones digit.    Copy the dataset to your clipboard, and load it into the Stem-and-Leaf Plot Generator, which will automatically create the plot for you.   The stem and leaf plot is automatically created in the tool.    The stem-and-leaf plot reveals the shape of the data distribution. Like a histogram, the lengths of the stems show the data's shape. By rotating the plot counterclockwise, you can visualize the distribution over the tops of the bars. In this case, the plot shows a normal distribution.   The stem-and-leaf plot has a normal distribution.        Split Stems   What does it mean to split a stem?   To split stems in a stem-and-leaf plot means dividing each stem into smaller groups to spread out the data and make the plot easier to interpret. This is useful when a single stem contains too many leaves, resulting in a cluttered display. Splitting the stem divides it into two rows. The first row contains numbers where the rounded digit is between and , and the second row includes numbers where the rounded digit is between and .  For example, if the dataset includes , a traditional plot would use as the stem with all leaves grouped together: The split plot would look like this: In this example, and are placed in the first row because their ones digits are and . Numbers are placed in the second row because their ones digits are . This method provides a clearer view of the data's distribution by reducing overcrowding.     When should I split my stems?   You should split stems in a stem-and-leaf plot when...    a single stem has too many leaves, making the plot crowded and difficult to read.  precision matters, such as with decimal data or closely spaced values.  one stem has significantly more leaves than others.    Whenever the plot feels cluttered or unbalanced, splitting stems is an effective way to make it clearer and more meaningful.     Example 2   The following dataset represents the weights (in kilograms) of items in a shipment. Explain why you should split the stems, and then construct a stem-and-leaf plot with split stems. Describe the shape of the distribution.   Weights of Items in Shipment    Weight (kg)  Weight (kg)  Weight (kg)    2.34  2.42  2.30    2.48  2.56  2.44    3.57  3.63  3.50    3.62  3.75  3.60    3.94  3.98  3.92    4.02  4.18  4.05    4.37  4.51  4.40    4.89  4.93  4.85    5.01  5.08  5.02    5.26  5.31  5.25    5.74  5.81  5.71    5.93  6.02  5.90    6.14  6.24  6.11    6.68  6.72  6.65    6.91  6.95  6.90    7.02  7.13  7.03       To keep the Stem-and-Leaf Plot Generator running smoothly, it is important to determine the stems and leaves before starting. Since our data ranges from about 2.3 to 7.1, the most logical choice is to use the ones digit as the stem and the first decimal place as the leaf. Set the tool's rounding to 0.01.   The rounding set to 0.1.    Copy the dataset to your clipboard, and load it into the Stem-and-Leaf Plot Generator, which will automatically create the basic plot for you.   The tool automatically generates a basic stem plot rounded to the nearest 0.1.    Click on the Split Stems checkbox to expand the stem-and-leaf plot.   The stems are now split.    By rotating the plot counterclockwise, you can visualize the distribution over the tops of the bars. In this case, the plot shows a skew-right distribution.   The distribution of the weights is skewed right.        Back-to-Back Plots  If we want to compare two sets of data, we can make a back-to-back stem-and-leaf plot. In this setup, the stems will be up the middle. The leaves of the first dataset are to the right of the stems. The leaves of the second dataset appear to the left of the stems, written in reverse order for comparison. Back-to-back stem-and-leaf plots may have split stems.  In the example below, notice how the stems are shared between the datasets, with leaves for one dataset on the right and leaves for the other on the left.   Example of a Back-to-Back Stem Plot.     Example 3   The following datasets represent the ages of participants in two different training programs.    Part A: Create a Stem-and-Leaf Plot and compare the shapes of the two distributions.  Part B: Split the stems and compare the shapes again. Then compare this stem-and-leaf plot to the original one and explain how splitting the stems gives you a more detailed view of the distribution of both datasets.     Ages of Participants in Programs A and B    Age (Program A)  Age (Program A)  Age (Program B)  Age (Program B)    20.5  40.1  22.4  43.7    23.6  43.5  27.3  45.2    25.4  46.9  29.8  47.8    26.9  51.4  31.6  50.3    28.1  57.3  33.5  54.9    29.2  62.8  35.2  59.2    30.5  31.1  36.8  63.4    31.1  31.9  38.6  34.6    31.9  32.7  40.7  36.9    32.7  33.5  35.6  42.1       Part A. To keep the Stem-and-Leaf Plot Generator running smoothly, it is important to determine the stems and leaves before starting. Since our data ranges from about 20.5 to 63.4, there would be too much variation in the stems used the data rounded to the first decimal place. The most logical choice is to use the tens digit as the stem and the ones digit as the leaf since this will only give us leaves from 2 to 6. Set the tool's rounding to 1.   The rounding is set to the ones digit.    Copy the dataset to your clipboard, and load it into the Stem-and-Leaf Plot Generator, which will automatically create the basic plot for you.   The stem-and-leaf plot for the first data set.    Clicking the Back-to-Back checkbox creates the desired stem-and-leaf plot.   The back-to-back stem-and-leaf plot comparing Program A to Program B.    If we look at the distribution of both programs, they appear to be roughly normal with a few higher values.   Both distributions appear to be normal when the stems are not split.    Part B. Clicking on the Split Stems checkbox will update the stem-and-leaf plot.   The back-to-back stem-and-leaf plot using split stems.    Program A looks roughly normal with a few unusually high values, but Program B starts to show a skew to the right.   When the stems are split, Program B starts to show a skew to the right.    While it was clear from the original back-to-back plot that we had values clusters in the thirties, what was not clear was how much more extra data we had on the high end in Program B until we split the stems.      Conclusion  Stem-and-leaf plots are a powerful tool for organizing data and identifying patterns. By learning to construct, interpret, and refine these plots using techniques like splitting stems and back-to-back comparisons, you can effectively analyze and communicate data insights.   "
+},
+{
+  "id": "stats-ch2-def-stem-leaf",
+  "level": "2",
+  "url": "stats-ch2-stem-leaf-plot.html#stats-ch2-def-stem-leaf",
+  "type": "Definition",
+  "number": "18.6.1",
+  "title": "What is a Stem-and-Leaf Plot?",
+  "body": " What is a Stem-and-Leaf Plot?   A stem-and-leaf plot is a way to organize rounded numerical data by splitting each value into a stem (the leading digit(s), such as tens) and a leaf (the trailing digit(s), based on the chosen rounding level). For example, if the dataset includes , , and , rounded to the nearest one, the plot would look like:   Here, the stem represents the tens, and the leaf represents the ones. The leaf represents the level of rounding, allowing the plot to effectively display and organize data.  What if I have two or more data point with the same value? If the same value shows up more than once in a dataset, it will get a leaf for each time it appears. If we change our example to , , , , the plot would look like   and the two 5's represent the fact that 35 showed up twice in the data.   "
+},
+{
+  "id": "stats-ch2-def-rounding-stem-leaf",
+  "level": "2",
+  "url": "stats-ch2-stem-leaf-plot.html#stats-ch2-def-rounding-stem-leaf",
+  "type": "Definition",
+  "number": "18.6.2",
+  "title": "Where should I round my data?",
+  "body": " Where should I round my data?   There is a bit of an art to deciding how to create a stem-and-leaf plot. The best stems are those that appear frequently in your data and group it meaningfully.  For example, if most of your data falls between 300 and 340, you are likely to have many numbers in the ranges 300-309, 310-319, 320-329, and 330-339. In this case, 30, 31, 32, and 33 would be good choices for stems, and the ones digit would make a good leaf.  On the other hand, if most of your data ranges from 500 to 900, you will likely see many numbers in the broader ranges 500-599, 600-699, 700-799, and 800-899. In this case, 5, 6, 7, and 8 would be better choices for stems. By rounding to the nearest 10, the tens digit becomes your leaf.  The goal is to create a plot that organizes the data clearly and effectively, without being cluttered or too sparse.  Too Clustered   The stems are all in a single row.    Good Balance of Leaves   There are five stems and there are no lines without any leaves.    Too Spread Out   Many stems have no leaves. While some gaps are okay, if most stems are empty, your data is too spread out.     "
+},
+{
+  "id": "stats-ch2-stem-leaf-example-1",
+  "level": "2",
+  "url": "stats-ch2-stem-leaf-plot.html#stats-ch2-stem-leaf-example-1",
+  "type": "Example",
+  "number": "18.6.6",
+  "title": "Example 1.",
+  "body": " Example 1   The following dataset represents the monthly average rainfall (in mm) for a Midwestern town from 2018 to 2022. Construct a stem-and-leaf plot for the data, and describe the shape of the distribution.   Monthly Rainfall (2018-2022)    Month (2018)  Rainfall (mm)  Month (2019)  Rainfall (mm)  Month (2020)  Rainfall (mm)  Month (2021)  Rainfall (mm)  Month (2022)  Rainfall (mm)    January  32  January  36  January  31  January  34  January  33    February  46  February  44  February  47  February  48  February  45    March  53  March  50  March  54  March  52  March  51    April  67  April  69  April  65  April  68  April  70    May  41  May  45  May  43  May  42  May  40    June  78  June  80  June  74  June  79  June  77    July  35  July  38  July  37  July  36  July  34    August  64  August  63  August  66  August  62  August  65    September  52  September  55  September  50  September  53  September  54    October  90  October  87  October  88  October  89  October  91    November  48  November  50  November  49  November  47  November  46    December  73  December  76  December  72  December  75  December  74       To keep the Stem-and-Leaf Plot Generator running smoothly, it is important to determine the stems and leaves before starting. Since our data ranges from 31 to 91, the most logical choice is to use the tens digit as the stem and the ones digit as the leaf. Set the tool's rounding to 1.   The rounding is set to the ones digit.    Copy the dataset to your clipboard, and load it into the Stem-and-Leaf Plot Generator, which will automatically create the plot for you.   The stem and leaf plot is automatically created in the tool.    The stem-and-leaf plot reveals the shape of the data distribution. Like a histogram, the lengths of the stems show the data's shape. By rotating the plot counterclockwise, you can visualize the distribution over the tops of the bars. In this case, the plot shows a normal distribution.   The stem-and-leaf plot has a normal distribution.     "
+},
+{
+  "id": "stats-ch2-def-split-stems",
+  "level": "2",
+  "url": "stats-ch2-stem-leaf-plot.html#stats-ch2-def-split-stems",
+  "type": "Definition",
+  "number": "18.6.11",
+  "title": "What does it mean to split a stem?",
+  "body": " What does it mean to split a stem?   To split stems in a stem-and-leaf plot means dividing each stem into smaller groups to spread out the data and make the plot easier to interpret. This is useful when a single stem contains too many leaves, resulting in a cluttered display. Splitting the stem divides it into two rows. The first row contains numbers where the rounded digit is between and , and the second row includes numbers where the rounded digit is between and .  For example, if the dataset includes , a traditional plot would use as the stem with all leaves grouped together: The split plot would look like this: In this example, and are placed in the first row because their ones digits are and . Numbers are placed in the second row because their ones digits are . This method provides a clearer view of the data's distribution by reducing overcrowding.   "
+},
+{
+  "id": "stats-ch2-def-when-split-stems",
+  "level": "2",
+  "url": "stats-ch2-stem-leaf-plot.html#stats-ch2-def-when-split-stems",
+  "type": "Definition",
+  "number": "18.6.12",
+  "title": "When should I split my stems?",
+  "body": " When should I split my stems?   You should split stems in a stem-and-leaf plot when...    a single stem has too many leaves, making the plot crowded and difficult to read.  precision matters, such as with decimal data or closely spaced values.  one stem has significantly more leaves than others.    Whenever the plot feels cluttered or unbalanced, splitting stems is an effective way to make it clearer and more meaningful.   "
+},
+{
+  "id": "stats-ch2-stem-leaf-example-2",
+  "level": "2",
+  "url": "stats-ch2-stem-leaf-plot.html#stats-ch2-stem-leaf-example-2",
+  "type": "Example",
+  "number": "18.6.13",
+  "title": "Example 2.",
+  "body": " Example 2   The following dataset represents the weights (in kilograms) of items in a shipment. Explain why you should split the stems, and then construct a stem-and-leaf plot with split stems. Describe the shape of the distribution.   Weights of Items in Shipment    Weight (kg)  Weight (kg)  Weight (kg)    2.34  2.42  2.30    2.48  2.56  2.44    3.57  3.63  3.50    3.62  3.75  3.60    3.94  3.98  3.92    4.02  4.18  4.05    4.37  4.51  4.40    4.89  4.93  4.85    5.01  5.08  5.02    5.26  5.31  5.25    5.74  5.81  5.71    5.93  6.02  5.90    6.14  6.24  6.11    6.68  6.72  6.65    6.91  6.95  6.90    7.02  7.13  7.03       To keep the Stem-and-Leaf Plot Generator running smoothly, it is important to determine the stems and leaves before starting. Since our data ranges from about 2.3 to 7.1, the most logical choice is to use the ones digit as the stem and the first decimal place as the leaf. Set the tool's rounding to 0.01.   The rounding set to 0.1.    Copy the dataset to your clipboard, and load it into the Stem-and-Leaf Plot Generator, which will automatically create the basic plot for you.   The tool automatically generates a basic stem plot rounded to the nearest 0.1.    Click on the Split Stems checkbox to expand the stem-and-leaf plot.   The stems are now split.    By rotating the plot counterclockwise, you can visualize the distribution over the tops of the bars. In this case, the plot shows a skew-right distribution.   The distribution of the weights is skewed right.     "
+},
+{
+  "id": "stats-ch2-back-to-back-4",
+  "level": "2",
+  "url": "stats-ch2-stem-leaf-plot.html#stats-ch2-back-to-back-4",
+  "type": "Figure",
+  "number": "18.6.19",
+  "title": "",
+  "body": " Example of a Back-to-Back Stem Plot.   "
+},
+{
+  "id": "stats-ch2-stem-leaf-example-3",
+  "level": "2",
+  "url": "stats-ch2-stem-leaf-plot.html#stats-ch2-stem-leaf-example-3",
+  "type": "Example",
+  "number": "18.6.20",
+  "title": "Example 3.",
+  "body": " Example 3   The following datasets represent the ages of participants in two different training programs.    Part A: Create a Stem-and-Leaf Plot and compare the shapes of the two distributions.  Part B: Split the stems and compare the shapes again. Then compare this stem-and-leaf plot to the original one and explain how splitting the stems gives you a more detailed view of the distribution of both datasets.     Ages of Participants in Programs A and B    Age (Program A)  Age (Program A)  Age (Program B)  Age (Program B)    20.5  40.1  22.4  43.7    23.6  43.5  27.3  45.2    25.4  46.9  29.8  47.8    26.9  51.4  31.6  50.3    28.1  57.3  33.5  54.9    29.2  62.8  35.2  59.2    30.5  31.1  36.8  63.4    31.1  31.9  38.6  34.6    31.9  32.7  40.7  36.9    32.7  33.5  35.6  42.1       Part A. To keep the Stem-and-Leaf Plot Generator running smoothly, it is important to determine the stems and leaves before starting. Since our data ranges from about 20.5 to 63.4, there would be too much variation in the stems used the data rounded to the first decimal place. The most logical choice is to use the tens digit as the stem and the ones digit as the leaf since this will only give us leaves from 2 to 6. Set the tool's rounding to 1.   The rounding is set to the ones digit.    Copy the dataset to your clipboard, and load it into the Stem-and-Leaf Plot Generator, which will automatically create the basic plot for you.   The stem-and-leaf plot for the first data set.    Clicking the Back-to-Back checkbox creates the desired stem-and-leaf plot.   The back-to-back stem-and-leaf plot comparing Program A to Program B.    If we look at the distribution of both programs, they appear to be roughly normal with a few higher values.   Both distributions appear to be normal when the stems are not split.    Part B. Clicking on the Split Stems checkbox will update the stem-and-leaf plot.   The back-to-back stem-and-leaf plot using split stems.    Program A looks roughly normal with a few unusually high values, but Program B starts to show a skew to the right.   When the stems are split, Program B starts to show a skew to the right.    While it was clear from the original back-to-back plot that we had values clusters in the thirties, what was not clear was how much more extra data we had on the high end in Program B until we split the stems.   "
+},
+{
+  "id": "stats-ch2-dot-plots",
+  "level": "1",
+  "url": "stats-ch2-dot-plots.html",
+  "type": "Section",
+  "number": "18.7",
+  "title": "How to Construct Dot Plots",
+  "body": " How to Construct Dot Plots   A dot plot is a simple visual tool for representing data, where each dot corresponds to a specific data point. It effectively displays frequency distributions, highlighting patterns, peaks, and left or right skew. Dot plots are ideal for small to moderately sized datasets in various fields such as education, biology, and economics.    Dot Plots   How do I make a Dot Plot?   To create a dot plot by hand, follow these steps    Draw a horizontal axis to represent the range of values, labeling it appropriately.  Divide the axis into evenly spaced intervals to cover all data points.  For each value in the dataset, place a dot above its corresponding position on the axis, stacking dots vertically for repeated values.  Add a title and labels to clarify the data being represented.       Example 1   The following data represents the length in centimeters of a sample of 10 white oak leaves. Make a dotplot of this data.   Leaf Length Data (in cm)    Length (cm)  Length (cm)    17  18    18  15    13  19    16  17    17  16       First, we note that the range of values are from 13 to 19, so we label the -axis from 13 to 19. Since 13 only appears once, we will put one dot above 13.   x-axis labeled from 13 to 19. There is one dot above 13.    Next, since 15 only appears once, we will put one dot above 15.   One dot was added above 15 on the dotplot in addition to the previous dot.    Next, since 16 appears twice, we will put two dots above 16.   Two dots are added above 16 in addition to the previous dots.    Next, since 17 appears 3 times, we will put three dots above 17.   Three dots are put above 17 in addition to the previous dots.    Next, since 18 appears 2 times, we will put two dots above 18.   Two dots are drawn above 18 in addition to the previous dots.    Finally, since 19 appears once and is the largest data point, we will add a dot above 19, and that completes the dotplot.   A single dot is placed above 19 in addition to the previous dots, and that completes the graph.      Of course, when doing anything by hand, this introduces human error. Like with our other displays, we will use GeoGebra to construct our Dot Plots. In this case, we will use the Dot Plot Generator Tool . Let's use the tool on our next example.   Example 2   A customer service manager wants to evaluate the team's efficiency in responding to support tickets during peak hours. The response times (in minutes) for 10 randomly selected tickets are given in the table below. Make a dot plot of this data.   Response Time to Support Tickets (in Minutes)    Response Time (minutes)  Response Time (minutes)    5.9  5.7    4.9  5.8    7.6  6.2    6.4  5.7    5.4  5.9       Download the data and enter it into the Dot Plot Generator Tool . Close the Spreadsheet Tab, and notice that the tool has already put the dots on the graph for you.   The data from Example 2 is loaded into GeoGebra. The dots are correct, but the x-axis scale is incorrect.    The dots are correctly placed, but the -axis labels start at 4.9 and increase by 1. This happens because the Dot Plot Generator defaults to integers. Since the data is rounded to one decimal place, select from the dropdown menu. (Note: Due to an unresolved bug, appears as .) Adjusting this fixes the -scale, making all ticks and labels display correctly.   Rounding option changed to 0.1. Arrow points to option reads Adjust this.    Title your Dot Plot and -axis, and your graph is done.   Title is Times for 10 Support Tickets. The x-axis label is Time (minutes).        Interpreting Dot Plots  Dot plots give us another way to see the shape of the distribution. But unlike histograms, it gives us a way to identify the exact data points that are either unusually small or unusually large compared to the other data points.  If we look at the dot plot for Example 1 and draw a curve over it, we see that since 13 is smaller than the rest of the data clustered around the peak at 17, and this unusually small data point skews the distribution to the left by elongating the left tail.   The dot plot from Example 1. A curve is drawn over it, showing a skew-left distribution.    Similarly, if we draw a curve over the dot plot for Example 2, we see that since 7.8 is larger than the rest of the data clustered around the peak approximately 5.6-5.9, and this unusually large data point skews the distribution to the right by elongating the right tail.   The dot plot from Example 1. A curve is drawn over it, showing a skew-right distribution.     Note  We will formally introduce the criteria for when a data point is significantly small or significantly large later in this course.    "
+},
+{
+  "id": "stats-ch2-def-dot-plot",
+  "level": "2",
+  "url": "stats-ch2-dot-plots.html#stats-ch2-def-dot-plot",
+  "type": "Definition",
+  "number": "18.7.1",
+  "title": "How do I make a Dot Plot?",
+  "body": " How do I make a Dot Plot?   To create a dot plot by hand, follow these steps    Draw a horizontal axis to represent the range of values, labeling it appropriately.  Divide the axis into evenly spaced intervals to cover all data points.  For each value in the dataset, place a dot above its corresponding position on the axis, stacking dots vertically for repeated values.  Add a title and labels to clarify the data being represented.     "
+},
+{
+  "id": "stats-ch2-dot-plot-example-1",
+  "level": "2",
+  "url": "stats-ch2-dot-plots.html#stats-ch2-dot-plot-example-1",
+  "type": "Example",
+  "number": "18.7.2",
+  "title": "Example 1.",
+  "body": " Example 1   The following data represents the length in centimeters of a sample of 10 white oak leaves. Make a dotplot of this data.   Leaf Length Data (in cm)    Length (cm)  Length (cm)    17  18    18  15    13  19    16  17    17  16       First, we note that the range of values are from 13 to 19, so we label the -axis from 13 to 19. Since 13 only appears once, we will put one dot above 13.   x-axis labeled from 13 to 19. There is one dot above 13.    Next, since 15 only appears once, we will put one dot above 15.   One dot was added above 15 on the dotplot in addition to the previous dot.    Next, since 16 appears twice, we will put two dots above 16.   Two dots are added above 16 in addition to the previous dots.    Next, since 17 appears 3 times, we will put three dots above 17.   Three dots are put above 17 in addition to the previous dots.    Next, since 18 appears 2 times, we will put two dots above 18.   Two dots are drawn above 18 in addition to the previous dots.    Finally, since 19 appears once and is the largest data point, we will add a dot above 19, and that completes the dotplot.   A single dot is placed above 19 in addition to the previous dots, and that completes the graph.     "
+},
+{
+  "id": "stats-ch2-dot-plot-example-2",
+  "level": "2",
+  "url": "stats-ch2-dot-plots.html#stats-ch2-dot-plot-example-2",
+  "type": "Example",
+  "number": "18.7.10",
+  "title": "Example 2.",
+  "body": " Example 2   A customer service manager wants to evaluate the team's efficiency in responding to support tickets during peak hours. The response times (in minutes) for 10 randomly selected tickets are given in the table below. Make a dot plot of this data.   Response Time to Support Tickets (in Minutes)    Response Time (minutes)  Response Time (minutes)    5.9  5.7    4.9  5.8    7.6  6.2    6.4  5.7    5.4  5.9       Download the data and enter it into the Dot Plot Generator Tool . Close the Spreadsheet Tab, and notice that the tool has already put the dots on the graph for you.   The data from Example 2 is loaded into GeoGebra. The dots are correct, but the x-axis scale is incorrect.    The dots are correctly placed, but the -axis labels start at 4.9 and increase by 1. This happens because the Dot Plot Generator defaults to integers. Since the data is rounded to one decimal place, select from the dropdown menu. (Note: Due to an unresolved bug, appears as .) Adjusting this fixes the -scale, making all ticks and labels display correctly.   Rounding option changed to 0.1. Arrow points to option reads Adjust this.    Title your Dot Plot and -axis, and your graph is done.   Title is Times for 10 Support Tickets. The x-axis label is Time (minutes).     "
+},
+{
+  "id": "stats-ch2-interpreting-dot-plots-4",
+  "level": "2",
+  "url": "stats-ch2-dot-plots.html#stats-ch2-interpreting-dot-plots-4",
+  "type": "Figure",
+  "number": "18.7.15",
+  "title": "",
+  "body": " The dot plot from Example 1. A curve is drawn over it, showing a skew-left distribution.   "
+},
+{
+  "id": "stats-ch2-interpreting-dot-plots-6",
+  "level": "2",
+  "url": "stats-ch2-dot-plots.html#stats-ch2-interpreting-dot-plots-6",
+  "type": "Figure",
+  "number": "18.7.16",
+  "title": "",
+  "body": " The dot plot from Example 1. A curve is drawn over it, showing a skew-right distribution.   "
+},
+{
+  "id": "stats-ch2-interpreting-dot-plots-7",
+  "level": "2",
+  "url": "stats-ch2-dot-plots.html#stats-ch2-interpreting-dot-plots-7",
+  "type": "Note",
+  "number": "18.7.17",
+  "title": "Note.",
+  "body": " Note  We will formally introduce the criteria for when a data point is significantly small or significantly large later in this course.  "
+},
+{
+  "id": "stats-ch2-time-series",
+  "level": "1",
+  "url": "stats-ch2-time-series.html",
+  "type": "Section",
+  "number": "18.8",
+  "title": "How to Construct Time Series Plots",
+  "body": " How to Construct Time Series Plots   Time series plots are essential tools in statistics for visualizing data points collected over time. By highlighting patterns and variations, these plots provide valuable insights for decision-making in fields like economics, finance, weather prediction, and performance monitoring.    Time Series Plots   How do I make a Time Series Plot?     Label the -axis with the range of days, months, or years, and label the -axis with the units of the data. Make sure to title your graph as well.  Plot each data point as .  Draw straight line segments between consecutive points to connect them.      In this course, we will exclusively build the time series plots in our Time Series Generator Tool and focus on interpreting the data.   Example 1   According to the European Commission , \"Gross domestic product (GDP) is the most common measure for the size of an economy, and it measures the value of total final output of goods and services produced by that economy in a certain period of time.\" The following data from the World Bank Group describes the U.S. GDP (in trillions of dollars) for each year from 2010 to 2023. Use this data to construct a time series plot.   GDP Data by Year (in US$ Trillions)    Year  GDP  Year  GDP    2010  15.05  2017  19.61    2011  15.60  2018  20.66    2012  16.25  2019  21.54    2013  16.88  2020  21.35    2014  17.61  2021  23.68    2015  18.30  2022  26.01    2016  18.80  2023  27.72       First, copy and paste the data into the Time Series Generator Tool . The data you copied should already be defaulted so that the years are in column A and the GDP is in column B, and the tool should look like this after you load the data.   The time series plot for the US GDP (2010-2023).    All we have to do is update the title and axes labels, and we are done. Remember you can adjust the sliders to reposition the title and labels, if you so desire.   The title and axes labels have been updated.      The most important part of time series plots are being able to interpret them. The next example asks questions about the plot we just created.   Example 2   Use the time series plot we created in Example 1 to answer the following questions.    In what year did the GDP grow the slowest?  In what year did the GDP grow the fastest?  The only year we had a decrease in GDP was from 2019 to 2020. What historical event explains the drop in GDP?        We are looking for the line segment that has the most horizontal since its slope (which measure the yearly change) will be closest to zero. In this case, it is the line segment from 2015 to 2016 is the most horizontal, and it was not easy to see at all. (I had to enlarge the graph to figure it out.) Note: We do not want 2019-2020 since the GDP did not grow that year, we actually lost some GDP that year.  We are looking for the line that is most vertical since this line segment will have the largest slope, which is from 2020 to 2021.  The COVID pandemic hit in 2020 since the pandemic disrupted many of the systems we relied on to keep the economy running.       "
+},
+{
+  "id": "stats-ch2-def-time-series",
+  "level": "2",
+  "url": "stats-ch2-time-series.html#stats-ch2-def-time-series",
+  "type": "Definition",
+  "number": "18.8.1",
+  "title": "How do I make a Time Series Plot?",
+  "body": " How do I make a Time Series Plot?     Label the -axis with the range of days, months, or years, and label the -axis with the units of the data. Make sure to title your graph as well.  Plot each data point as .  Draw straight line segments between consecutive points to connect them.     "
+},
+{
+  "id": "stats-ch2-time-series-example-1",
+  "level": "2",
+  "url": "stats-ch2-time-series.html#stats-ch2-time-series-example-1",
+  "type": "Example",
+  "number": "18.8.2",
+  "title": "Example 1.",
+  "body": " Example 1   According to the European Commission , \"Gross domestic product (GDP) is the most common measure for the size of an economy, and it measures the value of total final output of goods and services produced by that economy in a certain period of time.\" The following data from the World Bank Group describes the U.S. GDP (in trillions of dollars) for each year from 2010 to 2023. Use this data to construct a time series plot.   GDP Data by Year (in US$ Trillions)    Year  GDP  Year  GDP    2010  15.05  2017  19.61    2011  15.60  2018  20.66    2012  16.25  2019  21.54    2013  16.88  2020  21.35    2014  17.61  2021  23.68    2015  18.30  2022  26.01    2016  18.80  2023  27.72       First, copy and paste the data into the Time Series Generator Tool . The data you copied should already be defaulted so that the years are in column A and the GDP is in column B, and the tool should look like this after you load the data.   The time series plot for the US GDP (2010-2023).    All we have to do is update the title and axes labels, and we are done. Remember you can adjust the sliders to reposition the title and labels, if you so desire.   The title and axes labels have been updated.     "
+},
+{
+  "id": "stats-ch2-time-series-example-2",
+  "level": "2",
+  "url": "stats-ch2-time-series.html#stats-ch2-time-series-example-2",
+  "type": "Example",
+  "number": "18.8.6",
+  "title": "Example 2.",
+  "body": " Example 2   Use the time series plot we created in Example 1 to answer the following questions.    In what year did the GDP grow the slowest?  In what year did the GDP grow the fastest?  The only year we had a decrease in GDP was from 2019 to 2020. What historical event explains the drop in GDP?        We are looking for the line segment that has the most horizontal since its slope (which measure the yearly change) will be closest to zero. In this case, it is the line segment from 2015 to 2016 is the most horizontal, and it was not easy to see at all. (I had to enlarge the graph to figure it out.) Note: We do not want 2019-2020 since the GDP did not grow that year, we actually lost some GDP that year.  We are looking for the line that is most vertical since this line segment will have the largest slope, which is from 2020 to 2021.  The COVID pandemic hit in 2020 since the pandemic disrupted many of the systems we relied on to keep the economy running.     "
+},
+{
+  "id": "stats-ch2-bar-graphs",
+  "level": "1",
+  "url": "stats-ch2-bar-graphs.html",
+  "type": "Section",
+  "number": "18.9",
+  "title": "How to Construct Bar Graphs",
+  "body": " How to Construct Bar Graphs   A bar graph uses proportional vertical or horizontal bars to represent the frequency of categorical data. This allows for the quick comparison of different categories of data. A common variation of a bar graph is the Pareto graph, which sorts the bars from tallest to shortest.    Bar Graphs  Bar graphs are a powerful tool to visually compare categories of data. To understand how they work, let us explore an example that demonstrates the process of creating a bar graph using our Bar and Pie Chart Generator Tool .   Example 1   A survey of 100 people was conducted to determine their favorite fast food restaurant among various national brands. The results are summarized in the table below. Using the data, create a bar graph to represent the distribution of responses.   Favorite Restaurants    Response from Survey  Response from Survey  Response from Survey  Response from Survey  Response from Survey  Response from Survey  Response from Survey  Response from Survey    Chick-fil-A  McDonald's  Domino's  Taco Bell  McDonald's  McDonald's  McDonald's  Chick-fil-A    Wendy's  Burger King  Burger King  Domino's  McDonald's  Subway  Subway  KFC    KFC  Domino's  Chipotle  Domino's  Chipotle  Domino's  Taco Bell  Wendy's    Chipotle  Burger King  Pizza Hut  Wendy's  Taco Bell  Domino's  KFC  Domino's    Chipotle  Burger King  Chipotle  Wendy's  Domino's  KFC  Domino's  KFC    Subway  Chipotle  Burger King  Subway  Wendy's  Burger King  KFC  Wendy's    McDonald's  Chick-fil-A  McDonald's  Chick-fil-A  Subway  Domino's  Wendy's  Subway    Burger King  McDonald's  Burger King  McDonald's  Burger King  Burger King  Subway  Wendy's    Pizza Hut  Taco Bell  Burger King  Taco Bell  Chipotle  Pizza Hut  Wendy's  KFC    Subway  Subway  KFC  Taco Bell  Chick-fil-A  Subway  Subway  Chipotle    Taco Bell  Domino's  Chipotle  Chipotle  Burger King  Wendy's  Wendy's  Taco Bell    Wendy's  McDonald's  Pizza Hut  Wendy's  McDonald's  Taco Bell  Burger King  Subway    Domino's  Taco Bell  Domino's  McDonald's           Copy the data to the clipboard, and load it into the Bar and Pie Chart Generator Tool . The tool should automatically generate the bar graph by default since the data is located in column A. If you load a data set where your information is not in A, you will have to change the drop box to the appropriate column.   A bar graph of the survey data on favorite fast food restaurant.    Just add in your title and labels, and you are done. I left the -axis label blank in my example since it is clear all the bars are food food restaurants.   The title and y-axis have been labeled. The x-axis label was removed.       Note  For this tool, I have enabled pan and zoom since labels on the -axis can be bunched together and hard to read. This is something I plan to fix in the future. For now, you can use your mouse, touch pad, or fingers to change the size of the graph.     Pareto Graphs  While standard bar graphs are effective at showcasing categorical data, there are scenarios where sorting the bars in descending order provides greater clarity. This leads us to a specialized variation of the bar graph known as the Pareto graph. Let's modify Example 1 so that all the bars are sorted from largest to smallest.   Example 2   Create a Pareto graph of the preferred fast food restaurants from Example 1.    Here is our result from Example 1.   The title and y-axis have been labeled. The x-axis label was removed.    Notice there is a checkbox next to Bar Graph Checkbox that says Pareto. Click on this box, and it will sort the bars for you.   The Pareto box has been check, and the bars are now sorted from longest to shortest.    Notice that is is now easier to see that, in this sample, the most popular restaurants are Wendy's, Domino's, and Burger King, and the least popular are KFC, Chick-fil-A, and Pizza Hut.     "
+},
+{
+  "id": "stats-ch2-bar-graph-example-1",
+  "level": "2",
+  "url": "stats-ch2-bar-graphs.html#stats-ch2-bar-graph-example-1",
+  "type": "Example",
+  "number": "18.9.1",
+  "title": "Example 1.",
+  "body": " Example 1   A survey of 100 people was conducted to determine their favorite fast food restaurant among various national brands. The results are summarized in the table below. Using the data, create a bar graph to represent the distribution of responses.   Favorite Restaurants    Response from Survey  Response from Survey  Response from Survey  Response from Survey  Response from Survey  Response from Survey  Response from Survey  Response from Survey    Chick-fil-A  McDonald's  Domino's  Taco Bell  McDonald's  McDonald's  McDonald's  Chick-fil-A    Wendy's  Burger King  Burger King  Domino's  McDonald's  Subway  Subway  KFC    KFC  Domino's  Chipotle  Domino's  Chipotle  Domino's  Taco Bell  Wendy's    Chipotle  Burger King  Pizza Hut  Wendy's  Taco Bell  Domino's  KFC  Domino's    Chipotle  Burger King  Chipotle  Wendy's  Domino's  KFC  Domino's  KFC    Subway  Chipotle  Burger King  Subway  Wendy's  Burger King  KFC  Wendy's    McDonald's  Chick-fil-A  McDonald's  Chick-fil-A  Subway  Domino's  Wendy's  Subway    Burger King  McDonald's  Burger King  McDonald's  Burger King  Burger King  Subway  Wendy's    Pizza Hut  Taco Bell  Burger King  Taco Bell  Chipotle  Pizza Hut  Wendy's  KFC    Subway  Subway  KFC  Taco Bell  Chick-fil-A  Subway  Subway  Chipotle    Taco Bell  Domino's  Chipotle  Chipotle  Burger King  Wendy's  Wendy's  Taco Bell    Wendy's  McDonald's  Pizza Hut  Wendy's  McDonald's  Taco Bell  Burger King  Subway    Domino's  Taco Bell  Domino's  McDonald's           Copy the data to the clipboard, and load it into the Bar and Pie Chart Generator Tool . The tool should automatically generate the bar graph by default since the data is located in column A. If you load a data set where your information is not in A, you will have to change the drop box to the appropriate column.   A bar graph of the survey data on favorite fast food restaurant.    Just add in your title and labels, and you are done. I left the -axis label blank in my example since it is clear all the bars are food food restaurants.   The title and y-axis have been labeled. The x-axis label was removed.     "
+},
+{
+  "id": "stats-ch2-bar-graphs-basics-4",
+  "level": "2",
+  "url": "stats-ch2-bar-graphs.html#stats-ch2-bar-graphs-basics-4",
+  "type": "Note",
+  "number": "18.9.5",
+  "title": "Note.",
+  "body": " Note  For this tool, I have enabled pan and zoom since labels on the -axis can be bunched together and hard to read. This is something I plan to fix in the future. For now, you can use your mouse, touch pad, or fingers to change the size of the graph.  "
+},
+{
+  "id": "stats-ch2-bar-graph-example-2",
+  "level": "2",
+  "url": "stats-ch2-bar-graphs.html#stats-ch2-bar-graph-example-2",
+  "type": "Example",
+  "number": "18.9.6",
+  "title": "Example 2.",
+  "body": " Example 2   Create a Pareto graph of the preferred fast food restaurants from Example 1.    Here is our result from Example 1.   The title and y-axis have been labeled. The x-axis label was removed.    Notice there is a checkbox next to Bar Graph Checkbox that says Pareto. Click on this box, and it will sort the bars for you.   The Pareto box has been check, and the bars are now sorted from longest to shortest.    Notice that is is now easier to see that, in this sample, the most popular restaurants are Wendy's, Domino's, and Burger King, and the least popular are KFC, Chick-fil-A, and Pizza Hut.   "
+},
+{
+  "id": "stats-ch2-pie-charts",
+  "level": "1",
+  "url": "stats-ch2-pie-charts.html",
+  "type": "Section",
+  "number": "18.10",
+  "title": "How to Create Pie Graphs",
+  "body": " How to Create Pie Graphs   A pie chart is statistical graph that divides a circle up into slices whose area is proportional to the quantity of the category that it represents. Pie charts are useful when there are a small selection of categories, and the categories represent every possible option under consideration.    Conditions for Using a Pie Graph   When can I use a Pie Graph?   A pie graph should only be used under two specific conditions.    Data can belong to exactly one of the categories.  Categories must be parts of a whole.    For example, the following table summarizes the numbers of stars a particular store was rated during a 30-day period.   Store Ratings Over a 30-Day Period    Star Rating  Percentage of Ratings  Number of Transactions    1 Star  5%  16,468    2 Stars  12%  39,522    3 Stars  8%  26,348    4 Stars  20%  65,871    5 Stars  55%  181,144     Notice that every category is included, and since each transaction can only be associated to exact one rating, the first condition is satisfied as well. This data could be made into a pie chart.    At times, categorical data may be provided that violates one or both of these conditions. In some cases, it might still be possible to use a pie graph, but not always. In our first example, the data cannot be used to create a pie graph.   Example 1   Suppose a survey asked which department(s) a customer purchased from during their last visit to a particular department store. Explain why a pie graph cannot be used with the following set of data.   Percentage of People Shopping in Each Department    Department  Percentage of Shoppers    Electronics  40%    Clothing  55%    Groceries  70%    Home and Furniture  30%    Sports and Outdoors  25%       Although this data is helpful for stores to understand which departments are shopped the most, it is not suitable for creating a pie chart because customers may shop in multiple departments during a single visit. Unless the question is reframed to something like, \"Which department was your primary reason for visiting the store today?\" customers will fall into more than one category, violating the first condition.  Moreover, this categorical overlap causes the percentages to exceed 100%, which goes against the pie chart's requirement that all parts must represent a complete whole.  Additionally, the list of departments may not be exhaustive (for example, common departments like \"Health and Beauty\" are missing), further disqualifying this data for use in a pie chart.    Many examples can be resolved by simply adding an \"Other\" category to the results. This is commonly done because some responses may not fit within the predefined categories in a survey question. Furthermore, when several categories have relatively small percentages compared to the main categories, they are often grouped into an \"Other\" option. This approach highlights the primary categories and makes the overall results easier to interpret, avoiding an overload of less significant choices for the reader. Our next example demonstrates an appropriate use of adding an \"Other\" category.   Example 2   A survey was conducted to determine the types of activities people prefer on weekends. A survey of 1,303 people were asked, \"Which of the follow activities do you most prefer to do on weekends? Please select only one option.\" The percentages were tabulated and reported in the table below. Explain why a pie chart cannot be created from this table and suggest how it could be corrected.   Weekend Activity Preferences    Activity  Percentage    Watching Movies  25%    Outdoor Sports  30%    Reading Books  20%    Cooking  15%    Playing Video Games  8%       Since the survey question required respondents to select only one activity, we know that each person belongs to exactly one category. However, the given percentages only add up to 98%, which indicates that 2% of the data is missing. To fix this, we can create an \"Other\" category to account for the remaining 2%. This ensures that all respondents are included, and the categories represent parts of a whole. Once the missing data is accounted for, the conditions for creating a pie chart are satisfied.    As a final example, it is important to recognize that some reported data may have percentages that add up to 100%, but the categories are not truly parts of a whole. This often confuses students who focus too heavily on the idea that the parts must sum to 100%, without recognizing that the data does not represent components of a single whole. The next example provides a demonstration of this type of situation.   Example 3   A survey asked 1,373 respondents, \"What is your favorite activity while on vacation?\" The responses are summarized in the following table. Explain why this data cannot be used to make a pie chart.   Vacation Activity Preferences    Activity  Percentage    Sightseeing  35%    Relaxing on the beach  25%    Trying local cuisine  20%    Outdoor adventures (e.g., hiking or kayaking)  10%    Shopping  10%       In this case, the percentages add up to 100%, but the responses do not represent parts of a whole. Each response reflects a preference for a single activity while on vacation, rather than components of a unified whole. For example, another type of response could have been attending cultural events such as festivals, concerts, or other local performances.  This illustrates how data that sums to 100% can still fail to meet the criteria of representing parts of a single whole.      Constructing Pie Graphs  Pie graphs are difficult to draw well by hand and are exclusively made with technology nowadays. The following example will show you how to build pie charts with the Bar and Pie Chart Generator Tool .   Example 4   A survey of 50 patients who were recently discharged from a hospital were asked to rate their overall stay at the hospital as Very Satisfied, Satisfied, Neutral, Dissatisfied, or Very Dissatisfied. The results are complied in the table below. Use the Bar and Pie Chart Generator Tool to make a pie graph of the data.   Satisfaction Levels from Survey    Satisfaction Levels  Satisfaction Levels  Satisfaction Levels  Satisfaction Levels  Satisfaction Levels    Neutral  Neutral  Very Dissatisfied  Satisfied  Satisfied    Dissatisfied  Satisfied  Neutral  Very Dissatisfied  Very Dissatisfied    Dissatisfied  Neutral  Dissatisfied  Neutral  Satisfied    Satisfied  Neutral  Dissatisfied  Very Satisfied  Satisfied    Dissatisfied  Satisfied  Neutral  Neutral  Neutral    Dissatisfied  Neutral  Neutral  Neutral  Neutral    Satisfied  Neutral  Satisfied  Very Satisfied  Dissatisfied    Very Dissatisfied  Neutral  Dissatisfied  Neutral  Dissatisfied    Very Dissatisfied  Dissatisfied  Neutral  Satisfied  Dissatisfied    Satisfied  Neutral  Satisfied  Neutral  Neutral       First, load the data into the Bar and Pie Chart Generator Tool and note that the tool automatically generates a bar graph by default. Click on the Pie Graph checkbox, and it switches the graph to a pie graph.   A pie graph of the satisfaction rates for a recent hospital visit.    Since there are no units attached to our data, we can delete the text from the units textbox. We also give the pie chart a title, and our pie chart is complete.   A title have been added to the pie graph.       "
+},
+{
+  "id": "stats-ch2-def-pie-conditions",
+  "level": "2",
+  "url": "stats-ch2-pie-charts.html#stats-ch2-def-pie-conditions",
+  "type": "Definition",
+  "number": "18.10.1",
+  "title": "When can I use a Pie Graph?",
+  "body": " When can I use a Pie Graph?   A pie graph should only be used under two specific conditions.    Data can belong to exactly one of the categories.  Categories must be parts of a whole.    For example, the following table summarizes the numbers of stars a particular store was rated during a 30-day period.   Store Ratings Over a 30-Day Period    Star Rating  Percentage of Ratings  Number of Transactions    1 Star  5%  16,468    2 Stars  12%  39,522    3 Stars  8%  26,348    4 Stars  20%  65,871    5 Stars  55%  181,144     Notice that every category is included, and since each transaction can only be associated to exact one rating, the first condition is satisfied as well. This data could be made into a pie chart.   "
+},
+{
+  "id": "stats-ch2-pie-example-1",
+  "level": "2",
+  "url": "stats-ch2-pie-charts.html#stats-ch2-pie-example-1",
+  "type": "Example",
+  "number": "18.10.3",
+  "title": "Example 1.",
+  "body": " Example 1   Suppose a survey asked which department(s) a customer purchased from during their last visit to a particular department store. Explain why a pie graph cannot be used with the following set of data.   Percentage of People Shopping in Each Department    Department  Percentage of Shoppers    Electronics  40%    Clothing  55%    Groceries  70%    Home and Furniture  30%    Sports and Outdoors  25%       Although this data is helpful for stores to understand which departments are shopped the most, it is not suitable for creating a pie chart because customers may shop in multiple departments during a single visit. Unless the question is reframed to something like, \"Which department was your primary reason for visiting the store today?\" customers will fall into more than one category, violating the first condition.  Moreover, this categorical overlap causes the percentages to exceed 100%, which goes against the pie chart's requirement that all parts must represent a complete whole.  Additionally, the list of departments may not be exhaustive (for example, common departments like \"Health and Beauty\" are missing), further disqualifying this data for use in a pie chart.   "
+},
+{
+  "id": "stats-ch2-pie-example-2",
+  "level": "2",
+  "url": "stats-ch2-pie-charts.html#stats-ch2-pie-example-2",
+  "type": "Example",
+  "number": "18.10.5",
+  "title": "Example 2.",
+  "body": " Example 2   A survey was conducted to determine the types of activities people prefer on weekends. A survey of 1,303 people were asked, \"Which of the follow activities do you most prefer to do on weekends? Please select only one option.\" The percentages were tabulated and reported in the table below. Explain why a pie chart cannot be created from this table and suggest how it could be corrected.   Weekend Activity Preferences    Activity  Percentage    Watching Movies  25%    Outdoor Sports  30%    Reading Books  20%    Cooking  15%    Playing Video Games  8%       Since the survey question required respondents to select only one activity, we know that each person belongs to exactly one category. However, the given percentages only add up to 98%, which indicates that 2% of the data is missing. To fix this, we can create an \"Other\" category to account for the remaining 2%. This ensures that all respondents are included, and the categories represent parts of a whole. Once the missing data is accounted for, the conditions for creating a pie chart are satisfied.   "
+},
+{
+  "id": "stats-ch2-pie-example-3",
+  "level": "2",
+  "url": "stats-ch2-pie-charts.html#stats-ch2-pie-example-3",
+  "type": "Example",
+  "number": "18.10.7",
+  "title": "Example 3.",
+  "body": " Example 3   A survey asked 1,373 respondents, \"What is your favorite activity while on vacation?\" The responses are summarized in the following table. Explain why this data cannot be used to make a pie chart.   Vacation Activity Preferences    Activity  Percentage    Sightseeing  35%    Relaxing on the beach  25%    Trying local cuisine  20%    Outdoor adventures (e.g., hiking or kayaking)  10%    Shopping  10%       In this case, the percentages add up to 100%, but the responses do not represent parts of a whole. Each response reflects a preference for a single activity while on vacation, rather than components of a unified whole. For example, another type of response could have been attending cultural events such as festivals, concerts, or other local performances.  This illustrates how data that sums to 100% can still fail to meet the criteria of representing parts of a single whole.   "
+},
+{
+  "id": "stats-ch2-pie-example-4",
+  "level": "2",
+  "url": "stats-ch2-pie-charts.html#stats-ch2-pie-example-4",
+  "type": "Example",
+  "number": "18.10.9",
+  "title": "Example 4.",
+  "body": " Example 4   A survey of 50 patients who were recently discharged from a hospital were asked to rate their overall stay at the hospital as Very Satisfied, Satisfied, Neutral, Dissatisfied, or Very Dissatisfied. The results are complied in the table below. Use the Bar and Pie Chart Generator Tool to make a pie graph of the data.   Satisfaction Levels from Survey    Satisfaction Levels  Satisfaction Levels  Satisfaction Levels  Satisfaction Levels  Satisfaction Levels    Neutral  Neutral  Very Dissatisfied  Satisfied  Satisfied    Dissatisfied  Satisfied  Neutral  Very Dissatisfied  Very Dissatisfied    Dissatisfied  Neutral  Dissatisfied  Neutral  Satisfied    Satisfied  Neutral  Dissatisfied  Very Satisfied  Satisfied    Dissatisfied  Satisfied  Neutral  Neutral  Neutral    Dissatisfied  Neutral  Neutral  Neutral  Neutral    Satisfied  Neutral  Satisfied  Very Satisfied  Dissatisfied    Very Dissatisfied  Neutral  Dissatisfied  Neutral  Dissatisfied    Very Dissatisfied  Dissatisfied  Neutral  Satisfied  Dissatisfied    Satisfied  Neutral  Satisfied  Neutral  Neutral       First, load the data into the Bar and Pie Chart Generator Tool and note that the tool automatically generates a bar graph by default. Click on the Pie Graph checkbox, and it switches the graph to a pie graph.   A pie graph of the satisfaction rates for a recent hospital visit.    Since there are no units attached to our data, we can delete the text from the units textbox. We also give the pie chart a title, and our pie chart is complete.   A title have been added to the pie graph.     "
 },
 {
   "id": "statistics-mean",
@@ -4742,6 +5876,15 @@ var ptx_lunr_docs = [
   "number": "19.17.18",
   "title": "Example 3.",
   "body": " Example 3   Compare 100m sprint times (seconds) for high-school and Olympic athletes using the Boxplot Generator .   100m Sprint Times: High School vs. Olympic Athletes    High School (s)  Olympic (s)   10.55 10.60 10.65 10.72 10.78 9.58 9.69 9.72 9.76 9.81  10.82 10.85 10.89 10.94 10.98 9.85 9.88 9.91 9.93 9.95  11.02 11.07 11.10 11.14 11.18 9.98 10.01 10.03 10.05 10.08  11.21 11.25 11.29 11.35 11.40 10.12 10.15 10.19 10.22 10.25      Paste the two-column data into the Boxplot Generator. First, the high-school plot appears.   Boxplot for high-school sprint times.    Set number of datasets to Two and choose column B for dataset 2 to show side-by-side plots.   Side-by-side boxplots for high-school and Olympic times.    The high-school times are slower overall and show a wider IQR (more variability). Olympic times are lower and slightly left-skewed, indicating a few exceptionally fast performances.   "
+},
+{
+  "id": "finite-mathematics-chapter1",
+  "level": "1",
+  "url": "finite-mathematics-chapter1.html",
+  "type": "Chapter",
+  "number": "20",
+  "title": "Chapter 1",
+  "body": " Chapter 1   Text before the first section.            "
 },
 {
   "id": "appendix-a",
@@ -8431,7 +9574,538 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "H.1",
   "title": "Chapter 1 Lecture Notes",
-  "body": " Chapter 1 Lecture Notes  "
+  "body": " Chapter 1 Lecture Notes   Data   Data is any collection of observations, counts, measurements, or survey responses.     Examples of Data   Data can include numerical measurements, categorical information, survey responses, and observational records.     Statistics   Statistics is the science of collecting, organizing, analyzing, and interpreting data from a sample to draw conclusions about a population.     Course Structure Overview   The course is structured as follows:   Chapter 1: Introduces the best ways to collect data and ensures it represents the real world.  Chapters 2 and 3: Focus on organizing and analyzing data.  Chapters 4–6: Cover probability and probability distributions, which are essential for understanding inferences made in Chapters 7–10. These chapters are the most theoretical and challenging but provide the necessary foundation.  Chapters 7–10: Teach how to interpret data from a sample to draw conclusions about a population.   Statistics is a process you'll learn throughout the semester—it's not something mastered in a day.     Population   A population is the complete collection of all individuals to be studied.  Individuals often refer to people, but not always. For example, individuals can also refer to animals, plants, objects, or any entities of interest.     Census   A census collects data from every member of a population.  Examples include the U.S. Census, surveys of all employees at a company, or studies examining every item in a production batch.     Sample   A sample is a subset of members selected from a population.  Examples include polling a subset of voters, surveying students from selected schools, or testing a portion of a product batch.     Example 1   Determine the population and sample for the given situation: A Gallup poll is given to a sample of eligible voters, and there are 2.3 million responses.     Example 2   Determine whether the following data is from a population or a sample:   Part A: The age of every fourth person entering a grocery store.  Part B: The major for each student at a community college.      Example 3   Identify the population and sample for this situation: A company surveys 850 of its employees and finds that 520 are satisfied with their job.     Example 4   An ecologist wants to study the nesting habits of birds in a particular forest. They identify 1800 trees in the northwest region of the forest and randomly select 300 trees to observe. Of those, 120 trees contain nests.   Part A: What is the population the ecologist wants to study?  Part B: What is the sample they obtained?  Part C: About which population can the ecologist draw conclusions?      Parameter   A parameter is a numerical measurement describing some characteristic of a population. It is often theoretical and unknown.     Statistic   A statistic is a number calculated from and describing some characteristic of a sample. Statistics are used to estimate unknown parameters.     How to Tell the Difference Between a Parameter and a Statistic     Parameter refers to a population (both start with \"p\").  Statistic refers to a sample (both start with \"s\").       Example 1   For each scenario below, tell if each bolded value is a parameter or a statistic. If the value is a statistic, explain what could be changed about the scenario to make the bolded value a parameter:   Part A: A study of all 2223 passengers aboard the Titanic found that survived when it sank.  Part B: In a large sample of households, the median annual income per household for high school graduates is (based on data from the U.S. Census Bureau).  Part C: Among the Senators in the current Congress, are Democrats.  Part D: The author measured the voltage supplied to his home on 40 different days, and the average (mean) value is volts.      Example 2   Determine if the boldface number is a parameter or a statistic: In 2022, the average math score for a female student who took the ACT that year was .     Qualitative Data   Qualitative data (or categorical data) categorizes or describes attributes of a population, often using words or letters but can include labels that are numerical.  Examples include gender, ethnicity, color, brand names, and categories.     Quantitative Data   Quantitative data represents numerical values obtained by counting or measuring attributes.  Examples include height, weight, temperature, number of students, and salary.  Quantitative data is further divided into two subcategories:   Discrete Data: Occurs when the possible values are finite or countable (e.g., 0 calls, 1 call, 2 calls, etc.). Examples include number of children, number of cars owned, and count of defective items.  Continuous Data: Consists of infinitely many possible values along a continuous scale with no gaps, interruptions, or jumps (e.g., weight, time, or distance). Examples include height: 5'8.1\", 5'8 3\/16\", etc.; weight; and temperature.      Example 1   For each of the following, determine whether the data is quantitative or qualitative. If it is quantitative, specify whether it is discrete or continuous:   Part A: The number of pairs of shoes you own  Part B: The type of car you drive  Part C: The distance from your home to the nearest grocery store  Part D: The number of classes you take per school year  Part E: The type of calculator you use  Part F: Weights of dogs at an animal shelter  Part G: The number of correct answers on a quiz  Part H: The amount of money you spend at the local Quickmart      Example 2   Consider the following information and table, then answer the questions below.   Part A: Which information is categorical data?  Part B: Which information is quantitative data?    Selected Vehicle Data    Make\/Model  Class  Transmission  Cylinders  City MPG  Highway MPG  Annual Fuel Cost    Chevrolet Corvette  Two-Seater  Manual  8  17  29  $2,650    Nissan Cube  Station Wagon  Manual  4  25  30  $1,850    Ford Fusion  Midsize  Automatic  4  23  36  $1,800    Chevrolet Impala  Large  Automatic  6  18  28  $2,400        Example 3: Type of Data from an Image   The registrar at State University keeps records of the number of credit hours students complete each semester. The data collected are summarized in the histogram. The class boundaries are 10 to less than 13, 13 to less than 16, 16 to less than 19, 19 to less than 22, and 22 to less than 25.   Histogram with intervals 10-13, 13-16, 16-19, 19-22, 22-25; bar heights: 250, 580, 740, 625, 240.       Nominal Level   Data at the nominal level are categorized without any order. Examples include gender, eye color, and types of fruits.     Ordinal Level   Data at the ordinal level are categorized with a meaningful order, but differences between categories are not measurable. Examples include rankings in a competition or survey responses such as \"satisfied,\" \"neutral,\" or \"dissatisfied.\"     Interval Level   Data at the interval level have meaningful order and measurable differences, but no true zero point. Examples include temperature in Celsius or years on a calendar.     Ratio Level   Data at the ratio level have meaningful order, measurable differences, and a true zero point, allowing for meaningful ratios. Examples include weight, height, or age.     Example: Levels of Measurement   Classify the following scenarios by their level of measurement:   Part A: Types of cars (e.g., SUV, sedan, truck).  Part B: The ranking of runners in a race.  Part C: Temperature readings in Fahrenheit.  Part D: The time it takes for participants to complete a task, measured in seconds.      Observational Study   In an observational study , a researcher observes and measures characteristics but does not change any existing conditions.     Experiment and Treatment   In an experiment , a researcher imposes a change in some preexisting condition, called a treatment , onto a sample of a population and measures their response to that change.     Control Group   A control group is a sample that receives no treatment and is used as a baseline to compare other samples to.     Example 1   Determine whether the study is observational or an experiment. Explain your reasoning.   Part A: In a survey of 1033 US adults, 51% of respondents said that US presidents should release all medical information that might affect their ability to serve.  Part B: Researchers demonstrated that adults using an intensive program to lower systolic blood pressure to less than 120 millimeters of mercury reduce the risk of death from all causes by 27%.      Replication   Replication: Assign enough individuals to each treatment to reduce the variation in the results. This ensures that similar experiments conducted under the same conditions will yield similar results.     Randomization   Randomization: Select subjects randomly so that variations in results occur purely by chance, not external factors.     Example 2   In statistics, it is often said that a single data study doesn't prove a result. Explain why this is true.     Blinding   Blinding ensures that subjects do not know whether they are receiving a placebo or an actual treatment. This reduces the risk of bias caused by participants' expectations influencing the results.     Single-Blind Experiment   In a single-blind experiment , the participants do not know whether they are receiving the treatment or a placebo, but the researchers administering the treatment do know.     Double-Blind Experiment   In a double-blind experiment , neither the participants nor the researchers administering the treatment know who is receiving the treatment or the placebo.     Example 3   An experiment that claimed to show that meditation reduces anxiety proceeded as follows:  The experimenter interviewed the subjects and rated their level of anxiety. Then the subjects were randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply told to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety levels. The meditation group now had less anxiety.  Psychologists said that the results were suspect because the ratings were not blind. Explain what this means and show how the lack of blindness could introduce bias into the reported results.     Response Bias   Response bias occurs when the behavior of the respondent or the interviewer influences the response that the respondent gives. This can result in inaccurate or misleading data that does not accurately represent the population being studied.     Wording Effects   Wording effects occur when the phrasing, choice of words, or order in which questions are asked affects the responses collected. Even slight changes in how a question is framed can result in significantly different answers, which can introduce bias into the data.     Nonresponse   Nonresponse occurs when a respondent refuses to participate or cannot be reached. This results in missing data and can skew the results if the nonrespondents differ systematically from those who do respond.     Example 4   An opinion poll calls 2000 randomly chosen households and asks an adult member of the household, \"How many movies have you watched in a movie theater in the last 12 months?\" Only 831 people responded.   What is the rate of nonresponse?  Why do you think the nonresponse rate was so high?      Simple Random Sampling   In simple random sampling , every individual in the population has an equal chance of being selected, ensuring that all samples of the same size are equally likely.     Stratified Sampling   In stratified sampling , divide the population into groups (strata) and take a proportionate random sample from each group. For instance, sample students from various departments to represent a college population.     Cluster Sampling   In cluster sampling , divide the population into clusters, then randomly select some clusters and include all members from those clusters in the sample. For example, randomly select departments in a college and survey all their students.     Systematic Sampling   In systematic sampling , randomly select a starting point and pick every nth member from a population list. For example, choose every 50th name in a phone book for a survey.     Convenience Sampling   In convenience sampling , individuals are chosen based on accessibility and ease rather than randomness. For example, surveying the first 20 people entering a grocery store about their shopping habits.     Example 1   A study intends to determine the average tuition paid by Tennessee Technological University undergraduate students per semester. Identify the sampling method used in each scenario:   Part A: Organize students by year (e.g., first-year, sophomore), then select 25 from each.  Part B: Use a random number generator to select one student, then pick every 50th student until 75 students are included.  Part C: Select 75 students completely at random, with equal probability for all.  Part D: Randomly pick two years (e.g., first-year and senior), and survey all students in those years.  Part E: Survey the first 100 students encountered in front of the library on a specific day.      Random Sampling Error   A random sampling error occurs when there is a discrepancy between a sample result and the true population result. This type of error arises purely due to chance, as a sample is only a subset of the population and may not perfectly represent it. For example, if a random sample of 50 students is drawn from a school of 1,000, the sample mean test score might differ slightly from the population mean simply by chance.     Nonrandom Sampling Error   There are three important types of nonrandom sampling errors: undercoverage , nonresponse , and volunteer response .     Undercoverage   Undercoverage occurs when some groups in the population are systematically excluded from the sampling process, making the sample unrepresentative of the entire population.     Volunteer Response Bias   Volunteer response occurs when participants self-select into the sample rather than being randomly chosen, often leading to an overrepresentation of individuals with strong opinions.     Example 2   A university is conducting a study to understand student preferences for campus dining options. The following scenarios describe how data was collected. Identify the type of nonrandom sampling error for each part and explain your reasoning.   Part A: The university posts a survey link on its social media pages and encourages students to share their opinions. Most responses come from students who are either very satisfied or very dissatisfied with campus dining options.  Part B: The university randomly emails 1,000 students asking them to complete the survey. Only 250 students respond, and many of the responses are from students who frequently use campus dining services.  Part C: The university conducts the survey at a single campus dining hall during lunchtime. Students who do not use the dining hall or eat lunch on campus are excluded from the sample.      Non-sampling Error   A non-sampling error is caused by human error or flaws in the data collection process. These errors can occur regardless of how the sample is chosen. Examples include mistyping data into a computer, misinterpreting survey questions, or using faulty measuring instruments.     Completely Randomized Design   A completely randomized design assigns treatments to subjects entirely at random, without grouping or blocking. This design works well when the subjects are similar and there are no additional variables that need to be controlled.  Example: A clinical trial randomly assigns participants to receive one of three medications to treat high blood pressure. Results are compared across all participants.     Example 1   Many utility companies have introduced programs to encourage energy conservation among their customers. A particular company has three options:   Place a small digital display in households to show current electricity usage.  Give customers a chart and information about monitoring their use from the outside meter.  Use a control group that receives general information about conserving energy but no tools to monitor their use.   Design a flowchart that models this experiment.     Randomized Block Design   A randomized block design groups subjects into blocks based on shared characteristics or variables that may influence the results. Treatments are then randomly assigned within each block, and comparisons are made within the blocks.  Example: In a weight loss study, participants are grouped into blocks by gender (e.g., male and female). Within each block, participants are randomly assigned to different diet plans, and results are compared separately for males and females.     Example 2   A cosmetics company wants to compare the effectiveness of two facial creams: Cream A, which claims to reduce wrinkles, and Cream B, which claims to improve skin hydration. The company recruits 40 participants and divides them into blocks based on skin type: oily, dry, combination, and sensitive. Each block contains 10 participants. Within each block, participants are randomly assigned to use either Cream A or Cream B for four weeks, and their skin condition is evaluated at the end of the study.  Design a diagram that models this experiment.     Matched Pairs Design   A matched pairs design is a special case of the randomized block design where subjects are paired or matched in some way. This design is used to compare two treatments.  Version 1: Pair two individuals based on shared characteristics. Randomly assign one individual in each pair to receive the first treatment, and the other to receive the second treatment. Compare results within each pair.  Example: Two participants of similar age and fitness level are paired. One is assigned to a new exercise routine, and the other follows a standard routine. Their progress is compared after four weeks.  Version 2: Use the same individual for both treatments. Assign one of the treatments to the individual at random, and once the experiment is concluded, apply the other treatment at a later time under similar conditions. Compare the results for that individual.  Example: A participant tests two different types of running shoes by running a set distance with each pair on different days. Their times are compared to determine which shoe performs better.     Example 3   Researchers are studying the effect of two different dashboard layouts on driver reaction times during sudden stops. The two layouts are:   Layout A: A traditional dashboard with analog gauges.  Layout B: A modern digital dashboard with heads-up display features.   Each participant is randomly assigned to use one dashboard layout while completing a driving simulation. After a break, the same participants repeat the simulation with the other dashboard layout under similar conditions. Reaction times are measured during each simulation.  Describe and diagram a matched pairs experiment to determine if the modern dashboard increases safety.    "
+},
+{
+  "id": "stats-app-ch1-data-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-definition",
+  "type": "Definition",
+  "number": "H.1.349",
+  "title": "Data.",
+  "body": " Data   Data is any collection of observations, counts, measurements, or survey responses.   "
+},
+{
+  "id": "stats-app-ch1-examples-of-data",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-examples-of-data",
+  "type": "Definition",
+  "number": "H.1.350",
+  "title": "Examples of Data.",
+  "body": " Examples of Data   Data can include numerical measurements, categorical information, survey responses, and observational records.   "
+},
+{
+  "id": "stats-app-ch1-statistics-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-statistics-definition",
+  "type": "Definition",
+  "number": "H.1.351",
+  "title": "Statistics.",
+  "body": " Statistics   Statistics is the science of collecting, organizing, analyzing, and interpreting data from a sample to draw conclusions about a population.   "
+},
+{
+  "id": "stats-app-ch1-course-structure",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-course-structure",
+  "type": "Definition",
+  "number": "H.1.352",
+  "title": "Course Structure Overview.",
+  "body": " Course Structure Overview   The course is structured as follows:   Chapter 1: Introduces the best ways to collect data and ensures it represents the real world.  Chapters 2 and 3: Focus on organizing and analyzing data.  Chapters 4–6: Cover probability and probability distributions, which are essential for understanding inferences made in Chapters 7–10. These chapters are the most theoretical and challenging but provide the necessary foundation.  Chapters 7–10: Teach how to interpret data from a sample to draw conclusions about a population.   Statistics is a process you'll learn throughout the semester—it's not something mastered in a day.   "
+},
+{
+  "id": "stats-app-ch1-population-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-population-definition",
+  "type": "Definition",
+  "number": "H.1.353",
+  "title": "Population.",
+  "body": " Population   A population is the complete collection of all individuals to be studied.  Individuals often refer to people, but not always. For example, individuals can also refer to animals, plants, objects, or any entities of interest.   "
+},
+{
+  "id": "stats-app-ch1-census-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-census-definition",
+  "type": "Definition",
+  "number": "H.1.354",
+  "title": "Census.",
+  "body": " Census   A census collects data from every member of a population.  Examples include the U.S. Census, surveys of all employees at a company, or studies examining every item in a production batch.   "
+},
+{
+  "id": "stats-app-ch1-sample-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-sample-definition",
+  "type": "Definition",
+  "number": "H.1.355",
+  "title": "Sample.",
+  "body": " Sample   A sample is a subset of members selected from a population.  Examples include polling a subset of voters, surveying students from selected schools, or testing a portion of a product batch.   "
+},
+{
+  "id": "stats-app-ch1-pop-sample-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-1",
+  "type": "Example",
+  "number": "H.1.356",
+  "title": "Example 1.",
+  "body": " Example 1   Determine the population and sample for the given situation: A Gallup poll is given to a sample of eligible voters, and there are 2.3 million responses.   "
+},
+{
+  "id": "stats-app-ch1-pop-sample-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-2",
+  "type": "Example",
+  "number": "H.1.357",
+  "title": "Example 2.",
+  "body": " Example 2   Determine whether the following data is from a population or a sample:   Part A: The age of every fourth person entering a grocery store.  Part B: The major for each student at a community college.    "
+},
+{
+  "id": "stats-app-ch1-pop-sample-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-3",
+  "type": "Example",
+  "number": "H.1.358",
+  "title": "Example 3.",
+  "body": " Example 3   Identify the population and sample for this situation: A company surveys 850 of its employees and finds that 520 are satisfied with their job.   "
+},
+{
+  "id": "stats-app-ch1-pop-sample-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-4",
+  "type": "Example",
+  "number": "H.1.359",
+  "title": "Example 4.",
+  "body": " Example 4   An ecologist wants to study the nesting habits of birds in a particular forest. They identify 1800 trees in the northwest region of the forest and randomly select 300 trees to observe. Of those, 120 trees contain nests.   Part A: What is the population the ecologist wants to study?  Part B: What is the sample they obtained?  Part C: About which population can the ecologist draw conclusions?    "
+},
+{
+  "id": "stats-app-ch1-parameter-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-parameter-definition",
+  "type": "Definition",
+  "number": "H.1.360",
+  "title": "Parameter.",
+  "body": " Parameter   A parameter is a numerical measurement describing some characteristic of a population. It is often theoretical and unknown.   "
+},
+{
+  "id": "stats-app-ch1-statistic-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-statistic-definition",
+  "type": "Definition",
+  "number": "H.1.361",
+  "title": "Statistic.",
+  "body": " Statistic   A statistic is a number calculated from and describing some characteristic of a sample. Statistics are used to estimate unknown parameters.   "
+},
+{
+  "id": "stats-app-ch1-param-vs-stat",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-param-vs-stat",
+  "type": "Definition",
+  "number": "H.1.362",
+  "title": "How to Tell the Difference Between a Parameter and a Statistic.",
+  "body": " How to Tell the Difference Between a Parameter and a Statistic     Parameter refers to a population (both start with \"p\").  Statistic refers to a sample (both start with \"s\").     "
+},
+{
+  "id": "stats-app-ch1-param-stat-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-param-stat-example-1",
+  "type": "Example",
+  "number": "H.1.363",
+  "title": "Example 1.",
+  "body": " Example 1   For each scenario below, tell if each bolded value is a parameter or a statistic. If the value is a statistic, explain what could be changed about the scenario to make the bolded value a parameter:   Part A: A study of all 2223 passengers aboard the Titanic found that survived when it sank.  Part B: In a large sample of households, the median annual income per household for high school graduates is (based on data from the U.S. Census Bureau).  Part C: Among the Senators in the current Congress, are Democrats.  Part D: The author measured the voltage supplied to his home on 40 different days, and the average (mean) value is volts.    "
+},
+{
+  "id": "stats-app-ch1-param-stat-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-param-stat-example-2",
+  "type": "Example",
+  "number": "H.1.364",
+  "title": "Example 2.",
+  "body": " Example 2   Determine if the boldface number is a parameter or a statistic: In 2022, the average math score for a female student who took the ACT that year was .   "
+},
+{
+  "id": "stats-app-ch1-qualitative-data",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-qualitative-data",
+  "type": "Definition",
+  "number": "H.1.365",
+  "title": "Qualitative Data.",
+  "body": " Qualitative Data   Qualitative data (or categorical data) categorizes or describes attributes of a population, often using words or letters but can include labels that are numerical.  Examples include gender, ethnicity, color, brand names, and categories.   "
+},
+{
+  "id": "stats-app-ch1-quantitative-data",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-quantitative-data",
+  "type": "Definition",
+  "number": "H.1.366",
+  "title": "Quantitative Data.",
+  "body": " Quantitative Data   Quantitative data represents numerical values obtained by counting or measuring attributes.  Examples include height, weight, temperature, number of students, and salary.  Quantitative data is further divided into two subcategories:   Discrete Data: Occurs when the possible values are finite or countable (e.g., 0 calls, 1 call, 2 calls, etc.). Examples include number of children, number of cars owned, and count of defective items.  Continuous Data: Consists of infinitely many possible values along a continuous scale with no gaps, interruptions, or jumps (e.g., weight, time, or distance). Examples include height: 5'8.1\", 5'8 3\/16\", etc.; weight; and temperature.    "
+},
+{
+  "id": "stats-app-ch1-data-types-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-types-example-1",
+  "type": "Example",
+  "number": "H.1.367",
+  "title": "Example 1.",
+  "body": " Example 1   For each of the following, determine whether the data is quantitative or qualitative. If it is quantitative, specify whether it is discrete or continuous:   Part A: The number of pairs of shoes you own  Part B: The type of car you drive  Part C: The distance from your home to the nearest grocery store  Part D: The number of classes you take per school year  Part E: The type of calculator you use  Part F: Weights of dogs at an animal shelter  Part G: The number of correct answers on a quiz  Part H: The amount of money you spend at the local Quickmart    "
+},
+{
+  "id": "stats-app-ch1-data-types-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-types-example-2",
+  "type": "Example",
+  "number": "H.1.368",
+  "title": "Example 2.",
+  "body": " Example 2   Consider the following information and table, then answer the questions below.   Part A: Which information is categorical data?  Part B: Which information is quantitative data?    Selected Vehicle Data    Make\/Model  Class  Transmission  Cylinders  City MPG  Highway MPG  Annual Fuel Cost    Chevrolet Corvette  Two-Seater  Manual  8  17  29  $2,650    Nissan Cube  Station Wagon  Manual  4  25  30  $1,850    Ford Fusion  Midsize  Automatic  4  23  36  $1,800    Chevrolet Impala  Large  Automatic  6  18  28  $2,400      "
+},
+{
+  "id": "stats-app-ch1-data-types-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-types-example-3",
+  "type": "Example",
+  "number": "H.1.370",
+  "title": "Example 3: Type of Data from an Image.",
+  "body": " Example 3: Type of Data from an Image   The registrar at State University keeps records of the number of credit hours students complete each semester. The data collected are summarized in the histogram. The class boundaries are 10 to less than 13, 13 to less than 16, 16 to less than 19, 19 to less than 22, and 22 to less than 25.   Histogram with intervals 10-13, 13-16, 16-19, 19-22, 22-25; bar heights: 250, 580, 740, 625, 240.     "
+},
+{
+  "id": "stats-app-ch1-nominal-level",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-nominal-level",
+  "type": "Definition",
+  "number": "H.1.372",
+  "title": "Nominal Level.",
+  "body": " Nominal Level   Data at the nominal level are categorized without any order. Examples include gender, eye color, and types of fruits.   "
+},
+{
+  "id": "stats-app-ch1-ordinal-level",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-ordinal-level",
+  "type": "Definition",
+  "number": "H.1.373",
+  "title": "Ordinal Level.",
+  "body": " Ordinal Level   Data at the ordinal level are categorized with a meaningful order, but differences between categories are not measurable. Examples include rankings in a competition or survey responses such as \"satisfied,\" \"neutral,\" or \"dissatisfied.\"   "
+},
+{
+  "id": "stats-app-ch1-interval-level",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-interval-level",
+  "type": "Definition",
+  "number": "H.1.374",
+  "title": "Interval Level.",
+  "body": " Interval Level   Data at the interval level have meaningful order and measurable differences, but no true zero point. Examples include temperature in Celsius or years on a calendar.   "
+},
+{
+  "id": "stats-app-ch1-ratio-level",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-ratio-level",
+  "type": "Definition",
+  "number": "H.1.375",
+  "title": "Ratio Level.",
+  "body": " Ratio Level   Data at the ratio level have meaningful order, measurable differences, and a true zero point, allowing for meaningful ratios. Examples include weight, height, or age.   "
+},
+{
+  "id": "stats-app-ch1-measurement-level-example",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-measurement-level-example",
+  "type": "Example",
+  "number": "H.1.376",
+  "title": "Example: Levels of Measurement.",
+  "body": " Example: Levels of Measurement   Classify the following scenarios by their level of measurement:   Part A: Types of cars (e.g., SUV, sedan, truck).  Part B: The ranking of runners in a race.  Part C: Temperature readings in Fahrenheit.  Part D: The time it takes for participants to complete a task, measured in seconds.    "
+},
+{
+  "id": "stats-app-ch1-observational-study",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-observational-study",
+  "type": "Definition",
+  "number": "H.1.377",
+  "title": "Observational Study.",
+  "body": " Observational Study   In an observational study , a researcher observes and measures characteristics but does not change any existing conditions.   "
+},
+{
+  "id": "stats-app-ch1-experiment-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-experiment-definition",
+  "type": "Definition",
+  "number": "H.1.378",
+  "title": "Experiment and Treatment.",
+  "body": " Experiment and Treatment   In an experiment , a researcher imposes a change in some preexisting condition, called a treatment , onto a sample of a population and measures their response to that change.   "
+},
+{
+  "id": "stats-app-ch1-control-group",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-control-group",
+  "type": "Definition",
+  "number": "H.1.379",
+  "title": "Control Group.",
+  "body": " Control Group   A control group is a sample that receives no treatment and is used as a baseline to compare other samples to.   "
+},
+{
+  "id": "stats-app-ch1-obs-exp-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-obs-exp-example-1",
+  "type": "Example",
+  "number": "H.1.380",
+  "title": "Example 1.",
+  "body": " Example 1   Determine whether the study is observational or an experiment. Explain your reasoning.   Part A: In a survey of 1033 US adults, 51% of respondents said that US presidents should release all medical information that might affect their ability to serve.  Part B: Researchers demonstrated that adults using an intensive program to lower systolic blood pressure to less than 120 millimeters of mercury reduce the risk of death from all causes by 27%.    "
+},
+{
+  "id": "stats-app-ch1-replication",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-replication",
+  "type": "Definition",
+  "number": "H.1.381",
+  "title": "Replication.",
+  "body": " Replication   Replication: Assign enough individuals to each treatment to reduce the variation in the results. This ensures that similar experiments conducted under the same conditions will yield similar results.   "
+},
+{
+  "id": "stats-app-ch1-randomization",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-randomization",
+  "type": "Definition",
+  "number": "H.1.382",
+  "title": "Randomization.",
+  "body": " Randomization   Randomization: Select subjects randomly so that variations in results occur purely by chance, not external factors.   "
+},
+{
+  "id": "stats-app-ch1-study-design-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-study-design-example-2",
+  "type": "Example",
+  "number": "H.1.383",
+  "title": "Example 2.",
+  "body": " Example 2   In statistics, it is often said that a single data study doesn't prove a result. Explain why this is true.   "
+},
+{
+  "id": "stats-app-ch1-blinding",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-blinding",
+  "type": "Definition",
+  "number": "H.1.384",
+  "title": "Blinding.",
+  "body": " Blinding   Blinding ensures that subjects do not know whether they are receiving a placebo or an actual treatment. This reduces the risk of bias caused by participants' expectations influencing the results.   "
+},
+{
+  "id": "stats-app-ch1-single-blind",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-single-blind",
+  "type": "Definition",
+  "number": "H.1.385",
+  "title": "Single-Blind Experiment.",
+  "body": " Single-Blind Experiment   In a single-blind experiment , the participants do not know whether they are receiving the treatment or a placebo, but the researchers administering the treatment do know.   "
+},
+{
+  "id": "stats-app-ch1-double-blind",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-double-blind",
+  "type": "Definition",
+  "number": "H.1.386",
+  "title": "Double-Blind Experiment.",
+  "body": " Double-Blind Experiment   In a double-blind experiment , neither the participants nor the researchers administering the treatment know who is receiving the treatment or the placebo.   "
+},
+{
+  "id": "stats-app-ch1-blinding-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-blinding-example-3",
+  "type": "Example",
+  "number": "H.1.387",
+  "title": "Example 3.",
+  "body": " Example 3   An experiment that claimed to show that meditation reduces anxiety proceeded as follows:  The experimenter interviewed the subjects and rated their level of anxiety. Then the subjects were randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply told to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety levels. The meditation group now had less anxiety.  Psychologists said that the results were suspect because the ratings were not blind. Explain what this means and show how the lack of blindness could introduce bias into the reported results.   "
+},
+{
+  "id": "stats-app-ch1-response-bias",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-response-bias",
+  "type": "Definition",
+  "number": "H.1.388",
+  "title": "Response Bias.",
+  "body": " Response Bias   Response bias occurs when the behavior of the respondent or the interviewer influences the response that the respondent gives. This can result in inaccurate or misleading data that does not accurately represent the population being studied.   "
+},
+{
+  "id": "stats-app-ch1-wording-effects",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-wording-effects",
+  "type": "Definition",
+  "number": "H.1.389",
+  "title": "Wording Effects.",
+  "body": " Wording Effects   Wording effects occur when the phrasing, choice of words, or order in which questions are asked affects the responses collected. Even slight changes in how a question is framed can result in significantly different answers, which can introduce bias into the data.   "
+},
+{
+  "id": "stats-app-ch1-nonresponse",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-nonresponse",
+  "type": "Definition",
+  "number": "H.1.390",
+  "title": "Nonresponse.",
+  "body": " Nonresponse   Nonresponse occurs when a respondent refuses to participate or cannot be reached. This results in missing data and can skew the results if the nonrespondents differ systematically from those who do respond.   "
+},
+{
+  "id": "stats-app-ch1-bias-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-bias-example-4",
+  "type": "Example",
+  "number": "H.1.391",
+  "title": "Example 4.",
+  "body": " Example 4   An opinion poll calls 2000 randomly chosen households and asks an adult member of the household, \"How many movies have you watched in a movie theater in the last 12 months?\" Only 831 people responded.   What is the rate of nonresponse?  Why do you think the nonresponse rate was so high?    "
+},
+{
+  "id": "stats-app-ch1-simple-random-sampling",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-simple-random-sampling",
+  "type": "Definition",
+  "number": "H.1.392",
+  "title": "Simple Random Sampling.",
+  "body": " Simple Random Sampling   In simple random sampling , every individual in the population has an equal chance of being selected, ensuring that all samples of the same size are equally likely.   "
+},
+{
+  "id": "stats-app-ch1-stratified-sampling",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-stratified-sampling",
+  "type": "Definition",
+  "number": "H.1.393",
+  "title": "Stratified Sampling.",
+  "body": " Stratified Sampling   In stratified sampling , divide the population into groups (strata) and take a proportionate random sample from each group. For instance, sample students from various departments to represent a college population.   "
+},
+{
+  "id": "stats-app-ch1-cluster-sampling",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-cluster-sampling",
+  "type": "Definition",
+  "number": "H.1.394",
+  "title": "Cluster Sampling.",
+  "body": " Cluster Sampling   In cluster sampling , divide the population into clusters, then randomly select some clusters and include all members from those clusters in the sample. For example, randomly select departments in a college and survey all their students.   "
+},
+{
+  "id": "stats-app-ch1-systematic-sampling",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-systematic-sampling",
+  "type": "Definition",
+  "number": "H.1.395",
+  "title": "Systematic Sampling.",
+  "body": " Systematic Sampling   In systematic sampling , randomly select a starting point and pick every nth member from a population list. For example, choose every 50th name in a phone book for a survey.   "
+},
+{
+  "id": "stats-app-ch1-convenience-sampling",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-convenience-sampling",
+  "type": "Definition",
+  "number": "H.1.396",
+  "title": "Convenience Sampling.",
+  "body": " Convenience Sampling   In convenience sampling , individuals are chosen based on accessibility and ease rather than randomness. For example, surveying the first 20 people entering a grocery store about their shopping habits.   "
+},
+{
+  "id": "stats-app-ch1-sampling-techniques-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-sampling-techniques-example-1",
+  "type": "Example",
+  "number": "H.1.397",
+  "title": "Example 1.",
+  "body": " Example 1   A study intends to determine the average tuition paid by Tennessee Technological University undergraduate students per semester. Identify the sampling method used in each scenario:   Part A: Organize students by year (e.g., first-year, sophomore), then select 25 from each.  Part B: Use a random number generator to select one student, then pick every 50th student until 75 students are included.  Part C: Select 75 students completely at random, with equal probability for all.  Part D: Randomly pick two years (e.g., first-year and senior), and survey all students in those years.  Part E: Survey the first 100 students encountered in front of the library on a specific day.    "
+},
+{
+  "id": "stats-app-ch1-random-sampling-error",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-random-sampling-error",
+  "type": "Definition",
+  "number": "H.1.398",
+  "title": "Random Sampling Error.",
+  "body": " Random Sampling Error   A random sampling error occurs when there is a discrepancy between a sample result and the true population result. This type of error arises purely due to chance, as a sample is only a subset of the population and may not perfectly represent it. For example, if a random sample of 50 students is drawn from a school of 1,000, the sample mean test score might differ slightly from the population mean simply by chance.   "
+},
+{
+  "id": "stats-app-ch1-nonrandom-sampling-error",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-nonrandom-sampling-error",
+  "type": "Definition",
+  "number": "H.1.399",
+  "title": "Nonrandom Sampling Error.",
+  "body": " Nonrandom Sampling Error   There are three important types of nonrandom sampling errors: undercoverage , nonresponse , and volunteer response .   "
+},
+{
+  "id": "stats-app-ch1-undercoverage",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-undercoverage",
+  "type": "Definition",
+  "number": "H.1.400",
+  "title": "Undercoverage.",
+  "body": " Undercoverage   Undercoverage occurs when some groups in the population are systematically excluded from the sampling process, making the sample unrepresentative of the entire population.   "
+},
+{
+  "id": "stats-app-ch1-volunteer-response",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-volunteer-response",
+  "type": "Definition",
+  "number": "H.1.401",
+  "title": "Volunteer Response Bias.",
+  "body": " Volunteer Response Bias   Volunteer response occurs when participants self-select into the sample rather than being randomly chosen, often leading to an overrepresentation of individuals with strong opinions.   "
+},
+{
+  "id": "stats-app-ch1-sampling-errors-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-sampling-errors-example-2",
+  "type": "Example",
+  "number": "H.1.402",
+  "title": "Example 2.",
+  "body": " Example 2   A university is conducting a study to understand student preferences for campus dining options. The following scenarios describe how data was collected. Identify the type of nonrandom sampling error for each part and explain your reasoning.   Part A: The university posts a survey link on its social media pages and encourages students to share their opinions. Most responses come from students who are either very satisfied or very dissatisfied with campus dining options.  Part B: The university randomly emails 1,000 students asking them to complete the survey. Only 250 students respond, and many of the responses are from students who frequently use campus dining services.  Part C: The university conducts the survey at a single campus dining hall during lunchtime. Students who do not use the dining hall or eat lunch on campus are excluded from the sample.    "
+},
+{
+  "id": "stats-app-ch1-non-sampling-error",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-non-sampling-error",
+  "type": "Definition",
+  "number": "H.1.403",
+  "title": "Non-sampling Error.",
+  "body": " Non-sampling Error   A non-sampling error is caused by human error or flaws in the data collection process. These errors can occur regardless of how the sample is chosen. Examples include mistyping data into a computer, misinterpreting survey questions, or using faulty measuring instruments.   "
+},
+{
+  "id": "stats-app-ch1-completely-randomized-design",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-completely-randomized-design",
+  "type": "Definition",
+  "number": "H.1.404",
+  "title": "Completely Randomized Design.",
+  "body": " Completely Randomized Design   A completely randomized design assigns treatments to subjects entirely at random, without grouping or blocking. This design works well when the subjects are similar and there are no additional variables that need to be controlled.  Example: A clinical trial randomly assigns participants to receive one of three medications to treat high blood pressure. Results are compared across all participants.   "
+},
+{
+  "id": "stats-app-ch1-exp-design-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-exp-design-example-1",
+  "type": "Example",
+  "number": "H.1.405",
+  "title": "Example 1.",
+  "body": " Example 1   Many utility companies have introduced programs to encourage energy conservation among their customers. A particular company has three options:   Place a small digital display in households to show current electricity usage.  Give customers a chart and information about monitoring their use from the outside meter.  Use a control group that receives general information about conserving energy but no tools to monitor their use.   Design a flowchart that models this experiment.   "
+},
+{
+  "id": "stats-app-ch1-randomized-block-design",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-randomized-block-design",
+  "type": "Definition",
+  "number": "H.1.406",
+  "title": "Randomized Block Design.",
+  "body": " Randomized Block Design   A randomized block design groups subjects into blocks based on shared characteristics or variables that may influence the results. Treatments are then randomly assigned within each block, and comparisons are made within the blocks.  Example: In a weight loss study, participants are grouped into blocks by gender (e.g., male and female). Within each block, participants are randomly assigned to different diet plans, and results are compared separately for males and females.   "
+},
+{
+  "id": "stats-app-ch1-exp-design-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-exp-design-example-2",
+  "type": "Example",
+  "number": "H.1.407",
+  "title": "Example 2.",
+  "body": " Example 2   A cosmetics company wants to compare the effectiveness of two facial creams: Cream A, which claims to reduce wrinkles, and Cream B, which claims to improve skin hydration. The company recruits 40 participants and divides them into blocks based on skin type: oily, dry, combination, and sensitive. Each block contains 10 participants. Within each block, participants are randomly assigned to use either Cream A or Cream B for four weeks, and their skin condition is evaluated at the end of the study.  Design a diagram that models this experiment.   "
+},
+{
+  "id": "stats-app-ch1-matched-pairs-design",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-matched-pairs-design",
+  "type": "Definition",
+  "number": "H.1.408",
+  "title": "Matched Pairs Design.",
+  "body": " Matched Pairs Design   A matched pairs design is a special case of the randomized block design where subjects are paired or matched in some way. This design is used to compare two treatments.  Version 1: Pair two individuals based on shared characteristics. Randomly assign one individual in each pair to receive the first treatment, and the other to receive the second treatment. Compare results within each pair.  Example: Two participants of similar age and fitness level are paired. One is assigned to a new exercise routine, and the other follows a standard routine. Their progress is compared after four weeks.  Version 2: Use the same individual for both treatments. Assign one of the treatments to the individual at random, and once the experiment is concluded, apply the other treatment at a later time under similar conditions. Compare the results for that individual.  Example: A participant tests two different types of running shoes by running a set distance with each pair on different days. Their times are compared to determine which shoe performs better.   "
+},
+{
+  "id": "stats-app-ch1-exp-design-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-1.html#stats-app-ch1-exp-design-example-3",
+  "type": "Example",
+  "number": "H.1.409",
+  "title": "Example 3.",
+  "body": " Example 3   Researchers are studying the effect of two different dashboard layouts on driver reaction times during sudden stops. The two layouts are:   Layout A: A traditional dashboard with analog gauges.  Layout B: A modern digital dashboard with heads-up display features.   Each participant is randomly assigned to use one dashboard layout while completing a driving simulation. After a break, the same participants repeat the simulation with the other dashboard layout under similar conditions. Reaction times are measured during each simulation.  Describe and diagram a matched pairs experiment to determine if the modern dashboard increases safety.   "
 },
 {
   "id": "appendix-statistics-chapter-2",
@@ -8440,7 +10114,529 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "H.2",
   "title": "Chapter 2 Lecture Notes",
-  "body": " Chapter 2 Lecture Notes  "
+  "body": " Chapter 2 Lecture Notes   Frequency   The frequency of a data point is how many times it shows up in the data set.     Frequency Distribution   A frequency distribution is a table that lists either the raw data or classes (defined below) in the first column and corresponding frequency in the second column.     Example 1   The data on the number of deaths directly caused by tornadoes in Tennessee is given in the table below. Create a Frequency Distribution for the number of deaths per year.    While Example 1 works well for small data sets, many frequency distributions group data into ranges instead of listing each unique data point individually. For example, we could group the number of years with 0 to 4 deaths, 5 to 9 deaths, 10 to 14 deaths, and so on, creating a row in the table for each of these ranges. These ranges are called classes or bins in statistics.  So how many classes should we have? As the researcher, you get to decide, but a good rule of thumb is to aim for 5 to 20 classes. Once the number of classes is chosen, the formula below will help determine the range for each class, known as the class width .   Class Width   The class width is the size of each class and determines how data is grouped. It is calculated using the formula: If the result is a decimal, always round up to the next whole number to ensure all data points fit into the intervals.     Example 2   Our data from Example 1 range from 0 deaths to 75 deaths. Find the class width that you will need if you want 6 classes.     Boundary Points   The minimum value is typically the first boundary point. To find the other boundary points, keep adding the class width until you get a value that is larger than (but not equal to) the maximal value in our data set.     Example 3   Our data from Example 1 range from 0 deaths to 75 deaths. Suppose you want your boundary points to start at 7 and have class width 10. Find all the boundary points.     Example 4   Using our data from Example 1, create a frequency distribution with 8 different classes.     Example 5   Use our data set from Example 1 to create a frequency distribution that starts at 7 and has a class width of 6.     Relative Frequency   Relative Frequency has two interpretations:   For raw data , relative frequency is the percentage of times that a particular value appears in a data set.  For data sorted into classes , relative frequency is the percentage of data that appear in a given class.   In both cases, the formula for relative frequency is identical: where is the number of data points in the sample. Notice that this will always give a percentage as a decimal, so we will always write instead of in this course.     Relative Frequency Distribution   A relative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative frequencies in the second column.     Computing Relative Frequency   To determine the relative frequency for a class, divide its frequency by the total number of data points: For example, consider a frequency of 64 in a class and a total of 74 data points.     Example 1   According to National Institutes of Health Cancer Statistics , the rate at which men get Colon-Rectal cancer each year (per 100,000 men, rounded to one decimal place) from 2000 to 2021 is given in the table below. Find the relative frequency distribution for this data if we use a lower class boundary of 35 and a class width of 5.     Relative Frequency Distribution Options   There are several options when displaying relative frequency distributions:   Convert To Percentage: The relative frequency distribution with percentages instead of relative frequencies.     Compare Frequency to Relative Frequency: A third column containing the raw frequencies was added to the relative frequency distribution.     Both Options: Both options are checked, allowing comparisons of percentages and raw frequencies.       Example 2   Consider the following frequency distribution for average August temperatures in Nashville, TN. (Source: Weather UnderGround ) Find the relative frequency for the class 86 to 88 .   Average August Temperature in Nashville, TN (1948-2024)    Degrees Fahrenheit  Number of Years    80 to 82  2    83 to 85  14    86 to 88  33    89 to 91  22    92 to 94  5    95 to 97  1    Total  77        Cumulative Frequency   Cumulative Frequency is the number of data points that are less than or equal to some given number (not necessarily in the data set).  To illustrate, let's turn to our Frequency Distribution about tornado deaths in Tennessee from Example 1 in the Frequency Distribution section:   Frequency distribution table with columns Data and Frequency.       Cumulative Frequency Distribution   A cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding cumulative frequencies in the second column.     Example 1   For the data from Example 1 in the Frequency Distribution section, create a cumulative frequency distribution for the raw data.     Relative Cumulative Frequency   Relative Cumulative Frequency is the percentage of data points that are less than or equal to some given number (not necessarily in the data set). As with relative frequency, we will always express the percentage as a decimal, such as instead of . Using percentages instead of decimals can cause errors in many of the formulas we will use in this course, as they require values to be expressed as decimals for accurate computation. As a formula, we can express this as where is the number of data points.  Let's consider our Cumulative Frequency Distribution from Example 1:   The cumulative frequency distribution for deaths by tornadoes in Tennessee.       Relative Cumulative Frequency Distribution   A relative cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative cumulative frequencies in the second column.     Example 2   For the data from Example 1 in the Cumulative Frequency section, create a cumulative relative frequency distribution for the raw data.     Frequency Histogram   A frequency histogram is a type of bar graph used to visualize the frequency distribution of data. Below are its key features:   The -axis represents the data values, with tick marks indicating the class boundaries of the frequency distribution.  The -axis represents the frequencies of the classes. The scale always starts at 0, but the other tick marks are determined by the data and are used to scale the heights of the bars.  Each bar represents a class. The base of the bar spans the range of values for that class, while the height corresponds to the frequency of the class.  The bars of successive classes touch each other.  If any class has a frequency of , no bar is drawn for that class.      Example 1   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Frequency Histogram that has 8 classes.     Example 2   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Relative Frequency Histogram that has 8 classes.     Example 3   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Cumulative Frequency Histogram that has 8 classes.     Example 4   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Cumulative Relative Frequency Histogram that has 8 classes.     Peak of a Distribution   The peak of a distribution refers to the tallest part of the histogram, which represents the class(es) with the most data.     Tails of a Distribution   The tails of a distribution refer to the far ends of the distribution, which represent the extreme values of the dataset.     Unimodal Distributions   Unimodal distributions have a single peak. There are three subtypes: normal , skew-left , and skew-right .   Example of a unimodal distribution with a peak at class the 70 to 79.       Normal Distributions   Normal distributions (also called bell-shaped distributions) are symmetric with the peak in the center.   Example of a unimodal distribution. Areas corresponding to its peak and tails are labeled.       Skew-Left Distributions   Skew-left distributions have the left tail longer than the right tail.   Distribution is left-skewed since the left tail is longer than the right tail.       Skew-Right Distributions   Skew-right distributions have the right tail longer than the left tail.   Distribution is right-skewed because its right tail is longer than its left tail.       Multimodal Distributions   Multimodal distributions have multiple peaks.   A bimodal distribution with its two peaks labeled.       Uniform Distributions   Uniform distributions have bars that are all approximately the same height with no distinct peak.  For homework problems that ask you to identify the shape of a distribution, the easiest way to determine the shape is by drawing (or visualizing) a curve through the tops of the bars. If the distribution is uniform, all the bars should be approximately the same height.   Uniform distribution have bars that are all approximately the same height.       Stem-and-Leaf Plot   A stem-and-leaf plot is a way to organize rounded numerical data by splitting each value into a stem (the leading digit(s), such as tens) and a leaf (the trailing digit(s), based on the chosen rounding level).     Choosing Stems   There is a bit of an art to deciding how to create a stem-and-leaf plot. The best stems are those that appear frequently in your data and group it meaningfully. The goal is to create a plot that organizes the data clearly and effectively, without being cluttered or too sparse.  Here are three examples:    Too Clustered: The stems are all in a single row.     Good Balance of Leaves: There are five stems and there are no lines without any leaves.     Too Spread Out: Many stems have no leaves. While some gaps are okay, if most stems are empty, your data is too spread out.        Example 1   The following dataset represents the monthly average rainfall (in mm) for a Midwestern town from 2018 to 2022. Construct a stem-and-leaf plot for the data, and describe the shape of the distribution.     Split Stems   To split stems in a stem-and-leaf plot means dividing each stem into smaller groups to spread out the data and make the plot easier to interpret.     When to Split Stems   Split stems when:   A single stem has too many leaves, making the plot crowded and difficult to read.  Precision matters, such as with decimal data or closely spaced values.  One stem has significantly more leaves than others.      Example 2   The following dataset represents the weights (in kilograms) of items in a shipment. Explain why you should split the stems, and then construct a stem-and-leaf plot with split stems. Describe the shape of the distribution.     Back-to-Back Stem-and-Leaf Plots   If we want to compare two sets of data, we can make a back-to-back stem-and-leaf plot . In this setup, the stems will be up the middle. The leaves of the first dataset are to the right of the stems. The leaves of the second dataset appear to the left of the stems, written in reverse order for comparison. Back-to-back stem-and-leaf plots may have split stems.   Example of a Back-to-Back Stem Plot       Example 3   The following datasets represent the ages of participants in two different training programs.   Part A : Create a Stem-and-Leaf Plot and compare the shapes of the two distributions.  Part B : Split the stems and compare the shapes again. Then compare this stem-and-leaf plot to the original one and explain how splitting the stems gives you a more detailed view of the distribution of both datasets.      Dot Plot   A dot plot is a simple visual tool for representing data, where each dot corresponds to a specific data point. It effectively displays frequency distributions, highlighting patterns, peaks, and left\/right-skew. Dot plots are ideal for small to moderately sized datasets in various fields such as education, biology, and economics.     How to Make a Dot Plot    Draw a horizontal axis to represent the range of values, labeling it appropriately.  Divide the axis into evenly spaced intervals to cover all data points.  For each value in the dataset, place a dot above its corresponding position on the axis, stacking dots vertically for repeated values.  Add a title and labels to clarify the data being represented.      Example 1   The following data represents the length in centimeters of a sample of 10 white oak leaves. Make a dot plot of this data.   Leaf Length Data (in cm)    Length (cm)  Length (cm)    17  18    18  15    13  19    16  17    17  16        Example 2   A customer service manager wants to evaluate the team's efficiency in responding to support tickets during peak hours. The response times (in minutes) for 10 randomly selected tickets are given in the table below. Make a dot plot of this data.     Interpreting Dot Plots   Dot plots give us another way to see the shape of the distribution. But unlike histograms, it gives us a way to identify the exact data points that are either unusually small or unusually large compared to the other data points.    The dot plot showing a skew-left distribution with curve.     The dot plot showing a skew-right distribution with curve.        How to Make a Time Series Plot    Label the -axis with the range of days, months, or years, and label the -axis with the units of the data. Make sure to title your graph as well.  Plot each data point as .  Draw straight line segments between consecutive points to connect them.      Example 1   According to the European Commission , Gross domestic product (GDP) is the most common measure for the size of an economy, and it measures the value of total final output of goods and services produced by that economy in a certain period of time. The following data from the World Bank Group describes the U.S. GDP (in trillions of dollars) for each year from 2010 to 2023. Use this data to construct a time series plot.     Example 2   Use the time series plot we created in Example 1 to answer the following questions.   In what year did the GDP grow the slowest?  In what year did the GDP grow the fastest?  The only year we had a decrease in GDP was from 2019 to 2020. What historical event explains the drop in GDP?      Example 1   A survey of 100 people was conducted to determine their favorite fast food restaurant among various national brands. The results are summarized in the table below. Using the data, create a bar graph to represent the distribution of responses.     Pareto Graphs   While standard bar graphs are effective at showcasing categorical data, there are scenarios where sorting the bars in descending order provides greater clarity. This leads us to a specialized variation of the bar graph known as the Pareto graph .     Example 2   Create a Pareto graph of the preferred fast food restaurants from Example 1, sorting all bars from largest to smallest.     When to Use a Pie Graph   A pie graph should only be used under two specific conditions:   Data can belong to exactly one of the categories.  Categories must be parts of a whole.      Example 1   Suppose a survey asked which department(s) a customer purchased from during their last visit to a particular department store. Explain why a pie graph cannot be used with the following set of data.   Percentage of People Shopping in Each Department    Department  Percentage of Shoppers    Electronics  40%    Clothing  55%    Groceries  70%    Home & Furniture  30%    Sports & Outdoors  25%        Example 2   A survey was conducted to determine the types of activities people prefer on weekends. A survey of 1,303 people were asked, Which of the follow activities do you most prefer to do on weekends? Please select only one option. The percentages were tabulated and reported in the table below. Explain why a pie chart cannot be created from this table and suggest how it could be corrected.   Weekend Activity Preferences    Activity  Percentage    Watching Movies  25%    Outdoor Sports  30%    Reading Books  20%    Cooking  15%    Playing Video Games  8%        Example 3   A survey asked 1,373 respondents, What is your favorite activity while on vacation? The responses are summarized in the following table. Explain why this data cannot be used to make a Pie Chart.   Vacation Activity Preferences    Activity  Percentage    Sightseeing  35%    Relaxing on the beach  25%    Trying local cuisine  20%    Outdoor adventures (e.g., hiking or kayaking)  10%    Shopping  10%        Example 4   A survey of 50 patients who were recently discharged from a hospital were asked to rate their overall stay at the hospital as Very Satisfied, Satisfied, Neutral, Dissatisfied, or Very Dissatisfied. The results are compiled in the table below. Use the Bar and Pie Chart Generator Tool to make a Pie Graph of the data.    "
+},
+{
+  "id": "stats-app-ch2-frequency-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-frequency-def",
+  "type": "Definition",
+  "number": "H.2.410",
+  "title": "Frequency.",
+  "body": " Frequency   The frequency of a data point is how many times it shows up in the data set.   "
+},
+{
+  "id": "stats-app-ch2-freq-dist-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-dist-def",
+  "type": "Definition",
+  "number": "H.2.411",
+  "title": "Frequency Distribution.",
+  "body": " Frequency Distribution   A frequency distribution is a table that lists either the raw data or classes (defined below) in the first column and corresponding frequency in the second column.   "
+},
+{
+  "id": "stats-app-ch2-freq-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-1",
+  "type": "Example",
+  "number": "H.2.412",
+  "title": "Example 1.",
+  "body": " Example 1   The data on the number of deaths directly caused by tornadoes in Tennessee is given in the table below. Create a Frequency Distribution for the number of deaths per year.   "
+},
+{
+  "id": "stats-app-ch2-class-width",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-class-width",
+  "type": "Definition",
+  "number": "H.2.413",
+  "title": "Class Width.",
+  "body": " Class Width   The class width is the size of each class and determines how data is grouped. It is calculated using the formula: If the result is a decimal, always round up to the next whole number to ensure all data points fit into the intervals.   "
+},
+{
+  "id": "stats-app-ch2-freq-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-2",
+  "type": "Example",
+  "number": "H.2.414",
+  "title": "Example 2.",
+  "body": " Example 2   Our data from Example 1 range from 0 deaths to 75 deaths. Find the class width that you will need if you want 6 classes.   "
+},
+{
+  "id": "stats-app-ch2-boundary-points",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-boundary-points",
+  "type": "Definition",
+  "number": "H.2.415",
+  "title": "Boundary Points.",
+  "body": " Boundary Points   The minimum value is typically the first boundary point. To find the other boundary points, keep adding the class width until you get a value that is larger than (but not equal to) the maximal value in our data set.   "
+},
+{
+  "id": "stats-app-ch2-freq-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-3",
+  "type": "Example",
+  "number": "H.2.416",
+  "title": "Example 3.",
+  "body": " Example 3   Our data from Example 1 range from 0 deaths to 75 deaths. Suppose you want your boundary points to start at 7 and have class width 10. Find all the boundary points.   "
+},
+{
+  "id": "stats-app-ch2-freq-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-4",
+  "type": "Example",
+  "number": "H.2.417",
+  "title": "Example 4.",
+  "body": " Example 4   Using our data from Example 1, create a frequency distribution with 8 different classes.   "
+},
+{
+  "id": "stats-app-ch2-freq-example-5",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-5",
+  "type": "Example",
+  "number": "H.2.418",
+  "title": "Example 5.",
+  "body": " Example 5   Use our data set from Example 1 to create a frequency distribution that starts at 7 and has a class width of 6.   "
+},
+{
+  "id": "stats-app-ch2-rel-freq-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-def",
+  "type": "Definition",
+  "number": "H.2.419",
+  "title": "Relative Frequency.",
+  "body": " Relative Frequency   Relative Frequency has two interpretations:   For raw data , relative frequency is the percentage of times that a particular value appears in a data set.  For data sorted into classes , relative frequency is the percentage of data that appear in a given class.   In both cases, the formula for relative frequency is identical: where is the number of data points in the sample. Notice that this will always give a percentage as a decimal, so we will always write instead of in this course.   "
+},
+{
+  "id": "stats-app-ch2-rel-freq-dist-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-dist-def",
+  "type": "Definition",
+  "number": "H.2.420",
+  "title": "Relative Frequency Distribution.",
+  "body": " Relative Frequency Distribution   A relative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative frequencies in the second column.   "
+},
+{
+  "id": "stats-app-ch2-compute-rel-freq",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-compute-rel-freq",
+  "type": "Definition",
+  "number": "H.2.421",
+  "title": "Computing Relative Frequency.",
+  "body": " Computing Relative Frequency   To determine the relative frequency for a class, divide its frequency by the total number of data points: For example, consider a frequency of 64 in a class and a total of 74 data points.   "
+},
+{
+  "id": "stats-app-ch2-rel-freq-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-example-1",
+  "type": "Example",
+  "number": "H.2.422",
+  "title": "Example 1.",
+  "body": " Example 1   According to National Institutes of Health Cancer Statistics , the rate at which men get Colon-Rectal cancer each year (per 100,000 men, rounded to one decimal place) from 2000 to 2021 is given in the table below. Find the relative frequency distribution for this data if we use a lower class boundary of 35 and a class width of 5.   "
+},
+{
+  "id": "stats-app-ch2-rel-freq-options",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-options",
+  "type": "Definition",
+  "number": "H.2.423",
+  "title": "Relative Frequency Distribution Options.",
+  "body": " Relative Frequency Distribution Options   There are several options when displaying relative frequency distributions:   Convert To Percentage: The relative frequency distribution with percentages instead of relative frequencies.     Compare Frequency to Relative Frequency: A third column containing the raw frequencies was added to the relative frequency distribution.     Both Options: Both options are checked, allowing comparisons of percentages and raw frequencies.     "
+},
+{
+  "id": "stats-app-ch2-rel-freq-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-example-2",
+  "type": "Example",
+  "number": "H.2.427",
+  "title": "Example 2.",
+  "body": " Example 2   Consider the following frequency distribution for average August temperatures in Nashville, TN. (Source: Weather UnderGround ) Find the relative frequency for the class 86 to 88 .   Average August Temperature in Nashville, TN (1948-2024)    Degrees Fahrenheit  Number of Years    80 to 82  2    83 to 85  14    86 to 88  33    89 to 91  22    92 to 94  5    95 to 97  1    Total  77      "
+},
+{
+  "id": "stats-app-ch2-cum-freq-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-cum-freq-def",
+  "type": "Definition",
+  "number": "H.2.429",
+  "title": "Cumulative Frequency.",
+  "body": " Cumulative Frequency   Cumulative Frequency is the number of data points that are less than or equal to some given number (not necessarily in the data set).  To illustrate, let's turn to our Frequency Distribution about tornado deaths in Tennessee from Example 1 in the Frequency Distribution section:   Frequency distribution table with columns Data and Frequency.     "
+},
+{
+  "id": "stats-app-ch2-cum-freq-dist-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-cum-freq-dist-def",
+  "type": "Definition",
+  "number": "H.2.431",
+  "title": "Cumulative Frequency Distribution.",
+  "body": " Cumulative Frequency Distribution   A cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding cumulative frequencies in the second column.   "
+},
+{
+  "id": "stats-app-ch2-cum-freq-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-cum-freq-example-1",
+  "type": "Example",
+  "number": "H.2.432",
+  "title": "Example 1.",
+  "body": " Example 1   For the data from Example 1 in the Frequency Distribution section, create a cumulative frequency distribution for the raw data.   "
+},
+{
+  "id": "stats-app-ch2-rel-cum-freq-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-cum-freq-def",
+  "type": "Definition",
+  "number": "H.2.433",
+  "title": "Relative Cumulative Frequency.",
+  "body": " Relative Cumulative Frequency   Relative Cumulative Frequency is the percentage of data points that are less than or equal to some given number (not necessarily in the data set). As with relative frequency, we will always express the percentage as a decimal, such as instead of . Using percentages instead of decimals can cause errors in many of the formulas we will use in this course, as they require values to be expressed as decimals for accurate computation. As a formula, we can express this as where is the number of data points.  Let's consider our Cumulative Frequency Distribution from Example 1:   The cumulative frequency distribution for deaths by tornadoes in Tennessee.     "
+},
+{
+  "id": "stats-app-ch2-rel-cum-freq-dist-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-cum-freq-dist-def",
+  "type": "Definition",
+  "number": "H.2.435",
+  "title": "Relative Cumulative Frequency Distribution.",
+  "body": " Relative Cumulative Frequency Distribution   A relative cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative cumulative frequencies in the second column.   "
+},
+{
+  "id": "stats-app-ch2-rel-cum-freq-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-cum-freq-example-2",
+  "type": "Example",
+  "number": "H.2.436",
+  "title": "Example 2.",
+  "body": " Example 2   For the data from Example 1 in the Cumulative Frequency section, create a cumulative relative frequency distribution for the raw data.   "
+},
+{
+  "id": "stats-app-ch2-histogram-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-def",
+  "type": "Definition",
+  "number": "H.2.437",
+  "title": "Frequency Histogram.",
+  "body": " Frequency Histogram   A frequency histogram is a type of bar graph used to visualize the frequency distribution of data. Below are its key features:   The -axis represents the data values, with tick marks indicating the class boundaries of the frequency distribution.  The -axis represents the frequencies of the classes. The scale always starts at 0, but the other tick marks are determined by the data and are used to scale the heights of the bars.  Each bar represents a class. The base of the bar spans the range of values for that class, while the height corresponds to the frequency of the class.  The bars of successive classes touch each other.  If any class has a frequency of , no bar is drawn for that class.    "
+},
+{
+  "id": "stats-app-ch2-histogram-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-1",
+  "type": "Example",
+  "number": "H.2.438",
+  "title": "Example 1.",
+  "body": " Example 1   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Frequency Histogram that has 8 classes.   "
+},
+{
+  "id": "stats-app-ch2-histogram-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-2",
+  "type": "Example",
+  "number": "H.2.439",
+  "title": "Example 2.",
+  "body": " Example 2   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Relative Frequency Histogram that has 8 classes.   "
+},
+{
+  "id": "stats-app-ch2-histogram-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-3",
+  "type": "Example",
+  "number": "H.2.440",
+  "title": "Example 3.",
+  "body": " Example 3   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Cumulative Frequency Histogram that has 8 classes.   "
+},
+{
+  "id": "stats-app-ch2-histogram-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-4",
+  "type": "Example",
+  "number": "H.2.441",
+  "title": "Example 4.",
+  "body": " Example 4   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Cumulative Relative Frequency Histogram that has 8 classes.   "
+},
+{
+  "id": "stats-app-ch2-peak-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-peak-def",
+  "type": "Definition",
+  "number": "H.2.442",
+  "title": "Peak of a Distribution.",
+  "body": " Peak of a Distribution   The peak of a distribution refers to the tallest part of the histogram, which represents the class(es) with the most data.   "
+},
+{
+  "id": "stats-app-ch2-tails-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-tails-def",
+  "type": "Definition",
+  "number": "H.2.443",
+  "title": "Tails of a Distribution.",
+  "body": " Tails of a Distribution   The tails of a distribution refer to the far ends of the distribution, which represent the extreme values of the dataset.   "
+},
+{
+  "id": "stats-app-ch2-unimodal",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-unimodal",
+  "type": "Definition",
+  "number": "H.2.444",
+  "title": "Unimodal Distributions.",
+  "body": " Unimodal Distributions   Unimodal distributions have a single peak. There are three subtypes: normal , skew-left , and skew-right .   Example of a unimodal distribution with a peak at class the 70 to 79.     "
+},
+{
+  "id": "stats-app-ch2-normal",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-normal",
+  "type": "Definition",
+  "number": "H.2.446",
+  "title": "Normal Distributions.",
+  "body": " Normal Distributions   Normal distributions (also called bell-shaped distributions) are symmetric with the peak in the center.   Example of a unimodal distribution. Areas corresponding to its peak and tails are labeled.     "
+},
+{
+  "id": "stats-app-ch2-skew-left",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-skew-left",
+  "type": "Definition",
+  "number": "H.2.448",
+  "title": "Skew-Left Distributions.",
+  "body": " Skew-Left Distributions   Skew-left distributions have the left tail longer than the right tail.   Distribution is left-skewed since the left tail is longer than the right tail.     "
+},
+{
+  "id": "stats-app-ch2-skew-right",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-skew-right",
+  "type": "Definition",
+  "number": "H.2.450",
+  "title": "Skew-Right Distributions.",
+  "body": " Skew-Right Distributions   Skew-right distributions have the right tail longer than the left tail.   Distribution is right-skewed because its right tail is longer than its left tail.     "
+},
+{
+  "id": "stats-app-ch2-multimodal",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-multimodal",
+  "type": "Definition",
+  "number": "H.2.452",
+  "title": "Multimodal Distributions.",
+  "body": " Multimodal Distributions   Multimodal distributions have multiple peaks.   A bimodal distribution with its two peaks labeled.     "
+},
+{
+  "id": "stats-app-ch2-uniform",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-uniform",
+  "type": "Definition",
+  "number": "H.2.454",
+  "title": "Uniform Distributions.",
+  "body": " Uniform Distributions   Uniform distributions have bars that are all approximately the same height with no distinct peak.  For homework problems that ask you to identify the shape of a distribution, the easiest way to determine the shape is by drawing (or visualizing) a curve through the tops of the bars. If the distribution is uniform, all the bars should be approximately the same height.   Uniform distribution have bars that are all approximately the same height.     "
+},
+{
+  "id": "stats-app-ch2-stem-leaf-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-def",
+  "type": "Definition",
+  "number": "H.2.456",
+  "title": "Stem-and-Leaf Plot.",
+  "body": " Stem-and-Leaf Plot   A stem-and-leaf plot is a way to organize rounded numerical data by splitting each value into a stem (the leading digit(s), such as tens) and a leaf (the trailing digit(s), based on the chosen rounding level).   "
+},
+{
+  "id": "stats-app-ch2-stem-rounding",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-rounding",
+  "type": "Definition",
+  "number": "H.2.457",
+  "title": "Choosing Stems.",
+  "body": " Choosing Stems   There is a bit of an art to deciding how to create a stem-and-leaf plot. The best stems are those that appear frequently in your data and group it meaningfully. The goal is to create a plot that organizes the data clearly and effectively, without being cluttered or too sparse.  Here are three examples:    Too Clustered: The stems are all in a single row.     Good Balance of Leaves: There are five stems and there are no lines without any leaves.     Too Spread Out: Many stems have no leaves. While some gaps are okay, if most stems are empty, your data is too spread out.      "
+},
+{
+  "id": "stats-app-ch2-stem-leaf-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-example-1",
+  "type": "Example",
+  "number": "H.2.461",
+  "title": "Example 1.",
+  "body": " Example 1   The following dataset represents the monthly average rainfall (in mm) for a Midwestern town from 2018 to 2022. Construct a stem-and-leaf plot for the data, and describe the shape of the distribution.   "
+},
+{
+  "id": "stats-app-ch2-split-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-split-def",
+  "type": "Definition",
+  "number": "H.2.462",
+  "title": "Split Stems.",
+  "body": " Split Stems   To split stems in a stem-and-leaf plot means dividing each stem into smaller groups to spread out the data and make the plot easier to interpret.   "
+},
+{
+  "id": "stats-app-ch2-split-when",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-split-when",
+  "type": "Definition",
+  "number": "H.2.463",
+  "title": "When to Split Stems.",
+  "body": " When to Split Stems   Split stems when:   A single stem has too many leaves, making the plot crowded and difficult to read.  Precision matters, such as with decimal data or closely spaced values.  One stem has significantly more leaves than others.    "
+},
+{
+  "id": "stats-app-ch2-stem-leaf-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-example-2",
+  "type": "Example",
+  "number": "H.2.464",
+  "title": "Example 2.",
+  "body": " Example 2   The following dataset represents the weights (in kilograms) of items in a shipment. Explain why you should split the stems, and then construct a stem-and-leaf plot with split stems. Describe the shape of the distribution.   "
+},
+{
+  "id": "stats-app-ch2-back-to-back",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-back-to-back",
+  "type": "Definition",
+  "number": "H.2.465",
+  "title": "Back-to-Back Stem-and-Leaf Plots.",
+  "body": " Back-to-Back Stem-and-Leaf Plots   If we want to compare two sets of data, we can make a back-to-back stem-and-leaf plot . In this setup, the stems will be up the middle. The leaves of the first dataset are to the right of the stems. The leaves of the second dataset appear to the left of the stems, written in reverse order for comparison. Back-to-back stem-and-leaf plots may have split stems.   Example of a Back-to-Back Stem Plot     "
+},
+{
+  "id": "stats-app-ch2-stem-leaf-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-example-3",
+  "type": "Example",
+  "number": "H.2.467",
+  "title": "Example 3.",
+  "body": " Example 3   The following datasets represent the ages of participants in two different training programs.   Part A : Create a Stem-and-Leaf Plot and compare the shapes of the two distributions.  Part B : Split the stems and compare the shapes again. Then compare this stem-and-leaf plot to the original one and explain how splitting the stems gives you a more detailed view of the distribution of both datasets.    "
+},
+{
+  "id": "stats-app-ch2-dot-plot-def",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-def",
+  "type": "Definition",
+  "number": "H.2.468",
+  "title": "Dot Plot.",
+  "body": " Dot Plot   A dot plot is a simple visual tool for representing data, where each dot corresponds to a specific data point. It effectively displays frequency distributions, highlighting patterns, peaks, and left\/right-skew. Dot plots are ideal for small to moderately sized datasets in various fields such as education, biology, and economics.   "
+},
+{
+  "id": "stats-app-ch2-dot-plot-how",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-how",
+  "type": "Definition",
+  "number": "H.2.469",
+  "title": "How to Make a Dot Plot.",
+  "body": " How to Make a Dot Plot    Draw a horizontal axis to represent the range of values, labeling it appropriately.  Divide the axis into evenly spaced intervals to cover all data points.  For each value in the dataset, place a dot above its corresponding position on the axis, stacking dots vertically for repeated values.  Add a title and labels to clarify the data being represented.    "
+},
+{
+  "id": "stats-app-ch2-dot-plot-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-example-1",
+  "type": "Example",
+  "number": "H.2.470",
+  "title": "Example 1.",
+  "body": " Example 1   The following data represents the length in centimeters of a sample of 10 white oak leaves. Make a dot plot of this data.   Leaf Length Data (in cm)    Length (cm)  Length (cm)    17  18    18  15    13  19    16  17    17  16      "
+},
+{
+  "id": "stats-app-ch2-dot-plot-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-example-2",
+  "type": "Example",
+  "number": "H.2.472",
+  "title": "Example 2.",
+  "body": " Example 2   A customer service manager wants to evaluate the team's efficiency in responding to support tickets during peak hours. The response times (in minutes) for 10 randomly selected tickets are given in the table below. Make a dot plot of this data.   "
+},
+{
+  "id": "stats-app-ch2-dot-plot-interpret",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-interpret",
+  "type": "Definition",
+  "number": "H.2.473",
+  "title": "Interpreting Dot Plots.",
+  "body": " Interpreting Dot Plots   Dot plots give us another way to see the shape of the distribution. But unlike histograms, it gives us a way to identify the exact data points that are either unusually small or unusually large compared to the other data points.    The dot plot showing a skew-left distribution with curve.     The dot plot showing a skew-right distribution with curve.      "
+},
+{
+  "id": "stats-app-ch2-time-series-how",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-time-series-how",
+  "type": "Definition",
+  "number": "H.2.476",
+  "title": "How to Make a Time Series Plot.",
+  "body": " How to Make a Time Series Plot    Label the -axis with the range of days, months, or years, and label the -axis with the units of the data. Make sure to title your graph as well.  Plot each data point as .  Draw straight line segments between consecutive points to connect them.    "
+},
+{
+  "id": "stats-app-ch2-time-series-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-time-series-example-1",
+  "type": "Example",
+  "number": "H.2.477",
+  "title": "Example 1.",
+  "body": " Example 1   According to the European Commission , Gross domestic product (GDP) is the most common measure for the size of an economy, and it measures the value of total final output of goods and services produced by that economy in a certain period of time. The following data from the World Bank Group describes the U.S. GDP (in trillions of dollars) for each year from 2010 to 2023. Use this data to construct a time series plot.   "
+},
+{
+  "id": "stats-app-ch2-time-series-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-time-series-example-2",
+  "type": "Example",
+  "number": "H.2.478",
+  "title": "Example 2.",
+  "body": " Example 2   Use the time series plot we created in Example 1 to answer the following questions.   In what year did the GDP grow the slowest?  In what year did the GDP grow the fastest?  The only year we had a decrease in GDP was from 2019 to 2020. What historical event explains the drop in GDP?    "
+},
+{
+  "id": "stats-app-ch2-bar-graph-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-bar-graph-example-1",
+  "type": "Example",
+  "number": "H.2.479",
+  "title": "Example 1.",
+  "body": " Example 1   A survey of 100 people was conducted to determine their favorite fast food restaurant among various national brands. The results are summarized in the table below. Using the data, create a bar graph to represent the distribution of responses.   "
+},
+{
+  "id": "stats-app-ch2-pareto-graphs",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pareto-graphs",
+  "type": "Definition",
+  "number": "H.2.480",
+  "title": "Pareto Graphs.",
+  "body": " Pareto Graphs   While standard bar graphs are effective at showcasing categorical data, there are scenarios where sorting the bars in descending order provides greater clarity. This leads us to a specialized variation of the bar graph known as the Pareto graph .   "
+},
+{
+  "id": "stats-app-ch2-pareto-example",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pareto-example",
+  "type": "Example",
+  "number": "H.2.481",
+  "title": "Example 2.",
+  "body": " Example 2   Create a Pareto graph of the preferred fast food restaurants from Example 1, sorting all bars from largest to smallest.   "
+},
+{
+  "id": "stats-app-ch2-pie-when",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-when",
+  "type": "Definition",
+  "number": "H.2.482",
+  "title": "When to Use a Pie Graph.",
+  "body": " When to Use a Pie Graph   A pie graph should only be used under two specific conditions:   Data can belong to exactly one of the categories.  Categories must be parts of a whole.    "
+},
+{
+  "id": "stats-app-ch2-pie-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-1",
+  "type": "Example",
+  "number": "H.2.483",
+  "title": "Example 1.",
+  "body": " Example 1   Suppose a survey asked which department(s) a customer purchased from during their last visit to a particular department store. Explain why a pie graph cannot be used with the following set of data.   Percentage of People Shopping in Each Department    Department  Percentage of Shoppers    Electronics  40%    Clothing  55%    Groceries  70%    Home & Furniture  30%    Sports & Outdoors  25%      "
+},
+{
+  "id": "stats-app-ch2-pie-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-2",
+  "type": "Example",
+  "number": "H.2.485",
+  "title": "Example 2.",
+  "body": " Example 2   A survey was conducted to determine the types of activities people prefer on weekends. A survey of 1,303 people were asked, Which of the follow activities do you most prefer to do on weekends? Please select only one option. The percentages were tabulated and reported in the table below. Explain why a pie chart cannot be created from this table and suggest how it could be corrected.   Weekend Activity Preferences    Activity  Percentage    Watching Movies  25%    Outdoor Sports  30%    Reading Books  20%    Cooking  15%    Playing Video Games  8%      "
+},
+{
+  "id": "stats-app-ch2-pie-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-3",
+  "type": "Example",
+  "number": "H.2.487",
+  "title": "Example 3.",
+  "body": " Example 3   A survey asked 1,373 respondents, What is your favorite activity while on vacation? The responses are summarized in the following table. Explain why this data cannot be used to make a Pie Chart.   Vacation Activity Preferences    Activity  Percentage    Sightseeing  35%    Relaxing on the beach  25%    Trying local cuisine  20%    Outdoor adventures (e.g., hiking or kayaking)  10%    Shopping  10%      "
+},
+{
+  "id": "stats-app-ch2-pie-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-4",
+  "type": "Example",
+  "number": "H.2.489",
+  "title": "Example 4.",
+  "body": " Example 4   A survey of 50 patients who were recently discharged from a hospital were asked to rate their overall stay at the hospital as Very Satisfied, Satisfied, Neutral, Dissatisfied, or Very Dissatisfied. The results are compiled in the table below. Use the Bar and Pie Chart Generator Tool to make a Pie Graph of the data.   "
 },
 {
   "id": "appendix-statistics-chapter-3",
@@ -8449,14 +10645,14 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "H.3",
   "title": "Chapter 3 Lecture Notes",
-  "body": " Chapter 3 Lecture Notes   Mean   The mean , also called the average , is the sum of all data values divided by the number of values.  Population Mean:   Sample Mean:      What do these symbols mean?     means sum or add all values.  represents individual data values.  is population size.  is sample size.       Why do we have two formulas for mean?   We use one formula for populations and one for samples because they represent different contexts and notations.     Example 1   Consider exam scores: 75, 80, 85, 90, 95. Calculate the average score.   Test Scores of Five Students   Score  75  80  85  90  95       Example 2   Complete the Understanding the Idea of Average Value\/Mean interactive example.     Example 3   Use the Summary Statistics Calculator to find the mean of a sample of 50 LSAT scores.     Median   The median of an ordered dataset separates the lower 50% and upper 50%. It may or may not be a data value and is often denoted .     How do I calculate the Median?   Let be sample size.    Order data from smallest to largest.  Check parity of :  If is odd, median is entry .  If is even, median is average of entries and .          Example 1   Weekly study hours for 7 students are shown below. Find the median by hand.   Sample of Weekly Study Hours (in hours)   Study Hours Per Week  12 15 10 18 14 11 16       Example 2   Cholesterol levels (mg\/dL) for 10 people are shown below. Find the median by hand.   Sample of 10 Cholesterol Levels   Cholesterol Level (mg\/dL)  154 240 171 188 235  203 184 173 181 275       Example 3   Use the Summary Statistics Calculator to find the median of a sample of 50 LSAT scores.     Mode   The mode of a dataset is the value(s) that occur locally with highest frequency.    Unimodal distributions have one peak.  Multimodal distributions have multiple peaks.  Uniform distributions have no distinct peak.       Revised Definition: Mode   The mode is the value(s) that occur most frequently.     Example 1   Find the mode of 2016–2017 tuition and fees (in thousands of dollars) for top U.S. universities.   2016–2017 Tuition and Fees (in $1000s)   Tuition and Fees  45 47 52 49 55 48 48  51 51 50 51 48 51 51       Example 2   Use the Summary Statistics Calculator to identify mode(s) for a sample of LSAT scores and classify the distribution.     Example 3   Use the Frequency Distribution Tool to determine the mode for shirt-size sales data.     Outliers   An outlier is a data point that does not follow the overall distribution pattern and is usually much larger or smaller than most values.     Example 1   Given scores :    Find mean, median, and mode.  Add outlier 41 and recompute.  Determine which center changed most and least.       Resistance to Outliers   A statistic is resistant if extreme values cause little or no change.  In this context, mean is not resistant, while median and mode are resistant.     The Mean, Median, and Mode in Unimodal Distributions   Normal:  .  Skew-right:  .  Skew-left:  .     Example 1   For data , calculate mean by direct definition, grouped multiplication, and simplified weighted form.     What is a Weighted Mean?   A weighted mean is a mean where values carry frequencies or weights.  Using frequencies:   Using weights:      Example 2   Compute current course grade with weighted categories using the Summary Statistics Calculator .   Sample Grades for a Course   Category Grade (%) Percentage of Grade  MyLab Stat 43% 7.5%  Quizzes 63% 7.5%  Exam 1 92% 20%  Exam 2 67% 20%  Exam 3 76% 20%       Example 3   Estimate mean gas mileage for family sedans from grouped data using midpoint-frequency weighted mean.   A Frequency Distribution for the Gas Mileage of 24 Family Sedans   Gas Mileage (mpg) Midpoint Frequency  22 to 27 16  28 to 33 2  34 to 39 2  40 to 45 4       Is the Mean Enough to Describe a Dataset?   The mean is one of the most commonly used measures to summarize a dataset. While it provides useful information about central tendency, it does not always tell the whole story. Different datasets can have the same mean and still have very different distributions.     Example 1     Part A: Find the mean of .  Part B: Find the mean of .  Part C: Even though the means are the same, describe how the datasets differ.       Range   .     Advantages and Disadvantages of the Range     Advantage: simple and quick to compute.  Disadvantage: depends only on the minimum and maximum values, so it is sensitive to outliers.       Example 1   Scientists track migration distances (in miles) for 10 birds.   Migration Distances   Distance (in miles)  354 400 412 375 389 410 368 390 405 392      Part A: Find the range.  Part B: Explain what the range says about variation.       Example 2   Ages (in years) of 12 participants in a community program are listed below.   Participants in a Community Program   Age (in years)  22 25 31 28 24 35 45 41 29 33 38 40       Deviation   The deviation of a data point is the difference between the value and the mean.  Population:   Sample:   .     Notes on Deviation     Positive deviation means the data point is above the mean.  Negative deviation means the data point is below the mean.       Example 1   Salaries for a sample of 10 individuals are shown below (in thousands of dollars).   Sample of 10 Salaries (in Thousands of Dollars)   Salaries (in thousands of dollars)  40 23 41 50 49 32 41 59 52 58      Part A: Calculate each salary's deviation.  Part B: Use the Summary Statistics Calculator to find average deviation.       Understanding Standard Deviation   Standard deviation is a key measure of variability and describes typical distance from the mean.     Squared Deviation   Population:   Sample:      Example 1   Compute squared deviations for the salary data and find their sum.     Variance   Population:   Sample:      Why does sample variance use ?   This is related to degrees of freedom .     Example 2   Compute variance for the salary dataset.    Variance has squared units.  Variance can be numerically large because deviations are squared.       Standard Deviation   Population:   Sample:      Important Properties of Standard Deviation     Measures average distance from the mean.  Always greater than or equal to zero.  Larger values indicate more variation.  Not resistant to outliers.  Uses the same units as the data.       Example 3   Use the Summary Statistics Calculator to compute standard deviation for the salary data.     How to Find Outliers for Normal Distributions   Outliers are extreme values that stand apart from most of a dataset.     Example 1   Unemployment rates are approximately normal with mean and standard deviation . Classify:    Part A:   Part B:   Part C:        The Empirical Rule     About of data lies between and .  About of data lies between and .  About of data lies between and .       Example 1   A sample has mean height inches and standard deviation inches. Use the Empirical Rule Calculator :    Part A: Percent between and .  Part B: Percent taller than .  Part C: Percent shorter than .       Chebyshev's Inequality   At least of data lies within standard deviations of the mean, for .    : at least  : at least  : at least       Example 1   A hospital has systolic blood-pressure data with mean mmHg and standard deviation mmHg. Use Chebyshev's inequality to find the minimum percentage between and mmHg.     How to Calculate a Percentile   A percentile indicates the relative standing of a data value in a dataset. The percentile is the value below which of the data falls.     Percentiles By Hand   Formula for percentile rank of a value :   How to find a data value for a given percentile:    Step 1: Compute .  Step 2: Use the position in the ordered data:  If decimal, use adjacent positions and average those two values.  If whole number, use that position and the next position, then average.       Notation: denotes the percentile (for example, ).     Example 1   The dataset below gives three-point shots made by 50 NBA players.    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.     Three-Point Shots Made by 50 NBA Players   Number of Three-Point Shots (Ordered)  5 8 12 18 22 28 35 40 48 55  60 68 72 80 85 90 98 105 110 118  125 130 135 140 148 150 158 165 170 175  180 185 190 198 205 210 220 230 240 250  260 270 280 290 300 310 320 330 340 350       Percentiles using GeoGebra: Example 2   Using the same dataset above:    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.       Cumulative Relative Frequency vs Percentiles   Cumulative relative frequency uses “less than or equal to,” while percentile rank is typically interpreted as “less than.”     Relationship Between the Median and Percentiles   The median is the 50th percentile, i.e. .     Interpreting Percentiles   Interpret each scenario:    Part A: A baby’s weight is in the 85th percentile.  Part B: A household income is at the 70th percentile.  Part C: A patient’s blood pressure is in the 40th percentile.  Part D: A student’s GPA is in the 75th percentile in their school.  Part E: A machine produces parts in the 98th percentile for accuracy.       How to Calculate a -score   A -score (standard score) measures how many standard deviations a value lies above or below the mean.     Example 1   A normal distribution has mean 175 cm and standard deviation 7 cm.   Distribution of Heights   Height (cm) Empirical Rule Calculation -score  154 -3  161 -2  168 -1  175 0  182 1  189 2  196 3       -Score Formulas   General structure:  Population:   Sample:      Important Features of -Scores     -scores are unitless.  Positive means above the mean; negative means below.  Absolute -score measures extremeness.       Example 2   Who is relatively taller at 68 inches: a man or a woman?   Average Heights and Standard Deviations   Group Mean Height (in) Standard Deviation (in)  Men 69.9 3.0  Women 64.3 2.6       Example 3   The ACT has mean 20.8 and standard deviation 5.8. The SAT has mean 1500 and standard deviation 300. Who performed worse relative to peers: SAT 1075 or ACT 15?     Extreme Values   A value is more extreme when its absolute -score is larger.    Step 1: Compute both -scores.  Step 2: Take absolute values.  Step 3: Larger absolute value is more extreme.       Example 4   Determine which is more extreme: a man who weighs 145 lbs (mean 208, sd 25) or a woman who weighs 224 lbs (mean 175, sd 25).     How to Calculate the Five-Number Summary   Quartiles divide ordered data into four parts.    : first quartile  : median  : third quartile       Quartiles: Example 1   Find and for meteorite crater diameters.   Meteorite Impact Crater Diameters (km)   Crater Diameters (km)  1.2 3.5 2.8 4.0 6.7 5.2 8.1 3.1 4.5 2.9 6.0 7.4       Quartiles: Example 2   Use the Summary Statistics Calculator to find and for esports reaction times.   Reaction Times in an Esports Tournament (ms)   Reaction Times (ms)  175 180 185 189 190 195 195 198 200 202  205 210 210 215 215 220 225 230 235 240  245 250 250 255 260 265 270 275 280 290       The Five-Number Summary   The five-number summary consists of minimum, , median, , and maximum.     Example 3   Compute the five-number summary for roller coaster speeds.   Speeds of Roller Coasters Around the World (mph)   Roller Coaster Speeds (mph)  44.7 60.9 65.2 52.8 74.6 68.4 59.0 63.3 55.3 80.8  88.2 49.7 77.7 85.7 55.9 61.5 78.9 93.2 67.1 57.8  62.1 71.3 54.0 83.9 90.2 50.9 99.4 96.3 86.8 46.6       How to Find Outliers for Skewed Data   The interquartile range is , and it measures spread of the middle 50% of skewed data.     Example 1   Compute IQR for exoplanet brightness data.   Exoplanet Brightness Measurements   Brightness (Magnitude)  -3.4 -2.9 -2.5 -2.2 -1.8 -1.5 -1.2 -0.9 -0.7 -0.5  -0.3 -0.1 0.2 0.4 0.7 1.0 1.3 1.7 2.1 3.8       IQR Rule for Outliers     Significantly low if value .  Significantly high if value .       Example 2   Identify outliers in music streaming counts using IQR.   Music Streaming Counts (Millions)   Streams  1.2 1.5 2.1 2.4 2.9 3.3 3.6 4.0 4.2 4.8  5.1 5.7 6.0 6.2 6.8 7.3 8.1 8.5 9.0 15.4       How to Create a Boxplot   A boxplot summarizes the distribution using the five-number summary and whiskers.     Steps to Construct a Boxplot     Find the five-number summary.  Draw a box from to with a median line.  Draw whiskers to minimum and maximum.       Example 1   Construct a boxplot for gaming session lengths.   Gaming Session Lengths (Minutes)   Session Lengths (Minutes)  15 30 45 60 75  120 150 90 200 180  95 110 130 140 85  70 160 170 55 40  190 210 35 100 250       Example 2   Use the Boxplot Generator to create a boxplot for coffee consumption.   Coffee Consumption (Cups per Day)   Number of Cups  0 1 2 3 5 3 4 6 7 2  3 4 5 1 0 8 3 6 4 5  2 7 3 4 6 2 1 5 3 4       Skewness in Boxplots     Approximately normal: median centered and whiskers similar length.  Left skewed: median closer to or left whisker longer.  Right skewed: median closer to or right whisker longer.       Comparing Datasets Using Boxplots     Side-by-side distribution comparison  Quick insight into variability  Compact but informative summaries       Example 3   Compare 100m sprint times for high-school and Olympic athletes using the Boxplot Generator .   100m Sprint Times: High School vs. Olympic Athletes   High School (s) Olympic (s)  10.55 10.60 10.65 10.72 10.78 9.58 9.69 9.72 9.76 9.81  10.82 10.85 10.89 10.94 10.98 9.85 9.88 9.91 9.93 9.95  11.02 11.07 11.10 11.14 11.18 9.98 10.01 10.03 10.05 10.08  11.21 11.25 11.29 11.35 11.40 10.12 10.15 10.19 10.22 10.25      "
+  "body": " Chapter 3 Lecture Notes   Mean   The mean , also called the average , is the sum of all data values divided by the number of values.  Population Mean:   Sample Mean:      What do these symbols mean?     means sum or add all values.  represents individual data values.  is population size.  is sample size.       Why do we have two formulas for mean?   We use one formula for populations and one for samples because they represent different contexts and notations.     Example 1   Consider exam scores: 75, 80, 85, 90, 95. Calculate the average score.   Test Scores of Five Students   Score  75  80  85  90  95       Example 2   Complete the Understanding the Idea of Average Value\/Mean interactive example.     Example 3   Use the Summary Statistics Calculator to find the mean of a sample of 50 LSAT scores.     Median   The median of an ordered dataset separates the lower 50% and upper 50%. It may or may not be a data value and is often denoted .     How do I calculate the Median?   Let be sample size.    Order data from smallest to largest.  Check parity of :  If is odd, median is entry .  If is even, median is average of entries and .          Example 1   Weekly study hours for 7 students are shown below. Find the median by hand.   Sample of Weekly Study Hours (in hours)   Study Hours Per Week  12 15 10 18 14 11 16       Example 2   Cholesterol levels (mg\/dL) for 10 people are shown below. Find the median by hand.   Sample of 10 Cholesterol Levels   Cholesterol Level (mg\/dL)  154 240 171 188 235  203 184 173 181 275       Example 3   Use the Summary Statistics Calculator to find the median of a sample of 50 LSAT scores.     Mode   The mode of a dataset is the value(s) that occur locally with highest frequency.  When discussing the shape of histograms, we use the following classifications:    A unimodal distribution has one peak.   Example of a unimodal distribution with a peak in the center.     A multimodal distribution has multiple peaks.   A bimodal distribution with its two peaks labeled.     A uniform distribution has no distinct peak.   A uniform distribution has bars that are all approximately the same height.          Revised Definition: Mode   The mode is the value(s) that occur most frequently.     Example 1   Find the mode of 2016–2017 tuition and fees (in thousands of dollars) for top U.S. universities.   2016–2017 Tuition and Fees (in $1000s)   Tuition and Fees  45 47 52 49 55 48 48  51 51 50 51 48 51 51       Example 2   Use the Summary Statistics Calculator to identify mode(s) for a sample of LSAT scores and classify the distribution.     Example 3   Use the Frequency Distribution Tool to determine the mode for shirt-size sales data.     Outliers   An outlier is a data point that does not follow the overall distribution pattern and is usually much larger or smaller than most values.     Example 1   Given scores :    Find mean, median, and mode.  Add outlier 41 and recompute.  Determine which center changed most and least.       Resistance to Outliers   A statistic is resistant if extreme values cause little or no change.  In this context, mean is not resistant, while median and mode are resistant.     The Mean, Median, and Mode in Unimodal Distributions   Normal Distribution:  .   In a normal distribution, the mean, median, and mode are equal and located at the peak.    Skew-right Distribution:  .   A skew-right distribution pulls the mean and median to the right, away from the mode. The mean is pulled farther than the median.    Skew-left Distribution:  .   A skew-left distribution pulls the mean and median to the left, away from the mode. The mean is pulled farther than the median.       Example 1   For data , calculate mean by direct definition, grouped multiplication, and simplified weighted form.     What is a Weighted Mean?   A weighted mean is a mean where values carry frequencies or weights.  Using frequencies:   Using weights:      Example 2   Compute current course grade with weighted categories using the Summary Statistics Calculator .   Sample Grades for a Course   Category Grade (%) Percentage of Grade  MyLab Stat 43% 7.5%  Quizzes 63% 7.5%  Exam 1 92% 20%  Exam 2 67% 20%  Exam 3 76% 20%       Example 3   Estimate mean gas mileage for family sedans from grouped data using midpoint-frequency weighted mean.   A Frequency Distribution for the Gas Mileage of 24 Family Sedans   Gas Mileage (mpg) Midpoint Frequency  22 to 27 16  28 to 33 2  34 to 39 2  40 to 45 4       Is the Mean Enough to Describe a Dataset?   The mean is one of the most commonly used measures to summarize a dataset. While it provides useful information about central tendency, it does not always tell the whole story. Different datasets can have the same mean and still have very different distributions.     Example 1     Part A: Find the mean of .  Part B: Find the mean of .  Part C: Even though the means are the same, describe how the datasets differ.       Range   .     Advantages and Disadvantages of the Range     Advantage: simple and quick to compute.  Disadvantage: depends only on the minimum and maximum values, so it is sensitive to outliers.       Example 1   Scientists track migration distances (in miles) for 10 birds.   Migration Distances   Distance (in miles)  354 400 412 375 389 410 368 390 405 392      Part A: Find the range.  Part B: Explain what the range says about variation.       Example 2   Ages (in years) of 12 participants in a community program are listed below.   Participants in a Community Program   Age (in years)  22 25 31 28 24 35 45 41 29 33 38 40       Deviation   The deviation of a data point is the difference between the value and the mean.  Population:   Sample:   .     Notes on Deviation     Positive deviation means the data point is above the mean.  Negative deviation means the data point is below the mean.       Example 1   Salaries for a sample of 10 individuals are shown below (in thousands of dollars).   Sample of 10 Salaries (in Thousands of Dollars)   Salaries (in thousands of dollars)  40 23 41 50 49 32 41 59 52 58      Part A: Calculate each salary's deviation.  Part B: Use the Summary Statistics Calculator to find average deviation.       Understanding Standard Deviation   Standard deviation is a key measure of variability and describes typical distance from the mean.     Squared Deviation   Population:   Sample:      Example 1   Compute squared deviations for the salary data and find their sum.     Variance   Population:   Sample:      Why does sample variance use ?   This is related to degrees of freedom .   Stacks of 1, 2, 4, 2, 3, and 5 dots, respectively.     One stack is still height 2 after arranging all the dots into even stacks of 3.     The original stacks with a stack of four dots adding as the seventh stack.       Example 2   Compute variance for the salary dataset.    Variance has squared units.  Variance can be numerically large because deviations are squared.       Standard Deviation   Population:   Sample:      Important Properties of Standard Deviation     Measures average distance from the mean.  Always greater than or equal to zero.  Larger values indicate more variation.  Not resistant to outliers.  Uses the same units as the data.       Example 3   Use the Summary Statistics Calculator to compute standard deviation for the salary data.     How to Find Outliers for Normal Distributions   Outliers are extreme values that stand apart from most of a dataset.     Example 1   Unemployment rates are approximately normal with mean and standard deviation . Classify:    Part A:   Part B:   Part C:        The Empirical Rule     About of data lies between and .  About of data lies between and .  About of data lies between and .       Example 1   A sample has mean height inches and standard deviation inches. Use the Empirical Rule Calculator :    Part A: Percent between and .  Part B: Percent taller than .  Part C: Percent shorter than .       Chebyshev's Inequality   At least of data lies within standard deviations of the mean, for .    : at least  : at least  : at least       Example 1   A hospital has systolic blood-pressure data with mean mmHg and standard deviation mmHg. Use Chebyshev's inequality to find the minimum percentage between and mmHg.     How to Calculate a Percentile   A percentile indicates the relative standing of a data value in a dataset. The percentile is the value below which of the data falls.     Percentiles By Hand   Formula for percentile rank of a value :   How to find a data value for a given percentile:    Step 1: Compute .  Step 2: Use the position in the ordered data:  If decimal, use adjacent positions and average those two values.  If whole number, use that position and the next position, then average.       Notation: denotes the percentile (for example, ).     Example 1   The dataset below gives three-point shots made by 50 NBA players.    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.     Three-Point Shots Made by 50 NBA Players   Number of Three-Point Shots (Ordered)  5 8 12 18 22 28 35 40 48 55  60 68 72 80 85 90 98 105 110 118  125 130 135 140 148 150 158 165 170 175  180 185 190 198 205 210 220 230 240 250  260 270 280 290 300 310 320 330 340 350       Percentiles using GeoGebra: Example 2   Using the same dataset above:    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.       Cumulative Relative Frequency vs Percentiles   Cumulative relative frequency uses “less than or equal to,” while percentile rank is typically interpreted as “less than.”     Relationship Between the Median and Percentiles   The median is the 50th percentile, i.e. .     Interpreting Percentiles   Interpret each scenario:    Part A: A baby’s weight is in the 85th percentile.  Part B: A household income is at the 70th percentile.  Part C: A patient’s blood pressure is in the 40th percentile.  Part D: A student’s GPA is in the 75th percentile in their school.  Part E: A machine produces parts in the 98th percentile for accuracy.       How to Calculate a -score   A -score (standard score) measures how many standard deviations a value lies above or below the mean.     Example 1   A normal distribution has mean 175 cm and standard deviation 7 cm.   Distribution of Heights   Height (cm) Empirical Rule Calculation -score  154 -3  161 -2  168 -1  175 0  182 1  189 2  196 3       -Score Formulas   General structure:  Population:   Sample:    Normal distribution with heights and z-scores labeled on the x-axis.       Important Features of -Scores     -scores are unitless.  Positive means above the mean; negative means below.  Absolute -score measures extremeness.     Two normal distributions, one with data on the x-axis, one with z-scores on the x-axis.       Example 2   Who is relatively taller at 68 inches: a man or a woman?   Average Heights and Standard Deviations   Group Mean Height (in) Standard Deviation (in)  Men 69.9 3.0  Women 64.3 2.6       Example 3   The ACT has mean 20.8 and standard deviation 5.8. The SAT has mean 1500 and standard deviation 300. Who performed worse relative to peers: SAT 1075 or ACT 15?     Extreme Values   A value is more extreme when its absolute -score is larger.    Step 1: Compute both -scores.  Step 2: Take absolute values.  Step 3: Larger absolute value is more extreme.       Example 4   Determine which is more extreme: a man who weighs 145 lbs (mean 208, sd 25) or a woman who weighs 224 lbs (mean 175, sd 25).     How to Calculate the Five-Number Summary   Quartiles divide ordered data into four parts.    : first quartile  : median  : third quartile       Quartiles: Example 1   Find and for meteorite crater diameters.   Meteorite Impact Crater Diameters (km)   Crater Diameters (km)  1.2 3.5 2.8 4.0 6.7 5.2 8.1 3.1 4.5 2.9 6.0 7.4       Quartiles: Example 2   Use the Summary Statistics Calculator to find and for esports reaction times.   Reaction Times in an Esports Tournament (ms)   Reaction Times (ms)  175 180 185 189 190 195 195 198 200 202  205 210 210 215 215 220 225 230 235 240  245 250 250 255 260 265 270 275 280 290       The Five-Number Summary   The five-number summary consists of minimum, , median, , and maximum.     Example 3   Compute the five-number summary for roller coaster speeds.   Speeds of Roller Coasters Around the World (mph)   Roller Coaster Speeds (mph)  44.7 60.9 65.2 52.8 74.6 68.4 59.0 63.3 55.3 80.8  88.2 49.7 77.7 85.7 55.9 61.5 78.9 93.2 67.1 57.8  62.1 71.3 54.0 83.9 90.2 50.9 99.4 96.3 86.8 46.6       How to Find Outliers for Skewed Data   The interquartile range is , and it measures spread of the middle 50% of skewed data.     Example 1   Compute IQR for exoplanet brightness data.   Exoplanet Brightness Measurements   Brightness (Magnitude)  -3.4 -2.9 -2.5 -2.2 -1.8 -1.5 -1.2 -0.9 -0.7 -0.5  -0.3 -0.1 0.2 0.4 0.7 1.0 1.3 1.7 2.1 3.8       IQR Rule for Outliers     Significantly low if value .  Significantly high if value .       Example 2   Identify outliers in music streaming counts using IQR.   Music Streaming Counts (Millions)   Streams  1.2 1.5 2.1 2.4 2.9 3.3 3.6 4.0 4.2 4.8  5.1 5.7 6.0 6.2 6.8 7.3 8.1 8.5 9.0 15.4       How to Create a Boxplot   A boxplot summarizes the distribution using the five-number summary and whiskers.     Steps to Construct a Boxplot     Find the five-number summary.  Draw a box from to with a median line.  Draw whiskers to minimum and maximum.       Example 1   Construct a boxplot for gaming session lengths.   Gaming Session Lengths (Minutes)   Session Lengths (Minutes)  15 30 45 60 75  120 150 90 200 180  95 110 130 140 85  70 160 170 55 40  190 210 35 100 250       Example 2   Use the Boxplot Generator to create a boxplot for coffee consumption.   Coffee Consumption (Cups per Day)   Number of Cups  0 1 2 3 5 3 4 6 7 2  3 4 5 1 0 8 3 6 4 5  2 7 3 4 6 2 1 5 3 4       Skewness in Boxplots     Approximately normal: median centered and whiskers similar length.  A boxplot of a normal distribution for free throw percentages.     Left skewed: median closer to or left whisker longer.  Skew-left boxplot on the number of hours of sleep a new parent gets.     Right skewed: median closer to or right whisker longer.  A strong skew-right boxplot for student loan payments.          Comparing Datasets Using Boxplots     Side-by-side distribution comparison  Quick insight into variability  Compact but informative summaries       Example 3   Compare 100m sprint times for high-school and Olympic athletes using the Boxplot Generator .   100m Sprint Times: High School vs. Olympic Athletes   High School (s) Olympic (s)  10.55 10.60 10.65 10.72 10.78 9.58 9.69 9.72 9.76 9.81  10.82 10.85 10.89 10.94 10.98 9.85 9.88 9.91 9.93 9.95  11.02 11.07 11.10 11.14 11.18 9.98 10.01 10.03 10.05 10.08  11.21 11.25 11.29 11.35 11.40 10.12 10.15 10.19 10.22 10.25      "
 },
 {
   "id": "appendix-statistics-ch3-mean-definition",
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-definition",
   "type": "Definition",
-  "number": "H.3.349",
+  "number": "H.3.490",
   "title": "Mean.",
   "body": " Mean   The mean , also called the average , is the sum of all data values divided by the number of values.  Population Mean:   Sample Mean:    "
 },
@@ -8465,7 +10661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-symbols",
   "type": "Definition",
-  "number": "H.3.350",
+  "number": "H.3.491",
   "title": "What do these symbols mean?",
   "body": " What do these symbols mean?     means sum or add all values.  represents individual data values.  is population size.  is sample size.     "
 },
@@ -8474,7 +10670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-two-formulas",
   "type": "Definition",
-  "number": "H.3.351",
+  "number": "H.3.492",
   "title": "Why do we have two formulas for mean?",
   "body": " Why do we have two formulas for mean?   We use one formula for populations and one for samples because they represent different contexts and notations.   "
 },
@@ -8483,7 +10679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-1",
   "type": "Example",
-  "number": "H.3.352",
+  "number": "H.3.493",
   "title": "Example 1.",
   "body": " Example 1   Consider exam scores: 75, 80, 85, 90, 95. Calculate the average score.   Test Scores of Five Students   Score  75  80  85  90  95     "
 },
@@ -8492,7 +10688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-2",
   "type": "Example",
-  "number": "H.3.354",
+  "number": "H.3.495",
   "title": "Example 2.",
   "body": " Example 2   Complete the Understanding the Idea of Average Value\/Mean interactive example.   "
 },
@@ -8501,7 +10697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-3",
   "type": "Example",
-  "number": "H.3.355",
+  "number": "H.3.496",
   "title": "Example 3.",
   "body": " Example 3   Use the Summary Statistics Calculator to find the mean of a sample of 50 LSAT scores.   "
 },
@@ -8510,7 +10706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-definition",
   "type": "Definition",
-  "number": "H.3.356",
+  "number": "H.3.497",
   "title": "Median.",
   "body": " Median   The median of an ordered dataset separates the lower 50% and upper 50%. It may or may not be a data value and is often denoted .   "
 },
@@ -8519,7 +10715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-steps",
   "type": "Definition",
-  "number": "H.3.357",
+  "number": "H.3.498",
   "title": "How do I calculate the Median?",
   "body": " How do I calculate the Median?   Let be sample size.    Order data from smallest to largest.  Check parity of :  If is odd, median is entry .  If is even, median is average of entries and .        "
 },
@@ -8528,7 +10724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-1",
   "type": "Example",
-  "number": "H.3.358",
+  "number": "H.3.499",
   "title": "Example 1.",
   "body": " Example 1   Weekly study hours for 7 students are shown below. Find the median by hand.   Sample of Weekly Study Hours (in hours)   Study Hours Per Week  12 15 10 18 14 11 16     "
 },
@@ -8537,7 +10733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-2",
   "type": "Example",
-  "number": "H.3.360",
+  "number": "H.3.501",
   "title": "Example 2.",
   "body": " Example 2   Cholesterol levels (mg\/dL) for 10 people are shown below. Find the median by hand.   Sample of 10 Cholesterol Levels   Cholesterol Level (mg\/dL)  154 240 171 188 235  203 184 173 181 275     "
 },
@@ -8546,7 +10742,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-3",
   "type": "Example",
-  "number": "H.3.362",
+  "number": "H.3.503",
   "title": "Example 3.",
   "body": " Example 3   Use the Summary Statistics Calculator to find the median of a sample of 50 LSAT scores.   "
 },
@@ -8555,16 +10751,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-definition-local",
   "type": "Definition",
-  "number": "H.3.363",
+  "number": "H.3.504",
   "title": "Mode.",
-  "body": " Mode   The mode of a dataset is the value(s) that occur locally with highest frequency.    Unimodal distributions have one peak.  Multimodal distributions have multiple peaks.  Uniform distributions have no distinct peak.     "
+  "body": " Mode   The mode of a dataset is the value(s) that occur locally with highest frequency.  When discussing the shape of histograms, we use the following classifications:    A unimodal distribution has one peak.   Example of a unimodal distribution with a peak in the center.     A multimodal distribution has multiple peaks.   A bimodal distribution with its two peaks labeled.     A uniform distribution has no distinct peak.   A uniform distribution has bars that are all approximately the same height.        "
 },
 {
   "id": "appendix-statistics-ch3-mode-definition-revised",
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-definition-revised",
   "type": "Definition",
-  "number": "H.3.364",
+  "number": "H.3.508",
   "title": "Revised Definition: Mode.",
   "body": " Revised Definition: Mode   The mode is the value(s) that occur most frequently.   "
 },
@@ -8573,7 +10769,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-1",
   "type": "Example",
-  "number": "H.3.365",
+  "number": "H.3.509",
   "title": "Example 1.",
   "body": " Example 1   Find the mode of 2016–2017 tuition and fees (in thousands of dollars) for top U.S. universities.   2016–2017 Tuition and Fees (in $1000s)   Tuition and Fees  45 47 52 49 55 48 48  51 51 50 51 48 51 51     "
 },
@@ -8582,7 +10778,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-2",
   "type": "Example",
-  "number": "H.3.367",
+  "number": "H.3.511",
   "title": "Example 2.",
   "body": " Example 2   Use the Summary Statistics Calculator to identify mode(s) for a sample of LSAT scores and classify the distribution.   "
 },
@@ -8591,7 +10787,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-3",
   "type": "Example",
-  "number": "H.3.368",
+  "number": "H.3.512",
   "title": "Example 3.",
   "body": " Example 3   Use the Frequency Distribution Tool to determine the mode for shirt-size sales data.   "
 },
@@ -8600,7 +10796,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outlier-definition",
   "type": "Definition",
-  "number": "H.3.369",
+  "number": "H.3.513",
   "title": "Outliers.",
   "body": " Outliers   An outlier is a data point that does not follow the overall distribution pattern and is usually much larger or smaller than most values.   "
 },
@@ -8609,7 +10805,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-skewness-example-1",
   "type": "Example",
-  "number": "H.3.370",
+  "number": "H.3.514",
   "title": "Example 1.",
   "body": " Example 1   Given scores :    Find mean, median, and mode.  Add outlier 41 and recompute.  Determine which center changed most and least.     "
 },
@@ -8618,7 +10814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-resistance-definition",
   "type": "Definition",
-  "number": "H.3.371",
+  "number": "H.3.515",
   "title": "Resistance to Outliers.",
   "body": " Resistance to Outliers   A statistic is resistant if extreme values cause little or no change.  In this context, mean is not resistant, while median and mode are resistant.   "
 },
@@ -8627,16 +10823,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-unimodal-center-relationships",
   "type": "Definition",
-  "number": "H.3.372",
+  "number": "H.3.516",
   "title": "The Mean, Median, and Mode in Unimodal Distributions.",
-  "body": " The Mean, Median, and Mode in Unimodal Distributions   Normal:  .  Skew-right:  .  Skew-left:  .   "
+  "body": " The Mean, Median, and Mode in Unimodal Distributions   Normal Distribution:  .   In a normal distribution, the mean, median, and mode are equal and located at the peak.    Skew-right Distribution:  .   A skew-right distribution pulls the mean and median to the right, away from the mode. The mean is pulled farther than the median.    Skew-left Distribution:  .   A skew-left distribution pulls the mean and median to the left, away from the mode. The mean is pulled farther than the median.     "
 },
 {
   "id": "appendix-statistics-ch3-weighted-mean-example-1",
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-1",
   "type": "Example",
-  "number": "H.3.373",
+  "number": "H.3.520",
   "title": "Example 1.",
   "body": " Example 1   For data , calculate mean by direct definition, grouped multiplication, and simplified weighted form.   "
 },
@@ -8645,7 +10841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-definition",
   "type": "Definition",
-  "number": "H.3.374",
+  "number": "H.3.521",
   "title": "What is a Weighted Mean?",
   "body": " What is a Weighted Mean?   A weighted mean is a mean where values carry frequencies or weights.  Using frequencies:   Using weights:    "
 },
@@ -8654,7 +10850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-2",
   "type": "Example",
-  "number": "H.3.375",
+  "number": "H.3.522",
   "title": "Example 2.",
   "body": " Example 2   Compute current course grade with weighted categories using the Summary Statistics Calculator .   Sample Grades for a Course   Category Grade (%) Percentage of Grade  MyLab Stat 43% 7.5%  Quizzes 63% 7.5%  Exam 1 92% 20%  Exam 2 67% 20%  Exam 3 76% 20%     "
 },
@@ -8663,7 +10859,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-3",
   "type": "Example",
-  "number": "H.3.377",
+  "number": "H.3.524",
   "title": "Example 3.",
   "body": " Example 3   Estimate mean gas mileage for family sedans from grouped data using midpoint-frequency weighted mean.   A Frequency Distribution for the Gas Mileage of 24 Family Sedans   Gas Mileage (mpg) Midpoint Frequency  22 to 27 16  28 to 33 2  34 to 39 2  40 to 45 4     "
 },
@@ -8672,7 +10868,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-not-enough-overview",
   "type": "Definition",
-  "number": "H.3.379",
+  "number": "H.3.526",
   "title": "Is the Mean Enough to Describe a Dataset?",
   "body": " Is the Mean Enough to Describe a Dataset?   The mean is one of the most commonly used measures to summarize a dataset. While it provides useful information about central tendency, it does not always tell the whole story. Different datasets can have the same mean and still have very different distributions.   "
 },
@@ -8681,7 +10877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-not-enough-example-1",
   "type": "Example",
-  "number": "H.3.380",
+  "number": "H.3.527",
   "title": "Example 1.",
   "body": " Example 1     Part A: Find the mean of .  Part B: Find the mean of .  Part C: Even though the means are the same, describe how the datasets differ.     "
 },
@@ -8690,7 +10886,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-definition-extra",
   "type": "Definition",
-  "number": "H.3.381",
+  "number": "H.3.528",
   "title": "Range.",
   "body": " Range   .   "
 },
@@ -8699,7 +10895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-advantages-disadvantages",
   "type": "Definition",
-  "number": "H.3.382",
+  "number": "H.3.529",
   "title": "Advantages and Disadvantages of the Range.",
   "body": " Advantages and Disadvantages of the Range     Advantage: simple and quick to compute.  Disadvantage: depends only on the minimum and maximum values, so it is sensitive to outliers.     "
 },
@@ -8708,7 +10904,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-example-1-extra",
   "type": "Example",
-  "number": "H.3.383",
+  "number": "H.3.530",
   "title": "Example 1.",
   "body": " Example 1   Scientists track migration distances (in miles) for 10 birds.   Migration Distances   Distance (in miles)  354 400 412 375 389 410 368 390 405 392      Part A: Find the range.  Part B: Explain what the range says about variation.     "
 },
@@ -8717,7 +10913,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-example-2-extra",
   "type": "Example",
-  "number": "H.3.385",
+  "number": "H.3.532",
   "title": "Example 2.",
   "body": " Example 2   Ages (in years) of 12 participants in a community program are listed below.   Participants in a Community Program   Age (in years)  22 25 31 28 24 35 45 41 29 33 38 40     "
 },
@@ -8726,7 +10922,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-definition-extra",
   "type": "Definition",
-  "number": "H.3.387",
+  "number": "H.3.534",
   "title": "Deviation.",
   "body": " Deviation   The deviation of a data point is the difference between the value and the mean.  Population:   Sample:   .   "
 },
@@ -8735,7 +10931,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-notes-extra",
   "type": "Definition",
-  "number": "H.3.388",
+  "number": "H.3.535",
   "title": "Notes on Deviation.",
   "body": " Notes on Deviation     Positive deviation means the data point is above the mean.  Negative deviation means the data point is below the mean.     "
 },
@@ -8744,7 +10940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-example-1-extra",
   "type": "Example",
-  "number": "H.3.389",
+  "number": "H.3.536",
   "title": "Example 1.",
   "body": " Example 1   Salaries for a sample of 10 individuals are shown below (in thousands of dollars).   Sample of 10 Salaries (in Thousands of Dollars)   Salaries (in thousands of dollars)  40 23 41 50 49 32 41 59 52 58      Part A: Calculate each salary's deviation.  Part B: Use the Summary Statistics Calculator to find average deviation.     "
 },
@@ -8753,7 +10949,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-overview-extra",
   "type": "Definition",
-  "number": "H.3.391",
+  "number": "H.3.538",
   "title": "Understanding Standard Deviation.",
   "body": " Understanding Standard Deviation   Standard deviation is a key measure of variability and describes typical distance from the mean.   "
 },
@@ -8762,7 +10958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-squared-deviation-definition-extra",
   "type": "Definition",
-  "number": "H.3.392",
+  "number": "H.3.539",
   "title": "Squared Deviation.",
   "body": " Squared Deviation   Population:   Sample:    "
 },
@@ -8771,7 +10967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-squared-deviation-example-1-extra",
   "type": "Example",
-  "number": "H.3.393",
+  "number": "H.3.540",
   "title": "Example 1.",
   "body": " Example 1   Compute squared deviations for the salary data and find their sum.   "
 },
@@ -8780,7 +10976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-definition-extra",
   "type": "Definition",
-  "number": "H.3.394",
+  "number": "H.3.541",
   "title": "Variance.",
   "body": " Variance   Population:   Sample:    "
 },
@@ -8789,16 +10985,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-n-minus-one-extra",
   "type": "Definition",
-  "number": "H.3.395",
+  "number": "H.3.542",
   "title": "Why does sample variance use <span class=\"process-math\">\\(n-1\\text{?}\\)<\/span>",
-  "body": " Why does sample variance use ?   This is related to degrees of freedom .   "
+  "body": " Why does sample variance use ?   This is related to degrees of freedom .   Stacks of 1, 2, 4, 2, 3, and 5 dots, respectively.     One stack is still height 2 after arranging all the dots into even stacks of 3.     The original stacks with a stack of four dots adding as the seventh stack.     "
 },
 {
   "id": "appendix-statistics-ch3-variance-example-2-extra",
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-example-2-extra",
   "type": "Example",
-  "number": "H.3.396",
+  "number": "H.3.546",
   "title": "Example 2.",
   "body": " Example 2   Compute variance for the salary dataset.    Variance has squared units.  Variance can be numerically large because deviations are squared.     "
 },
@@ -8807,7 +11003,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-definition-extra",
   "type": "Definition",
-  "number": "H.3.397",
+  "number": "H.3.547",
   "title": "Standard Deviation.",
   "body": " Standard Deviation   Population:   Sample:    "
 },
@@ -8816,7 +11012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-properties-extra",
   "type": "Definition",
-  "number": "H.3.398",
+  "number": "H.3.548",
   "title": "Important Properties of Standard Deviation.",
   "body": " Important Properties of Standard Deviation     Measures average distance from the mean.  Always greater than or equal to zero.  Larger values indicate more variation.  Not resistant to outliers.  Uses the same units as the data.     "
 },
@@ -8825,7 +11021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-example-3-extra",
   "type": "Example",
-  "number": "H.3.399",
+  "number": "H.3.549",
   "title": "Example 3.",
   "body": " Example 3   Use the Summary Statistics Calculator to compute standard deviation for the salary data.   "
 },
@@ -8834,7 +11030,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outliers-normal-overview-extra",
   "type": "Definition",
-  "number": "H.3.400",
+  "number": "H.3.550",
   "title": "How to Find Outliers for Normal Distributions.",
   "body": " How to Find Outliers for Normal Distributions   Outliers are extreme values that stand apart from most of a dataset.   "
 },
@@ -8843,7 +11039,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outliers-normal-example-1-extra",
   "type": "Example",
-  "number": "H.3.401",
+  "number": "H.3.551",
   "title": "Example 1.",
   "body": " Example 1   Unemployment rates are approximately normal with mean and standard deviation . Classify:    Part A:   Part B:   Part C:      "
 },
@@ -8852,7 +11048,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-empirical-rule-definition-extra",
   "type": "Definition",
-  "number": "H.3.402",
+  "number": "H.3.552",
   "title": "The Empirical Rule.",
   "body": " The Empirical Rule     About of data lies between and .  About of data lies between and .  About of data lies between and .     "
 },
@@ -8861,7 +11057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-empirical-rule-example-1-extra",
   "type": "Example",
-  "number": "H.3.403",
+  "number": "H.3.553",
   "title": "Example 1.",
   "body": " Example 1   A sample has mean height inches and standard deviation inches. Use the Empirical Rule Calculator :    Part A: Percent between and .  Part B: Percent taller than .  Part C: Percent shorter than .     "
 },
@@ -8870,7 +11066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-chebyshev-definition-extra",
   "type": "Definition",
-  "number": "H.3.404",
+  "number": "H.3.554",
   "title": "Chebyshev’s Inequality.",
   "body": " Chebyshev's Inequality   At least of data lies within standard deviations of the mean, for .    : at least  : at least  : at least     "
 },
@@ -8879,7 +11075,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-chebyshev-example-1-extra",
   "type": "Example",
-  "number": "H.3.405",
+  "number": "H.3.555",
   "title": "Example 1.",
   "body": " Example 1   A hospital has systolic blood-pressure data with mean mmHg and standard deviation mmHg. Use Chebyshev's inequality to find the minimum percentage between and mmHg.   "
 },
@@ -8888,7 +11084,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-overview",
   "type": "Definition",
-  "number": "H.3.406",
+  "number": "H.3.556",
   "title": "How to Calculate a Percentile.",
   "body": " How to Calculate a Percentile   A percentile indicates the relative standing of a data value in a dataset. The percentile is the value below which of the data falls.   "
 },
@@ -8897,7 +11093,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-by-hand",
   "type": "Definition",
-  "number": "H.3.407",
+  "number": "H.3.557",
   "title": "Percentiles By Hand.",
   "body": " Percentiles By Hand   Formula for percentile rank of a value :   How to find a data value for a given percentile:    Step 1: Compute .  Step 2: Use the position in the ordered data:  If decimal, use adjacent positions and average those two values.  If whole number, use that position and the next position, then average.       Notation: denotes the percentile (for example, ).   "
 },
@@ -8906,7 +11102,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-1",
   "type": "Example",
-  "number": "H.3.408",
+  "number": "H.3.558",
   "title": "Example 1.",
   "body": " Example 1   The dataset below gives three-point shots made by 50 NBA players.    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.     Three-Point Shots Made by 50 NBA Players   Number of Three-Point Shots (Ordered)  5 8 12 18 22 28 35 40 48 55  60 68 72 80 85 90 98 105 110 118  125 130 135 140 148 150 158 165 170 175  180 185 190 198 205 210 220 230 240 250  260 270 280 290 300 310 320 330 340 350     "
 },
@@ -8915,7 +11111,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-2",
   "type": "Example",
-  "number": "H.3.410",
+  "number": "H.3.560",
   "title": "Percentiles using GeoGebra: Example 2.",
   "body": " Percentiles using GeoGebra: Example 2   Using the same dataset above:    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.     "
 },
@@ -8924,7 +11120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-notes",
   "type": "Definition",
-  "number": "H.3.411",
+  "number": "H.3.561",
   "title": "Cumulative Relative Frequency vs Percentiles.",
   "body": " Cumulative Relative Frequency vs Percentiles   Cumulative relative frequency uses “less than or equal to,” while percentile rank is typically interpreted as “less than.”   "
 },
@@ -8933,7 +11129,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-median-relation",
   "type": "Definition",
-  "number": "H.3.412",
+  "number": "H.3.562",
   "title": "Relationship Between the Median and Percentiles.",
   "body": " Relationship Between the Median and Percentiles   The median is the 50th percentile, i.e. .   "
 },
@@ -8942,7 +11138,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-3-interpret",
   "type": "Example",
-  "number": "H.3.413",
+  "number": "H.3.563",
   "title": "Interpreting Percentiles.",
   "body": " Interpreting Percentiles   Interpret each scenario:    Part A: A baby’s weight is in the 85th percentile.  Part B: A household income is at the 70th percentile.  Part C: A patient’s blood pressure is in the 40th percentile.  Part D: A student’s GPA is in the 75th percentile in their school.  Part E: A machine produces parts in the 98th percentile for accuracy.     "
 },
@@ -8951,7 +11147,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-overview",
   "type": "Definition",
-  "number": "H.3.414",
+  "number": "H.3.564",
   "title": "How to Calculate a <span class=\"process-math\">\\(z\\)<\/span>-score.",
   "body": " How to Calculate a -score   A -score (standard score) measures how many standard deviations a value lies above or below the mean.   "
 },
@@ -8960,7 +11156,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-1",
   "type": "Example",
-  "number": "H.3.415",
+  "number": "H.3.565",
   "title": "Example 1.",
   "body": " Example 1   A normal distribution has mean 175 cm and standard deviation 7 cm.   Distribution of Heights   Height (cm) Empirical Rule Calculation -score  154 -3  161 -2  168 -1  175 0  182 1  189 2  196 3     "
 },
@@ -8969,25 +11165,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-formulas",
   "type": "Definition",
-  "number": "H.3.417",
+  "number": "H.3.567",
   "title": "<span class=\"process-math\">\\(z\\)<\/span>-Score Formulas.",
-  "body": " -Score Formulas   General structure:  Population:   Sample:    "
+  "body": " -Score Formulas   General structure:  Population:   Sample:    Normal distribution with heights and z-scores labeled on the x-axis.     "
 },
 {
   "id": "appendix-statistics-ch3b-zscore-features",
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-features",
   "type": "Definition",
-  "number": "H.3.418",
+  "number": "H.3.569",
   "title": "Important Features of <span class=\"process-math\">\\(z\\)<\/span>-Scores.",
-  "body": " Important Features of -Scores     -scores are unitless.  Positive means above the mean; negative means below.  Absolute -score measures extremeness.     "
+  "body": " Important Features of -Scores     -scores are unitless.  Positive means above the mean; negative means below.  Absolute -score measures extremeness.     Two normal distributions, one with data on the x-axis, one with z-scores on the x-axis.     "
 },
 {
   "id": "appendix-statistics-ch3b-zscore-example-2",
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-2",
   "type": "Example",
-  "number": "H.3.419",
+  "number": "H.3.571",
   "title": "Example 2.",
   "body": " Example 2   Who is relatively taller at 68 inches: a man or a woman?   Average Heights and Standard Deviations   Group Mean Height (in) Standard Deviation (in)  Men 69.9 3.0  Women 64.3 2.6     "
 },
@@ -8996,7 +11192,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-3",
   "type": "Example",
-  "number": "H.3.421",
+  "number": "H.3.573",
   "title": "Example 3.",
   "body": " Example 3   The ACT has mean 20.8 and standard deviation 5.8. The SAT has mean 1500 and standard deviation 300. Who performed worse relative to peers: SAT 1075 or ACT 15?   "
 },
@@ -9005,7 +11201,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-extreme",
   "type": "Definition",
-  "number": "H.3.422",
+  "number": "H.3.574",
   "title": "Extreme Values.",
   "body": " Extreme Values   A value is more extreme when its absolute -score is larger.    Step 1: Compute both -scores.  Step 2: Take absolute values.  Step 3: Larger absolute value is more extreme.     "
 },
@@ -9014,7 +11210,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-4",
   "type": "Example",
-  "number": "H.3.423",
+  "number": "H.3.575",
   "title": "Example 4.",
   "body": " Example 4   Determine which is more extreme: a man who weighs 145 lbs (mean 208, sd 25) or a woman who weighs 224 lbs (mean 175, sd 25).   "
 },
@@ -9023,7 +11219,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-overview",
   "type": "Definition",
-  "number": "H.3.424",
+  "number": "H.3.576",
   "title": "How to Calculate the Five-Number Summary.",
   "body": " How to Calculate the Five-Number Summary   Quartiles divide ordered data into four parts.    : first quartile  : median  : third quartile     "
 },
@@ -9032,7 +11228,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-1",
   "type": "Example",
-  "number": "H.3.425",
+  "number": "H.3.577",
   "title": "Quartiles: Example 1.",
   "body": " Quartiles: Example 1   Find and for meteorite crater diameters.   Meteorite Impact Crater Diameters (km)   Crater Diameters (km)  1.2 3.5 2.8 4.0 6.7 5.2 8.1 3.1 4.5 2.9 6.0 7.4     "
 },
@@ -9041,7 +11237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-2",
   "type": "Example",
-  "number": "H.3.427",
+  "number": "H.3.579",
   "title": "Quartiles: Example 2.",
   "body": " Quartiles: Example 2   Use the Summary Statistics Calculator to find and for esports reaction times.   Reaction Times in an Esports Tournament (ms)   Reaction Times (ms)  175 180 185 189 190 195 195 198 200 202  205 210 210 215 215 220 225 230 235 240  245 250 250 255 260 265 270 275 280 290     "
 },
@@ -9050,7 +11246,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-definition",
   "type": "Definition",
-  "number": "H.3.429",
+  "number": "H.3.581",
   "title": "The Five-Number Summary.",
   "body": " The Five-Number Summary   The five-number summary consists of minimum, , median, , and maximum.   "
 },
@@ -9059,7 +11255,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-3",
   "type": "Example",
-  "number": "H.3.430",
+  "number": "H.3.582",
   "title": "Example 3.",
   "body": " Example 3   Compute the five-number summary for roller coaster speeds.   Speeds of Roller Coasters Around the World (mph)   Roller Coaster Speeds (mph)  44.7 60.9 65.2 52.8 74.6 68.4 59.0 63.3 55.3 80.8  88.2 49.7 77.7 85.7 55.9 61.5 78.9 93.2 67.1 57.8  62.1 71.3 54.0 83.9 90.2 50.9 99.4 96.3 86.8 46.6     "
 },
@@ -9068,7 +11264,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-definition",
   "type": "Definition",
-  "number": "H.3.432",
+  "number": "H.3.584",
   "title": "How to Find Outliers for Skewed Data.",
   "body": " How to Find Outliers for Skewed Data   The interquartile range is , and it measures spread of the middle 50% of skewed data.   "
 },
@@ -9077,7 +11273,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-example-1",
   "type": "Example",
-  "number": "H.3.433",
+  "number": "H.3.585",
   "title": "Example 1.",
   "body": " Example 1   Compute IQR for exoplanet brightness data.   Exoplanet Brightness Measurements   Brightness (Magnitude)  -3.4 -2.9 -2.5 -2.2 -1.8 -1.5 -1.2 -0.9 -0.7 -0.5  -0.3 -0.1 0.2 0.4 0.7 1.0 1.3 1.7 2.1 3.8     "
 },
@@ -9086,7 +11282,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-rule",
   "type": "Definition",
-  "number": "H.3.435",
+  "number": "H.3.587",
   "title": "IQR Rule for Outliers.",
   "body": " IQR Rule for Outliers     Significantly low if value .  Significantly high if value .     "
 },
@@ -9095,7 +11291,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-example-2",
   "type": "Example",
-  "number": "H.3.436",
+  "number": "H.3.588",
   "title": "Example 2.",
   "body": " Example 2   Identify outliers in music streaming counts using IQR.   Music Streaming Counts (Millions)   Streams  1.2 1.5 2.1 2.4 2.9 3.3 3.6 4.0 4.2 4.8  5.1 5.7 6.0 6.2 6.8 7.3 8.1 8.5 9.0 15.4     "
 },
@@ -9104,7 +11300,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-definition",
   "type": "Definition",
-  "number": "H.3.438",
+  "number": "H.3.590",
   "title": "How to Create a Boxplot.",
   "body": " How to Create a Boxplot   A boxplot summarizes the distribution using the five-number summary and whiskers.   "
 },
@@ -9113,7 +11309,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-steps",
   "type": "Definition",
-  "number": "H.3.439",
+  "number": "H.3.591",
   "title": "Steps to Construct a Boxplot.",
   "body": " Steps to Construct a Boxplot     Find the five-number summary.  Draw a box from to with a median line.  Draw whiskers to minimum and maximum.     "
 },
@@ -9122,7 +11318,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-1",
   "type": "Example",
-  "number": "H.3.440",
+  "number": "H.3.592",
   "title": "Example 1.",
   "body": " Example 1   Construct a boxplot for gaming session lengths.   Gaming Session Lengths (Minutes)   Session Lengths (Minutes)  15 30 45 60 75  120 150 90 200 180  95 110 130 140 85  70 160 170 55 40  190 210 35 100 250     "
 },
@@ -9131,7 +11327,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-2",
   "type": "Example",
-  "number": "H.3.442",
+  "number": "H.3.594",
   "title": "Example 2.",
   "body": " Example 2   Use the Boxplot Generator to create a boxplot for coffee consumption.   Coffee Consumption (Cups per Day)   Number of Cups  0 1 2 3 5 3 4 6 7 2  3 4 5 1 0 8 3 6 4 5  2 7 3 4 6 2 1 5 3 4     "
 },
@@ -9140,16 +11336,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-skewness",
   "type": "Definition",
-  "number": "H.3.444",
+  "number": "H.3.596",
   "title": "Skewness in Boxplots.",
-  "body": " Skewness in Boxplots     Approximately normal: median centered and whiskers similar length.  Left skewed: median closer to or left whisker longer.  Right skewed: median closer to or right whisker longer.     "
+  "body": " Skewness in Boxplots     Approximately normal: median centered and whiskers similar length.  A boxplot of a normal distribution for free throw percentages.     Left skewed: median closer to or left whisker longer.  Skew-left boxplot on the number of hours of sleep a new parent gets.     Right skewed: median closer to or right whisker longer.  A strong skew-right boxplot for student loan payments.        "
 },
 {
   "id": "appendix-statistics-ch3b-boxplot-comparison",
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-comparison",
   "type": "Definition",
-  "number": "H.3.445",
+  "number": "H.3.600",
   "title": "Comparing Datasets Using Boxplots.",
   "body": " Comparing Datasets Using Boxplots     Side-by-side distribution comparison  Quick insight into variability  Compact but informative summaries     "
 },
@@ -9158,7 +11354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-3",
   "type": "Example",
-  "number": "H.3.446",
+  "number": "H.3.601",
   "title": "Example 3.",
   "body": " Example 3   Compare 100m sprint times for high-school and Olympic athletes using the Boxplot Generator .   100m Sprint Times: High School vs. Olympic Athletes   High School (s) Olympic (s)  10.55 10.60 10.65 10.72 10.78 9.58 9.69 9.72 9.76 9.81  10.82 10.85 10.89 10.94 10.98 9.85 9.88 9.91 9.93 9.95  11.02 11.07 11.10 11.14 11.18 9.98 10.01 10.03 10.05 10.08  11.21 11.25 11.29 11.35 11.40 10.12 10.15 10.19 10.22 10.25     "
 },
@@ -9179,6 +11375,24 @@ var ptx_lunr_docs = [
   "number": "I.1.1",
   "title": "",
   "body": " The Summary Statistics Calculator created in GeoGebra   "
+},
+{
+  "id": "sec-empirical-rule-tool",
+  "level": "1",
+  "url": "sec-empirical-rule-tool.html",
+  "type": "Section",
+  "number": "I.2",
+  "title": "Empirical Rule Tool",
+  "body": " Empirical Rule Tool   The Empirical Rule Tool created in GeoGebra    "
+},
+{
+  "id": "fig-empirical-rule-tool",
+  "level": "2",
+  "url": "sec-empirical-rule-tool.html#fig-empirical-rule-tool",
+  "type": "Figure",
+  "number": "I.2.1",
+  "title": "",
+  "body": " The Empirical Rule Tool created in GeoGebra   "
 },
 {
   "id": "backmatter-11",

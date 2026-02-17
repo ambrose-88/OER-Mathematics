@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: salem                          *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>How to Construct Stem-and-Leaf Plots</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="OER Mathematics">
+<meta property="book:author" content="Charles S. McCauley">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.14';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.d892923478694492.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">OER Mathematics</span> <span class="subtitle"></span></a></h1>
+<p class="byline">Charles S. McCauley</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="stats-ch2-shapes-distributions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="statistics-chapter2.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="stats-ch2-dot-plots.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 parts focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="review-arithmetic.html" class="internal"><span class="codenumber">I</span> <span class="title">Review of Arithmetic</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="review-arithmetic-chapter1.html" class="internal"><span class="codenumber">1</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="intermediate-algebra.html" class="internal"><span class="codenumber">II</span> <span class="title">Intermediate Algebra</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="intermediate-algebra-chapter1.html" class="internal"><span class="codenumber">2</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="college-algebra.html" class="internal"><span class="codenumber">III</span> <span class="title">College Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter1.html" class="internal"><span class="codenumber">3</span> <span class="title">Graphing in Two Dimensions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter1-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Graphing Points on the Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-1.html#sub-ordered-pairs" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Ordered Pairs</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="chapter1-1.html#sub-visualizing-coordinate-plane" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Visualizing The Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-coordinate-axes" class="internal"><span class="codenumber">3.1.2.1</span> <span class="title">Coordinate Axes</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-origin-and-rectangular-coordinates" class="internal"><span class="codenumber">3.1.2.2</span> <span class="title">The Origin and Rectangular Coordinates</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-quadrants" class="internal"><span class="codenumber">3.1.2.3</span> <span class="title">The Quadrants of a Coordinate Plane</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter1-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Graphing Points on the Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="chapter1-2.html#chapter1-2-3" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Graphing a Point by Hand</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#chapter1-2-3-2" class="internal"><span class="codenumber">3.2.1.1</span> <span class="title">Positive and Negative Signs as Directions of Travel.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-Graphing-a-Point-By-Hand" class="internal"><span class="codenumber">3.2.1.2</span> <span class="title">Graphing a Point By Hand</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-Graphing-Points-Using-Technology" class="internal"><span class="codenumber">3.2.1.3</span> <span class="title">Graphing Points Using Technology</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-variables-other-than-x-y" class="internal"><span class="codenumber">3.2.1.4</span> <span class="title">Using Variables Other Than <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span></span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter1-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">The Distance Formula</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-3.html#sub-distances-in-the-real-world" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Distances in the Real World</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-3.html#sub-distance-formula" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Proof of the Distance Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-6.html" class="internal"><span class="codenumber">3.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-7.html" class="internal"><span class="codenumber">3.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-8.html" class="internal"><span class="codenumber">3.8</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter2.html" class="internal"><span class="codenumber">4</span> <span class="title">Functions and Their Basic Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-6.html" class="internal"><span class="codenumber">4.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-7.html" class="internal"><span class="codenumber">4.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-8.html" class="internal"><span class="codenumber">4.8</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-9.html" class="internal"><span class="codenumber">4.9</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-10.html" class="internal"><span class="codenumber">4.10</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-11.html" class="internal"><span class="codenumber">4.11</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-12.html" class="internal"><span class="codenumber">4.12</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-13.html" class="internal"><span class="codenumber">4.13</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-14.html" class="internal"><span class="codenumber">4.14</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-15.html" class="internal"><span class="codenumber">4.15</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter3.html" class="internal"><span class="codenumber">5</span> <span class="title">Linear Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-5.html" class="internal"><span class="codenumber">5.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-6.html" class="internal"><span class="codenumber">5.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-7.html" class="internal"><span class="codenumber">5.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-8.html" class="internal"><span class="codenumber">5.8</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-9.html" class="internal"><span class="codenumber">5.9</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-10.html" class="internal"><span class="codenumber">5.10</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-11.html" class="internal"><span class="codenumber">5.11</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter4.html" class="internal"><span class="codenumber">6</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-zero-product-property.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Zero Product Property</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-quadratic-equations" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Quadratic Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-the-zero-product-property" class="internal"><span class="codenumber">6.1.2</span> <span class="title">The Zero Product Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-solving-equations-by-factoring" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Solving Equations by Factoring</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Solving Quadratics Using Special Products</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html#subsec-difference-of-squares" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Difference of Squares</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html#subsec-sum-and-difference-of-cubes" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Sum and Difference of Cubes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factor-by-grouping.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Factor by Grouping</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-factor-by-grouping" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Factor by Grouping</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-ac-method" class="internal"><span class="codenumber">6.3.2</span> <span class="title">The <span class="process-math">\(ac\)</span>-Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-slide-and-divide" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Slide and Divide</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-square-root-property.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Square Root Property</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-square-root-property.html#subsec-solving-equations-using-square-root-property" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Solving Equations using Square Root Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-square-root-property.html#subsec-solving-equations-involving-perfect-square-trinomials" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Solving Equations Involving Perfect Square Trinomials</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-completing-the-square.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Completing the Square</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-completing-the-square.html#subsec-traditional-method" class="internal"><span class="codenumber">6.5.1</span> <span class="title">The Traditional Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-completing-the-square.html#subsec-box-method" class="internal"><span class="codenumber">6.5.2</span> <span class="title">The Box Method</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html" class="internal"><span class="codenumber">6.6</span> <span class="title">The Definition of Complex Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html#subsec-the-imaginary-number-i" class="internal"><span class="codenumber">6.6.1</span> <span class="title">The Imaginary Number <span class="process-math">\(i\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html#subsec-complex-numbers" class="internal"><span class="codenumber">6.6.2</span> <span class="title">Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html" class="internal"><span class="codenumber">6.7</span> <span class="title">Arithmetic with Complex Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-adding-complex-numbers" class="internal"><span class="codenumber">6.7.1</span> <span class="title">Adding Complex Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-subtracting-complex-numbers" class="internal"><span class="codenumber">6.7.2</span> <span class="title">Subtracting Complex Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-multiplying-complex-numbers" class="internal"><span class="codenumber">6.7.3</span> <span class="title">Multiplying Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-complex-conjugate.html" class="internal"><span class="codenumber">6.8</span> <span class="title">The Complex Conjugate</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-complex-conjugate.html#subsec-determining-the-complex-conjugate" class="internal"><span class="codenumber">6.8.1</span> <span class="title">Determining the Complex Conjugate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-complex-conjugate.html#subsec-getting-real-numbers-from-complex-numbers" class="internal"><span class="codenumber">6.8.2</span> <span class="title">Getting Real Numbers from Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="square-roots-negative.html" class="internal"><span class="codenumber">6.9</span> <span class="title">Square Roots of Negative Numbers</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="proof-of-the-quadratic-formula.html" class="internal"><span class="codenumber">6.10</span> <span class="title">Proof of the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="using-the-quadratic-formula.html" class="internal"><span class="codenumber">6.11</span> <span class="title">Using the Quadratic Formula</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="using-the-quadratic-formula.html#solving-equations-using-the-quadratic-formula" class="internal"><span class="codenumber">6.11.1</span> <span class="title">Solving Equations Using the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="using-the-quadratic-formula.html#sub-the-discriminant" class="internal"><span class="codenumber">6.11.2</span> <span class="title">The Discriminant</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="equations-quadratic-in-form.html" class="internal"><span class="codenumber">6.12</span> <span class="title">Equations that are Quadratic in Form</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equations-quadratic-in-form.html#solving-equations-in-one-variable" class="internal"><span class="codenumber">6.12.1</span> <span class="title">Solving Equations in One Variable</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equations-quadratic-in-form.html#solving-equations-for-other-variables" class="internal"><span class="codenumber">6.12.2</span> <span class="title">Solving Equations for Other Variables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratic-functions.html" class="internal"><span class="codenumber">6.13</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-functions.html#graphs-of-quadratic-functions" class="internal"><span class="codenumber">6.13.1</span> <span class="title">Graphs of Quadratic Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-functions.html#properties-of-quadratic-functions" class="internal"><span class="codenumber">6.13.2</span> <span class="title">Properties of Quadratic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html" class="internal"><span class="codenumber">6.14</span> <span class="title">The Vertex Form of a Quadratic Function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#writing-quadratic-equations-in-vertex-form" class="internal"><span class="codenumber">6.14.1</span> <span class="title">Writing Quadratic Equations in Vertex Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#graphing-quadratic-functions-using-the-vertex-form" class="internal"><span class="codenumber">6.14.2</span> <span class="title">Graphing Quadratic Functions Using the Vertex Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#graphing-quadratic-functions-using-intercepts" class="internal"><span class="codenumber">6.14.3</span> <span class="title">Graphing Quadratic Functions Using Intercepts</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="optimization-using-quadratic-functions.html" class="internal"><span class="codenumber">6.15</span> <span class="title">Optimization Using Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-to-geometry" class="internal"><span class="codenumber">6.15.1</span> <span class="title">Applications to Geometry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-from-physics" class="internal"><span class="codenumber">6.15.2</span> <span class="title">Applications from Physics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-from-economics" class="internal"><span class="codenumber">6.15.3</span> <span class="title">Applications from Economics</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter5.html" class="internal"><span class="codenumber">7</span> <span class="title">Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="end-behavior-polynomial-functions.html" class="internal"><span class="codenumber">7.2</span> <span class="title">End Behavior of Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="zeroes-and-multiplicity.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Zeros and Multiplicity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#complete-linear-factorization-of-px" class="internal"><span class="codenumber">7.3.1</span> <span class="title">The Complete Linear Factorization of <span class="process-math">\(p(x)\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#the-zeroes-of-a-polynomial-function" class="internal"><span class="codenumber">7.3.2</span> <span class="title">The Zeroes of a Polynomial Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#the-multiplicity-of-a-zero" class="internal"><span class="codenumber">7.3.3</span> <span class="title">The Multiplicity of a Zero</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#visualizing-zeroes-as-x-intercepts" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Visualizing Zeroes as <span class="process-math">\(x\)</span>-intercepts</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="turning-points.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Turning Points</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="turning-points.html#turning-points-and-local-extrema" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Turning Points and Local Extrema</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-increasing-decreasing.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Where are Polynomial Functions Increasing and Decreasing?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphing-polynomials.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Graphing Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomial-long-division.html" class="internal"><span class="codenumber">7.7</span> <span class="title">The Division Algorithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="polynomial-long-division.html#division-algorithm" class="internal"><span class="codenumber">7.7.1</span> <span class="title">Natural Numbers Version</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="polynomial-long-division.html#polynomial-division-algorithm" class="internal"><span class="codenumber">7.7.2</span> <span class="title">Polynomial Version</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="synthetic-division.html" class="internal"><span class="codenumber">7.8</span> <span class="title">Synthetic Division</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="remainder-factor-theroems.html" class="internal"><span class="codenumber">7.9</span> <span class="title">The Remainder and Factor Theorems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="remainder-factor-theroems.html#subsec-the-remainder-theorem" class="internal"><span class="codenumber">7.9.1</span> <span class="title">The Remainder Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="remainder-factor-theroems.html#subsec-the-factor-theorem" class="internal"><span class="codenumber">7.9.2</span> <span class="title">The Factor Theorem</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="text-for-pm-one.html" class="internal"><span class="codenumber">7.10</span> <span class="title">The Test for <span class="process-math">\(\pm 1\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rational-zeroes-theorem.html" class="internal"><span class="codenumber">7.11</span> <span class="title">The Rational Root Theorem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="irrational-zeroes.html" class="internal"><span class="codenumber">7.12</span> <span class="title">The Irrational Zeroes of a Polynomial</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="intermediate-value-theorem.html" class="internal"><span class="codenumber">7.13</span> <span class="title">Intermediate Value Theorem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="complex-zeroes.html" class="internal"><span class="codenumber">7.14</span> <span class="title">The Complex Zeroes of a Polynomial</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="fundamental-theorem-of-algebra.html" class="internal"><span class="codenumber">7.15</span> <span class="title">The Fundamental Theorem of Algebra</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-inequalities.html" class="internal"><span class="codenumber">7.16</span> <span class="title">Solving Polynomial Inequalities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter6.html" class="internal"><span class="codenumber">8</span> <span class="title">Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rational-functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Rational Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="zeroes-numerator-rational.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Zeroes of the Numerator</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-numerator-rational.html#subsec-zeroes-rational-functions" class="internal"><span class="codenumber">8.2.1</span> <span class="title">The Zeroes of Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-numerator-rational.html#subsec-multiplicity-rational-functions" class="internal"><span class="codenumber">8.2.2</span> <span class="title">How to Determine Multiplicity for Rational Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="zeroes-denominator-rational.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Zeroes of the Denominator</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#subsec-domains-rational" class="internal"><span class="codenumber">8.3.1</span> <span class="title">Domains of Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#sub-arrow-notation" class="internal"><span class="codenumber">8.3.2</span> <span class="title">Arrow Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#subsec-vertical-asymptotes" class="internal"><span class="codenumber">8.3.3</span> <span class="title">Vertical Asymptotes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#subsec-multiplicities-of-the-denominator" class="internal"><span class="codenumber">8.3.4</span> <span class="title">Multiplicities of the Denominator</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="holes-rational-functions.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Holes in Rational Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="end-behavior-rational.html" class="internal"><span class="codenumber">8.5</span> <span class="title">End Behavior of Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="end-behavior-rational.html#other-types-of-asymptotes" class="internal"><span class="codenumber">8.5.1</span> <span class="title">Other Types of Asymptotes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="end-behavior-rational.html#end-behavior-of-rational-functions" class="internal"><span class="codenumber">8.5.2</span> <span class="title">End Behavior of Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="end-behavior-rational.html#subsec-crossing-asymptotes" class="internal"><span class="codenumber">8.5.3</span> <span class="title">Crossing Horizontal/Oblique/Nonlinear Asymptotes?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphs-rational.html" class="internal"><span class="codenumber">8.6</span> <span class="title">The Graphs of Rational Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rational-inequalities.html" class="internal"><span class="codenumber">8.7</span> <span class="title">Rational Inequalities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter7.html" class="internal"><span class="codenumber">9</span> <span class="title">Creating New Functions from Old Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="library-of-functions.html" class="internal"><span class="codenumber">9.1</span> <span class="title">The Library of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#constant-function" class="internal"><span class="codenumber">9.1.1</span> <span class="title">The Constant Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#identity-function" class="internal"><span class="codenumber">9.1.2</span> <span class="title">The Identity Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#odd-power-function" class="internal"><span class="codenumber">9.1.3</span> <span class="title">The Power Function (<span class="process-math">\(n\)</span> odd case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#even-power-function" class="internal"><span class="codenumber">9.1.4</span> <span class="title">The Power Function (<span class="process-math">\(n\)</span> even case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#odd-root-function" class="internal"><span class="codenumber">9.1.5</span> <span class="title">The Root Function (<span class="process-math">\(n\)</span> odd case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#even-root-function" class="internal"><span class="codenumber">9.1.6</span> <span class="title">The Root Function (<span class="process-math">\(n\)</span> even case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#absolute-value-function" class="internal"><span class="codenumber">9.1.7</span> <span class="title">The Absolute Value Function</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="vertical-translations.html" class="internal"><span class="codenumber">9.2</span> <span class="title">How to Move Functions Up and Down</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="horizontal-translations.html" class="internal"><span class="codenumber">9.3</span> <span class="title">How to Move Functions Left and Right</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="vertical-stretch-compress.html" class="internal"><span class="codenumber">9.4</span> <span class="title">How to Stretch and Shrink Functions Vertically</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="horizontal-stretch-shrink.html" class="internal"><span class="codenumber">9.5</span> <span class="title">How to Stretch and Shrink Functions Horizontally</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="vertical-reflection.html" class="internal"><span class="codenumber">9.6</span> <span class="title">How to Reflect Functions Vertically</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="horizontal-reflections.html" class="internal"><span class="codenumber">9.7</span> <span class="title">How to Reflect Functions Horizontally</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphing-multiple-transformations.html" class="internal"><span class="codenumber">9.8</span> <span class="title">Graphing Multiple Transformations at Once</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="piecewise-defined-functions.html" class="internal"><span class="codenumber">9.9</span> <span class="title">Piecewise-Defined Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="arithmetic-operations-functions.html" class="internal"><span class="codenumber">9.10</span> <span class="title">Arithmetic Operations and Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="composition-functions.html" class="internal"><span class="codenumber">9.11</span> <span class="title">The Composition of Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="one-to-one-functions.html" class="internal"><span class="codenumber">9.12</span> <span class="title">One-to-One Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="inverse-functions.html" class="internal"><span class="codenumber">9.13</span> <span class="title">Inverse Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter8.html" class="internal"><span class="codenumber">10</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exponential-functions.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="properties-exponential-functions.html" class="internal"><span class="codenumber">10.2</span> <span class="title">The Properties of Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="the-number-e.html" class="internal"><span class="codenumber">10.3</span> <span class="title">The Number <span class="process-math">\(e\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="logarithmic-functions.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="properties-logarithmic-functions.html" class="internal"><span class="codenumber">10.5</span> <span class="title">The Properties of Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphing-logarithmic-functions.html" class="internal"><span class="codenumber">10.6</span> <span class="title">Graphing Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="cancellation-properties-logarithms.html" class="internal"><span class="codenumber">10.7</span> <span class="title">The Cancellation Properties of Logarithms</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="evaluating-logarithmic-functions.html" class="internal"><span class="codenumber">10.8</span> <span class="title">Evaluating Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-exponential-equations.html" class="internal"><span class="codenumber">10.9</span> <span class="title">Solving Equations Involving Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="laws-logarithms.html" class="internal"><span class="codenumber">10.10</span> <span class="title">The Laws of Logarithms</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-logarithmic-equations.html" class="internal"><span class="codenumber">10.11</span> <span class="title">Solving Equations Involving Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="applications-exponential-logarithmic.html" class="internal"><span class="codenumber">10.12</span> <span class="title">Applications of Exponential and Logarithmic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter9.html" class="internal"><span class="codenumber">11</span> <span class="title">Systems of Equations and Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="systems-of-linear-equations.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Systems of Linear Equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="substitution-method.html" class="internal"><span class="codenumber">11.2</span> <span class="title">The Substitution Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="elimination-method.html" class="internal"><span class="codenumber">11.3</span> <span class="title">The Elimination Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="matrix-method.html" class="internal"><span class="codenumber">11.4</span> <span class="title">The Matrix Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="systems-of-inequalities.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Graphing the Solution Set to a System of Inequalities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-non-linear-systems.html" class="internal"><span class="codenumber">11.6</span> <span class="title">Solving Nonlinear Systems of Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter10.html" class="internal"><span class="codenumber">12</span> <span class="title">The Binomial Theorem</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="binomial-coefficients.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Binomial Coefficients</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="pascals-triangle.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Pascal’s Triangle</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="binomial-theorem.html" class="internal"><span class="codenumber">12.3</span> <span class="title">The Binomial Theorem</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="trigonometry.html" class="internal"><span class="codenumber">IV</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="trigonometry-chapter1.html" class="internal"><span class="codenumber">13</span> <span class="title">Chapter 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-chapter1-review.html" class="internal"><span class="codenumber">13.1</span> <span class="title">Exam 1 Review</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="calculus-1.html" class="internal"><span class="codenumber">V</span> <span class="title">Calculus 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="calculus-1-chapter1.html" class="internal"><span class="codenumber">14</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="calculus-2.html" class="internal"><span class="codenumber">VI</span> <span class="title">Calculus 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="calculus-2-chapter1.html" class="internal"><span class="codenumber">15</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="calculus-3.html" class="internal"><span class="codenumber">VII</span> <span class="title">Calculus 3</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="calculus-3-chapter1.html" class="internal"><span class="codenumber">16</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="introductory-statistics.html" class="internal"><span class="codenumber">VIII</span> <span class="title">Introductory Statistics</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="statistics-chapter1.html" class="internal"><span class="codenumber">17</span> <span class="title">Populations and their Samples</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-data-thought-process.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Data and the Thought Process of Statistics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-thought-process.html#stats-ch1-data-and-statistics" class="internal"><span class="codenumber">17.1.1</span> <span class="title">Data and Statistics</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-population-sample.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Samples and Their Populations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-population-sample.html#stats-ch1-populations" class="internal"><span class="codenumber">17.2.1</span> <span class="title">Populations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-population-sample.html#stats-ch1-populations-versus-samples" class="internal"><span class="codenumber">17.2.2</span> <span class="title">Populations Versus Samples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-population-sample.html#stats-ch1-population-sample-conclusion" class="internal"><span class="codenumber">17.2.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html" class="internal"><span class="codenumber">17.3</span> <span class="title">Parameters and Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html#stats-ch1-parameters-and-statistics" class="internal"><span class="codenumber">17.3.1</span> <span class="title">Parameters and Statistics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html#stats-ch1-parameter-vs-statistic" class="internal"><span class="codenumber">17.3.2</span> <span class="title">Telling the Difference Between a Parameter and a Statistic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html#stats-ch1-parameter-statistics-conclusion" class="internal"><span class="codenumber">17.3.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html" class="internal"><span class="codenumber">17.4</span> <span class="title">Data Collection and Bias</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-data-collection-methods" class="internal"><span class="codenumber">17.4.1</span> <span class="title">Data Collection Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-well-designed-study" class="internal"><span class="codenumber">17.4.2</span> <span class="title">Elements of a Well-Designed Study</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-common-bias" class="internal"><span class="codenumber">17.4.3</span> <span class="title">Common Sources of Bias in Statistical Study</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-data-collection-conclusion" class="internal"><span class="codenumber">17.4.4</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-levels-measurement.html" class="internal"><span class="codenumber">17.5</span> <span class="title">Types of Data and Levels of Measurement</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-levels-measurement.html#stats-ch1-data-classification" class="internal"><span class="codenumber">17.5.1</span> <span class="title">Data Classification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-levels-measurement.html#stats-ch1-levels-measurement-levels" class="internal"><span class="codenumber">17.5.2</span> <span class="title">Levels of Measurement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-levels-measurement.html#stats-ch1-levels-measurement-conclusion" class="internal"><span class="codenumber">17.5.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-sampling-methods.html" class="internal"><span class="codenumber">17.6</span> <span class="title">Sampling Techniques and Errors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-sampling-methods.html#stats-ch1-sampling-techniques" class="internal"><span class="codenumber">17.6.1</span> <span class="title">Sampling Techniques</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-sampling-methods.html#stats-ch1-sampling-errors" class="internal"><span class="codenumber">17.6.2</span> <span class="title">Sampling Errors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-sampling-methods.html#stats-ch1-sampling-conclusion" class="internal"><span class="codenumber">17.6.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-experimental-design.html" class="internal"><span class="codenumber">17.7</span> <span class="title">Experimental Design</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-experimental-design.html#stats-ch1-types-designs" class="internal"><span class="codenumber">17.7.1</span> <span class="title">Types of Designs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-experimental-design.html#stats-ch1-experimental-conclusion" class="internal"><span class="codenumber">17.7.2</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="statistics-chapter2.html" class="internal"><span class="codenumber">18</span> <span class="title">Organizing Data Visually</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-frequency-distribution.html" class="internal"><span class="codenumber">18.1</span> <span class="title">How to Create Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-distribution.html#stats-ch2-basics-frequency" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Basics of Frequency Distributions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-relative-frequency.html" class="internal"><span class="codenumber">18.2</span> <span class="title">How to Create Relative Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-relative-frequency.html#stats-ch2-relative-frequency-distributions" class="internal"><span class="codenumber">18.2.1</span> <span class="title">Relative Frequency Distributions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-cumulative-frequency.html" class="internal"><span class="codenumber">18.3</span> <span class="title">How to Compute Cumulative Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-cumulative-frequency.html#stats-ch2-cumulative-frequency-basics" class="internal"><span class="codenumber">18.3.1</span> <span class="title">Cumulative Frequency</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-cumulative-frequency.html#stats-ch2-relative-cumulative-frequency" class="internal"><span class="codenumber">18.3.2</span> <span class="title">Relative Cumulative Frequency</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html" class="internal"><span class="codenumber">18.4</span> <span class="title">How to Create Frequency Histograms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-frequency-histograms-basics" class="internal"><span class="codenumber">18.4.1</span> <span class="title">Frequency Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-relative-frequency-histograms" class="internal"><span class="codenumber">18.4.2</span> <span class="title">Relative Frequency Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-cumulative-frequency-histograms" class="internal"><span class="codenumber">18.4.3</span> <span class="title">Cumulative Frequency Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-cumulative-relative-frequency-histograms" class="internal"><span class="codenumber">18.4.4</span> <span class="title">Cumulative Relative Frequency Histograms</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-shapes-distributions.html" class="internal"><span class="codenumber">18.5</span> <span class="title">Shapes of Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-shapes-distributions.html#stats-ch2-peak-and-tails" class="internal"><span class="codenumber">18.5.1</span> <span class="title">The Peak and Tails</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-shapes-distributions.html#stats-ch2-shapes-of-distributions" class="internal"><span class="codenumber">18.5.2</span> <span class="title">Shapes of Distributions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html" class="internal"><span class="codenumber">18.6</span> <span class="title">How to Construct Stem-and-Leaf Plots</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-stem-leaf-basics" class="internal"><span class="codenumber">18.6.1</span> <span class="title">Stem-and-Leaf Plots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-split-stems" class="internal"><span class="codenumber">18.6.2</span> <span class="title">Split Stems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-back-to-back" class="internal"><span class="codenumber">18.6.3</span> <span class="title">Back-to-Back Plots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-stem-leaf-conclusion" class="internal"><span class="codenumber">18.6.4</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-dot-plots.html" class="internal"><span class="codenumber">18.7</span> <span class="title">How to Construct Dot Plots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-dot-plots.html#stats-ch2-dot-plots-basics" class="internal"><span class="codenumber">18.7.1</span> <span class="title">Dot Plots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-dot-plots.html#stats-ch2-interpreting-dot-plots" class="internal"><span class="codenumber">18.7.2</span> <span class="title">Interpreting Dot Plots</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-time-series.html" class="internal"><span class="codenumber">18.8</span> <span class="title">How to Construct Time Series Plots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-time-series.html#stats-ch2-time-series-basics" class="internal"><span class="codenumber">18.8.1</span> <span class="title">Time Series Plots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-bar-graphs.html" class="internal"><span class="codenumber">18.9</span> <span class="title">How to Construct Bar Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-bar-graphs.html#stats-ch2-bar-graphs-basics" class="internal"><span class="codenumber">18.9.1</span> <span class="title">Bar Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-bar-graphs.html#stats-ch2-pareto-graphs" class="internal"><span class="codenumber">18.9.2</span> <span class="title">Pareto Graphs</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-pie-charts.html" class="internal"><span class="codenumber">18.10</span> <span class="title">How to Create Pie Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-pie-charts.html#stats-ch2-pie-conditions" class="internal"><span class="codenumber">18.10.1</span> <span class="title">Conditions for Using a Pie Graph</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-pie-charts.html#stats-ch2-constructing-pie-graphs" class="internal"><span class="codenumber">18.10.2</span> <span class="title">Constructing Pie Graphs</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="statistics-chapter3.html" class="internal"><span class="codenumber">19</span> <span class="title">Numerical Summaries of Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics-mean.html" class="internal"><span class="codenumber">19.1</span> <span class="title">How to Calculate the Mean of a Data Set</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics-mean.html#statistics-definition-mean" class="internal"><span class="codenumber">19.1.1</span> <span class="title">Definition of the Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics-mean.html#statistics-mean-interpretation" class="internal"><span class="codenumber">19.1.2</span> <span class="title">Interpreting the Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics-mean.html#statistics-mean-calculation-technology" class="internal"><span class="codenumber">19.1.3</span> <span class="title">Calculating the Mean with Technology</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-median.html" class="internal"><span class="codenumber">19.2</span> <span class="title">How to Calculate the Median of a Data Set</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-mode.html" class="internal"><span class="codenumber">19.3</span> <span class="title">How to Calculate the Mode of a Dataset</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-central-tendency-distributions.html" class="internal"><span class="codenumber">19.4</span> <span class="title">How Skewness Affects the Mean, Median, and Mode of a Dataset</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-weighted-mean.html" class="internal"><span class="codenumber">19.5</span> <span class="title">How to Calculate a Weighted Mean</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-mean-not-enough.html" class="internal"><span class="codenumber">19.6</span> <span class="title">Is the Mean Enough to Describe a Dataset?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-range.html" class="internal"><span class="codenumber">19.7</span> <span class="title">Understanding the Range of a Data Set</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-deviations.html" class="internal"><span class="codenumber">19.8</span> <span class="title">How to Calculate the Deviations of a Dataset</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-standard-deviation.html" class="internal"><span class="codenumber">19.9</span> <span class="title">Understanding Standard Deviation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-outliers-normal-distribution.html" class="internal"><span class="codenumber">19.10</span> <span class="title">How to Find Outliers for Normal Distributions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-empirical-rule.html" class="internal"><span class="codenumber">19.11</span> <span class="title">What is the Empirical Rule?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-chebyshev.html" class="internal"><span class="codenumber">19.12</span> <span class="title">Chebyshev’s Inequality</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-percentile.html" class="internal"><span class="codenumber">19.13</span> <span class="title">How to Calculate a Percentile</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-z-score.html" class="internal"><span class="codenumber">19.14</span> <span class="title">How to Calculate a <span class="process-math">\(z\)</span>-score</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-five-number-summary.html" class="internal"><span class="codenumber">19.15</span> <span class="title">How to Calculate the Five-Number Summary</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-iqr-rule.html" class="internal"><span class="codenumber">19.16</span> <span class="title">How to Find Outliers for Skewed Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-boxplot.html" class="internal"><span class="codenumber">19.17</span> <span class="title">How to Create a Boxplot</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="finite-mathematics.html" class="internal"><span class="codenumber">IX</span> <span class="title">Finite Mathematics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="finite-mathematics-chapter1.html" class="internal"><span class="codenumber">20</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-a.html" class="internal"><span class="codenumber">A</span> <span class="title">Appendix A: Review of Arithmetic Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-b.html" class="internal"><span class="codenumber">B</span> <span class="title">Appendix B: Intermediate Algebra Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-c.html" class="internal"><span class="codenumber">C</span> <span class="title">Appendix C: College Algebra Lecture Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="worksheet-quadratic-equations.html" class="internal"><span class="codenumber">C.1</span> <span class="title">Quadratic Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-complex-numbers.html" class="internal"><span class="codenumber">C.2</span> <span class="title">Complex Numbers</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lecture-notes-worksheet-quadratic-formula.html" class="internal"><span class="codenumber">C.3</span> <span class="title">Using the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="worksheet-quadratic-functions.html" class="internal"><span class="codenumber">C.4</span> <span class="title">Quadratic Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-properties-polynomials.html" class="internal"><span class="codenumber">C.5</span> <span class="title">Properties of Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-factor-theorem.html" class="internal"><span class="codenumber">C.6</span> <span class="title">Graphing and Factor Theorem Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-fundamental-theorem-of-algebra.html" class="internal"><span class="codenumber">C.7</span> <span class="title">The Fundamental Theorem of Algebra</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="worksheet-graphing-rational-function.html" class="internal"><span class="codenumber">C.8</span> <span class="title">Rational Functions and their Properties</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-inverse-functions.html" class="internal"><span class="codenumber">C.9</span> <span class="title">Inverse Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-exponential-logarithmic-functions.html" class="internal"><span class="codenumber">C.10</span> <span class="title">Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-logarithmic-laws.html" class="internal"><span class="codenumber">C.11</span> <span class="title">Properties of Logarithms</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-logarithmic-equations-applications.html" class="internal"><span class="codenumber">C.12</span> <span class="title">Solving Equations and Applications Using Logarithms</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-d.html" class="internal"><span class="codenumber">D</span> <span class="title">Appendix D: Trigonometry Lecture Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-radian-measure.html" class="internal"><span class="codenumber">D.1</span> <span class="title">Angles and Radian Measure</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-right-triangle-trigonometry.html" class="internal"><span class="codenumber">D.2</span> <span class="title">Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-trig-functions-any-angle.html" class="internal"><span class="codenumber">D.3</span> <span class="title">Trigonometric Functions of Any Angle</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-unit-circle.html" class="internal"><span class="codenumber">D.4</span> <span class="title">The Unit Circle</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-sine-cosine-graphs.html" class="internal"><span class="codenumber">D.5</span> <span class="title">Graphs of Sine and Cosine</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-other-four-graphs.html" class="internal"><span class="codenumber">D.6</span> <span class="title">Graphs of Tangent, Cotangent, Secant, Cosecant</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-e.html" class="internal"><span class="codenumber">E</span> <span class="title">Appendix E: Calculus 1 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-f.html" class="internal"><span class="codenumber">F</span> <span class="title">Appendix F: Calculus 2 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-g.html" class="internal"><span class="codenumber">G</span> <span class="title">Appendix G: Calculus 3 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-h.html" class="internal"><span class="codenumber">H</span> <span class="title">Appendix H: Statistics Lecture Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="appendix-statistics-chapter-1.html" class="internal"><span class="codenumber">H.1</span> <span class="title">Chapter 1 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="appendix-statistics-chapter-2.html" class="internal"><span class="codenumber">H.2</span> <span class="title">Chapter 2 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="appendix-statistics-chapter-3.html" class="internal"><span class="codenumber">H.3</span> <span class="title">Chapter 3 Lecture Notes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-i.html" class="internal"><span class="codenumber">I</span> <span class="title">Appendix I: GeoGebra Tools for Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-summary-statistics-calculator.html" class="internal"><span class="codenumber">I.1</span> <span class="title">Summary Statistics Calculator</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-empirical-rule-tool.html" class="internal"><span class="codenumber">I.2</span> <span class="title">Empirical Rule Tool</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-11.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="stats-ch2-stem-leaf-plot"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">How to Construct Stem-and-Leaf Plots</span>
+</h2>
+<section class="introduction" id="stats-ch2-stem-leaf-plot-2"><div class="para" id="stats-ch2-stem-leaf-plot-2-1">Stem-and-leaf plots are a simple, effective way to organize and visualize numerical data. They reveal patterns, clusters, and unusually small or large data, making them valuable for understanding distributions. This page covers how to create these plots, handle repeated values, decide on rounding, split stems for clarity, and compare datasets using back-to-back plots. Through examples and explanations, you will learn to master stem-and-leaf plots for various data types.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-plot-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="stats-ch2-stem-leaf-basics"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Stem-and-Leaf Plots</span>
+</h3>
+<article class="definition definition-like" id="stats-ch2-def-stem-leaf"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">What is a Stem-and-Leaf Plot?</span>
+</h4>
+<div class="para" id="stats-ch2-def-stem-leaf-2-1">A <dfn class="terminology">stem-and-leaf plot</dfn> is a way to organize rounded numerical data by splitting each value into a stem (the leading digit(s), such as tens) and a leaf (the trailing digit(s), based on the chosen rounding level). For example, if the dataset includes <span class="process-math">\(32\text{,}\)</span> <span class="process-math">\(35\text{,}\)</span> and <span class="process-math">\(41\text{,}\)</span> rounded to the nearest one, the plot would look like:<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-stem-leaf-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="stats-ch2-def-stem-leaf-2-2">
+<div class="displaymath process-math" id="stats-ch2-def-stem-leaf-2-2-1">
+\begin{equation*}
+3\mid 2\;5\quad 4\mid 1
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-stem-leaf-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-stem-leaf-2-3">Here, the stem represents the tens, and the leaf represents the ones. The leaf represents the level of rounding, allowing the plot to effectively display and organize data.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-stem-leaf-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-stem-leaf-2-4">What if I have two or more data point with the same value? If the same value shows up more than once in a dataset, it will get a leaf for each time it appears. If we change our example to <span class="process-math">\(32\text{,}\)</span> <span class="process-math">\(35\text{,}\)</span> <span class="process-math">\(35\text{,}\)</span> <span class="process-math">\(41\text{,}\)</span> the plot would look like<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-stem-leaf-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="stats-ch2-def-stem-leaf-2-5">
+<div class="displaymath process-math" id="stats-ch2-def-stem-leaf-2-5-1">
+\begin{equation*}
+3\mid 2\;5\;5\quad 4\mid 1
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-stem-leaf-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-stem-leaf-2-6">and the two 5’s represent the fact that 35 showed up twice in the data.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-stem-leaf-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 18.6.1: What is a Stem-and-Leaf Plot?"><a href="#stats-ch2-def-stem-leaf" title="Copy heading and permalink for Definition 18.6.1: What is a Stem-and-Leaf Plot?" aria-label="Copy heading and permalink for Definition 18.6.1: What is a Stem-and-Leaf Plot?">🔗</a></div></article><article class="definition definition-like" id="stats-ch2-def-rounding-stem-leaf"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Where should I round my data?</span>
+</h4>
+<div class="para" id="stats-ch2-def-rounding-stem-leaf-2-1">There is a bit of an art to deciding how to create a stem-and-leaf plot. The best stems are those that appear frequently in your data and group it meaningfully.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-rounding-stem-leaf-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-rounding-stem-leaf-2-2">For example, if most of your data falls between 300 and 340, you are likely to have many numbers in the ranges 300-309, 310-319, 320-329, and 330-339. In this case, 30, 31, 32, and 33 would be good choices for stems, and the ones digit would make a good leaf.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-rounding-stem-leaf-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-rounding-stem-leaf-2-3">On the other hand, if most of your data ranges from 500 to 900, you will likely see many numbers in the broader ranges 500-599, 600-699, 700-799, and 800-899. In this case, 5, 6, 7, and 8 would be better choices for stems. By rounding to the nearest 10, the tens digit becomes your leaf.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-rounding-stem-leaf-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-rounding-stem-leaf-2-4">The goal is to create a plot that organizes the data clearly and effectively, without being cluttered or too sparse.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-rounding-stem-leaf-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-rounding-stem-leaf-2-5">Too Clustered<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-rounding-stem-leaf-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="stats-ch2-def-rounding-stem-leaf-2-6"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/clumpedstems.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The stems are all in a single row.<div class="autopermalink" data-description="Figure 18.6.3"><a href="#stats-ch2-def-rounding-stem-leaf-2-6" title="Copy heading and permalink for Figure 18.6.3" aria-label="Copy heading and permalink for Figure 18.6.3">🔗</a></div></figcaption></figure> <div class="para" id="stats-ch2-def-rounding-stem-leaf-2-7">Good Balance of Leaves<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-rounding-stem-leaf-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="stats-ch2-def-rounding-stem-leaf-2-8"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/statistics/goodstems.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>There are five stems and there are no lines without any leaves.<div class="autopermalink" data-description="Figure 18.6.4"><a href="#stats-ch2-def-rounding-stem-leaf-2-8" title="Copy heading and permalink for Figure 18.6.4" aria-label="Copy heading and permalink for Figure 18.6.4">🔗</a></div></figcaption></figure> <div class="para" id="stats-ch2-def-rounding-stem-leaf-2-9">Too Spread Out<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-rounding-stem-leaf-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="stats-ch2-def-rounding-stem-leaf-2-10"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/statistics/spreadstems.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Many stems have no leaves. While some gaps are okay, if most stems are empty, your data is too spread out.<div class="autopermalink" data-description="Figure 18.6.5"><a href="#stats-ch2-def-rounding-stem-leaf-2-10" title="Copy heading and permalink for Figure 18.6.5" aria-label="Copy heading and permalink for Figure 18.6.5">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Definition 18.6.2: Where should I round my data?"><a href="#stats-ch2-def-rounding-stem-leaf" title="Copy heading and permalink for Definition 18.6.2: Where should I round my data?" aria-label="Copy heading and permalink for Definition 18.6.2: Where should I round my data?">🔗</a></div></article><article class="example example-like" id="stats-ch2-stem-leaf-example-1"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example 1.</span>
+</h4>
+<div class="para" id="stats-ch2-stem-leaf-example-1-2-1">The following dataset represents the monthly average rainfall (in mm) for a Midwestern town from 2018 to 2022. Construct a stem-and-leaf plot for the data, and describe the shape of the distribution.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="stats-ch2-stem-leaf-example-1-2-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Monthly Rainfall (2018-2022)<div class="autopermalink" data-description="Table 18.6.7: Monthly Rainfall (2018-2022)"><a href="#stats-ch2-stem-leaf-example-1-2-2" title="Copy heading and permalink for Table 18.6.7: Monthly Rainfall (2018-2022)" aria-label="Copy heading and permalink for Table 18.6.7: Monthly Rainfall (2018-2022)">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines">Month (2018)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Rainfall (mm)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Month (2019)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Rainfall (mm)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Month (2020)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Rainfall (mm)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Month (2021)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Rainfall (mm)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Month (2022)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Rainfall (mm)</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">January</td>
+<td class="l m b0 r0 l0 t0 lines">32</td>
+<td class="l m b0 r0 l0 t0 lines">January</td>
+<td class="l m b0 r0 l0 t0 lines">36</td>
+<td class="l m b0 r0 l0 t0 lines">January</td>
+<td class="l m b0 r0 l0 t0 lines">31</td>
+<td class="l m b0 r0 l0 t0 lines">January</td>
+<td class="l m b0 r0 l0 t0 lines">34</td>
+<td class="l m b0 r0 l0 t0 lines">January</td>
+<td class="l m b0 r0 l0 t0 lines">33</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">February</td>
+<td class="l m b0 r0 l0 t0 lines">46</td>
+<td class="l m b0 r0 l0 t0 lines">February</td>
+<td class="l m b0 r0 l0 t0 lines">44</td>
+<td class="l m b0 r0 l0 t0 lines">February</td>
+<td class="l m b0 r0 l0 t0 lines">47</td>
+<td class="l m b0 r0 l0 t0 lines">February</td>
+<td class="l m b0 r0 l0 t0 lines">48</td>
+<td class="l m b0 r0 l0 t0 lines">February</td>
+<td class="l m b0 r0 l0 t0 lines">45</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">March</td>
+<td class="l m b0 r0 l0 t0 lines">53</td>
+<td class="l m b0 r0 l0 t0 lines">March</td>
+<td class="l m b0 r0 l0 t0 lines">50</td>
+<td class="l m b0 r0 l0 t0 lines">March</td>
+<td class="l m b0 r0 l0 t0 lines">54</td>
+<td class="l m b0 r0 l0 t0 lines">March</td>
+<td class="l m b0 r0 l0 t0 lines">52</td>
+<td class="l m b0 r0 l0 t0 lines">March</td>
+<td class="l m b0 r0 l0 t0 lines">51</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">April</td>
+<td class="l m b0 r0 l0 t0 lines">67</td>
+<td class="l m b0 r0 l0 t0 lines">April</td>
+<td class="l m b0 r0 l0 t0 lines">69</td>
+<td class="l m b0 r0 l0 t0 lines">April</td>
+<td class="l m b0 r0 l0 t0 lines">65</td>
+<td class="l m b0 r0 l0 t0 lines">April</td>
+<td class="l m b0 r0 l0 t0 lines">68</td>
+<td class="l m b0 r0 l0 t0 lines">April</td>
+<td class="l m b0 r0 l0 t0 lines">70</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">May</td>
+<td class="l m b0 r0 l0 t0 lines">41</td>
+<td class="l m b0 r0 l0 t0 lines">May</td>
+<td class="l m b0 r0 l0 t0 lines">45</td>
+<td class="l m b0 r0 l0 t0 lines">May</td>
+<td class="l m b0 r0 l0 t0 lines">43</td>
+<td class="l m b0 r0 l0 t0 lines">May</td>
+<td class="l m b0 r0 l0 t0 lines">42</td>
+<td class="l m b0 r0 l0 t0 lines">May</td>
+<td class="l m b0 r0 l0 t0 lines">40</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">June</td>
+<td class="l m b0 r0 l0 t0 lines">78</td>
+<td class="l m b0 r0 l0 t0 lines">June</td>
+<td class="l m b0 r0 l0 t0 lines">80</td>
+<td class="l m b0 r0 l0 t0 lines">June</td>
+<td class="l m b0 r0 l0 t0 lines">74</td>
+<td class="l m b0 r0 l0 t0 lines">June</td>
+<td class="l m b0 r0 l0 t0 lines">79</td>
+<td class="l m b0 r0 l0 t0 lines">June</td>
+<td class="l m b0 r0 l0 t0 lines">77</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">July</td>
+<td class="l m b0 r0 l0 t0 lines">35</td>
+<td class="l m b0 r0 l0 t0 lines">July</td>
+<td class="l m b0 r0 l0 t0 lines">38</td>
+<td class="l m b0 r0 l0 t0 lines">July</td>
+<td class="l m b0 r0 l0 t0 lines">37</td>
+<td class="l m b0 r0 l0 t0 lines">July</td>
+<td class="l m b0 r0 l0 t0 lines">36</td>
+<td class="l m b0 r0 l0 t0 lines">July</td>
+<td class="l m b0 r0 l0 t0 lines">34</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">August</td>
+<td class="l m b0 r0 l0 t0 lines">64</td>
+<td class="l m b0 r0 l0 t0 lines">August</td>
+<td class="l m b0 r0 l0 t0 lines">63</td>
+<td class="l m b0 r0 l0 t0 lines">August</td>
+<td class="l m b0 r0 l0 t0 lines">66</td>
+<td class="l m b0 r0 l0 t0 lines">August</td>
+<td class="l m b0 r0 l0 t0 lines">62</td>
+<td class="l m b0 r0 l0 t0 lines">August</td>
+<td class="l m b0 r0 l0 t0 lines">65</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">September</td>
+<td class="l m b0 r0 l0 t0 lines">52</td>
+<td class="l m b0 r0 l0 t0 lines">September</td>
+<td class="l m b0 r0 l0 t0 lines">55</td>
+<td class="l m b0 r0 l0 t0 lines">September</td>
+<td class="l m b0 r0 l0 t0 lines">50</td>
+<td class="l m b0 r0 l0 t0 lines">September</td>
+<td class="l m b0 r0 l0 t0 lines">53</td>
+<td class="l m b0 r0 l0 t0 lines">September</td>
+<td class="l m b0 r0 l0 t0 lines">54</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">October</td>
+<td class="l m b0 r0 l0 t0 lines">90</td>
+<td class="l m b0 r0 l0 t0 lines">October</td>
+<td class="l m b0 r0 l0 t0 lines">87</td>
+<td class="l m b0 r0 l0 t0 lines">October</td>
+<td class="l m b0 r0 l0 t0 lines">88</td>
+<td class="l m b0 r0 l0 t0 lines">October</td>
+<td class="l m b0 r0 l0 t0 lines">89</td>
+<td class="l m b0 r0 l0 t0 lines">October</td>
+<td class="l m b0 r0 l0 t0 lines">91</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">November</td>
+<td class="l m b0 r0 l0 t0 lines">48</td>
+<td class="l m b0 r0 l0 t0 lines">November</td>
+<td class="l m b0 r0 l0 t0 lines">50</td>
+<td class="l m b0 r0 l0 t0 lines">November</td>
+<td class="l m b0 r0 l0 t0 lines">49</td>
+<td class="l m b0 r0 l0 t0 lines">November</td>
+<td class="l m b0 r0 l0 t0 lines">47</td>
+<td class="l m b0 r0 l0 t0 lines">November</td>
+<td class="l m b0 r0 l0 t0 lines">46</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">December</td>
+<td class="l m b0 r0 l0 t0 lines">73</td>
+<td class="l m b0 r0 l0 t0 lines">December</td>
+<td class="l m b0 r0 l0 t0 lines">76</td>
+<td class="l m b0 r0 l0 t0 lines">December</td>
+<td class="l m b0 r0 l0 t0 lines">72</td>
+<td class="l m b0 r0 l0 t0 lines">December</td>
+<td class="l m b0 r0 l0 t0 lines">75</td>
+<td class="l m b0 r0 l0 t0 lines">December</td>
+<td class="l m b0 r0 l0 t0 lines">74</td>
+</tr>
+</table></div></figure><div class="solutions"><details id="stats-ch2-stem-leaf-example-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="stats-ch2-stem-leaf-example-1-3-1">To keep the <a class="external" href="https://www.geogebra.org/m/payaagsb" target="_blank">Stem-and-Leaf Plot Generator</a> running smoothly, it is important to determine the stems and leaves before starting. Since our data ranges from 31 to 91, the most logical choice is to use the tens digit as the stem and the ones digit as the leaf. Set the tool’s rounding to 1.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-1-3-2"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/stem_example1_a.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The rounding is set to the ones digit.<div class="autopermalink" data-description="Figure 18.6.8"><a href="#stats-ch2-stem-leaf-example-1-3-2" title="Copy heading and permalink for Figure 18.6.8" aria-label="Copy heading and permalink for Figure 18.6.8">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-stem-leaf-example-1-3-3">Copy the dataset to your clipboard, and load it into the Stem-and-Leaf Plot Generator, which will automatically create the plot for you.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-1-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-1-3-4"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/stem_example1_b.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The stem and leaf plot is automatically created in the tool.<div class="autopermalink" data-description="Figure 18.6.9"><a href="#stats-ch2-stem-leaf-example-1-3-4" title="Copy heading and permalink for Figure 18.6.9" aria-label="Copy heading and permalink for Figure 18.6.9">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-stem-leaf-example-1-3-5">The stem-and-leaf plot reveals the shape of the data distribution. Like a histogram, the lengths of the stems show the data’s shape. By rotating the plot <span class="process-math">\(90^\circ\)</span> counterclockwise, you can visualize the distribution over the tops of the bars. In this case, the plot shows a normal distribution.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-1-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-1-3-6"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/statistics/stem_example1_c.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The stem-and-leaf plot has a normal distribution.<div class="autopermalink" data-description="Figure 18.6.10"><a href="#stats-ch2-stem-leaf-example-1-3-6" title="Copy heading and permalink for Figure 18.6.10" aria-label="Copy heading and permalink for Figure 18.6.10">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 18.6.6.1"><a href="#stats-ch2-stem-leaf-example-1-3" title="Copy heading and permalink for Solution 18.6.6.1" aria-label="Copy heading and permalink for Solution 18.6.6.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 18.6.6: Example 1"><a href="#stats-ch2-stem-leaf-example-1" title="Copy heading and permalink for Example 18.6.6: Example 1" aria-label="Copy heading and permalink for Example 18.6.6: Example 1">🔗</a></div></article><div class="autopermalink" data-description="Subsection 18.6.1: Stem-and-Leaf Plots"><a href="#stats-ch2-stem-leaf-basics" title="Copy heading and permalink for Subsection 18.6.1: Stem-and-Leaf Plots" aria-label="Copy heading and permalink for Subsection 18.6.1: Stem-and-Leaf Plots">🔗</a></div></section><section class="subsection" id="stats-ch2-split-stems"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Split Stems</span>
+</h3>
+<article class="definition definition-like" id="stats-ch2-def-split-stems"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">What does it mean to split a stem?</span>
+</h4>
+<div class="para" id="stats-ch2-def-split-stems-2-1">To split stems in a stem-and-leaf plot means dividing each stem into smaller groups to spread out the data and make the plot easier to interpret. This is useful when a single stem contains too many leaves, resulting in a cluttered display. Splitting the stem divides it into two rows. The first row contains numbers where the rounded digit is between <span class="process-math">\(0\)</span> and <span class="process-math">\(4\text{,}\)</span> and the second row includes numbers where the rounded digit is between <span class="process-math">\(5\)</span> and <span class="process-math">\(9\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-split-stems-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="stats-ch2-def-split-stems-2-2">
+<div class="para">For example, if the dataset includes <span class="process-math">\(32, 34, 35, 36, 37, 38, 39\text{,}\)</span> a traditional plot would use <span class="process-math">\(3\)</span> as the stem with all leaves grouped together:</div>
+<div class="displaymath process-math" id="stats-ch2-def-split-stems-2-2-3">
+\begin{equation*}
+3\mid 2\;4\;5\;6\;7\;8\;9
+\end{equation*}
+</div>
+<div class="para">The split plot would look like this:</div>
+<div class="displaymath process-math" id="stats-ch2-def-split-stems-2-2-4">
+\begin{equation*}
+3\mid 2\;4\quad 3\mid 5\;6\;7\;8\;9
+\end{equation*}
+</div>
+<div class="para">In this example, <span class="process-math">\(32\)</span> and <span class="process-math">\(34\)</span> are placed in the first row because their ones digits are <span class="process-math">\(2\)</span> and <span class="process-math">\(4\text{.}\)</span> Numbers <span class="process-math">\(35, 36, 37, 38, 39\)</span> are placed in the second row because their ones digits are <span class="process-math">\(5, 6, 7, 8, 9\text{.}\)</span> This method provides a clearer view of the data’s distribution by reducing overcrowding.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-split-stems-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 18.6.11: What does it mean to split a stem?"><a href="#stats-ch2-def-split-stems" title="Copy heading and permalink for Definition 18.6.11: What does it mean to split a stem?" aria-label="Copy heading and permalink for Definition 18.6.11: What does it mean to split a stem?">🔗</a></div></article><article class="definition definition-like" id="stats-ch2-def-when-split-stems"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">When should I split my stems?</span>
+</h4>
+<div class="para" id="stats-ch2-def-when-split-stems-2-1">You should split stems in a stem-and-leaf plot when...<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-when-split-stems-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="stats-ch2-def-when-split-stems-2-2">
+<ul class="disc" id="stats-ch2-def-when-split-stems-2-2-1">
+<li id="stats-ch2-def-when-split-stems-2-2-1-1">
+<div class="para" id="p-derived-stats-ch2-def-when-split-stems-2-2-1-1">a single stem has too many leaves, making the plot crowded and difficult to read.</div>
+<div class="autopermalink" data-description="Item"><a href="#stats-ch2-def-when-split-stems-2-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="stats-ch2-def-when-split-stems-2-2-1-2">
+<div class="para" id="p-derived-stats-ch2-def-when-split-stems-2-2-1-2">precision matters, such as with decimal data or closely spaced values.</div>
+<div class="autopermalink" data-description="Item"><a href="#stats-ch2-def-when-split-stems-2-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="stats-ch2-def-when-split-stems-2-2-1-3">
+<div class="para" id="p-derived-stats-ch2-def-when-split-stems-2-2-1-3">one stem has significantly more leaves than others.</div>
+<div class="autopermalink" data-description="Item"><a href="#stats-ch2-def-when-split-stems-2-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-when-split-stems-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-when-split-stems-2-3">Whenever the plot feels cluttered or unbalanced, splitting stems is an effective way to make it clearer and more meaningful.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-when-split-stems-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 18.6.12: When should I split my stems?"><a href="#stats-ch2-def-when-split-stems" title="Copy heading and permalink for Definition 18.6.12: When should I split my stems?" aria-label="Copy heading and permalink for Definition 18.6.12: When should I split my stems?">🔗</a></div></article><article class="example example-like" id="stats-ch2-stem-leaf-example-2"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example 2.</span>
+</h4>
+<div class="para" id="stats-ch2-stem-leaf-example-2-2-1">The following dataset represents the weights (in kilograms) of items in a shipment. Explain why you should split the stems, and then construct a stem-and-leaf plot with split stems. Describe the shape of the distribution.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="stats-ch2-stem-leaf-example-2-2-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Weights of Items in Shipment<div class="autopermalink" data-description="Table 18.6.14: Weights of Items in Shipment"><a href="#stats-ch2-stem-leaf-example-2-2-2" title="Copy heading and permalink for Table 18.6.14: Weights of Items in Shipment" aria-label="Copy heading and permalink for Table 18.6.14: Weights of Items in Shipment">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines">Weight (kg)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Weight (kg)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Weight (kg)</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2.34</td>
+<td class="l m b0 r0 l0 t0 lines">2.42</td>
+<td class="l m b0 r0 l0 t0 lines">2.30</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2.48</td>
+<td class="l m b0 r0 l0 t0 lines">2.56</td>
+<td class="l m b0 r0 l0 t0 lines">2.44</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">3.57</td>
+<td class="l m b0 r0 l0 t0 lines">3.63</td>
+<td class="l m b0 r0 l0 t0 lines">3.50</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">3.62</td>
+<td class="l m b0 r0 l0 t0 lines">3.75</td>
+<td class="l m b0 r0 l0 t0 lines">3.60</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">3.94</td>
+<td class="l m b0 r0 l0 t0 lines">3.98</td>
+<td class="l m b0 r0 l0 t0 lines">3.92</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">4.02</td>
+<td class="l m b0 r0 l0 t0 lines">4.18</td>
+<td class="l m b0 r0 l0 t0 lines">4.05</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">4.37</td>
+<td class="l m b0 r0 l0 t0 lines">4.51</td>
+<td class="l m b0 r0 l0 t0 lines">4.40</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">4.89</td>
+<td class="l m b0 r0 l0 t0 lines">4.93</td>
+<td class="l m b0 r0 l0 t0 lines">4.85</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">5.01</td>
+<td class="l m b0 r0 l0 t0 lines">5.08</td>
+<td class="l m b0 r0 l0 t0 lines">5.02</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">5.26</td>
+<td class="l m b0 r0 l0 t0 lines">5.31</td>
+<td class="l m b0 r0 l0 t0 lines">5.25</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">5.74</td>
+<td class="l m b0 r0 l0 t0 lines">5.81</td>
+<td class="l m b0 r0 l0 t0 lines">5.71</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">5.93</td>
+<td class="l m b0 r0 l0 t0 lines">6.02</td>
+<td class="l m b0 r0 l0 t0 lines">5.90</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">6.14</td>
+<td class="l m b0 r0 l0 t0 lines">6.24</td>
+<td class="l m b0 r0 l0 t0 lines">6.11</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">6.68</td>
+<td class="l m b0 r0 l0 t0 lines">6.72</td>
+<td class="l m b0 r0 l0 t0 lines">6.65</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">6.91</td>
+<td class="l m b0 r0 l0 t0 lines">6.95</td>
+<td class="l m b0 r0 l0 t0 lines">6.90</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">7.02</td>
+<td class="l m b0 r0 l0 t0 lines">7.13</td>
+<td class="l m b0 r0 l0 t0 lines">7.03</td>
+</tr>
+</table></div></figure><div class="solutions"><details id="stats-ch2-stem-leaf-example-2-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="stats-ch2-stem-leaf-example-2-3-1">To keep the <a class="external" href="https://www.geogebra.org/m/payaagsb" target="_blank">Stem-and-Leaf Plot Generator</a> running smoothly, it is important to determine the stems and leaves before starting. Since our data ranges from about 2.3 to 7.1, the most logical choice is to use the ones digit as the stem and the first decimal place as the leaf. Set the tool’s rounding to 0.01.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-2-3-2"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/stem_example2_a.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The rounding set to 0.1.<div class="autopermalink" data-description="Figure 18.6.15"><a href="#stats-ch2-stem-leaf-example-2-3-2" title="Copy heading and permalink for Figure 18.6.15" aria-label="Copy heading and permalink for Figure 18.6.15">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-stem-leaf-example-2-3-3">Copy the dataset to your clipboard, and load it into the Stem-and-Leaf Plot Generator, which will automatically create the basic plot for you.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-2-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-2-3-4"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/stem_example2_b.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The tool automatically generates a basic stem plot rounded to the nearest 0.1.<div class="autopermalink" data-description="Figure 18.6.16"><a href="#stats-ch2-stem-leaf-example-2-3-4" title="Copy heading and permalink for Figure 18.6.16" aria-label="Copy heading and permalink for Figure 18.6.16">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-stem-leaf-example-2-3-5">Click on the Split Stems checkbox to expand the stem-and-leaf plot.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-2-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-2-3-6"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/stem_example2_c.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The stems are now split.<div class="autopermalink" data-description="Figure 18.6.17"><a href="#stats-ch2-stem-leaf-example-2-3-6" title="Copy heading and permalink for Figure 18.6.17" aria-label="Copy heading and permalink for Figure 18.6.17">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-stem-leaf-example-2-3-7">By rotating the plot <span class="process-math">\(90^\circ\)</span> counterclockwise, you can visualize the distribution over the tops of the bars. In this case, the plot shows a skew-right distribution.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-2-3-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-2-3-8"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/statistics/stem_example2_d.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The distribution of the weights is skewed right.<div class="autopermalink" data-description="Figure 18.6.18"><a href="#stats-ch2-stem-leaf-example-2-3-8" title="Copy heading and permalink for Figure 18.6.18" aria-label="Copy heading and permalink for Figure 18.6.18">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 18.6.13.1"><a href="#stats-ch2-stem-leaf-example-2-3" title="Copy heading and permalink for Solution 18.6.13.1" aria-label="Copy heading and permalink for Solution 18.6.13.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 18.6.13: Example 2"><a href="#stats-ch2-stem-leaf-example-2" title="Copy heading and permalink for Example 18.6.13: Example 2" aria-label="Copy heading and permalink for Example 18.6.13: Example 2">🔗</a></div></article><div class="autopermalink" data-description="Subsection 18.6.2: Split Stems"><a href="#stats-ch2-split-stems" title="Copy heading and permalink for Subsection 18.6.2: Split Stems" aria-label="Copy heading and permalink for Subsection 18.6.2: Split Stems">🔗</a></div></section><section class="subsection" id="stats-ch2-back-to-back"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Back-to-Back Plots</span>
+</h3>
+<div class="para" id="stats-ch2-back-to-back-2">If we want to compare two sets of data, we can make a back-to-back stem-and-leaf plot. In this setup, the stems will be up the middle. The leaves of the first dataset are to the right of the stems. The leaves of the second dataset appear to the left of the stems, written in reverse order for comparison. Back-to-back stem-and-leaf plots may have split stems.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-back-to-back-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="stats-ch2-back-to-back-3">In the example below, notice how the stems are shared between the datasets, with leaves for one dataset on the right and leaves for the other on the left.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-back-to-back-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-back-to-back-4"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/statistics/btbexample.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.19<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Example of a Back-to-Back Stem Plot.<div class="autopermalink" data-description="Figure 18.6.19"><a href="#stats-ch2-back-to-back-4" title="Copy heading and permalink for Figure 18.6.19" aria-label="Copy heading and permalink for Figure 18.6.19">🔗</a></div></figcaption></figure><article class="example example-like" id="stats-ch2-stem-leaf-example-3"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.20</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example 3.</span>
+</h4>
+<div class="para" id="stats-ch2-stem-leaf-example-3-2-1">The following datasets represent the ages of participants in two different training programs.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="stats-ch2-stem-leaf-example-3-2-2">
+<ul class="disc" id="stats-ch2-stem-leaf-example-3-2-2-1">
+<li id="stats-ch2-stem-leaf-example-3-2-2-1-1">
+<div class="para" id="p-derived-stats-ch2-stem-leaf-example-3-2-2-1-1">Part A: Create a Stem-and-Leaf Plot and compare the shapes of the two distributions.</div>
+<div class="autopermalink" data-description="Item"><a href="#stats-ch2-stem-leaf-example-3-2-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="stats-ch2-stem-leaf-example-3-2-2-1-2">
+<div class="para" id="p-derived-stats-ch2-stem-leaf-example-3-2-2-1-2">Part B: Split the stems and compare the shapes again. Then compare this stem-and-leaf plot to the original one and explain how splitting the stems gives you a more detailed view of the distribution of both datasets.</div>
+<div class="autopermalink" data-description="Item"><a href="#stats-ch2-stem-leaf-example-3-2-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="stats-ch2-stem-leaf-example-3-2-3"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.21<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Ages of Participants in Programs A and B<div class="autopermalink" data-description="Table 18.6.21: Ages of Participants in Programs A and B"><a href="#stats-ch2-stem-leaf-example-3-2-3" title="Copy heading and permalink for Table 18.6.21: Ages of Participants in Programs A and B" aria-label="Copy heading and permalink for Table 18.6.21: Ages of Participants in Programs A and B">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines">Age (Program A)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Age (Program A)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Age (Program B)</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Age (Program B)</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">20.5</td>
+<td class="l m b0 r0 l0 t0 lines">40.1</td>
+<td class="l m b0 r0 l0 t0 lines">22.4</td>
+<td class="l m b0 r0 l0 t0 lines">43.7</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">23.6</td>
+<td class="l m b0 r0 l0 t0 lines">43.5</td>
+<td class="l m b0 r0 l0 t0 lines">27.3</td>
+<td class="l m b0 r0 l0 t0 lines">45.2</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">25.4</td>
+<td class="l m b0 r0 l0 t0 lines">46.9</td>
+<td class="l m b0 r0 l0 t0 lines">29.8</td>
+<td class="l m b0 r0 l0 t0 lines">47.8</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">26.9</td>
+<td class="l m b0 r0 l0 t0 lines">51.4</td>
+<td class="l m b0 r0 l0 t0 lines">31.6</td>
+<td class="l m b0 r0 l0 t0 lines">50.3</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">28.1</td>
+<td class="l m b0 r0 l0 t0 lines">57.3</td>
+<td class="l m b0 r0 l0 t0 lines">33.5</td>
+<td class="l m b0 r0 l0 t0 lines">54.9</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">29.2</td>
+<td class="l m b0 r0 l0 t0 lines">62.8</td>
+<td class="l m b0 r0 l0 t0 lines">35.2</td>
+<td class="l m b0 r0 l0 t0 lines">59.2</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">30.5</td>
+<td class="l m b0 r0 l0 t0 lines">31.1</td>
+<td class="l m b0 r0 l0 t0 lines">36.8</td>
+<td class="l m b0 r0 l0 t0 lines">63.4</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">31.1</td>
+<td class="l m b0 r0 l0 t0 lines">31.9</td>
+<td class="l m b0 r0 l0 t0 lines">38.6</td>
+<td class="l m b0 r0 l0 t0 lines">34.6</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">31.9</td>
+<td class="l m b0 r0 l0 t0 lines">32.7</td>
+<td class="l m b0 r0 l0 t0 lines">40.7</td>
+<td class="l m b0 r0 l0 t0 lines">36.9</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">32.7</td>
+<td class="l m b0 r0 l0 t0 lines">33.5</td>
+<td class="l m b0 r0 l0 t0 lines">35.6</td>
+<td class="l m b0 r0 l0 t0 lines">42.1</td>
+</tr>
+</table></div></figure><div class="solutions"><details id="stats-ch2-stem-leaf-example-3-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="stats-ch2-stem-leaf-example-3-3-1">Part A. To keep the <a class="external" href="https://www.geogebra.org/m/payaagsb" target="_blank">Stem-and-Leaf Plot Generator</a> running smoothly, it is important to determine the stems and leaves before starting. Since our data ranges from about 20.5 to 63.4, there would be too much variation in the stems used the data rounded to the first decimal place. The most logical choice is to use the tens digit as the stem and the ones digit as the leaf since this will only give us leaves from 2 to 6. Set the tool’s rounding to 1.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-3-3-2"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/stem_example1_a.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.22<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The rounding is set to the ones digit.<div class="autopermalink" data-description="Figure 18.6.22"><a href="#stats-ch2-stem-leaf-example-3-3-2" title="Copy heading and permalink for Figure 18.6.22" aria-label="Copy heading and permalink for Figure 18.6.22">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-stem-leaf-example-3-3-3">Copy the dataset to your clipboard, and load it into the Stem-and-Leaf Plot Generator, which will automatically create the basic plot for you.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-3-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-3-3-4"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/stem_example3_a.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.23<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The stem-and-leaf plot for the first data set.<div class="autopermalink" data-description="Figure 18.6.23"><a href="#stats-ch2-stem-leaf-example-3-3-4" title="Copy heading and permalink for Figure 18.6.23" aria-label="Copy heading and permalink for Figure 18.6.23">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-stem-leaf-example-3-3-5">Clicking the Back-to-Back checkbox creates the desired stem-and-leaf plot.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-3-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-3-3-6"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/stem_example3_c.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.24<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The back-to-back stem-and-leaf plot comparing Program A to Program B.<div class="autopermalink" data-description="Figure 18.6.24"><a href="#stats-ch2-stem-leaf-example-3-3-6" title="Copy heading and permalink for Figure 18.6.24" aria-label="Copy heading and permalink for Figure 18.6.24">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-stem-leaf-example-3-3-7">If we look at the distribution of both programs, they appear to be roughly normal with a few higher values.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-3-3-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-3-3-8"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/statistics/stem_example3_d.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.25<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Both distributions appear to be normal when the stems are not split.<div class="autopermalink" data-description="Figure 18.6.25"><a href="#stats-ch2-stem-leaf-example-3-3-8" title="Copy heading and permalink for Figure 18.6.25" aria-label="Copy heading and permalink for Figure 18.6.25">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-stem-leaf-example-3-3-9">Part B. Clicking on the Split Stems checkbox will update the stem-and-leaf plot.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-3-3-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-3-3-10"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/stem_example3_e.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.26<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The back-to-back stem-and-leaf plot using split stems.<div class="autopermalink" data-description="Figure 18.6.26"><a href="#stats-ch2-stem-leaf-example-3-3-10" title="Copy heading and permalink for Figure 18.6.26" aria-label="Copy heading and permalink for Figure 18.6.26">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-stem-leaf-example-3-3-11">Program A looks roughly normal with a few unusually high values, but Program B starts to show a skew to the right.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-3-3-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-stem-leaf-example-3-3-12"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/statistics/stem_example3_f.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.27<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>When the stems are split, Program B starts to show a skew to the right.<div class="autopermalink" data-description="Figure 18.6.27"><a href="#stats-ch2-stem-leaf-example-3-3-12" title="Copy heading and permalink for Figure 18.6.27" aria-label="Copy heading and permalink for Figure 18.6.27">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-stem-leaf-example-3-3-13">While it was clear from the original back-to-back plot that we had values clusters in the thirties, what was not clear was how much more extra data we had on the high end in Program B until we split the stems.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-example-3-3-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 18.6.20.1"><a href="#stats-ch2-stem-leaf-example-3-3" title="Copy heading and permalink for Solution 18.6.20.1" aria-label="Copy heading and permalink for Solution 18.6.20.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 18.6.20: Example 3"><a href="#stats-ch2-stem-leaf-example-3" title="Copy heading and permalink for Example 18.6.20: Example 3" aria-label="Copy heading and permalink for Example 18.6.20: Example 3">🔗</a></div></article><div class="autopermalink" data-description="Subsection 18.6.3: Back-to-Back Plots"><a href="#stats-ch2-back-to-back" title="Copy heading and permalink for Subsection 18.6.3: Back-to-Back Plots" aria-label="Copy heading and permalink for Subsection 18.6.3: Back-to-Back Plots">🔗</a></div></section><section class="subsection" id="stats-ch2-stem-leaf-conclusion"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.6.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Conclusion</span>
+</h3>
+<div class="para" id="stats-ch2-stem-leaf-conclusion-2">Stem-and-leaf plots are a powerful tool for organizing data and identifying patterns. By learning to construct, interpret, and refine these plots using techniques like splitting stems and back-to-back comparisons, you can effectively analyze and communicate data insights.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-stem-leaf-conclusion-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 18.6.4: Conclusion"><a href="#stats-ch2-stem-leaf-conclusion" title="Copy heading and permalink for Subsection 18.6.4: Conclusion" aria-label="Copy heading and permalink for Subsection 18.6.4: Conclusion">🔗</a></div></section><div class="autopermalink" data-description="Section 18.6: How to Construct Stem-and-Leaf Plots"><a href="#stats-ch2-stem-leaf-plot" title="Copy heading and permalink for Section 18.6: How to Construct Stem-and-Leaf Plots" aria-label="Copy heading and permalink for Section 18.6: How to Construct Stem-and-Leaf Plots">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="stats-ch2-shapes-distributions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="stats-ch2-dot-plots.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

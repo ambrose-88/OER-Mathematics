@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: salem                          *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>How to Create Frequency Distributions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="OER Mathematics">
+<meta property="book:author" content="Charles S. McCauley">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.14';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.d892923478694492.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">OER Mathematics</span> <span class="subtitle"></span></a></h1>
+<p class="byline">Charles S. McCauley</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="statistics-chapter2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="statistics-chapter2.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="stats-ch2-relative-frequency.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 parts focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="review-arithmetic.html" class="internal"><span class="codenumber">I</span> <span class="title">Review of Arithmetic</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="review-arithmetic-chapter1.html" class="internal"><span class="codenumber">1</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="intermediate-algebra.html" class="internal"><span class="codenumber">II</span> <span class="title">Intermediate Algebra</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="intermediate-algebra-chapter1.html" class="internal"><span class="codenumber">2</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="college-algebra.html" class="internal"><span class="codenumber">III</span> <span class="title">College Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter1.html" class="internal"><span class="codenumber">3</span> <span class="title">Graphing in Two Dimensions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter1-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Graphing Points on the Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-1.html#sub-ordered-pairs" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Ordered Pairs</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="chapter1-1.html#sub-visualizing-coordinate-plane" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Visualizing The Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-coordinate-axes" class="internal"><span class="codenumber">3.1.2.1</span> <span class="title">Coordinate Axes</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-origin-and-rectangular-coordinates" class="internal"><span class="codenumber">3.1.2.2</span> <span class="title">The Origin and Rectangular Coordinates</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-quadrants" class="internal"><span class="codenumber">3.1.2.3</span> <span class="title">The Quadrants of a Coordinate Plane</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter1-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Graphing Points on the Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="chapter1-2.html#chapter1-2-3" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Graphing a Point by Hand</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#chapter1-2-3-2" class="internal"><span class="codenumber">3.2.1.1</span> <span class="title">Positive and Negative Signs as Directions of Travel.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-Graphing-a-Point-By-Hand" class="internal"><span class="codenumber">3.2.1.2</span> <span class="title">Graphing a Point By Hand</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-Graphing-Points-Using-Technology" class="internal"><span class="codenumber">3.2.1.3</span> <span class="title">Graphing Points Using Technology</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-variables-other-than-x-y" class="internal"><span class="codenumber">3.2.1.4</span> <span class="title">Using Variables Other Than <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span></span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter1-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">The Distance Formula</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-3.html#sub-distances-in-the-real-world" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Distances in the Real World</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-3.html#sub-distance-formula" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Proof of the Distance Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-6.html" class="internal"><span class="codenumber">3.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-7.html" class="internal"><span class="codenumber">3.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-8.html" class="internal"><span class="codenumber">3.8</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter2.html" class="internal"><span class="codenumber">4</span> <span class="title">Functions and Their Basic Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-6.html" class="internal"><span class="codenumber">4.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-7.html" class="internal"><span class="codenumber">4.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-8.html" class="internal"><span class="codenumber">4.8</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-9.html" class="internal"><span class="codenumber">4.9</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-10.html" class="internal"><span class="codenumber">4.10</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-11.html" class="internal"><span class="codenumber">4.11</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-12.html" class="internal"><span class="codenumber">4.12</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-13.html" class="internal"><span class="codenumber">4.13</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-14.html" class="internal"><span class="codenumber">4.14</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-15.html" class="internal"><span class="codenumber">4.15</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter3.html" class="internal"><span class="codenumber">5</span> <span class="title">Linear Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-5.html" class="internal"><span class="codenumber">5.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-6.html" class="internal"><span class="codenumber">5.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-7.html" class="internal"><span class="codenumber">5.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-8.html" class="internal"><span class="codenumber">5.8</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-9.html" class="internal"><span class="codenumber">5.9</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-10.html" class="internal"><span class="codenumber">5.10</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-11.html" class="internal"><span class="codenumber">5.11</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter4.html" class="internal"><span class="codenumber">6</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-zero-product-property.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Zero Product Property</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-quadratic-equations" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Quadratic Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-the-zero-product-property" class="internal"><span class="codenumber">6.1.2</span> <span class="title">The Zero Product Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-solving-equations-by-factoring" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Solving Equations by Factoring</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Solving Quadratics Using Special Products</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html#subsec-difference-of-squares" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Difference of Squares</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html#subsec-sum-and-difference-of-cubes" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Sum and Difference of Cubes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factor-by-grouping.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Factor by Grouping</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-factor-by-grouping" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Factor by Grouping</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-ac-method" class="internal"><span class="codenumber">6.3.2</span> <span class="title">The <span class="process-math">\(ac\)</span>-Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-slide-and-divide" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Slide and Divide</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-square-root-property.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Square Root Property</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-square-root-property.html#subsec-solving-equations-using-square-root-property" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Solving Equations using Square Root Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-square-root-property.html#subsec-solving-equations-involving-perfect-square-trinomials" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Solving Equations Involving Perfect Square Trinomials</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-completing-the-square.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Completing the Square</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-completing-the-square.html#subsec-traditional-method" class="internal"><span class="codenumber">6.5.1</span> <span class="title">The Traditional Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-completing-the-square.html#subsec-box-method" class="internal"><span class="codenumber">6.5.2</span> <span class="title">The Box Method</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html" class="internal"><span class="codenumber">6.6</span> <span class="title">The Definition of Complex Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html#subsec-the-imaginary-number-i" class="internal"><span class="codenumber">6.6.1</span> <span class="title">The Imaginary Number <span class="process-math">\(i\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html#subsec-complex-numbers" class="internal"><span class="codenumber">6.6.2</span> <span class="title">Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html" class="internal"><span class="codenumber">6.7</span> <span class="title">Arithmetic with Complex Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-adding-complex-numbers" class="internal"><span class="codenumber">6.7.1</span> <span class="title">Adding Complex Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-subtracting-complex-numbers" class="internal"><span class="codenumber">6.7.2</span> <span class="title">Subtracting Complex Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-multiplying-complex-numbers" class="internal"><span class="codenumber">6.7.3</span> <span class="title">Multiplying Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-complex-conjugate.html" class="internal"><span class="codenumber">6.8</span> <span class="title">The Complex Conjugate</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-complex-conjugate.html#subsec-determining-the-complex-conjugate" class="internal"><span class="codenumber">6.8.1</span> <span class="title">Determining the Complex Conjugate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-complex-conjugate.html#subsec-getting-real-numbers-from-complex-numbers" class="internal"><span class="codenumber">6.8.2</span> <span class="title">Getting Real Numbers from Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="square-roots-negative.html" class="internal"><span class="codenumber">6.9</span> <span class="title">Square Roots of Negative Numbers</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="proof-of-the-quadratic-formula.html" class="internal"><span class="codenumber">6.10</span> <span class="title">Proof of the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="using-the-quadratic-formula.html" class="internal"><span class="codenumber">6.11</span> <span class="title">Using the Quadratic Formula</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="using-the-quadratic-formula.html#solving-equations-using-the-quadratic-formula" class="internal"><span class="codenumber">6.11.1</span> <span class="title">Solving Equations Using the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="using-the-quadratic-formula.html#sub-the-discriminant" class="internal"><span class="codenumber">6.11.2</span> <span class="title">The Discriminant</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="equations-quadratic-in-form.html" class="internal"><span class="codenumber">6.12</span> <span class="title">Equations that are Quadratic in Form</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equations-quadratic-in-form.html#solving-equations-in-one-variable" class="internal"><span class="codenumber">6.12.1</span> <span class="title">Solving Equations in One Variable</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equations-quadratic-in-form.html#solving-equations-for-other-variables" class="internal"><span class="codenumber">6.12.2</span> <span class="title">Solving Equations for Other Variables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratic-functions.html" class="internal"><span class="codenumber">6.13</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-functions.html#graphs-of-quadratic-functions" class="internal"><span class="codenumber">6.13.1</span> <span class="title">Graphs of Quadratic Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-functions.html#properties-of-quadratic-functions" class="internal"><span class="codenumber">6.13.2</span> <span class="title">Properties of Quadratic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html" class="internal"><span class="codenumber">6.14</span> <span class="title">The Vertex Form of a Quadratic Function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#writing-quadratic-equations-in-vertex-form" class="internal"><span class="codenumber">6.14.1</span> <span class="title">Writing Quadratic Equations in Vertex Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#graphing-quadratic-functions-using-the-vertex-form" class="internal"><span class="codenumber">6.14.2</span> <span class="title">Graphing Quadratic Functions Using the Vertex Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#graphing-quadratic-functions-using-intercepts" class="internal"><span class="codenumber">6.14.3</span> <span class="title">Graphing Quadratic Functions Using Intercepts</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="optimization-using-quadratic-functions.html" class="internal"><span class="codenumber">6.15</span> <span class="title">Optimization Using Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-to-geometry" class="internal"><span class="codenumber">6.15.1</span> <span class="title">Applications to Geometry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-from-physics" class="internal"><span class="codenumber">6.15.2</span> <span class="title">Applications from Physics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-from-economics" class="internal"><span class="codenumber">6.15.3</span> <span class="title">Applications from Economics</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter5.html" class="internal"><span class="codenumber">7</span> <span class="title">Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="end-behavior-polynomial-functions.html" class="internal"><span class="codenumber">7.2</span> <span class="title">End Behavior of Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="zeroes-and-multiplicity.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Zeros and Multiplicity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#complete-linear-factorization-of-px" class="internal"><span class="codenumber">7.3.1</span> <span class="title">The Complete Linear Factorization of <span class="process-math">\(p(x)\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#the-zeroes-of-a-polynomial-function" class="internal"><span class="codenumber">7.3.2</span> <span class="title">The Zeroes of a Polynomial Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#the-multiplicity-of-a-zero" class="internal"><span class="codenumber">7.3.3</span> <span class="title">The Multiplicity of a Zero</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#visualizing-zeroes-as-x-intercepts" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Visualizing Zeroes as <span class="process-math">\(x\)</span>-intercepts</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="turning-points.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Turning Points</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="turning-points.html#turning-points-and-local-extrema" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Turning Points and Local Extrema</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-increasing-decreasing.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Where are Polynomial Functions Increasing and Decreasing?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphing-polynomials.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Graphing Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomial-long-division.html" class="internal"><span class="codenumber">7.7</span> <span class="title">The Division Algorithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="polynomial-long-division.html#division-algorithm" class="internal"><span class="codenumber">7.7.1</span> <span class="title">Natural Numbers Version</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="polynomial-long-division.html#polynomial-division-algorithm" class="internal"><span class="codenumber">7.7.2</span> <span class="title">Polynomial Version</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="synthetic-division.html" class="internal"><span class="codenumber">7.8</span> <span class="title">Synthetic Division</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="remainder-factor-theroems.html" class="internal"><span class="codenumber">7.9</span> <span class="title">The Remainder and Factor Theorems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="remainder-factor-theroems.html#subsec-the-remainder-theorem" class="internal"><span class="codenumber">7.9.1</span> <span class="title">The Remainder Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="remainder-factor-theroems.html#subsec-the-factor-theorem" class="internal"><span class="codenumber">7.9.2</span> <span class="title">The Factor Theorem</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="text-for-pm-one.html" class="internal"><span class="codenumber">7.10</span> <span class="title">The Test for <span class="process-math">\(\pm 1\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rational-zeroes-theorem.html" class="internal"><span class="codenumber">7.11</span> <span class="title">The Rational Root Theorem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="irrational-zeroes.html" class="internal"><span class="codenumber">7.12</span> <span class="title">The Irrational Zeroes of a Polynomial</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="intermediate-value-theorem.html" class="internal"><span class="codenumber">7.13</span> <span class="title">Intermediate Value Theorem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="complex-zeroes.html" class="internal"><span class="codenumber">7.14</span> <span class="title">The Complex Zeroes of a Polynomial</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="fundamental-theorem-of-algebra.html" class="internal"><span class="codenumber">7.15</span> <span class="title">The Fundamental Theorem of Algebra</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-inequalities.html" class="internal"><span class="codenumber">7.16</span> <span class="title">Solving Polynomial Inequalities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter6.html" class="internal"><span class="codenumber">8</span> <span class="title">Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rational-functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Rational Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="zeroes-numerator-rational.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Zeroes of the Numerator</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-numerator-rational.html#subsec-zeroes-rational-functions" class="internal"><span class="codenumber">8.2.1</span> <span class="title">The Zeroes of Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-numerator-rational.html#subsec-multiplicity-rational-functions" class="internal"><span class="codenumber">8.2.2</span> <span class="title">How to Determine Multiplicity for Rational Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="zeroes-denominator-rational.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Zeroes of the Denominator</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#subsec-domains-rational" class="internal"><span class="codenumber">8.3.1</span> <span class="title">Domains of Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#sub-arrow-notation" class="internal"><span class="codenumber">8.3.2</span> <span class="title">Arrow Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#subsec-vertical-asymptotes" class="internal"><span class="codenumber">8.3.3</span> <span class="title">Vertical Asymptotes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#subsec-multiplicities-of-the-denominator" class="internal"><span class="codenumber">8.3.4</span> <span class="title">Multiplicities of the Denominator</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="holes-rational-functions.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Holes in Rational Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="end-behavior-rational.html" class="internal"><span class="codenumber">8.5</span> <span class="title">End Behavior of Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="end-behavior-rational.html#other-types-of-asymptotes" class="internal"><span class="codenumber">8.5.1</span> <span class="title">Other Types of Asymptotes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="end-behavior-rational.html#end-behavior-of-rational-functions" class="internal"><span class="codenumber">8.5.2</span> <span class="title">End Behavior of Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="end-behavior-rational.html#subsec-crossing-asymptotes" class="internal"><span class="codenumber">8.5.3</span> <span class="title">Crossing Horizontal/Oblique/Nonlinear Asymptotes?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphs-rational.html" class="internal"><span class="codenumber">8.6</span> <span class="title">The Graphs of Rational Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rational-inequalities.html" class="internal"><span class="codenumber">8.7</span> <span class="title">Rational Inequalities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter7.html" class="internal"><span class="codenumber">9</span> <span class="title">Creating New Functions from Old Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="library-of-functions.html" class="internal"><span class="codenumber">9.1</span> <span class="title">The Library of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#constant-function" class="internal"><span class="codenumber">9.1.1</span> <span class="title">The Constant Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#identity-function" class="internal"><span class="codenumber">9.1.2</span> <span class="title">The Identity Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#odd-power-function" class="internal"><span class="codenumber">9.1.3</span> <span class="title">The Power Function (<span class="process-math">\(n\)</span> odd case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#even-power-function" class="internal"><span class="codenumber">9.1.4</span> <span class="title">The Power Function (<span class="process-math">\(n\)</span> even case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#odd-root-function" class="internal"><span class="codenumber">9.1.5</span> <span class="title">The Root Function (<span class="process-math">\(n\)</span> odd case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#even-root-function" class="internal"><span class="codenumber">9.1.6</span> <span class="title">The Root Function (<span class="process-math">\(n\)</span> even case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#absolute-value-function" class="internal"><span class="codenumber">9.1.7</span> <span class="title">The Absolute Value Function</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="vertical-translations.html" class="internal"><span class="codenumber">9.2</span> <span class="title">How to Move Functions Up and Down</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="horizontal-translations.html" class="internal"><span class="codenumber">9.3</span> <span class="title">How to Move Functions Left and Right</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="vertical-stretch-compress.html" class="internal"><span class="codenumber">9.4</span> <span class="title">How to Stretch and Shrink Functions Vertically</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="horizontal-stretch-shrink.html" class="internal"><span class="codenumber">9.5</span> <span class="title">How to Stretch and Shrink Functions Horizontally</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="vertical-reflection.html" class="internal"><span class="codenumber">9.6</span> <span class="title">How to Reflect Functions Vertically</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="horizontal-reflections.html" class="internal"><span class="codenumber">9.7</span> <span class="title">How to Reflect Functions Horizontally</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphing-multiple-transformations.html" class="internal"><span class="codenumber">9.8</span> <span class="title">Graphing Multiple Transformations at Once</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="piecewise-defined-functions.html" class="internal"><span class="codenumber">9.9</span> <span class="title">Piecewise-Defined Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="arithmetic-operations-functions.html" class="internal"><span class="codenumber">9.10</span> <span class="title">Arithmetic Operations and Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="composition-functions.html" class="internal"><span class="codenumber">9.11</span> <span class="title">The Composition of Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="one-to-one-functions.html" class="internal"><span class="codenumber">9.12</span> <span class="title">One-to-One Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="inverse-functions.html" class="internal"><span class="codenumber">9.13</span> <span class="title">Inverse Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter8.html" class="internal"><span class="codenumber">10</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exponential-functions.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="properties-exponential-functions.html" class="internal"><span class="codenumber">10.2</span> <span class="title">The Properties of Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="the-number-e.html" class="internal"><span class="codenumber">10.3</span> <span class="title">The Number <span class="process-math">\(e\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="logarithmic-functions.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="properties-logarithmic-functions.html" class="internal"><span class="codenumber">10.5</span> <span class="title">The Properties of Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphing-logarithmic-functions.html" class="internal"><span class="codenumber">10.6</span> <span class="title">Graphing Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="cancellation-properties-logarithms.html" class="internal"><span class="codenumber">10.7</span> <span class="title">The Cancellation Properties of Logarithms</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="evaluating-logarithmic-functions.html" class="internal"><span class="codenumber">10.8</span> <span class="title">Evaluating Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-exponential-equations.html" class="internal"><span class="codenumber">10.9</span> <span class="title">Solving Equations Involving Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="laws-logarithms.html" class="internal"><span class="codenumber">10.10</span> <span class="title">The Laws of Logarithms</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-logarithmic-equations.html" class="internal"><span class="codenumber">10.11</span> <span class="title">Solving Equations Involving Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="applications-exponential-logarithmic.html" class="internal"><span class="codenumber">10.12</span> <span class="title">Applications of Exponential and Logarithmic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter9.html" class="internal"><span class="codenumber">11</span> <span class="title">Systems of Equations and Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="systems-of-linear-equations.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Systems of Linear Equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="substitution-method.html" class="internal"><span class="codenumber">11.2</span> <span class="title">The Substitution Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="elimination-method.html" class="internal"><span class="codenumber">11.3</span> <span class="title">The Elimination Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="matrix-method.html" class="internal"><span class="codenumber">11.4</span> <span class="title">The Matrix Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="systems-of-inequalities.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Graphing the Solution Set to a System of Inequalities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-non-linear-systems.html" class="internal"><span class="codenumber">11.6</span> <span class="title">Solving Nonlinear Systems of Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter10.html" class="internal"><span class="codenumber">12</span> <span class="title">The Binomial Theorem</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="binomial-coefficients.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Binomial Coefficients</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="pascals-triangle.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Pascal’s Triangle</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="binomial-theorem.html" class="internal"><span class="codenumber">12.3</span> <span class="title">The Binomial Theorem</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="trigonometry.html" class="internal"><span class="codenumber">IV</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="trigonometry-chapter1.html" class="internal"><span class="codenumber">13</span> <span class="title">Chapter 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-chapter1-review.html" class="internal"><span class="codenumber">13.1</span> <span class="title">Exam 1 Review</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="calculus-1.html" class="internal"><span class="codenumber">V</span> <span class="title">Calculus 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="calculus-1-chapter1.html" class="internal"><span class="codenumber">14</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="calculus-2.html" class="internal"><span class="codenumber">VI</span> <span class="title">Calculus 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="calculus-2-chapter1.html" class="internal"><span class="codenumber">15</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="calculus-3.html" class="internal"><span class="codenumber">VII</span> <span class="title">Calculus 3</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="calculus-3-chapter1.html" class="internal"><span class="codenumber">16</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="introductory-statistics.html" class="internal"><span class="codenumber">VIII</span> <span class="title">Introductory Statistics</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="statistics-chapter1.html" class="internal"><span class="codenumber">17</span> <span class="title">Populations and their Samples</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-data-thought-process.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Data and the Thought Process of Statistics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-thought-process.html#stats-ch1-data-and-statistics" class="internal"><span class="codenumber">17.1.1</span> <span class="title">Data and Statistics</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-population-sample.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Samples and Their Populations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-population-sample.html#stats-ch1-populations" class="internal"><span class="codenumber">17.2.1</span> <span class="title">Populations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-population-sample.html#stats-ch1-populations-versus-samples" class="internal"><span class="codenumber">17.2.2</span> <span class="title">Populations Versus Samples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-population-sample.html#stats-ch1-population-sample-conclusion" class="internal"><span class="codenumber">17.2.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html" class="internal"><span class="codenumber">17.3</span> <span class="title">Parameters and Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html#stats-ch1-parameters-and-statistics" class="internal"><span class="codenumber">17.3.1</span> <span class="title">Parameters and Statistics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html#stats-ch1-parameter-vs-statistic" class="internal"><span class="codenumber">17.3.2</span> <span class="title">Telling the Difference Between a Parameter and a Statistic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html#stats-ch1-parameter-statistics-conclusion" class="internal"><span class="codenumber">17.3.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html" class="internal"><span class="codenumber">17.4</span> <span class="title">Data Collection and Bias</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-data-collection-methods" class="internal"><span class="codenumber">17.4.1</span> <span class="title">Data Collection Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-well-designed-study" class="internal"><span class="codenumber">17.4.2</span> <span class="title">Elements of a Well-Designed Study</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-common-bias" class="internal"><span class="codenumber">17.4.3</span> <span class="title">Common Sources of Bias in Statistical Study</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-data-collection-conclusion" class="internal"><span class="codenumber">17.4.4</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-levels-measurement.html" class="internal"><span class="codenumber">17.5</span> <span class="title">Types of Data and Levels of Measurement</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-levels-measurement.html#stats-ch1-data-classification" class="internal"><span class="codenumber">17.5.1</span> <span class="title">Data Classification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-levels-measurement.html#stats-ch1-levels-measurement-levels" class="internal"><span class="codenumber">17.5.2</span> <span class="title">Levels of Measurement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-levels-measurement.html#stats-ch1-levels-measurement-conclusion" class="internal"><span class="codenumber">17.5.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-sampling-methods.html" class="internal"><span class="codenumber">17.6</span> <span class="title">Sampling Techniques and Errors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-sampling-methods.html#stats-ch1-sampling-techniques" class="internal"><span class="codenumber">17.6.1</span> <span class="title">Sampling Techniques</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-sampling-methods.html#stats-ch1-sampling-errors" class="internal"><span class="codenumber">17.6.2</span> <span class="title">Sampling Errors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-sampling-methods.html#stats-ch1-sampling-conclusion" class="internal"><span class="codenumber">17.6.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-experimental-design.html" class="internal"><span class="codenumber">17.7</span> <span class="title">Experimental Design</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-experimental-design.html#stats-ch1-types-designs" class="internal"><span class="codenumber">17.7.1</span> <span class="title">Types of Designs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-experimental-design.html#stats-ch1-experimental-conclusion" class="internal"><span class="codenumber">17.7.2</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="statistics-chapter2.html" class="internal"><span class="codenumber">18</span> <span class="title">Organizing Data Visually</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="stats-ch2-frequency-distribution.html" class="internal"><span class="codenumber">18.1</span> <span class="title">How to Create Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-distribution.html#stats-ch2-basics-frequency" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Basics of Frequency Distributions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-relative-frequency.html" class="internal"><span class="codenumber">18.2</span> <span class="title">How to Create Relative Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-relative-frequency.html#stats-ch2-relative-frequency-distributions" class="internal"><span class="codenumber">18.2.1</span> <span class="title">Relative Frequency Distributions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-cumulative-frequency.html" class="internal"><span class="codenumber">18.3</span> <span class="title">How to Compute Cumulative Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-cumulative-frequency.html#stats-ch2-cumulative-frequency-basics" class="internal"><span class="codenumber">18.3.1</span> <span class="title">Cumulative Frequency</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-cumulative-frequency.html#stats-ch2-relative-cumulative-frequency" class="internal"><span class="codenumber">18.3.2</span> <span class="title">Relative Cumulative Frequency</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html" class="internal"><span class="codenumber">18.4</span> <span class="title">How to Create Frequency Histograms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-frequency-histograms-basics" class="internal"><span class="codenumber">18.4.1</span> <span class="title">Frequency Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-relative-frequency-histograms" class="internal"><span class="codenumber">18.4.2</span> <span class="title">Relative Frequency Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-cumulative-frequency-histograms" class="internal"><span class="codenumber">18.4.3</span> <span class="title">Cumulative Frequency Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-cumulative-relative-frequency-histograms" class="internal"><span class="codenumber">18.4.4</span> <span class="title">Cumulative Relative Frequency Histograms</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-shapes-distributions.html" class="internal"><span class="codenumber">18.5</span> <span class="title">Shapes of Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-shapes-distributions.html#stats-ch2-peak-and-tails" class="internal"><span class="codenumber">18.5.1</span> <span class="title">The Peak and Tails</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-shapes-distributions.html#stats-ch2-shapes-of-distributions" class="internal"><span class="codenumber">18.5.2</span> <span class="title">Shapes of Distributions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html" class="internal"><span class="codenumber">18.6</span> <span class="title">How to Construct Stem-and-Leaf Plots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-stem-leaf-basics" class="internal"><span class="codenumber">18.6.1</span> <span class="title">Stem-and-Leaf Plots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-split-stems" class="internal"><span class="codenumber">18.6.2</span> <span class="title">Split Stems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-back-to-back" class="internal"><span class="codenumber">18.6.3</span> <span class="title">Back-to-Back Plots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-stem-leaf-conclusion" class="internal"><span class="codenumber">18.6.4</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-dot-plots.html" class="internal"><span class="codenumber">18.7</span> <span class="title">How to Construct Dot Plots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-dot-plots.html#stats-ch2-dot-plots-basics" class="internal"><span class="codenumber">18.7.1</span> <span class="title">Dot Plots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-dot-plots.html#stats-ch2-interpreting-dot-plots" class="internal"><span class="codenumber">18.7.2</span> <span class="title">Interpreting Dot Plots</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-time-series.html" class="internal"><span class="codenumber">18.8</span> <span class="title">How to Construct Time Series Plots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-time-series.html#stats-ch2-time-series-basics" class="internal"><span class="codenumber">18.8.1</span> <span class="title">Time Series Plots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-bar-graphs.html" class="internal"><span class="codenumber">18.9</span> <span class="title">How to Construct Bar Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-bar-graphs.html#stats-ch2-bar-graphs-basics" class="internal"><span class="codenumber">18.9.1</span> <span class="title">Bar Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-bar-graphs.html#stats-ch2-pareto-graphs" class="internal"><span class="codenumber">18.9.2</span> <span class="title">Pareto Graphs</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-pie-charts.html" class="internal"><span class="codenumber">18.10</span> <span class="title">How to Create Pie Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-pie-charts.html#stats-ch2-pie-conditions" class="internal"><span class="codenumber">18.10.1</span> <span class="title">Conditions for Using a Pie Graph</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-pie-charts.html#stats-ch2-constructing-pie-graphs" class="internal"><span class="codenumber">18.10.2</span> <span class="title">Constructing Pie Graphs</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="statistics-chapter3.html" class="internal"><span class="codenumber">19</span> <span class="title">Numerical Summaries of Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics-mean.html" class="internal"><span class="codenumber">19.1</span> <span class="title">How to Calculate the Mean of a Data Set</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics-mean.html#statistics-definition-mean" class="internal"><span class="codenumber">19.1.1</span> <span class="title">Definition of the Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics-mean.html#statistics-mean-interpretation" class="internal"><span class="codenumber">19.1.2</span> <span class="title">Interpreting the Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics-mean.html#statistics-mean-calculation-technology" class="internal"><span class="codenumber">19.1.3</span> <span class="title">Calculating the Mean with Technology</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-median.html" class="internal"><span class="codenumber">19.2</span> <span class="title">How to Calculate the Median of a Data Set</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-mode.html" class="internal"><span class="codenumber">19.3</span> <span class="title">How to Calculate the Mode of a Dataset</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-central-tendency-distributions.html" class="internal"><span class="codenumber">19.4</span> <span class="title">How Skewness Affects the Mean, Median, and Mode of a Dataset</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-weighted-mean.html" class="internal"><span class="codenumber">19.5</span> <span class="title">How to Calculate a Weighted Mean</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-mean-not-enough.html" class="internal"><span class="codenumber">19.6</span> <span class="title">Is the Mean Enough to Describe a Dataset?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-range.html" class="internal"><span class="codenumber">19.7</span> <span class="title">Understanding the Range of a Data Set</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-deviations.html" class="internal"><span class="codenumber">19.8</span> <span class="title">How to Calculate the Deviations of a Dataset</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-standard-deviation.html" class="internal"><span class="codenumber">19.9</span> <span class="title">Understanding Standard Deviation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-outliers-normal-distribution.html" class="internal"><span class="codenumber">19.10</span> <span class="title">How to Find Outliers for Normal Distributions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-empirical-rule.html" class="internal"><span class="codenumber">19.11</span> <span class="title">What is the Empirical Rule?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-chebyshev.html" class="internal"><span class="codenumber">19.12</span> <span class="title">Chebyshev’s Inequality</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-percentile.html" class="internal"><span class="codenumber">19.13</span> <span class="title">How to Calculate a Percentile</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-z-score.html" class="internal"><span class="codenumber">19.14</span> <span class="title">How to Calculate a <span class="process-math">\(z\)</span>-score</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-five-number-summary.html" class="internal"><span class="codenumber">19.15</span> <span class="title">How to Calculate the Five-Number Summary</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-iqr-rule.html" class="internal"><span class="codenumber">19.16</span> <span class="title">How to Find Outliers for Skewed Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-boxplot.html" class="internal"><span class="codenumber">19.17</span> <span class="title">How to Create a Boxplot</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="finite-mathematics.html" class="internal"><span class="codenumber">IX</span> <span class="title">Finite Mathematics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="finite-mathematics-chapter1.html" class="internal"><span class="codenumber">20</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-a.html" class="internal"><span class="codenumber">A</span> <span class="title">Appendix A: Review of Arithmetic Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-b.html" class="internal"><span class="codenumber">B</span> <span class="title">Appendix B: Intermediate Algebra Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-c.html" class="internal"><span class="codenumber">C</span> <span class="title">Appendix C: College Algebra Lecture Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="worksheet-quadratic-equations.html" class="internal"><span class="codenumber">C.1</span> <span class="title">Quadratic Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-complex-numbers.html" class="internal"><span class="codenumber">C.2</span> <span class="title">Complex Numbers</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lecture-notes-worksheet-quadratic-formula.html" class="internal"><span class="codenumber">C.3</span> <span class="title">Using the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="worksheet-quadratic-functions.html" class="internal"><span class="codenumber">C.4</span> <span class="title">Quadratic Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-properties-polynomials.html" class="internal"><span class="codenumber">C.5</span> <span class="title">Properties of Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-factor-theorem.html" class="internal"><span class="codenumber">C.6</span> <span class="title">Graphing and Factor Theorem Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-fundamental-theorem-of-algebra.html" class="internal"><span class="codenumber">C.7</span> <span class="title">The Fundamental Theorem of Algebra</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="worksheet-graphing-rational-function.html" class="internal"><span class="codenumber">C.8</span> <span class="title">Rational Functions and their Properties</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-inverse-functions.html" class="internal"><span class="codenumber">C.9</span> <span class="title">Inverse Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-exponential-logarithmic-functions.html" class="internal"><span class="codenumber">C.10</span> <span class="title">Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-logarithmic-laws.html" class="internal"><span class="codenumber">C.11</span> <span class="title">Properties of Logarithms</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-logarithmic-equations-applications.html" class="internal"><span class="codenumber">C.12</span> <span class="title">Solving Equations and Applications Using Logarithms</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-d.html" class="internal"><span class="codenumber">D</span> <span class="title">Appendix D: Trigonometry Lecture Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-radian-measure.html" class="internal"><span class="codenumber">D.1</span> <span class="title">Angles and Radian Measure</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-right-triangle-trigonometry.html" class="internal"><span class="codenumber">D.2</span> <span class="title">Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-trig-functions-any-angle.html" class="internal"><span class="codenumber">D.3</span> <span class="title">Trigonometric Functions of Any Angle</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-unit-circle.html" class="internal"><span class="codenumber">D.4</span> <span class="title">The Unit Circle</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-sine-cosine-graphs.html" class="internal"><span class="codenumber">D.5</span> <span class="title">Graphs of Sine and Cosine</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-other-four-graphs.html" class="internal"><span class="codenumber">D.6</span> <span class="title">Graphs of Tangent, Cotangent, Secant, Cosecant</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-e.html" class="internal"><span class="codenumber">E</span> <span class="title">Appendix E: Calculus 1 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-f.html" class="internal"><span class="codenumber">F</span> <span class="title">Appendix F: Calculus 2 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-g.html" class="internal"><span class="codenumber">G</span> <span class="title">Appendix G: Calculus 3 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-h.html" class="internal"><span class="codenumber">H</span> <span class="title">Appendix H: Statistics Lecture Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="appendix-statistics-chapter-1.html" class="internal"><span class="codenumber">H.1</span> <span class="title">Chapter 1 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="appendix-statistics-chapter-2.html" class="internal"><span class="codenumber">H.2</span> <span class="title">Chapter 2 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="appendix-statistics-chapter-3.html" class="internal"><span class="codenumber">H.3</span> <span class="title">Chapter 3 Lecture Notes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-i.html" class="internal"><span class="codenumber">I</span> <span class="title">Appendix I: GeoGebra Tools for Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-summary-statistics-calculator.html" class="internal"><span class="codenumber">I.1</span> <span class="title">Summary Statistics Calculator</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-empirical-rule-tool.html" class="internal"><span class="codenumber">I.2</span> <span class="title">Empirical Rule Tool</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-11.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="stats-ch2-frequency-distribution"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">How to Create Frequency Distributions</span>
+</h2>
+<section class="introduction" id="stats-ch2-frequency-distribution-2"><div class="para" id="stats-ch2-frequency-distribution-2-1">Distributions hold significant theoretical importance in this course. In this section, we will learn about frequency distributions, which is the basis for many of the concepts in this course.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-frequency-distribution-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="stats-ch2-basics-frequency"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Basics of Frequency Distributions</span>
+</h3>
+<article class="definition definition-like" id="stats-ch2-def-frequency"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">What is Frequency?</span>
+</h4>
+<div class="para" id="stats-ch2-def-frequency-2-1">The <dfn class="terminology">frequency</dfn> of a data point is how many times it shows up in the data set.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-frequency-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 18.1.1: What is Frequency?"><a href="#stats-ch2-def-frequency" title="Copy heading and permalink for Definition 18.1.1: What is Frequency?" aria-label="Copy heading and permalink for Definition 18.1.1: What is Frequency?">🔗</a></div></article><article class="definition definition-like" id="stats-ch2-def-freq-dist"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">What is a Frequency Distribution?</span>
+</h4>
+<div class="para" id="stats-ch2-def-freq-dist-2-1">A <dfn class="terminology">frequency distribution</dfn> is a table that lists either the raw data or classes (defined below) in the first column and corresponding frequency in the second column.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-freq-dist-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 18.1.2: What is a Frequency Distribution?"><a href="#stats-ch2-def-freq-dist" title="Copy heading and permalink for Definition 18.1.2: What is a Frequency Distribution?" aria-label="Copy heading and permalink for Definition 18.1.2: What is a Frequency Distribution?">🔗</a></div></article><div class="para" id="stats-ch2-basics-frequency-4">Before the advent of computers, frequency distributions were created manually. This involved arranging the data in ascending order and marking a tally for each occurrence of a data point. This process was prone to human errors such as miscounting or duplicating data.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-basics-frequency-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="stats-ch2-basics-frequency-5">With computers, creating frequency distributions is much faster and more accurate than manual methods. Tools like SPSS, MATLAB, and Excel offer advanced statistical capabilities. GeoGebra, however, is particularly useful in educational settings because of its simplicity and visualization tools, making it ideal for students learning this process.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-basics-frequency-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="stats-ch2-freq-dist-example-1"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example 1.</span>
+</h4>
+<div class="para" id="stats-ch2-freq-dist-example-1-2-1">The data on the number of deaths directly caused by tornadoes in Tennessee is given in the table below. Create a Frequency Distribution for the number of deaths per year.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-example-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="stats-ch2-freq-dist-example-1-2-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Direct Fatalities Caused by Tornadoes in Tennessee (1950-2023)<div class="autopermalink" data-description="Table 18.1.4: Direct Fatalities Caused by Tornadoes in Tennessee (1950-2023)"><a href="#stats-ch2-freq-dist-example-1-2-2" title="Copy heading and permalink for Table 18.1.4: Direct Fatalities Caused by Tornadoes in Tennessee (1950-2023)" aria-label="Copy heading and permalink for Table 18.1.4: Direct Fatalities Caused by Tornadoes in Tennessee (1950-2023)">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines">Year</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Direct Fatalities</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Year</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Direct Fatalities</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Year</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Direct Fatalities</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Year</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Direct Fatalities</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2023</td>
+<td class="l m b0 r0 l0 t0 lines">17</td>
+<td class="l m b0 r0 l0 t0 lines">2004</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1985</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1966</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2022</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">2003</td>
+<td class="l m b0 r0 l0 t0 lines">12</td>
+<td class="l m b0 r0 l0 t0 lines">1984</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1965</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2021</td>
+<td class="l m b0 r0 l0 t0 lines">4</td>
+<td class="l m b0 r0 l0 t0 lines">2002</td>
+<td class="l m b0 r0 l0 t0 lines">17</td>
+<td class="l m b0 r0 l0 t0 lines">1983</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1964</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2020</td>
+<td class="l m b0 r0 l0 t0 lines">27</td>
+<td class="l m b0 r0 l0 t0 lines">2001</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">1982</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1963</td>
+<td class="l m b0 r0 l0 t0 lines">4</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2019</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">2000</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1981</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1962</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2018</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1999</td>
+<td class="l m b0 r0 l0 t0 lines">12</td>
+<td class="l m b0 r0 l0 t0 lines">1980</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1961</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2017</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1998</td>
+<td class="l m b0 r0 l0 t0 lines">7</td>
+<td class="l m b0 r0 l0 t0 lines">1979</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">1960</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2016</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">1997</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1978</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1959</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2015</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">1996</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1977</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1958</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2014</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">1995</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">1976</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1957</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2013</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1994</td>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+<td class="l m b0 r0 l0 t0 lines">1975</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">1956</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2012</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">1993</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1974</td>
+<td class="l m b0 r0 l0 t0 lines">47</td>
+<td class="l m b0 r0 l0 t0 lines">1955</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2011</td>
+<td class="l m b0 r0 l0 t0 lines">32</td>
+<td class="l m b0 r0 l0 t0 lines">1992</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1973</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1954</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2010</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1991</td>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+<td class="l m b0 r0 l0 t0 lines">1972</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1953</td>
+<td class="l m b0 r0 l0 t0 lines">4</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2009</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">1990</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1971</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">1952</td>
+<td class="l m b0 r0 l0 t0 lines">75</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2008</td>
+<td class="l m b0 r0 l0 t0 lines">31</td>
+<td class="l m b0 r0 l0 t0 lines">1989</td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">1970</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">1951</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2007</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1988</td>
+<td class="l m b0 r0 l0 t0 lines">6</td>
+<td class="l m b0 r0 l0 t0 lines">1969</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1950</td>
+<td class="l m b0 r0 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">2006</td>
+<td class="l m b0 r0 l0 t0 lines">34</td>
+<td class="l m b0 r0 l0 t0 lines">1987</td>
+<td class="l m b0 r0 l0 t0 lines">0</td>
+<td class="l m b0 r0 l0 t0 lines">1968</td>
+<td class="l m b0 r0 l0 t0 lines">4</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div></figure><div class="solutions"><details id="stats-ch2-freq-dist-example-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="stats-ch2-freq-dist-example-1-3-1">First, click on the Copy Data to Clipboard button and a popup should appear that indicates the copy was successful.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-example-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-freq-dist-example-1-3-2"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example1_a.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Copy Data to Clipboard button highlighted with a confirmation popup saying ’Dataset copied to clipboard’ at the top.<div class="autopermalink" data-description="Figure 18.1.5"><a href="#stats-ch2-freq-dist-example-1-3-2" title="Copy heading and permalink for Figure 18.1.5" aria-label="Copy heading and permalink for Figure 18.1.5">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-freq-dist-example-1-3-3">Next, open the Frequency Distribution Tool by clicking on <a class="external" href="https://www.geogebra.org/m/qg4j4jc4" target="_blank">this link</a> or by going to the GeoGebra Tools module and clicking the link provided there. Once Frequency Distribution Tool is opened, click on the Spreadsheet tab.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-example-1-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-freq-dist-example-1-3-4"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example1_b.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>GeoGebra interface showing the Spreadsheet tab highlighted with ’Click Here’ annotation.<div class="autopermalink" data-description="Figure 18.1.6"><a href="#stats-ch2-freq-dist-example-1-3-4" title="Copy heading and permalink for Figure 18.1.6" aria-label="Copy heading and permalink for Figure 18.1.6">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-freq-dist-example-1-3-5">Click on the A1 Cell, and right click to open up the Context Menu.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-example-1-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-freq-dist-example-1-3-6"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example1_c.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Spreadsheet context menu with ’Paste’ highlighted.<div class="autopermalink" data-description="Figure 18.1.7"><a href="#stats-ch2-freq-dist-example-1-3-6" title="Copy heading and permalink for Figure 18.1.7" aria-label="Copy heading and permalink for Figure 18.1.7">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-freq-dist-example-1-3-7">Select Paste from the Menu, and the data will copy into the spreadsheet. (This may take a moment to load. Please be patient.)<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-example-1-3-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-freq-dist-example-1-3-8"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example1_d.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Spreadsheet view showing ’Year’ and ’Direct Fatality’ columns populated with data in GeoGebra Calculator Suite.<div class="autopermalink" data-description="Figure 18.1.8"><a href="#stats-ch2-freq-dist-example-1-3-8" title="Copy heading and permalink for Figure 18.1.8" aria-label="Copy heading and permalink for Figure 18.1.8">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-freq-dist-example-1-3-9">Notice that the data in which we are interested is in column B. Remember this! Click on the Spreadsheet tab to hide the data.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-example-1-3-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-freq-dist-example-1-3-10"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example1_e.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Arrow pointing to the Spreadsheet icon with text Click Here Again indicating where to click.<div class="autopermalink" data-description="Figure 18.1.9"><a href="#stats-ch2-freq-dist-example-1-3-10" title="Copy heading and permalink for Figure 18.1.9" aria-label="Copy heading and permalink for Figure 18.1.9">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-freq-dist-example-1-3-11">Notice that the tool is set by default to column A. If we click on the dropdown box and select column B, we will get the correct frequency distribution.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-example-1-3-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-freq-dist-example-1-3-12"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example1_f.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Frequency distribution table with columns Data and Frequency.<div class="autopermalink" data-description="Figure 18.1.10"><a href="#stats-ch2-freq-dist-example-1-3-12" title="Copy heading and permalink for Figure 18.1.10" aria-label="Copy heading and permalink for Figure 18.1.10">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-freq-dist-example-1-3-13">The numbers in the Data column represents the number of deaths reported. The numbers in the Frequency column represent the number of years from 1950 to 2023 that reported that many deaths. For example, 10 years between 1950 and 2023 reported 1 death caused by Tornadoes in Tennessee.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-example-1-3-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="stats-ch2-freq-dist-example-1-3-14">The Title and Column headers as customizable. Just click on the corresponding TextBox in the lower right corner, delete the existing text, and enter what you want to appear there. There is also a slider above the title so you can adjust the horizontal positioning of the title.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-example-1-3-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-freq-dist-example-1-3-15"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example1_g.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Frequency distribution table of tornado deaths in Tennessee (1950-2023) with deaths and years columns.<div class="autopermalink" data-description="Figure 18.1.11"><a href="#stats-ch2-freq-dist-example-1-3-15" title="Copy heading and permalink for Figure 18.1.11" aria-label="Copy heading and permalink for Figure 18.1.11">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 18.1.3.1"><a href="#stats-ch2-freq-dist-example-1-3" title="Copy heading and permalink for Solution 18.1.3.1" aria-label="Copy heading and permalink for Solution 18.1.3.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 18.1.3: Example 1"><a href="#stats-ch2-freq-dist-example-1" title="Copy heading and permalink for Example 18.1.3: Example 1" aria-label="Copy heading and permalink for Example 18.1.3: Example 1">🔗</a></div></article><div class="para" id="stats-ch2-basics-frequency-7">While Example 1 works well for small data sets, many frequency distributions group data into ranges instead of listing each unique data point individually. For example, we could group the number of years with 0 to 4 deaths, 5 to 9 deaths, 10 to 14 deaths, and so on, creating a row in the table for each of these ranges. These ranges are called <dfn class="terminology">classes</dfn> or <dfn class="terminology">bins</dfn> in statistics.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-basics-frequency-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="stats-ch2-basics-frequency-8">If we created a new class for every 5 deaths, we would need 16 classes to cover all the data, from the class with 0 to 4 deaths up to the class with 75 to 79 deaths. However, this approach would lead to many classes with a frequency of 0, which makes the table less meaningful. To avoid this, we want the ranges to be large enough to capture meaningful data but not so small that most classes are empty.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-basics-frequency-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="stats-ch2-basics-frequency-9">So how many classes should we have? As the researcher, you get to decide, but a good rule of thumb is to aim for 5 to 20 classes. Once the number of classes is chosen, the formula below will help determine the range for each class, known as the <dfn class="terminology">class width</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-basics-frequency-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="stats-ch2-def-class-width"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">How do you calculate class width?</span>
+</h4>
+<div class="para" id="stats-ch2-def-class-width-2-1">The <dfn class="terminology">class width</dfn> is the size of each class and determines how data is grouped. It is calculated using the formula \[ \text{class width} = \frac{\text{largest value} - \text{smallest value}}{\text{number of classes}}. \]<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-class-width-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-class-width-2-2">If the result is a decimal, always round up to the next whole number to ensure all data points fit into the intervals. For example, if the calculated width is 9.38, round it up to 10. This ensures every data point fits into one of the classes without gaps.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-class-width-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-class-width-2-3">The class width measures the difference between the smallest numbers in successive classes. For example, if our first class is from 0 to 4 deaths and our second class is from 5 to 9 deaths, then the class width is 5 since <span class="process-math">\(5-0=5\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-class-width-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-class-width-2-4">Yes! This formula isn’t perfect, and occasionally excludes the maximal data point. Sometimes, you have a preferred width you would like to use. It is up to you! For academic purposes though, we will always use the formula unless a problem requires otherwise.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-class-width-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 18.1.12: How do you calculate class width?"><a href="#stats-ch2-def-class-width" title="Copy heading and permalink for Definition 18.1.12: How do you calculate class width?" aria-label="Copy heading and permalink for Definition 18.1.12: How do you calculate class width?">🔗</a></div></article><article class="example example-like" id="stats-ch2-class-width-example"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example 2.</span>
+</h4>
+<div class="para" id="stats-ch2-class-width-example-2-1">Our data from Example 1 range from 0 deaths to 75 deaths. Find the class width that you will need if you want 6 classes.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-class-width-example-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="stats-ch2-class-width-example-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="stats-ch2-class-width-example-3-1">Using the formula above, we have that \begin{align*} \text{class width} &amp;= \frac{\text{largest value} - \text{smallest value}}{\text{number of classes}}\\ &amp;= \frac{75-0}{6}\\ &amp;\approx 12.5 \end{align*}<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-class-width-example-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="stats-ch2-class-width-example-3-2">Since our output gave us a decimal, we round it up to the next integer. Therefore, we will need 13 classes.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-class-width-example-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 18.1.13.1"><a href="#stats-ch2-class-width-example-3" title="Copy heading and permalink for Solution 18.1.13.1" aria-label="Copy heading and permalink for Solution 18.1.13.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 18.1.13: Example 2"><a href="#stats-ch2-class-width-example" title="Copy heading and permalink for Example 18.1.13: Example 2" aria-label="Copy heading and permalink for Example 18.1.13: Example 2">🔗</a></div></article><div class="para" id="stats-ch2-basics-frequency-12">Class widths, along with the minimum value of the data set, define what is known as the <dfn class="terminology">boundary points</dfn> of the classes. Boundary points define where one class ends and another class begins.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-basics-frequency-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="definition definition-like" id="stats-ch2-def-boundary-points"><h4 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.14</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">How do I compute the Boundary Points?</span>
+</h4>
+<div class="para" id="stats-ch2-def-boundary-points-2-1">The minimum value is typically the first boundary point. To find the other boundary points, keep adding the class width until you get a value that is larger than (but not equal to) the maximal value in our data set.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-boundary-points-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-boundary-points-2-2">For example, if we wanted a class width of 5 for the classes of tornado deaths, the boundary points are 0, 5, 10, 15, 20, <span class="process-math">\(\ldots\text{,}\)</span> 70, 75, 80.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-boundary-points-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="stats-ch2-def-boundary-points-2-3">Yes! If you choose your own class size, typically you also choose the first boundary points as well. Just remember to keep adding the class width until you get a number larger than the largest value in the data set.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-def-boundary-points-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 18.1.14: How do I compute the Boundary Points?"><a href="#stats-ch2-def-boundary-points" title="Copy heading and permalink for Definition 18.1.14: How do I compute the Boundary Points?" aria-label="Copy heading and permalink for Definition 18.1.14: How do I compute the Boundary Points?">🔗</a></div></article><article class="example example-like" id="stats-ch2-boundary-points-example"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.15</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example 3.</span>
+</h4>
+<div class="para" id="stats-ch2-boundary-points-example-2-1">Our data from Example 1 range from 0 deaths to 75 deaths. Suppose you want your boundary points to start at 7 and have class width 10. Find all the boundary points.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-boundary-points-example-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="stats-ch2-boundary-points-example-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="stats-ch2-boundary-points-example-3-1">We just start at 7 and keep adding 10 until we get a number larger than 75. So, the boundary points starting with 7 are \[ 7, \quad 17, \quad 27, \quad 37, \quad 47, \quad 57, \quad 67, \quad 77 \]<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-boundary-points-example-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 18.1.15.1"><a href="#stats-ch2-boundary-points-example-3" title="Copy heading and permalink for Solution 18.1.15.1" aria-label="Copy heading and permalink for Solution 18.1.15.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 18.1.15: Example 3"><a href="#stats-ch2-boundary-points-example" title="Copy heading and permalink for Example 18.1.15: Example 3" aria-label="Copy heading and permalink for Example 18.1.15: Example 3">🔗</a></div></article><div class="para" id="stats-ch2-basics-frequency-15">Calculating boundary points and determining the number of classes is straightforward. However, tallying data points in each class can be tedious and error-prone. Instead, we’ll use our GeoGebra tool to automate the tallying and format it into a table. The next example demonstrates this process.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-basics-frequency-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="stats-ch2-freq-dist-classes-example"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.16</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example 4.</span>
+</h4>
+<div class="para" id="stats-ch2-freq-dist-classes-example-2-1">Using our data from Example 1, create a frequency distribution with 8 different classes.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-classes-example-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="stats-ch2-freq-dist-classes-example-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="stats-ch2-freq-dist-classes-example-3-1">The data from Example 1 should already be loaded into GeoGebra. If it is not, follow the steps at the beginning of Example 1 to load the data in and selected option B from the dropbox. Your tool should like this:<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-classes-example-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-freq-dist-classes-example-3-2"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example1_g.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Frequency distribution table of tornado deaths in Tennessee (1950-2023) with deaths and years columns.<div class="autopermalink" data-description="Figure 18.1.17"><a href="#stats-ch2-freq-dist-classes-example-3-2" title="Copy heading and permalink for Figure 18.1.17" aria-label="Copy heading and permalink for Figure 18.1.17">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-freq-dist-classes-example-3-3">The first thing we are going to do is check the Organize Data into Classes checkbox. Multiple new options appear: Lower Class Boundary, Class Width, Number of Classes. (There are other new options; we can ignore them for now.) Notice that the Lower Class Boundary will automatically become the value of the smallest data point; the class width and number of classes will default to preassigned values.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-classes-example-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="stats-ch2-freq-dist-classes-example-3-4">First, we want to calculate the class width. Since we want 8 classes, we will enter that value into class width. Notice that the number of classes will update to 10 since \begin{align*} \text{class width} &amp;= \frac{\text{largest value} - \text{smallest value}}{\text{number of classes}}\\ &amp;= \frac{75-0}{8}\\ &amp;\approx 9.375\\ &amp;= 10 \text{ (rounding up)} \end{align*}<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-classes-example-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-freq-dist-classes-example-3-5"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example4.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Frequency distribution with 8 classes, a class width of 10, showing frequencies for tornado deaths in Tennessee.<div class="autopermalink" data-description="Figure 18.1.18"><a href="#stats-ch2-freq-dist-classes-example-3-5" title="Copy heading and permalink for Figure 18.1.18" aria-label="Copy heading and permalink for Figure 18.1.18">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-freq-dist-classes-example-3-6">Now, if you count up the number of classes in the table, notice there is 11 different classes. Why is there 11 when Number of Classes is set to 10? Sometimes, the largest value of the data set gets counted in the last classes when it should not be. It is a quirk of how GeoGebra defined class frequencies. (And there is nothing wrong with that the method GeoGebra uses; it is just uses a slightly different definition of boundary points than was given above.) To correct for this difference, the Frequency Distribution Tool automatically adds an extra class by default. But, notice that the last class has a frequency of 0. That means the extra class wasn’t needed, and we can click on the Deselect if Last Row Equals 0 checkbox to remove it. Therefore, we get the following frequency distribution.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-classes-example-3-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-freq-dist-classes-example-3-7"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example4a.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.19<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Frequency Distribution with the extra class removed.<div class="autopermalink" data-description="Figure 18.1.19"><a href="#stats-ch2-freq-dist-classes-example-3-7" title="Copy heading and permalink for Figure 18.1.19" aria-label="Copy heading and permalink for Figure 18.1.19">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-freq-dist-classes-example-3-8">The classes/bins column gives the range of values for each class, always including the first number in the range and excluding the last number in the range. For example, the interval 0 to 9 means the range of values starting at 0 and include all the numbers up to but not including 10. The Frequency, as before, tells us the number of years whose number of deaths fell into that range of values. For example, there were 64 years that had 0 up to 10 deaths.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-classes-example-3-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="stats-ch2-freq-dist-classes-example-3-9">Some instructors/websites prefer to use interval notation to describe the classes/bins. For example, 0 to 9 would be written as <span class="process-math">\([0,10)\)</span> since <span class="process-math">\([0\)</span> indicates to start and include 0 and <span class="process-math">\(10)\)</span> means to include all the numbers up to but not including 10. When the check box is clicked, the frequency distribution looks like this.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-classes-example-3-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-freq-dist-classes-example-3-10"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example4c.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.20<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The classes/bins column is now expressed in interval notation.<div class="autopermalink" data-description="Figure 18.1.20"><a href="#stats-ch2-freq-dist-classes-example-3-10" title="Copy heading and permalink for Figure 18.1.20" aria-label="Copy heading and permalink for Figure 18.1.20">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-freq-dist-classes-example-3-11">For future examples, we will not use interval notation.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-freq-dist-classes-example-3-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 18.1.16.1"><a href="#stats-ch2-freq-dist-classes-example-3" title="Copy heading and permalink for Solution 18.1.16.1" aria-label="Copy heading and permalink for Solution 18.1.16.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 18.1.16: Example 4"><a href="#stats-ch2-freq-dist-classes-example" title="Copy heading and permalink for Example 18.1.16: Example 4" aria-label="Copy heading and permalink for Example 18.1.16: Example 4">🔗</a></div></article><div class="para" id="stats-ch2-basics-frequency-17">Before we close this section out, we will give a demonstration of creating a frequency distribution that starts at a value other than the minimum value of the data set.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-basics-frequency-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="stats-ch2-custom-boundary-example"><h4 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.21</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Example 5.</span>
+</h4>
+<div class="para" id="stats-ch2-custom-boundary-example-2-1">Use our data set from Example 1 to create a frequency distribution that starts at 7 and has a class width of 6.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-custom-boundary-example-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="stats-ch2-custom-boundary-example-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="stats-ch2-custom-boundary-example-3-1">The data from Example 1 should already be loaded into GeoGebra. If it is not, follow the steps at the beginning of Example 1 to load the data in and selected option B from the dropbox. Your tool should like this if you’ve been doing all the examples in order on this page:<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-custom-boundary-example-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-custom-boundary-example-3-2"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example4c.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.22<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>The classes/bins column is now expressed in interval notation.<div class="autopermalink" data-description="Figure 18.1.22"><a href="#stats-ch2-custom-boundary-example-3-2" title="Copy heading and permalink for Figure 18.1.22" aria-label="Copy heading and permalink for Figure 18.1.22">🔗</a></div></figcaption></figure><div class="para" id="stats-ch2-custom-boundary-example-3-3">All we need to do enter 7 for the Lower Class Boundary and 8 for the Class Width. Notice the Number of Classes will update to 10 since Since we want 8 classes, we will enter that value into class width. Notice that the number of classes will update to 10 since \begin{align*} \text{number of classes} &amp;= \frac{\text{largest value} - \text{smallest value}}{\text{class width}}\\ &amp;= \frac{75-0}{6}\\ &amp;\approx 12.5\\ &amp;= 13 \text{ (rounding up)} \end{align*}<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-custom-boundary-example-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="stats-ch2-custom-boundary-example-3-4"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/statistics/frequencydistribution_example5.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.23<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Frequency distribution with lower boundary 7 and class width 6.<div class="autopermalink" data-description="Figure 18.1.23"><a href="#stats-ch2-custom-boundary-example-3-4" title="Copy heading and permalink for Figure 18.1.23" aria-label="Copy heading and permalink for Figure 18.1.23">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Solution 18.1.21.1"><a href="#stats-ch2-custom-boundary-example-3" title="Copy heading and permalink for Solution 18.1.21.1" aria-label="Copy heading and permalink for Solution 18.1.21.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 18.1.21: Example 5"><a href="#stats-ch2-custom-boundary-example" title="Copy heading and permalink for Example 18.1.21: Example 5" aria-label="Copy heading and permalink for Example 18.1.21: Example 5">🔗</a></div></article><article class="note remark-like" id="stats-ch2-basics-frequency-19"><h4 class="heading">
+<span class="type">Note</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">18.1.24</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Warning.</span>
+</h4>
+<div class="para" id="stats-ch2-basics-frequency-19-2">Notice there are 13 classes, and each has a class width of 6. But, notice that the last class has a 0 in it. The best Frequency Distributions always have a non-zero frequency for the first and last class. Also, notice we missed all the years that had fewer than 7 deaths. So, while this is a correctly constructed Frequency Distribution, it is also a bit misleading.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-basics-frequency-19-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="stats-ch2-basics-frequency-19-3">That is why it is better to let the Lower Boundary be the minimum value. We get all the data, and our first and last classes will be a non-zero frequency ensuring that our table is just the right size for the number of classes or class width we desire.<div class="autopermalink" data-description="Paragraph"><a href="#stats-ch2-basics-frequency-19-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Note 18.1.24: Warning"><a href="#stats-ch2-basics-frequency-19" title="Copy heading and permalink for Note 18.1.24: Warning" aria-label="Copy heading and permalink for Note 18.1.24: Warning">🔗</a></div></article><div class="autopermalink" data-description="Subsection 18.1.1: Basics of Frequency Distributions"><a href="#stats-ch2-basics-frequency" title="Copy heading and permalink for Subsection 18.1.1: Basics of Frequency Distributions" aria-label="Copy heading and permalink for Subsection 18.1.1: Basics of Frequency Distributions">🔗</a></div></section><div class="autopermalink" data-description="Section 18.1: How to Create Frequency Distributions"><a href="#stats-ch2-frequency-distribution" title="Copy heading and permalink for Section 18.1: How to Create Frequency Distributions" aria-label="Copy heading and permalink for Section 18.1: How to Create Frequency Distributions">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="statistics-chapter2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="stats-ch2-relative-frequency.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
