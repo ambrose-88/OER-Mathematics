@@ -10,8 +10,8 @@
   <xi:include href="data-thought-process.ptx" />
   <xi:include href="population-sample.ptx" />
   <xi:include href="parameter-statistics.ptx" />
-  <xi:include href="data-collection-bias.ptx" />
   <xi:include href="levels-measurement.ptx" />
+  <xi:include href="data-collection-bias.ptx" />
   <xi:include href="sampling-methods.ptx" />
   <xi:include href="experimental-design.ptx" />
 

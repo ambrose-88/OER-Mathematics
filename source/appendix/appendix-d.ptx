@@ -13,4 +13,5 @@
   <xi:include href="./trigonometry/unit-circle.ptx"/>
   <xi:include href="./trigonometry/sine-cosine-graphs.ptx"/>
   <xi:include href="./trigonometry/other-four-graphs.ptx"/>
+  <xi:include href="./trigonometry/inverse-trig.ptx"/>
 </appendix>

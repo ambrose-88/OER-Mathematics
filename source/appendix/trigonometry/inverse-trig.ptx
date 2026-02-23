@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-trig-inverse-trig" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Inverse Trigonometric Functions</title>
+
+
+        <definition xml:id="def-app-trig-inverse-relation">
+            <statement>
+                <p>
+                    Let <m>f(x)</m> be any function. Then there exists a relation <m>f^{-1}(x)</m> that has the following properties:
+                    <ul>
+                        <li><m>f^{-1}(x)</m> is the set of all values <m>y</m> such that <m>x=f(y)</m>.</li>
+                        <li>domain of <m>f^{-1}(x)</m> = range of <m>f(x)</m>.</li>
+                        <li>range of <m>f^{-1}(x)</m> = domain of <m>f(x)</m>.</li>
+                    </ul>
+                </p>
+                <p>
+                    The relation <m>f^{-1}(x)</m> is called the <term>inverse</term> of <m>f(x)</m>.
+                </p>
+            </statement>
+        </definition>
+        <example xml:id="ex-trig-inverse-square-function" workspace="1in">
+            <title>Evaluating an Inverse Relation That Is Not a Function</title>
+            <statement>
+                <p>Suppose that <m>f(x)=x^2</m>. Evaluate <m>f^{-1}(4)</m>.</p>
+            </statement>
+        </example>
+
+        <note xml:id="def-app-trig-when-inverse-is-function">
+            <title>When is <m>f^{-1}(x)</m> a function?</title>
+                <p>
+                    <m>f^{-1}(x)</m> is a function if the graph of <m>f(x)</m> passes the <term>horizontal</term> line test.
+                    In other words, when <m>f(x)</m> is one-to-one.
+                </p>
+        </note>
+        <figure xml:id="fig-one-to-one-examples">
+            <caption>Two examples: One of a function that is one-to-one and one that is not.</caption>
+            <sidebyside>
+                <figure xml:id="fig-one-to-one-example">
+                    <caption>The function <m>f(x)=x^3</m> is one-to-one since it passes the horizontal line text.</caption>
+                    <image source="trigonometry/x-cubed-one-to-one.png" decorative="yes"/>
+                </figure>
+                <figure xml:id="fig-not-one-to-one-example">
+                    <caption>The function <m>f(x)=x^2</m> is not one-to-one since it fails the horizontal line test.</caption>
+                    <image source="trigonometry/x-squared-not-one-to-one.png" decorative="yes"/>
+                </figure>
+            </sidebyside>
+        </figure>
+<theorem xml:id="lecture-notes-thm-inverse-composition-properties-review">
+  <title>Inverse Function Property</title>
+  <statement>
+    <p>Let <m>f(x)</m> be any one-to-one function. Then the inverse function <m>f^{-1}(x)</m> exists and has the following properties.</p>
+    <p>
+      <ol>
+        <li><p><m>(f^{-1}\circ f)(x)=x</m> for any <m>x</m> in the domain of <m>f</m>.</p></li>
+        <li><p><m>(f\circ f^{-1})(x)=x</m> for any <m>x</m> in the range of <m>f</m>.</p></li>
+        <li><p>The domain of <m>f^{-1}</m> equals the range of <m>f</m>.</p></li>
+        <li><p>The range of <m>f^{-1}</m> equals the domain of <m>f</m>.</p></li>
+      </ol>
+    </p>
+  </statement>
+</theorem>
+<example xml:id="ex-app-trig-1" workspace="6in">
+    <title>Constructing Inverse Functions for <m>f(x)=x^2</m> with Domain Restrictions</title>
+  <statement>
+    <p>The function <m>f(x)=x^2</m> is not one-to-one over all real numbers. 
+        Find the two domain restrictions of <m>f(x)</m> that are one-to-one and create an inverse function for each restriction.</p>
+  </statement>
+</example>
+
+<example xml:id="ex-construct-inverse-sine" workspace="6in">
+    <title>Constructing the Inverse Sine Function</title>
+    <statement>
+        <p>
+            The sine function is not one-to-one over all real numbers. 
+            Find a domain restriction of the sine function that is one-to-one and create an inverse function for that restriction.
+        </p>
+    </statement>
+</example>
+
+        <definition xml:id="def-app-trig-inverse-sine">
+            <title>Definition of the Inverse Sine Function</title>
+            <statement>
+                <p>
+                    Let <m>f(x)=\sin(x)</m> on <m>\left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]</m>. We define the inverse sine function by
+                </p>
+                <p>
+                    <me>y=\sin^{-1}(x)\qquad \text{means}\qquad x=\sin(y)</me>
+                </p>
+                <p>
+                   The domain and range of <m>\sin^{-1}(x)</m> are
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>[-1,1]</m> and
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Range: <m>\left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]</m>  (quadrant 1 and 4 angles).
+                            </p>
+                        </li>
+                    </ul>
+                    
+                    Common values of <m>\sin^{-1}(x)</m> are given in the following table.
+                </p>
+                <table xml:id="table-app-trig-arcsin-values">
+                        <title>Inverse Sine Values</title>
+                        <tabular row-headers="yes">
+                            <row>
+                                <cell right="minor"><m>x</m></cell>
+                                <cell><m>-1</m></cell>
+                                <cell><m>-\sqrt{3}/2</m></cell>
+                                <cell><m>-\sqrt{2}/2</m></cell>
+                                <cell><m>-1/2</m></cell>
+                                <cell><m>0</m></cell>
+                                <cell><m>1/2</m></cell>
+                                <cell><m>\sqrt{2}/2</m></cell>
+                                <cell><m>\sqrt{3}/2</m></cell>
+                                <cell><m>1</m></cell>
+                            </row>
+                            <row>
+                                <cell right="minor"><m>y=\sin^{-1}(x)</m></cell>
+                                <cell><m>-\pi/2</m></cell>
+                                <cell><m>-\pi/3</m></cell>
+                                <cell><m>-\pi/4</m></cell>
+                                <cell><m>-\pi/6</m></cell>
+                                <cell><m>0</m></cell>
+                                <cell><m>\pi/6</m></cell>
+                                <cell><m>\pi/4</m></cell>
+                                <cell><m>\pi/3</m></cell>
+                                <cell><m>\pi/2</m></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                
+            </statement>
+        </definition>
+
+        <note xml:id="note-app-trig-inverse-notation">
+            <title>Note on the <m>^{-1}</m> Notation</title>
+            <p>
+                <ul>
+                    <li>For numbers, <m>2^{-1}=\dfrac{1}{2}</m> because the ideas of reciprocals and inverses produce the same result.</li>
+                    <li>For functions, <m>f^{-1}(x)</m> means the inverse of <m>f</m>, not <m>\dfrac{1}{f(x)}</m>.</li>
+                    <li>To denote a reciprocal function, use <m>[f(x)]^{-1}=\dfrac{1}{f(x)}</m>.</li>
+                </ul>
+            </p>
+        </note>
+
+        <example xml:id="ex-app-trig-4" workspace="1in">
+            <title>Evaluating an Inverse Sine Exact Value</title>
+            <statement>
+                <p>Find the exact value of <m>\sin^{-1}\left(\dfrac{\sqrt{3}}{2}\right)</m>.</p>
+            </statement>
+        </example>
+
+        <example xml:id="ex-app-trig-5" workspace="1in">
+            <title>Evaluating a Negative Inverse Sine Exact Value</title>
+            <statement>
+                <p>Find the exact value of <m>\sin^{-1}\left(-\dfrac{\sqrt{2}}{2}\right)</m>.</p>
+            </statement>
+        </example>
+
+        <example xml:id="ex-app-trig-6" workspace="3in">
+            <title>Using Inverse Sine to Find a Quadrant III Angle</title>
+            <statement>
+                <p>Use <m>\sin^{-1}\left(-\dfrac{1}{2}\right)</m> to find a Quadrant III angle <m>\theta</m> such that <m>\sin(\theta)=-\dfrac{1}{2}</m>.</p>
+            </statement>
+        </example>
+
+<example xml:id="ex-construct-inverse-cosine" workspace="6in">
+    <title>Constructing the Inverse Cosine Function</title>
+    <statement>
+        <p>
+            The cosine function is not one-to-one over all real numbers. 
+            Find a domain restriction of the cosine function that is one-to-one and create an inverse function for that restriction.
+        </p>
+    </statement>
+</example>
+
+             <definition xml:id="def-app-trig-inverse-cosine">
+            <title>Definition of the Inverse Cosine Function</title>
+            <statement>
+                <p>
+                    Let <m>f(x)=\cos(x)</m> on <m>[0,\pi]</m>. We define the inverse cosine function by
+                </p>
+                <p>
+                    <me>y=\cos^{-1}(x)\qquad \text{means}\qquad x=\cos(y)</me>
+                </p>
+                <p>
+                    The domain and range of <m>\cos^{-1}(x)</m> are
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>[-1,1]</m> and
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Range: <m>[0,\pi] </m>(quadrant 1 and 2 angles).
+                            </p>
+                        </li>
+                    </ul>
+                    
+                    Common values of <m>\cos^{-1}(x)</m> are given in the following table.
+                </p>
+                <table xml:id="table-app-trig-arccos-values">
+                        <title>Inverse Cosine Values</title>
+                        <tabular row-headers="yes">
+                            <row>
+                                <cell right="minor"><m>x</m></cell>
+                                <cell><m>-1</m></cell>
+                                <cell><m>-\sqrt{3}/2</m></cell>
+                                <cell><m>-\sqrt{2}/2</m></cell>
+                                <cell><m>-1/2</m></cell>
+                                <cell><m>0</m></cell>
+                                <cell><m>1/2</m></cell>
+                                <cell><m>\sqrt{2}/2</m></cell>
+                                <cell><m>\sqrt{3}/2</m></cell>
+                                <cell><m>1</m></cell>
+                            </row>
+                            <row>
+                                <cell right="minor"><m>y=\cos^{-1}(x)</m></cell>
+                                <cell><m>\pi</m></cell>
+                                <cell><m>5\pi/6</m></cell>
+                                <cell><m>3\pi/4</m></cell>
+                                <cell><m>2\pi/3</m></cell>
+                                <cell><m>\pi/2</m></cell>
+                                <cell><m>\pi/3</m></cell>
+                                <cell><m>\pi/4</m></cell>
+                                <cell><m>\pi/6</m></cell>
+                                <cell><m>0</m></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                
+            </statement>
+        </definition>
+        <example xml:id="ex-app-trig-7" workspace="1in">
+            <title>Evaluating an Inverse Cosine Exact Value</title>
+            <statement>
+                <p>Find the exact value of <m>\cos^{-1}\left(\dfrac{\sqrt{3}}{2}\right)</m>.</p>
+            </statement>
+        </example>
+
+        <example xml:id="ex-app-trig-8" workspace="1in">
+            <title>Evaluating a Negative Inverse Cosine Exact Value</title>
+            <statement>
+                <p>Find the exact value of <m>\cos^{-1}\left(-\dfrac{\sqrt{2}}{2}\right)</m>.</p>
+            </statement>
+        </example>
+
+        <example xml:id="ex-app-trig-9" workspace="3in">
+            <title>Using Inverse Cosine to Find a Quadrant IV Angle</title>
+            <statement>
+                <p>Use <m>\cos^{-1}\left(\dfrac{1}{2}\right)</m> to find a Quadrant IV angle <m>\theta</m> such that <m>\cos(\theta)=\dfrac{1}{2}</m>.</p>
+            </statement>
+        </example>
+
+<example xml:id="ex-construct-inverse-tangent" workspace="6in">
+    <title>Constructing the Inverse Tangent Function</title>
+    <statement>
+        <p>
+            The tangent function is not one-to-one over all real numbers. 
+            Find a domain restriction of the tangent function that is one-to-one and create an inverse function for that restriction.
+        </p>
+    </statement>
+</example>
+
+        <definition xml:id="def-app-trig-inverse-tangent">
+            <title>Definition of the Inverse Tangent Function</title>
+            <statement>
+                <p>
+                    Let <m>f(x)=\tan(x)</m> on <m>\left(-\dfrac{\pi}{2},\dfrac{\pi}{2}\right)</m>. We define the inverse tangent function by
+                </p>
+                <p>
+                    <me>y=\tan^{-1}(x)\qquad \text{means}\qquad x=\tan(y)</me>
+                </p>
+                <p>
+                    The domain and range of <m>\tan^{-1}(x)</m> are
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>(-\infty,\infty)</m> and
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Range: <m>\left(-\dfrac{\pi}{2},\dfrac{\pi}{2}\right)</m> (quadrant 1 and 4 angles).
+                            </p>
+                        </li>
+                    </ul>
+                    
+                    Common values of <m>\tan^{-1}(x)</m> are given in the following table.
+                </p>
+                <table xml:id="table-app-trig-arctan-values">
+                        <title>Inverse Tangent Values</title>
+                        <tabular row-headers="yes">
+                            <row>
+                                <cell right="minor"><m>x</m></cell>
+                                <cell><m>-\sqrt{3}</m></cell>
+                                <cell><m>-1</m></cell>
+                                <cell><m>-\sqrt{3}/3</m></cell>
+                                <cell><m>0</m></cell>
+                                <cell><m>\sqrt{3}/3</m></cell>
+                                <cell><m>1</m></cell>
+                                <cell><m>\sqrt{3}</m></cell>
+                            </row>
+                            <row>
+                                <cell right="minor"><m>y=\tan^{-1}(x)</m></cell>
+                                <cell><m>-\pi/3</m></cell>
+                                <cell><m>-\pi/4</m></cell>
+                                <cell><m>-\pi/6</m></cell>
+                                <cell><m>0</m></cell>
+                                <cell><m>\pi/6</m></cell>
+                                <cell><m>\pi/4</m></cell>
+                                <cell><m>\pi/3</m></cell>
+                            </row>
+                        </tabular>
+                    </table>
+                
+            </statement>
+        </definition>
+
+            <example xml:id="ex-app-trig-10" workspace="1in">
+                <title>Evaluating an Inverse Tangent Exact Value</title>
+                <statement>
+                    <p>Find the exact value of <m>\tan^{-1}\left(\sqrt{3}\right)</m>.</p>
+                </statement>
+            </example>
+
+            <example xml:id="ex-app-trig-11" workspace="1in">
+                <title>Evaluating a Negative Inverse Tangent Exact Value</title>
+                <statement>
+                    <p>Find the exact value of <m>\tan^{-1}\left(-1\right)</m>.</p>
+                </statement>
+            </example>
+
+            <example xml:id="ex-app-trig-12" workspace="3in">
+                <title>Using Inverse Tangent to Find a Quadrant III Angle</title>
+                <statement>
+                    <p>Use <m>\tan^{-1}\left(\dfrac{\sqrt{3}}{3}\right)</m> to find a Quadrant III angle <m>\theta</m> such that <m>\tan(\theta)=\dfrac{\sqrt{3}}{3}</m>.</p>
+                </statement>
+            </example>
+
+<example xml:id="ex-construct-inverse-cosecant" workspace="6in">
+    <title>Constructing the Inverse Cosecant Function</title>
+    <statement>
+        <p>
+            The cosecant function is not one-to-one over all real numbers. 
+            Find a domain restriction of the cosecant function that is one-to-one and create an inverse function for that restriction.
+        </p>
+    </statement>
+</example>
+
+  <definition xml:id="def-app-trig-inverse-cosecant">
+            <title>Definition of the Inverse Cosecant Function</title>
+            <statement>
+                <p>
+                    Let <m>f(x)=\csc(x)</m> on <m>[-\pi/2,0)\cup(0,\pi/2]</m>. We define the inverse cosecant function by
+                </p>
+                <p>
+                    <me>y=\csc^{-1}(x)\qquad \text{means}\qquad x=\csc(y)</me>
+                </p>
+                <p>
+                    The domain and range of <m>\csc^{-1}(x)</m> are
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>(-\infty,-1]\cup[1,\infty)</m> and
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Range: <m>[-\pi/2,0)\cup(0,\pi/2]</m> (quadrant 1 and 4 angles).
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </definition>            
+
+<example xml:id="ex-construct-inverse-secant" workspace="6in">
+    <title>Constructing the Inverse Secant Function</title>
+    <statement>
+        <p>
+            The secant function is not one-to-one over all real numbers. 
+            Find a domain restriction of the secant function that is one-to-one and create an inverse function for that restriction.
+        </p>
+    </statement>
+</example>
+
+ <definition xml:id="def-app-trig-inverse-secant">
+            <title>Definition of the Inverse Secant Function</title>
+            <statement>
+                <p>
+                    Let <m>f(x)=\sec(x)</m> on <m>[0,\pi/2)\cup(\pi/2,\pi]</m>. We define the inverse secant function by
+                </p>
+                <p>
+                    <me>y=\sec^{-1}(x)\qquad \text{means}\qquad x=\sec(y)</me>
+                </p>
+                <p>
+                    The domain and range of <m>\sec^{-1}(x)</m> are
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>(-\infty,-1]\cup[1,\infty)</m> and
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Range: <m>[-\pi/2,0)\cup(0,\pi/2]</m> (quadrant 1 and 4 angles).
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </definition>
+       <example xml:id="ex-construct-inverse-cotangent" workspace="6in">
+    <title>Constructing the Inverse Cotangent Function</title>
+    <statement>
+        <p>
+            The cotangent function is not one-to-one over all real numbers. 
+            Find a domain restriction of the cotangent function that is one-to-one and create an inverse function for that restriction.
+        </p>
+    </statement>
+</example>     
+
+               <definition xml:id="def-app-trig-inverse-cotangent">
+            <title>Definition of the Inverse Cotangent Function</title>
+            <statement>
+                <p>
+                    Let <m>f(x)=\cot(x)</m> on <m>(0,\pi)</m>. We define the inverse cotangent function by
+                </p>
+                <p>
+                    <me>y=\cot^{-1}(x)\qquad \text{means}\qquad x=\cot(y)</me>
+                </p>
+                <p>
+                    The domain and range of <m>\cot^{-1}(x)</m> are
+                </p>
+                <p>
+                    <ul>
+                        <li>
+                            <p>
+                                Domain: <m>(-\infty,\infty)</m> and
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Range: <m>(0,\pi)</m> (quadrant 1 and 2 angles).
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </definition>
+
+        <example xml:id="ex-app-trig-13" workspace="2in">
+            <title>Using a Calculator to Evaluate Inverse Trigonometric Functions</title>
+            <statement>
+                <p>
+                    Use a calculator to find the value of each inverse function.
+                    <ul>
+                        <li><m>\cos^{-1}\left(\dfrac{1}{2}\right)</m></li>
+                        <li><m>\tan^{-1}\left(-35.85\right)</m></li>
+                        <li><m>\sin^{-1}\left(1.5\right)</m>. Explain why you got the result that you did.</li>
+                    </ul>
+                </p>
+            </statement>
+        </example>
+
+        <example xml:id="ex-app-trig-16" workspace="6in">
+            <title>Evaluating a Composite Inverse Trigonometric Expression</title>
+            <statement>
+                <p>Evaluate <m>\sin\left(\cos^{-1}\left(\dfrac{5}{13}\right)\right)</m> without a calculator.</p>
+            </statement>
+        </example>
+
+        <example xml:id="ex-app-trig-17" workspace="6in">
+            <title>Rewriting a composition of Trigonometric Functions as an Algebraic Expression</title>
+            <statement>
+                <p>Rewrite <m>\cos(\tan^{-1}(x))</m> as an algebraic expression in <m>x</m>, with no trigonometric functions in the final answer.</p>
+            </statement>
+        </example>
+</worksheet>
