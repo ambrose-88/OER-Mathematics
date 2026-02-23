@@ -3988,155 +3988,11 @@ var ptx_lunr_docs = [
   "body": " Example 2   Determine if the boldface number is a parameter or a statistic: In 2022, the average math score for a female student who took the ACT that year was 19.7.    Whether 19.7 is a parameter or a statistic depends on the context of the data:    If we are only considering female students who took the ACT in 2022, then 19.7 would be a parameter because it represents a characteristic of the entire population for that year.  However, if we are studying how the average score changes over multiple years, then 19.7 would be a statistic because it represents a single data point (a sample) in a larger analysis of trends.     "
 },
 {
-  "id": "stats-ch1-data-collection-bias",
-  "level": "1",
-  "url": "stats-ch1-data-collection-bias.html",
-  "type": "Section",
-  "number": "17.4",
-  "title": "Data Collection and Bias",
-  "body": " Data Collection and Bias   Effective data collection is essential for reliable statistical studies. Observational studies measure characteristics without intervention, while experiments impose treatments to observe their effects. Key techniques like randomization, replication, and blinding reduce bias and improve accuracy. Understanding and addressing sources of bias, such as response bias and nonresponse, ensures valid and meaningful results.    Data Collection Methods   What is an Observational Study?   In an observational study , a researcher observes and measures characteristics but does not change any existing conditions.     What is an Experiment and a Treatment?   In an experiment , a researcher imposes a change in some preexisting condition, called a treatment , onto a sample of a population and measures their response to that change.     What is a Control Group?   A control group is a sample that receives no treatment and is used as a baseline to compare other samples to.     Example 1   Determine whether the study is observational or an experiment. Explain your reasoning.    Part A: In a survey of 1033 US adults, 51% of respondents said that US presidents should release all medical information that might affect their ability to serve.  Part B: Researchers demonstrated that adults using an intensive program to lower systolic blood pressure to less than 120 millimeters of mercury reduce the risk of death from all causes by 27%.        Part A: Observational study. The researchers surveyed respondents and recorded their opinions without imposing any changes or treatments. No variables were manipulated.  Part B: Experiment. The researchers imposed a treatment by implementing an intensive program to lower systolic blood pressure. They then measured the participants' responses (reduction in the risk of death).        Elements of a Well-Designed Study   What is Replication?   Replication assigns enough individuals to each treatment to reduce the variation in the results. This ensures that similar experiments conducted under the same conditions will yield similar results.  For example, a medical researcher is testing the effectiveness of a new drug to lower blood pressure. To ensure reliable results, the researcher assigns 500 participants to the treatment group (receiving the drug) and 500 participants to the control group (receiving a placebo). By assigning a large number of participants to each group, the researcher reduces the variability in results that might occur due to chance or individual differences. Replication ensures that the outcomes are consistent and reproducible if the experiment is repeated under the same conditions.  We will learn in Chapter 6 why larger sample sizes lead to less variation.     What is Randomization?   Randomization selects subjects randomly so that variations in results occur purely by chance, not external factors.  For example, in a clinical trial testing a pain medication, 200 participants are randomly assigned to two groups: 100 receive the medication, and 100 receive a placebo. Randomization ensures that differences between the groups are due to the treatment and not factors like age or health.  As the study is replicated, probability theory, the subject of Chapter 4, predicts that the effects of random variation diminish. Consistently similar results across replications increase confidence that the findings reflect the true population characteristics.     Example 2   In statistics, it is often said that a single data study does not prove a result. Explain why this is true.    A single study does not prove a result because of the following issues.    Any single study is subject to random variation due to chance, as a sample may not perfectly represent the population. This error can cause the results to differ from the true population characteristics purely by chance.  Without replication, it is difficult to determine whether the observed result is reliable or simply due to random variation. A single study cannot confirm the consistency of findings across repeated experiments.       What is Blinding?   Blinding ensures that subjects do not know whether they are receiving a placebo or an actual treatment. This reduces the risk of bias caused by participants' expectations influencing the results.  What is a Single-Blind Experiment? In a single-blind experiment, the participants do not know whether they are receiving the treatment or a placebo, but the researchers administering the treatment do know.  For example, in a clinical trial testing a new allergy medication, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. The participants do not know which group they are in, but the researchers administering the medication do. This prevents participants' expectations from influencing the results, though it still leaves room for potential researcher bias.  What is a Double-Blind Experiment? In a double-blind experiment, neither the participants nor the researchers administering the treatment know who is receiving the treatment or the placebo.  For example, in the same allergy medication trial, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. Neither the participants nor the researchers administering the treatment know who is in which group. This eliminates both participant and researcher bias, ensuring that the results are as unbiased as possible.     Example 3   An experiment that claimed to show that meditation reduces anxiety proceeded as follows:  The experimenter interviewed the subjects and rated their level of anxiety. Then the subjects were randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply told to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety levels. The meditation group now had less anxiety.  Psychologists said that the results were suspect because the ratings were not blind. Explain what this means and show how the lack of blindness could introduce bias into the reported results.    The psychologists' concern about the lack of blindness refers to the fact that the experimenter, who rated the subjects' anxiety levels both before and after the experiment, knew which group each subject belonged to (meditation or relaxation). This lack of blindness could introduce bias in the following ways:    The experimenter might have unconsciously expected the meditation group to show greater improvement, leading them to rate that group's anxiety levels more favorably.  Since the experimenter knew the treatment assignments, their personal beliefs about meditation's effectiveness could have influenced their ratings, even if unintentionally.    To reduce bias, the experimenter could have implemented a double-blind procedure. In a double-blind experiment, the experimenter conducting the interviews would not know which group each subject was in. This would ensure that the ratings are based solely on the subjects' behavior and responses, without being influenced by the experimenter's expectations.  By using proper blinding, the anxiety ratings would be less likely to reflect the experimenter's or subjects' biases, leading to more reliable and unbiased results.      Common Sources of Bias in Statistical Study  Accurate data collection is the foundation of any statistical analysis, providing the raw information needed to draw meaningful conclusions about populations. However, the process of collecting data is not without its challenges. This section explores key aspects of data collection and common sources of bias, including response bias, wording effects, and nonresponse. By understanding these challenges, we can design better methods for collecting high-quality data and minimize the impact of bias on our results.   What is Response Bias?   Response bias occurs when the behavior of the respondent or the interviewer influences the response that the respondent gives. This can result in inaccurate or misleading data that does not accurately represent the population being studied.     Example 4   When asked a question such as, \"Did you vote in the last presidential election?\", many people will indicate they voted when in reality they did not. Why do you think people lied, and why is this an example of response bias?    Many people lie in response to this question because voting is socially desirable. People may feel pressure to give an answer that aligns with societal expectations, even if it is not truthful. This is an example of response bias because the respondent's behavior (lying to conform to expectations) influences the data, making it inaccurate.     What are Wording Effects?   Wording effects occur when the phrasing, choice of words, or order in which questions are asked affects the responses collected. Even slight changes in how a question is framed can result in significantly different answers, which can introduce bias into the data.     Example 5   Which question do you think people agreed more with?    Question A: Is the government spending too much on assistance to the poor?  Question B: Is the government spending too much on welfare?    Discuss how the choice of words could affect how people respond to these questions.    People are more likely to agree with Question A because the phrase \"assistance to the poor\" evokes a sense of helping those in need. In contrast, the term \"welfare\" may carry negative connotations for some people, as it is often associated with misuse or dependency. This demonstrates how subtle changes in wording can influence how respondents perceive and answer questions, a key example of wording effects.     What is Nonresponse?   Nonresponse occurs when a respondent refuses to participate or cannot be reached. This results in missing data and can skew the results if the nonrespondents differ systematically from those who do respond.     Example 6   An opinion poll calls 2000 randomly chosen households and asks an adult member of the household, \"How many movies have you watched in a movie theater in the last 12 months?\" Only 831 people responded.    What is the rate of nonresponse?  Why do you think the nonresponse rate was so high?      The total number of households contacted was 2000, and the number of responses was 831. To calculate the rate of nonresponse:   The nonresponse rate is 58.45%, which is quite high. The likely reasons include:    People may not answer calls from unknown numbers or may be busy when called.  Some people may not feel comfortable sharing personal information, such as how often they go to the movies.  The question may not seem relevant to everyone, leading to disengagement.        Conclusion  Accurate statistical results rely on well-designed studies that minimize bias and random variation. Incorporating replication, randomization, and blinding enhances reliability, while addressing issues like response bias, wording effects, and nonresponse improves data quality. Proactively identifying and mitigating these challenges during study design ensures results are both valid and reproducible, forming a strong basis for meaningful analysis and decision-making.   "
-},
-{
-  "id": "stats-ch1-def-observational-study",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-observational-study",
-  "type": "Definition",
-  "number": "17.4.1",
-  "title": "What is an Observational Study?",
-  "body": " What is an Observational Study?   In an observational study , a researcher observes and measures characteristics but does not change any existing conditions.   "
-},
-{
-  "id": "stats-ch1-def-experiment-treatment",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-experiment-treatment",
-  "type": "Definition",
-  "number": "17.4.2",
-  "title": "What is an Experiment and a Treatment?",
-  "body": " What is an Experiment and a Treatment?   In an experiment , a researcher imposes a change in some preexisting condition, called a treatment , onto a sample of a population and measures their response to that change.   "
-},
-{
-  "id": "stats-ch1-def-control-group",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-control-group",
-  "type": "Definition",
-  "number": "17.4.3",
-  "title": "What is a Control Group?",
-  "body": " What is a Control Group?   A control group is a sample that receives no treatment and is used as a baseline to compare other samples to.   "
-},
-{
-  "id": "stats-ch1-observation-experiment-example-1",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-observation-experiment-example-1",
-  "type": "Example",
-  "number": "17.4.4",
-  "title": "Example 1.",
-  "body": " Example 1   Determine whether the study is observational or an experiment. Explain your reasoning.    Part A: In a survey of 1033 US adults, 51% of respondents said that US presidents should release all medical information that might affect their ability to serve.  Part B: Researchers demonstrated that adults using an intensive program to lower systolic blood pressure to less than 120 millimeters of mercury reduce the risk of death from all causes by 27%.        Part A: Observational study. The researchers surveyed respondents and recorded their opinions without imposing any changes or treatments. No variables were manipulated.  Part B: Experiment. The researchers imposed a treatment by implementing an intensive program to lower systolic blood pressure. They then measured the participants' responses (reduction in the risk of death).     "
-},
-{
-  "id": "stats-ch1-def-replication",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-replication",
-  "type": "Definition",
-  "number": "17.4.5",
-  "title": "What is Replication?",
-  "body": " What is Replication?   Replication assigns enough individuals to each treatment to reduce the variation in the results. This ensures that similar experiments conducted under the same conditions will yield similar results.  For example, a medical researcher is testing the effectiveness of a new drug to lower blood pressure. To ensure reliable results, the researcher assigns 500 participants to the treatment group (receiving the drug) and 500 participants to the control group (receiving a placebo). By assigning a large number of participants to each group, the researcher reduces the variability in results that might occur due to chance or individual differences. Replication ensures that the outcomes are consistent and reproducible if the experiment is repeated under the same conditions.  We will learn in Chapter 6 why larger sample sizes lead to less variation.   "
-},
-{
-  "id": "stats-ch1-def-randomization",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-randomization",
-  "type": "Definition",
-  "number": "17.4.6",
-  "title": "What is Randomization?",
-  "body": " What is Randomization?   Randomization selects subjects randomly so that variations in results occur purely by chance, not external factors.  For example, in a clinical trial testing a pain medication, 200 participants are randomly assigned to two groups: 100 receive the medication, and 100 receive a placebo. Randomization ensures that differences between the groups are due to the treatment and not factors like age or health.  As the study is replicated, probability theory, the subject of Chapter 4, predicts that the effects of random variation diminish. Consistently similar results across replications increase confidence that the findings reflect the true population characteristics.   "
-},
-{
-  "id": "stats-ch1-replication-example-2",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-replication-example-2",
-  "type": "Example",
-  "number": "17.4.7",
-  "title": "Example 2.",
-  "body": " Example 2   In statistics, it is often said that a single data study does not prove a result. Explain why this is true.    A single study does not prove a result because of the following issues.    Any single study is subject to random variation due to chance, as a sample may not perfectly represent the population. This error can cause the results to differ from the true population characteristics purely by chance.  Without replication, it is difficult to determine whether the observed result is reliable or simply due to random variation. A single study cannot confirm the consistency of findings across repeated experiments.     "
-},
-{
-  "id": "stats-ch1-def-blinding",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-blinding",
-  "type": "Definition",
-  "number": "17.4.8",
-  "title": "What is Blinding?",
-  "body": " What is Blinding?   Blinding ensures that subjects do not know whether they are receiving a placebo or an actual treatment. This reduces the risk of bias caused by participants' expectations influencing the results.  What is a Single-Blind Experiment? In a single-blind experiment, the participants do not know whether they are receiving the treatment or a placebo, but the researchers administering the treatment do know.  For example, in a clinical trial testing a new allergy medication, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. The participants do not know which group they are in, but the researchers administering the medication do. This prevents participants' expectations from influencing the results, though it still leaves room for potential researcher bias.  What is a Double-Blind Experiment? In a double-blind experiment, neither the participants nor the researchers administering the treatment know who is receiving the treatment or the placebo.  For example, in the same allergy medication trial, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. Neither the participants nor the researchers administering the treatment know who is in which group. This eliminates both participant and researcher bias, ensuring that the results are as unbiased as possible.   "
-},
-{
-  "id": "stats-ch1-blinding-example-3",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-blinding-example-3",
-  "type": "Example",
-  "number": "17.4.9",
-  "title": "Example 3.",
-  "body": " Example 3   An experiment that claimed to show that meditation reduces anxiety proceeded as follows:  The experimenter interviewed the subjects and rated their level of anxiety. Then the subjects were randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply told to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety levels. The meditation group now had less anxiety.  Psychologists said that the results were suspect because the ratings were not blind. Explain what this means and show how the lack of blindness could introduce bias into the reported results.    The psychologists' concern about the lack of blindness refers to the fact that the experimenter, who rated the subjects' anxiety levels both before and after the experiment, knew which group each subject belonged to (meditation or relaxation). This lack of blindness could introduce bias in the following ways:    The experimenter might have unconsciously expected the meditation group to show greater improvement, leading them to rate that group's anxiety levels more favorably.  Since the experimenter knew the treatment assignments, their personal beliefs about meditation's effectiveness could have influenced their ratings, even if unintentionally.    To reduce bias, the experimenter could have implemented a double-blind procedure. In a double-blind experiment, the experimenter conducting the interviews would not know which group each subject was in. This would ensure that the ratings are based solely on the subjects' behavior and responses, without being influenced by the experimenter's expectations.  By using proper blinding, the anxiety ratings would be less likely to reflect the experimenter's or subjects' biases, leading to more reliable and unbiased results.   "
-},
-{
-  "id": "stats-ch1-def-response-bias",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-response-bias",
-  "type": "Definition",
-  "number": "17.4.10",
-  "title": "What is Response Bias?",
-  "body": " What is Response Bias?   Response bias occurs when the behavior of the respondent or the interviewer influences the response that the respondent gives. This can result in inaccurate or misleading data that does not accurately represent the population being studied.   "
-},
-{
-  "id": "stats-ch1-response-bias-example-4",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-response-bias-example-4",
-  "type": "Example",
-  "number": "17.4.11",
-  "title": "Example 4.",
-  "body": " Example 4   When asked a question such as, \"Did you vote in the last presidential election?\", many people will indicate they voted when in reality they did not. Why do you think people lied, and why is this an example of response bias?    Many people lie in response to this question because voting is socially desirable. People may feel pressure to give an answer that aligns with societal expectations, even if it is not truthful. This is an example of response bias because the respondent's behavior (lying to conform to expectations) influences the data, making it inaccurate.   "
-},
-{
-  "id": "stats-ch1-def-wording-effects",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-wording-effects",
-  "type": "Definition",
-  "number": "17.4.12",
-  "title": "What are Wording Effects?",
-  "body": " What are Wording Effects?   Wording effects occur when the phrasing, choice of words, or order in which questions are asked affects the responses collected. Even slight changes in how a question is framed can result in significantly different answers, which can introduce bias into the data.   "
-},
-{
-  "id": "stats-ch1-wording-effects-example-5",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-wording-effects-example-5",
-  "type": "Example",
-  "number": "17.4.13",
-  "title": "Example 5.",
-  "body": " Example 5   Which question do you think people agreed more with?    Question A: Is the government spending too much on assistance to the poor?  Question B: Is the government spending too much on welfare?    Discuss how the choice of words could affect how people respond to these questions.    People are more likely to agree with Question A because the phrase \"assistance to the poor\" evokes a sense of helping those in need. In contrast, the term \"welfare\" may carry negative connotations for some people, as it is often associated with misuse or dependency. This demonstrates how subtle changes in wording can influence how respondents perceive and answer questions, a key example of wording effects.   "
-},
-{
-  "id": "stats-ch1-def-nonresponse",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-nonresponse",
-  "type": "Definition",
-  "number": "17.4.14",
-  "title": "What is Nonresponse?",
-  "body": " What is Nonresponse?   Nonresponse occurs when a respondent refuses to participate or cannot be reached. This results in missing data and can skew the results if the nonrespondents differ systematically from those who do respond.   "
-},
-{
-  "id": "stats-ch1-nonresponse-example-6",
-  "level": "2",
-  "url": "stats-ch1-data-collection-bias.html#stats-ch1-nonresponse-example-6",
-  "type": "Example",
-  "number": "17.4.15",
-  "title": "Example 6.",
-  "body": " Example 6   An opinion poll calls 2000 randomly chosen households and asks an adult member of the household, \"How many movies have you watched in a movie theater in the last 12 months?\" Only 831 people responded.    What is the rate of nonresponse?  Why do you think the nonresponse rate was so high?      The total number of households contacted was 2000, and the number of responses was 831. To calculate the rate of nonresponse:   The nonresponse rate is 58.45%, which is quite high. The likely reasons include:    People may not answer calls from unknown numbers or may be busy when called.  Some people may not feel comfortable sharing personal information, such as how often they go to the movies.  The question may not seem relevant to everyone, leading to disengagement.     "
-},
-{
   "id": "stats-ch1-levels-measurement",
   "level": "1",
   "url": "stats-ch1-levels-measurement.html",
   "type": "Section",
-  "number": "17.5",
+  "number": "17.4",
   "title": "Types of Data and Levels of Measurement",
   "body": " Types of Data and Levels of Measurement   Understanding data begins with recognizing its classification and the processes used to collect it. Data can broadly be categorized into two classifications, with each providing unique insight into a population or sample, allowing for a more targeted analysis of particular aspects. When collecting data, it is important to implement an appropriate sampling method so that the data can be used to learn something about the population it originated from. This section will detail data types as well as the common sampling methods used to collect that data.    Data Classification  Data originates from either a population or a sample and can be classified into two main categories: qualitative data and quantitative data.   What is Qualitative Data?   Qualitative data (or categorical data) categorizes or describes attributes of a population, often using words or letters but can include labels that are numerical. Examples include:    Hair color (e.g., black, brown)  Blood type (e.g., AB+, O-)  Zip Codes (e.g., 49715, 26537)    This type of data is not generally suited for mathematical analysis, meaning that averages or standard deviations are not meaningful (e.g., you would not be able to calculate an average hair color).     What is Quantitative Data?   Quantitative data represents numerical values obtained by counting or measuring attributes. Examples include:    Weight  Pulse rate  The number of people or objects    Quantitative data is further divided into two subcategories:     Discrete data: Occurs when the possible values are finite or countable (e.g., 0 calls, 1 call, 2 calls, etc.). Examples include:  The number of phone calls made by a telemarketer  The number of classes a student enrolls in during a semester      Continuous data: Consists of infinitely many possible values along a continuous scale with no gaps, interruptions, or jumps (e.g., weight, time, or distance). Examples include:  The weight of a newborn might be 7.5 pounds  The duration of a song might be 3.8 minutes  The distance traveled to work might be 12.3 miles  These measurements can be made as precise as necessary, reflecting the continuous nature of the scale.        Example 1   For each of the following, determine whether the data is quantitative or qualitative. If it is quantitative, specify whether it is discrete or continuous:    Part A: The number of pairs of shoes you own  Part B: The type of car you drive  Part C: The distance from your home to the nearest grocery store  Part D: The number of classes you take per school year  Part E: The type of calculator you use  Part F: Weights of dogs at an animal shelter  Part G: The number of correct answers on a quiz  Part H: The amount of money you spend at the local Quickmart        Part A: Discrete quantitative. The number of pairs of shoes you own is countable (e.g., 1 pair, 2 pairs, 3 pairs, etc.), which makes it quantitative and discrete.  Part B: Qualitative. The type of car you drive (e.g., SUV, sedan, truck) is categorical and cannot be measured or counted, making it qualitative data.  Part C: Continuous quantitative. The distance to the nearest grocery store can be measured along a continuous scale (e.g., 1.5 miles, 3.2 miles), allowing for infinite precision, so it is quantitative and continuous.  Part D: Discrete quantitative. The number of classes you take per school year is countable (e.g., 4 classes, 5 classes, etc.), so it is quantitative and discrete.  Part E: Qualitative. The type of calculator you use (e.g., graphing calculator, scientific calculator) is descriptive and categorical, making it qualitative data.  Part F: Continuous quantitative. The weights of dogs at an animal shelter can be measured along a continuous scale (e.g., 12.7 pounds, 23.4 pounds) with infinite precision, making this data quantitative and continuous.  Part G: Discrete quantitative. The number of correct answers on a quiz is countable (e.g., 1 correct answer, 2 correct answers), so it is quantitative and discrete.  Part H: Discrete quantitative. Although the amount of money spent at a store can include decimals (e.g., $5.75), money is not measured on a continuous scale because it is typically limited to two decimal places (cents). Thus, it is quantitative and discrete.       Example 2   Consider the following information and table, then answer the questions below.    Part A: Which information is categorical data?  Part B: Which information is quantitative data?     Selected Vehicle Data    Make\/Model  Class  Transmission  Cylinders  City MPG  Highway MPG  Annual Fuel Cost    Chevrolet Corvette  Two-Seater  Manual  8  17  29  $2,650    Nissan Cube  Station Wagon  Manual  4  25  30  $1,850    Ford Fusion  Midsize  Automatic  4  23  36  $1,800    Chevrolet Impala  Large  Automatic  6  18  28  $2,400          Part A: Categorical data describes attributes or categories and cannot be measured numerically. From the table, the categorical data includes:  Make\/Model: The names of vehicles, such as \"Chevrolet Corvette\" or \"Nissan Cube.\"  Class: The vehicle category, such as \"Two-Seater\" or \"Midsize.\"  Transmission: The type of transmission, either \"Manual\" or \"Automatic.\"  Cylinders: The number of engine cylinders (e.g., 4, 6, 8) is categorical because it classifies the engine type rather than measuring it.      Part B: Quantitative data includes numerical values obtained by counting or measuring. From the table, the quantitative data includes:  City MPG: The number of miles per gallon in city driving (e.g., 17, 25, 23, etc.).  Highway MPG: The number of miles per gallon in highway driving (e.g., 29, 30, 36, etc.).  Annual Fuel Cost: The cost of fuel for one year, measured in dollars (e.g., $2,650, $1,850).          Example 3: Type of Data from an Image   The registrar at State University keeps records of the number of credit hours students complete each semester. The data collected are summarized in the histogram. The class boundaries are 10 to less than 13, 13 to less than 16, 16 to less than 19, 19 to less than 22, and 22 to less than 25.   Histogram with intervals 10-13, 13-16, 16-19, 19-22, 22-25; bar heights: 250, 580, 740, 625, 240.      Since students would be countable (i.e., 0 students, 1 student, 2 students, etc.) this graph depicts data that is discrete quantitative.      Levels of Measurement  Statistics involves understanding, analyzing, and interpreting data, and a key component is determining the level of measurement of data. Levels of measurement are important because they determine the types of statistical analyses that can be performed and ensure proper interpretation of data. There are four levels of measurement, each building on the previous level:   Different Levels of Measurement     Nominal level: Data at this level are categorized without any order. Examples include gender, eye color, and types of fruits.  Ordinal level: Data are categorized with a meaningful order, but differences between categories are not measurable. Examples include rankings in a competition or survey responses such as \"satisfied,\" \"neutral,\" or \"dissatisfied.\"  Interval level: Data have meaningful order and measurable differences, but no true zero point. Examples include temperature in Celsius or years on a calendar.  Ratio level: Data have a meaningful order, measurable differences, and a true zero point, allowing for meaningful ratios. Examples include weight, height, or age.       Example 3   Classify the following scenarios by their level of measurement:    Part A: Types of cars (e.g., SUV, sedan, truck).  Part B: The ranking of runners in a race.  Part C: Temperature readings in Fahrenheit.  Part D: The time it takes for participants to complete a task, measured in seconds.        Part A: Nominal. Types of cars are categorized without order.  Part B: Ordinal. Rankings in a race indicate an order but do not provide measurable differences between positions.  Part C: Interval. Fahrenheit temperatures provide measurable differences but lack a true zero since the zero for this temperature scale is chosen arbitrarily.  Part D: Ratio. Time in seconds includes meaningful differences and a true zero, allowing for ratios.        Conclusion  Understanding the classification of data and its levels of measurement is essential for conducting accurate and meaningful statistical analysis. By distinguishing between qualitative and quantitative data, and recognizing whether data is discrete or continuous, we can better select appropriate methods for summarizing and analyzing information. Similarly, identifying the level of measurement, nominal, ordinal, interval, or ratio, ensures we apply the correct statistical tools and interpret results accurately. These foundational concepts provide the framework for understanding how data is collected, categorized, and analyzed, paving the way for more advanced statistical techniques.   "
 },
@@ -4145,7 +4001,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "stats-ch1-levels-measurement.html#stats-ch1-def-qualitative",
   "type": "Definition",
-  "number": "17.5.1",
+  "number": "17.4.1",
   "title": "What is Qualitative Data?",
   "body": " What is Qualitative Data?   Qualitative data (or categorical data) categorizes or describes attributes of a population, often using words or letters but can include labels that are numerical. Examples include:    Hair color (e.g., black, brown)  Blood type (e.g., AB+, O-)  Zip Codes (e.g., 49715, 26537)    This type of data is not generally suited for mathematical analysis, meaning that averages or standard deviations are not meaningful (e.g., you would not be able to calculate an average hair color).   "
 },
@@ -4154,7 +4010,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "stats-ch1-levels-measurement.html#stats-ch1-def-quantitative",
   "type": "Definition",
-  "number": "17.5.2",
+  "number": "17.4.2",
   "title": "What is Quantitative Data?",
   "body": " What is Quantitative Data?   Quantitative data represents numerical values obtained by counting or measuring attributes. Examples include:    Weight  Pulse rate  The number of people or objects    Quantitative data is further divided into two subcategories:     Discrete data: Occurs when the possible values are finite or countable (e.g., 0 calls, 1 call, 2 calls, etc.). Examples include:  The number of phone calls made by a telemarketer  The number of classes a student enrolls in during a semester      Continuous data: Consists of infinitely many possible values along a continuous scale with no gaps, interruptions, or jumps (e.g., weight, time, or distance). Examples include:  The weight of a newborn might be 7.5 pounds  The duration of a song might be 3.8 minutes  The distance traveled to work might be 12.3 miles  These measurements can be made as precise as necessary, reflecting the continuous nature of the scale.      "
 },
@@ -4163,7 +4019,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "stats-ch1-levels-measurement.html#stats-ch1-data-example-1",
   "type": "Example",
-  "number": "17.5.3",
+  "number": "17.4.3",
   "title": "Example 1.",
   "body": " Example 1   For each of the following, determine whether the data is quantitative or qualitative. If it is quantitative, specify whether it is discrete or continuous:    Part A: The number of pairs of shoes you own  Part B: The type of car you drive  Part C: The distance from your home to the nearest grocery store  Part D: The number of classes you take per school year  Part E: The type of calculator you use  Part F: Weights of dogs at an animal shelter  Part G: The number of correct answers on a quiz  Part H: The amount of money you spend at the local Quickmart        Part A: Discrete quantitative. The number of pairs of shoes you own is countable (e.g., 1 pair, 2 pairs, 3 pairs, etc.), which makes it quantitative and discrete.  Part B: Qualitative. The type of car you drive (e.g., SUV, sedan, truck) is categorical and cannot be measured or counted, making it qualitative data.  Part C: Continuous quantitative. The distance to the nearest grocery store can be measured along a continuous scale (e.g., 1.5 miles, 3.2 miles), allowing for infinite precision, so it is quantitative and continuous.  Part D: Discrete quantitative. The number of classes you take per school year is countable (e.g., 4 classes, 5 classes, etc.), so it is quantitative and discrete.  Part E: Qualitative. The type of calculator you use (e.g., graphing calculator, scientific calculator) is descriptive and categorical, making it qualitative data.  Part F: Continuous quantitative. The weights of dogs at an animal shelter can be measured along a continuous scale (e.g., 12.7 pounds, 23.4 pounds) with infinite precision, making this data quantitative and continuous.  Part G: Discrete quantitative. The number of correct answers on a quiz is countable (e.g., 1 correct answer, 2 correct answers), so it is quantitative and discrete.  Part H: Discrete quantitative. Although the amount of money spent at a store can include decimals (e.g., $5.75), money is not measured on a continuous scale because it is typically limited to two decimal places (cents). Thus, it is quantitative and discrete.     "
 },
@@ -4172,7 +4028,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "stats-ch1-levels-measurement.html#stats-ch1-data-example-2",
   "type": "Example",
-  "number": "17.5.4",
+  "number": "17.4.4",
   "title": "Example 2.",
   "body": " Example 2   Consider the following information and table, then answer the questions below.    Part A: Which information is categorical data?  Part B: Which information is quantitative data?     Selected Vehicle Data    Make\/Model  Class  Transmission  Cylinders  City MPG  Highway MPG  Annual Fuel Cost    Chevrolet Corvette  Two-Seater  Manual  8  17  29  $2,650    Nissan Cube  Station Wagon  Manual  4  25  30  $1,850    Ford Fusion  Midsize  Automatic  4  23  36  $1,800    Chevrolet Impala  Large  Automatic  6  18  28  $2,400          Part A: Categorical data describes attributes or categories and cannot be measured numerically. From the table, the categorical data includes:  Make\/Model: The names of vehicles, such as \"Chevrolet Corvette\" or \"Nissan Cube.\"  Class: The vehicle category, such as \"Two-Seater\" or \"Midsize.\"  Transmission: The type of transmission, either \"Manual\" or \"Automatic.\"  Cylinders: The number of engine cylinders (e.g., 4, 6, 8) is categorical because it classifies the engine type rather than measuring it.      Part B: Quantitative data includes numerical values obtained by counting or measuring. From the table, the quantitative data includes:  City MPG: The number of miles per gallon in city driving (e.g., 17, 25, 23, etc.).  Highway MPG: The number of miles per gallon in highway driving (e.g., 29, 30, 36, etc.).  Annual Fuel Cost: The cost of fuel for one year, measured in dollars (e.g., $2,650, $1,850).        "
 },
@@ -4181,7 +4037,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "stats-ch1-levels-measurement.html#stats-ch1-data-example-3",
   "type": "Example",
-  "number": "17.5.6",
+  "number": "17.4.6",
   "title": "Example 3: Type of Data from an Image.",
   "body": " Example 3: Type of Data from an Image   The registrar at State University keeps records of the number of credit hours students complete each semester. The data collected are summarized in the histogram. The class boundaries are 10 to less than 13, 13 to less than 16, 16 to less than 19, 19 to less than 22, and 22 to less than 25.   Histogram with intervals 10-13, 13-16, 16-19, 19-22, 22-25; bar heights: 250, 580, 740, 625, 240.      Since students would be countable (i.e., 0 students, 1 student, 2 students, etc.) this graph depicts data that is discrete quantitative.   "
 },
@@ -4190,7 +4046,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "stats-ch1-levels-measurement.html#stats-ch1-def-measurement-levels",
   "type": "Definition",
-  "number": "17.5.8",
+  "number": "17.4.8",
   "title": "Different Levels of Measurement.",
   "body": " Different Levels of Measurement     Nominal level: Data at this level are categorized without any order. Examples include gender, eye color, and types of fruits.  Ordinal level: Data are categorized with a meaningful order, but differences between categories are not measurable. Examples include rankings in a competition or survey responses such as \"satisfied,\" \"neutral,\" or \"dissatisfied.\"  Interval level: Data have meaningful order and measurable differences, but no true zero point. Examples include temperature in Celsius or years on a calendar.  Ratio level: Data have a meaningful order, measurable differences, and a true zero point, allowing for meaningful ratios. Examples include weight, height, or age.     "
 },
@@ -4199,9 +4055,153 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "stats-ch1-levels-measurement.html#stats-ch1-measurement-example-1",
   "type": "Example",
-  "number": "17.5.9",
+  "number": "17.4.9",
   "title": "Example 3.",
   "body": " Example 3   Classify the following scenarios by their level of measurement:    Part A: Types of cars (e.g., SUV, sedan, truck).  Part B: The ranking of runners in a race.  Part C: Temperature readings in Fahrenheit.  Part D: The time it takes for participants to complete a task, measured in seconds.        Part A: Nominal. Types of cars are categorized without order.  Part B: Ordinal. Rankings in a race indicate an order but do not provide measurable differences between positions.  Part C: Interval. Fahrenheit temperatures provide measurable differences but lack a true zero since the zero for this temperature scale is chosen arbitrarily.  Part D: Ratio. Time in seconds includes meaningful differences and a true zero, allowing for ratios.     "
+},
+{
+  "id": "stats-ch1-data-collection-bias",
+  "level": "1",
+  "url": "stats-ch1-data-collection-bias.html",
+  "type": "Section",
+  "number": "17.5",
+  "title": "Data Collection and Bias",
+  "body": " Data Collection and Bias   Effective data collection is essential for reliable statistical studies. Observational studies measure characteristics without intervention, while experiments impose treatments to observe their effects. Key techniques like randomization, replication, and blinding reduce bias and improve accuracy. Understanding and addressing sources of bias, such as response bias and nonresponse, ensures valid and meaningful results.    Data Collection Methods   What is an Observational Study?   In an observational study , a researcher observes and measures characteristics but does not change any existing conditions.     What is an Experiment and a Treatment?   In an experiment , a researcher imposes a change in some preexisting condition, called a treatment , onto a sample of a population and measures their response to that change.     What is a Control Group?   A control group is a sample that receives no treatment and is used as a baseline to compare other samples to.     Example 1   Determine whether the study is observational or an experiment. Explain your reasoning.    Part A: In a survey of 1033 US adults, 51% of respondents said that US presidents should release all medical information that might affect their ability to serve.  Part B: Researchers demonstrated that adults using an intensive program to lower systolic blood pressure to less than 120 millimeters of mercury reduce the risk of death from all causes by 27%.        Part A: Observational study. The researchers surveyed respondents and recorded their opinions without imposing any changes or treatments. No variables were manipulated.  Part B: Experiment. The researchers imposed a treatment by implementing an intensive program to lower systolic blood pressure. They then measured the participants' responses (reduction in the risk of death).        Elements of a Well-Designed Study   What is Replication?   Replication assigns enough individuals to each treatment to reduce the variation in the results. This ensures that similar experiments conducted under the same conditions will yield similar results.  For example, a medical researcher is testing the effectiveness of a new drug to lower blood pressure. To ensure reliable results, the researcher assigns 500 participants to the treatment group (receiving the drug) and 500 participants to the control group (receiving a placebo). By assigning a large number of participants to each group, the researcher reduces the variability in results that might occur due to chance or individual differences. Replication ensures that the outcomes are consistent and reproducible if the experiment is repeated under the same conditions.  We will learn in Chapter 6 why larger sample sizes lead to less variation.     What is Randomization?   Randomization selects subjects randomly so that variations in results occur purely by chance, not external factors.  For example, in a clinical trial testing a pain medication, 200 participants are randomly assigned to two groups: 100 receive the medication, and 100 receive a placebo. Randomization ensures that differences between the groups are due to the treatment and not factors like age or health.  As the study is replicated, probability theory, the subject of Chapter 4, predicts that the effects of random variation diminish. Consistently similar results across replications increase confidence that the findings reflect the true population characteristics.     Example 2   In statistics, it is often said that a single data study does not prove a result. Explain why this is true.    A single study does not prove a result because of the following issues.    Any single study is subject to random variation due to chance, as a sample may not perfectly represent the population. This error can cause the results to differ from the true population characteristics purely by chance.  Without replication, it is difficult to determine whether the observed result is reliable or simply due to random variation. A single study cannot confirm the consistency of findings across repeated experiments.       What is Blinding?   Blinding ensures that subjects do not know whether they are receiving a placebo or an actual treatment. This reduces the risk of bias caused by participants' expectations influencing the results.  What is a Single-Blind Experiment? In a single-blind experiment, the participants do not know whether they are receiving the treatment or a placebo, but the researchers administering the treatment do know.  For example, in a clinical trial testing a new allergy medication, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. The participants do not know which group they are in, but the researchers administering the medication do. This prevents participants' expectations from influencing the results, though it still leaves room for potential researcher bias.  What is a Double-Blind Experiment? In a double-blind experiment, neither the participants nor the researchers administering the treatment know who is receiving the treatment or the placebo.  For example, in the same allergy medication trial, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. Neither the participants nor the researchers administering the treatment know who is in which group. This eliminates both participant and researcher bias, ensuring that the results are as unbiased as possible.     Example 3   An experiment that claimed to show that meditation reduces anxiety proceeded as follows:  The experimenter interviewed the subjects and rated their level of anxiety. Then the subjects were randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply told to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety levels. The meditation group now had less anxiety.  Psychologists said that the results were suspect because the ratings were not blind. Explain what this means and show how the lack of blindness could introduce bias into the reported results.    The psychologists' concern about the lack of blindness refers to the fact that the experimenter, who rated the subjects' anxiety levels both before and after the experiment, knew which group each subject belonged to (meditation or relaxation). This lack of blindness could introduce bias in the following ways:    The experimenter might have unconsciously expected the meditation group to show greater improvement, leading them to rate that group's anxiety levels more favorably.  Since the experimenter knew the treatment assignments, their personal beliefs about meditation's effectiveness could have influenced their ratings, even if unintentionally.    To reduce bias, the experimenter could have implemented a double-blind procedure. In a double-blind experiment, the experimenter conducting the interviews would not know which group each subject was in. This would ensure that the ratings are based solely on the subjects' behavior and responses, without being influenced by the experimenter's expectations.  By using proper blinding, the anxiety ratings would be less likely to reflect the experimenter's or subjects' biases, leading to more reliable and unbiased results.      Common Sources of Bias in Statistical Study  Accurate data collection is the foundation of any statistical analysis, providing the raw information needed to draw meaningful conclusions about populations. However, the process of collecting data is not without its challenges. This section explores key aspects of data collection and common sources of bias, including response bias, wording effects, and nonresponse. By understanding these challenges, we can design better methods for collecting high-quality data and minimize the impact of bias on our results.   What is Response Bias?   Response bias occurs when the behavior of the respondent or the interviewer influences the response that the respondent gives. This can result in inaccurate or misleading data that does not accurately represent the population being studied.     Example 4   When asked a question such as, \"Did you vote in the last presidential election?\", many people will indicate they voted when in reality they did not. Why do you think people lied, and why is this an example of response bias?    Many people lie in response to this question because voting is socially desirable. People may feel pressure to give an answer that aligns with societal expectations, even if it is not truthful. This is an example of response bias because the respondent's behavior (lying to conform to expectations) influences the data, making it inaccurate.     What are Wording Effects?   Wording effects occur when the phrasing, choice of words, or order in which questions are asked affects the responses collected. Even slight changes in how a question is framed can result in significantly different answers, which can introduce bias into the data.     Example 5   Which question do you think people agreed more with?    Question A: Is the government spending too much on assistance to the poor?  Question B: Is the government spending too much on welfare?    Discuss how the choice of words could affect how people respond to these questions.    People are more likely to agree with Question A because the phrase \"assistance to the poor\" evokes a sense of helping those in need. In contrast, the term \"welfare\" may carry negative connotations for some people, as it is often associated with misuse or dependency. This demonstrates how subtle changes in wording can influence how respondents perceive and answer questions, a key example of wording effects.     What is Nonresponse?   Nonresponse occurs when a respondent refuses to participate or cannot be reached. This results in missing data and can skew the results if the nonrespondents differ systematically from those who do respond.     Example 6   An opinion poll calls 2000 randomly chosen households and asks an adult member of the household, \"How many movies have you watched in a movie theater in the last 12 months?\" Only 831 people responded.    What is the rate of nonresponse?  Why do you think the nonresponse rate was so high?      The total number of households contacted was 2000, and the number of responses was 831. To calculate the rate of nonresponse:   The nonresponse rate is 58.45%, which is quite high. The likely reasons include:    People may not answer calls from unknown numbers or may be busy when called.  Some people may not feel comfortable sharing personal information, such as how often they go to the movies.  The question may not seem relevant to everyone, leading to disengagement.        Conclusion  Accurate statistical results rely on well-designed studies that minimize bias and random variation. Incorporating replication, randomization, and blinding enhances reliability, while addressing issues like response bias, wording effects, and nonresponse improves data quality. Proactively identifying and mitigating these challenges during study design ensures results are both valid and reproducible, forming a strong basis for meaningful analysis and decision-making.   "
+},
+{
+  "id": "stats-ch1-def-observational-study",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-observational-study",
+  "type": "Definition",
+  "number": "17.5.1",
+  "title": "What is an Observational Study?",
+  "body": " What is an Observational Study?   In an observational study , a researcher observes and measures characteristics but does not change any existing conditions.   "
+},
+{
+  "id": "stats-ch1-def-experiment-treatment",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-experiment-treatment",
+  "type": "Definition",
+  "number": "17.5.2",
+  "title": "What is an Experiment and a Treatment?",
+  "body": " What is an Experiment and a Treatment?   In an experiment , a researcher imposes a change in some preexisting condition, called a treatment , onto a sample of a population and measures their response to that change.   "
+},
+{
+  "id": "stats-ch1-def-control-group",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-control-group",
+  "type": "Definition",
+  "number": "17.5.3",
+  "title": "What is a Control Group?",
+  "body": " What is a Control Group?   A control group is a sample that receives no treatment and is used as a baseline to compare other samples to.   "
+},
+{
+  "id": "stats-ch1-observation-experiment-example-1",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-observation-experiment-example-1",
+  "type": "Example",
+  "number": "17.5.4",
+  "title": "Example 1.",
+  "body": " Example 1   Determine whether the study is observational or an experiment. Explain your reasoning.    Part A: In a survey of 1033 US adults, 51% of respondents said that US presidents should release all medical information that might affect their ability to serve.  Part B: Researchers demonstrated that adults using an intensive program to lower systolic blood pressure to less than 120 millimeters of mercury reduce the risk of death from all causes by 27%.        Part A: Observational study. The researchers surveyed respondents and recorded their opinions without imposing any changes or treatments. No variables were manipulated.  Part B: Experiment. The researchers imposed a treatment by implementing an intensive program to lower systolic blood pressure. They then measured the participants' responses (reduction in the risk of death).     "
+},
+{
+  "id": "stats-ch1-def-replication",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-replication",
+  "type": "Definition",
+  "number": "17.5.5",
+  "title": "What is Replication?",
+  "body": " What is Replication?   Replication assigns enough individuals to each treatment to reduce the variation in the results. This ensures that similar experiments conducted under the same conditions will yield similar results.  For example, a medical researcher is testing the effectiveness of a new drug to lower blood pressure. To ensure reliable results, the researcher assigns 500 participants to the treatment group (receiving the drug) and 500 participants to the control group (receiving a placebo). By assigning a large number of participants to each group, the researcher reduces the variability in results that might occur due to chance or individual differences. Replication ensures that the outcomes are consistent and reproducible if the experiment is repeated under the same conditions.  We will learn in Chapter 6 why larger sample sizes lead to less variation.   "
+},
+{
+  "id": "stats-ch1-def-randomization",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-randomization",
+  "type": "Definition",
+  "number": "17.5.6",
+  "title": "What is Randomization?",
+  "body": " What is Randomization?   Randomization selects subjects randomly so that variations in results occur purely by chance, not external factors.  For example, in a clinical trial testing a pain medication, 200 participants are randomly assigned to two groups: 100 receive the medication, and 100 receive a placebo. Randomization ensures that differences between the groups are due to the treatment and not factors like age or health.  As the study is replicated, probability theory, the subject of Chapter 4, predicts that the effects of random variation diminish. Consistently similar results across replications increase confidence that the findings reflect the true population characteristics.   "
+},
+{
+  "id": "stats-ch1-replication-example-2",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-replication-example-2",
+  "type": "Example",
+  "number": "17.5.7",
+  "title": "Example 2.",
+  "body": " Example 2   In statistics, it is often said that a single data study does not prove a result. Explain why this is true.    A single study does not prove a result because of the following issues.    Any single study is subject to random variation due to chance, as a sample may not perfectly represent the population. This error can cause the results to differ from the true population characteristics purely by chance.  Without replication, it is difficult to determine whether the observed result is reliable or simply due to random variation. A single study cannot confirm the consistency of findings across repeated experiments.     "
+},
+{
+  "id": "stats-ch1-def-blinding",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-blinding",
+  "type": "Definition",
+  "number": "17.5.8",
+  "title": "What is Blinding?",
+  "body": " What is Blinding?   Blinding ensures that subjects do not know whether they are receiving a placebo or an actual treatment. This reduces the risk of bias caused by participants' expectations influencing the results.  What is a Single-Blind Experiment? In a single-blind experiment, the participants do not know whether they are receiving the treatment or a placebo, but the researchers administering the treatment do know.  For example, in a clinical trial testing a new allergy medication, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. The participants do not know which group they are in, but the researchers administering the medication do. This prevents participants' expectations from influencing the results, though it still leaves room for potential researcher bias.  What is a Double-Blind Experiment? In a double-blind experiment, neither the participants nor the researchers administering the treatment know who is receiving the treatment or the placebo.  For example, in the same allergy medication trial, participants are randomly divided into two groups. One group receives the allergy medication, and the other group receives a placebo. Neither the participants nor the researchers administering the treatment know who is in which group. This eliminates both participant and researcher bias, ensuring that the results are as unbiased as possible.   "
+},
+{
+  "id": "stats-ch1-blinding-example-3",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-blinding-example-3",
+  "type": "Example",
+  "number": "17.5.9",
+  "title": "Example 3.",
+  "body": " Example 3   An experiment that claimed to show that meditation reduces anxiety proceeded as follows:  The experimenter interviewed the subjects and rated their level of anxiety. Then the subjects were randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply told to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety levels. The meditation group now had less anxiety.  Psychologists said that the results were suspect because the ratings were not blind. Explain what this means and show how the lack of blindness could introduce bias into the reported results.    The psychologists' concern about the lack of blindness refers to the fact that the experimenter, who rated the subjects' anxiety levels both before and after the experiment, knew which group each subject belonged to (meditation or relaxation). This lack of blindness could introduce bias in the following ways:    The experimenter might have unconsciously expected the meditation group to show greater improvement, leading them to rate that group's anxiety levels more favorably.  Since the experimenter knew the treatment assignments, their personal beliefs about meditation's effectiveness could have influenced their ratings, even if unintentionally.    To reduce bias, the experimenter could have implemented a double-blind procedure. In a double-blind experiment, the experimenter conducting the interviews would not know which group each subject was in. This would ensure that the ratings are based solely on the subjects' behavior and responses, without being influenced by the experimenter's expectations.  By using proper blinding, the anxiety ratings would be less likely to reflect the experimenter's or subjects' biases, leading to more reliable and unbiased results.   "
+},
+{
+  "id": "stats-ch1-def-response-bias",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-response-bias",
+  "type": "Definition",
+  "number": "17.5.10",
+  "title": "What is Response Bias?",
+  "body": " What is Response Bias?   Response bias occurs when the behavior of the respondent or the interviewer influences the response that the respondent gives. This can result in inaccurate or misleading data that does not accurately represent the population being studied.   "
+},
+{
+  "id": "stats-ch1-response-bias-example-4",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-response-bias-example-4",
+  "type": "Example",
+  "number": "17.5.11",
+  "title": "Example 4.",
+  "body": " Example 4   When asked a question such as, \"Did you vote in the last presidential election?\", many people will indicate they voted when in reality they did not. Why do you think people lied, and why is this an example of response bias?    Many people lie in response to this question because voting is socially desirable. People may feel pressure to give an answer that aligns with societal expectations, even if it is not truthful. This is an example of response bias because the respondent's behavior (lying to conform to expectations) influences the data, making it inaccurate.   "
+},
+{
+  "id": "stats-ch1-def-wording-effects",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-wording-effects",
+  "type": "Definition",
+  "number": "17.5.12",
+  "title": "What are Wording Effects?",
+  "body": " What are Wording Effects?   Wording effects occur when the phrasing, choice of words, or order in which questions are asked affects the responses collected. Even slight changes in how a question is framed can result in significantly different answers, which can introduce bias into the data.   "
+},
+{
+  "id": "stats-ch1-wording-effects-example-5",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-wording-effects-example-5",
+  "type": "Example",
+  "number": "17.5.13",
+  "title": "Example 5.",
+  "body": " Example 5   Which question do you think people agreed more with?    Question A: Is the government spending too much on assistance to the poor?  Question B: Is the government spending too much on welfare?    Discuss how the choice of words could affect how people respond to these questions.    People are more likely to agree with Question A because the phrase \"assistance to the poor\" evokes a sense of helping those in need. In contrast, the term \"welfare\" may carry negative connotations for some people, as it is often associated with misuse or dependency. This demonstrates how subtle changes in wording can influence how respondents perceive and answer questions, a key example of wording effects.   "
+},
+{
+  "id": "stats-ch1-def-nonresponse",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-def-nonresponse",
+  "type": "Definition",
+  "number": "17.5.14",
+  "title": "What is Nonresponse?",
+  "body": " What is Nonresponse?   Nonresponse occurs when a respondent refuses to participate or cannot be reached. This results in missing data and can skew the results if the nonrespondents differ systematically from those who do respond.   "
+},
+{
+  "id": "stats-ch1-nonresponse-example-6",
+  "level": "2",
+  "url": "stats-ch1-data-collection-bias.html#stats-ch1-nonresponse-example-6",
+  "type": "Example",
+  "number": "17.5.15",
+  "title": "Example 6.",
+  "body": " Example 6   An opinion poll calls 2000 randomly chosen households and asks an adult member of the household, \"How many movies have you watched in a movie theater in the last 12 months?\" Only 831 people responded.    What is the rate of nonresponse?  Why do you think the nonresponse rate was so high?      The total number of households contacted was 2000, and the number of responses was 831. To calculate the rate of nonresponse:   The nonresponse rate is 58.45%, which is quite high. The likely reasons include:    People may not answer calls from unknown numbers or may be busy when called.  Some people may not feel comfortable sharing personal information, such as how often they go to the movies.  The question may not seem relevant to everyone, leading to disengagement.     "
 },
 {
   "id": "stats-ch1-sampling-methods",
@@ -9541,6 +9541,294 @@ var ptx_lunr_docs = [
   "body": " Graphing a Secant Function   Graph one period of .   A blank coordinate plane plotted on . A dashed grid is imposed on the background; each square of the grid has dimensions .     "
 },
 {
+  "id": "ws-app-trig-inverse-trig",
+  "level": "1",
+  "url": "ws-app-trig-inverse-trig.html",
+  "type": "Worksheet",
+  "number": "D.7",
+  "title": "Inverse Trigonometric Functions",
+  "body": " Inverse Trigonometric Functions    Let be any function. Then there exists a relation that has the following properties:  is the set of all values such that .  domain of = range of .  range of = domain of .    The relation is called the inverse of .     Evaluating an Inverse Relation That Is Not a Function   Suppose that . Evaluate .     When is a function?   is a function if the graph of passes the horizontal line test. In other words, when is one-to-one.    Two examples: One of a function that is one-to-one and one that is not.    The function is one-to-one since it passes the horizontal line text.     The function is not one-to-one since it fails the horizontal line test.       Inverse Function Property   Let be any one-to-one function. Then the inverse function exists and has the following properties.    for any in the domain of .  for any in the range of .  The domain of equals the range of .  The range of equals the domain of .       Constructing Inverse Functions for with Domain Restrictions   The function is not one-to-one over all real numbers. Find the two domain restrictions of that are one-to-one and create an inverse function for each restriction.     Constructing the Inverse Sine Function   The sine function is not one-to-one over all real numbers. Find a domain restriction of the sine function that is one-to-one and create an inverse function for that restriction.     Definition of the Inverse Sine Function   Let on . We define the inverse sine function by     The domain and range of are   Domain: and    Range: (quadrant 1 and 4 angles).   Common values of are given in the following table.   Inverse Sine Values                                Note on the Notation    For numbers, because the ideas of reciprocals and inverses produce the same result.  For functions, means the inverse of , not .  To denote a reciprocal function, use .      Evaluating an Inverse Sine Exact Value   Find the exact value of .     Evaluating a Negative Inverse Sine Exact Value   Find the exact value of .     Using Inverse Sine to Find a Quadrant III Angle   Use to find a Quadrant III angle such that .     Constructing the Inverse Cosine Function   The cosine function is not one-to-one over all real numbers. Find a domain restriction of the cosine function that is one-to-one and create an inverse function for that restriction.     Definition of the Inverse Cosine Function   Let on . We define the inverse cosine function by     The domain and range of are     Domain: and    Range: (quadrant 1 and 2 angles).   Common values of are given in the following table.   Inverse Cosine Values                                Evaluating an Inverse Cosine Exact Value   Find the exact value of .     Evaluating a Negative Inverse Cosine Exact Value   Find the exact value of .     Using Inverse Cosine to Find a Quadrant IV Angle   Use to find a Quadrant IV angle such that .     Constructing the Inverse Tangent Function   The tangent function is not one-to-one over all real numbers. Find a domain restriction of the tangent function that is one-to-one and create an inverse function for that restriction.     Definition of the Inverse Tangent Function   Let on . We define the inverse tangent function by     The domain and range of are     Domain: and    Range: (quadrant 1 and 4 angles).   Common values of are given in the following table.   Inverse Tangent Values                            Evaluating an Inverse Tangent Exact Value   Find the exact value of .     Evaluating a Negative Inverse Tangent Exact Value   Find the exact value of .     Using Inverse Tangent to Find a Quadrant III Angle   Use to find a Quadrant III angle such that .     Constructing the Inverse Cosecant Function   The cosecant function is not one-to-one over all real numbers. Find a domain restriction of the cosecant function that is one-to-one and create an inverse function for that restriction.     Definition of the Inverse Cosecant Function   Let on . We define the inverse cosecant function by     The domain and range of are     Domain: and    Range: (quadrant 1 and 4 angles).        Constructing the Inverse Secant Function   The secant function is not one-to-one over all real numbers. Find a domain restriction of the secant function that is one-to-one and create an inverse function for that restriction.     Definition of the Inverse Secant Function   Let on . We define the inverse secant function by     The domain and range of are     Domain: and    Range: (quadrant 1 and 4 angles).        Constructing the Inverse Cotangent Function   The cotangent function is not one-to-one over all real numbers. Find a domain restriction of the cotangent function that is one-to-one and create an inverse function for that restriction.     Definition of the Inverse Cotangent Function   Let on . We define the inverse cotangent function by     The domain and range of are     Domain: and    Range: (quadrant 1 and 2 angles).        Using a Calculator to Evaluate Inverse Trigonometric Functions   Use a calculator to find the value of each inverse function.    . Explain why you got the result that you did.       Evaluating a Composite Inverse Trigonometric Expression   Evaluate without a calculator.     Rewriting a composition of Trigonometric Functions as an Algebraic Expression   Rewrite as an algebraic expression in , with no trigonometric functions in the final answer.    "
+},
+{
+  "id": "def-app-trig-inverse-relation",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#def-app-trig-inverse-relation",
+  "type": "Definition",
+  "number": "D.7.349",
+  "title": "",
+  "body": "  Let be any function. Then there exists a relation that has the following properties:  is the set of all values such that .  domain of = range of .  range of = domain of .    The relation is called the inverse of .   "
+},
+{
+  "id": "ex-trig-inverse-square-function",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-trig-inverse-square-function",
+  "type": "Example",
+  "number": "D.7.350",
+  "title": "Evaluating an Inverse Relation That Is Not a Function.",
+  "body": " Evaluating an Inverse Relation That Is Not a Function   Suppose that . Evaluate .   "
+},
+{
+  "id": "def-app-trig-when-inverse-is-function",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#def-app-trig-when-inverse-is-function",
+  "type": "Note",
+  "number": "D.7.351",
+  "title": "When is <span class=\"process-math\">\\(f^{-1}(x)\\)<\/span> a function?",
+  "body": " When is a function?   is a function if the graph of passes the horizontal line test. In other words, when is one-to-one.  "
+},
+{
+  "id": "fig-one-to-one-examples",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#fig-one-to-one-examples",
+  "type": "Figure",
+  "number": "D.7.352",
+  "title": "",
+  "body": " Two examples: One of a function that is one-to-one and one that is not.    The function is one-to-one since it passes the horizontal line text.     The function is not one-to-one since it fails the horizontal line test.     "
+},
+{
+  "id": "lecture-notes-thm-inverse-composition-properties-review",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#lecture-notes-thm-inverse-composition-properties-review",
+  "type": "Theorem",
+  "number": "D.7.353",
+  "title": "Inverse Function Property.",
+  "body": " Inverse Function Property   Let be any one-to-one function. Then the inverse function exists and has the following properties.    for any in the domain of .  for any in the range of .  The domain of equals the range of .  The range of equals the domain of .     "
+},
+{
+  "id": "ex-app-trig-1",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-1",
+  "type": "Example",
+  "number": "D.7.354",
+  "title": "Constructing Inverse Functions for <span class=\"process-math\">\\(f(x)=x^2\\)<\/span> with Domain Restrictions.",
+  "body": " Constructing Inverse Functions for with Domain Restrictions   The function is not one-to-one over all real numbers. Find the two domain restrictions of that are one-to-one and create an inverse function for each restriction.   "
+},
+{
+  "id": "ex-construct-inverse-sine",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-construct-inverse-sine",
+  "type": "Example",
+  "number": "D.7.355",
+  "title": "Constructing the Inverse Sine Function.",
+  "body": " Constructing the Inverse Sine Function   The sine function is not one-to-one over all real numbers. Find a domain restriction of the sine function that is one-to-one and create an inverse function for that restriction.   "
+},
+{
+  "id": "def-app-trig-inverse-sine",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#def-app-trig-inverse-sine",
+  "type": "Definition",
+  "number": "D.7.356",
+  "title": "Definition of the Inverse Sine Function.",
+  "body": " Definition of the Inverse Sine Function   Let on . We define the inverse sine function by     The domain and range of are   Domain: and    Range: (quadrant 1 and 4 angles).   Common values of are given in the following table.   Inverse Sine Values                              "
+},
+{
+  "id": "note-app-trig-inverse-notation",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#note-app-trig-inverse-notation",
+  "type": "Note",
+  "number": "D.7.358",
+  "title": "Note on the <span class=\"process-math\">\\(^{-1}\\)<\/span> Notation.",
+  "body": " Note on the Notation    For numbers, because the ideas of reciprocals and inverses produce the same result.  For functions, means the inverse of , not .  To denote a reciprocal function, use .    "
+},
+{
+  "id": "ex-app-trig-4",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-4",
+  "type": "Example",
+  "number": "D.7.359",
+  "title": "Evaluating an Inverse Sine Exact Value.",
+  "body": " Evaluating an Inverse Sine Exact Value   Find the exact value of .   "
+},
+{
+  "id": "ex-app-trig-5",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-5",
+  "type": "Example",
+  "number": "D.7.360",
+  "title": "Evaluating a Negative Inverse Sine Exact Value.",
+  "body": " Evaluating a Negative Inverse Sine Exact Value   Find the exact value of .   "
+},
+{
+  "id": "ex-app-trig-6",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-6",
+  "type": "Example",
+  "number": "D.7.361",
+  "title": "Using Inverse Sine to Find a Quadrant III Angle.",
+  "body": " Using Inverse Sine to Find a Quadrant III Angle   Use to find a Quadrant III angle such that .   "
+},
+{
+  "id": "ex-construct-inverse-cosine",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-construct-inverse-cosine",
+  "type": "Example",
+  "number": "D.7.362",
+  "title": "Constructing the Inverse Cosine Function.",
+  "body": " Constructing the Inverse Cosine Function   The cosine function is not one-to-one over all real numbers. Find a domain restriction of the cosine function that is one-to-one and create an inverse function for that restriction.   "
+},
+{
+  "id": "def-app-trig-inverse-cosine",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#def-app-trig-inverse-cosine",
+  "type": "Definition",
+  "number": "D.7.363",
+  "title": "Definition of the Inverse Cosine Function.",
+  "body": " Definition of the Inverse Cosine Function   Let on . We define the inverse cosine function by     The domain and range of are     Domain: and    Range: (quadrant 1 and 2 angles).   Common values of are given in the following table.   Inverse Cosine Values                              "
+},
+{
+  "id": "ex-app-trig-7",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-7",
+  "type": "Example",
+  "number": "D.7.365",
+  "title": "Evaluating an Inverse Cosine Exact Value.",
+  "body": " Evaluating an Inverse Cosine Exact Value   Find the exact value of .   "
+},
+{
+  "id": "ex-app-trig-8",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-8",
+  "type": "Example",
+  "number": "D.7.366",
+  "title": "Evaluating a Negative Inverse Cosine Exact Value.",
+  "body": " Evaluating a Negative Inverse Cosine Exact Value   Find the exact value of .   "
+},
+{
+  "id": "ex-app-trig-9",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-9",
+  "type": "Example",
+  "number": "D.7.367",
+  "title": "Using Inverse Cosine to Find a Quadrant IV Angle.",
+  "body": " Using Inverse Cosine to Find a Quadrant IV Angle   Use to find a Quadrant IV angle such that .   "
+},
+{
+  "id": "ex-construct-inverse-tangent",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-construct-inverse-tangent",
+  "type": "Example",
+  "number": "D.7.368",
+  "title": "Constructing the Inverse Tangent Function.",
+  "body": " Constructing the Inverse Tangent Function   The tangent function is not one-to-one over all real numbers. Find a domain restriction of the tangent function that is one-to-one and create an inverse function for that restriction.   "
+},
+{
+  "id": "def-app-trig-inverse-tangent",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#def-app-trig-inverse-tangent",
+  "type": "Definition",
+  "number": "D.7.369",
+  "title": "Definition of the Inverse Tangent Function.",
+  "body": " Definition of the Inverse Tangent Function   Let on . We define the inverse tangent function by     The domain and range of are     Domain: and    Range: (quadrant 1 and 4 angles).   Common values of are given in the following table.   Inverse Tangent Values                          "
+},
+{
+  "id": "ex-app-trig-10",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-10",
+  "type": "Example",
+  "number": "D.7.371",
+  "title": "Evaluating an Inverse Tangent Exact Value.",
+  "body": " Evaluating an Inverse Tangent Exact Value   Find the exact value of .   "
+},
+{
+  "id": "ex-app-trig-11",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-11",
+  "type": "Example",
+  "number": "D.7.372",
+  "title": "Evaluating a Negative Inverse Tangent Exact Value.",
+  "body": " Evaluating a Negative Inverse Tangent Exact Value   Find the exact value of .   "
+},
+{
+  "id": "ex-app-trig-12",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-12",
+  "type": "Example",
+  "number": "D.7.373",
+  "title": "Using Inverse Tangent to Find a Quadrant III Angle.",
+  "body": " Using Inverse Tangent to Find a Quadrant III Angle   Use to find a Quadrant III angle such that .   "
+},
+{
+  "id": "ex-construct-inverse-cosecant",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-construct-inverse-cosecant",
+  "type": "Example",
+  "number": "D.7.374",
+  "title": "Constructing the Inverse Cosecant Function.",
+  "body": " Constructing the Inverse Cosecant Function   The cosecant function is not one-to-one over all real numbers. Find a domain restriction of the cosecant function that is one-to-one and create an inverse function for that restriction.   "
+},
+{
+  "id": "def-app-trig-inverse-cosecant",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#def-app-trig-inverse-cosecant",
+  "type": "Definition",
+  "number": "D.7.375",
+  "title": "Definition of the Inverse Cosecant Function.",
+  "body": " Definition of the Inverse Cosecant Function   Let on . We define the inverse cosecant function by     The domain and range of are     Domain: and    Range: (quadrant 1 and 4 angles).      "
+},
+{
+  "id": "ex-construct-inverse-secant",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-construct-inverse-secant",
+  "type": "Example",
+  "number": "D.7.376",
+  "title": "Constructing the Inverse Secant Function.",
+  "body": " Constructing the Inverse Secant Function   The secant function is not one-to-one over all real numbers. Find a domain restriction of the secant function that is one-to-one and create an inverse function for that restriction.   "
+},
+{
+  "id": "def-app-trig-inverse-secant",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#def-app-trig-inverse-secant",
+  "type": "Definition",
+  "number": "D.7.377",
+  "title": "Definition of the Inverse Secant Function.",
+  "body": " Definition of the Inverse Secant Function   Let on . We define the inverse secant function by     The domain and range of are     Domain: and    Range: (quadrant 1 and 4 angles).      "
+},
+{
+  "id": "ex-construct-inverse-cotangent",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-construct-inverse-cotangent",
+  "type": "Example",
+  "number": "D.7.378",
+  "title": "Constructing the Inverse Cotangent Function.",
+  "body": " Constructing the Inverse Cotangent Function   The cotangent function is not one-to-one over all real numbers. Find a domain restriction of the cotangent function that is one-to-one and create an inverse function for that restriction.   "
+},
+{
+  "id": "def-app-trig-inverse-cotangent",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#def-app-trig-inverse-cotangent",
+  "type": "Definition",
+  "number": "D.7.379",
+  "title": "Definition of the Inverse Cotangent Function.",
+  "body": " Definition of the Inverse Cotangent Function   Let on . We define the inverse cotangent function by     The domain and range of are     Domain: and    Range: (quadrant 1 and 2 angles).      "
+},
+{
+  "id": "ex-app-trig-13",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-13",
+  "type": "Example",
+  "number": "D.7.380",
+  "title": "Using a Calculator to Evaluate Inverse Trigonometric Functions.",
+  "body": " Using a Calculator to Evaluate Inverse Trigonometric Functions   Use a calculator to find the value of each inverse function.    . Explain why you got the result that you did.     "
+},
+{
+  "id": "ex-app-trig-16",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-16",
+  "type": "Example",
+  "number": "D.7.381",
+  "title": "Evaluating a Composite Inverse Trigonometric Expression.",
+  "body": " Evaluating a Composite Inverse Trigonometric Expression   Evaluate without a calculator.   "
+},
+{
+  "id": "ex-app-trig-17",
+  "level": "2",
+  "url": "ws-app-trig-inverse-trig.html#ex-app-trig-17",
+  "type": "Example",
+  "number": "D.7.382",
+  "title": "Rewriting a composition of Trigonometric Functions as an Algebraic Expression.",
+  "body": " Rewriting a composition of Trigonometric Functions as an Algebraic Expression   Rewrite as an algebraic expression in , with no trigonometric functions in the final answer.   "
+},
+{
   "id": "appendix-e",
   "level": "1",
   "url": "appendix-e.html",
@@ -9581,7 +9869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-definition",
   "type": "Definition",
-  "number": "H.1.349",
+  "number": "H.1.383",
   "title": "Data.",
   "body": " Data   Data is any collection of observations, counts, measurements, or survey responses.   "
 },
@@ -9590,7 +9878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-examples-of-data",
   "type": "Definition",
-  "number": "H.1.350",
+  "number": "H.1.384",
   "title": "Examples of Data.",
   "body": " Examples of Data   Data can include numerical measurements, categorical information, survey responses, and observational records.   "
 },
@@ -9599,7 +9887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-statistics-definition",
   "type": "Definition",
-  "number": "H.1.351",
+  "number": "H.1.385",
   "title": "Statistics.",
   "body": " Statistics   Statistics is the science of collecting, organizing, analyzing, and interpreting data from a sample to draw conclusions about a population.   "
 },
@@ -9608,7 +9896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-course-structure",
   "type": "Definition",
-  "number": "H.1.352",
+  "number": "H.1.386",
   "title": "Course Structure Overview.",
   "body": " Course Structure Overview   The course is structured as follows:   Chapter 1: Introduces the best ways to collect data and ensures it represents the real world.  Chapters 2 and 3: Focus on organizing and analyzing data.  Chapters 4–6: Cover probability and probability distributions, which are essential for understanding inferences made in Chapters 7–10. These chapters are the most theoretical and challenging but provide the necessary foundation.  Chapters 7–10: Teach how to interpret data from a sample to draw conclusions about a population.   Statistics is a process you'll learn throughout the semester—it's not something mastered in a day.   "
 },
@@ -9617,7 +9905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-population-definition",
   "type": "Definition",
-  "number": "H.1.353",
+  "number": "H.1.387",
   "title": "Population.",
   "body": " Population   A population is the complete collection of all individuals to be studied.  Individuals often refer to people, but not always. For example, individuals can also refer to animals, plants, objects, or any entities of interest.   "
 },
@@ -9626,7 +9914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-census-definition",
   "type": "Definition",
-  "number": "H.1.354",
+  "number": "H.1.388",
   "title": "Census.",
   "body": " Census   A census collects data from every member of a population.  Examples include the U.S. Census, surveys of all employees at a company, or studies examining every item in a production batch.   "
 },
@@ -9635,7 +9923,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-sample-definition",
   "type": "Definition",
-  "number": "H.1.355",
+  "number": "H.1.389",
   "title": "Sample.",
   "body": " Sample   A sample is a subset of members selected from a population.  Examples include polling a subset of voters, surveying students from selected schools, or testing a portion of a product batch.   "
 },
@@ -9644,7 +9932,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-1",
   "type": "Example",
-  "number": "H.1.356",
+  "number": "H.1.390",
   "title": "Example 1.",
   "body": " Example 1   Determine the population and sample for the given situation: A Gallup poll is given to a sample of eligible voters, and there are 2.3 million responses.   "
 },
@@ -9653,7 +9941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-2",
   "type": "Example",
-  "number": "H.1.357",
+  "number": "H.1.391",
   "title": "Example 2.",
   "body": " Example 2   Determine whether the following data is from a population or a sample:   Part A: The age of every fourth person entering a grocery store.  Part B: The major for each student at a community college.    "
 },
@@ -9662,7 +9950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-3",
   "type": "Example",
-  "number": "H.1.358",
+  "number": "H.1.392",
   "title": "Example 3.",
   "body": " Example 3   Identify the population and sample for this situation: A company surveys 850 of its employees and finds that 520 are satisfied with their job.   "
 },
@@ -9671,7 +9959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-4",
   "type": "Example",
-  "number": "H.1.359",
+  "number": "H.1.393",
   "title": "Example 4.",
   "body": " Example 4   An ecologist wants to study the nesting habits of birds in a particular forest. They identify 1800 trees in the northwest region of the forest and randomly select 300 trees to observe. Of those, 120 trees contain nests.   Part A: What is the population the ecologist wants to study?  Part B: What is the sample they obtained?  Part C: About which population can the ecologist draw conclusions?    "
 },
@@ -9680,7 +9968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-parameter-definition",
   "type": "Definition",
-  "number": "H.1.360",
+  "number": "H.1.394",
   "title": "Parameter.",
   "body": " Parameter   A parameter is a numerical measurement describing some characteristic of a population. It is often theoretical and unknown.   "
 },
@@ -9689,7 +9977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-statistic-definition",
   "type": "Definition",
-  "number": "H.1.361",
+  "number": "H.1.395",
   "title": "Statistic.",
   "body": " Statistic   A statistic is a number calculated from and describing some characteristic of a sample. Statistics are used to estimate unknown parameters.   "
 },
@@ -9698,7 +9986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-param-vs-stat",
   "type": "Definition",
-  "number": "H.1.362",
+  "number": "H.1.396",
   "title": "How to Tell the Difference Between a Parameter and a Statistic.",
   "body": " How to Tell the Difference Between a Parameter and a Statistic     Parameter refers to a population (both start with \"p\").  Statistic refers to a sample (both start with \"s\").     "
 },
@@ -9707,7 +9995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-param-stat-example-1",
   "type": "Example",
-  "number": "H.1.363",
+  "number": "H.1.397",
   "title": "Example 1.",
   "body": " Example 1   For each scenario below, tell if each bolded value is a parameter or a statistic. If the value is a statistic, explain what could be changed about the scenario to make the bolded value a parameter:   Part A: A study of all 2223 passengers aboard the Titanic found that survived when it sank.  Part B: In a large sample of households, the median annual income per household for high school graduates is (based on data from the U.S. Census Bureau).  Part C: Among the Senators in the current Congress, are Democrats.  Part D: The author measured the voltage supplied to his home on 40 different days, and the average (mean) value is volts.    "
 },
@@ -9716,7 +10004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-param-stat-example-2",
   "type": "Example",
-  "number": "H.1.364",
+  "number": "H.1.398",
   "title": "Example 2.",
   "body": " Example 2   Determine if the boldface number is a parameter or a statistic: In 2022, the average math score for a female student who took the ACT that year was .   "
 },
@@ -9725,7 +10013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-qualitative-data",
   "type": "Definition",
-  "number": "H.1.365",
+  "number": "H.1.399",
   "title": "Qualitative Data.",
   "body": " Qualitative Data   Qualitative data (or categorical data) categorizes or describes attributes of a population, often using words or letters but can include labels that are numerical.  Examples include gender, ethnicity, color, brand names, and categories.   "
 },
@@ -9734,7 +10022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-quantitative-data",
   "type": "Definition",
-  "number": "H.1.366",
+  "number": "H.1.400",
   "title": "Quantitative Data.",
   "body": " Quantitative Data   Quantitative data represents numerical values obtained by counting or measuring attributes.  Examples include height, weight, temperature, number of students, and salary.  Quantitative data is further divided into two subcategories:   Discrete Data: Occurs when the possible values are finite or countable (e.g., 0 calls, 1 call, 2 calls, etc.). Examples include number of children, number of cars owned, and count of defective items.  Continuous Data: Consists of infinitely many possible values along a continuous scale with no gaps, interruptions, or jumps (e.g., weight, time, or distance). Examples include height: 5'8.1\", 5'8 3\/16\", etc.; weight; and temperature.    "
 },
@@ -9743,7 +10031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-types-example-1",
   "type": "Example",
-  "number": "H.1.367",
+  "number": "H.1.401",
   "title": "Example 1.",
   "body": " Example 1   For each of the following, determine whether the data is quantitative or qualitative. If it is quantitative, specify whether it is discrete or continuous:   Part A: The number of pairs of shoes you own  Part B: The type of car you drive  Part C: The distance from your home to the nearest grocery store  Part D: The number of classes you take per school year  Part E: The type of calculator you use  Part F: Weights of dogs at an animal shelter  Part G: The number of correct answers on a quiz  Part H: The amount of money you spend at the local Quickmart    "
 },
@@ -9752,7 +10040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-types-example-2",
   "type": "Example",
-  "number": "H.1.368",
+  "number": "H.1.402",
   "title": "Example 2.",
   "body": " Example 2   Consider the following information and table, then answer the questions below.   Part A: Which information is categorical data?  Part B: Which information is quantitative data?    Selected Vehicle Data    Make\/Model  Class  Transmission  Cylinders  City MPG  Highway MPG  Annual Fuel Cost    Chevrolet Corvette  Two-Seater  Manual  8  17  29  $2,650    Nissan Cube  Station Wagon  Manual  4  25  30  $1,850    Ford Fusion  Midsize  Automatic  4  23  36  $1,800    Chevrolet Impala  Large  Automatic  6  18  28  $2,400      "
 },
@@ -9761,7 +10049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-types-example-3",
   "type": "Example",
-  "number": "H.1.370",
+  "number": "H.1.404",
   "title": "Example 3: Type of Data from an Image.",
   "body": " Example 3: Type of Data from an Image   The registrar at State University keeps records of the number of credit hours students complete each semester. The data collected are summarized in the histogram. The class boundaries are 10 to less than 13, 13 to less than 16, 16 to less than 19, 19 to less than 22, and 22 to less than 25.   Histogram with intervals 10-13, 13-16, 16-19, 19-22, 22-25; bar heights: 250, 580, 740, 625, 240.     "
 },
@@ -9770,7 +10058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-nominal-level",
   "type": "Definition",
-  "number": "H.1.372",
+  "number": "H.1.406",
   "title": "Nominal Level.",
   "body": " Nominal Level   Data at the nominal level are categorized without any order. Examples include gender, eye color, and types of fruits.   "
 },
@@ -9779,7 +10067,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-ordinal-level",
   "type": "Definition",
-  "number": "H.1.373",
+  "number": "H.1.407",
   "title": "Ordinal Level.",
   "body": " Ordinal Level   Data at the ordinal level are categorized with a meaningful order, but differences between categories are not measurable. Examples include rankings in a competition or survey responses such as \"satisfied,\" \"neutral,\" or \"dissatisfied.\"   "
 },
@@ -9788,7 +10076,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-interval-level",
   "type": "Definition",
-  "number": "H.1.374",
+  "number": "H.1.408",
   "title": "Interval Level.",
   "body": " Interval Level   Data at the interval level have meaningful order and measurable differences, but no true zero point. Examples include temperature in Celsius or years on a calendar.   "
 },
@@ -9797,7 +10085,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-ratio-level",
   "type": "Definition",
-  "number": "H.1.375",
+  "number": "H.1.409",
   "title": "Ratio Level.",
   "body": " Ratio Level   Data at the ratio level have meaningful order, measurable differences, and a true zero point, allowing for meaningful ratios. Examples include weight, height, or age.   "
 },
@@ -9806,7 +10094,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-measurement-level-example",
   "type": "Example",
-  "number": "H.1.376",
+  "number": "H.1.410",
   "title": "Example: Levels of Measurement.",
   "body": " Example: Levels of Measurement   Classify the following scenarios by their level of measurement:   Part A: Types of cars (e.g., SUV, sedan, truck).  Part B: The ranking of runners in a race.  Part C: Temperature readings in Fahrenheit.  Part D: The time it takes for participants to complete a task, measured in seconds.    "
 },
@@ -9815,7 +10103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-observational-study",
   "type": "Definition",
-  "number": "H.1.377",
+  "number": "H.1.411",
   "title": "Observational Study.",
   "body": " Observational Study   In an observational study , a researcher observes and measures characteristics but does not change any existing conditions.   "
 },
@@ -9824,7 +10112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-experiment-definition",
   "type": "Definition",
-  "number": "H.1.378",
+  "number": "H.1.412",
   "title": "Experiment and Treatment.",
   "body": " Experiment and Treatment   In an experiment , a researcher imposes a change in some preexisting condition, called a treatment , onto a sample of a population and measures their response to that change.   "
 },
@@ -9833,7 +10121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-control-group",
   "type": "Definition",
-  "number": "H.1.379",
+  "number": "H.1.413",
   "title": "Control Group.",
   "body": " Control Group   A control group is a sample that receives no treatment and is used as a baseline to compare other samples to.   "
 },
@@ -9842,7 +10130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-obs-exp-example-1",
   "type": "Example",
-  "number": "H.1.380",
+  "number": "H.1.414",
   "title": "Example 1.",
   "body": " Example 1   Determine whether the study is observational or an experiment. Explain your reasoning.   Part A: In a survey of 1033 US adults, 51% of respondents said that US presidents should release all medical information that might affect their ability to serve.  Part B: Researchers demonstrated that adults using an intensive program to lower systolic blood pressure to less than 120 millimeters of mercury reduce the risk of death from all causes by 27%.    "
 },
@@ -9851,7 +10139,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-replication",
   "type": "Definition",
-  "number": "H.1.381",
+  "number": "H.1.415",
   "title": "Replication.",
   "body": " Replication   Replication: Assign enough individuals to each treatment to reduce the variation in the results. This ensures that similar experiments conducted under the same conditions will yield similar results.   "
 },
@@ -9860,7 +10148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-randomization",
   "type": "Definition",
-  "number": "H.1.382",
+  "number": "H.1.416",
   "title": "Randomization.",
   "body": " Randomization   Randomization: Select subjects randomly so that variations in results occur purely by chance, not external factors.   "
 },
@@ -9869,7 +10157,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-study-design-example-2",
   "type": "Example",
-  "number": "H.1.383",
+  "number": "H.1.417",
   "title": "Example 2.",
   "body": " Example 2   In statistics, it is often said that a single data study doesn't prove a result. Explain why this is true.   "
 },
@@ -9878,7 +10166,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-blinding",
   "type": "Definition",
-  "number": "H.1.384",
+  "number": "H.1.418",
   "title": "Blinding.",
   "body": " Blinding   Blinding ensures that subjects do not know whether they are receiving a placebo or an actual treatment. This reduces the risk of bias caused by participants' expectations influencing the results.   "
 },
@@ -9887,7 +10175,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-single-blind",
   "type": "Definition",
-  "number": "H.1.385",
+  "number": "H.1.419",
   "title": "Single-Blind Experiment.",
   "body": " Single-Blind Experiment   In a single-blind experiment , the participants do not know whether they are receiving the treatment or a placebo, but the researchers administering the treatment do know.   "
 },
@@ -9896,7 +10184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-double-blind",
   "type": "Definition",
-  "number": "H.1.386",
+  "number": "H.1.420",
   "title": "Double-Blind Experiment.",
   "body": " Double-Blind Experiment   In a double-blind experiment , neither the participants nor the researchers administering the treatment know who is receiving the treatment or the placebo.   "
 },
@@ -9905,7 +10193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-blinding-example-3",
   "type": "Example",
-  "number": "H.1.387",
+  "number": "H.1.421",
   "title": "Example 3.",
   "body": " Example 3   An experiment that claimed to show that meditation reduces anxiety proceeded as follows:  The experimenter interviewed the subjects and rated their level of anxiety. Then the subjects were randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply told to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety levels. The meditation group now had less anxiety.  Psychologists said that the results were suspect because the ratings were not blind. Explain what this means and show how the lack of blindness could introduce bias into the reported results.   "
 },
@@ -9914,7 +10202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-response-bias",
   "type": "Definition",
-  "number": "H.1.388",
+  "number": "H.1.422",
   "title": "Response Bias.",
   "body": " Response Bias   Response bias occurs when the behavior of the respondent or the interviewer influences the response that the respondent gives. This can result in inaccurate or misleading data that does not accurately represent the population being studied.   "
 },
@@ -9923,7 +10211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-wording-effects",
   "type": "Definition",
-  "number": "H.1.389",
+  "number": "H.1.423",
   "title": "Wording Effects.",
   "body": " Wording Effects   Wording effects occur when the phrasing, choice of words, or order in which questions are asked affects the responses collected. Even slight changes in how a question is framed can result in significantly different answers, which can introduce bias into the data.   "
 },
@@ -9932,7 +10220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-nonresponse",
   "type": "Definition",
-  "number": "H.1.390",
+  "number": "H.1.424",
   "title": "Nonresponse.",
   "body": " Nonresponse   Nonresponse occurs when a respondent refuses to participate or cannot be reached. This results in missing data and can skew the results if the nonrespondents differ systematically from those who do respond.   "
 },
@@ -9941,7 +10229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-bias-example-4",
   "type": "Example",
-  "number": "H.1.391",
+  "number": "H.1.425",
   "title": "Example 4.",
   "body": " Example 4   An opinion poll calls 2000 randomly chosen households and asks an adult member of the household, \"How many movies have you watched in a movie theater in the last 12 months?\" Only 831 people responded.   What is the rate of nonresponse?  Why do you think the nonresponse rate was so high?    "
 },
@@ -9950,7 +10238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-simple-random-sampling",
   "type": "Definition",
-  "number": "H.1.392",
+  "number": "H.1.426",
   "title": "Simple Random Sampling.",
   "body": " Simple Random Sampling   In simple random sampling , every individual in the population has an equal chance of being selected, ensuring that all samples of the same size are equally likely.   "
 },
@@ -9959,7 +10247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-stratified-sampling",
   "type": "Definition",
-  "number": "H.1.393",
+  "number": "H.1.427",
   "title": "Stratified Sampling.",
   "body": " Stratified Sampling   In stratified sampling , divide the population into groups (strata) and take a proportionate random sample from each group. For instance, sample students from various departments to represent a college population.   "
 },
@@ -9968,7 +10256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-cluster-sampling",
   "type": "Definition",
-  "number": "H.1.394",
+  "number": "H.1.428",
   "title": "Cluster Sampling.",
   "body": " Cluster Sampling   In cluster sampling , divide the population into clusters, then randomly select some clusters and include all members from those clusters in the sample. For example, randomly select departments in a college and survey all their students.   "
 },
@@ -9977,7 +10265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-systematic-sampling",
   "type": "Definition",
-  "number": "H.1.395",
+  "number": "H.1.429",
   "title": "Systematic Sampling.",
   "body": " Systematic Sampling   In systematic sampling , randomly select a starting point and pick every nth member from a population list. For example, choose every 50th name in a phone book for a survey.   "
 },
@@ -9986,7 +10274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-convenience-sampling",
   "type": "Definition",
-  "number": "H.1.396",
+  "number": "H.1.430",
   "title": "Convenience Sampling.",
   "body": " Convenience Sampling   In convenience sampling , individuals are chosen based on accessibility and ease rather than randomness. For example, surveying the first 20 people entering a grocery store about their shopping habits.   "
 },
@@ -9995,7 +10283,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-sampling-techniques-example-1",
   "type": "Example",
-  "number": "H.1.397",
+  "number": "H.1.431",
   "title": "Example 1.",
   "body": " Example 1   A study intends to determine the average tuition paid by Tennessee Technological University undergraduate students per semester. Identify the sampling method used in each scenario:   Part A: Organize students by year (e.g., first-year, sophomore), then select 25 from each.  Part B: Use a random number generator to select one student, then pick every 50th student until 75 students are included.  Part C: Select 75 students completely at random, with equal probability for all.  Part D: Randomly pick two years (e.g., first-year and senior), and survey all students in those years.  Part E: Survey the first 100 students encountered in front of the library on a specific day.    "
 },
@@ -10004,7 +10292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-random-sampling-error",
   "type": "Definition",
-  "number": "H.1.398",
+  "number": "H.1.432",
   "title": "Random Sampling Error.",
   "body": " Random Sampling Error   A random sampling error occurs when there is a discrepancy between a sample result and the true population result. This type of error arises purely due to chance, as a sample is only a subset of the population and may not perfectly represent it. For example, if a random sample of 50 students is drawn from a school of 1,000, the sample mean test score might differ slightly from the population mean simply by chance.   "
 },
@@ -10013,7 +10301,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-nonrandom-sampling-error",
   "type": "Definition",
-  "number": "H.1.399",
+  "number": "H.1.433",
   "title": "Nonrandom Sampling Error.",
   "body": " Nonrandom Sampling Error   There are three important types of nonrandom sampling errors: undercoverage , nonresponse , and volunteer response .   "
 },
@@ -10022,7 +10310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-undercoverage",
   "type": "Definition",
-  "number": "H.1.400",
+  "number": "H.1.434",
   "title": "Undercoverage.",
   "body": " Undercoverage   Undercoverage occurs when some groups in the population are systematically excluded from the sampling process, making the sample unrepresentative of the entire population.   "
 },
@@ -10031,7 +10319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-volunteer-response",
   "type": "Definition",
-  "number": "H.1.401",
+  "number": "H.1.435",
   "title": "Volunteer Response Bias.",
   "body": " Volunteer Response Bias   Volunteer response occurs when participants self-select into the sample rather than being randomly chosen, often leading to an overrepresentation of individuals with strong opinions.   "
 },
@@ -10040,7 +10328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-sampling-errors-example-2",
   "type": "Example",
-  "number": "H.1.402",
+  "number": "H.1.436",
   "title": "Example 2.",
   "body": " Example 2   A university is conducting a study to understand student preferences for campus dining options. The following scenarios describe how data was collected. Identify the type of nonrandom sampling error for each part and explain your reasoning.   Part A: The university posts a survey link on its social media pages and encourages students to share their opinions. Most responses come from students who are either very satisfied or very dissatisfied with campus dining options.  Part B: The university randomly emails 1,000 students asking them to complete the survey. Only 250 students respond, and many of the responses are from students who frequently use campus dining services.  Part C: The university conducts the survey at a single campus dining hall during lunchtime. Students who do not use the dining hall or eat lunch on campus are excluded from the sample.    "
 },
@@ -10049,7 +10337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-non-sampling-error",
   "type": "Definition",
-  "number": "H.1.403",
+  "number": "H.1.437",
   "title": "Non-sampling Error.",
   "body": " Non-sampling Error   A non-sampling error is caused by human error or flaws in the data collection process. These errors can occur regardless of how the sample is chosen. Examples include mistyping data into a computer, misinterpreting survey questions, or using faulty measuring instruments.   "
 },
@@ -10058,7 +10346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-completely-randomized-design",
   "type": "Definition",
-  "number": "H.1.404",
+  "number": "H.1.438",
   "title": "Completely Randomized Design.",
   "body": " Completely Randomized Design   A completely randomized design assigns treatments to subjects entirely at random, without grouping or blocking. This design works well when the subjects are similar and there are no additional variables that need to be controlled.  Example: A clinical trial randomly assigns participants to receive one of three medications to treat high blood pressure. Results are compared across all participants.   "
 },
@@ -10067,7 +10355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-exp-design-example-1",
   "type": "Example",
-  "number": "H.1.405",
+  "number": "H.1.439",
   "title": "Example 1.",
   "body": " Example 1   Many utility companies have introduced programs to encourage energy conservation among their customers. A particular company has three options:   Place a small digital display in households to show current electricity usage.  Give customers a chart and information about monitoring their use from the outside meter.  Use a control group that receives general information about conserving energy but no tools to monitor their use.   Design a flowchart that models this experiment.   "
 },
@@ -10076,7 +10364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-randomized-block-design",
   "type": "Definition",
-  "number": "H.1.406",
+  "number": "H.1.440",
   "title": "Randomized Block Design.",
   "body": " Randomized Block Design   A randomized block design groups subjects into blocks based on shared characteristics or variables that may influence the results. Treatments are then randomly assigned within each block, and comparisons are made within the blocks.  Example: In a weight loss study, participants are grouped into blocks by gender (e.g., male and female). Within each block, participants are randomly assigned to different diet plans, and results are compared separately for males and females.   "
 },
@@ -10085,7 +10373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-exp-design-example-2",
   "type": "Example",
-  "number": "H.1.407",
+  "number": "H.1.441",
   "title": "Example 2.",
   "body": " Example 2   A cosmetics company wants to compare the effectiveness of two facial creams: Cream A, which claims to reduce wrinkles, and Cream B, which claims to improve skin hydration. The company recruits 40 participants and divides them into blocks based on skin type: oily, dry, combination, and sensitive. Each block contains 10 participants. Within each block, participants are randomly assigned to use either Cream A or Cream B for four weeks, and their skin condition is evaluated at the end of the study.  Design a diagram that models this experiment.   "
 },
@@ -10094,7 +10382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-matched-pairs-design",
   "type": "Definition",
-  "number": "H.1.408",
+  "number": "H.1.442",
   "title": "Matched Pairs Design.",
   "body": " Matched Pairs Design   A matched pairs design is a special case of the randomized block design where subjects are paired or matched in some way. This design is used to compare two treatments.  Version 1: Pair two individuals based on shared characteristics. Randomly assign one individual in each pair to receive the first treatment, and the other to receive the second treatment. Compare results within each pair.  Example: Two participants of similar age and fitness level are paired. One is assigned to a new exercise routine, and the other follows a standard routine. Their progress is compared after four weeks.  Version 2: Use the same individual for both treatments. Assign one of the treatments to the individual at random, and once the experiment is concluded, apply the other treatment at a later time under similar conditions. Compare the results for that individual.  Example: A participant tests two different types of running shoes by running a set distance with each pair on different days. Their times are compared to determine which shoe performs better.   "
 },
@@ -10103,7 +10391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-exp-design-example-3",
   "type": "Example",
-  "number": "H.1.409",
+  "number": "H.1.443",
   "title": "Example 3.",
   "body": " Example 3   Researchers are studying the effect of two different dashboard layouts on driver reaction times during sudden stops. The two layouts are:   Layout A: A traditional dashboard with analog gauges.  Layout B: A modern digital dashboard with heads-up display features.   Each participant is randomly assigned to use one dashboard layout while completing a driving simulation. After a break, the same participants repeat the simulation with the other dashboard layout under similar conditions. Reaction times are measured during each simulation.  Describe and diagram a matched pairs experiment to determine if the modern dashboard increases safety.   "
 },
@@ -10121,7 +10409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-frequency-def",
   "type": "Definition",
-  "number": "H.2.410",
+  "number": "H.2.444",
   "title": "Frequency.",
   "body": " Frequency   The frequency of a data point is how many times it shows up in the data set.   "
 },
@@ -10130,7 +10418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-dist-def",
   "type": "Definition",
-  "number": "H.2.411",
+  "number": "H.2.445",
   "title": "Frequency Distribution.",
   "body": " Frequency Distribution   A frequency distribution is a table that lists either the raw data or classes (defined below) in the first column and corresponding frequency in the second column.   "
 },
@@ -10139,7 +10427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-1",
   "type": "Example",
-  "number": "H.2.412",
+  "number": "H.2.446",
   "title": "Example 1.",
   "body": " Example 1   The data on the number of deaths directly caused by tornadoes in Tennessee is given in the table below. Create a Frequency Distribution for the number of deaths per year.   "
 },
@@ -10148,7 +10436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-class-width",
   "type": "Definition",
-  "number": "H.2.413",
+  "number": "H.2.447",
   "title": "Class Width.",
   "body": " Class Width   The class width is the size of each class and determines how data is grouped. It is calculated using the formula: If the result is a decimal, always round up to the next whole number to ensure all data points fit into the intervals.   "
 },
@@ -10157,7 +10445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-2",
   "type": "Example",
-  "number": "H.2.414",
+  "number": "H.2.448",
   "title": "Example 2.",
   "body": " Example 2   Our data from Example 1 range from 0 deaths to 75 deaths. Find the class width that you will need if you want 6 classes.   "
 },
@@ -10166,7 +10454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-boundary-points",
   "type": "Definition",
-  "number": "H.2.415",
+  "number": "H.2.449",
   "title": "Boundary Points.",
   "body": " Boundary Points   The minimum value is typically the first boundary point. To find the other boundary points, keep adding the class width until you get a value that is larger than (but not equal to) the maximal value in our data set.   "
 },
@@ -10175,7 +10463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-3",
   "type": "Example",
-  "number": "H.2.416",
+  "number": "H.2.450",
   "title": "Example 3.",
   "body": " Example 3   Our data from Example 1 range from 0 deaths to 75 deaths. Suppose you want your boundary points to start at 7 and have class width 10. Find all the boundary points.   "
 },
@@ -10184,7 +10472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-4",
   "type": "Example",
-  "number": "H.2.417",
+  "number": "H.2.451",
   "title": "Example 4.",
   "body": " Example 4   Using our data from Example 1, create a frequency distribution with 8 different classes.   "
 },
@@ -10193,7 +10481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-5",
   "type": "Example",
-  "number": "H.2.418",
+  "number": "H.2.452",
   "title": "Example 5.",
   "body": " Example 5   Use our data set from Example 1 to create a frequency distribution that starts at 7 and has a class width of 6.   "
 },
@@ -10202,7 +10490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-def",
   "type": "Definition",
-  "number": "H.2.419",
+  "number": "H.2.453",
   "title": "Relative Frequency.",
   "body": " Relative Frequency   Relative Frequency has two interpretations:   For raw data , relative frequency is the percentage of times that a particular value appears in a data set.  For data sorted into classes , relative frequency is the percentage of data that appear in a given class.   In both cases, the formula for relative frequency is identical: where is the number of data points in the sample. Notice that this will always give a percentage as a decimal, so we will always write instead of in this course.   "
 },
@@ -10211,7 +10499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-dist-def",
   "type": "Definition",
-  "number": "H.2.420",
+  "number": "H.2.454",
   "title": "Relative Frequency Distribution.",
   "body": " Relative Frequency Distribution   A relative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative frequencies in the second column.   "
 },
@@ -10220,7 +10508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-compute-rel-freq",
   "type": "Definition",
-  "number": "H.2.421",
+  "number": "H.2.455",
   "title": "Computing Relative Frequency.",
   "body": " Computing Relative Frequency   To determine the relative frequency for a class, divide its frequency by the total number of data points: For example, consider a frequency of 64 in a class and a total of 74 data points.   "
 },
@@ -10229,7 +10517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-example-1",
   "type": "Example",
-  "number": "H.2.422",
+  "number": "H.2.456",
   "title": "Example 1.",
   "body": " Example 1   According to National Institutes of Health Cancer Statistics , the rate at which men get Colon-Rectal cancer each year (per 100,000 men, rounded to one decimal place) from 2000 to 2021 is given in the table below. Find the relative frequency distribution for this data if we use a lower class boundary of 35 and a class width of 5.   "
 },
@@ -10238,7 +10526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-options",
   "type": "Definition",
-  "number": "H.2.423",
+  "number": "H.2.457",
   "title": "Relative Frequency Distribution Options.",
   "body": " Relative Frequency Distribution Options   There are several options when displaying relative frequency distributions:   Convert To Percentage: The relative frequency distribution with percentages instead of relative frequencies.     Compare Frequency to Relative Frequency: A third column containing the raw frequencies was added to the relative frequency distribution.     Both Options: Both options are checked, allowing comparisons of percentages and raw frequencies.     "
 },
@@ -10247,7 +10535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-example-2",
   "type": "Example",
-  "number": "H.2.427",
+  "number": "H.2.461",
   "title": "Example 2.",
   "body": " Example 2   Consider the following frequency distribution for average August temperatures in Nashville, TN. (Source: Weather UnderGround ) Find the relative frequency for the class 86 to 88 .   Average August Temperature in Nashville, TN (1948-2024)    Degrees Fahrenheit  Number of Years    80 to 82  2    83 to 85  14    86 to 88  33    89 to 91  22    92 to 94  5    95 to 97  1    Total  77      "
 },
@@ -10256,7 +10544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-cum-freq-def",
   "type": "Definition",
-  "number": "H.2.429",
+  "number": "H.2.463",
   "title": "Cumulative Frequency.",
   "body": " Cumulative Frequency   Cumulative Frequency is the number of data points that are less than or equal to some given number (not necessarily in the data set).  To illustrate, let's turn to our Frequency Distribution about tornado deaths in Tennessee from Example 1 in the Frequency Distribution section:   Frequency distribution table with columns Data and Frequency.     "
 },
@@ -10265,7 +10553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-cum-freq-dist-def",
   "type": "Definition",
-  "number": "H.2.431",
+  "number": "H.2.465",
   "title": "Cumulative Frequency Distribution.",
   "body": " Cumulative Frequency Distribution   A cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding cumulative frequencies in the second column.   "
 },
@@ -10274,7 +10562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-cum-freq-example-1",
   "type": "Example",
-  "number": "H.2.432",
+  "number": "H.2.466",
   "title": "Example 1.",
   "body": " Example 1   For the data from Example 1 in the Frequency Distribution section, create a cumulative frequency distribution for the raw data.   "
 },
@@ -10283,7 +10571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-cum-freq-def",
   "type": "Definition",
-  "number": "H.2.433",
+  "number": "H.2.467",
   "title": "Relative Cumulative Frequency.",
   "body": " Relative Cumulative Frequency   Relative Cumulative Frequency is the percentage of data points that are less than or equal to some given number (not necessarily in the data set). As with relative frequency, we will always express the percentage as a decimal, such as instead of . Using percentages instead of decimals can cause errors in many of the formulas we will use in this course, as they require values to be expressed as decimals for accurate computation. As a formula, we can express this as where is the number of data points.  Let's consider our Cumulative Frequency Distribution from Example 1:   The cumulative frequency distribution for deaths by tornadoes in Tennessee.     "
 },
@@ -10292,7 +10580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-cum-freq-dist-def",
   "type": "Definition",
-  "number": "H.2.435",
+  "number": "H.2.469",
   "title": "Relative Cumulative Frequency Distribution.",
   "body": " Relative Cumulative Frequency Distribution   A relative cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative cumulative frequencies in the second column.   "
 },
@@ -10301,7 +10589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-cum-freq-example-2",
   "type": "Example",
-  "number": "H.2.436",
+  "number": "H.2.470",
   "title": "Example 2.",
   "body": " Example 2   For the data from Example 1 in the Cumulative Frequency section, create a cumulative relative frequency distribution for the raw data.   "
 },
@@ -10310,7 +10598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-def",
   "type": "Definition",
-  "number": "H.2.437",
+  "number": "H.2.471",
   "title": "Frequency Histogram.",
   "body": " Frequency Histogram   A frequency histogram is a type of bar graph used to visualize the frequency distribution of data. Below are its key features:   The -axis represents the data values, with tick marks indicating the class boundaries of the frequency distribution.  The -axis represents the frequencies of the classes. The scale always starts at 0, but the other tick marks are determined by the data and are used to scale the heights of the bars.  Each bar represents a class. The base of the bar spans the range of values for that class, while the height corresponds to the frequency of the class.  The bars of successive classes touch each other.  If any class has a frequency of , no bar is drawn for that class.    "
 },
@@ -10319,7 +10607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-1",
   "type": "Example",
-  "number": "H.2.438",
+  "number": "H.2.472",
   "title": "Example 1.",
   "body": " Example 1   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Frequency Histogram that has 8 classes.   "
 },
@@ -10328,7 +10616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-2",
   "type": "Example",
-  "number": "H.2.439",
+  "number": "H.2.473",
   "title": "Example 2.",
   "body": " Example 2   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Relative Frequency Histogram that has 8 classes.   "
 },
@@ -10337,7 +10625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-3",
   "type": "Example",
-  "number": "H.2.440",
+  "number": "H.2.474",
   "title": "Example 3.",
   "body": " Example 3   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Cumulative Frequency Histogram that has 8 classes.   "
 },
@@ -10346,7 +10634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-4",
   "type": "Example",
-  "number": "H.2.441",
+  "number": "H.2.475",
   "title": "Example 4.",
   "body": " Example 4   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Cumulative Relative Frequency Histogram that has 8 classes.   "
 },
@@ -10355,7 +10643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-peak-def",
   "type": "Definition",
-  "number": "H.2.442",
+  "number": "H.2.476",
   "title": "Peak of a Distribution.",
   "body": " Peak of a Distribution   The peak of a distribution refers to the tallest part of the histogram, which represents the class(es) with the most data.   "
 },
@@ -10364,7 +10652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-tails-def",
   "type": "Definition",
-  "number": "H.2.443",
+  "number": "H.2.477",
   "title": "Tails of a Distribution.",
   "body": " Tails of a Distribution   The tails of a distribution refer to the far ends of the distribution, which represent the extreme values of the dataset.   "
 },
@@ -10373,7 +10661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-unimodal",
   "type": "Definition",
-  "number": "H.2.444",
+  "number": "H.2.478",
   "title": "Unimodal Distributions.",
   "body": " Unimodal Distributions   Unimodal distributions have a single peak. There are three subtypes: normal , skew-left , and skew-right .   Example of a unimodal distribution with a peak at class the 70 to 79.     "
 },
@@ -10382,7 +10670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-normal",
   "type": "Definition",
-  "number": "H.2.446",
+  "number": "H.2.480",
   "title": "Normal Distributions.",
   "body": " Normal Distributions   Normal distributions (also called bell-shaped distributions) are symmetric with the peak in the center.   Example of a unimodal distribution. Areas corresponding to its peak and tails are labeled.     "
 },
@@ -10391,7 +10679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-skew-left",
   "type": "Definition",
-  "number": "H.2.448",
+  "number": "H.2.482",
   "title": "Skew-Left Distributions.",
   "body": " Skew-Left Distributions   Skew-left distributions have the left tail longer than the right tail.   Distribution is left-skewed since the left tail is longer than the right tail.     "
 },
@@ -10400,7 +10688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-skew-right",
   "type": "Definition",
-  "number": "H.2.450",
+  "number": "H.2.484",
   "title": "Skew-Right Distributions.",
   "body": " Skew-Right Distributions   Skew-right distributions have the right tail longer than the left tail.   Distribution is right-skewed because its right tail is longer than its left tail.     "
 },
@@ -10409,7 +10697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-multimodal",
   "type": "Definition",
-  "number": "H.2.452",
+  "number": "H.2.486",
   "title": "Multimodal Distributions.",
   "body": " Multimodal Distributions   Multimodal distributions have multiple peaks.   A bimodal distribution with its two peaks labeled.     "
 },
@@ -10418,7 +10706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-uniform",
   "type": "Definition",
-  "number": "H.2.454",
+  "number": "H.2.488",
   "title": "Uniform Distributions.",
   "body": " Uniform Distributions   Uniform distributions have bars that are all approximately the same height with no distinct peak.  For homework problems that ask you to identify the shape of a distribution, the easiest way to determine the shape is by drawing (or visualizing) a curve through the tops of the bars. If the distribution is uniform, all the bars should be approximately the same height.   Uniform distribution have bars that are all approximately the same height.     "
 },
@@ -10427,7 +10715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-def",
   "type": "Definition",
-  "number": "H.2.456",
+  "number": "H.2.490",
   "title": "Stem-and-Leaf Plot.",
   "body": " Stem-and-Leaf Plot   A stem-and-leaf plot is a way to organize rounded numerical data by splitting each value into a stem (the leading digit(s), such as tens) and a leaf (the trailing digit(s), based on the chosen rounding level).   "
 },
@@ -10436,7 +10724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-rounding",
   "type": "Definition",
-  "number": "H.2.457",
+  "number": "H.2.491",
   "title": "Choosing Stems.",
   "body": " Choosing Stems   There is a bit of an art to deciding how to create a stem-and-leaf plot. The best stems are those that appear frequently in your data and group it meaningfully. The goal is to create a plot that organizes the data clearly and effectively, without being cluttered or too sparse.  Here are three examples:    Too Clustered: The stems are all in a single row.     Good Balance of Leaves: There are five stems and there are no lines without any leaves.     Too Spread Out: Many stems have no leaves. While some gaps are okay, if most stems are empty, your data is too spread out.      "
 },
@@ -10445,7 +10733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-example-1",
   "type": "Example",
-  "number": "H.2.461",
+  "number": "H.2.495",
   "title": "Example 1.",
   "body": " Example 1   The following dataset represents the monthly average rainfall (in mm) for a Midwestern town from 2018 to 2022. Construct a stem-and-leaf plot for the data, and describe the shape of the distribution.   "
 },
@@ -10454,7 +10742,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-split-def",
   "type": "Definition",
-  "number": "H.2.462",
+  "number": "H.2.496",
   "title": "Split Stems.",
   "body": " Split Stems   To split stems in a stem-and-leaf plot means dividing each stem into smaller groups to spread out the data and make the plot easier to interpret.   "
 },
@@ -10463,7 +10751,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-split-when",
   "type": "Definition",
-  "number": "H.2.463",
+  "number": "H.2.497",
   "title": "When to Split Stems.",
   "body": " When to Split Stems   Split stems when:   A single stem has too many leaves, making the plot crowded and difficult to read.  Precision matters, such as with decimal data or closely spaced values.  One stem has significantly more leaves than others.    "
 },
@@ -10472,7 +10760,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-example-2",
   "type": "Example",
-  "number": "H.2.464",
+  "number": "H.2.498",
   "title": "Example 2.",
   "body": " Example 2   The following dataset represents the weights (in kilograms) of items in a shipment. Explain why you should split the stems, and then construct a stem-and-leaf plot with split stems. Describe the shape of the distribution.   "
 },
@@ -10481,7 +10769,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-back-to-back",
   "type": "Definition",
-  "number": "H.2.465",
+  "number": "H.2.499",
   "title": "Back-to-Back Stem-and-Leaf Plots.",
   "body": " Back-to-Back Stem-and-Leaf Plots   If we want to compare two sets of data, we can make a back-to-back stem-and-leaf plot . In this setup, the stems will be up the middle. The leaves of the first dataset are to the right of the stems. The leaves of the second dataset appear to the left of the stems, written in reverse order for comparison. Back-to-back stem-and-leaf plots may have split stems.   Example of a Back-to-Back Stem Plot     "
 },
@@ -10490,7 +10778,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-example-3",
   "type": "Example",
-  "number": "H.2.467",
+  "number": "H.2.501",
   "title": "Example 3.",
   "body": " Example 3   The following datasets represent the ages of participants in two different training programs.   Part A : Create a Stem-and-Leaf Plot and compare the shapes of the two distributions.  Part B : Split the stems and compare the shapes again. Then compare this stem-and-leaf plot to the original one and explain how splitting the stems gives you a more detailed view of the distribution of both datasets.    "
 },
@@ -10499,7 +10787,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-def",
   "type": "Definition",
-  "number": "H.2.468",
+  "number": "H.2.502",
   "title": "Dot Plot.",
   "body": " Dot Plot   A dot plot is a simple visual tool for representing data, where each dot corresponds to a specific data point. It effectively displays frequency distributions, highlighting patterns, peaks, and left\/right-skew. Dot plots are ideal for small to moderately sized datasets in various fields such as education, biology, and economics.   "
 },
@@ -10508,7 +10796,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-how",
   "type": "Definition",
-  "number": "H.2.469",
+  "number": "H.2.503",
   "title": "How to Make a Dot Plot.",
   "body": " How to Make a Dot Plot    Draw a horizontal axis to represent the range of values, labeling it appropriately.  Divide the axis into evenly spaced intervals to cover all data points.  For each value in the dataset, place a dot above its corresponding position on the axis, stacking dots vertically for repeated values.  Add a title and labels to clarify the data being represented.    "
 },
@@ -10517,7 +10805,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-example-1",
   "type": "Example",
-  "number": "H.2.470",
+  "number": "H.2.504",
   "title": "Example 1.",
   "body": " Example 1   The following data represents the length in centimeters of a sample of 10 white oak leaves. Make a dot plot of this data.   Leaf Length Data (in cm)    Length (cm)  Length (cm)    17  18    18  15    13  19    16  17    17  16      "
 },
@@ -10526,7 +10814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-example-2",
   "type": "Example",
-  "number": "H.2.472",
+  "number": "H.2.506",
   "title": "Example 2.",
   "body": " Example 2   A customer service manager wants to evaluate the team's efficiency in responding to support tickets during peak hours. The response times (in minutes) for 10 randomly selected tickets are given in the table below. Make a dot plot of this data.   "
 },
@@ -10535,7 +10823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-interpret",
   "type": "Definition",
-  "number": "H.2.473",
+  "number": "H.2.507",
   "title": "Interpreting Dot Plots.",
   "body": " Interpreting Dot Plots   Dot plots give us another way to see the shape of the distribution. But unlike histograms, it gives us a way to identify the exact data points that are either unusually small or unusually large compared to the other data points.    The dot plot showing a skew-left distribution with curve.     The dot plot showing a skew-right distribution with curve.      "
 },
@@ -10544,7 +10832,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-time-series-how",
   "type": "Definition",
-  "number": "H.2.476",
+  "number": "H.2.510",
   "title": "How to Make a Time Series Plot.",
   "body": " How to Make a Time Series Plot    Label the -axis with the range of days, months, or years, and label the -axis with the units of the data. Make sure to title your graph as well.  Plot each data point as .  Draw straight line segments between consecutive points to connect them.    "
 },
@@ -10553,7 +10841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-time-series-example-1",
   "type": "Example",
-  "number": "H.2.477",
+  "number": "H.2.511",
   "title": "Example 1.",
   "body": " Example 1   According to the European Commission , Gross domestic product (GDP) is the most common measure for the size of an economy, and it measures the value of total final output of goods and services produced by that economy in a certain period of time. The following data from the World Bank Group describes the U.S. GDP (in trillions of dollars) for each year from 2010 to 2023. Use this data to construct a time series plot.   "
 },
@@ -10562,7 +10850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-time-series-example-2",
   "type": "Example",
-  "number": "H.2.478",
+  "number": "H.2.512",
   "title": "Example 2.",
   "body": " Example 2   Use the time series plot we created in Example 1 to answer the following questions.   In what year did the GDP grow the slowest?  In what year did the GDP grow the fastest?  The only year we had a decrease in GDP was from 2019 to 2020. What historical event explains the drop in GDP?    "
 },
@@ -10571,7 +10859,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-bar-graph-example-1",
   "type": "Example",
-  "number": "H.2.479",
+  "number": "H.2.513",
   "title": "Example 1.",
   "body": " Example 1   A survey of 100 people was conducted to determine their favorite fast food restaurant among various national brands. The results are summarized in the table below. Using the data, create a bar graph to represent the distribution of responses.   "
 },
@@ -10580,7 +10868,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pareto-graphs",
   "type": "Definition",
-  "number": "H.2.480",
+  "number": "H.2.514",
   "title": "Pareto Graphs.",
   "body": " Pareto Graphs   While standard bar graphs are effective at showcasing categorical data, there are scenarios where sorting the bars in descending order provides greater clarity. This leads us to a specialized variation of the bar graph known as the Pareto graph .   "
 },
@@ -10589,7 +10877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pareto-example",
   "type": "Example",
-  "number": "H.2.481",
+  "number": "H.2.515",
   "title": "Example 2.",
   "body": " Example 2   Create a Pareto graph of the preferred fast food restaurants from Example 1, sorting all bars from largest to smallest.   "
 },
@@ -10598,7 +10886,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-when",
   "type": "Definition",
-  "number": "H.2.482",
+  "number": "H.2.516",
   "title": "When to Use a Pie Graph.",
   "body": " When to Use a Pie Graph   A pie graph should only be used under two specific conditions:   Data can belong to exactly one of the categories.  Categories must be parts of a whole.    "
 },
@@ -10607,7 +10895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-1",
   "type": "Example",
-  "number": "H.2.483",
+  "number": "H.2.517",
   "title": "Example 1.",
   "body": " Example 1   Suppose a survey asked which department(s) a customer purchased from during their last visit to a particular department store. Explain why a pie graph cannot be used with the following set of data.   Percentage of People Shopping in Each Department    Department  Percentage of Shoppers    Electronics  40%    Clothing  55%    Groceries  70%    Home & Furniture  30%    Sports & Outdoors  25%      "
 },
@@ -10616,7 +10904,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-2",
   "type": "Example",
-  "number": "H.2.485",
+  "number": "H.2.519",
   "title": "Example 2.",
   "body": " Example 2   A survey was conducted to determine the types of activities people prefer on weekends. A survey of 1,303 people were asked, Which of the follow activities do you most prefer to do on weekends? Please select only one option. The percentages were tabulated and reported in the table below. Explain why a pie chart cannot be created from this table and suggest how it could be corrected.   Weekend Activity Preferences    Activity  Percentage    Watching Movies  25%    Outdoor Sports  30%    Reading Books  20%    Cooking  15%    Playing Video Games  8%      "
 },
@@ -10625,7 +10913,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-3",
   "type": "Example",
-  "number": "H.2.487",
+  "number": "H.2.521",
   "title": "Example 3.",
   "body": " Example 3   A survey asked 1,373 respondents, What is your favorite activity while on vacation? The responses are summarized in the following table. Explain why this data cannot be used to make a Pie Chart.   Vacation Activity Preferences    Activity  Percentage    Sightseeing  35%    Relaxing on the beach  25%    Trying local cuisine  20%    Outdoor adventures (e.g., hiking or kayaking)  10%    Shopping  10%      "
 },
@@ -10634,7 +10922,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-4",
   "type": "Example",
-  "number": "H.2.489",
+  "number": "H.2.523",
   "title": "Example 4.",
   "body": " Example 4   A survey of 50 patients who were recently discharged from a hospital were asked to rate their overall stay at the hospital as Very Satisfied, Satisfied, Neutral, Dissatisfied, or Very Dissatisfied. The results are compiled in the table below. Use the Bar and Pie Chart Generator Tool to make a Pie Graph of the data.   "
 },
@@ -10652,7 +10940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-definition",
   "type": "Definition",
-  "number": "H.3.490",
+  "number": "H.3.524",
   "title": "Mean.",
   "body": " Mean   The mean , also called the average , is the sum of all data values divided by the number of values.  Population Mean:   Sample Mean:    "
 },
@@ -10661,7 +10949,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-symbols",
   "type": "Definition",
-  "number": "H.3.491",
+  "number": "H.3.525",
   "title": "What do these symbols mean?",
   "body": " What do these symbols mean?     means sum or add all values.  represents individual data values.  is population size.  is sample size.     "
 },
@@ -10670,7 +10958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-two-formulas",
   "type": "Definition",
-  "number": "H.3.492",
+  "number": "H.3.526",
   "title": "Why do we have two formulas for mean?",
   "body": " Why do we have two formulas for mean?   We use one formula for populations and one for samples because they represent different contexts and notations.   "
 },
@@ -10679,7 +10967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-1",
   "type": "Example",
-  "number": "H.3.493",
+  "number": "H.3.527",
   "title": "Example 1.",
   "body": " Example 1   Consider exam scores: 75, 80, 85, 90, 95. Calculate the average score.   Test Scores of Five Students   Score  75  80  85  90  95     "
 },
@@ -10688,7 +10976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-2",
   "type": "Example",
-  "number": "H.3.495",
+  "number": "H.3.529",
   "title": "Example 2.",
   "body": " Example 2   Complete the Understanding the Idea of Average Value\/Mean interactive example.   "
 },
@@ -10697,7 +10985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-3",
   "type": "Example",
-  "number": "H.3.496",
+  "number": "H.3.530",
   "title": "Example 3.",
   "body": " Example 3   Use the Summary Statistics Calculator to find the mean of a sample of 50 LSAT scores.   "
 },
@@ -10706,7 +10994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-definition",
   "type": "Definition",
-  "number": "H.3.497",
+  "number": "H.3.531",
   "title": "Median.",
   "body": " Median   The median of an ordered dataset separates the lower 50% and upper 50%. It may or may not be a data value and is often denoted .   "
 },
@@ -10715,7 +11003,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-steps",
   "type": "Definition",
-  "number": "H.3.498",
+  "number": "H.3.532",
   "title": "How do I calculate the Median?",
   "body": " How do I calculate the Median?   Let be sample size.    Order data from smallest to largest.  Check parity of :  If is odd, median is entry .  If is even, median is average of entries and .        "
 },
@@ -10724,7 +11012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-1",
   "type": "Example",
-  "number": "H.3.499",
+  "number": "H.3.533",
   "title": "Example 1.",
   "body": " Example 1   Weekly study hours for 7 students are shown below. Find the median by hand.   Sample of Weekly Study Hours (in hours)   Study Hours Per Week  12 15 10 18 14 11 16     "
 },
@@ -10733,7 +11021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-2",
   "type": "Example",
-  "number": "H.3.501",
+  "number": "H.3.535",
   "title": "Example 2.",
   "body": " Example 2   Cholesterol levels (mg\/dL) for 10 people are shown below. Find the median by hand.   Sample of 10 Cholesterol Levels   Cholesterol Level (mg\/dL)  154 240 171 188 235  203 184 173 181 275     "
 },
@@ -10742,7 +11030,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-3",
   "type": "Example",
-  "number": "H.3.503",
+  "number": "H.3.537",
   "title": "Example 3.",
   "body": " Example 3   Use the Summary Statistics Calculator to find the median of a sample of 50 LSAT scores.   "
 },
@@ -10751,7 +11039,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-definition-local",
   "type": "Definition",
-  "number": "H.3.504",
+  "number": "H.3.538",
   "title": "Mode.",
   "body": " Mode   The mode of a dataset is the value(s) that occur locally with highest frequency.  When discussing the shape of histograms, we use the following classifications:    A unimodal distribution has one peak.   Example of a unimodal distribution with a peak in the center.     A multimodal distribution has multiple peaks.   A bimodal distribution with its two peaks labeled.     A uniform distribution has no distinct peak.   A uniform distribution has bars that are all approximately the same height.        "
 },
@@ -10760,7 +11048,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-definition-revised",
   "type": "Definition",
-  "number": "H.3.508",
+  "number": "H.3.542",
   "title": "Revised Definition: Mode.",
   "body": " Revised Definition: Mode   The mode is the value(s) that occur most frequently.   "
 },
@@ -10769,7 +11057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-1",
   "type": "Example",
-  "number": "H.3.509",
+  "number": "H.3.543",
   "title": "Example 1.",
   "body": " Example 1   Find the mode of 2016–2017 tuition and fees (in thousands of dollars) for top U.S. universities.   2016–2017 Tuition and Fees (in $1000s)   Tuition and Fees  45 47 52 49 55 48 48  51 51 50 51 48 51 51     "
 },
@@ -10778,7 +11066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-2",
   "type": "Example",
-  "number": "H.3.511",
+  "number": "H.3.545",
   "title": "Example 2.",
   "body": " Example 2   Use the Summary Statistics Calculator to identify mode(s) for a sample of LSAT scores and classify the distribution.   "
 },
@@ -10787,7 +11075,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-3",
   "type": "Example",
-  "number": "H.3.512",
+  "number": "H.3.546",
   "title": "Example 3.",
   "body": " Example 3   Use the Frequency Distribution Tool to determine the mode for shirt-size sales data.   "
 },
@@ -10796,7 +11084,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outlier-definition",
   "type": "Definition",
-  "number": "H.3.513",
+  "number": "H.3.547",
   "title": "Outliers.",
   "body": " Outliers   An outlier is a data point that does not follow the overall distribution pattern and is usually much larger or smaller than most values.   "
 },
@@ -10805,7 +11093,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-skewness-example-1",
   "type": "Example",
-  "number": "H.3.514",
+  "number": "H.3.548",
   "title": "Example 1.",
   "body": " Example 1   Given scores :    Find mean, median, and mode.  Add outlier 41 and recompute.  Determine which center changed most and least.     "
 },
@@ -10814,7 +11102,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-resistance-definition",
   "type": "Definition",
-  "number": "H.3.515",
+  "number": "H.3.549",
   "title": "Resistance to Outliers.",
   "body": " Resistance to Outliers   A statistic is resistant if extreme values cause little or no change.  In this context, mean is not resistant, while median and mode are resistant.   "
 },
@@ -10823,7 +11111,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-unimodal-center-relationships",
   "type": "Definition",
-  "number": "H.3.516",
+  "number": "H.3.550",
   "title": "The Mean, Median, and Mode in Unimodal Distributions.",
   "body": " The Mean, Median, and Mode in Unimodal Distributions   Normal Distribution:  .   In a normal distribution, the mean, median, and mode are equal and located at the peak.    Skew-right Distribution:  .   A skew-right distribution pulls the mean and median to the right, away from the mode. The mean is pulled farther than the median.    Skew-left Distribution:  .   A skew-left distribution pulls the mean and median to the left, away from the mode. The mean is pulled farther than the median.     "
 },
@@ -10832,7 +11120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-1",
   "type": "Example",
-  "number": "H.3.520",
+  "number": "H.3.554",
   "title": "Example 1.",
   "body": " Example 1   For data , calculate mean by direct definition, grouped multiplication, and simplified weighted form.   "
 },
@@ -10841,7 +11129,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-definition",
   "type": "Definition",
-  "number": "H.3.521",
+  "number": "H.3.555",
   "title": "What is a Weighted Mean?",
   "body": " What is a Weighted Mean?   A weighted mean is a mean where values carry frequencies or weights.  Using frequencies:   Using weights:    "
 },
@@ -10850,7 +11138,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-2",
   "type": "Example",
-  "number": "H.3.522",
+  "number": "H.3.556",
   "title": "Example 2.",
   "body": " Example 2   Compute current course grade with weighted categories using the Summary Statistics Calculator .   Sample Grades for a Course   Category Grade (%) Percentage of Grade  MyLab Stat 43% 7.5%  Quizzes 63% 7.5%  Exam 1 92% 20%  Exam 2 67% 20%  Exam 3 76% 20%     "
 },
@@ -10859,7 +11147,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-3",
   "type": "Example",
-  "number": "H.3.524",
+  "number": "H.3.558",
   "title": "Example 3.",
   "body": " Example 3   Estimate mean gas mileage for family sedans from grouped data using midpoint-frequency weighted mean.   A Frequency Distribution for the Gas Mileage of 24 Family Sedans   Gas Mileage (mpg) Midpoint Frequency  22 to 27 16  28 to 33 2  34 to 39 2  40 to 45 4     "
 },
@@ -10868,7 +11156,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-not-enough-overview",
   "type": "Definition",
-  "number": "H.3.526",
+  "number": "H.3.560",
   "title": "Is the Mean Enough to Describe a Dataset?",
   "body": " Is the Mean Enough to Describe a Dataset?   The mean is one of the most commonly used measures to summarize a dataset. While it provides useful information about central tendency, it does not always tell the whole story. Different datasets can have the same mean and still have very different distributions.   "
 },
@@ -10877,7 +11165,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-not-enough-example-1",
   "type": "Example",
-  "number": "H.3.527",
+  "number": "H.3.561",
   "title": "Example 1.",
   "body": " Example 1     Part A: Find the mean of .  Part B: Find the mean of .  Part C: Even though the means are the same, describe how the datasets differ.     "
 },
@@ -10886,7 +11174,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-definition-extra",
   "type": "Definition",
-  "number": "H.3.528",
+  "number": "H.3.562",
   "title": "Range.",
   "body": " Range   .   "
 },
@@ -10895,7 +11183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-advantages-disadvantages",
   "type": "Definition",
-  "number": "H.3.529",
+  "number": "H.3.563",
   "title": "Advantages and Disadvantages of the Range.",
   "body": " Advantages and Disadvantages of the Range     Advantage: simple and quick to compute.  Disadvantage: depends only on the minimum and maximum values, so it is sensitive to outliers.     "
 },
@@ -10904,7 +11192,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-example-1-extra",
   "type": "Example",
-  "number": "H.3.530",
+  "number": "H.3.564",
   "title": "Example 1.",
   "body": " Example 1   Scientists track migration distances (in miles) for 10 birds.   Migration Distances   Distance (in miles)  354 400 412 375 389 410 368 390 405 392      Part A: Find the range.  Part B: Explain what the range says about variation.     "
 },
@@ -10913,7 +11201,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-example-2-extra",
   "type": "Example",
-  "number": "H.3.532",
+  "number": "H.3.566",
   "title": "Example 2.",
   "body": " Example 2   Ages (in years) of 12 participants in a community program are listed below.   Participants in a Community Program   Age (in years)  22 25 31 28 24 35 45 41 29 33 38 40     "
 },
@@ -10922,7 +11210,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-definition-extra",
   "type": "Definition",
-  "number": "H.3.534",
+  "number": "H.3.568",
   "title": "Deviation.",
   "body": " Deviation   The deviation of a data point is the difference between the value and the mean.  Population:   Sample:   .   "
 },
@@ -10931,7 +11219,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-notes-extra",
   "type": "Definition",
-  "number": "H.3.535",
+  "number": "H.3.569",
   "title": "Notes on Deviation.",
   "body": " Notes on Deviation     Positive deviation means the data point is above the mean.  Negative deviation means the data point is below the mean.     "
 },
@@ -10940,7 +11228,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-example-1-extra",
   "type": "Example",
-  "number": "H.3.536",
+  "number": "H.3.570",
   "title": "Example 1.",
   "body": " Example 1   Salaries for a sample of 10 individuals are shown below (in thousands of dollars).   Sample of 10 Salaries (in Thousands of Dollars)   Salaries (in thousands of dollars)  40 23 41 50 49 32 41 59 52 58      Part A: Calculate each salary's deviation.  Part B: Use the Summary Statistics Calculator to find average deviation.     "
 },
@@ -10949,7 +11237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-overview-extra",
   "type": "Definition",
-  "number": "H.3.538",
+  "number": "H.3.572",
   "title": "Understanding Standard Deviation.",
   "body": " Understanding Standard Deviation   Standard deviation is a key measure of variability and describes typical distance from the mean.   "
 },
@@ -10958,7 +11246,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-squared-deviation-definition-extra",
   "type": "Definition",
-  "number": "H.3.539",
+  "number": "H.3.573",
   "title": "Squared Deviation.",
   "body": " Squared Deviation   Population:   Sample:    "
 },
@@ -10967,7 +11255,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-squared-deviation-example-1-extra",
   "type": "Example",
-  "number": "H.3.540",
+  "number": "H.3.574",
   "title": "Example 1.",
   "body": " Example 1   Compute squared deviations for the salary data and find their sum.   "
 },
@@ -10976,7 +11264,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-definition-extra",
   "type": "Definition",
-  "number": "H.3.541",
+  "number": "H.3.575",
   "title": "Variance.",
   "body": " Variance   Population:   Sample:    "
 },
@@ -10985,7 +11273,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-n-minus-one-extra",
   "type": "Definition",
-  "number": "H.3.542",
+  "number": "H.3.576",
   "title": "Why does sample variance use <span class=\"process-math\">\\(n-1\\text{?}\\)<\/span>",
   "body": " Why does sample variance use ?   This is related to degrees of freedom .   Stacks of 1, 2, 4, 2, 3, and 5 dots, respectively.     One stack is still height 2 after arranging all the dots into even stacks of 3.     The original stacks with a stack of four dots adding as the seventh stack.     "
 },
@@ -10994,7 +11282,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-example-2-extra",
   "type": "Example",
-  "number": "H.3.546",
+  "number": "H.3.580",
   "title": "Example 2.",
   "body": " Example 2   Compute variance for the salary dataset.    Variance has squared units.  Variance can be numerically large because deviations are squared.     "
 },
@@ -11003,7 +11291,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-definition-extra",
   "type": "Definition",
-  "number": "H.3.547",
+  "number": "H.3.581",
   "title": "Standard Deviation.",
   "body": " Standard Deviation   Population:   Sample:    "
 },
@@ -11012,7 +11300,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-properties-extra",
   "type": "Definition",
-  "number": "H.3.548",
+  "number": "H.3.582",
   "title": "Important Properties of Standard Deviation.",
   "body": " Important Properties of Standard Deviation     Measures average distance from the mean.  Always greater than or equal to zero.  Larger values indicate more variation.  Not resistant to outliers.  Uses the same units as the data.     "
 },
@@ -11021,7 +11309,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-example-3-extra",
   "type": "Example",
-  "number": "H.3.549",
+  "number": "H.3.583",
   "title": "Example 3.",
   "body": " Example 3   Use the Summary Statistics Calculator to compute standard deviation for the salary data.   "
 },
@@ -11030,7 +11318,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outliers-normal-overview-extra",
   "type": "Definition",
-  "number": "H.3.550",
+  "number": "H.3.584",
   "title": "How to Find Outliers for Normal Distributions.",
   "body": " How to Find Outliers for Normal Distributions   Outliers are extreme values that stand apart from most of a dataset.   "
 },
@@ -11039,7 +11327,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outliers-normal-example-1-extra",
   "type": "Example",
-  "number": "H.3.551",
+  "number": "H.3.585",
   "title": "Example 1.",
   "body": " Example 1   Unemployment rates are approximately normal with mean and standard deviation . Classify:    Part A:   Part B:   Part C:      "
 },
@@ -11048,7 +11336,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-empirical-rule-definition-extra",
   "type": "Definition",
-  "number": "H.3.552",
+  "number": "H.3.586",
   "title": "The Empirical Rule.",
   "body": " The Empirical Rule     About of data lies between and .  About of data lies between and .  About of data lies between and .     "
 },
@@ -11057,7 +11345,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-empirical-rule-example-1-extra",
   "type": "Example",
-  "number": "H.3.553",
+  "number": "H.3.587",
   "title": "Example 1.",
   "body": " Example 1   A sample has mean height inches and standard deviation inches. Use the Empirical Rule Calculator :    Part A: Percent between and .  Part B: Percent taller than .  Part C: Percent shorter than .     "
 },
@@ -11066,7 +11354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-chebyshev-definition-extra",
   "type": "Definition",
-  "number": "H.3.554",
+  "number": "H.3.588",
   "title": "Chebyshev’s Inequality.",
   "body": " Chebyshev's Inequality   At least of data lies within standard deviations of the mean, for .    : at least  : at least  : at least     "
 },
@@ -11075,7 +11363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-chebyshev-example-1-extra",
   "type": "Example",
-  "number": "H.3.555",
+  "number": "H.3.589",
   "title": "Example 1.",
   "body": " Example 1   A hospital has systolic blood-pressure data with mean mmHg and standard deviation mmHg. Use Chebyshev's inequality to find the minimum percentage between and mmHg.   "
 },
@@ -11084,7 +11372,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-overview",
   "type": "Definition",
-  "number": "H.3.556",
+  "number": "H.3.590",
   "title": "How to Calculate a Percentile.",
   "body": " How to Calculate a Percentile   A percentile indicates the relative standing of a data value in a dataset. The percentile is the value below which of the data falls.   "
 },
@@ -11093,7 +11381,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-by-hand",
   "type": "Definition",
-  "number": "H.3.557",
+  "number": "H.3.591",
   "title": "Percentiles By Hand.",
   "body": " Percentiles By Hand   Formula for percentile rank of a value :   How to find a data value for a given percentile:    Step 1: Compute .  Step 2: Use the position in the ordered data:  If decimal, use adjacent positions and average those two values.  If whole number, use that position and the next position, then average.       Notation: denotes the percentile (for example, ).   "
 },
@@ -11102,7 +11390,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-1",
   "type": "Example",
-  "number": "H.3.558",
+  "number": "H.3.592",
   "title": "Example 1.",
   "body": " Example 1   The dataset below gives three-point shots made by 50 NBA players.    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.     Three-Point Shots Made by 50 NBA Players   Number of Three-Point Shots (Ordered)  5 8 12 18 22 28 35 40 48 55  60 68 72 80 85 90 98 105 110 118  125 130 135 140 148 150 158 165 170 175  180 185 190 198 205 210 220 230 240 250  260 270 280 290 300 310 320 330 340 350     "
 },
@@ -11111,7 +11399,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-2",
   "type": "Example",
-  "number": "H.3.560",
+  "number": "H.3.594",
   "title": "Percentiles using GeoGebra: Example 2.",
   "body": " Percentiles using GeoGebra: Example 2   Using the same dataset above:    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.     "
 },
@@ -11120,7 +11408,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-notes",
   "type": "Definition",
-  "number": "H.3.561",
+  "number": "H.3.595",
   "title": "Cumulative Relative Frequency vs Percentiles.",
   "body": " Cumulative Relative Frequency vs Percentiles   Cumulative relative frequency uses “less than or equal to,” while percentile rank is typically interpreted as “less than.”   "
 },
@@ -11129,7 +11417,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-median-relation",
   "type": "Definition",
-  "number": "H.3.562",
+  "number": "H.3.596",
   "title": "Relationship Between the Median and Percentiles.",
   "body": " Relationship Between the Median and Percentiles   The median is the 50th percentile, i.e. .   "
 },
@@ -11138,7 +11426,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-3-interpret",
   "type": "Example",
-  "number": "H.3.563",
+  "number": "H.3.597",
   "title": "Interpreting Percentiles.",
   "body": " Interpreting Percentiles   Interpret each scenario:    Part A: A baby’s weight is in the 85th percentile.  Part B: A household income is at the 70th percentile.  Part C: A patient’s blood pressure is in the 40th percentile.  Part D: A student’s GPA is in the 75th percentile in their school.  Part E: A machine produces parts in the 98th percentile for accuracy.     "
 },
@@ -11147,7 +11435,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-overview",
   "type": "Definition",
-  "number": "H.3.564",
+  "number": "H.3.598",
   "title": "How to Calculate a <span class=\"process-math\">\\(z\\)<\/span>-score.",
   "body": " How to Calculate a -score   A -score (standard score) measures how many standard deviations a value lies above or below the mean.   "
 },
@@ -11156,7 +11444,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-1",
   "type": "Example",
-  "number": "H.3.565",
+  "number": "H.3.599",
   "title": "Example 1.",
   "body": " Example 1   A normal distribution has mean 175 cm and standard deviation 7 cm.   Distribution of Heights   Height (cm) Empirical Rule Calculation -score  154 -3  161 -2  168 -1  175 0  182 1  189 2  196 3     "
 },
@@ -11165,7 +11453,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-formulas",
   "type": "Definition",
-  "number": "H.3.567",
+  "number": "H.3.601",
   "title": "<span class=\"process-math\">\\(z\\)<\/span>-Score Formulas.",
   "body": " -Score Formulas   General structure:  Population:   Sample:    Normal distribution with heights and z-scores labeled on the x-axis.     "
 },
@@ -11174,7 +11462,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-features",
   "type": "Definition",
-  "number": "H.3.569",
+  "number": "H.3.603",
   "title": "Important Features of <span class=\"process-math\">\\(z\\)<\/span>-Scores.",
   "body": " Important Features of -Scores     -scores are unitless.  Positive means above the mean; negative means below.  Absolute -score measures extremeness.     Two normal distributions, one with data on the x-axis, one with z-scores on the x-axis.     "
 },
@@ -11183,7 +11471,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-2",
   "type": "Example",
-  "number": "H.3.571",
+  "number": "H.3.605",
   "title": "Example 2.",
   "body": " Example 2   Who is relatively taller at 68 inches: a man or a woman?   Average Heights and Standard Deviations   Group Mean Height (in) Standard Deviation (in)  Men 69.9 3.0  Women 64.3 2.6     "
 },
@@ -11192,7 +11480,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-3",
   "type": "Example",
-  "number": "H.3.573",
+  "number": "H.3.607",
   "title": "Example 3.",
   "body": " Example 3   The ACT has mean 20.8 and standard deviation 5.8. The SAT has mean 1500 and standard deviation 300. Who performed worse relative to peers: SAT 1075 or ACT 15?   "
 },
@@ -11201,7 +11489,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-extreme",
   "type": "Definition",
-  "number": "H.3.574",
+  "number": "H.3.608",
   "title": "Extreme Values.",
   "body": " Extreme Values   A value is more extreme when its absolute -score is larger.    Step 1: Compute both -scores.  Step 2: Take absolute values.  Step 3: Larger absolute value is more extreme.     "
 },
@@ -11210,7 +11498,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-4",
   "type": "Example",
-  "number": "H.3.575",
+  "number": "H.3.609",
   "title": "Example 4.",
   "body": " Example 4   Determine which is more extreme: a man who weighs 145 lbs (mean 208, sd 25) or a woman who weighs 224 lbs (mean 175, sd 25).   "
 },
@@ -11219,7 +11507,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-overview",
   "type": "Definition",
-  "number": "H.3.576",
+  "number": "H.3.610",
   "title": "How to Calculate the Five-Number Summary.",
   "body": " How to Calculate the Five-Number Summary   Quartiles divide ordered data into four parts.    : first quartile  : median  : third quartile     "
 },
@@ -11228,7 +11516,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-1",
   "type": "Example",
-  "number": "H.3.577",
+  "number": "H.3.611",
   "title": "Quartiles: Example 1.",
   "body": " Quartiles: Example 1   Find and for meteorite crater diameters.   Meteorite Impact Crater Diameters (km)   Crater Diameters (km)  1.2 3.5 2.8 4.0 6.7 5.2 8.1 3.1 4.5 2.9 6.0 7.4     "
 },
@@ -11237,7 +11525,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-2",
   "type": "Example",
-  "number": "H.3.579",
+  "number": "H.3.613",
   "title": "Quartiles: Example 2.",
   "body": " Quartiles: Example 2   Use the Summary Statistics Calculator to find and for esports reaction times.   Reaction Times in an Esports Tournament (ms)   Reaction Times (ms)  175 180 185 189 190 195 195 198 200 202  205 210 210 215 215 220 225 230 235 240  245 250 250 255 260 265 270 275 280 290     "
 },
@@ -11246,7 +11534,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-definition",
   "type": "Definition",
-  "number": "H.3.581",
+  "number": "H.3.615",
   "title": "The Five-Number Summary.",
   "body": " The Five-Number Summary   The five-number summary consists of minimum, , median, , and maximum.   "
 },
@@ -11255,7 +11543,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-3",
   "type": "Example",
-  "number": "H.3.582",
+  "number": "H.3.616",
   "title": "Example 3.",
   "body": " Example 3   Compute the five-number summary for roller coaster speeds.   Speeds of Roller Coasters Around the World (mph)   Roller Coaster Speeds (mph)  44.7 60.9 65.2 52.8 74.6 68.4 59.0 63.3 55.3 80.8  88.2 49.7 77.7 85.7 55.9 61.5 78.9 93.2 67.1 57.8  62.1 71.3 54.0 83.9 90.2 50.9 99.4 96.3 86.8 46.6     "
 },
@@ -11264,7 +11552,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-definition",
   "type": "Definition",
-  "number": "H.3.584",
+  "number": "H.3.618",
   "title": "How to Find Outliers for Skewed Data.",
   "body": " How to Find Outliers for Skewed Data   The interquartile range is , and it measures spread of the middle 50% of skewed data.   "
 },
@@ -11273,7 +11561,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-example-1",
   "type": "Example",
-  "number": "H.3.585",
+  "number": "H.3.619",
   "title": "Example 1.",
   "body": " Example 1   Compute IQR for exoplanet brightness data.   Exoplanet Brightness Measurements   Brightness (Magnitude)  -3.4 -2.9 -2.5 -2.2 -1.8 -1.5 -1.2 -0.9 -0.7 -0.5  -0.3 -0.1 0.2 0.4 0.7 1.0 1.3 1.7 2.1 3.8     "
 },
@@ -11282,7 +11570,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-rule",
   "type": "Definition",
-  "number": "H.3.587",
+  "number": "H.3.621",
   "title": "IQR Rule for Outliers.",
   "body": " IQR Rule for Outliers     Significantly low if value .  Significantly high if value .     "
 },
@@ -11291,7 +11579,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-example-2",
   "type": "Example",
-  "number": "H.3.588",
+  "number": "H.3.622",
   "title": "Example 2.",
   "body": " Example 2   Identify outliers in music streaming counts using IQR.   Music Streaming Counts (Millions)   Streams  1.2 1.5 2.1 2.4 2.9 3.3 3.6 4.0 4.2 4.8  5.1 5.7 6.0 6.2 6.8 7.3 8.1 8.5 9.0 15.4     "
 },
@@ -11300,7 +11588,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-definition",
   "type": "Definition",
-  "number": "H.3.590",
+  "number": "H.3.624",
   "title": "How to Create a Boxplot.",
   "body": " How to Create a Boxplot   A boxplot summarizes the distribution using the five-number summary and whiskers.   "
 },
@@ -11309,7 +11597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-steps",
   "type": "Definition",
-  "number": "H.3.591",
+  "number": "H.3.625",
   "title": "Steps to Construct a Boxplot.",
   "body": " Steps to Construct a Boxplot     Find the five-number summary.  Draw a box from to with a median line.  Draw whiskers to minimum and maximum.     "
 },
@@ -11318,7 +11606,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-1",
   "type": "Example",
-  "number": "H.3.592",
+  "number": "H.3.626",
   "title": "Example 1.",
   "body": " Example 1   Construct a boxplot for gaming session lengths.   Gaming Session Lengths (Minutes)   Session Lengths (Minutes)  15 30 45 60 75  120 150 90 200 180  95 110 130 140 85  70 160 170 55 40  190 210 35 100 250     "
 },
@@ -11327,7 +11615,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-2",
   "type": "Example",
-  "number": "H.3.594",
+  "number": "H.3.628",
   "title": "Example 2.",
   "body": " Example 2   Use the Boxplot Generator to create a boxplot for coffee consumption.   Coffee Consumption (Cups per Day)   Number of Cups  0 1 2 3 5 3 4 6 7 2  3 4 5 1 0 8 3 6 4 5  2 7 3 4 6 2 1 5 3 4     "
 },
@@ -11336,7 +11624,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-skewness",
   "type": "Definition",
-  "number": "H.3.596",
+  "number": "H.3.630",
   "title": "Skewness in Boxplots.",
   "body": " Skewness in Boxplots     Approximately normal: median centered and whiskers similar length.  A boxplot of a normal distribution for free throw percentages.     Left skewed: median closer to or left whisker longer.  Skew-left boxplot on the number of hours of sleep a new parent gets.     Right skewed: median closer to or right whisker longer.  A strong skew-right boxplot for student loan payments.        "
 },
@@ -11345,7 +11633,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-comparison",
   "type": "Definition",
-  "number": "H.3.600",
+  "number": "H.3.634",
   "title": "Comparing Datasets Using Boxplots.",
   "body": " Comparing Datasets Using Boxplots     Side-by-side distribution comparison  Quick insight into variability  Compact but informative summaries     "
 },
@@ -11354,7 +11642,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-3",
   "type": "Example",
-  "number": "H.3.601",
+  "number": "H.3.635",
   "title": "Example 3.",
   "body": " Example 3   Compare 100m sprint times for high-school and Olympic athletes using the Boxplot Generator .   100m Sprint Times: High School vs. Olympic Athletes   High School (s) Olympic (s)  10.55 10.60 10.65 10.72 10.78 9.58 9.69 9.72 9.76 9.81  10.82 10.85 10.89 10.94 10.98 9.85 9.88 9.91 9.93 9.95  11.02 11.07 11.10 11.14 11.18 9.98 10.01 10.03 10.05 10.08  11.21 11.25 11.29 11.35 11.40 10.12 10.15 10.19 10.22 10.25     "
 },
