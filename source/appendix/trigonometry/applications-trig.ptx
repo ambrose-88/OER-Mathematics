@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-applications-trig" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Applications of Trigonometric Functions</title>
+    <definition xml:id="def-solving-triangles">
+        <title>Solving a Right Triangle</title>
+        <statement>
+            <p>
+                <term>Solving a triangle</term> is a problem type where you are given some of the sides or angles of the triangle and you need to find the remaining sides and angles.
+                In this section, we will focus on solving right triangles and label our triangle as follows:
+            </p>
+            <figure xml:id="fig-standard-right-triangle-2">
+                <caption>A standard right triangle with hypotenuse <m>c</m>, short leg <m>a</m>, and long leg <m>b</m>. 
+                    The angle opposite the short leg is <m>\angle A</m> and the angle opposite the long leg is <m>\angle B</m>, and the right angle is <m>\angle C</m>.</caption>
+                <image source="trigonometry/standard-right-triangle-2.png" decorative="yes" width="75%"/>
+            </figure>
+        </statement>
+    </definition>
+    <example xml:id="exa-trig-solving-right-triangle-1" workspace="3in">
+        <title>Solving a Right Triangle</title>
+        <statement>
+            <p>
+                Solve the right triangle with <m>\angle A=62.7^\circ</m> and <m>a=8.4</m> inches. 
+                Round the lengths of the sides to two decimal places and include the units of measure.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="exa-trig-finding-height-1" workspace="3in">
+        <title>Finding the Height of a Structure</title>
+        <statement>
+            <p>
+                From a point on level ground 120 feet from the base of the Space Needle in Seattle, the angle of elevation is <m>78.78^\circ</m>.
+                Approximate the height of the Space Needle to the nearest foot.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="exa-trig-finding-angle-of-elevation-1" workspace="3in">
+        <title>Finding an Angle of Elevation</title>
+        <statement>
+            <p>
+                A plane is flying at an altitude of 30,000 feet and line-of-sight distance to an airport is 50 miles. 
+                What is the angle of elevation the plane makes with the ground at the airport?
+                Hint: 1 mile is 5280 feet.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="exa-applications-two-triangles-1" workspace="3in">
+        <title>Applications Involving Two Triangles</title>
+        <statement>
+            <p>
+                Find the value of <m>x</m> in the figure below. Round your answer to the nearest foot.
+            </p>
+            <figure xml:id="fig-trig-two-triangles-1">
+                <caption>
+                    Two triangles <m>\triangle AB_1C</m> and <m>\triangle AB_2C</m> share a common horizontal side <m>\overline{AC}</m> of length 50 feet. 
+                    The upper triangle has an angle <m>\angle CAB_1=30^\circ</m>.
+                    The lower triangle has an angle <m>\angle CAB_2=15^\circ</m>.
+                    The line segment <m>\overline{B_1B_2}</m> is labeled with length <m>x</m>, is perpendicular to <m>\overline{AC}</m>, and passes through the point <m>C</m>.
+                </caption>
+                <image source="trigonometry/two-triangles-1.png" decorative="yes" width="75%"/> 
+            </figure>
+        </statement>
+    </example>
+    <example xml:id="exa-applications-two-triangles-2" workspace="3in">
+        <title>Applications Involving Two Triangles</title>
+        <statement>
+            <p>
+                Find the value of <m>x</m> in the figure below. Round your answer to the nearest meter.
+            </p>
+            <figure xml:id="fig-trig-two-triangles-2">
+                <caption>
+                    Two triangles <m>\triangle A_1BC</m> and <m>\triangle A_2BC</m> share a common vertical side <m>\overline{BC}</m> of length 20 meters. 
+                    The points <m>A_1</m>, <m>A_2</m>, and <m>C</m> are collinear, with <m>A_1</m> the furthest to the left and <m>A_2</m> is between <m>A_1</m> and <m>C</m>.
+                    The inner triangle has an angle <m>\angle CA_2B=54^\circ</m>.
+                    The outer triangle has an angle <m>\angle CA_1B=35^\circ</m>.
+                    The line segment <m>\overline{A_1A_2}</m> is labeled with length <m>x</m>.
+                </caption>
+                <image source="trigonometry/two-triangles-2.png" decorative="yes" width="75%"/> 
+            </figure>
+        </statement>
+    </example>
+    <definition xml:id="wk-def-trig-bearings">
+        <title>Bearings</title>
+        <statement>
+            <p>
+                The <term>bearing</term> from a point <m>O</m> to a point <m>P</m> is the acute angle, measured in degrees, between the ray <m>\overrightarrow{OP}</m> and the north-south line passing through <m>O</m>.
+                The notation for bearings has three parts:
+                <ul>
+                    <li>
+                        <p>
+                            A letter <m>N</m> or <m>S</m> which determines if we are measuring from the north or south side of the north-south line.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The measure of the acute angle between the ray <m>\overrightarrow{OP}</m> and the north-south line.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A letter <m>E</m> or <m>W</m> indicating if the point <m>P</m> is east or west of the north-south line.
+                        </p>
+                    </li>
+                </ul>
+                <figure xml:id="wk-fig-trig-two-examples-of-bearings">
+                    <caption>Two examples of bearings.</caption>
+                    <sidebyside>
+                        <figure xml:id="wk-fig-trig-nw-bearing">
+                            <caption>
+                                Four rays point out from a point <m>O</m> in each of the four cardinal directions. 
+                                The ray pointing north is labeled <m>N</m>, 
+                                the ray pointing south is labeled <m>S</m>, 
+                                the ray pointing east is labeled <m>E</m>, 
+                                and the ray pointing west is labeled <m>W</m>.
+                                A point <m>P</m> is plotted to the northwest of <m>O</m>, and a ray starting at the origin <m>O</m> and passing through <m>P</m> makes a <m>70^\circ</m> with the ray pointing north.
+                                The ray is labeled with the bearing <m>\text{N }70^\circ\text{ W}</m>.
+                            </caption>
+                            <image source="trigonometry/bearing-1.png" decorative="yes" width="75%"/>
+                        </figure>
+                        <figure xml:id="wk-fig-trig-se-bearing">
+                            <caption>
+                               Four rays point out from a point <m>O</m> in each of the four cardinal directions. 
+                                The ray pointing north is labeled <m>N</m>, 
+                                the ray pointing south is labeled <m>S</m>, 
+                                the ray pointing east is labeled <m>E</m>, 
+                                and the ray pointing west is labeled <m>W</m>.
+                                A point <m>P</m> is plotted to the southeast of <m>O</m>, and a ray starting at the origin <m>O</m> and passing through <m>P</m> makes a <m>37^\circ</m> with the ray pointing south.
+                                The ray is labeled with the bearing <m>\text{S }37^\circ\text{ E}</m>.
+                            </caption>
+                            <image source="trigonometry/bearing-2.png" decorative="yes" width="75%"/>
+                        </figure>
+                    </sidebyside>
+                </figure>
+            </p>
+        </statement>
+        </definition>
+        <example xml:id="exa-trig-understanding-bearings-1" workspace="3in">
+            <title>Understanding Bearings</title>
+            <statement>
+                <p>
+                   Use the figure below to determine the bearing from 
+                   <ul>
+                    <li>
+                        <p>
+                            point <m>O</m> to point <m>A</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            point <m>O</m> to point <m>B</m>.
+                        </p>
+                    </li>
+                   </ul>
+                </p>
+                <figure xml:id="wk-trig-understanding-bearings-image">
+                    <caption>A point <m>A</m> is plotted southwest of the point <m>O</m>, and a point <m>B</m> is plotted northeast of the point <m>O</m>.
+                    The ray <m>\overrightarrow{OA}</m> makes a <m>32^\circ</m> angle with the north-south line, and the ray <m>\overrightarrow{OB}</m> makes a <m>32^\circ</m> angle with the west-east line.
+                    </caption>
+                    <image source="trigonometry/bearing-example.png" decorative="yes" width="50%"/>
+                </figure>
+            </statement>
+        </example>
+        <example xml:id="wk-exa-trig-computing-distance-bearings-1" workspace="3in">
+            <title>Computing Distance Using Bearings</title>
+            <statement>
+                <p>
+                    You start hiking on a trail and travel 2.2 miles on a bearing of <m>\text{N }32^\circ\text{ E}</m>. Then the trail turns <m>90^\circ</m> clockwise and you travel 3.9 miles on a bearing of <m>\text{S }58^\circ\text{ E}</m>.
+                    <ul>
+                        <li>
+                            <p>
+                                What is your bearing, to the nearest tenth of a degree, from your starting point to your ending point?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                How far are you from your starting point? Round your answer to the nearest tenth of a mile.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </example>  
+    <definition xml:id="wk-def-trig-simple-harmonic-motion">
+        <title>Simple Harmonic Motion</title>
+        <statement>
+            <p>
+                A common application of trigonometric functions is to model the motion of an object that oscillates back and forth, such as a pendulum or a mass on a spring. 
+                This type of motion is called <term>simple harmonic motion</term>.
+            </p>
+        </statement>
+    </definition>
+    <theorem xml:id="wk-thm-simple-harmonic-moition">
+        <title>Modeling Simple Harmonic Motion</title>
+        <statement>
+            <p>
+                An object that moves on the coordinate-plane is in <term>simple harmonic motion</term> if its distance <m>d</m> from its equilibrium position at time <m>t</m> can be modeled by a function of the form <me>d(t)=A\sin(\omega t)</me> or <me>d(t)=A\cos(\omega t)</me>, where
+                <ul>
+                    <li>
+                        <p>
+                            the amplitude <m>|A|</m> measures the maximum displacement of the object from its equilibrium position, and
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            the period <m>\dfrac{2\pi}{\omega}</m> measures the time it takes for the object to complete one full cycle of motion.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </theorem>
+<example xml:id="exa-trig-simple-harmonic-motion-1" workspace="2in">
+    <title>Modeling Simple Harmonic Motion</title>
+    <statement>
+        <p>
+            A mass on a spring oscillates back and forth with simple harmonic motion. 
+            The mass is at its equilibrium position at time <m>t=0</m>, and the maximum distance from the equilibrium position is 5 inches. 
+            The period of the motion is 2 seconds.
+            <ul>
+                <li>
+                    <p>
+                        Find a function that models the distance of the mass from its equilibrium position at time <m>t</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        How far is the mass from its equilibrium position at time <m>t=1.5</m> seconds? Round your answer to two decimal places.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</example>
+<definition xml:id="wk-def-trig-frequency">
+    <title>Frequency</title>
+    <statement>
+        <p>
+            The <term>frequency</term> of an object in simple harmonic motion is the number of cycles it completes in one unit of time.
+        </p>
+    </statement>
+</definition>
+<theorem xml:id="wk-thm-trig-frequency">
+    <title>Computing Frequency</title>
+    <statement>
+        <p>
+            If an object is in simple harmonic motion with period <m>P</m>, then the frequency of the motion is given by the formula <me>f=\dfrac{1}{P}=\dfrac{\omega}{2\pi}</me>
+        </p>
+    </statement>
+</theorem>   
+<example xml:id="exa-trig-frequency-1" workspace="2in">
+    <title>Computing Frequency</title>
+    <statement>
+        <p>
+            An object is in simple harmonic motion moves according to the function <me>d(t)=3\sin(4\pi t)</me>, where <m>t</m> is measured in seconds and <m>d(t)</m> is measured in inches.
+            <ul>
+                <li>
+                    <p>
+                        Find the maximum displacement of the object from its equilibrium position.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find and interpret the frequency.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find and interpret the period.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</example>
+</worksheet>

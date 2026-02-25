@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-trig-standard-identities" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Basics of Verifying Trigonometric Identities</title>
+
+    <definition xml:id="def-app-trig-identity">
+        <statement>
+            <p>
+                An <term>identity</term> is an equation that is true for any value of any variable that appears in the equation.
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-app-trig-fundamental-identities">
+        <title>The Fundamental Trigonometric Identities</title>
+        <statement>
+            <p>
+                Reciprocal Identities
+                <md>
+                    <mrow>\sin(x)\amp=\dfrac{1}{\csc(x)}\amp \cos(x)\amp=\dfrac{1}{\sec(x)}\amp \tan(x)\amp=\dfrac{1}{\cot(x)}</mrow>
+                    <mrow></mrow>
+                    <mrow>\csc(x)\amp=\dfrac{1}{\sin(x)}\amp \sec(x)\amp=\dfrac{1}{\cos(x)}\amp \cot(x)\amp=\dfrac{1}{\tan(x)}</mrow>
+                </md>
+            </p>
+            <p>
+                Quotient Identities
+                <md>
+                    <mrow>\tan(x)\amp=\dfrac{\sin(x)}{\cos(x)}\amp \cot(x)\amp=\dfrac{\cos(x)}{\sin(x)}</mrow>
+                </md>
+            </p>
+            <p>
+                Pythagorean Identities
+                <md>
+                    <mrow>\cos^2(x)+\sin^2(x)\amp=1</mrow>
+                    <mrow></mrow>
+                    <mrow>1+\tan^2(x)\amp=\sec^2(x)</mrow>
+                    <mrow></mrow>
+                    <mrow>\cot^2(x)+1\amp=\csc^2(x)</mrow>
+                </md>
+            </p>
+            <p>
+                Parity (Even-Odd) Identities
+                <md>
+                    <mrow>\sin(-x)\amp=-\sin(x)\amp \cos(-x)\amp=\cos(x)\amp \tan(-x)\amp=-\tan(x)</mrow>
+                    <mrow></mrow>
+                    <mrow>\csc(-x)\amp=-\csc(x)\amp \sec(-x)\amp=\sec(x)\amp \cot(-x)\amp=-\cot(x)</mrow>
+                </md>
+            </p>
+        </statement>
+    </theorem>
+
+    <definition xml:id="def-app-trig-verify-identity">
+        <statement>
+            <p>
+                To <term>verify an identity</term>, we simplify one side of the equation until it becomes identical to the other side of the equation.
+            </p>
+        </statement>
+    </definition>
+
+    <note xml:id="note-app-trig-important-verify">
+        <title>Big, Very Important Note</title>
+        <p>
+            Because it is not known that the equation is true for all values of <m>x</m>, you cannot move terms or factors to the other side of the equation.
+            Recall this fact from algebra:
+            <md>
+                <mrow>\text{If }A=B,\text{ then for any }C,\ A+C=B+C.</mrow>
+            </md>
+            But this rests on the fact that you already know <m>A=B</m>. If you have not verified an identity, you do not know if <m>A=B</m>. Therefore, when proving an identity, you
+            <ul>
+                <li>
+                    <p>
+                        cannot add or subtract the same expression to both sides of an equation,
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        cannot multiply or divide both sides of an equation by a non-zero number, and
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        cannot apply a function to both sides of an equation.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </note>
+
+    <example xml:id="exa-app-trig-verify-identity-1" workspace="4in">
+        <statement>
+            <p>
+                Verify the identity <m>\csc(x)\tan(x)=\sec(x)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-verify-identity-2" workspace="4in">
+        <statement>
+            <p>
+                Verify the identity <m>\cos(x)\cot(x)+\sin(x)=\csc(x)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-verify-identity-3" workspace="4in">
+        <statement>
+            <p>
+                Verify the identity <m>\sin(x)-\sin(x)\cos^2(x)=\sin^3(x)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-verify-identity-4" workspace="4in">
+        <statement>
+            <p>
+                Verify the identity <m>\dfrac{1+\cos(\theta)}{\sin(\theta)}=\csc(\theta)+\cot(\theta)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-verify-identity-5" workspace="4in">
+        <statement>
+            <p>
+                Verify the identity <m>\dfrac{\sin(x)}{1+\cos(x)}+\dfrac{1+\cos(x)}{\sin(x)}=2\csc(x)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-verify-identity-6" workspace="4in">
+        <statement>
+            <p>
+                Verify the identity <m>\dfrac{\cos(x)}{1+\sin(x)}=\dfrac{1-\sin(x)}{\cos(x)}</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-verify-identity-7" workspace="4in">
+        <statement>
+            <p>
+                Verify the identity <m>\dfrac{\sec(x)+\csc(-x)}{\sec(x)\csc(x)}=\sin(x)-\cos(x)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-verify-identity-8" workspace="4in">
+        <statement>
+            <p>
+                Verify the identity <m>\dfrac{1}{1+\sin(\theta)}+\dfrac{1}{1-\sin(\theta)}=2+2\tan^2(\theta)</m>.
+            </p>
+        </statement>
+    </example>
+</worksheet>
