@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: salem                          *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Applications of Trigonometric Functions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="OER Mathematics">
+<meta property="book:author" content="Charles S. McCauley">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.15';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.529fd9398bfbd03e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">OER Mathematics</span> <span class="subtitle"></span></a></h1>
+<p class="byline">Charles S. McCauley</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ws-app-trig-inverse-trig.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="appendix-d.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ws-app-trig-standard-identities.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 parts focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="review-arithmetic.html" class="internal"><span class="codenumber">I</span> <span class="title">Review of Arithmetic</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="review-arithmetic-chapter1.html" class="internal"><span class="codenumber">1</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="intermediate-algebra.html" class="internal"><span class="codenumber">II</span> <span class="title">Intermediate Algebra</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="intermediate-algebra-chapter1.html" class="internal"><span class="codenumber">2</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="college-algebra.html" class="internal"><span class="codenumber">III</span> <span class="title">College Algebra</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter1.html" class="internal"><span class="codenumber">3</span> <span class="title">Graphing in Two Dimensions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter1-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Graphing Points on the Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-1.html#sub-ordered-pairs" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Ordered Pairs</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="chapter1-1.html#sub-visualizing-coordinate-plane" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Visualizing The Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-coordinate-axes" class="internal"><span class="codenumber">3.1.2.1</span> <span class="title">Coordinate Axes</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-origin-and-rectangular-coordinates" class="internal"><span class="codenumber">3.1.2.2</span> <span class="title">The Origin and Rectangular Coordinates</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-1.html#subsub-quadrants" class="internal"><span class="codenumber">3.1.2.3</span> <span class="title">The Quadrants of a Coordinate Plane</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter1-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Graphing Points on the Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="chapter1-2.html#chapter1-2-3" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Graphing a Point by Hand</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#chapter1-2-3-2" class="internal"><span class="codenumber">3.2.1.1</span> <span class="title">Positive and Negative Signs as Directions of Travel.</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-Graphing-a-Point-By-Hand" class="internal"><span class="codenumber">3.2.1.2</span> <span class="title">Graphing a Point By Hand</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-Graphing-Points-Using-Technology" class="internal"><span class="codenumber">3.2.1.3</span> <span class="title">Graphing Points Using Technology</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="chapter1-2.html#subsub-variables-other-than-x-y" class="internal"><span class="codenumber">3.2.1.4</span> <span class="title">Using Variables Other Than <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span></span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter1-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">The Distance Formula</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-3.html#sub-distances-in-the-real-world" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Distances in the Real World</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter1-3.html#sub-distance-formula" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Proof of the Distance Formula</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-5.html" class="internal"><span class="codenumber">3.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-6.html" class="internal"><span class="codenumber">3.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-7.html" class="internal"><span class="codenumber">3.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter1-8.html" class="internal"><span class="codenumber">3.8</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter2.html" class="internal"><span class="codenumber">4</span> <span class="title">Functions and Their Basic Properties</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-5.html" class="internal"><span class="codenumber">4.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-6.html" class="internal"><span class="codenumber">4.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-7.html" class="internal"><span class="codenumber">4.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-8.html" class="internal"><span class="codenumber">4.8</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-9.html" class="internal"><span class="codenumber">4.9</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-10.html" class="internal"><span class="codenumber">4.10</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-11.html" class="internal"><span class="codenumber">4.11</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-12.html" class="internal"><span class="codenumber">4.12</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-13.html" class="internal"><span class="codenumber">4.13</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-14.html" class="internal"><span class="codenumber">4.14</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter2-15.html" class="internal"><span class="codenumber">4.15</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter3.html" class="internal"><span class="codenumber">5</span> <span class="title">Linear Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-5.html" class="internal"><span class="codenumber">5.5</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-6.html" class="internal"><span class="codenumber">5.6</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-7.html" class="internal"><span class="codenumber">5.7</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-8.html" class="internal"><span class="codenumber">5.8</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-9.html" class="internal"><span class="codenumber">5.9</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-10.html" class="internal"><span class="codenumber">5.10</span> <span class="title"></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter3-11.html" class="internal"><span class="codenumber">5.11</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter4.html" class="internal"><span class="codenumber">6</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-zero-product-property.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The Zero Product Property</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-quadratic-equations" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Quadratic Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-the-zero-product-property" class="internal"><span class="codenumber">6.1.2</span> <span class="title">The Zero Product Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-zero-product-property.html#subsec-solving-equations-by-factoring" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Solving Equations by Factoring</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Solving Quadratics Using Special Products</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html#subsec-difference-of-squares" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Difference of Squares</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-solving-quadratics-using-special-products.html#subsec-sum-and-difference-of-cubes" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Sum and Difference of Cubes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factor-by-grouping.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Factor by Grouping</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-factor-by-grouping" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Factor by Grouping</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-ac-method" class="internal"><span class="codenumber">6.3.2</span> <span class="title">The <span class="process-math">\(ac\)</span>-Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factor-by-grouping.html#subsec-slide-and-divide" class="internal"><span class="codenumber">6.3.3</span> <span class="title">Slide and Divide</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-square-root-property.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Square Root Property</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-square-root-property.html#subsec-solving-equations-using-square-root-property" class="internal"><span class="codenumber">6.4.1</span> <span class="title">Solving Equations using Square Root Property</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-square-root-property.html#subsec-solving-equations-involving-perfect-square-trinomials" class="internal"><span class="codenumber">6.4.2</span> <span class="title">Solving Equations Involving Perfect Square Trinomials</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-completing-the-square.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Completing the Square</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-completing-the-square.html#subsec-traditional-method" class="internal"><span class="codenumber">6.5.1</span> <span class="title">The Traditional Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-completing-the-square.html#subsec-box-method" class="internal"><span class="codenumber">6.5.2</span> <span class="title">The Box Method</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html" class="internal"><span class="codenumber">6.6</span> <span class="title">The Definition of Complex Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html#subsec-the-imaginary-number-i" class="internal"><span class="codenumber">6.6.1</span> <span class="title">The Imaginary Number <span class="process-math">\(i\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-definition-of-complex-numbers.html#subsec-complex-numbers" class="internal"><span class="codenumber">6.6.2</span> <span class="title">Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html" class="internal"><span class="codenumber">6.7</span> <span class="title">Arithmetic with Complex Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-adding-complex-numbers" class="internal"><span class="codenumber">6.7.1</span> <span class="title">Adding Complex Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-subtracting-complex-numbers" class="internal"><span class="codenumber">6.7.2</span> <span class="title">Subtracting Complex Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-arithmetic-with-complex-numbers.html#subsec-multiplying-complex-numbers" class="internal"><span class="codenumber">6.7.3</span> <span class="title">Multiplying Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-the-complex-conjugate.html" class="internal"><span class="codenumber">6.8</span> <span class="title">The Complex Conjugate</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-complex-conjugate.html#subsec-determining-the-complex-conjugate" class="internal"><span class="codenumber">6.8.1</span> <span class="title">Determining the Complex Conjugate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-the-complex-conjugate.html#subsec-getting-real-numbers-from-complex-numbers" class="internal"><span class="codenumber">6.8.2</span> <span class="title">Getting Real Numbers from Complex Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="square-roots-negative.html" class="internal"><span class="codenumber">6.9</span> <span class="title">Square Roots of Negative Numbers</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="proof-of-the-quadratic-formula.html" class="internal"><span class="codenumber">6.10</span> <span class="title">Proof of the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="using-the-quadratic-formula.html" class="internal"><span class="codenumber">6.11</span> <span class="title">Using the Quadratic Formula</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="using-the-quadratic-formula.html#solving-equations-using-the-quadratic-formula" class="internal"><span class="codenumber">6.11.1</span> <span class="title">Solving Equations Using the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="using-the-quadratic-formula.html#sub-the-discriminant" class="internal"><span class="codenumber">6.11.2</span> <span class="title">The Discriminant</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="equations-quadratic-in-form.html" class="internal"><span class="codenumber">6.12</span> <span class="title">Equations that are Quadratic in Form</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equations-quadratic-in-form.html#solving-equations-in-one-variable" class="internal"><span class="codenumber">6.12.1</span> <span class="title">Solving Equations in One Variable</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="equations-quadratic-in-form.html#solving-equations-for-other-variables" class="internal"><span class="codenumber">6.12.2</span> <span class="title">Solving Equations for Other Variables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="quadratic-functions.html" class="internal"><span class="codenumber">6.13</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-functions.html#graphs-of-quadratic-functions" class="internal"><span class="codenumber">6.13.1</span> <span class="title">Graphs of Quadratic Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="quadratic-functions.html#properties-of-quadratic-functions" class="internal"><span class="codenumber">6.13.2</span> <span class="title">Properties of Quadratic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html" class="internal"><span class="codenumber">6.14</span> <span class="title">The Vertex Form of a Quadratic Function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#writing-quadratic-equations-in-vertex-form" class="internal"><span class="codenumber">6.14.1</span> <span class="title">Writing Quadratic Equations in Vertex Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#graphing-quadratic-functions-using-the-vertex-form" class="internal"><span class="codenumber">6.14.2</span> <span class="title">Graphing Quadratic Functions Using the Vertex Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="vertex-form-of-a-quadratic-function.html#graphing-quadratic-functions-using-intercepts" class="internal"><span class="codenumber">6.14.3</span> <span class="title">Graphing Quadratic Functions Using Intercepts</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="optimization-using-quadratic-functions.html" class="internal"><span class="codenumber">6.15</span> <span class="title">Optimization Using Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-to-geometry" class="internal"><span class="codenumber">6.15.1</span> <span class="title">Applications to Geometry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-from-physics" class="internal"><span class="codenumber">6.15.2</span> <span class="title">Applications from Physics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="optimization-using-quadratic-functions.html#applications-from-economics" class="internal"><span class="codenumber">6.15.3</span> <span class="title">Applications from Economics</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter5.html" class="internal"><span class="codenumber">7</span> <span class="title">Polynomial Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-functions.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="end-behavior-polynomial-functions.html" class="internal"><span class="codenumber">7.2</span> <span class="title">End Behavior of Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="zeroes-and-multiplicity.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Zeros and Multiplicity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#complete-linear-factorization-of-px" class="internal"><span class="codenumber">7.3.1</span> <span class="title">The Complete Linear Factorization of <span class="process-math">\(p(x)\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#the-zeroes-of-a-polynomial-function" class="internal"><span class="codenumber">7.3.2</span> <span class="title">The Zeroes of a Polynomial Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#the-multiplicity-of-a-zero" class="internal"><span class="codenumber">7.3.3</span> <span class="title">The Multiplicity of a Zero</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-and-multiplicity.html#visualizing-zeroes-as-x-intercepts" class="internal"><span class="codenumber">7.3.4</span> <span class="title">Visualizing Zeroes as <span class="process-math">\(x\)</span>-intercepts</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="turning-points.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Turning Points</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="turning-points.html#turning-points-and-local-extrema" class="internal"><span class="codenumber">7.4.1</span> <span class="title">Turning Points and Local Extrema</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-increasing-decreasing.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Where are Polynomial Functions Increasing and Decreasing?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphing-polynomials.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Graphing Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="polynomial-long-division.html" class="internal"><span class="codenumber">7.7</span> <span class="title">The Division Algorithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="polynomial-long-division.html#division-algorithm" class="internal"><span class="codenumber">7.7.1</span> <span class="title">Natural Numbers Version</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="polynomial-long-division.html#polynomial-division-algorithm" class="internal"><span class="codenumber">7.7.2</span> <span class="title">Polynomial Version</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="synthetic-division.html" class="internal"><span class="codenumber">7.8</span> <span class="title">Synthetic Division</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="remainder-factor-theroems.html" class="internal"><span class="codenumber">7.9</span> <span class="title">The Remainder and Factor Theorems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="remainder-factor-theroems.html#subsec-the-remainder-theorem" class="internal"><span class="codenumber">7.9.1</span> <span class="title">The Remainder Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="remainder-factor-theroems.html#subsec-the-factor-theorem" class="internal"><span class="codenumber">7.9.2</span> <span class="title">The Factor Theorem</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="text-for-pm-one.html" class="internal"><span class="codenumber">7.10</span> <span class="title">The Test for <span class="process-math">\(\pm 1\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rational-zeroes-theorem.html" class="internal"><span class="codenumber">7.11</span> <span class="title">The Rational Root Theorem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="irrational-zeroes.html" class="internal"><span class="codenumber">7.12</span> <span class="title">The Irrational Zeroes of a Polynomial</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="intermediate-value-theorem.html" class="internal"><span class="codenumber">7.13</span> <span class="title">Intermediate Value Theorem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="complex-zeroes.html" class="internal"><span class="codenumber">7.14</span> <span class="title">The Complex Zeroes of a Polynomial</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="fundamental-theorem-of-algebra.html" class="internal"><span class="codenumber">7.15</span> <span class="title">The Fundamental Theorem of Algebra</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-inequalities.html" class="internal"><span class="codenumber">7.16</span> <span class="title">Solving Polynomial Inequalities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter6.html" class="internal"><span class="codenumber">8</span> <span class="title">Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rational-functions.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Rational Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="zeroes-numerator-rational.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Zeroes of the Numerator</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-numerator-rational.html#subsec-zeroes-rational-functions" class="internal"><span class="codenumber">8.2.1</span> <span class="title">The Zeroes of Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-numerator-rational.html#subsec-multiplicity-rational-functions" class="internal"><span class="codenumber">8.2.2</span> <span class="title">How to Determine Multiplicity for Rational Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="zeroes-denominator-rational.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Zeroes of the Denominator</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#subsec-domains-rational" class="internal"><span class="codenumber">8.3.1</span> <span class="title">Domains of Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#sub-arrow-notation" class="internal"><span class="codenumber">8.3.2</span> <span class="title">Arrow Notation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#subsec-vertical-asymptotes" class="internal"><span class="codenumber">8.3.3</span> <span class="title">Vertical Asymptotes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="zeroes-denominator-rational.html#subsec-multiplicities-of-the-denominator" class="internal"><span class="codenumber">8.3.4</span> <span class="title">Multiplicities of the Denominator</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="holes-rational-functions.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Holes in Rational Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="end-behavior-rational.html" class="internal"><span class="codenumber">8.5</span> <span class="title">End Behavior of Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="end-behavior-rational.html#other-types-of-asymptotes" class="internal"><span class="codenumber">8.5.1</span> <span class="title">Other Types of Asymptotes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="end-behavior-rational.html#end-behavior-of-rational-functions" class="internal"><span class="codenumber">8.5.2</span> <span class="title">End Behavior of Rational Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="end-behavior-rational.html#subsec-crossing-asymptotes" class="internal"><span class="codenumber">8.5.3</span> <span class="title">Crossing Horizontal/Oblique/Nonlinear Asymptotes?</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphs-rational.html" class="internal"><span class="codenumber">8.6</span> <span class="title">The Graphs of Rational Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="rational-inequalities.html" class="internal"><span class="codenumber">8.7</span> <span class="title">Rational Inequalities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter7.html" class="internal"><span class="codenumber">9</span> <span class="title">Creating New Functions from Old Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="library-of-functions.html" class="internal"><span class="codenumber">9.1</span> <span class="title">The Library of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#constant-function" class="internal"><span class="codenumber">9.1.1</span> <span class="title">The Constant Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#identity-function" class="internal"><span class="codenumber">9.1.2</span> <span class="title">The Identity Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#odd-power-function" class="internal"><span class="codenumber">9.1.3</span> <span class="title">The Power Function (<span class="process-math">\(n\)</span> odd case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#even-power-function" class="internal"><span class="codenumber">9.1.4</span> <span class="title">The Power Function (<span class="process-math">\(n\)</span> even case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#odd-root-function" class="internal"><span class="codenumber">9.1.5</span> <span class="title">The Root Function (<span class="process-math">\(n\)</span> odd case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#even-root-function" class="internal"><span class="codenumber">9.1.6</span> <span class="title">The Root Function (<span class="process-math">\(n\)</span> even case)</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="library-of-functions.html#absolute-value-function" class="internal"><span class="codenumber">9.1.7</span> <span class="title">The Absolute Value Function</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="vertical-translations.html" class="internal"><span class="codenumber">9.2</span> <span class="title">How to Move Functions Up and Down</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="horizontal-translations.html" class="internal"><span class="codenumber">9.3</span> <span class="title">How to Move Functions Left and Right</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="vertical-stretch-compress.html" class="internal"><span class="codenumber">9.4</span> <span class="title">How to Stretch and Shrink Functions Vertically</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="horizontal-stretch-shrink.html" class="internal"><span class="codenumber">9.5</span> <span class="title">How to Stretch and Shrink Functions Horizontally</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="vertical-reflection.html" class="internal"><span class="codenumber">9.6</span> <span class="title">How to Reflect Functions Vertically</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="horizontal-reflections.html" class="internal"><span class="codenumber">9.7</span> <span class="title">How to Reflect Functions Horizontally</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphing-multiple-transformations.html" class="internal"><span class="codenumber">9.8</span> <span class="title">Graphing Multiple Transformations at Once</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="piecewise-defined-functions.html" class="internal"><span class="codenumber">9.9</span> <span class="title">Piecewise-Defined Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="arithmetic-operations-functions.html" class="internal"><span class="codenumber">9.10</span> <span class="title">Arithmetic Operations and Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="composition-functions.html" class="internal"><span class="codenumber">9.11</span> <span class="title">The Composition of Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="one-to-one-functions.html" class="internal"><span class="codenumber">9.12</span> <span class="title">One-to-One Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="inverse-functions.html" class="internal"><span class="codenumber">9.13</span> <span class="title">Inverse Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter8.html" class="internal"><span class="codenumber">10</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="exponential-functions.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="properties-exponential-functions.html" class="internal"><span class="codenumber">10.2</span> <span class="title">The Properties of Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="the-number-e.html" class="internal"><span class="codenumber">10.3</span> <span class="title">The Number <span class="process-math">\(e\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="logarithmic-functions.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="properties-logarithmic-functions.html" class="internal"><span class="codenumber">10.5</span> <span class="title">The Properties of Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="graphing-logarithmic-functions.html" class="internal"><span class="codenumber">10.6</span> <span class="title">Graphing Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="cancellation-properties-logarithms.html" class="internal"><span class="codenumber">10.7</span> <span class="title">The Cancellation Properties of Logarithms</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="evaluating-logarithmic-functions.html" class="internal"><span class="codenumber">10.8</span> <span class="title">Evaluating Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-exponential-equations.html" class="internal"><span class="codenumber">10.9</span> <span class="title">Solving Equations Involving Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="laws-logarithms.html" class="internal"><span class="codenumber">10.10</span> <span class="title">The Laws of Logarithms</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-logarithmic-equations.html" class="internal"><span class="codenumber">10.11</span> <span class="title">Solving Equations Involving Exponential Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="applications-exponential-logarithmic.html" class="internal"><span class="codenumber">10.12</span> <span class="title">Applications of Exponential and Logarithmic Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter9.html" class="internal"><span class="codenumber">11</span> <span class="title">Systems of Equations and Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="systems-of-linear-equations.html" class="internal"><span class="codenumber">11.1</span> <span class="title">Systems of Linear Equations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="substitution-method.html" class="internal"><span class="codenumber">11.2</span> <span class="title">The Substitution Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="elimination-method.html" class="internal"><span class="codenumber">11.3</span> <span class="title">The Elimination Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="matrix-method.html" class="internal"><span class="codenumber">11.4</span> <span class="title">The Matrix Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="systems-of-inequalities.html" class="internal"><span class="codenumber">11.5</span> <span class="title">Graphing the Solution Set to a System of Inequalities</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="solving-non-linear-systems.html" class="internal"><span class="codenumber">11.6</span> <span class="title">Solving Nonlinear Systems of Equations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter10.html" class="internal"><span class="codenumber">12</span> <span class="title">The Binomial Theorem</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="binomial-coefficients.html" class="internal"><span class="codenumber">12.1</span> <span class="title">Binomial Coefficients</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="pascals-triangle.html" class="internal"><span class="codenumber">12.2</span> <span class="title">Pascal’s Triangle</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="binomial-theorem.html" class="internal"><span class="codenumber">12.3</span> <span class="title">The Binomial Theorem</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="trigonometry.html" class="internal"><span class="codenumber">IV</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="trigonometry-chapter1.html" class="internal"><span class="codenumber">13</span> <span class="title">Chapter 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-chapter1-review.html" class="internal"><span class="codenumber">13.1</span> <span class="title">Exam 1 Review</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="calculus-1.html" class="internal"><span class="codenumber">V</span> <span class="title">Calculus 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="calculus-1-chapter1.html" class="internal"><span class="codenumber">14</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="calculus-2.html" class="internal"><span class="codenumber">VI</span> <span class="title">Calculus 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="calculus-2-chapter1.html" class="internal"><span class="codenumber">15</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="calculus-3.html" class="internal"><span class="codenumber">VII</span> <span class="title">Calculus 3</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="calculus-3-chapter1.html" class="internal"><span class="codenumber">16</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="introductory-statistics.html" class="internal"><span class="codenumber">VIII</span> <span class="title">Introductory Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="statistics-chapter1.html" class="internal"><span class="codenumber">17</span> <span class="title">Populations and their Samples</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-data-thought-process.html" class="internal"><span class="codenumber">17.1</span> <span class="title">Data and the Thought Process of Statistics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-thought-process.html#stats-ch1-data-and-statistics" class="internal"><span class="codenumber">17.1.1</span> <span class="title">Data and Statistics</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-population-sample.html" class="internal"><span class="codenumber">17.2</span> <span class="title">Samples and Their Populations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-population-sample.html#stats-ch1-populations" class="internal"><span class="codenumber">17.2.1</span> <span class="title">Populations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-population-sample.html#stats-ch1-populations-versus-samples" class="internal"><span class="codenumber">17.2.2</span> <span class="title">Populations Versus Samples</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-population-sample.html#stats-ch1-population-sample-conclusion" class="internal"><span class="codenumber">17.2.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html" class="internal"><span class="codenumber">17.3</span> <span class="title">Parameters and Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html#stats-ch1-parameters-and-statistics" class="internal"><span class="codenumber">17.3.1</span> <span class="title">Parameters and Statistics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html#stats-ch1-parameter-vs-statistic" class="internal"><span class="codenumber">17.3.2</span> <span class="title">Telling the Difference Between a Parameter and a Statistic</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-parameter-statistics.html#stats-ch1-parameter-statistics-conclusion" class="internal"><span class="codenumber">17.3.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-levels-measurement.html" class="internal"><span class="codenumber">17.4</span> <span class="title">Types of Data and Levels of Measurement</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-levels-measurement.html#stats-ch1-data-classification" class="internal"><span class="codenumber">17.4.1</span> <span class="title">Data Classification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-levels-measurement.html#stats-ch1-levels-measurement-levels" class="internal"><span class="codenumber">17.4.2</span> <span class="title">Levels of Measurement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-levels-measurement.html#stats-ch1-levels-measurement-conclusion" class="internal"><span class="codenumber">17.4.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html" class="internal"><span class="codenumber">17.5</span> <span class="title">Data Collection and Bias</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-data-collection-methods" class="internal"><span class="codenumber">17.5.1</span> <span class="title">Data Collection Methods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-well-designed-study" class="internal"><span class="codenumber">17.5.2</span> <span class="title">Elements of a Well-Designed Study</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-common-bias" class="internal"><span class="codenumber">17.5.3</span> <span class="title">Common Sources of Bias in Statistical Study</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-data-collection-bias.html#stats-ch1-data-collection-conclusion" class="internal"><span class="codenumber">17.5.4</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-sampling-methods.html" class="internal"><span class="codenumber">17.6</span> <span class="title">Sampling Techniques and Errors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-sampling-methods.html#stats-ch1-sampling-techniques" class="internal"><span class="codenumber">17.6.1</span> <span class="title">Sampling Techniques</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-sampling-methods.html#stats-ch1-sampling-errors" class="internal"><span class="codenumber">17.6.2</span> <span class="title">Sampling Errors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-sampling-methods.html#stats-ch1-sampling-conclusion" class="internal"><span class="codenumber">17.6.3</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch1-experimental-design.html" class="internal"><span class="codenumber">17.7</span> <span class="title">Experimental Design</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-experimental-design.html#stats-ch1-types-designs" class="internal"><span class="codenumber">17.7.1</span> <span class="title">Types of Designs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch1-experimental-design.html#stats-ch1-experimental-conclusion" class="internal"><span class="codenumber">17.7.2</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="statistics-chapter2.html" class="internal"><span class="codenumber">18</span> <span class="title">Organizing Data Visually</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-frequency-distribution.html" class="internal"><span class="codenumber">18.1</span> <span class="title">How to Create Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-distribution.html#stats-ch2-basics-frequency" class="internal"><span class="codenumber">18.1.1</span> <span class="title">Basics of Frequency Distributions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-relative-frequency.html" class="internal"><span class="codenumber">18.2</span> <span class="title">How to Create Relative Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-relative-frequency.html#stats-ch2-relative-frequency-distributions" class="internal"><span class="codenumber">18.2.1</span> <span class="title">Relative Frequency Distributions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-cumulative-frequency.html" class="internal"><span class="codenumber">18.3</span> <span class="title">How to Compute Cumulative Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-cumulative-frequency.html#stats-ch2-cumulative-frequency-basics" class="internal"><span class="codenumber">18.3.1</span> <span class="title">Cumulative Frequency</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-cumulative-frequency.html#stats-ch2-relative-cumulative-frequency" class="internal"><span class="codenumber">18.3.2</span> <span class="title">Relative Cumulative Frequency</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html" class="internal"><span class="codenumber">18.4</span> <span class="title">How to Create Frequency Histograms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-frequency-histograms-basics" class="internal"><span class="codenumber">18.4.1</span> <span class="title">Frequency Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-relative-frequency-histograms" class="internal"><span class="codenumber">18.4.2</span> <span class="title">Relative Frequency Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-cumulative-frequency-histograms" class="internal"><span class="codenumber">18.4.3</span> <span class="title">Cumulative Frequency Histograms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-frequency-histograms.html#stats-ch2-cumulative-relative-frequency-histograms" class="internal"><span class="codenumber">18.4.4</span> <span class="title">Cumulative Relative Frequency Histograms</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-shapes-distributions.html" class="internal"><span class="codenumber">18.5</span> <span class="title">Shapes of Frequency Distributions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-shapes-distributions.html#stats-ch2-peak-and-tails" class="internal"><span class="codenumber">18.5.1</span> <span class="title">The Peak and Tails</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-shapes-distributions.html#stats-ch2-shapes-of-distributions" class="internal"><span class="codenumber">18.5.2</span> <span class="title">Shapes of Distributions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html" class="internal"><span class="codenumber">18.6</span> <span class="title">How to Construct Stem-and-Leaf Plots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-stem-leaf-basics" class="internal"><span class="codenumber">18.6.1</span> <span class="title">Stem-and-Leaf Plots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-split-stems" class="internal"><span class="codenumber">18.6.2</span> <span class="title">Split Stems</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-back-to-back" class="internal"><span class="codenumber">18.6.3</span> <span class="title">Back-to-Back Plots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-stem-leaf-plot.html#stats-ch2-stem-leaf-conclusion" class="internal"><span class="codenumber">18.6.4</span> <span class="title">Conclusion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-dot-plots.html" class="internal"><span class="codenumber">18.7</span> <span class="title">How to Construct Dot Plots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-dot-plots.html#stats-ch2-dot-plots-basics" class="internal"><span class="codenumber">18.7.1</span> <span class="title">Dot Plots</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-dot-plots.html#stats-ch2-interpreting-dot-plots" class="internal"><span class="codenumber">18.7.2</span> <span class="title">Interpreting Dot Plots</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-time-series.html" class="internal"><span class="codenumber">18.8</span> <span class="title">How to Construct Time Series Plots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-time-series.html#stats-ch2-time-series-basics" class="internal"><span class="codenumber">18.8.1</span> <span class="title">Time Series Plots</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-bar-graphs.html" class="internal"><span class="codenumber">18.9</span> <span class="title">How to Construct Bar Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-bar-graphs.html#stats-ch2-bar-graphs-basics" class="internal"><span class="codenumber">18.9.1</span> <span class="title">Bar Graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-bar-graphs.html#stats-ch2-pareto-graphs" class="internal"><span class="codenumber">18.9.2</span> <span class="title">Pareto Graphs</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="stats-ch2-pie-charts.html" class="internal"><span class="codenumber">18.10</span> <span class="title">How to Create Pie Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-pie-charts.html#stats-ch2-pie-conditions" class="internal"><span class="codenumber">18.10.1</span> <span class="title">Conditions for Using a Pie Graph</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="stats-ch2-pie-charts.html#stats-ch2-constructing-pie-graphs" class="internal"><span class="codenumber">18.10.2</span> <span class="title">Constructing Pie Graphs</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="statistics-chapter3.html" class="internal"><span class="codenumber">19</span> <span class="title">Numerical Summaries of Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="statistics-mean.html" class="internal"><span class="codenumber">19.1</span> <span class="title">How to Calculate the Mean of a Data Set</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics-mean.html#statistics-definition-mean" class="internal"><span class="codenumber">19.1.1</span> <span class="title">Definition of the Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics-mean.html#statistics-mean-interpretation" class="internal"><span class="codenumber">19.1.2</span> <span class="title">Interpreting the Mean</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="statistics-mean.html#statistics-mean-calculation-technology" class="internal"><span class="codenumber">19.1.3</span> <span class="title">Calculating the Mean with Technology</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-median.html" class="internal"><span class="codenumber">19.2</span> <span class="title">How to Calculate the Median of a Data Set</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-mode.html" class="internal"><span class="codenumber">19.3</span> <span class="title">How to Calculate the Mode of a Dataset</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-central-tendency-distributions.html" class="internal"><span class="codenumber">19.4</span> <span class="title">How Skewness Affects the Mean, Median, and Mode of a Dataset</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-weighted-mean.html" class="internal"><span class="codenumber">19.5</span> <span class="title">How to Calculate a Weighted Mean</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-mean-not-enough.html" class="internal"><span class="codenumber">19.6</span> <span class="title">Is the Mean Enough to Describe a Dataset?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-range.html" class="internal"><span class="codenumber">19.7</span> <span class="title">Understanding the Range of a Data Set</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-deviations.html" class="internal"><span class="codenumber">19.8</span> <span class="title">How to Calculate the Deviations of a Dataset</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-standard-deviation.html" class="internal"><span class="codenumber">19.9</span> <span class="title">Understanding Standard Deviation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-outliers-normal-distribution.html" class="internal"><span class="codenumber">19.10</span> <span class="title">How to Find Outliers for Normal Distributions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-empirical-rule.html" class="internal"><span class="codenumber">19.11</span> <span class="title">What is the Empirical Rule?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-chebyshev.html" class="internal"><span class="codenumber">19.12</span> <span class="title">Chebyshev’s Inequality</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-percentile.html" class="internal"><span class="codenumber">19.13</span> <span class="title">How to Calculate a Percentile</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-z-score.html" class="internal"><span class="codenumber">19.14</span> <span class="title">How to Calculate a <span class="process-math">\(z\)</span>-score</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-five-number-summary.html" class="internal"><span class="codenumber">19.15</span> <span class="title">How to Calculate the Five-Number Summary</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-iqr-rule.html" class="internal"><span class="codenumber">19.16</span> <span class="title">How to Find Outliers for Skewed Data</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="statistics-boxplot.html" class="internal"><span class="codenumber">19.17</span> <span class="title">How to Create a Boxplot</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="finite-mathematics.html" class="internal"><span class="codenumber">IX</span> <span class="title">Finite Mathematics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-chapter"><div class="toc-title-box"><a href="finite-mathematics-chapter1.html" class="internal"><span class="codenumber">20</span> <span class="title">Chapter 1</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-backmatter contains-active">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-a.html" class="internal"><span class="codenumber">A</span> <span class="title">Appendix A: Review of Arithmetic Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-b.html" class="internal"><span class="codenumber">B</span> <span class="title">Appendix B: Intermediate Algebra Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-c.html" class="internal"><span class="codenumber">C</span> <span class="title">Appendix C: College Algebra Lecture Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="worksheet-quadratic-equations.html" class="internal"><span class="codenumber">C.1</span> <span class="title">Quadratic Equations</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-complex-numbers.html" class="internal"><span class="codenumber">C.2</span> <span class="title">Complex Numbers</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="lecture-notes-worksheet-quadratic-formula.html" class="internal"><span class="codenumber">C.3</span> <span class="title">Using the Quadratic Formula</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="worksheet-quadratic-functions.html" class="internal"><span class="codenumber">C.4</span> <span class="title">Quadratic Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-properties-polynomials.html" class="internal"><span class="codenumber">C.5</span> <span class="title">Properties of Polynomial Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-factor-theorem.html" class="internal"><span class="codenumber">C.6</span> <span class="title">Graphing and Factor Theorem Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-fundamental-theorem-of-algebra.html" class="internal"><span class="codenumber">C.7</span> <span class="title">The Fundamental Theorem of Algebra</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="worksheet-graphing-rational-function.html" class="internal"><span class="codenumber">C.8</span> <span class="title">Rational Functions and their Properties</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-inverse-functions.html" class="internal"><span class="codenumber">C.9</span> <span class="title">Inverse Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-exponential-logarithmic-functions.html" class="internal"><span class="codenumber">C.10</span> <span class="title">Exponential and Logarithmic Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-logarithmic-laws.html" class="internal"><span class="codenumber">C.11</span> <span class="title">Properties of Logarithms</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-logarithmic-equations-applications.html" class="internal"><span class="codenumber">C.12</span> <span class="title">Solving Equations and Applications Using Logarithms</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix contains-active">
+<div class="toc-title-box"><a href="appendix-d.html" class="internal"><span class="codenumber">D</span> <span class="title">Appendix D: Trigonometry Lecture Notes</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-radian-measure.html" class="internal"><span class="codenumber">D.1</span> <span class="title">Angles and Radian Measure</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-right-triangle-trigonometry.html" class="internal"><span class="codenumber">D.2</span> <span class="title">Right Triangle Trigonometry</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-trig-functions-any-angle.html" class="internal"><span class="codenumber">D.3</span> <span class="title">Trigonometric Functions of Any Angle</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-unit-circle.html" class="internal"><span class="codenumber">D.4</span> <span class="title">The Unit Circle</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-sine-cosine-graphs.html" class="internal"><span class="codenumber">D.5</span> <span class="title">Graphs of Sine and Cosine</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-other-four-graphs.html" class="internal"><span class="codenumber">D.6</span> <span class="title">Graphs of Tangent, Cotangent, Secant, Cosecant</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-app-trig-inverse-trig.html" class="internal"><span class="codenumber">D.7</span> <span class="title">Inverse Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="ws-app-applications-trig.html" class="internal"><span class="codenumber">D.8</span> <span class="title">Applications of Trigonometric Functions</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="ws-app-trig-standard-identities.html" class="internal"><span class="codenumber">D.9</span> <span class="title">The Basics of Verifying Trigonometric Identities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-e.html" class="internal"><span class="codenumber">E</span> <span class="title">Appendix E: Calculus 1 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-f.html" class="internal"><span class="codenumber">F</span> <span class="title">Appendix F: Calculus 2 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-g.html" class="internal"><span class="codenumber">G</span> <span class="title">Appendix G: Calculus 3 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-h.html" class="internal"><span class="codenumber">H</span> <span class="title">Appendix H: Statistics Lecture Notes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="appendix-statistics-chapter-1.html" class="internal"><span class="codenumber">H.1</span> <span class="title">Chapter 1 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="appendix-statistics-chapter-2.html" class="internal"><span class="codenumber">H.2</span> <span class="title">Chapter 2 Lecture Notes</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="appendix-statistics-chapter-3.html" class="internal"><span class="codenumber">H.3</span> <span class="title">Chapter 3 Lecture Notes</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-appendix">
+<div class="toc-title-box"><a href="appendix-i.html" class="internal"><span class="codenumber">I</span> <span class="title">Appendix I: GeoGebra Tools for Statistics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-summary-statistics-calculator.html" class="internal"><span class="codenumber">I.1</span> <span class="title">Summary Statistics Calculator</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-empirical-rule-tool.html" class="internal"><span class="codenumber">I.2</span> <span class="title">Empirical Rule Tool</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-11.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="worksheet" id="ws-app-applications-trig" data-margins="0.75in 0.75in 0.75in 0.75in"><h2 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Applications of Trigonometric Functions</span><div class="print-links"><a href="?printpreview=ws-app-applications-trig" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h2>
+<article class="definition definition-like" id="def-solving-triangles"><h2 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.383</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Solving a Right Triangle.</span>
+</h2>
+<div class="para" id="def-solving-triangles-2-1">
+<dfn class="terminology">Solving a triangle</dfn> is a problem type where you are given some of the sides or angles of the triangle and you need to find the remaining sides and angles. In this section, we will focus on solving right triangles and label our triangle as follows:<div class="autopermalink" data-description="Paragraph"><a href="#def-solving-triangles-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-standard-right-triangle-2"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/trigonometry/standard-right-triangle-2.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.384<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A standard right triangle with hypotenuse <span class="process-math">\(c\text{,}\)</span> short leg <span class="process-math">\(a\text{,}\)</span> and long leg <span class="process-math">\(b\text{.}\)</span> The angle opposite the short leg is <span class="process-math">\(\angle A\)</span> and the angle opposite the long leg is <span class="process-math">\(\angle B\text{,}\)</span> and the right angle is <span class="process-math">\(\angle C\text{.}\)</span><div class="autopermalink" data-description="Figure D.8.384"><a href="#fig-standard-right-triangle-2" title="Copy heading and permalink for Figure D.8.384" aria-label="Copy heading and permalink for Figure D.8.384">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Definition D.8.383: Solving a Right Triangle"><a href="#def-solving-triangles" title="Copy heading and permalink for Definition D.8.383: Solving a Right Triangle" aria-label="Copy heading and permalink for Definition D.8.383: Solving a Right Triangle">🔗</a></div></article><article class="example example-like" id="exa-trig-solving-right-triangle-1"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.385</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Solving a Right Triangle.</span>
+</h2>
+<div class="para" id="exa-trig-solving-right-triangle-1-2-1">Solve the right triangle with <span class="process-math">\(\angle A=62.7^\circ\)</span> and <span class="process-math">\(a=8.4\)</span> inches. Round the lengths of the sides to two decimal places and include the units of measure.<div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-solving-right-triangle-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="3in"></div>
+<div class="autopermalink" data-description="Example D.8.385: Solving a Right Triangle"><a href="#exa-trig-solving-right-triangle-1" title="Copy heading and permalink for Example D.8.385: Solving a Right Triangle" aria-label="Copy heading and permalink for Example D.8.385: Solving a Right Triangle">🔗</a></div></article><article class="example example-like" id="exa-trig-finding-height-1"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.386</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Finding the Height of a Structure.</span>
+</h2>
+<div class="para" id="exa-trig-finding-height-1-2-1">From a point on level ground 120 feet from the base of the Space Needle in Seattle, the angle of elevation is <span class="process-math">\(78.78^\circ\text{.}\)</span> Approximate the height of the Space Needle to the nearest foot.<div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-finding-height-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="3in"></div>
+<div class="autopermalink" data-description="Example D.8.386: Finding the Height of a Structure"><a href="#exa-trig-finding-height-1" title="Copy heading and permalink for Example D.8.386: Finding the Height of a Structure" aria-label="Copy heading and permalink for Example D.8.386: Finding the Height of a Structure">🔗</a></div></article><article class="example example-like" id="exa-trig-finding-angle-of-elevation-1"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.387</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Finding an Angle of Elevation.</span>
+</h2>
+<div class="para" id="exa-trig-finding-angle-of-elevation-1-2-1">A plane is flying at an altitude of 30,000 feet and line-of-sight distance to an airport is 50 miles. What is the angle of elevation the plane makes with the ground at the airport? Hint: 1 mile is 5280 feet.<div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-finding-angle-of-elevation-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="3in"></div>
+<div class="autopermalink" data-description="Example D.8.387: Finding an Angle of Elevation"><a href="#exa-trig-finding-angle-of-elevation-1" title="Copy heading and permalink for Example D.8.387: Finding an Angle of Elevation" aria-label="Copy heading and permalink for Example D.8.387: Finding an Angle of Elevation">🔗</a></div></article><article class="example example-like" id="exa-applications-two-triangles-1"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.388</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Applications Involving Two Triangles.</span>
+</h2>
+<div class="para" id="exa-applications-two-triangles-1-2-1">Find the value of <span class="process-math">\(x\)</span> in the figure below. Round your answer to the nearest foot.<div class="autopermalink" data-description="Paragraph"><a href="#exa-applications-two-triangles-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-trig-two-triangles-1"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/trigonometry/two-triangles-1.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.389<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Two triangles <span class="process-math">\(\triangle AB_1C\)</span> and <span class="process-math">\(\triangle AB_2C\)</span> share a common horizontal side <span class="process-math">\(\overline{AC}\)</span> of length 50 feet. The upper triangle has an angle <span class="process-math">\(\angle CAB_1=30^\circ\text{.}\)</span> The lower triangle has an angle <span class="process-math">\(\angle CAB_2=15^\circ\text{.}\)</span> The line segment <span class="process-math">\(\overline{B_1B_2}\)</span> is labeled with length <span class="process-math">\(x\text{,}\)</span> is perpendicular to <span class="process-math">\(\overline{AC}\text{,}\)</span> and passes through the point <span class="process-math">\(C\text{.}\)</span><div class="autopermalink" data-description="Figure D.8.389"><a href="#fig-trig-two-triangles-1" title="Copy heading and permalink for Figure D.8.389" aria-label="Copy heading and permalink for Figure D.8.389">🔗</a></div></figcaption></figure><div class="workspace" data-space="3in"></div>
+<div class="autopermalink" data-description="Example D.8.388: Applications Involving Two Triangles"><a href="#exa-applications-two-triangles-1" title="Copy heading and permalink for Example D.8.388: Applications Involving Two Triangles" aria-label="Copy heading and permalink for Example D.8.388: Applications Involving Two Triangles">🔗</a></div></article><article class="example example-like" id="exa-applications-two-triangles-2"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.390</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Applications Involving Two Triangles.</span>
+</h2>
+<div class="para" id="exa-applications-two-triangles-2-2-1">Find the value of <span class="process-math">\(x\)</span> in the figure below. Round your answer to the nearest meter.<div class="autopermalink" data-description="Paragraph"><a href="#exa-applications-two-triangles-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="fig-trig-two-triangles-2"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/trigonometry/two-triangles-2.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.391<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Two triangles <span class="process-math">\(\triangle A_1BC\)</span> and <span class="process-math">\(\triangle A_2BC\)</span> share a common vertical side <span class="process-math">\(\overline{BC}\)</span> of length 20 meters. The points <span class="process-math">\(A_1\text{,}\)</span> <span class="process-math">\(A_2\text{,}\)</span> and <span class="process-math">\(C\)</span> are collinear, with <span class="process-math">\(A_1\)</span> the furthest to the left and <span class="process-math">\(A_2\)</span> is between <span class="process-math">\(A_1\)</span> and <span class="process-math">\(C\text{.}\)</span> The inner triangle has an angle <span class="process-math">\(\angle CA_2B=54^\circ\text{.}\)</span> The outer triangle has an angle <span class="process-math">\(\angle CA_1B=35^\circ\text{.}\)</span> The line segment <span class="process-math">\(\overline{A_1A_2}\)</span> is labeled with length <span class="process-math">\(x\text{.}\)</span><div class="autopermalink" data-description="Figure D.8.391"><a href="#fig-trig-two-triangles-2" title="Copy heading and permalink for Figure D.8.391" aria-label="Copy heading and permalink for Figure D.8.391">🔗</a></div></figcaption></figure><div class="workspace" data-space="3in"></div>
+<div class="autopermalink" data-description="Example D.8.390: Applications Involving Two Triangles"><a href="#exa-applications-two-triangles-2" title="Copy heading and permalink for Example D.8.390: Applications Involving Two Triangles" aria-label="Copy heading and permalink for Example D.8.390: Applications Involving Two Triangles">🔗</a></div></article><article class="definition definition-like" id="wk-def-trig-bearings"><h2 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.392</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Bearings.</span>
+</h2>
+<div class="para logical" id="wk-def-trig-bearings-2-1">
+<div class="para">The <dfn class="terminology">bearing</dfn> from a point <span class="process-math">\(O\)</span> to a point <span class="process-math">\(P\)</span> is the acute angle, measured in degrees, between the ray <span class="process-math">\(\overrightarrow{OP}\)</span> and the north-south line passing through <span class="process-math">\(O\text{.}\)</span> The notation for bearings has three parts:</div>
+<ul class="disc" id="wk-def-trig-bearings-2-1-6">
+<li id="wk-def-trig-bearings-2-1-6-1">
+<div class="para" id="wk-def-trig-bearings-2-1-6-1-1">A letter <span class="process-math">\(N\)</span> or <span class="process-math">\(S\)</span> which determines if we are measuring from the north or south side of the north-south line.<div class="autopermalink" data-description="Paragraph"><a href="#wk-def-trig-bearings-2-1-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#wk-def-trig-bearings-2-1-6-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="wk-def-trig-bearings-2-1-6-2">
+<div class="para" id="wk-def-trig-bearings-2-1-6-2-1">The measure of the acute angle between the ray <span class="process-math">\(\overrightarrow{OP}\)</span> and the north-south line.<div class="autopermalink" data-description="Paragraph"><a href="#wk-def-trig-bearings-2-1-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#wk-def-trig-bearings-2-1-6-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="wk-def-trig-bearings-2-1-6-3">
+<div class="para" id="wk-def-trig-bearings-2-1-6-3-1">A letter <span class="process-math">\(E\)</span> or <span class="process-math">\(W\)</span> indicating if the point <span class="process-math">\(P\)</span> is east or west of the north-south line.<div class="autopermalink" data-description="Paragraph"><a href="#wk-def-trig-bearings-2-1-6-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#wk-def-trig-bearings-2-1-6-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para"><figure class="figure figure-like" id="wk-fig-trig-two-examples-of-bearings"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="wk-fig-trig-nw-bearing"><img src="external/trigonometry/bearing-1.png" class="contained" alt=""><figcaption><span class="codenumber">(a)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Four rays point out from a point <span class="process-math">\(O\)</span> in each of the four cardinal directions. The ray pointing north is labeled <span class="process-math">\(N\text{,}\)</span> the ray pointing south is labeled <span class="process-math">\(S\text{,}\)</span> the ray pointing east is labeled <span class="process-math">\(E\text{,}\)</span> and the ray pointing west is labeled <span class="process-math">\(W\text{.}\)</span> A point <span class="process-math">\(P\)</span> is plotted to the northwest of <span class="process-math">\(O\text{,}\)</span> and a ray starting at the origin <span class="process-math">\(O\)</span> and passing through <span class="process-math">\(P\)</span> makes a <span class="process-math">\(70^\circ\)</span> with the ray pointing north. The ray is labeled with the bearing <span class="process-math">\(\text{N }70^\circ\text{ W}\text{.}\)</span><div class="autopermalink" data-description="Figure D.8.393.(a)"><a href="#wk-fig-trig-nw-bearing" title="Copy heading and permalink for Figure D.8.393.(a)" aria-label="Copy heading and permalink for Figure D.8.393.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel sbspanel--top top" style=""><figure class="figure figure-like" id="wk-fig-trig-se-bearing"><img src="external/trigonometry/bearing-2.png" class="contained" alt=""><figcaption><span class="codenumber">(b)</span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Four rays point out from a point <span class="process-math">\(O\)</span> in each of the four cardinal directions. The ray pointing north is labeled <span class="process-math">\(N\text{,}\)</span> the ray pointing south is labeled <span class="process-math">\(S\text{,}\)</span> the ray pointing east is labeled <span class="process-math">\(E\text{,}\)</span> and the ray pointing west is labeled <span class="process-math">\(W\text{.}\)</span> A point <span class="process-math">\(P\)</span> is plotted to the southeast of <span class="process-math">\(O\text{,}\)</span> and a ray starting at the origin <span class="process-math">\(O\)</span> and passing through <span class="process-math">\(P\)</span> makes a <span class="process-math">\(37^\circ\)</span> with the ray pointing south. The ray is labeled with the bearing <span class="process-math">\(\text{S }37^\circ\text{ E}\text{.}\)</span><div class="autopermalink" data-description="Figure D.8.393.(b)"><a href="#wk-fig-trig-se-bearing" title="Copy heading and permalink for Figure D.8.393.(b)" aria-label="Copy heading and permalink for Figure D.8.393.(b)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.393<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Two examples of bearings.<div class="autopermalink" data-description="Figure D.8.393"><a href="#wk-fig-trig-two-examples-of-bearings" title="Copy heading and permalink for Figure D.8.393" aria-label="Copy heading and permalink for Figure D.8.393">🔗</a></div></figcaption></figure></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#wk-def-trig-bearings-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition D.8.392: Bearings"><a href="#wk-def-trig-bearings" title="Copy heading and permalink for Definition D.8.392: Bearings" aria-label="Copy heading and permalink for Definition D.8.392: Bearings">🔗</a></div></article><article class="example example-like" id="exa-trig-understanding-bearings-1"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.394</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Understanding Bearings.</span>
+</h2>
+<div class="para logical" id="exa-trig-understanding-bearings-1-2-1">
+<div class="para">Use the figure below to determine the bearing from</div>
+<ul class="disc" id="exa-trig-understanding-bearings-1-2-1-1">
+<li id="exa-trig-understanding-bearings-1-2-1-1-1">
+<div class="para" id="exa-trig-understanding-bearings-1-2-1-1-1-1">point <span class="process-math">\(O\)</span> to point <span class="process-math">\(A\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-understanding-bearings-1-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#exa-trig-understanding-bearings-1-2-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="exa-trig-understanding-bearings-1-2-1-1-2">
+<div class="para" id="exa-trig-understanding-bearings-1-2-1-1-2-1">point <span class="process-math">\(O\)</span> to point <span class="process-math">\(B\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-understanding-bearings-1-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#exa-trig-understanding-bearings-1-2-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-understanding-bearings-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="figure figure-like" id="wk-trig-understanding-bearings-image"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/trigonometry/bearing-example.png" class="contained" alt=""></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.395<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A point <span class="process-math">\(A\)</span> is plotted southwest of the point <span class="process-math">\(O\text{,}\)</span> and a point <span class="process-math">\(B\)</span> is plotted northeast of the point <span class="process-math">\(O\text{.}\)</span> The ray <span class="process-math">\(\overrightarrow{OA}\)</span> makes a <span class="process-math">\(32^\circ\)</span> angle with the north-south line, and the ray <span class="process-math">\(\overrightarrow{OB}\)</span> makes a <span class="process-math">\(32^\circ\)</span> angle with the west-east line.<div class="autopermalink" data-description="Figure D.8.395"><a href="#wk-trig-understanding-bearings-image" title="Copy heading and permalink for Figure D.8.395" aria-label="Copy heading and permalink for Figure D.8.395">🔗</a></div></figcaption></figure><div class="workspace" data-space="3in"></div>
+<div class="autopermalink" data-description="Example D.8.394: Understanding Bearings"><a href="#exa-trig-understanding-bearings-1" title="Copy heading and permalink for Example D.8.394: Understanding Bearings" aria-label="Copy heading and permalink for Example D.8.394: Understanding Bearings">🔗</a></div></article><article class="example example-like" id="wk-exa-trig-computing-distance-bearings-1"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.396</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Computing Distance Using Bearings.</span>
+</h2>
+<div class="para logical" id="wk-exa-trig-computing-distance-bearings-1-2-1">
+<div class="para">You start hiking on a trail and travel 2.2 miles on a bearing of <span class="process-math">\(\text{N }32^\circ\text{ E}\text{.}\)</span> Then the trail turns <span class="process-math">\(90^\circ\)</span> clockwise and you travel 3.9 miles on a bearing of <span class="process-math">\(\text{S }58^\circ\text{ E}\text{.}\)</span>
+</div>
+<ul class="disc" id="wk-exa-trig-computing-distance-bearings-1-2-1-4">
+<li id="wk-exa-trig-computing-distance-bearings-1-2-1-4-1">
+<div class="para" id="wk-exa-trig-computing-distance-bearings-1-2-1-4-1-1">What is your bearing, to the nearest tenth of a degree, from your starting point to your ending point?<div class="autopermalink" data-description="Paragraph"><a href="#wk-exa-trig-computing-distance-bearings-1-2-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#wk-exa-trig-computing-distance-bearings-1-2-1-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="wk-exa-trig-computing-distance-bearings-1-2-1-4-2">
+<div class="para" id="wk-exa-trig-computing-distance-bearings-1-2-1-4-2-1">How far are you from your starting point? Round your answer to the nearest tenth of a mile.<div class="autopermalink" data-description="Paragraph"><a href="#wk-exa-trig-computing-distance-bearings-1-2-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#wk-exa-trig-computing-distance-bearings-1-2-1-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#wk-exa-trig-computing-distance-bearings-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="3in"></div>
+<div class="autopermalink" data-description="Example D.8.396: Computing Distance Using Bearings"><a href="#wk-exa-trig-computing-distance-bearings-1" title="Copy heading and permalink for Example D.8.396: Computing Distance Using Bearings" aria-label="Copy heading and permalink for Example D.8.396: Computing Distance Using Bearings">🔗</a></div></article><article class="definition definition-like" id="wk-def-trig-simple-harmonic-motion"><h2 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.397</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Simple Harmonic Motion.</span>
+</h2>
+<div class="para" id="wk-def-trig-simple-harmonic-motion-2-1">A common application of trigonometric functions is to model the motion of an object that oscillates back and forth, such as a pendulum or a mass on a spring. This type of motion is called <dfn class="terminology">simple harmonic motion</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#wk-def-trig-simple-harmonic-motion-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition D.8.397: Simple Harmonic Motion"><a href="#wk-def-trig-simple-harmonic-motion" title="Copy heading and permalink for Definition D.8.397: Simple Harmonic Motion" aria-label="Copy heading and permalink for Definition D.8.397: Simple Harmonic Motion">🔗</a></div></article><article class="theorem theorem-like" id="wk-thm-simple-harmonic-moition"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.398</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Modeling Simple Harmonic Motion.</span>
+</h2>
+<div class="para logical" id="wk-thm-simple-harmonic-moition-2-1">
+<div class="para">An object that moves on the coordinate-plane is in <dfn class="terminology">simple harmonic motion</dfn> if its distance <span class="process-math">\(d\)</span> from its equilibrium position at time <span class="process-math">\(t\)</span> can be modeled by a function of the form</div>
+<div class="displaymath process-math" id="wk-thm-simple-harmonic-moition-2-1-4">
+\begin{equation*}
+d(t)=A\sin(\omega t)
+\end{equation*}
+</div>
+<div class="para">or</div>
+<div class="displaymath process-math" id="wk-thm-simple-harmonic-moition-2-1-5">
+\begin{equation*}
+d(t)=A\cos(\omega t)\text{,}
+\end{equation*}
+</div>
+<div class="para">where</div>
+<ul class="disc" id="wk-thm-simple-harmonic-moition-2-1-6">
+<li id="wk-thm-simple-harmonic-moition-2-1-6-1">
+<div class="para" id="wk-thm-simple-harmonic-moition-2-1-6-1-1">the amplitude <span class="process-math">\(|A|\)</span> measures the maximum displacement of the object from its equilibrium position, and<div class="autopermalink" data-description="Paragraph"><a href="#wk-thm-simple-harmonic-moition-2-1-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#wk-thm-simple-harmonic-moition-2-1-6-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="wk-thm-simple-harmonic-moition-2-1-6-2">
+<div class="para" id="wk-thm-simple-harmonic-moition-2-1-6-2-1">the period <span class="process-math">\(\dfrac{2\pi}{\omega}\)</span> measures the time it takes for the object to complete one full cycle of motion.<div class="autopermalink" data-description="Paragraph"><a href="#wk-thm-simple-harmonic-moition-2-1-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#wk-thm-simple-harmonic-moition-2-1-6-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#wk-thm-simple-harmonic-moition-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Theorem D.8.398: Modeling Simple Harmonic Motion"><a href="#wk-thm-simple-harmonic-moition" title="Copy heading and permalink for Theorem D.8.398: Modeling Simple Harmonic Motion" aria-label="Copy heading and permalink for Theorem D.8.398: Modeling Simple Harmonic Motion">🔗</a></div></article><article class="example example-like" id="exa-trig-simple-harmonic-motion-1"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.399</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Modeling Simple Harmonic Motion.</span>
+</h2>
+<div class="para logical" id="exa-trig-simple-harmonic-motion-1-2-1">
+<div class="para">A mass on a spring oscillates back and forth with simple harmonic motion. The mass is at its equilibrium position at time <span class="process-math">\(t=0\text{,}\)</span> and the maximum distance from the equilibrium position is 5 inches. The period of the motion is 2 seconds.</div>
+<ul class="disc" id="exa-trig-simple-harmonic-motion-1-2-1-2">
+<li id="exa-trig-simple-harmonic-motion-1-2-1-2-1">
+<div class="para" id="exa-trig-simple-harmonic-motion-1-2-1-2-1-1">Find a function that models the distance of the mass from its equilibrium position at time <span class="process-math">\(t\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-simple-harmonic-motion-1-2-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#exa-trig-simple-harmonic-motion-1-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="exa-trig-simple-harmonic-motion-1-2-1-2-2">
+<div class="para" id="exa-trig-simple-harmonic-motion-1-2-1-2-2-1">How far is the mass from its equilibrium position at time <span class="process-math">\(t=1.5\)</span> seconds? Round your answer to two decimal places.<div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-simple-harmonic-motion-1-2-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#exa-trig-simple-harmonic-motion-1-2-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-simple-harmonic-motion-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Example D.8.399: Modeling Simple Harmonic Motion"><a href="#exa-trig-simple-harmonic-motion-1" title="Copy heading and permalink for Example D.8.399: Modeling Simple Harmonic Motion" aria-label="Copy heading and permalink for Example D.8.399: Modeling Simple Harmonic Motion">🔗</a></div></article><article class="definition definition-like" id="wk-def-trig-frequency"><h2 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.400</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Frequency.</span>
+</h2>
+<div class="para" id="wk-def-trig-frequency-2-1">The <dfn class="terminology">frequency</dfn> of an object in simple harmonic motion is the number of cycles it completes in one unit of time.<div class="autopermalink" data-description="Paragraph"><a href="#wk-def-trig-frequency-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition D.8.400: Frequency"><a href="#wk-def-trig-frequency" title="Copy heading and permalink for Definition D.8.400: Frequency" aria-label="Copy heading and permalink for Definition D.8.400: Frequency">🔗</a></div></article><article class="theorem theorem-like" id="wk-thm-trig-frequency"><h2 class="heading">
+<span class="type">Theorem</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.401</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Computing Frequency.</span>
+</h2>
+<div class="para logical" id="wk-thm-trig-frequency-2-1">
+<div class="para">If an object is in simple harmonic motion with period <span class="process-math">\(P\text{,}\)</span> then the frequency of the motion is given by the formula</div>
+<div class="displaymath process-math" id="wk-thm-trig-frequency-2-1-2">
+\begin{equation*}
+f=\dfrac{1}{P}=\dfrac{\omega}{2\pi}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#wk-thm-trig-frequency-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Theorem D.8.401: Computing Frequency"><a href="#wk-thm-trig-frequency" title="Copy heading and permalink for Theorem D.8.401: Computing Frequency" aria-label="Copy heading and permalink for Theorem D.8.401: Computing Frequency">🔗</a></div></article><article class="example example-like" id="exa-trig-frequency-1"><h2 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">D.8.402</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Computing Frequency.</span>
+</h2>
+<div class="para logical" id="exa-trig-frequency-1-2-1">
+<div class="para">An object is in simple harmonic motion moves according to the function</div>
+<div class="displaymath process-math" id="exa-trig-frequency-1-2-1-1">
+\begin{equation*}
+d(t)=3\sin(4\pi t)\text{,}
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(t\)</span> is measured in seconds and <span class="process-math">\(d(t)\)</span> is measured in inches.</div>
+<ul class="disc" id="exa-trig-frequency-1-2-1-4">
+<li id="exa-trig-frequency-1-2-1-4-1">
+<div class="para" id="exa-trig-frequency-1-2-1-4-1-1">Find the maximum displacement of the object from its equilibrium position.<div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-frequency-1-2-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#exa-trig-frequency-1-2-1-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="exa-trig-frequency-1-2-1-4-2">
+<div class="para" id="exa-trig-frequency-1-2-1-4-2-1">Find and interpret the frequency.<div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-frequency-1-2-1-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#exa-trig-frequency-1-2-1-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="exa-trig-frequency-1-2-1-4-3">
+<div class="para" id="exa-trig-frequency-1-2-1-4-3-1">Find and interpret the period.<div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-frequency-1-2-1-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#exa-trig-frequency-1-2-1-4-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#exa-trig-frequency-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Example D.8.402: Computing Frequency"><a href="#exa-trig-frequency-1" title="Copy heading and permalink for Example D.8.402: Computing Frequency" aria-label="Copy heading and permalink for Example D.8.402: Computing Frequency">🔗</a></div></article><div class="autopermalink" data-description="Worksheet D.8: Applications of Trigonometric Functions"><a href="#ws-app-applications-trig" title="Copy heading and permalink for Worksheet D.8: Applications of Trigonometric Functions" aria-label="Copy heading and permalink for Worksheet D.8: Applications of Trigonometric Functions">🔗</a></div></section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="ws-app-trig-inverse-trig.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ws-app-trig-standard-identities.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
