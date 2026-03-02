@@ -16,4 +16,5 @@
   <xi:include href="./trigonometry/inverse-trig.ptx"/>
   <xi:include href="./trigonometry/applications-trig.ptx"/>
   <xi:include href="./trigonometry/standard-identities.ptx"/>
+  <xi:include href="./trigonometry/trig-sum-difference.ptx"/>
 </appendix>

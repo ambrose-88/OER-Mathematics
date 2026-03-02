@@ -85,7 +85,17 @@
         </p>
     </note>
 
-    <example xml:id="exa-app-trig-verify-identity-1" workspace="4in">
+    <example xml:id="exa-app-trig-verify-identity-0" workspace="2in">
+        <title>Use an Existing Identity</title>
+        <statement>
+            <p>
+                Verify the identity <m>\tan^2(x)=\dfrac{\sin^2(x)}{\cos^2(x)}</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-verify-identity-1" workspace="2in">
+        <title>Use an Existing Identity</title>
         <statement>
             <p>
                 Verify the identity <m>\csc(x)\tan(x)=\sec(x)</m>.
@@ -93,7 +103,8 @@
         </statement>
     </example>
 
-    <example xml:id="exa-app-trig-verify-identity-2" workspace="4in">
+    <example xml:id="exa-app-trig-verify-identity-2" workspace="5in">
+        <title>Change Everything into Sines and Cosines</title>
         <statement>
             <p>
                 Verify the identity <m>\cos(x)\cot(x)+\sin(x)=\csc(x)</m>.
@@ -101,7 +112,8 @@
         </statement>
     </example>
 
-    <example xml:id="exa-app-trig-verify-identity-3" workspace="4in">
+    <example xml:id="exa-app-trig-verify-identity-3" workspace="3in">
+        <title>Use Algebra Techniques</title>
         <statement>
             <p>
                 Verify the identity <m>\sin(x)-\sin(x)\cos^2(x)=\sin^3(x)</m>.
@@ -109,7 +121,8 @@
         </statement>
     </example>
 
-    <example xml:id="exa-app-trig-verify-identity-4" workspace="4in">
+    <example xml:id="exa-app-trig-verify-identity-4" workspace="2in">
+        <title>Use More Than One Technique</title>
         <statement>
             <p>
                 Verify the identity <m>\dfrac{1+\cos(\theta)}{\sin(\theta)}=\csc(\theta)+\cot(\theta)</m>.
@@ -117,7 +130,8 @@
         </statement>
     </example>
 
-    <example xml:id="exa-app-trig-verify-identity-5" workspace="4in">
+    <example xml:id="exa-app-trig-verify-identity-5" workspace="7in">
+        <title>Combine Fractions</title>
         <statement>
             <p>
                 Verify the identity <m>\dfrac{\sin(x)}{1+\cos(x)}+\dfrac{1+\cos(x)}{\sin(x)}=2\csc(x)</m>.
@@ -126,6 +140,7 @@
     </example>
 
     <example xml:id="exa-app-trig-verify-identity-6" workspace="4in">
+        <title>Multiply by "one"</title>
         <statement>
             <p>
                 Verify the identity <m>\dfrac{\cos(x)}{1+\sin(x)}=\dfrac{1-\sin(x)}{\cos(x)}</m>.
@@ -133,7 +148,8 @@
         </statement>
     </example>
 
-    <example xml:id="exa-app-trig-verify-identity-7" workspace="4in">
+    <example xml:id="exa-app-trig-verify-identity-7" workspace="7in">
+        <title>Turn into Sines and Cosines</title>
         <statement>
             <p>
                 Verify the identity <m>\dfrac{\sec(x)+\csc(-x)}{\sec(x)\csc(x)}=\sin(x)-\cos(x)</m>.
@@ -141,11 +157,50 @@
         </statement>
     </example>
 
-    <example xml:id="exa-app-trig-verify-identity-8" workspace="4in">
+    <example xml:id="exa-app-trig-verify-identity-8" workspace="7in">
+        <title>Work Both Sides Separately</title>
         <statement>
             <p>
                 Verify the identity <m>\dfrac{1}{1+\sin(\theta)}+\dfrac{1}{1-\sin(\theta)}=2+2\tan^2(\theta)</m>.
             </p>
         </statement>
     </example>
+
+    <note xml:id="note-app-trig-basic-strategies">
+        <title>Basic Strategies</title>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        <alert>Use identities:</alert> this is the most fundamental tool for proving identities. Think of identities as a list of substitutions you are allowed to make. The identities can either be algebraic or trigonometric.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <alert>If you start on one side and get stuck, try working from the other side instead.</alert> Usually, you should start with the more complicated side and try to simplify it. But, sometimes, both sides are equally as complicated. So, if the side you choose to start with is not panning out, try starting with the other side instead.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <alert>Work on both sides separately:</alert> If you start on both sides and get stuck, see if each side can be simplified to a third expression. This often reveals why you got stuck (usually a weird substitution or identity you normally would not think to use).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        If all else fails, <alert>convert everything to sine and cosine.</alert>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <alert>Do not add, subtract, multiply, or divide both sides of the equation by an expression or number.</alert> These rules only work with equations that are assumed to be true, and when proving an identity, you do not know if the equation is true or not.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <alert>Practice as many identities as you can.</alert>
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </note>
 </worksheet>

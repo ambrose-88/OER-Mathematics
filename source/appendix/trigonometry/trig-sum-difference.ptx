@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-trig-sum-difference" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Sum and Difference Formulas</title>
+
+    <theorem xml:id="thm-app-trig-sum-difference-formulas">
+        <title>Sum and Difference Formulas</title>
+        <statement>
+            <p>
+                Sum and Difference Formulas for Sine
+                <md>
+                    <mrow>\sin(\alpha+\beta)\amp=\sin(\alpha)\cos(\beta)+\cos(\alpha)\sin(\beta)</mrow>
+                    <mrow></mrow>
+                    <mrow>\sin(\alpha-\beta)\amp=\sin(\alpha)\cos(\beta)-\cos(\alpha)\sin(\beta)</mrow>
+                </md>
+            </p>
+            <p>
+                Sum and Difference Formulas for Cosine
+                <md>
+                    <mrow>\cos(\alpha+\beta)\amp=\cos(\alpha)\cos(\beta)-\sin(\alpha)\sin(\beta)</mrow>
+                    <mrow></mrow>
+                    <mrow>\cos(\alpha-\beta)\amp=\cos(\alpha)\cos(\beta)+\sin(\alpha)\sin(\beta)</mrow>
+                </md>
+            </p>
+            <p>
+                Sum and Difference Formulas for Tangent
+                <md>
+                    <mrow>\tan(\alpha+\beta)\amp=\dfrac{\tan(\alpha)+\tan(\beta)}{1-\tan(\alpha)\tan(\beta)}</mrow>
+                    <mrow></mrow>
+                    <mrow>\tan(\alpha-\beta)\amp=\dfrac{\tan(\alpha)-\tan(\beta)}{1+\tan(\alpha)\tan(\beta)}</mrow>
+                </md>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="exa-app-trig-sum-difference-1" workspace="3in">
+        <title>Manipulating an Existing Identity</title>
+        <statement>
+            <p>
+                Prove that <m>\cos(\alpha-\beta)=\cos(\alpha)\cos(\beta)+\sin(\alpha)\sin(\beta)</m> using the identity for <m>\cos(\alpha+\beta)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-sum-difference-2" workspace="3in">
+        <title>Using Cofunction Identities</title>
+        <statement>
+            <p>
+                Use cofunction identities to prove that <m>\sin(\alpha+\beta)=\sin(\alpha)\cos(\beta)+\cos(\alpha)\sin(\beta)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-sum-difference-3" workspace="2in">
+        <title>Using a Sum or Difference Identity</title>
+        <statement>
+            <p>
+                Prove the identity <m>\sin(x-\pi)=-\sin(x)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-sum-difference-4" workspace="2in">
+        <title>Using a Sum or Difference Identity</title>
+        <statement>
+            <p>
+                Prove the identity <m>\tan\left(x-\dfrac{\pi}{4}\right)=\dfrac{\tan(x)-1}{\tan(x)+1}</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-sum-difference-5" workspace="2in">
+        <title>Example 5</title>
+        <statement>
+            <p>
+                Prove the identity <m>\sin(x+y)+\sin(x-y)=2\sin(x)\cos(y)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-sum-difference-6" workspace="7in">
+        <title>Example 6</title>
+        <statement>
+            <p>
+                Prove the identity <m>\cos(x+y)\cos(x-y)=\cos^2(x)-\sin^2(y)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-sum-difference-7" workspace="3in">
+        <title>Use a Sum or Difference Formula to Compute an Exact Value</title>
+        <statement>
+            <p>
+                Find the exact value of <m>\sin(15^\circ)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-sum-difference-8" workspace="3in">
+        <title>Use a Sum or Difference Formula to Compute an Exact Value</title>
+        <statement>
+            <p>
+                Find the exact value of <m>\cos\left(\dfrac{11\pi}{12}\right)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-sum-difference-9" workspace="2in">
+        <title>Use a Sum or Difference Formula to Compute an Exact Value</title>
+        <statement>
+            <p>
+                Find the exact value of <m>\sin(18^\circ)\cos(27^\circ)+\cos(18^\circ)\sin(27^\circ)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-sum-difference-10" workspace="4in">
+        <title>Use a Sum or Difference Formula to Compute an Exact Value</title>
+        <statement>
+            <p>
+                Find the exact value of <m>\cos\left(\dfrac{3\pi}{7}\right)\cos\left(\dfrac{2\pi}{21}\right)+\sin\left(\dfrac{3\pi}{7}\right)\sin\left(\dfrac{2\pi}{21}\right)</m>.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="exa-app-trig-sum-difference-12" workspace="6in">
+        <title>Expressions Involving Inverse Functions</title>
+        <statement>
+            <p>
+                Find the exact value of <m>\sin\left(\cos^{-1}\left(\dfrac{2}{3}\right)-\tan^{-1}\left(\dfrac{1}{2}\right)\right)</m>.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="exa-app-trig-sum-difference-11" workspace="6in">
+        <title>Expressions Involving Inverse Functions</title>
+        <statement>
+            <p>
+                Write the expression <m>\tan(\sin^{-1}(x)+\cos^{-1}(y))</m> in terms of <m>x</m> and <m>y</m> only.
+            </p>
+        </statement>
+    </example>
+
+
+</worksheet>
