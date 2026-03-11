@@ -2572,7 +2572,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.3",
   "title": "Zeroes of the Denominator",
-  "body": " Zeroes of the Denominator   Domains of Rational Functions   The Domain of a Rational Function   The domain of a rational function are all values of except those that make the denominator equal to zero before canceling any common factors.     Finding the Domain   Determine the domain of the function .       To find the domain, we need to identify the values of that make the denominator equal to zero. To do this, we factor the denominator as follows: By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Thus, the domain is all real numbers except and .  In interval notation, the domain is .     Finding the Domain   Determine the domain of the function .       To find the domain, we need to identify the values of that make the denominator equal to zero. To do this, we factor the denominator as follows: While it is tempting to cancel off the common factor of , this will obscure the fact that makes the denominator equal to zero in the original equation. We must not perform the cancellation until we determine the domain  By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Thus, the domain is all real numbers except and .  In interval notation, the domain is .     Cancellations and Domain  If we wanted to graph the previous example, we will need to perform the cancellation at some point to continue the graphing process. How do keep track of the domain in this case without explicitly writing down the entire domain in interval notation?  When we perform the cancellation, we can write the condition that next to the simplified version of the function to remind ourselves that is not in the domain. The following calculation shows us how to do this: This leads us to an important idea for graphing rational functions: the graph of a rational function is the same as its simplified version but with holes or asymptotes whenever we cancel off linear factors. We'll explore this idea in more detail shortly.   The graph of and are identical except for a hole at .    The graph of     The graph of         Arrow Notation   Arrow Notation    Symbol  Read as…  Graphical Example     x approaches a from the left.    Example of a function that only approaches x = 2 from the left.       x approaches a from the right.    Example of a function that only approaches x = 2 from the right.       x approaches a (from both the left and right).    Function that approaches x = 2 from the left and from the right.       x approaches negative infinity.    An example where x approaches negative infinity.       x approaches (positive) infinity.    An example where x approaches positive infinity.       y approaches b.    Example of a function that approaches y = 2.       y approaches negative infinity.    An example where y approaches negative infinity.       y approaches (positive) infinity.    An example where y approaches positive infinity.         Vertical Asymptotes   Vertical Asymptote  The vertical line is a vertical asymptote of any fully simplified, rational function if as .    Note  A function can never cross a vertical asymptote.    Examples of Vertical Asymptotes    Symbols  Graphical Example    as    y approaches infinity when x approaches 2 from the right.      as    y approaches infinity when x approaches 2 from the left.      as    y approaches negative infinity when x approaches 2 from the right.      as    y approaches negative infinity when x approaches 2 from the left.        How to Find a Vertical Asymptote of a Rational Function   Let be any rational function. To find the vertical asymptotes of the graph, follow this procedure.   Completely factor the numerator and denominator into their linear and irreducible quadratic factors.    Find all the linear factors of the denominator. By the Factor Theorem, each linear factor corresponds to a zero of the denominator and will make undefined.    For each linear factor of the denominator, determine if it also appears in the numerator.   If it doesn't, then is a vertical asymptote of .    If the linear factor also appears in the numerator, then we have a vertical asymptote at only if the multiplicity of the denominator is larger that the multiplicity of the numerator.           Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.                The first step is to completely factor the numerator and denominator. Since the numerator is just a constant, we only have to factor the denominator.  To factor the denominator, first note that the coefficients of sum to 1; therefore, the Test for tells us that is a zero the denominator. We can use synthetic division to factor the polynomial.   Synthetic division shows that the quotient is    Notice that the quotient is a perfect square trinomial and can be factored as . Therefore, , and our fully factored rational function is By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Since neither linear factor appears in the numerator, we can conclude that the vertical lines and are vertical asymptotes of the graph.   The graph of with vertical asymptotes and drawn as red, vertical, dashed lines.       Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.           In the last example, we saw that . Notice that the denominator is a perfect square trinomial; therefore, it factors as . Therefore, our completely factored polynomial is Since the multiplicity of is 1 in the numerator and 2 in the denominator, the denominator has the larger multiplicity. Therefore, the vertical line is an asymptote.   The graph of with a vertical asymptote at drawn as a red, vertical, dashed line.       Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.           This rational function is already factored for us. Notice that the factor appears in both the numerator and denominator. Unlike the previous example, the multiplicities of are the same in the numerator and denominator. Since the denominator does not have a larger multiplicity, there is not a vertical asymptote at . In fact, since there are no other linear factors in the denominator to generate an asymptote, this rational function does not have any vertical asymptote.   The graph of has a hole at instead of a vertical asymptote at .        Multiplicities of the Denominator  While the multiplicity of a linear factor in the numerator tells us how we cross or bounce off the x-axis, the multiplicity of a linear factor in the denominator tells us how the graph behaves near a vertical asymptote. In fact, if we think of infinity as a point that we cannot see on the coordinate plane, then the multiplicity of a linear factor in the denominator tells us how the graph crosses or bounces off of infinity.  If the multiplicity is odd, the graph will cross at infinity, as we see in the figures below.   The graphs of two rational functions with a vertical asymptote . The multiplicity of is odd.    The graph of crosses from to at .     The graph of crosses from to at .      If the multiplicity is even, the graph will bounce off the vertical asymptote, as we see in the figures below.   The graphs of two rational functions with a vertical asymptote . The multiplicity of is even.    The graph of bounces off at .     The graph of bounces off at .       Simplifying and Finding Multiplicities For the Denominator  When finding the multiplicities for the zeroes of the denominator, be sure to use the fully simplified version of the rational function. Any common factors that were canceled off will affect the multiplicities of the zeroes of the denominator.    Finding the Zeroes of the Denominator and Their Multiplicities   Find the zeroes of the denominator of the rational function and state their multiplicities.        with multiplicity 1     with multiplicity 2       The denominator is already factored for us. By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero.  Since the linear factors are and , the zeroes of the denominator are and .  Since the factor has multiplicity 1 and the factor has multiplicity 2, then the zero has multiplicity 1 and the zero has multiplicity 2.     "
+  "body": " Zeroes of the Denominator   Domains of Rational Functions   The Domain of a Rational Function   The domain of a rational function are all values of except those that make the denominator equal to zero before canceling any common factors.     Finding the Domain   Determine the domain of the function .       To find the domain, we need to identify the values of that make the denominator equal to zero. To do this, we factor the denominator as follows: By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Thus, the domain is all real numbers except and .  In interval notation, the domain is .     Finding the Domain   Determine the domain of the function .       To find the domain, we need to identify the values of that make the denominator equal to zero. To do this, we factor the denominator as follows: While it is tempting to cancel off the common factor of , this will obscure the fact that makes the denominator equal to zero in the original equation. We must not perform the cancellation until we determine the domain  By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Thus, the domain is all real numbers except and .  In interval notation, the domain is .     Cancellations and Domain  If we wanted to graph the previous example, we will need to perform the cancellation at some point to continue the graphing process. How do keep track of the domain in this case without explicitly writing down the entire domain in interval notation?  When we perform the cancellation, we can write the condition that next to the simplified version of the function to remind ourselves that is not in the domain. The following calculation shows us how to do this: This leads us to an important idea for graphing rational functions: the graph of a rational function is the same as its simplified version but with holes or asymptotes whenever we cancel off linear factors. We'll explore this idea in more detail shortly.   The graph of and are identical except for a hole at .    The graph of     The graph of         Arrow Notation   Arrow Notation    Symbol  Read as…  Graphical Example     x approaches a from the left.    Example of a function that only approaches x = 2 from the left.       x approaches a from the right.    Example of a function that only approaches x = 2 from the right.       x approaches a (from both the left and right).    Function that approaches x = 2 from the left and from the right.       x approaches negative infinity.    An example where x approaches negative infinity.       x approaches (positive) infinity.    An example where x approaches positive infinity.       y approaches b.    Example of a function that approaches y = 2.       y approaches negative infinity.    An example where y approaches negative infinity.       y approaches (positive) infinity.    An example where y approaches positive infinity.         Vertical Asymptotes   Vertical Asymptote  The vertical line is a vertical asymptote of any fully simplified, rational function if as .    Note  A function can never cross a vertical asymptote.    Examples of Vertical Asymptotes    Symbols  Graphical Example    as    y approaches infinity when x approaches 2 from the right.      as    y approaches infinity when x approaches 2 from the left.      as    y approaches negative infinity when x approaches 2 from the right.      as    y approaches negative infinity when x approaches 2 from the left.        How to Find a Vertical Asymptote of a Rational Function   Let be any rational function. To find the vertical asymptotes of the graph, follow this procedure.   Completely factor the numerator and denominator into their linear and irreducible quadratic factors.    Find all the linear factors of the denominator. By the Factor Theorem, each linear factor corresponds to a zero of the denominator and will make undefined.    For each linear factor of the denominator, determine if it also appears in the numerator.   If it doesn't, then is a vertical asymptote of .    If the linear factor also appears in the numerator, then we have a vertical asymptote at only if the multiplicity of the denominator is larger that the multiplicity of the numerator.           Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.                The first step is to completely factor the numerator and denominator. Since the numerator is just a constant, we only have to factor the denominator.  To factor the denominator, first note that the coefficients of sum to 1; therefore, the Test for tells us that is a zero the denominator. We can use synthetic division to factor the polynomial.  Synthetic division shows that the quotient is .  Notice that the quotient is a perfect square trinomial and can be factored as . Therefore, , and our fully factored rational function is By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Since neither linear factor appears in the numerator, we can conclude that the vertical lines and are vertical asymptotes of the graph.   The graph of with vertical asymptotes and drawn as red, vertical, dashed lines.       Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.           In the last example, we saw that . Notice that the denominator is a perfect square trinomial; therefore, it factors as . Therefore, our completely factored polynomial is Since the multiplicity of is 1 in the numerator and 2 in the denominator, the denominator has the larger multiplicity. Therefore, the vertical line is an asymptote.   The graph of with a vertical asymptote at drawn as a red, vertical, dashed line.       Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.           This rational function is already factored for us. Notice that the factor appears in both the numerator and denominator. Unlike the previous example, the multiplicities of are the same in the numerator and denominator. Since the denominator does not have a larger multiplicity, there is not a vertical asymptote at . In fact, since there are no other linear factors in the denominator to generate an asymptote, this rational function does not have any vertical asymptote.   The graph of has a hole at instead of a vertical asymptote at .        Multiplicities of the Denominator  While the multiplicity of a linear factor in the numerator tells us how we cross or bounce off the x-axis, the multiplicity of a linear factor in the denominator tells us how the graph behaves near a vertical asymptote. In fact, if we think of infinity as a point that we cannot see on the coordinate plane, then the multiplicity of a linear factor in the denominator tells us how the graph crosses or bounces off of infinity.  If the multiplicity is odd, the graph will cross at infinity, as we see in the figures below.   The graphs of two rational functions with a vertical asymptote . The multiplicity of is odd.    The graph of crosses from to at .     The graph of crosses from to at .      If the multiplicity is even, the graph will bounce off the vertical asymptote, as we see in the figures below.   The graphs of two rational functions with a vertical asymptote . The multiplicity of is even.    The graph of bounces off at .     The graph of bounces off at .       Simplifying and Finding Multiplicities For the Denominator  When finding the multiplicities for the zeroes of the denominator, be sure to use the fully simplified version of the rational function. Any common factors that were canceled off will affect the multiplicities of the zeroes of the denominator.    Finding the Zeroes of the Denominator and Their Multiplicities   Find the zeroes of the denominator of the rational function and state their multiplicities.        with multiplicity 1     with multiplicity 2       The denominator is already factored for us. By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero.  Since the linear factors are and , the zeroes of the denominator are and .  Since the factor has multiplicity 1 and the factor has multiplicity 2, then the zero has multiplicity 1 and the zero has multiplicity 2.     "
 },
 {
   "id": "subsec-domains-rational-2",
@@ -2662,14 +2662,14 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "8.3.11",
   "title": "Finding the Vertical Asymptotes of a Rational Function.",
-  "body": " Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.                The first step is to completely factor the numerator and denominator. Since the numerator is just a constant, we only have to factor the denominator.  To factor the denominator, first note that the coefficients of sum to 1; therefore, the Test for tells us that is a zero the denominator. We can use synthetic division to factor the polynomial.   Synthetic division shows that the quotient is    Notice that the quotient is a perfect square trinomial and can be factored as . Therefore, , and our fully factored rational function is By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Since neither linear factor appears in the numerator, we can conclude that the vertical lines and are vertical asymptotes of the graph.   The graph of with vertical asymptotes and drawn as red, vertical, dashed lines.     "
+  "body": " Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.                The first step is to completely factor the numerator and denominator. Since the numerator is just a constant, we only have to factor the denominator.  To factor the denominator, first note that the coefficients of sum to 1; therefore, the Test for tells us that is a zero the denominator. We can use synthetic division to factor the polynomial.  Synthetic division shows that the quotient is .  Notice that the quotient is a perfect square trinomial and can be factored as . Therefore, , and our fully factored rational function is By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero. Since neither linear factor appears in the numerator, we can conclude that the vertical lines and are vertical asymptotes of the graph.   The graph of with vertical asymptotes and drawn as red, vertical, dashed lines.     "
 },
 {
   "id": "vertical-asymptote-exists-linear-both-numerator-denominator",
   "level": "2",
   "url": "zeroes-denominator-rational.html#vertical-asymptote-exists-linear-both-numerator-denominator",
   "type": "Example",
-  "number": "8.3.14",
+  "number": "8.3.13",
   "title": "Finding the Vertical Asymptotes of a Rational Function.",
   "body": " Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.           In the last example, we saw that . Notice that the denominator is a perfect square trinomial; therefore, it factors as . Therefore, our completely factored polynomial is Since the multiplicity of is 1 in the numerator and 2 in the denominator, the denominator has the larger multiplicity. Therefore, the vertical line is an asymptote.   The graph of with a vertical asymptote at drawn as a red, vertical, dashed line.     "
 },
@@ -2678,7 +2678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "zeroes-denominator-rational.html#vertical-asymptote-not-exist-linear-both-numerator-denominator",
   "type": "Example",
-  "number": "8.3.16",
+  "number": "8.3.15",
   "title": "Finding the Vertical Asymptotes of a Rational Function.",
   "body": " Finding the Vertical Asymptotes of a Rational Function   Find all the vertical asymptotes for the rational function .    The following vertical lines are vertical asymptotes.           This rational function is already factored for us. Notice that the factor appears in both the numerator and denominator. Unlike the previous example, the multiplicities of are the same in the numerator and denominator. Since the denominator does not have a larger multiplicity, there is not a vertical asymptote at . In fact, since there are no other linear factors in the denominator to generate an asymptote, this rational function does not have any vertical asymptote.   The graph of has a hole at instead of a vertical asymptote at .     "
 },
@@ -2687,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "zeroes-denominator-rational.html#subsec-multiplicities-of-the-denominator-4",
   "type": "Figure",
-  "number": "8.3.18",
+  "number": "8.3.17",
   "title": "",
   "body": " The graphs of two rational functions with a vertical asymptote . The multiplicity of is odd.    The graph of crosses from to at .     The graph of crosses from to at .     "
 },
@@ -2696,7 +2696,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "zeroes-denominator-rational.html#subsec-multiplicities-of-the-denominator-6",
   "type": "Figure",
-  "number": "8.3.19",
+  "number": "8.3.18",
   "title": "",
   "body": " The graphs of two rational functions with a vertical asymptote . The multiplicity of is even.    The graph of bounces off at .     The graph of bounces off at .     "
 },
@@ -2705,7 +2705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "zeroes-denominator-rational.html#subsec-multiplicities-of-the-denominator-7",
   "type": "Note",
-  "number": "8.3.20",
+  "number": "8.3.19",
   "title": "Simplifying and Finding Multiplicities For the Denominator.",
   "body": " Simplifying and Finding Multiplicities For the Denominator  When finding the multiplicities for the zeroes of the denominator, be sure to use the fully simplified version of the rational function. Any common factors that were canceled off will affect the multiplicities of the zeroes of the denominator.  "
 },
@@ -2714,7 +2714,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "zeroes-denominator-rational.html#subsec-multiplicities-of-the-denominator-8",
   "type": "Example",
-  "number": "8.3.21",
+  "number": "8.3.20",
   "title": "Finding the Zeroes of the Denominator and Their Multiplicities.",
   "body": " Finding the Zeroes of the Denominator and Their Multiplicities   Find the zeroes of the denominator of the rational function and state their multiplicities.        with multiplicity 1     with multiplicity 2       The denominator is already factored for us. By the Factor Theorem, the linear factors of the denominator correspond to values of that make the denominator equal to zero.  Since the linear factors are and , the zeroes of the denominator are and .  Since the factor has multiplicity 1 and the factor has multiplicity 2, then the zero has multiplicity 1 and the zero has multiplicity 2.   "
 },
@@ -10234,6 +10234,186 @@ var ptx_lunr_docs = [
   "body": " Expressions Involving Inverse Functions   Write the expression in terms of and only.   "
 },
 {
+  "id": "ws-app-trig-double-half-angle",
+  "level": "1",
+  "url": "ws-app-trig-double-half-angle.html",
+  "type": "Worksheet",
+  "number": "D.11",
+  "title": "Double-Angle, Half-Angle, and Power-Reducing Formulas",
+  "body": " Double-Angle, Half-Angle, and Power-Reducing Formulas   Double Angle Formulas   Let be any real number. Then the following formulas are true:      Using Right Triangles to Find Exact Values   If and is in Quadrant II, find , , and .     Proving an Identity   Prove the identity .     Writing in Terms of a Base Trigonometric Function   Write in terms of .     Finding an Exact Value   Find an exact value for .     Power-Reducing Formulas   Let be any real number. Then the following formulas are true:      Using Power-Reducing Formulas   Rewrite in terms of the first power of cosine.     Using Power-Reducing Formulas   Rewrite in terms of the first power of cosine.     Half Angle Formulas   Let be any real number. Then the following formulas are true:  The symbol means you need to determine the sign based on the quadrant of the angle .    Finding Exact Values   Find the exact value of .     Using Right Triangles to Find Exact Values   Find , , and if and is in Quadrant III.     Verify an Identity   Verify the identity .     Example 13   Write as an algebraic expression involving .     Example 14   Find the exact value of .    "
+},
+{
+  "id": "thm-app-trig-double-angle-formulas",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#thm-app-trig-double-angle-formulas",
+  "type": "Theorem",
+  "number": "D.11.430",
+  "title": "Double Angle Formulas.",
+  "body": " Double Angle Formulas   Let be any real number. Then the following formulas are true:    "
+},
+{
+  "id": "exa-app-trig-double-half-angle-1",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#exa-app-trig-double-half-angle-1",
+  "type": "Example",
+  "number": "D.11.431",
+  "title": "Using Right Triangles to Find Exact Values.",
+  "body": " Using Right Triangles to Find Exact Values   If and is in Quadrant II, find , , and .   "
+},
+{
+  "id": "exa-app-trig-double-half-angle-2",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#exa-app-trig-double-half-angle-2",
+  "type": "Example",
+  "number": "D.11.432",
+  "title": "Proving an Identity.",
+  "body": " Proving an Identity   Prove the identity .   "
+},
+{
+  "id": "exa-app-trig-double-half-angle-3",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#exa-app-trig-double-half-angle-3",
+  "type": "Example",
+  "number": "D.11.433",
+  "title": "Writing in Terms of a Base Trigonometric Function.",
+  "body": " Writing in Terms of a Base Trigonometric Function   Write in terms of .   "
+},
+{
+  "id": "exa-app-trig-double-half-angle-5",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#exa-app-trig-double-half-angle-5",
+  "type": "Example",
+  "number": "D.11.434",
+  "title": "Finding an Exact Value.",
+  "body": " Finding an Exact Value   Find an exact value for .   "
+},
+{
+  "id": "thm-app-trig-lowering-powers-formulas",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#thm-app-trig-lowering-powers-formulas",
+  "type": "Theorem",
+  "number": "D.11.435",
+  "title": "Power-Reducing Formulas.",
+  "body": " Power-Reducing Formulas   Let be any real number. Then the following formulas are true:    "
+},
+{
+  "id": "exa-app-trig-double-half-angle-6",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#exa-app-trig-double-half-angle-6",
+  "type": "Example",
+  "number": "D.11.436",
+  "title": "Using Power-Reducing Formulas.",
+  "body": " Using Power-Reducing Formulas   Rewrite in terms of the first power of cosine.   "
+},
+{
+  "id": "exa-app-trig-double-half-angle-7",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#exa-app-trig-double-half-angle-7",
+  "type": "Example",
+  "number": "D.11.437",
+  "title": "Using Power-Reducing Formulas.",
+  "body": " Using Power-Reducing Formulas   Rewrite in terms of the first power of cosine.   "
+},
+{
+  "id": "thm-app-trig-half-angle-formulas",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#thm-app-trig-half-angle-formulas",
+  "type": "Theorem",
+  "number": "D.11.438",
+  "title": "Half Angle Formulas.",
+  "body": " Half Angle Formulas   Let be any real number. Then the following formulas are true:  The symbol means you need to determine the sign based on the quadrant of the angle .  "
+},
+{
+  "id": "exa-app-trig-double-half-angle-9",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#exa-app-trig-double-half-angle-9",
+  "type": "Example",
+  "number": "D.11.439",
+  "title": "Finding Exact Values.",
+  "body": " Finding Exact Values   Find the exact value of .   "
+},
+{
+  "id": "exa-app-trig-double-half-angle-10",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#exa-app-trig-double-half-angle-10",
+  "type": "Example",
+  "number": "D.11.440",
+  "title": "Using Right Triangles to Find Exact Values.",
+  "body": " Using Right Triangles to Find Exact Values   Find , , and if and is in Quadrant III.   "
+},
+{
+  "id": "exa-app-trig-double-half-angle-11",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#exa-app-trig-double-half-angle-11",
+  "type": "Example",
+  "number": "D.11.441",
+  "title": "Verify an Identity.",
+  "body": " Verify an Identity   Verify the identity .   "
+},
+{
+  "id": "exa-app-trig-double-half-angle-13",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#exa-app-trig-double-half-angle-13",
+  "type": "Example",
+  "number": "D.11.442",
+  "title": "Example 13.",
+  "body": " Example 13   Write as an algebraic expression involving .   "
+},
+{
+  "id": "exa-app-trig-double-half-angle-14",
+  "level": "2",
+  "url": "ws-app-trig-double-half-angle.html#exa-app-trig-double-half-angle-14",
+  "type": "Example",
+  "number": "D.11.443",
+  "title": "Example 14.",
+  "body": " Example 14   Find the exact value of .   "
+},
+{
+  "id": "ws-app-trig-sum-product",
+  "level": "1",
+  "url": "ws-app-trig-sum-product.html",
+  "type": "Worksheet",
+  "number": "D.12",
+  "title": "Product-to-Sum and Sum-to-Product Formulas",
+  "body": " Product-to-Sum and Sum-to-Product Formulas   Product-to-Sum Formulas   Let be any real number. Then the following formulas are true:      Use a Product-to-Sum Formula   Express as a sum of two trigonometric functions.     Sum-to-Product Formulas   Let be any real number. Then the following formulas are true:      Use a Sum-to-Product Formula   Write as a product.    "
+},
+{
+  "id": "thm-app-trig-product-to-sum-formulas",
+  "level": "2",
+  "url": "ws-app-trig-sum-product.html#thm-app-trig-product-to-sum-formulas",
+  "type": "Theorem",
+  "number": "D.12.444",
+  "title": "Product-to-Sum Formulas.",
+  "body": " Product-to-Sum Formulas   Let be any real number. Then the following formulas are true:    "
+},
+{
+  "id": "exa-app-trig-sum-product-15",
+  "level": "2",
+  "url": "ws-app-trig-sum-product.html#exa-app-trig-sum-product-15",
+  "type": "Example",
+  "number": "D.12.445",
+  "title": "Use a Product-to-Sum Formula.",
+  "body": " Use a Product-to-Sum Formula   Express as a sum of two trigonometric functions.   "
+},
+{
+  "id": "thm-app-trig-sum-to-product-formulas",
+  "level": "2",
+  "url": "ws-app-trig-sum-product.html#thm-app-trig-sum-to-product-formulas",
+  "type": "Theorem",
+  "number": "D.12.446",
+  "title": "Sum-to-Product Formulas.",
+  "body": " Sum-to-Product Formulas   Let be any real number. Then the following formulas are true:    "
+},
+{
+  "id": "exa-app-trig-sum-product-16",
+  "level": "2",
+  "url": "ws-app-trig-sum-product.html#exa-app-trig-sum-product-16",
+  "type": "Example",
+  "number": "D.12.447",
+  "title": "Use a Sum-to-Product Formula.",
+  "body": " Use a Sum-to-Product Formula   Write as a product.   "
+},
+{
   "id": "appendix-e",
   "level": "1",
   "url": "appendix-e.html",
@@ -10274,7 +10454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-definition",
   "type": "Definition",
-  "number": "H.1.430",
+  "number": "H.1.448",
   "title": "Data.",
   "body": " Data   Data is any collection of observations, counts, measurements, or survey responses.   "
 },
@@ -10283,7 +10463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-examples-of-data",
   "type": "Definition",
-  "number": "H.1.431",
+  "number": "H.1.449",
   "title": "Examples of Data.",
   "body": " Examples of Data   Data can include numerical measurements, categorical information, survey responses, and observational records.   "
 },
@@ -10292,7 +10472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-statistics-definition",
   "type": "Definition",
-  "number": "H.1.432",
+  "number": "H.1.450",
   "title": "Statistics.",
   "body": " Statistics   Statistics is the science of collecting, organizing, analyzing, and interpreting data from a sample to draw conclusions about a population.   "
 },
@@ -10301,7 +10481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-course-structure",
   "type": "Definition",
-  "number": "H.1.433",
+  "number": "H.1.451",
   "title": "Course Structure Overview.",
   "body": " Course Structure Overview   The course is structured as follows:   Chapter 1: Introduces the best ways to collect data and ensures it represents the real world.  Chapters 2 and 3: Focus on organizing and analyzing data.  Chapters 4–6: Cover probability and probability distributions, which are essential for understanding inferences made in Chapters 7–10. These chapters are the most theoretical and challenging but provide the necessary foundation.  Chapters 7–10: Teach how to interpret data from a sample to draw conclusions about a population.   Statistics is a process you'll learn throughout the semester—it's not something mastered in a day.   "
 },
@@ -10310,7 +10490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-population-definition",
   "type": "Definition",
-  "number": "H.1.434",
+  "number": "H.1.452",
   "title": "Population.",
   "body": " Population   A population is the complete collection of all individuals to be studied.  Individuals often refer to people, but not always. For example, individuals can also refer to animals, plants, objects, or any entities of interest.   "
 },
@@ -10319,7 +10499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-census-definition",
   "type": "Definition",
-  "number": "H.1.435",
+  "number": "H.1.453",
   "title": "Census.",
   "body": " Census   A census collects data from every member of a population.  Examples include the U.S. Census, surveys of all employees at a company, or studies examining every item in a production batch.   "
 },
@@ -10328,7 +10508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-sample-definition",
   "type": "Definition",
-  "number": "H.1.436",
+  "number": "H.1.454",
   "title": "Sample.",
   "body": " Sample   A sample is a subset of members selected from a population.  Examples include polling a subset of voters, surveying students from selected schools, or testing a portion of a product batch.   "
 },
@@ -10337,7 +10517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-1",
   "type": "Example",
-  "number": "H.1.437",
+  "number": "H.1.455",
   "title": "Example 1.",
   "body": " Example 1   Determine the population and sample for the given situation: A Gallup poll is given to a sample of eligible voters, and there are 2.3 million responses.   "
 },
@@ -10346,7 +10526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-2",
   "type": "Example",
-  "number": "H.1.438",
+  "number": "H.1.456",
   "title": "Example 2.",
   "body": " Example 2   Determine whether the following data is from a population or a sample:   Part A: The age of every fourth person entering a grocery store.  Part B: The major for each student at a community college.    "
 },
@@ -10355,7 +10535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-3",
   "type": "Example",
-  "number": "H.1.439",
+  "number": "H.1.457",
   "title": "Example 3.",
   "body": " Example 3   Identify the population and sample for this situation: A company surveys 850 of its employees and finds that 520 are satisfied with their job.   "
 },
@@ -10364,7 +10544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-pop-sample-example-4",
   "type": "Example",
-  "number": "H.1.440",
+  "number": "H.1.458",
   "title": "Example 4.",
   "body": " Example 4   An ecologist wants to study the nesting habits of birds in a particular forest. They identify 1800 trees in the northwest region of the forest and randomly select 300 trees to observe. Of those, 120 trees contain nests.   Part A: What is the population the ecologist wants to study?  Part B: What is the sample they obtained?  Part C: About which population can the ecologist draw conclusions?    "
 },
@@ -10373,7 +10553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-parameter-definition",
   "type": "Definition",
-  "number": "H.1.441",
+  "number": "H.1.459",
   "title": "Parameter.",
   "body": " Parameter   A parameter is a numerical measurement describing some characteristic of a population. It is often theoretical and unknown.   "
 },
@@ -10382,7 +10562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-statistic-definition",
   "type": "Definition",
-  "number": "H.1.442",
+  "number": "H.1.460",
   "title": "Statistic.",
   "body": " Statistic   A statistic is a number calculated from and describing some characteristic of a sample. Statistics are used to estimate unknown parameters.   "
 },
@@ -10391,7 +10571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-param-vs-stat",
   "type": "Definition",
-  "number": "H.1.443",
+  "number": "H.1.461",
   "title": "How to Tell the Difference Between a Parameter and a Statistic.",
   "body": " How to Tell the Difference Between a Parameter and a Statistic     Parameter refers to a population (both start with \"p\").  Statistic refers to a sample (both start with \"s\").     "
 },
@@ -10400,7 +10580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-param-stat-example-1",
   "type": "Example",
-  "number": "H.1.444",
+  "number": "H.1.462",
   "title": "Example 1.",
   "body": " Example 1   For each scenario below, tell if each bolded value is a parameter or a statistic. If the value is a statistic, explain what could be changed about the scenario to make the bolded value a parameter:   Part A: A study of all 2223 passengers aboard the Titanic found that survived when it sank.  Part B: In a large sample of households, the median annual income per household for high school graduates is (based on data from the U.S. Census Bureau).  Part C: Among the Senators in the current Congress, are Democrats.  Part D: The author measured the voltage supplied to his home on 40 different days, and the average (mean) value is volts.    "
 },
@@ -10409,7 +10589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-param-stat-example-2",
   "type": "Example",
-  "number": "H.1.445",
+  "number": "H.1.463",
   "title": "Example 2.",
   "body": " Example 2   Determine if the boldface number is a parameter or a statistic: In 2022, the average math score for a female student who took the ACT that year was .   "
 },
@@ -10418,7 +10598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-qualitative-data",
   "type": "Definition",
-  "number": "H.1.446",
+  "number": "H.1.464",
   "title": "Qualitative Data.",
   "body": " Qualitative Data   Qualitative data (or categorical data) categorizes or describes attributes of a population, often using words or letters but can include labels that are numerical.  Examples include gender, ethnicity, color, brand names, and categories.   "
 },
@@ -10427,7 +10607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-quantitative-data",
   "type": "Definition",
-  "number": "H.1.447",
+  "number": "H.1.465",
   "title": "Quantitative Data.",
   "body": " Quantitative Data   Quantitative data represents numerical values obtained by counting or measuring attributes.  Examples include height, weight, temperature, number of students, and salary.  Quantitative data is further divided into two subcategories:   Discrete Data: Occurs when the possible values are finite or countable (e.g., 0 calls, 1 call, 2 calls, etc.). Examples include number of children, number of cars owned, and count of defective items.  Continuous Data: Consists of infinitely many possible values along a continuous scale with no gaps, interruptions, or jumps (e.g., weight, time, or distance). Examples include height: 5'8.1\", 5'8 3\/16\", etc.; weight; and temperature.    "
 },
@@ -10436,7 +10616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-types-example-1",
   "type": "Example",
-  "number": "H.1.448",
+  "number": "H.1.466",
   "title": "Example 1.",
   "body": " Example 1   For each of the following, determine whether the data is quantitative or qualitative. If it is quantitative, specify whether it is discrete or continuous:   Part A: The number of pairs of shoes you own  Part B: The type of car you drive  Part C: The distance from your home to the nearest grocery store  Part D: The number of classes you take per school year  Part E: The type of calculator you use  Part F: Weights of dogs at an animal shelter  Part G: The number of correct answers on a quiz  Part H: The amount of money you spend at the local Quickmart    "
 },
@@ -10445,7 +10625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-types-example-2",
   "type": "Example",
-  "number": "H.1.449",
+  "number": "H.1.467",
   "title": "Example 2.",
   "body": " Example 2   Consider the following information and table, then answer the questions below.   Part A: Which information is categorical data?  Part B: Which information is quantitative data?    Selected Vehicle Data    Make\/Model  Class  Transmission  Cylinders  City MPG  Highway MPG  Annual Fuel Cost    Chevrolet Corvette  Two-Seater  Manual  8  17  29  $2,650    Nissan Cube  Station Wagon  Manual  4  25  30  $1,850    Ford Fusion  Midsize  Automatic  4  23  36  $1,800    Chevrolet Impala  Large  Automatic  6  18  28  $2,400      "
 },
@@ -10454,7 +10634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-data-types-example-3",
   "type": "Example",
-  "number": "H.1.451",
+  "number": "H.1.469",
   "title": "Example 3: Type of Data from an Image.",
   "body": " Example 3: Type of Data from an Image   The registrar at State University keeps records of the number of credit hours students complete each semester. The data collected are summarized in the histogram. The class boundaries are 10 to less than 13, 13 to less than 16, 16 to less than 19, 19 to less than 22, and 22 to less than 25.   Histogram with intervals 10-13, 13-16, 16-19, 19-22, 22-25; bar heights: 250, 580, 740, 625, 240.     "
 },
@@ -10463,7 +10643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-nominal-level",
   "type": "Definition",
-  "number": "H.1.453",
+  "number": "H.1.471",
   "title": "Nominal Level.",
   "body": " Nominal Level   Data at the nominal level are categorized without any order. Examples include gender, eye color, and types of fruits.   "
 },
@@ -10472,7 +10652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-ordinal-level",
   "type": "Definition",
-  "number": "H.1.454",
+  "number": "H.1.472",
   "title": "Ordinal Level.",
   "body": " Ordinal Level   Data at the ordinal level are categorized with a meaningful order, but differences between categories are not measurable. Examples include rankings in a competition or survey responses such as \"satisfied,\" \"neutral,\" or \"dissatisfied.\"   "
 },
@@ -10481,7 +10661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-interval-level",
   "type": "Definition",
-  "number": "H.1.455",
+  "number": "H.1.473",
   "title": "Interval Level.",
   "body": " Interval Level   Data at the interval level have meaningful order and measurable differences, but no true zero point. Examples include temperature in Celsius or years on a calendar.   "
 },
@@ -10490,7 +10670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-ratio-level",
   "type": "Definition",
-  "number": "H.1.456",
+  "number": "H.1.474",
   "title": "Ratio Level.",
   "body": " Ratio Level   Data at the ratio level have meaningful order, measurable differences, and a true zero point, allowing for meaningful ratios. Examples include weight, height, or age.   "
 },
@@ -10499,7 +10679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-measurement-level-example",
   "type": "Example",
-  "number": "H.1.457",
+  "number": "H.1.475",
   "title": "Example: Levels of Measurement.",
   "body": " Example: Levels of Measurement   Classify the following scenarios by their level of measurement:   Part A: Types of cars (e.g., SUV, sedan, truck).  Part B: The ranking of runners in a race.  Part C: Temperature readings in Fahrenheit.  Part D: The time it takes for participants to complete a task, measured in seconds.    "
 },
@@ -10508,7 +10688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-observational-study",
   "type": "Definition",
-  "number": "H.1.458",
+  "number": "H.1.476",
   "title": "Observational Study.",
   "body": " Observational Study   In an observational study , a researcher observes and measures characteristics but does not change any existing conditions.   "
 },
@@ -10517,7 +10697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-experiment-definition",
   "type": "Definition",
-  "number": "H.1.459",
+  "number": "H.1.477",
   "title": "Experiment and Treatment.",
   "body": " Experiment and Treatment   In an experiment , a researcher imposes a change in some preexisting condition, called a treatment , onto a sample of a population and measures their response to that change.   "
 },
@@ -10526,7 +10706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-control-group",
   "type": "Definition",
-  "number": "H.1.460",
+  "number": "H.1.478",
   "title": "Control Group.",
   "body": " Control Group   A control group is a sample that receives no treatment and is used as a baseline to compare other samples to.   "
 },
@@ -10535,7 +10715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-obs-exp-example-1",
   "type": "Example",
-  "number": "H.1.461",
+  "number": "H.1.479",
   "title": "Example 1.",
   "body": " Example 1   Determine whether the study is observational or an experiment. Explain your reasoning.   Part A: In a survey of 1033 US adults, 51% of respondents said that US presidents should release all medical information that might affect their ability to serve.  Part B: Researchers demonstrated that adults using an intensive program to lower systolic blood pressure to less than 120 millimeters of mercury reduce the risk of death from all causes by 27%.    "
 },
@@ -10544,7 +10724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-replication",
   "type": "Definition",
-  "number": "H.1.462",
+  "number": "H.1.480",
   "title": "Replication.",
   "body": " Replication   Replication: Assign enough individuals to each treatment to reduce the variation in the results. This ensures that similar experiments conducted under the same conditions will yield similar results.   "
 },
@@ -10553,7 +10733,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-randomization",
   "type": "Definition",
-  "number": "H.1.463",
+  "number": "H.1.481",
   "title": "Randomization.",
   "body": " Randomization   Randomization: Select subjects randomly so that variations in results occur purely by chance, not external factors.   "
 },
@@ -10562,7 +10742,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-study-design-example-2",
   "type": "Example",
-  "number": "H.1.464",
+  "number": "H.1.482",
   "title": "Example 2.",
   "body": " Example 2   In statistics, it is often said that a single data study doesn't prove a result. Explain why this is true.   "
 },
@@ -10571,7 +10751,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-blinding",
   "type": "Definition",
-  "number": "H.1.465",
+  "number": "H.1.483",
   "title": "Blinding.",
   "body": " Blinding   Blinding ensures that subjects do not know whether they are receiving a placebo or an actual treatment. This reduces the risk of bias caused by participants' expectations influencing the results.   "
 },
@@ -10580,7 +10760,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-single-blind",
   "type": "Definition",
-  "number": "H.1.466",
+  "number": "H.1.484",
   "title": "Single-Blind Experiment.",
   "body": " Single-Blind Experiment   In a single-blind experiment , the participants do not know whether they are receiving the treatment or a placebo, but the researchers administering the treatment do know.   "
 },
@@ -10589,7 +10769,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-double-blind",
   "type": "Definition",
-  "number": "H.1.467",
+  "number": "H.1.485",
   "title": "Double-Blind Experiment.",
   "body": " Double-Blind Experiment   In a double-blind experiment , neither the participants nor the researchers administering the treatment know who is receiving the treatment or the placebo.   "
 },
@@ -10598,7 +10778,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-blinding-example-3",
   "type": "Example",
-  "number": "H.1.468",
+  "number": "H.1.486",
   "title": "Example 3.",
   "body": " Example 3   An experiment that claimed to show that meditation reduces anxiety proceeded as follows:  The experimenter interviewed the subjects and rated their level of anxiety. Then the subjects were randomly assigned to two groups. The experimenter taught one group how to meditate, and they meditated daily for a month. The other group was simply told to relax more. At the end of the month, the experimenter interviewed all the subjects again and rated their anxiety levels. The meditation group now had less anxiety.  Psychologists said that the results were suspect because the ratings were not blind. Explain what this means and show how the lack of blindness could introduce bias into the reported results.   "
 },
@@ -10607,7 +10787,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-response-bias",
   "type": "Definition",
-  "number": "H.1.469",
+  "number": "H.1.487",
   "title": "Response Bias.",
   "body": " Response Bias   Response bias occurs when the behavior of the respondent or the interviewer influences the response that the respondent gives. This can result in inaccurate or misleading data that does not accurately represent the population being studied.   "
 },
@@ -10616,7 +10796,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-wording-effects",
   "type": "Definition",
-  "number": "H.1.470",
+  "number": "H.1.488",
   "title": "Wording Effects.",
   "body": " Wording Effects   Wording effects occur when the phrasing, choice of words, or order in which questions are asked affects the responses collected. Even slight changes in how a question is framed can result in significantly different answers, which can introduce bias into the data.   "
 },
@@ -10625,7 +10805,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-nonresponse",
   "type": "Definition",
-  "number": "H.1.471",
+  "number": "H.1.489",
   "title": "Nonresponse.",
   "body": " Nonresponse   Nonresponse occurs when a respondent refuses to participate or cannot be reached. This results in missing data and can skew the results if the nonrespondents differ systematically from those who do respond.   "
 },
@@ -10634,7 +10814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-bias-example-4",
   "type": "Example",
-  "number": "H.1.472",
+  "number": "H.1.490",
   "title": "Example 4.",
   "body": " Example 4   An opinion poll calls 2000 randomly chosen households and asks an adult member of the household, \"How many movies have you watched in a movie theater in the last 12 months?\" Only 831 people responded.   What is the rate of nonresponse?  Why do you think the nonresponse rate was so high?    "
 },
@@ -10643,7 +10823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-simple-random-sampling",
   "type": "Definition",
-  "number": "H.1.473",
+  "number": "H.1.491",
   "title": "Simple Random Sampling.",
   "body": " Simple Random Sampling   In simple random sampling , every individual in the population has an equal chance of being selected, ensuring that all samples of the same size are equally likely.   "
 },
@@ -10652,7 +10832,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-stratified-sampling",
   "type": "Definition",
-  "number": "H.1.474",
+  "number": "H.1.492",
   "title": "Stratified Sampling.",
   "body": " Stratified Sampling   In stratified sampling , divide the population into groups (strata) and take a proportionate random sample from each group. For instance, sample students from various departments to represent a college population.   "
 },
@@ -10661,7 +10841,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-cluster-sampling",
   "type": "Definition",
-  "number": "H.1.475",
+  "number": "H.1.493",
   "title": "Cluster Sampling.",
   "body": " Cluster Sampling   In cluster sampling , divide the population into clusters, then randomly select some clusters and include all members from those clusters in the sample. For example, randomly select departments in a college and survey all their students.   "
 },
@@ -10670,7 +10850,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-systematic-sampling",
   "type": "Definition",
-  "number": "H.1.476",
+  "number": "H.1.494",
   "title": "Systematic Sampling.",
   "body": " Systematic Sampling   In systematic sampling , randomly select a starting point and pick every nth member from a population list. For example, choose every 50th name in a phone book for a survey.   "
 },
@@ -10679,7 +10859,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-convenience-sampling",
   "type": "Definition",
-  "number": "H.1.477",
+  "number": "H.1.495",
   "title": "Convenience Sampling.",
   "body": " Convenience Sampling   In convenience sampling , individuals are chosen based on accessibility and ease rather than randomness. For example, surveying the first 20 people entering a grocery store about their shopping habits.   "
 },
@@ -10688,7 +10868,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-sampling-techniques-example-1",
   "type": "Example",
-  "number": "H.1.478",
+  "number": "H.1.496",
   "title": "Example 1.",
   "body": " Example 1   A study intends to determine the average tuition paid by Tennessee Technological University undergraduate students per semester. Identify the sampling method used in each scenario:   Part A: Organize students by year (e.g., first-year, sophomore), then select 25 from each.  Part B: Use a random number generator to select one student, then pick every 50th student until 75 students are included.  Part C: Select 75 students completely at random, with equal probability for all.  Part D: Randomly pick two years (e.g., first-year and senior), and survey all students in those years.  Part E: Survey the first 100 students encountered in front of the library on a specific day.    "
 },
@@ -10697,7 +10877,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-random-sampling-error",
   "type": "Definition",
-  "number": "H.1.479",
+  "number": "H.1.497",
   "title": "Random Sampling Error.",
   "body": " Random Sampling Error   A random sampling error occurs when there is a discrepancy between a sample result and the true population result. This type of error arises purely due to chance, as a sample is only a subset of the population and may not perfectly represent it. For example, if a random sample of 50 students is drawn from a school of 1,000, the sample mean test score might differ slightly from the population mean simply by chance.   "
 },
@@ -10706,7 +10886,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-nonrandom-sampling-error",
   "type": "Definition",
-  "number": "H.1.480",
+  "number": "H.1.498",
   "title": "Nonrandom Sampling Error.",
   "body": " Nonrandom Sampling Error   There are three important types of nonrandom sampling errors: undercoverage , nonresponse , and volunteer response .   "
 },
@@ -10715,7 +10895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-undercoverage",
   "type": "Definition",
-  "number": "H.1.481",
+  "number": "H.1.499",
   "title": "Undercoverage.",
   "body": " Undercoverage   Undercoverage occurs when some groups in the population are systematically excluded from the sampling process, making the sample unrepresentative of the entire population.   "
 },
@@ -10724,7 +10904,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-volunteer-response",
   "type": "Definition",
-  "number": "H.1.482",
+  "number": "H.1.500",
   "title": "Volunteer Response Bias.",
   "body": " Volunteer Response Bias   Volunteer response occurs when participants self-select into the sample rather than being randomly chosen, often leading to an overrepresentation of individuals with strong opinions.   "
 },
@@ -10733,7 +10913,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-sampling-errors-example-2",
   "type": "Example",
-  "number": "H.1.483",
+  "number": "H.1.501",
   "title": "Example 2.",
   "body": " Example 2   A university is conducting a study to understand student preferences for campus dining options. The following scenarios describe how data was collected. Identify the type of nonrandom sampling error for each part and explain your reasoning.   Part A: The university posts a survey link on its social media pages and encourages students to share their opinions. Most responses come from students who are either very satisfied or very dissatisfied with campus dining options.  Part B: The university randomly emails 1,000 students asking them to complete the survey. Only 250 students respond, and many of the responses are from students who frequently use campus dining services.  Part C: The university conducts the survey at a single campus dining hall during lunchtime. Students who do not use the dining hall or eat lunch on campus are excluded from the sample.    "
 },
@@ -10742,7 +10922,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-non-sampling-error",
   "type": "Definition",
-  "number": "H.1.484",
+  "number": "H.1.502",
   "title": "Non-sampling Error.",
   "body": " Non-sampling Error   A non-sampling error is caused by human error or flaws in the data collection process. These errors can occur regardless of how the sample is chosen. Examples include mistyping data into a computer, misinterpreting survey questions, or using faulty measuring instruments.   "
 },
@@ -10751,7 +10931,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-completely-randomized-design",
   "type": "Definition",
-  "number": "H.1.485",
+  "number": "H.1.503",
   "title": "Completely Randomized Design.",
   "body": " Completely Randomized Design   A completely randomized design assigns treatments to subjects entirely at random, without grouping or blocking. This design works well when the subjects are similar and there are no additional variables that need to be controlled.  Example: A clinical trial randomly assigns participants to receive one of three medications to treat high blood pressure. Results are compared across all participants.   "
 },
@@ -10760,7 +10940,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-exp-design-example-1",
   "type": "Example",
-  "number": "H.1.486",
+  "number": "H.1.504",
   "title": "Example 1.",
   "body": " Example 1   Many utility companies have introduced programs to encourage energy conservation among their customers. A particular company has three options:   Place a small digital display in households to show current electricity usage.  Give customers a chart and information about monitoring their use from the outside meter.  Use a control group that receives general information about conserving energy but no tools to monitor their use.   Design a flowchart that models this experiment.   "
 },
@@ -10769,7 +10949,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-randomized-block-design",
   "type": "Definition",
-  "number": "H.1.487",
+  "number": "H.1.505",
   "title": "Randomized Block Design.",
   "body": " Randomized Block Design   A randomized block design groups subjects into blocks based on shared characteristics or variables that may influence the results. Treatments are then randomly assigned within each block, and comparisons are made within the blocks.  Example: In a weight loss study, participants are grouped into blocks by gender (e.g., male and female). Within each block, participants are randomly assigned to different diet plans, and results are compared separately for males and females.   "
 },
@@ -10778,7 +10958,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-exp-design-example-2",
   "type": "Example",
-  "number": "H.1.488",
+  "number": "H.1.506",
   "title": "Example 2.",
   "body": " Example 2   A cosmetics company wants to compare the effectiveness of two facial creams: Cream A, which claims to reduce wrinkles, and Cream B, which claims to improve skin hydration. The company recruits 40 participants and divides them into blocks based on skin type: oily, dry, combination, and sensitive. Each block contains 10 participants. Within each block, participants are randomly assigned to use either Cream A or Cream B for four weeks, and their skin condition is evaluated at the end of the study.  Design a diagram that models this experiment.   "
 },
@@ -10787,7 +10967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-matched-pairs-design",
   "type": "Definition",
-  "number": "H.1.489",
+  "number": "H.1.507",
   "title": "Matched Pairs Design.",
   "body": " Matched Pairs Design   A matched pairs design is a special case of the randomized block design where subjects are paired or matched in some way. This design is used to compare two treatments.  Version 1: Pair two individuals based on shared characteristics. Randomly assign one individual in each pair to receive the first treatment, and the other to receive the second treatment. Compare results within each pair.  Example: Two participants of similar age and fitness level are paired. One is assigned to a new exercise routine, and the other follows a standard routine. Their progress is compared after four weeks.  Version 2: Use the same individual for both treatments. Assign one of the treatments to the individual at random, and once the experiment is concluded, apply the other treatment at a later time under similar conditions. Compare the results for that individual.  Example: A participant tests two different types of running shoes by running a set distance with each pair on different days. Their times are compared to determine which shoe performs better.   "
 },
@@ -10796,7 +10976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-1.html#stats-app-ch1-exp-design-example-3",
   "type": "Example",
-  "number": "H.1.490",
+  "number": "H.1.508",
   "title": "Example 3.",
   "body": " Example 3   Researchers are studying the effect of two different dashboard layouts on driver reaction times during sudden stops. The two layouts are:   Layout A: A traditional dashboard with analog gauges.  Layout B: A modern digital dashboard with heads-up display features.   Each participant is randomly assigned to use one dashboard layout while completing a driving simulation. After a break, the same participants repeat the simulation with the other dashboard layout under similar conditions. Reaction times are measured during each simulation.  Describe and diagram a matched pairs experiment to determine if the modern dashboard increases safety.   "
 },
@@ -10814,7 +10994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-frequency-def",
   "type": "Definition",
-  "number": "H.2.491",
+  "number": "H.2.509",
   "title": "Frequency.",
   "body": " Frequency   The frequency of a data point is how many times it shows up in the data set.   "
 },
@@ -10823,7 +11003,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-dist-def",
   "type": "Definition",
-  "number": "H.2.492",
+  "number": "H.2.510",
   "title": "Frequency Distribution.",
   "body": " Frequency Distribution   A frequency distribution is a table that lists either the raw data or classes (defined below) in the first column and corresponding frequency in the second column.   "
 },
@@ -10832,7 +11012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-1",
   "type": "Example",
-  "number": "H.2.493",
+  "number": "H.2.511",
   "title": "Example 1.",
   "body": " Example 1   The data on the number of deaths directly caused by tornadoes in Tennessee is given in the table below. Create a Frequency Distribution for the number of deaths per year.   "
 },
@@ -10841,7 +11021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-class-width",
   "type": "Definition",
-  "number": "H.2.494",
+  "number": "H.2.512",
   "title": "Class Width.",
   "body": " Class Width   The class width is the size of each class and determines how data is grouped. It is calculated using the formula: If the result is a decimal, always round up to the next whole number to ensure all data points fit into the intervals.   "
 },
@@ -10850,7 +11030,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-2",
   "type": "Example",
-  "number": "H.2.495",
+  "number": "H.2.513",
   "title": "Example 2.",
   "body": " Example 2   Our data from Example 1 range from 0 deaths to 75 deaths. Find the class width that you will need if you want 6 classes.   "
 },
@@ -10859,7 +11039,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-boundary-points",
   "type": "Definition",
-  "number": "H.2.496",
+  "number": "H.2.514",
   "title": "Boundary Points.",
   "body": " Boundary Points   The minimum value is typically the first boundary point. To find the other boundary points, keep adding the class width until you get a value that is larger than (but not equal to) the maximal value in our data set.   "
 },
@@ -10868,7 +11048,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-3",
   "type": "Example",
-  "number": "H.2.497",
+  "number": "H.2.515",
   "title": "Example 3.",
   "body": " Example 3   Our data from Example 1 range from 0 deaths to 75 deaths. Suppose you want your boundary points to start at 7 and have class width 10. Find all the boundary points.   "
 },
@@ -10877,7 +11057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-4",
   "type": "Example",
-  "number": "H.2.498",
+  "number": "H.2.516",
   "title": "Example 4.",
   "body": " Example 4   Using our data from Example 1, create a frequency distribution with 8 different classes.   "
 },
@@ -10886,7 +11066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-freq-example-5",
   "type": "Example",
-  "number": "H.2.499",
+  "number": "H.2.517",
   "title": "Example 5.",
   "body": " Example 5   Use our data set from Example 1 to create a frequency distribution that starts at 7 and has a class width of 6.   "
 },
@@ -10895,7 +11075,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-def",
   "type": "Definition",
-  "number": "H.2.500",
+  "number": "H.2.518",
   "title": "Relative Frequency.",
   "body": " Relative Frequency   Relative Frequency has two interpretations:   For raw data , relative frequency is the percentage of times that a particular value appears in a data set.  For data sorted into classes , relative frequency is the percentage of data that appear in a given class.   In both cases, the formula for relative frequency is identical: where is the number of data points in the sample. Notice that this will always give a percentage as a decimal, so we will always write instead of in this course.   "
 },
@@ -10904,7 +11084,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-dist-def",
   "type": "Definition",
-  "number": "H.2.501",
+  "number": "H.2.519",
   "title": "Relative Frequency Distribution.",
   "body": " Relative Frequency Distribution   A relative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative frequencies in the second column.   "
 },
@@ -10913,7 +11093,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-compute-rel-freq",
   "type": "Definition",
-  "number": "H.2.502",
+  "number": "H.2.520",
   "title": "Computing Relative Frequency.",
   "body": " Computing Relative Frequency   To determine the relative frequency for a class, divide its frequency by the total number of data points: For example, consider a frequency of 64 in a class and a total of 74 data points.   "
 },
@@ -10922,7 +11102,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-example-1",
   "type": "Example",
-  "number": "H.2.503",
+  "number": "H.2.521",
   "title": "Example 1.",
   "body": " Example 1   According to National Institutes of Health Cancer Statistics , the rate at which men get Colon-Rectal cancer each year (per 100,000 men, rounded to one decimal place) from 2000 to 2021 is given in the table below. Find the relative frequency distribution for this data if we use a lower class boundary of 35 and a class width of 5.   "
 },
@@ -10931,7 +11111,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-options",
   "type": "Definition",
-  "number": "H.2.504",
+  "number": "H.2.522",
   "title": "Relative Frequency Distribution Options.",
   "body": " Relative Frequency Distribution Options   There are several options when displaying relative frequency distributions:   Convert To Percentage: The relative frequency distribution with percentages instead of relative frequencies.     Compare Frequency to Relative Frequency: A third column containing the raw frequencies was added to the relative frequency distribution.     Both Options: Both options are checked, allowing comparisons of percentages and raw frequencies.     "
 },
@@ -10940,7 +11120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-freq-example-2",
   "type": "Example",
-  "number": "H.2.508",
+  "number": "H.2.526",
   "title": "Example 2.",
   "body": " Example 2   Consider the following frequency distribution for average August temperatures in Nashville, TN. (Source: Weather UnderGround ) Find the relative frequency for the class 86 to 88 .   Average August Temperature in Nashville, TN (1948-2024)    Degrees Fahrenheit  Number of Years    80 to 82  2    83 to 85  14    86 to 88  33    89 to 91  22    92 to 94  5    95 to 97  1    Total  77      "
 },
@@ -10949,7 +11129,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-cum-freq-def",
   "type": "Definition",
-  "number": "H.2.510",
+  "number": "H.2.528",
   "title": "Cumulative Frequency.",
   "body": " Cumulative Frequency   Cumulative Frequency is the number of data points that are less than or equal to some given number (not necessarily in the data set).  To illustrate, let's turn to our Frequency Distribution about tornado deaths in Tennessee from Example 1 in the Frequency Distribution section:   Frequency distribution table with columns Data and Frequency.     "
 },
@@ -10958,7 +11138,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-cum-freq-dist-def",
   "type": "Definition",
-  "number": "H.2.512",
+  "number": "H.2.530",
   "title": "Cumulative Frequency Distribution.",
   "body": " Cumulative Frequency Distribution   A cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding cumulative frequencies in the second column.   "
 },
@@ -10967,7 +11147,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-cum-freq-example-1",
   "type": "Example",
-  "number": "H.2.513",
+  "number": "H.2.531",
   "title": "Example 1.",
   "body": " Example 1   For the data from Example 1 in the Frequency Distribution section, create a cumulative frequency distribution for the raw data.   "
 },
@@ -10976,7 +11156,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-cum-freq-def",
   "type": "Definition",
-  "number": "H.2.514",
+  "number": "H.2.532",
   "title": "Relative Cumulative Frequency.",
   "body": " Relative Cumulative Frequency   Relative Cumulative Frequency is the percentage of data points that are less than or equal to some given number (not necessarily in the data set). As with relative frequency, we will always express the percentage as a decimal, such as instead of . Using percentages instead of decimals can cause errors in many of the formulas we will use in this course, as they require values to be expressed as decimals for accurate computation. As a formula, we can express this as where is the number of data points.  Let's consider our Cumulative Frequency Distribution from Example 1:   The cumulative frequency distribution for deaths by tornadoes in Tennessee.     "
 },
@@ -10985,7 +11165,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-cum-freq-dist-def",
   "type": "Definition",
-  "number": "H.2.516",
+  "number": "H.2.534",
   "title": "Relative Cumulative Frequency Distribution.",
   "body": " Relative Cumulative Frequency Distribution   A relative cumulative frequency distribution is a table that lists either the raw data or classes in the first column and the corresponding relative cumulative frequencies in the second column.   "
 },
@@ -10994,7 +11174,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-rel-cum-freq-example-2",
   "type": "Example",
-  "number": "H.2.517",
+  "number": "H.2.535",
   "title": "Example 2.",
   "body": " Example 2   For the data from Example 1 in the Cumulative Frequency section, create a cumulative relative frequency distribution for the raw data.   "
 },
@@ -11003,7 +11183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-def",
   "type": "Definition",
-  "number": "H.2.518",
+  "number": "H.2.536",
   "title": "Frequency Histogram.",
   "body": " Frequency Histogram   A frequency histogram is a type of bar graph used to visualize the frequency distribution of data. Below are its key features:   The -axis represents the data values, with tick marks indicating the class boundaries of the frequency distribution.  The -axis represents the frequencies of the classes. The scale always starts at 0, but the other tick marks are determined by the data and are used to scale the heights of the bars.  Each bar represents a class. The base of the bar spans the range of values for that class, while the height corresponds to the frequency of the class.  The bars of successive classes touch each other.  If any class has a frequency of , no bar is drawn for that class.    "
 },
@@ -11012,7 +11192,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-1",
   "type": "Example",
-  "number": "H.2.519",
+  "number": "H.2.537",
   "title": "Example 1.",
   "body": " Example 1   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Frequency Histogram that has 8 classes.   "
 },
@@ -11021,7 +11201,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-2",
   "type": "Example",
-  "number": "H.2.520",
+  "number": "H.2.538",
   "title": "Example 2.",
   "body": " Example 2   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Relative Frequency Histogram that has 8 classes.   "
 },
@@ -11030,7 +11210,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-3",
   "type": "Example",
-  "number": "H.2.521",
+  "number": "H.2.539",
   "title": "Example 3.",
   "body": " Example 3   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Cumulative Frequency Histogram that has 8 classes.   "
 },
@@ -11039,7 +11219,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-histogram-example-4",
   "type": "Example",
-  "number": "H.2.522",
+  "number": "H.2.540",
   "title": "Example 4.",
   "body": " Example 4   Using the data on Tornado deaths in Tennessee from Example 1 in the Frequency Distribution section, create a Cumulative Relative Frequency Histogram that has 8 classes.   "
 },
@@ -11048,7 +11228,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-peak-def",
   "type": "Definition",
-  "number": "H.2.523",
+  "number": "H.2.541",
   "title": "Peak of a Distribution.",
   "body": " Peak of a Distribution   The peak of a distribution refers to the tallest part of the histogram, which represents the class(es) with the most data.   "
 },
@@ -11057,7 +11237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-tails-def",
   "type": "Definition",
-  "number": "H.2.524",
+  "number": "H.2.542",
   "title": "Tails of a Distribution.",
   "body": " Tails of a Distribution   The tails of a distribution refer to the far ends of the distribution, which represent the extreme values of the dataset.   "
 },
@@ -11066,7 +11246,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-unimodal",
   "type": "Definition",
-  "number": "H.2.525",
+  "number": "H.2.543",
   "title": "Unimodal Distributions.",
   "body": " Unimodal Distributions   Unimodal distributions have a single peak. There are three subtypes: normal , skew-left , and skew-right .   Example of a unimodal distribution with a peak at class the 70 to 79.     "
 },
@@ -11075,7 +11255,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-normal",
   "type": "Definition",
-  "number": "H.2.527",
+  "number": "H.2.545",
   "title": "Normal Distributions.",
   "body": " Normal Distributions   Normal distributions (also called bell-shaped distributions) are symmetric with the peak in the center.   Example of a unimodal distribution. Areas corresponding to its peak and tails are labeled.     "
 },
@@ -11084,7 +11264,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-skew-left",
   "type": "Definition",
-  "number": "H.2.529",
+  "number": "H.2.547",
   "title": "Skew-Left Distributions.",
   "body": " Skew-Left Distributions   Skew-left distributions have the left tail longer than the right tail.   Distribution is left-skewed since the left tail is longer than the right tail.     "
 },
@@ -11093,7 +11273,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-skew-right",
   "type": "Definition",
-  "number": "H.2.531",
+  "number": "H.2.549",
   "title": "Skew-Right Distributions.",
   "body": " Skew-Right Distributions   Skew-right distributions have the right tail longer than the left tail.   Distribution is right-skewed because its right tail is longer than its left tail.     "
 },
@@ -11102,7 +11282,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-multimodal",
   "type": "Definition",
-  "number": "H.2.533",
+  "number": "H.2.551",
   "title": "Multimodal Distributions.",
   "body": " Multimodal Distributions   Multimodal distributions have multiple peaks.   A bimodal distribution with its two peaks labeled.     "
 },
@@ -11111,7 +11291,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-uniform",
   "type": "Definition",
-  "number": "H.2.535",
+  "number": "H.2.553",
   "title": "Uniform Distributions.",
   "body": " Uniform Distributions   Uniform distributions have bars that are all approximately the same height with no distinct peak.  For homework problems that ask you to identify the shape of a distribution, the easiest way to determine the shape is by drawing (or visualizing) a curve through the tops of the bars. If the distribution is uniform, all the bars should be approximately the same height.   Uniform distribution have bars that are all approximately the same height.     "
 },
@@ -11120,7 +11300,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-def",
   "type": "Definition",
-  "number": "H.2.537",
+  "number": "H.2.555",
   "title": "Stem-and-Leaf Plot.",
   "body": " Stem-and-Leaf Plot   A stem-and-leaf plot is a way to organize rounded numerical data by splitting each value into a stem (the leading digit(s), such as tens) and a leaf (the trailing digit(s), based on the chosen rounding level).   "
 },
@@ -11129,7 +11309,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-rounding",
   "type": "Definition",
-  "number": "H.2.538",
+  "number": "H.2.556",
   "title": "Choosing Stems.",
   "body": " Choosing Stems   There is a bit of an art to deciding how to create a stem-and-leaf plot. The best stems are those that appear frequently in your data and group it meaningfully. The goal is to create a plot that organizes the data clearly and effectively, without being cluttered or too sparse.  Here are three examples:    Too Clustered: The stems are all in a single row.     Good Balance of Leaves: There are five stems and there are no lines without any leaves.     Too Spread Out: Many stems have no leaves. While some gaps are okay, if most stems are empty, your data is too spread out.      "
 },
@@ -11138,7 +11318,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-example-1",
   "type": "Example",
-  "number": "H.2.542",
+  "number": "H.2.560",
   "title": "Example 1.",
   "body": " Example 1   The following dataset represents the monthly average rainfall (in mm) for a Midwestern town from 2018 to 2022. Construct a stem-and-leaf plot for the data, and describe the shape of the distribution.   "
 },
@@ -11147,7 +11327,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-split-def",
   "type": "Definition",
-  "number": "H.2.543",
+  "number": "H.2.561",
   "title": "Split Stems.",
   "body": " Split Stems   To split stems in a stem-and-leaf plot means dividing each stem into smaller groups to spread out the data and make the plot easier to interpret.   "
 },
@@ -11156,7 +11336,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-split-when",
   "type": "Definition",
-  "number": "H.2.544",
+  "number": "H.2.562",
   "title": "When to Split Stems.",
   "body": " When to Split Stems   Split stems when:   A single stem has too many leaves, making the plot crowded and difficult to read.  Precision matters, such as with decimal data or closely spaced values.  One stem has significantly more leaves than others.    "
 },
@@ -11165,7 +11345,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-example-2",
   "type": "Example",
-  "number": "H.2.545",
+  "number": "H.2.563",
   "title": "Example 2.",
   "body": " Example 2   The following dataset represents the weights (in kilograms) of items in a shipment. Explain why you should split the stems, and then construct a stem-and-leaf plot with split stems. Describe the shape of the distribution.   "
 },
@@ -11174,7 +11354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-back-to-back",
   "type": "Definition",
-  "number": "H.2.546",
+  "number": "H.2.564",
   "title": "Back-to-Back Stem-and-Leaf Plots.",
   "body": " Back-to-Back Stem-and-Leaf Plots   If we want to compare two sets of data, we can make a back-to-back stem-and-leaf plot . In this setup, the stems will be up the middle. The leaves of the first dataset are to the right of the stems. The leaves of the second dataset appear to the left of the stems, written in reverse order for comparison. Back-to-back stem-and-leaf plots may have split stems.   Example of a Back-to-Back Stem Plot     "
 },
@@ -11183,7 +11363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-stem-leaf-example-3",
   "type": "Example",
-  "number": "H.2.548",
+  "number": "H.2.566",
   "title": "Example 3.",
   "body": " Example 3   The following datasets represent the ages of participants in two different training programs.   Part A : Create a Stem-and-Leaf Plot and compare the shapes of the two distributions.  Part B : Split the stems and compare the shapes again. Then compare this stem-and-leaf plot to the original one and explain how splitting the stems gives you a more detailed view of the distribution of both datasets.    "
 },
@@ -11192,7 +11372,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-def",
   "type": "Definition",
-  "number": "H.2.549",
+  "number": "H.2.567",
   "title": "Dot Plot.",
   "body": " Dot Plot   A dot plot is a simple visual tool for representing data, where each dot corresponds to a specific data point. It effectively displays frequency distributions, highlighting patterns, peaks, and left\/right-skew. Dot plots are ideal for small to moderately sized datasets in various fields such as education, biology, and economics.   "
 },
@@ -11201,7 +11381,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-how",
   "type": "Definition",
-  "number": "H.2.550",
+  "number": "H.2.568",
   "title": "How to Make a Dot Plot.",
   "body": " How to Make a Dot Plot    Draw a horizontal axis to represent the range of values, labeling it appropriately.  Divide the axis into evenly spaced intervals to cover all data points.  For each value in the dataset, place a dot above its corresponding position on the axis, stacking dots vertically for repeated values.  Add a title and labels to clarify the data being represented.    "
 },
@@ -11210,7 +11390,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-example-1",
   "type": "Example",
-  "number": "H.2.551",
+  "number": "H.2.569",
   "title": "Example 1.",
   "body": " Example 1   The following data represents the length in centimeters of a sample of 10 white oak leaves. Make a dot plot of this data.   Leaf Length Data (in cm)    Length (cm)  Length (cm)    17  18    18  15    13  19    16  17    17  16      "
 },
@@ -11219,7 +11399,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-example-2",
   "type": "Example",
-  "number": "H.2.553",
+  "number": "H.2.571",
   "title": "Example 2.",
   "body": " Example 2   A customer service manager wants to evaluate the team's efficiency in responding to support tickets during peak hours. The response times (in minutes) for 10 randomly selected tickets are given in the table below. Make a dot plot of this data.   "
 },
@@ -11228,7 +11408,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-dot-plot-interpret",
   "type": "Definition",
-  "number": "H.2.554",
+  "number": "H.2.572",
   "title": "Interpreting Dot Plots.",
   "body": " Interpreting Dot Plots   Dot plots give us another way to see the shape of the distribution. But unlike histograms, it gives us a way to identify the exact data points that are either unusually small or unusually large compared to the other data points.    The dot plot showing a skew-left distribution with curve.     The dot plot showing a skew-right distribution with curve.      "
 },
@@ -11237,7 +11417,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-time-series-how",
   "type": "Definition",
-  "number": "H.2.557",
+  "number": "H.2.575",
   "title": "How to Make a Time Series Plot.",
   "body": " How to Make a Time Series Plot    Label the -axis with the range of days, months, or years, and label the -axis with the units of the data. Make sure to title your graph as well.  Plot each data point as .  Draw straight line segments between consecutive points to connect them.    "
 },
@@ -11246,7 +11426,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-time-series-example-1",
   "type": "Example",
-  "number": "H.2.558",
+  "number": "H.2.576",
   "title": "Example 1.",
   "body": " Example 1   According to the European Commission , Gross domestic product (GDP) is the most common measure for the size of an economy, and it measures the value of total final output of goods and services produced by that economy in a certain period of time. The following data from the World Bank Group describes the U.S. GDP (in trillions of dollars) for each year from 2010 to 2023. Use this data to construct a time series plot.   "
 },
@@ -11255,7 +11435,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-time-series-example-2",
   "type": "Example",
-  "number": "H.2.559",
+  "number": "H.2.577",
   "title": "Example 2.",
   "body": " Example 2   Use the time series plot we created in Example 1 to answer the following questions.   In what year did the GDP grow the slowest?  In what year did the GDP grow the fastest?  The only year we had a decrease in GDP was from 2019 to 2020. What historical event explains the drop in GDP?    "
 },
@@ -11264,7 +11444,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-bar-graph-example-1",
   "type": "Example",
-  "number": "H.2.560",
+  "number": "H.2.578",
   "title": "Example 1.",
   "body": " Example 1   A survey of 100 people was conducted to determine their favorite fast food restaurant among various national brands. The results are summarized in the table below. Using the data, create a bar graph to represent the distribution of responses.   "
 },
@@ -11273,7 +11453,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pareto-graphs",
   "type": "Definition",
-  "number": "H.2.561",
+  "number": "H.2.579",
   "title": "Pareto Graphs.",
   "body": " Pareto Graphs   While standard bar graphs are effective at showcasing categorical data, there are scenarios where sorting the bars in descending order provides greater clarity. This leads us to a specialized variation of the bar graph known as the Pareto graph .   "
 },
@@ -11282,7 +11462,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pareto-example",
   "type": "Example",
-  "number": "H.2.562",
+  "number": "H.2.580",
   "title": "Example 2.",
   "body": " Example 2   Create a Pareto graph of the preferred fast food restaurants from Example 1, sorting all bars from largest to smallest.   "
 },
@@ -11291,7 +11471,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-when",
   "type": "Definition",
-  "number": "H.2.563",
+  "number": "H.2.581",
   "title": "When to Use a Pie Graph.",
   "body": " When to Use a Pie Graph   A pie graph should only be used under two specific conditions:   Data can belong to exactly one of the categories.  Categories must be parts of a whole.    "
 },
@@ -11300,7 +11480,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-1",
   "type": "Example",
-  "number": "H.2.564",
+  "number": "H.2.582",
   "title": "Example 1.",
   "body": " Example 1   Suppose a survey asked which department(s) a customer purchased from during their last visit to a particular department store. Explain why a pie graph cannot be used with the following set of data.   Percentage of People Shopping in Each Department    Department  Percentage of Shoppers    Electronics  40%    Clothing  55%    Groceries  70%    Home & Furniture  30%    Sports & Outdoors  25%      "
 },
@@ -11309,7 +11489,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-2",
   "type": "Example",
-  "number": "H.2.566",
+  "number": "H.2.584",
   "title": "Example 2.",
   "body": " Example 2   A survey was conducted to determine the types of activities people prefer on weekends. A survey of 1,303 people were asked, Which of the follow activities do you most prefer to do on weekends? Please select only one option. The percentages were tabulated and reported in the table below. Explain why a pie chart cannot be created from this table and suggest how it could be corrected.   Weekend Activity Preferences    Activity  Percentage    Watching Movies  25%    Outdoor Sports  30%    Reading Books  20%    Cooking  15%    Playing Video Games  8%      "
 },
@@ -11318,7 +11498,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-3",
   "type": "Example",
-  "number": "H.2.568",
+  "number": "H.2.586",
   "title": "Example 3.",
   "body": " Example 3   A survey asked 1,373 respondents, What is your favorite activity while on vacation? The responses are summarized in the following table. Explain why this data cannot be used to make a Pie Chart.   Vacation Activity Preferences    Activity  Percentage    Sightseeing  35%    Relaxing on the beach  25%    Trying local cuisine  20%    Outdoor adventures (e.g., hiking or kayaking)  10%    Shopping  10%      "
 },
@@ -11327,7 +11507,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-2.html#stats-app-ch2-pie-example-4",
   "type": "Example",
-  "number": "H.2.570",
+  "number": "H.2.588",
   "title": "Example 4.",
   "body": " Example 4   A survey of 50 patients who were recently discharged from a hospital were asked to rate their overall stay at the hospital as Very Satisfied, Satisfied, Neutral, Dissatisfied, or Very Dissatisfied. The results are compiled in the table below. Use the Bar and Pie Chart Generator Tool to make a Pie Graph of the data.   "
 },
@@ -11345,7 +11525,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-definition",
   "type": "Definition",
-  "number": "H.3.571",
+  "number": "H.3.589",
   "title": "Mean.",
   "body": " Mean   The mean , also called the average , is the sum of all data values divided by the number of values.  Population Mean:   Sample Mean:    "
 },
@@ -11354,7 +11534,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-symbols",
   "type": "Definition",
-  "number": "H.3.572",
+  "number": "H.3.590",
   "title": "What do these symbols mean?",
   "body": " What do these symbols mean?     means sum or add all values.  represents individual data values.  is population size.  is sample size.     "
 },
@@ -11363,7 +11543,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-two-formulas",
   "type": "Definition",
-  "number": "H.3.573",
+  "number": "H.3.591",
   "title": "Why do we have two formulas for mean?",
   "body": " Why do we have two formulas for mean?   We use one formula for populations and one for samples because they represent different contexts and notations.   "
 },
@@ -11372,7 +11552,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-1",
   "type": "Example",
-  "number": "H.3.574",
+  "number": "H.3.592",
   "title": "Example 1.",
   "body": " Example 1   Consider exam scores: 75, 80, 85, 90, 95. Calculate the average score.   Test Scores of Five Students   Score  75  80  85  90  95     "
 },
@@ -11381,7 +11561,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-2",
   "type": "Example",
-  "number": "H.3.576",
+  "number": "H.3.594",
   "title": "Example 2.",
   "body": " Example 2   Complete the Understanding the Idea of Average Value\/Mean interactive example.   "
 },
@@ -11390,7 +11570,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-example-3",
   "type": "Example",
-  "number": "H.3.577",
+  "number": "H.3.595",
   "title": "Example 3.",
   "body": " Example 3   Use the Summary Statistics Calculator to find the mean of a sample of 50 LSAT scores.   "
 },
@@ -11399,7 +11579,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-definition",
   "type": "Definition",
-  "number": "H.3.578",
+  "number": "H.3.596",
   "title": "Median.",
   "body": " Median   The median of an ordered dataset separates the lower 50% and upper 50%. It may or may not be a data value and is often denoted .   "
 },
@@ -11408,7 +11588,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-steps",
   "type": "Definition",
-  "number": "H.3.579",
+  "number": "H.3.597",
   "title": "How do I calculate the Median?",
   "body": " How do I calculate the Median?   Let be sample size.    Order data from smallest to largest.  Check parity of :  If is odd, median is entry .  If is even, median is average of entries and .        "
 },
@@ -11417,7 +11597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-1",
   "type": "Example",
-  "number": "H.3.580",
+  "number": "H.3.598",
   "title": "Example 1.",
   "body": " Example 1   Weekly study hours for 7 students are shown below. Find the median by hand.   Sample of Weekly Study Hours (in hours)   Study Hours Per Week  12 15 10 18 14 11 16     "
 },
@@ -11426,7 +11606,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-2",
   "type": "Example",
-  "number": "H.3.582",
+  "number": "H.3.600",
   "title": "Example 2.",
   "body": " Example 2   Cholesterol levels (mg\/dL) for 10 people are shown below. Find the median by hand.   Sample of 10 Cholesterol Levels   Cholesterol Level (mg\/dL)  154 240 171 188 235  203 184 173 181 275     "
 },
@@ -11435,7 +11615,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-median-example-3",
   "type": "Example",
-  "number": "H.3.584",
+  "number": "H.3.602",
   "title": "Example 3.",
   "body": " Example 3   Use the Summary Statistics Calculator to find the median of a sample of 50 LSAT scores.   "
 },
@@ -11444,7 +11624,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-definition-local",
   "type": "Definition",
-  "number": "H.3.585",
+  "number": "H.3.603",
   "title": "Mode.",
   "body": " Mode   The mode of a dataset is the value(s) that occur locally with highest frequency.  When discussing the shape of histograms, we use the following classifications:    A unimodal distribution has one peak.   Example of a unimodal distribution with a peak in the center.     A multimodal distribution has multiple peaks.   A bimodal distribution with its two peaks labeled.     A uniform distribution has no distinct peak.   A uniform distribution has bars that are all approximately the same height.        "
 },
@@ -11453,7 +11633,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-definition-revised",
   "type": "Definition",
-  "number": "H.3.589",
+  "number": "H.3.607",
   "title": "Revised Definition: Mode.",
   "body": " Revised Definition: Mode   The mode is the value(s) that occur most frequently.   "
 },
@@ -11462,7 +11642,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-1",
   "type": "Example",
-  "number": "H.3.590",
+  "number": "H.3.608",
   "title": "Example 1.",
   "body": " Example 1   Find the mode of 2016–2017 tuition and fees (in thousands of dollars) for top U.S. universities.   2016–2017 Tuition and Fees (in $1000s)   Tuition and Fees  45 47 52 49 55 48 48  51 51 50 51 48 51 51     "
 },
@@ -11471,7 +11651,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-2",
   "type": "Example",
-  "number": "H.3.592",
+  "number": "H.3.610",
   "title": "Example 2.",
   "body": " Example 2   Use the Summary Statistics Calculator to identify mode(s) for a sample of LSAT scores and classify the distribution.   "
 },
@@ -11480,7 +11660,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mode-example-3",
   "type": "Example",
-  "number": "H.3.593",
+  "number": "H.3.611",
   "title": "Example 3.",
   "body": " Example 3   Use the Frequency Distribution Tool to determine the mode for shirt-size sales data.   "
 },
@@ -11489,7 +11669,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outlier-definition",
   "type": "Definition",
-  "number": "H.3.594",
+  "number": "H.3.612",
   "title": "Outliers.",
   "body": " Outliers   An outlier is a data point that does not follow the overall distribution pattern and is usually much larger or smaller than most values.   "
 },
@@ -11498,7 +11678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-skewness-example-1",
   "type": "Example",
-  "number": "H.3.595",
+  "number": "H.3.613",
   "title": "Example 1.",
   "body": " Example 1   Given scores :    Find mean, median, and mode.  Add outlier 41 and recompute.  Determine which center changed most and least.     "
 },
@@ -11507,7 +11687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-resistance-definition",
   "type": "Definition",
-  "number": "H.3.596",
+  "number": "H.3.614",
   "title": "Resistance to Outliers.",
   "body": " Resistance to Outliers   A statistic is resistant if extreme values cause little or no change.  In this context, mean is not resistant, while median and mode are resistant.   "
 },
@@ -11516,7 +11696,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-unimodal-center-relationships",
   "type": "Definition",
-  "number": "H.3.597",
+  "number": "H.3.615",
   "title": "The Mean, Median, and Mode in Unimodal Distributions.",
   "body": " The Mean, Median, and Mode in Unimodal Distributions   Normal Distribution:  .   In a normal distribution, the mean, median, and mode are equal and located at the peak.    Skew-right Distribution:  .   A skew-right distribution pulls the mean and median to the right, away from the mode. The mean is pulled farther than the median.    Skew-left Distribution:  .   A skew-left distribution pulls the mean and median to the left, away from the mode. The mean is pulled farther than the median.     "
 },
@@ -11525,7 +11705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-1",
   "type": "Example",
-  "number": "H.3.601",
+  "number": "H.3.619",
   "title": "Example 1.",
   "body": " Example 1   For data , calculate mean by direct definition, grouped multiplication, and simplified weighted form.   "
 },
@@ -11534,7 +11714,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-definition",
   "type": "Definition",
-  "number": "H.3.602",
+  "number": "H.3.620",
   "title": "What is a Weighted Mean?",
   "body": " What is a Weighted Mean?   A weighted mean is a mean where values carry frequencies or weights.  Using frequencies:   Using weights:    "
 },
@@ -11543,7 +11723,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-2",
   "type": "Example",
-  "number": "H.3.603",
+  "number": "H.3.621",
   "title": "Example 2.",
   "body": " Example 2   Compute current course grade with weighted categories using the Summary Statistics Calculator .   Sample Grades for a Course   Category Grade (%) Percentage of Grade  MyLab Stat 43% 7.5%  Quizzes 63% 7.5%  Exam 1 92% 20%  Exam 2 67% 20%  Exam 3 76% 20%     "
 },
@@ -11552,7 +11732,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-weighted-mean-example-3",
   "type": "Example",
-  "number": "H.3.605",
+  "number": "H.3.623",
   "title": "Example 3.",
   "body": " Example 3   Estimate mean gas mileage for family sedans from grouped data using midpoint-frequency weighted mean.   A Frequency Distribution for the Gas Mileage of 24 Family Sedans   Gas Mileage (mpg) Midpoint Frequency  22 to 27 16  28 to 33 2  34 to 39 2  40 to 45 4     "
 },
@@ -11561,7 +11741,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-not-enough-overview",
   "type": "Definition",
-  "number": "H.3.607",
+  "number": "H.3.625",
   "title": "Is the Mean Enough to Describe a Dataset?",
   "body": " Is the Mean Enough to Describe a Dataset?   The mean is one of the most commonly used measures to summarize a dataset. While it provides useful information about central tendency, it does not always tell the whole story. Different datasets can have the same mean and still have very different distributions.   "
 },
@@ -11570,7 +11750,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-mean-not-enough-example-1",
   "type": "Example",
-  "number": "H.3.608",
+  "number": "H.3.626",
   "title": "Example 1.",
   "body": " Example 1     Part A: Find the mean of .  Part B: Find the mean of .  Part C: Even though the means are the same, describe how the datasets differ.     "
 },
@@ -11579,7 +11759,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-definition-extra",
   "type": "Definition",
-  "number": "H.3.609",
+  "number": "H.3.627",
   "title": "Range.",
   "body": " Range   .   "
 },
@@ -11588,7 +11768,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-advantages-disadvantages",
   "type": "Definition",
-  "number": "H.3.610",
+  "number": "H.3.628",
   "title": "Advantages and Disadvantages of the Range.",
   "body": " Advantages and Disadvantages of the Range     Advantage: simple and quick to compute.  Disadvantage: depends only on the minimum and maximum values, so it is sensitive to outliers.     "
 },
@@ -11597,7 +11777,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-example-1-extra",
   "type": "Example",
-  "number": "H.3.611",
+  "number": "H.3.629",
   "title": "Example 1.",
   "body": " Example 1   Scientists track migration distances (in miles) for 10 birds.   Migration Distances   Distance (in miles)  354 400 412 375 389 410 368 390 405 392      Part A: Find the range.  Part B: Explain what the range says about variation.     "
 },
@@ -11606,7 +11786,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-range-example-2-extra",
   "type": "Example",
-  "number": "H.3.613",
+  "number": "H.3.631",
   "title": "Example 2.",
   "body": " Example 2   Ages (in years) of 12 participants in a community program are listed below.   Participants in a Community Program   Age (in years)  22 25 31 28 24 35 45 41 29 33 38 40     "
 },
@@ -11615,7 +11795,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-definition-extra",
   "type": "Definition",
-  "number": "H.3.615",
+  "number": "H.3.633",
   "title": "Deviation.",
   "body": " Deviation   The deviation of a data point is the difference between the value and the mean.  Population:   Sample:   .   "
 },
@@ -11624,7 +11804,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-notes-extra",
   "type": "Definition",
-  "number": "H.3.616",
+  "number": "H.3.634",
   "title": "Notes on Deviation.",
   "body": " Notes on Deviation     Positive deviation means the data point is above the mean.  Negative deviation means the data point is below the mean.     "
 },
@@ -11633,7 +11813,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-deviation-example-1-extra",
   "type": "Example",
-  "number": "H.3.617",
+  "number": "H.3.635",
   "title": "Example 1.",
   "body": " Example 1   Salaries for a sample of 10 individuals are shown below (in thousands of dollars).   Sample of 10 Salaries (in Thousands of Dollars)   Salaries (in thousands of dollars)  40 23 41 50 49 32 41 59 52 58      Part A: Calculate each salary's deviation.  Part B: Use the Summary Statistics Calculator to find average deviation.     "
 },
@@ -11642,7 +11822,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-overview-extra",
   "type": "Definition",
-  "number": "H.3.619",
+  "number": "H.3.637",
   "title": "Understanding Standard Deviation.",
   "body": " Understanding Standard Deviation   Standard deviation is a key measure of variability and describes typical distance from the mean.   "
 },
@@ -11651,7 +11831,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-squared-deviation-definition-extra",
   "type": "Definition",
-  "number": "H.3.620",
+  "number": "H.3.638",
   "title": "Squared Deviation.",
   "body": " Squared Deviation   Population:   Sample:    "
 },
@@ -11660,7 +11840,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-squared-deviation-example-1-extra",
   "type": "Example",
-  "number": "H.3.621",
+  "number": "H.3.639",
   "title": "Example 1.",
   "body": " Example 1   Compute squared deviations for the salary data and find their sum.   "
 },
@@ -11669,7 +11849,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-definition-extra",
   "type": "Definition",
-  "number": "H.3.622",
+  "number": "H.3.640",
   "title": "Variance.",
   "body": " Variance   Population:   Sample:    "
 },
@@ -11678,7 +11858,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-n-minus-one-extra",
   "type": "Definition",
-  "number": "H.3.623",
+  "number": "H.3.641",
   "title": "Why does sample variance use <span class=\"process-math\">\\(n-1\\text{?}\\)<\/span>",
   "body": " Why does sample variance use ?   This is related to degrees of freedom .   Stacks of 1, 2, 4, 2, 3, and 5 dots, respectively.     One stack is still height 2 after arranging all the dots into even stacks of 3.     The original stacks with a stack of four dots adding as the seventh stack.     "
 },
@@ -11687,7 +11867,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-variance-example-2-extra",
   "type": "Example",
-  "number": "H.3.627",
+  "number": "H.3.645",
   "title": "Example 2.",
   "body": " Example 2   Compute variance for the salary dataset.    Variance has squared units.  Variance can be numerically large because deviations are squared.     "
 },
@@ -11696,7 +11876,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-definition-extra",
   "type": "Definition",
-  "number": "H.3.628",
+  "number": "H.3.646",
   "title": "Standard Deviation.",
   "body": " Standard Deviation   Population:   Sample:    "
 },
@@ -11705,7 +11885,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-properties-extra",
   "type": "Definition",
-  "number": "H.3.629",
+  "number": "H.3.647",
   "title": "Important Properties of Standard Deviation.",
   "body": " Important Properties of Standard Deviation     Measures average distance from the mean.  Always greater than or equal to zero.  Larger values indicate more variation.  Not resistant to outliers.  Uses the same units as the data.     "
 },
@@ -11714,7 +11894,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-standard-deviation-example-3-extra",
   "type": "Example",
-  "number": "H.3.630",
+  "number": "H.3.648",
   "title": "Example 3.",
   "body": " Example 3   Use the Summary Statistics Calculator to compute standard deviation for the salary data.   "
 },
@@ -11723,7 +11903,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outliers-normal-overview-extra",
   "type": "Definition",
-  "number": "H.3.631",
+  "number": "H.3.649",
   "title": "How to Find Outliers for Normal Distributions.",
   "body": " How to Find Outliers for Normal Distributions   Outliers are extreme values that stand apart from most of a dataset.   "
 },
@@ -11732,7 +11912,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-outliers-normal-example-1-extra",
   "type": "Example",
-  "number": "H.3.632",
+  "number": "H.3.650",
   "title": "Example 1.",
   "body": " Example 1   Unemployment rates are approximately normal with mean and standard deviation . Classify:    Part A:   Part B:   Part C:      "
 },
@@ -11741,7 +11921,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-empirical-rule-definition-extra",
   "type": "Definition",
-  "number": "H.3.633",
+  "number": "H.3.651",
   "title": "The Empirical Rule.",
   "body": " The Empirical Rule     About of data lies between and .  About of data lies between and .  About of data lies between and .     "
 },
@@ -11750,7 +11930,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-empirical-rule-example-1-extra",
   "type": "Example",
-  "number": "H.3.634",
+  "number": "H.3.652",
   "title": "Example 1.",
   "body": " Example 1   A sample has mean height inches and standard deviation inches. Use the Empirical Rule Calculator :    Part A: Percent between and .  Part B: Percent taller than .  Part C: Percent shorter than .     "
 },
@@ -11759,7 +11939,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-chebyshev-definition-extra",
   "type": "Definition",
-  "number": "H.3.635",
+  "number": "H.3.653",
   "title": "Chebyshev’s Inequality.",
   "body": " Chebyshev's Inequality   At least of data lies within standard deviations of the mean, for .    : at least  : at least  : at least     "
 },
@@ -11768,7 +11948,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3-chebyshev-example-1-extra",
   "type": "Example",
-  "number": "H.3.636",
+  "number": "H.3.654",
   "title": "Example 1.",
   "body": " Example 1   A hospital has systolic blood-pressure data with mean mmHg and standard deviation mmHg. Use Chebyshev's inequality to find the minimum percentage between and mmHg.   "
 },
@@ -11777,7 +11957,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-overview",
   "type": "Definition",
-  "number": "H.3.637",
+  "number": "H.3.655",
   "title": "How to Calculate a Percentile.",
   "body": " How to Calculate a Percentile   A percentile indicates the relative standing of a data value in a dataset. The percentile is the value below which of the data falls.   "
 },
@@ -11786,7 +11966,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-by-hand",
   "type": "Definition",
-  "number": "H.3.638",
+  "number": "H.3.656",
   "title": "Percentiles By Hand.",
   "body": " Percentiles By Hand   Formula for percentile rank of a value :   How to find a data value for a given percentile:    Step 1: Compute .  Step 2: Use the position in the ordered data:  If decimal, use adjacent positions and average those two values.  If whole number, use that position and the next position, then average.       Notation: denotes the percentile (for example, ).   "
 },
@@ -11795,7 +11975,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-1",
   "type": "Example",
-  "number": "H.3.639",
+  "number": "H.3.657",
   "title": "Example 1.",
   "body": " Example 1   The dataset below gives three-point shots made by 50 NBA players.    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.     Three-Point Shots Made by 50 NBA Players   Number of Three-Point Shots (Ordered)  5 8 12 18 22 28 35 40 48 55  60 68 72 80 85 90 98 105 110 118  125 130 135 140 148 150 158 165 170 175  180 185 190 198 205 210 220 230 240 250  260 270 280 290 300 310 320 330 340 350     "
 },
@@ -11804,7 +11984,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-2",
   "type": "Example",
-  "number": "H.3.641",
+  "number": "H.3.659",
   "title": "Percentiles using GeoGebra: Example 2.",
   "body": " Percentiles using GeoGebra: Example 2   Using the same dataset above:    Part A: Find the percentile.  Part B: Find the percentile rank of 180 three-pointers.     "
 },
@@ -11813,7 +11993,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-notes",
   "type": "Definition",
-  "number": "H.3.642",
+  "number": "H.3.660",
   "title": "Cumulative Relative Frequency vs Percentiles.",
   "body": " Cumulative Relative Frequency vs Percentiles   Cumulative relative frequency uses “less than or equal to,” while percentile rank is typically interpreted as “less than.”   "
 },
@@ -11822,7 +12002,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-median-relation",
   "type": "Definition",
-  "number": "H.3.643",
+  "number": "H.3.661",
   "title": "Relationship Between the Median and Percentiles.",
   "body": " Relationship Between the Median and Percentiles   The median is the 50th percentile, i.e. .   "
 },
@@ -11831,7 +12011,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-percentile-example-3-interpret",
   "type": "Example",
-  "number": "H.3.644",
+  "number": "H.3.662",
   "title": "Interpreting Percentiles.",
   "body": " Interpreting Percentiles   Interpret each scenario:    Part A: A baby’s weight is in the 85th percentile.  Part B: A household income is at the 70th percentile.  Part C: A patient’s blood pressure is in the 40th percentile.  Part D: A student’s GPA is in the 75th percentile in their school.  Part E: A machine produces parts in the 98th percentile for accuracy.     "
 },
@@ -11840,7 +12020,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-overview",
   "type": "Definition",
-  "number": "H.3.645",
+  "number": "H.3.663",
   "title": "How to Calculate a <span class=\"process-math\">\\(z\\)<\/span>-score.",
   "body": " How to Calculate a -score   A -score (standard score) measures how many standard deviations a value lies above or below the mean.   "
 },
@@ -11849,7 +12029,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-1",
   "type": "Example",
-  "number": "H.3.646",
+  "number": "H.3.664",
   "title": "Example 1.",
   "body": " Example 1   A normal distribution has mean 175 cm and standard deviation 7 cm.   Distribution of Heights   Height (cm) Empirical Rule Calculation -score  154 -3  161 -2  168 -1  175 0  182 1  189 2  196 3     "
 },
@@ -11858,7 +12038,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-formulas",
   "type": "Definition",
-  "number": "H.3.648",
+  "number": "H.3.666",
   "title": "<span class=\"process-math\">\\(z\\)<\/span>-Score Formulas.",
   "body": " -Score Formulas   General structure:  Population:   Sample:    Normal distribution with heights and z-scores labeled on the x-axis.     "
 },
@@ -11867,7 +12047,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-features",
   "type": "Definition",
-  "number": "H.3.650",
+  "number": "H.3.668",
   "title": "Important Features of <span class=\"process-math\">\\(z\\)<\/span>-Scores.",
   "body": " Important Features of -Scores     -scores are unitless.  Positive means above the mean; negative means below.  Absolute -score measures extremeness.     Two normal distributions, one with data on the x-axis, one with z-scores on the x-axis.     "
 },
@@ -11876,7 +12056,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-2",
   "type": "Example",
-  "number": "H.3.652",
+  "number": "H.3.670",
   "title": "Example 2.",
   "body": " Example 2   Who is relatively taller at 68 inches: a man or a woman?   Average Heights and Standard Deviations   Group Mean Height (in) Standard Deviation (in)  Men 69.9 3.0  Women 64.3 2.6     "
 },
@@ -11885,7 +12065,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-3",
   "type": "Example",
-  "number": "H.3.654",
+  "number": "H.3.672",
   "title": "Example 3.",
   "body": " Example 3   The ACT has mean 20.8 and standard deviation 5.8. The SAT has mean 1500 and standard deviation 300. Who performed worse relative to peers: SAT 1075 or ACT 15?   "
 },
@@ -11894,7 +12074,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-extreme",
   "type": "Definition",
-  "number": "H.3.655",
+  "number": "H.3.673",
   "title": "Extreme Values.",
   "body": " Extreme Values   A value is more extreme when its absolute -score is larger.    Step 1: Compute both -scores.  Step 2: Take absolute values.  Step 3: Larger absolute value is more extreme.     "
 },
@@ -11903,7 +12083,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-zscore-example-4",
   "type": "Example",
-  "number": "H.3.656",
+  "number": "H.3.674",
   "title": "Example 4.",
   "body": " Example 4   Determine which is more extreme: a man who weighs 145 lbs (mean 208, sd 25) or a woman who weighs 224 lbs (mean 175, sd 25).   "
 },
@@ -11912,7 +12092,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-overview",
   "type": "Definition",
-  "number": "H.3.657",
+  "number": "H.3.675",
   "title": "How to Calculate the Five-Number Summary.",
   "body": " How to Calculate the Five-Number Summary   Quartiles divide ordered data into four parts.    : first quartile  : median  : third quartile     "
 },
@@ -11921,7 +12101,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-1",
   "type": "Example",
-  "number": "H.3.658",
+  "number": "H.3.676",
   "title": "Quartiles: Example 1.",
   "body": " Quartiles: Example 1   Find and for meteorite crater diameters.   Meteorite Impact Crater Diameters (km)   Crater Diameters (km)  1.2 3.5 2.8 4.0 6.7 5.2 8.1 3.1 4.5 2.9 6.0 7.4     "
 },
@@ -11930,7 +12110,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-2",
   "type": "Example",
-  "number": "H.3.660",
+  "number": "H.3.678",
   "title": "Quartiles: Example 2.",
   "body": " Quartiles: Example 2   Use the Summary Statistics Calculator to find and for esports reaction times.   Reaction Times in an Esports Tournament (ms)   Reaction Times (ms)  175 180 185 189 190 195 195 198 200 202  205 210 210 215 215 220 225 230 235 240  245 250 250 255 260 265 270 275 280 290     "
 },
@@ -11939,7 +12119,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-definition",
   "type": "Definition",
-  "number": "H.3.662",
+  "number": "H.3.680",
   "title": "The Five-Number Summary.",
   "body": " The Five-Number Summary   The five-number summary consists of minimum, , median, , and maximum.   "
 },
@@ -11948,7 +12128,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-five-number-example-3",
   "type": "Example",
-  "number": "H.3.663",
+  "number": "H.3.681",
   "title": "Example 3.",
   "body": " Example 3   Compute the five-number summary for roller coaster speeds.   Speeds of Roller Coasters Around the World (mph)   Roller Coaster Speeds (mph)  44.7 60.9 65.2 52.8 74.6 68.4 59.0 63.3 55.3 80.8  88.2 49.7 77.7 85.7 55.9 61.5 78.9 93.2 67.1 57.8  62.1 71.3 54.0 83.9 90.2 50.9 99.4 96.3 86.8 46.6     "
 },
@@ -11957,7 +12137,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-definition",
   "type": "Definition",
-  "number": "H.3.665",
+  "number": "H.3.683",
   "title": "How to Find Outliers for Skewed Data.",
   "body": " How to Find Outliers for Skewed Data   The interquartile range is , and it measures spread of the middle 50% of skewed data.   "
 },
@@ -11966,7 +12146,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-example-1",
   "type": "Example",
-  "number": "H.3.666",
+  "number": "H.3.684",
   "title": "Example 1.",
   "body": " Example 1   Compute IQR for exoplanet brightness data.   Exoplanet Brightness Measurements   Brightness (Magnitude)  -3.4 -2.9 -2.5 -2.2 -1.8 -1.5 -1.2 -0.9 -0.7 -0.5  -0.3 -0.1 0.2 0.4 0.7 1.0 1.3 1.7 2.1 3.8     "
 },
@@ -11975,7 +12155,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-rule",
   "type": "Definition",
-  "number": "H.3.668",
+  "number": "H.3.686",
   "title": "IQR Rule for Outliers.",
   "body": " IQR Rule for Outliers     Significantly low if value .  Significantly high if value .     "
 },
@@ -11984,7 +12164,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-iqr-example-2",
   "type": "Example",
-  "number": "H.3.669",
+  "number": "H.3.687",
   "title": "Example 2.",
   "body": " Example 2   Identify outliers in music streaming counts using IQR.   Music Streaming Counts (Millions)   Streams  1.2 1.5 2.1 2.4 2.9 3.3 3.6 4.0 4.2 4.8  5.1 5.7 6.0 6.2 6.8 7.3 8.1 8.5 9.0 15.4     "
 },
@@ -11993,7 +12173,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-definition",
   "type": "Definition",
-  "number": "H.3.671",
+  "number": "H.3.689",
   "title": "How to Create a Boxplot.",
   "body": " How to Create a Boxplot   A boxplot summarizes the distribution using the five-number summary and whiskers.   "
 },
@@ -12002,7 +12182,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-steps",
   "type": "Definition",
-  "number": "H.3.672",
+  "number": "H.3.690",
   "title": "Steps to Construct a Boxplot.",
   "body": " Steps to Construct a Boxplot     Find the five-number summary.  Draw a box from to with a median line.  Draw whiskers to minimum and maximum.     "
 },
@@ -12011,7 +12191,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-1",
   "type": "Example",
-  "number": "H.3.673",
+  "number": "H.3.691",
   "title": "Example 1.",
   "body": " Example 1   Construct a boxplot for gaming session lengths.   Gaming Session Lengths (Minutes)   Session Lengths (Minutes)  15 30 45 60 75  120 150 90 200 180  95 110 130 140 85  70 160 170 55 40  190 210 35 100 250     "
 },
@@ -12020,7 +12200,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-2",
   "type": "Example",
-  "number": "H.3.675",
+  "number": "H.3.693",
   "title": "Example 2.",
   "body": " Example 2   Use the Boxplot Generator to create a boxplot for coffee consumption.   Coffee Consumption (Cups per Day)   Number of Cups  0 1 2 3 5 3 4 6 7 2  3 4 5 1 0 8 3 6 4 5  2 7 3 4 6 2 1 5 3 4     "
 },
@@ -12029,7 +12209,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-skewness",
   "type": "Definition",
-  "number": "H.3.677",
+  "number": "H.3.695",
   "title": "Skewness in Boxplots.",
   "body": " Skewness in Boxplots     Approximately normal: median centered and whiskers similar length.  A boxplot of a normal distribution for free throw percentages.     Left skewed: median closer to or left whisker longer.  Skew-left boxplot on the number of hours of sleep a new parent gets.     Right skewed: median closer to or right whisker longer.  A strong skew-right boxplot for student loan payments.        "
 },
@@ -12038,7 +12218,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-comparison",
   "type": "Definition",
-  "number": "H.3.681",
+  "number": "H.3.699",
   "title": "Comparing Datasets Using Boxplots.",
   "body": " Comparing Datasets Using Boxplots     Side-by-side distribution comparison  Quick insight into variability  Compact but informative summaries     "
 },
@@ -12047,9 +12227,630 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "appendix-statistics-chapter-3.html#appendix-statistics-ch3b-boxplot-example-3",
   "type": "Example",
-  "number": "H.3.682",
+  "number": "H.3.700",
   "title": "Example 3.",
   "body": " Example 3   Compare 100m sprint times for high-school and Olympic athletes using the Boxplot Generator .   100m Sprint Times: High School vs. Olympic Athletes   High School (s) Olympic (s)  10.55 10.60 10.65 10.72 10.78 9.58 9.69 9.72 9.76 9.81  10.82 10.85 10.89 10.94 10.98 9.85 9.88 9.91 9.93 9.95  11.02 11.07 11.10 11.14 11.18 9.98 10.01 10.03 10.05 10.08  11.21 11.25 11.29 11.35 11.40 10.12 10.15 10.19 10.22 10.25     "
+},
+{
+  "id": "appendix-statistics-chapter-4",
+  "level": "1",
+  "url": "appendix-statistics-chapter-4.html",
+  "type": "Worksheet",
+  "number": "H.4",
+  "title": "Chapter 4 Lecture Notes",
+  "body": " Chapter 4 Lecture Notes   What are Sample Spaces and Events?   The sample space of an experiment is the population of all unique possible results that could occur in that experiment. It is typically denoted by .  An outcome is a single possible result of an experiment. Similar to data, we often use to denote an outcome.     Using Set Notation to List Outcomes in a Sample Space   Consider rolling a fair six-sided die. What is the sample space for this experiment?     Using Ordered Pairs to List Out the Elements of a Sample Space   Consider rolling two fair four-sided dice (2d4). What is the sample space for this experiment?     Using an Ordered List to Represent Outcomes in a Sample Space   Consider flipping a fair coin 4 times. Each flip results in either Heads (H) or Tails (T). The outcome of the experiment is a sequence of four letters representing the results of each flip. For example, THHT represents tails on the first flip, heads on the second and third flips, and tails on the last flip.     What is an Event?   An event is a subset of a sample space that satisfies a given condition.     Using Set Notation to List Outcomes in an Event   Consider rolling a fair six-sided die. The sample space is: List the outcomes for the event of rolling an even number.     Using Ordered Pairs to List Outcomes in an Event   Consider rolling two fair four-sided dice (2d4). The sample space consists of all two-digit sequences where each digit represents a separate die roll:  S = {11, 12, 13, 14, 21, 22, 23, 24, 31, 32, 33, 34, 41, 42, 43, 44}  List the outcomes for the event of rolling a total sum of 5.     Using Ordered Lists to Represent Outcomes in an Event   Consider flipping a fair coin 4 times. The sample space consists of all possible sequences of four flips:  S = {HHHH,HHHT,HHTH,HHTT,HTHH,HTHT,HTTH,HTTT, THHH,THHT,THTH,THTT,TTHH,TTHT,TTTH,TTTT}  List the outcomes for the event of getting two or more heads.     The Number of Outcomes   The notation represents the number of elements in a set .    For a sample space , gives the total number of possible outcomes in the experiment.  For an event , represents the number of outcomes that satisfy the event condition.       Counting the Elements in a Sample Space and one of its Events   Consider rolling a fair six-sided die. The sample space is . The event of rolling an even number is . Compute and .     Counting the Elements in a Sample Space and one of its Events   Consider rolling two fair four-sided dice (2d4). The sample space is:  S = {11, 12, 13, 14, 21, 22, 23, 24, 31, 32, 33, 34, 41, 42, 43, 44}  The event of rolling a total sum of 5 is:   Compute and .     Counting the Elements in a Sample Space and one of its Events   Consider flipping a fair coin 4 times. The sample space is:  S = {HHHH,HHHT,HHTH,HHTT,HTHH,HTHT,HTTH,HTTT, THHH,THHT,THTH,THTT,TTHH,TTHT,TTTH,TTTT}  The event of getting two or more heads is:  E=\\{HHHH,HHHT,HHTH,HHTT,HTHH,HTHT, HTTH,THHH,THHT,THTH,TTHH\\}  Compute and .     What is Theoretical Probability?   The theoretical probability of an event is given by:     is the number of outcomes in the event.  is the total number of outcomes in the sample space.    Theoretical probability assumes that all outcomes in the sample space are equally likely.     Computing Theoretical Probability   Consider rolling a fair six-sided die with . The event of rolling an even number is . Compute .     Computing Theoretical Probability   Consider rolling two fair four-sided dice (2d4). The sample space is:  S = {11, 12, 13, 14, 21, 22, 23, 24, 31, 32, 33, 34, 41, 42, 43, 44}  The event of rolling a total sum of 5 is .  Compute .     Computing Theoretical Probability   Consider flipping a fair coin 4 times. The sample space is:  S = {HHHH,HHHT,HHTH,HHTT,HTHH,HTHT,HTTH,HTTT, THHH,THHT,THTH,THTT,TTHH,TTHT,TTTH,TTTT}  The event of getting two or more heads is:  E=\\{HHHH,HHHT,HHTH,HHTT,HTHH,HTHT, HTTH,THHH,THHT,THTH,TTHH\\}  Compute .     Putting It All Together   A nurse is monitoring 3 patients for signs of fever (F) or no fever (N). List the sample space and compute the probability that exactly 2 patients have a fever.     Probability Using Equally Likely Outcomes   Consider the spinner below. What is the probability of spinning yellow?   Spinner with four equal sized areas: red, blue, green, and yellow.       Probability Using Outcomes That Are Not Equally Likely   Consider the spinner below. What is the probability of spinning yellow?   Spinner with 1\/2 of area yellow, 1\/8 of area red and blue each, and 1\/4 of area green.       Can I Always Find an Equivalent Sample Space where Everything is Equally Likely?  Yes. While a full theorem statement is beyond this course, it is always possible to model outcomes so they are equally likely by partitioning outcomes into finer labeled parts that share the same property.    What is Empirical Probability?   For a sample of size , the empirical probability that a randomly chosen individual has property is:   This is the same formula as relative frequency in a sample.     Example 1   In a sample of 30 people, 18 have blue eyes. What is the probability that a randomly selected person from this sample has blue eyes?     Example 2   Follow this link to open a StatCrunch simulation on flipping a fair quarter.    Part A: Flip a fair coin 10 times. What proportion of heads do you get?  Part B: Flip a fair coin 10,000 times. What proportion of heads do you get?       What is the Difference Between Probability and Relative Frequency?     Relative frequency tells us what percentage of observed data has a given property.  Empirical probability estimates the chance a randomly selected individual from a sample has a given property.  Theoretical probability is the exact long-run proportion when an experiment is repeated indefinitely under equal-likelihood assumptions.       Example 3   For each scenario, determine whether the calculation is relative frequency, empirical probability, or theoretical probability.    Part A: A weather station records rain on 40 of 100 days and reports 40% rainy days.  Part B: In a survey of 2,000 residents, 500 report difficulty accessing care. The probability from this sample is .  Part C: A commuter chooses biking, bus, or driving, each equally likely. The probability of bus is .       What is Subjective Probability?   The probability of an event occurring can be estimated from knowledge of relevant circumstances.     Example 4   Estimate the probability that the next time you turn on a light bulb, it is still in working order. Why is this not a strong way to determine probability?     What are the Properties of Probability?   The empty set, denoted , contains no elements and has probability .  An impossible event has probability 0.  A sure thing (certain event) includes all outcomes in and has probability .     Example 1   A space mission launches with probability 0.9 under favorable conditions, but has probability 0 during a major storm.    Part A: What is the probability that the rocket launches during a major storm?  Part B: Explain why this is an impossible event.       Example 2   A school has a morning announcement every school day at 8:00 AM.    Part A: What is the probability that a morning announcement occurs on a school day?  Part B: Explain why this is a sure thing.       Probability Properties     For any event , .  The total probability over a sample space is 1.  If events and are disjoint, then .       Example 3   A student reports , , , and . Which values are valid probabilities? Explain.     Example 4   A fair die has probabilities . Find the sum of all six probabilities and explain why it makes sense.     Example 5   A spinner has , , and . Find .     Example 6   A factory has part types A, B, C with and . Find .     What are Mutually Exclusive Events?   Two events are mutually exclusive if they cannot happen at the same time.  , equivalently .     Example 1   Determine whether each pair is mutually exclusive.    Statement 1: One coin flip results in heads or tails.  Statement 2: A student passes or fails an exam.  Statement 3: A randomly chosen person is left-handed or right-handed.  Statement 4: A randomly chosen student is in a math or science class.       What is the Addition Rule for Probability?   For any events and :   If and are mutually exclusive:      Key Probability Rules and Their Operations   Probability Rule Common Keywords Mathematical Operation  Addition Rule Or, either, at least one Addition     Example 2   In a hospital, 40% receive physical therapy, 30% receive occupational therapy, and 10% receive both. Find the probability that a randomly chosen patient receives either type of therapy.     Example 3   A survey gives , , and . Find .     Example 4   A participant can qualify for exactly one of two aid programs, with probabilities 0.45 and 0.35. Find the probability of qualifying for at least one program.     Example 5   Given , , and , find .     What is a Two-Way Table?   A two-way table (contingency table) organizes data for two categorical variables.    Individual cells: .  Row totals: .  Column totals: .  Grand total: .       Lunch Preferences of Students   Lunch Preference Prefers Milk Prefers Juice Total  Pizza 25 30 55  Sandwich 15 20 35  Total 40 50 90     Example 6   A city surveyed 937 residents about bus and subway use. How many use either the bus or the subway?   Public Transportation Use   Transportation Use Uses Bus Does Not Use Bus Total  Uses Subway 214 289 503  Does Not Use Subway 162 272 434  Total 376 561 937       What is Conditional Probability?   Conditional probability is the probability of event given that event has occurred, written .      Key Probability Rules and Their Operations   Probability Rule Common Keywords Mathematical Operation  Addition Rule Or, either, at least one Addition  Conditional Probability If, given N\/A     Example 1   A botanist records plant growth and fertilizer use:   Plant Growth and Fertilizer Use   Plant Growth Fertilizer Used No Fertilizer Total  Grew Successfully 85 40 125  Did Not Grow 30 45 75  Total 115 85 200      Part A: If a plant is selected at random, what is the probability it grew successfully?  Part B: If selected from plants that received fertilizer, what is the probability it grew successfully?       Example 2   A biologist records insect type and activity pattern:   Insect Species and Nocturnal Behavior   Insect Type Nocturnal Diurnal Total  Moth 120 30 150  Beetle 40 60 100  Total 160 90 250      Part A: Use the conditional probability definition to compute .  Part B: An insect is selected from moths. What is the probability it is nocturnal?       Example 3   A drawer has 6 white socks and 4 black socks. One sock is picked, not replaced, and then a second is picked. If the first sock is white, what is the probability the second sock is also white?     Example 4   A greenhouse study reports: 50% of plants have yellowing leaves, 35% test positive for fungal infection, and 25% have both.    Part A: Find .  Part B: Find .  Part C: Are these conditional probabilities equal? Explain.       What Does It Mean for Two Events to Be Independent?   Events and are independent if one does not affect the probability of the other.  , equivalently .     Example 1   A survey of 200 students: 120 use social media daily, 80 report high anxiety, and 50 report both.    Part A: Find and .  Part B: Find .  Part C: Are the events independent? Explain.       Example 2   In a population of 500: 200 have blue eyes, 100 are left-handed, and 40 are both.    Part A: Find and .  Part B: Find .  Part C: Are the events independent? Explain.       What is the Multiplication Rule for Probability?     Independent events: .  Dependent events: .       Key Probability Rules and Their Operations   Probability Rule Common Keywords Mathematical Operation  Addition Rule Or, either, at least one Addition  Conditional Probability If, given N\/A  Multiplication Rule And, but, both Multiplication     Example 3   An investor chooses two independent stocks with and . Find the probability both increase on the same day.     Example 4   A citizen registers to vote with probability 0.75. If registered, probability of voting is 0.6. Find the probability a randomly selected citizen both registers and votes.     What is the Complement of an Event?   The complement of event , denoted or not , consists of all outcomes in the sample space not in .       Opposite Pairs for Inequalities   Common phrase pairs describe opposite inequality conditions.     Opposite Pairs of Mathematical Phrases   Phrase Opposite Phrase  Less than Greater than or equal to  Less than or equal to Greater than  Greater than Less than or equal to  Greater than or equal to Less than  At most More than  At least Less than     Example 1   Rewrite each statement in its opposite form.    Part A: All patients younger than 17 years old with a particular heart defect.  Part B: Drivers must maintain a speed greater than 70 mph on the highway.  Part C: Randy saw at least 7 cats on his picnic table.  Part D: All households that make less than $53,000 are below median income for their city.       Key Probability Rules and Their Operations   Probability Rule Common Keywords Mathematical Operation  Addition Rule Or, either, at least one Addition  Conditional Probability If, given N\/A  Multiplication Rule And, but, both Multiplication  Complement Not, negation words Subtraction     Example 2   A city bus arrives on time with probability 0.82.    Part A: Define the complement event.  Part B: Find the probability that a randomly selected bus is not on time.       Example 3   A first battery works with probability 0.90. If it fails, a backup works with probability 0.60. Find the probability that both batteries fail.     Example 4: The Birthday Problem   In a group of 23 people, what is the probability that at least two share a birthday?     How to Use Tree Diagrams with the Multiplication Rule   At a clinic, Dr. Chen sees 60% of patients and diagnoses correctly 85% of the time. Dr. Davis sees the rest and diagnoses correctly 90% of the time.  Find the probability that a randomly selected patient is correctly diagnosed on the first visit.    "
+},
+{
+  "id": "appendix-statistics-ch4-sample-space-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-sample-space-definition",
+  "type": "Definition",
+  "number": "H.4.702",
+  "title": "What are Sample Spaces and Events?",
+  "body": " What are Sample Spaces and Events?   The sample space of an experiment is the population of all unique possible results that could occur in that experiment. It is typically denoted by .  An outcome is a single possible result of an experiment. Similar to data, we often use to denote an outcome.   "
+},
+{
+  "id": "appendix-statistics-ch4-sample-space-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-sample-space-example-1",
+  "type": "Example",
+  "number": "H.4.703",
+  "title": "Using Set Notation to List Outcomes in a Sample Space.",
+  "body": " Using Set Notation to List Outcomes in a Sample Space   Consider rolling a fair six-sided die. What is the sample space for this experiment?   "
+},
+{
+  "id": "appendix-statistics-ch4-sample-space-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-sample-space-example-2",
+  "type": "Example",
+  "number": "H.4.704",
+  "title": "Using Ordered Pairs to List Out the Elements of a Sample Space.",
+  "body": " Using Ordered Pairs to List Out the Elements of a Sample Space   Consider rolling two fair four-sided dice (2d4). What is the sample space for this experiment?   "
+},
+{
+  "id": "appendix-statistics-ch4-sample-space-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-sample-space-example-3",
+  "type": "Example",
+  "number": "H.4.705",
+  "title": "Using an Ordered List to Represent Outcomes in a Sample Space.",
+  "body": " Using an Ordered List to Represent Outcomes in a Sample Space   Consider flipping a fair coin 4 times. Each flip results in either Heads (H) or Tails (T). The outcome of the experiment is a sequence of four letters representing the results of each flip. For example, THHT represents tails on the first flip, heads on the second and third flips, and tails on the last flip.   "
+},
+{
+  "id": "appendix-statistics-ch4-event-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-event-definition",
+  "type": "Definition",
+  "number": "H.4.706",
+  "title": "What is an Event?",
+  "body": " What is an Event?   An event is a subset of a sample space that satisfies a given condition.   "
+},
+{
+  "id": "appendix-statistics-ch4-event-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-event-example-4",
+  "type": "Example",
+  "number": "H.4.707",
+  "title": "Using Set Notation to List Outcomes in an Event.",
+  "body": " Using Set Notation to List Outcomes in an Event   Consider rolling a fair six-sided die. The sample space is: List the outcomes for the event of rolling an even number.   "
+},
+{
+  "id": "appendix-statistics-ch4-event-example-5",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-event-example-5",
+  "type": "Example",
+  "number": "H.4.708",
+  "title": "Using Ordered Pairs to List Outcomes in an Event.",
+  "body": " Using Ordered Pairs to List Outcomes in an Event   Consider rolling two fair four-sided dice (2d4). The sample space consists of all two-digit sequences where each digit represents a separate die roll:  S = {11, 12, 13, 14, 21, 22, 23, 24, 31, 32, 33, 34, 41, 42, 43, 44}  List the outcomes for the event of rolling a total sum of 5.   "
+},
+{
+  "id": "appendix-statistics-ch4-event-example-6",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-event-example-6",
+  "type": "Example",
+  "number": "H.4.709",
+  "title": "Using Ordered Lists to Represent Outcomes in an Event.",
+  "body": " Using Ordered Lists to Represent Outcomes in an Event   Consider flipping a fair coin 4 times. The sample space consists of all possible sequences of four flips:  S = {HHHH,HHHT,HHTH,HHTT,HTHH,HTHT,HTTH,HTTT, THHH,THHT,THTH,THTT,TTHH,TTHT,TTTH,TTTT}  List the outcomes for the event of getting two or more heads.   "
+},
+{
+  "id": "appendix-statistics-ch4-number-of-outcomes-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-number-of-outcomes-definition",
+  "type": "Definition",
+  "number": "H.4.710",
+  "title": "The Number of Outcomes.",
+  "body": " The Number of Outcomes   The notation represents the number of elements in a set .    For a sample space , gives the total number of possible outcomes in the experiment.  For an event , represents the number of outcomes that satisfy the event condition.     "
+},
+{
+  "id": "appendix-statistics-ch4-number-of-outcomes-example-7",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-number-of-outcomes-example-7",
+  "type": "Example",
+  "number": "H.4.711",
+  "title": "Counting the Elements in a Sample Space and one of its Events.",
+  "body": " Counting the Elements in a Sample Space and one of its Events   Consider rolling a fair six-sided die. The sample space is . The event of rolling an even number is . Compute and .   "
+},
+{
+  "id": "appendix-statistics-ch4-number-of-outcomes-example-8",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-number-of-outcomes-example-8",
+  "type": "Example",
+  "number": "H.4.712",
+  "title": "Counting the Elements in a Sample Space and one of its Events.",
+  "body": " Counting the Elements in a Sample Space and one of its Events   Consider rolling two fair four-sided dice (2d4). The sample space is:  S = {11, 12, 13, 14, 21, 22, 23, 24, 31, 32, 33, 34, 41, 42, 43, 44}  The event of rolling a total sum of 5 is:   Compute and .   "
+},
+{
+  "id": "appendix-statistics-ch4-number-of-outcomes-example-9",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-number-of-outcomes-example-9",
+  "type": "Example",
+  "number": "H.4.713",
+  "title": "Counting the Elements in a Sample Space and one of its Events.",
+  "body": " Counting the Elements in a Sample Space and one of its Events   Consider flipping a fair coin 4 times. The sample space is:  S = {HHHH,HHHT,HHTH,HHTT,HTHH,HTHT,HTTH,HTTT, THHH,THHT,THTH,THTT,TTHH,TTHT,TTTH,TTTT}  The event of getting two or more heads is:  E=\\{HHHH,HHHT,HHTH,HHTT,HTHH,HTHT, HTTH,THHH,THHT,THTH,TTHH\\}  Compute and .   "
+},
+{
+  "id": "appendix-statistics-ch4-theoretical-probability-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-theoretical-probability-definition",
+  "type": "Definition",
+  "number": "H.4.714",
+  "title": "What is Theoretical Probability?",
+  "body": " What is Theoretical Probability?   The theoretical probability of an event is given by:     is the number of outcomes in the event.  is the total number of outcomes in the sample space.    Theoretical probability assumes that all outcomes in the sample space are equally likely.   "
+},
+{
+  "id": "appendix-statistics-ch4-theoretical-probability-example-10",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-theoretical-probability-example-10",
+  "type": "Example",
+  "number": "H.4.715",
+  "title": "Computing Theoretical Probability.",
+  "body": " Computing Theoretical Probability   Consider rolling a fair six-sided die with . The event of rolling an even number is . Compute .   "
+},
+{
+  "id": "appendix-statistics-ch4-theoretical-probability-example-11",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-theoretical-probability-example-11",
+  "type": "Example",
+  "number": "H.4.716",
+  "title": "Computing Theoretical Probability.",
+  "body": " Computing Theoretical Probability   Consider rolling two fair four-sided dice (2d4). The sample space is:  S = {11, 12, 13, 14, 21, 22, 23, 24, 31, 32, 33, 34, 41, 42, 43, 44}  The event of rolling a total sum of 5 is .  Compute .   "
+},
+{
+  "id": "appendix-statistics-ch4-theoretical-probability-example-12",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-theoretical-probability-example-12",
+  "type": "Example",
+  "number": "H.4.717",
+  "title": "Computing Theoretical Probability.",
+  "body": " Computing Theoretical Probability   Consider flipping a fair coin 4 times. The sample space is:  S = {HHHH,HHHT,HHTH,HHTT,HTHH,HTHT,HTTH,HTTT, THHH,THHT,THTH,THTT,TTHH,TTHT,TTTH,TTTT}  The event of getting two or more heads is:  E=\\{HHHH,HHHT,HHTH,HHTT,HTHH,HTHT, HTTH,THHH,THHT,THTH,TTHH\\}  Compute .   "
+},
+{
+  "id": "appendix-statistics-ch4-putting-it-all-together",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-putting-it-all-together",
+  "type": "Definition",
+  "number": "H.4.718",
+  "title": "Putting It All Together.",
+  "body": " Putting It All Together   A nurse is monitoring 3 patients for signs of fever (F) or no fever (N). List the sample space and compute the probability that exactly 2 patients have a fever.   "
+},
+{
+  "id": "appendix-statistics-ch4-area-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-area-example-1",
+  "type": "Example",
+  "number": "H.4.719",
+  "title": "Probability Using Equally Likely Outcomes.",
+  "body": " Probability Using Equally Likely Outcomes   Consider the spinner below. What is the probability of spinning yellow?   Spinner with four equal sized areas: red, blue, green, and yellow.     "
+},
+{
+  "id": "appendix-statistics-ch4-area-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-area-example-2",
+  "type": "Example",
+  "number": "H.4.721",
+  "title": "Probability Using Outcomes That Are Not Equally Likely.",
+  "body": " Probability Using Outcomes That Are Not Equally Likely   Consider the spinner below. What is the probability of spinning yellow?   Spinner with 1\/2 of area yellow, 1\/8 of area red and blue each, and 1\/4 of area green.     "
+},
+{
+  "id": "appendix-statistics-ch4-equally-likely-space",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-equally-likely-space",
+  "type": "Note",
+  "number": "H.4.723",
+  "title": "Can I Always Find an Equivalent Sample Space where Everything is Equally Likely?",
+  "body": " Can I Always Find an Equivalent Sample Space where Everything is Equally Likely?  Yes. While a full theorem statement is beyond this course, it is always possible to model outcomes so they are equally likely by partitioning outcomes into finer labeled parts that share the same property.  "
+},
+{
+  "id": "appendix-statistics-ch4-empirical-probability-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-empirical-probability-definition",
+  "type": "Definition",
+  "number": "H.4.724",
+  "title": "What is Empirical Probability?",
+  "body": " What is Empirical Probability?   For a sample of size , the empirical probability that a randomly chosen individual has property is:   This is the same formula as relative frequency in a sample.   "
+},
+{
+  "id": "appendix-statistics-ch4-empirical-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-empirical-example-1",
+  "type": "Example",
+  "number": "H.4.725",
+  "title": "Example 1.",
+  "body": " Example 1   In a sample of 30 people, 18 have blue eyes. What is the probability that a randomly selected person from this sample has blue eyes?   "
+},
+{
+  "id": "appendix-statistics-ch4-empirical-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-empirical-example-2",
+  "type": "Example",
+  "number": "H.4.726",
+  "title": "Example 2.",
+  "body": " Example 2   Follow this link to open a StatCrunch simulation on flipping a fair quarter.    Part A: Flip a fair coin 10 times. What proportion of heads do you get?  Part B: Flip a fair coin 10,000 times. What proportion of heads do you get?     "
+},
+{
+  "id": "appendix-statistics-ch4-prob-vs-relative-frequency",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-prob-vs-relative-frequency",
+  "type": "Definition",
+  "number": "H.4.727",
+  "title": "What is the Difference Between Probability and Relative Frequency?",
+  "body": " What is the Difference Between Probability and Relative Frequency?     Relative frequency tells us what percentage of observed data has a given property.  Empirical probability estimates the chance a randomly selected individual from a sample has a given property.  Theoretical probability is the exact long-run proportion when an experiment is repeated indefinitely under equal-likelihood assumptions.     "
+},
+{
+  "id": "appendix-statistics-ch4-prob-vs-relative-frequency-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-prob-vs-relative-frequency-example-3",
+  "type": "Example",
+  "number": "H.4.728",
+  "title": "Example 3.",
+  "body": " Example 3   For each scenario, determine whether the calculation is relative frequency, empirical probability, or theoretical probability.    Part A: A weather station records rain on 40 of 100 days and reports 40% rainy days.  Part B: In a survey of 2,000 residents, 500 report difficulty accessing care. The probability from this sample is .  Part C: A commuter chooses biking, bus, or driving, each equally likely. The probability of bus is .     "
+},
+{
+  "id": "appendix-statistics-ch4-subjective-probability-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-subjective-probability-definition",
+  "type": "Definition",
+  "number": "H.4.729",
+  "title": "What is Subjective Probability?",
+  "body": " What is Subjective Probability?   The probability of an event occurring can be estimated from knowledge of relevant circumstances.   "
+},
+{
+  "id": "appendix-statistics-ch4-subjective-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-subjective-example-4",
+  "type": "Example",
+  "number": "H.4.730",
+  "title": "Example 4.",
+  "body": " Example 4   Estimate the probability that the next time you turn on a light bulb, it is still in working order. Why is this not a strong way to determine probability?   "
+},
+{
+  "id": "appendix-statistics-ch4-impossible-and-guaranteed-events",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-impossible-and-guaranteed-events",
+  "type": "Definition",
+  "number": "H.4.731",
+  "title": "What are the Properties of Probability?",
+  "body": " What are the Properties of Probability?   The empty set, denoted , contains no elements and has probability .  An impossible event has probability 0.  A sure thing (certain event) includes all outcomes in and has probability .   "
+},
+{
+  "id": "appendix-statistics-ch4-impossible-sure-thing-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-impossible-sure-thing-example-1",
+  "type": "Example",
+  "number": "H.4.732",
+  "title": "Example 1.",
+  "body": " Example 1   A space mission launches with probability 0.9 under favorable conditions, but has probability 0 during a major storm.    Part A: What is the probability that the rocket launches during a major storm?  Part B: Explain why this is an impossible event.     "
+},
+{
+  "id": "appendix-statistics-ch4-impossible-sure-thing-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-impossible-sure-thing-example-2",
+  "type": "Example",
+  "number": "H.4.733",
+  "title": "Example 2.",
+  "body": " Example 2   A school has a morning announcement every school day at 8:00 AM.    Part A: What is the probability that a morning announcement occurs on a school day?  Part B: Explain why this is a sure thing.     "
+},
+{
+  "id": "appendix-statistics-ch4-probability-properties-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-probability-properties-definition",
+  "type": "Definition",
+  "number": "H.4.734",
+  "title": "Probability Properties.",
+  "body": " Probability Properties     For any event , .  The total probability over a sample space is 1.  If events and are disjoint, then .     "
+},
+{
+  "id": "appendix-statistics-ch4-probability-properties-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-probability-properties-example-3",
+  "type": "Example",
+  "number": "H.4.735",
+  "title": "Example 3.",
+  "body": " Example 3   A student reports , , , and . Which values are valid probabilities? Explain.   "
+},
+{
+  "id": "appendix-statistics-ch4-probability-properties-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-probability-properties-example-4",
+  "type": "Example",
+  "number": "H.4.736",
+  "title": "Example 4.",
+  "body": " Example 4   A fair die has probabilities . Find the sum of all six probabilities and explain why it makes sense.   "
+},
+{
+  "id": "appendix-statistics-ch4-probability-properties-example-5",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-probability-properties-example-5",
+  "type": "Example",
+  "number": "H.4.737",
+  "title": "Example 5.",
+  "body": " Example 5   A spinner has , , and . Find .   "
+},
+{
+  "id": "appendix-statistics-ch4-probability-properties-example-6",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-probability-properties-example-6",
+  "type": "Example",
+  "number": "H.4.738",
+  "title": "Example 6.",
+  "body": " Example 6   A factory has part types A, B, C with and . Find .   "
+},
+{
+  "id": "appendix-statistics-ch4-mutually-exclusive-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-mutually-exclusive-definition",
+  "type": "Definition",
+  "number": "H.4.739",
+  "title": "What are Mutually Exclusive Events?",
+  "body": " What are Mutually Exclusive Events?   Two events are mutually exclusive if they cannot happen at the same time.  , equivalently .   "
+},
+{
+  "id": "appendix-statistics-ch4-mutually-exclusive-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-mutually-exclusive-example-1",
+  "type": "Example",
+  "number": "H.4.740",
+  "title": "Example 1.",
+  "body": " Example 1   Determine whether each pair is mutually exclusive.    Statement 1: One coin flip results in heads or tails.  Statement 2: A student passes or fails an exam.  Statement 3: A randomly chosen person is left-handed or right-handed.  Statement 4: A randomly chosen student is in a math or science class.     "
+},
+{
+  "id": "appendix-statistics-ch4-addition-rule-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-addition-rule-definition",
+  "type": "Definition",
+  "number": "H.4.741",
+  "title": "What is the Addition Rule for Probability?",
+  "body": " What is the Addition Rule for Probability?   For any events and :   If and are mutually exclusive:    "
+},
+{
+  "id": "appendix-statistics-ch4-key-rules-table-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-key-rules-table-1",
+  "type": "Table",
+  "number": "H.4.742",
+  "title": "Key Probability Rules and Their Operations",
+  "body": " Key Probability Rules and Their Operations   Probability Rule Common Keywords Mathematical Operation  Addition Rule Or, either, at least one Addition   "
+},
+{
+  "id": "appendix-statistics-ch4-addition-rule-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-addition-rule-example-2",
+  "type": "Example",
+  "number": "H.4.743",
+  "title": "Example 2.",
+  "body": " Example 2   In a hospital, 40% receive physical therapy, 30% receive occupational therapy, and 10% receive both. Find the probability that a randomly chosen patient receives either type of therapy.   "
+},
+{
+  "id": "appendix-statistics-ch4-addition-rule-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-addition-rule-example-3",
+  "type": "Example",
+  "number": "H.4.744",
+  "title": "Example 3.",
+  "body": " Example 3   A survey gives , , and . Find .   "
+},
+{
+  "id": "appendix-statistics-ch4-addition-rule-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-addition-rule-example-4",
+  "type": "Example",
+  "number": "H.4.745",
+  "title": "Example 4.",
+  "body": " Example 4   A participant can qualify for exactly one of two aid programs, with probabilities 0.45 and 0.35. Find the probability of qualifying for at least one program.   "
+},
+{
+  "id": "appendix-statistics-ch4-addition-rule-example-5",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-addition-rule-example-5",
+  "type": "Example",
+  "number": "H.4.746",
+  "title": "Example 5.",
+  "body": " Example 5   Given , , and , find .   "
+},
+{
+  "id": "appendix-statistics-ch4-two-way-table-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-two-way-table-definition",
+  "type": "Definition",
+  "number": "H.4.747",
+  "title": "What is a Two-Way Table?",
+  "body": " What is a Two-Way Table?   A two-way table (contingency table) organizes data for two categorical variables.    Individual cells: .  Row totals: .  Column totals: .  Grand total: .     "
+},
+{
+  "id": "appendix-statistics-ch4-two-way-table-lunch",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-two-way-table-lunch",
+  "type": "Table",
+  "number": "H.4.748",
+  "title": "Lunch Preferences of Students",
+  "body": " Lunch Preferences of Students   Lunch Preference Prefers Milk Prefers Juice Total  Pizza 25 30 55  Sandwich 15 20 35  Total 40 50 90   "
+},
+{
+  "id": "appendix-statistics-ch4-two-way-table-example-6",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-two-way-table-example-6",
+  "type": "Example",
+  "number": "H.4.749",
+  "title": "Example 6.",
+  "body": " Example 6   A city surveyed 937 residents about bus and subway use. How many use either the bus or the subway?   Public Transportation Use   Transportation Use Uses Bus Does Not Use Bus Total  Uses Subway 214 289 503  Does Not Use Subway 162 272 434  Total 376 561 937     "
+},
+{
+  "id": "appendix-statistics-ch4-conditional-probability-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-conditional-probability-definition",
+  "type": "Definition",
+  "number": "H.4.751",
+  "title": "What is Conditional Probability?",
+  "body": " What is Conditional Probability?   Conditional probability is the probability of event given that event has occurred, written .    "
+},
+{
+  "id": "appendix-statistics-ch4-key-rules-table-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-key-rules-table-2",
+  "type": "Table",
+  "number": "H.4.752",
+  "title": "Key Probability Rules and Their Operations",
+  "body": " Key Probability Rules and Their Operations   Probability Rule Common Keywords Mathematical Operation  Addition Rule Or, either, at least one Addition  Conditional Probability If, given N\/A   "
+},
+{
+  "id": "appendix-statistics-ch4-conditional-probability-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-conditional-probability-example-1",
+  "type": "Example",
+  "number": "H.4.753",
+  "title": "Example 1.",
+  "body": " Example 1   A botanist records plant growth and fertilizer use:   Plant Growth and Fertilizer Use   Plant Growth Fertilizer Used No Fertilizer Total  Grew Successfully 85 40 125  Did Not Grow 30 45 75  Total 115 85 200      Part A: If a plant is selected at random, what is the probability it grew successfully?  Part B: If selected from plants that received fertilizer, what is the probability it grew successfully?     "
+},
+{
+  "id": "appendix-statistics-ch4-conditional-probability-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-conditional-probability-example-2",
+  "type": "Example",
+  "number": "H.4.755",
+  "title": "Example 2.",
+  "body": " Example 2   A biologist records insect type and activity pattern:   Insect Species and Nocturnal Behavior   Insect Type Nocturnal Diurnal Total  Moth 120 30 150  Beetle 40 60 100  Total 160 90 250      Part A: Use the conditional probability definition to compute .  Part B: An insect is selected from moths. What is the probability it is nocturnal?     "
+},
+{
+  "id": "appendix-statistics-ch4-conditional-probability-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-conditional-probability-example-3",
+  "type": "Example",
+  "number": "H.4.757",
+  "title": "Example 3.",
+  "body": " Example 3   A drawer has 6 white socks and 4 black socks. One sock is picked, not replaced, and then a second is picked. If the first sock is white, what is the probability the second sock is also white?   "
+},
+{
+  "id": "appendix-statistics-ch4-conditional-probability-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-conditional-probability-example-4",
+  "type": "Example",
+  "number": "H.4.758",
+  "title": "Example 4.",
+  "body": " Example 4   A greenhouse study reports: 50% of plants have yellowing leaves, 35% test positive for fungal infection, and 25% have both.    Part A: Find .  Part B: Find .  Part C: Are these conditional probabilities equal? Explain.     "
+},
+{
+  "id": "appendix-statistics-ch4-independence-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-independence-definition",
+  "type": "Definition",
+  "number": "H.4.759",
+  "title": "What Does It Mean for Two Events to Be Independent?",
+  "body": " What Does It Mean for Two Events to Be Independent?   Events and are independent if one does not affect the probability of the other.  , equivalently .   "
+},
+{
+  "id": "appendix-statistics-ch4-independence-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-independence-example-1",
+  "type": "Example",
+  "number": "H.4.760",
+  "title": "Example 1.",
+  "body": " Example 1   A survey of 200 students: 120 use social media daily, 80 report high anxiety, and 50 report both.    Part A: Find and .  Part B: Find .  Part C: Are the events independent? Explain.     "
+},
+{
+  "id": "appendix-statistics-ch4-independence-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-independence-example-2",
+  "type": "Example",
+  "number": "H.4.761",
+  "title": "Example 2.",
+  "body": " Example 2   In a population of 500: 200 have blue eyes, 100 are left-handed, and 40 are both.    Part A: Find and .  Part B: Find .  Part C: Are the events independent? Explain.     "
+},
+{
+  "id": "appendix-statistics-ch4-multiplication-rule-definition",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-multiplication-rule-definition",
+  "type": "Definition",
+  "number": "H.4.762",
+  "title": "What is the Multiplication Rule for Probability?",
+  "body": " What is the Multiplication Rule for Probability?     Independent events: .  Dependent events: .     "
+},
+{
+  "id": "appendix-statistics-ch4-key-rules-table-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-key-rules-table-3",
+  "type": "Table",
+  "number": "H.4.763",
+  "title": "Key Probability Rules and Their Operations",
+  "body": " Key Probability Rules and Their Operations   Probability Rule Common Keywords Mathematical Operation  Addition Rule Or, either, at least one Addition  Conditional Probability If, given N\/A  Multiplication Rule And, but, both Multiplication   "
+},
+{
+  "id": "appendix-statistics-ch4-multiplication-rule-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-multiplication-rule-example-3",
+  "type": "Example",
+  "number": "H.4.764",
+  "title": "Example 3.",
+  "body": " Example 3   An investor chooses two independent stocks with and . Find the probability both increase on the same day.   "
+},
+{
+  "id": "appendix-statistics-ch4-multiplication-rule-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-multiplication-rule-example-4",
+  "type": "Example",
+  "number": "H.4.765",
+  "title": "Example 4.",
+  "body": " Example 4   A citizen registers to vote with probability 0.75. If registered, probability of voting is 0.6. Find the probability a randomly selected citizen both registers and votes.   "
+},
+{
+  "id": "appendix-statistics-ch4-complement-language",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-complement-language",
+  "type": "Definition",
+  "number": "H.4.766",
+  "title": "What is the Complement of an Event?",
+  "body": " What is the Complement of an Event?   The complement of event , denoted or not , consists of all outcomes in the sample space not in .     "
+},
+{
+  "id": "appendix-statistics-ch4-opposite-inequality-phrases",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-opposite-inequality-phrases",
+  "type": "Definition",
+  "number": "H.4.767",
+  "title": "Opposite Pairs for Inequalities.",
+  "body": " Opposite Pairs for Inequalities   Common phrase pairs describe opposite inequality conditions.   "
+},
+{
+  "id": "appendix-statistics-ch4-opposite-phrases-table",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-opposite-phrases-table",
+  "type": "Table",
+  "number": "H.4.768",
+  "title": "Opposite Pairs of Mathematical Phrases",
+  "body": " Opposite Pairs of Mathematical Phrases   Phrase Opposite Phrase  Less than Greater than or equal to  Less than or equal to Greater than  Greater than Less than or equal to  Greater than or equal to Less than  At most More than  At least Less than   "
+},
+{
+  "id": "appendix-statistics-ch4-complement-language-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-complement-language-example-1",
+  "type": "Example",
+  "number": "H.4.769",
+  "title": "Example 1.",
+  "body": " Example 1   Rewrite each statement in its opposite form.    Part A: All patients younger than 17 years old with a particular heart defect.  Part B: Drivers must maintain a speed greater than 70 mph on the highway.  Part C: Randy saw at least 7 cats on his picnic table.  Part D: All households that make less than $53,000 are below median income for their city.     "
+},
+{
+  "id": "appendix-statistics-ch4-key-rules-table-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-key-rules-table-4",
+  "type": "Table",
+  "number": "H.4.770",
+  "title": "Key Probability Rules and Their Operations",
+  "body": " Key Probability Rules and Their Operations   Probability Rule Common Keywords Mathematical Operation  Addition Rule Or, either, at least one Addition  Conditional Probability If, given N\/A  Multiplication Rule And, but, both Multiplication  Complement Not, negation words Subtraction   "
+},
+{
+  "id": "appendix-statistics-ch4-complement-example-2",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-complement-example-2",
+  "type": "Example",
+  "number": "H.4.771",
+  "title": "Example 2.",
+  "body": " Example 2   A city bus arrives on time with probability 0.82.    Part A: Define the complement event.  Part B: Find the probability that a randomly selected bus is not on time.     "
+},
+{
+  "id": "appendix-statistics-ch4-complement-example-3",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-complement-example-3",
+  "type": "Example",
+  "number": "H.4.772",
+  "title": "Example 3.",
+  "body": " Example 3   A first battery works with probability 0.90. If it fails, a backup works with probability 0.60. Find the probability that both batteries fail.   "
+},
+{
+  "id": "appendix-statistics-ch4-complement-example-4",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-complement-example-4",
+  "type": "Example",
+  "number": "H.4.773",
+  "title": "Example 4: The Birthday Problem.",
+  "body": " Example 4: The Birthday Problem   In a group of 23 people, what is the probability that at least two share a birthday?   "
+},
+{
+  "id": "appendix-statistics-ch4-tree-diagram-example-1",
+  "level": "2",
+  "url": "appendix-statistics-chapter-4.html#appendix-statistics-ch4-tree-diagram-example-1",
+  "type": "Example",
+  "number": "H.4.774",
+  "title": "How to Use Tree Diagrams with the Multiplication Rule.",
+  "body": " How to Use Tree Diagrams with the Multiplication Rule   At a clinic, Dr. Chen sees 60% of patients and diagnoses correctly 85% of the time. Dr. Davis sees the rest and diagnoses correctly 90% of the time.  Find the probability that a randomly selected patient is correctly diagnosed on the first visit.   "
 },
 {
   "id": "sec-summary-statistics-calculator",
