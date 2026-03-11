@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-trig-solving" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving Trigonometric Functions</title>
+
+    <definition xml:id="def-trig-identity">
+        <title>Trigonometric Identities</title>
+        <statement>
+        <p>
+            A <term>trigonometric identity</term> is an equation involving trigonometric functions
+            that is true for every value of <m>\theta</m>.</p><p>An example would be
+            <me>\cos^2(x)+\sin^2(x)=1.</me>
+        </p>
+    </statement>
+    </definition>
+    <definition xml:id="def-trig-equation">
+        <title>Trigonometric Equations</title>
+        <statement>
+        <p>
+            A <term>trigonometric equation</term> is an equation involving trigonometric functions
+            that is true for only particular values of <m>\theta</m>.</p><p>An example would be
+            <me>2\sin(\theta)+1=0</me>
+            since if you solve this equation and used an inverse function to isolate <m>\theta</m>,
+            you get that
+            <me>\theta=-\dfrac{\pi}{6}.</me>
+        </p>
+    </statement>
+    </definition>
+        <note>
+            <title>Differences from solving in Algebra</title>
+            <p>
+            Unlike in algebra, solving for <m>\theta</m> does not yield every possible solution.
+            There is also the Quadrant III solution we can find using reference angles and signs
+            of the trigonometric functions
+            <me>\theta=\dfrac{5\pi}{6}</me>
+            and every angle coterminal to both of these angles are also solutions.
+        </p>
+    </note>
+
+    <lemma xml:id="note-app-trig-solving-technique">
+        <title>Technique for Solving Trigonometric Functions</title>
+        <p>
+            <ol marker="1">
+                <li>Find all the solutions for one period of the base trigonometric function.
+                    These are known as your <term>particular solutions</term> for the trigonometric function.</li>
+                <li><p>Find all the solutions for the trigonometric function by adding either</p>
+                    <p><ul>
+                        <li><m>+2\pi k</m> for sine, cosine, secant, cosecant</li>
+                        <li><m>+k\pi</m> for tangent and cotangent</li>
+                    </ul></p>
+                </li>
+                <li><p>Solve for <m>\theta</m></p>
+                    <p><ul>
+                        <li>This step will adjust your solutions to account for period and phase shift.</li>
+                        <li>These are the <term>general solutions</term> to the trigonometric equation.</li>
+                    </ul></p>
+                </li>
+            </ol>
+        </p>
+    </lemma>
+
+    <example xml:id="exa-app-trig-solving-1" workspace="6in">
+        <title>Solving a Trigonometric Equation</title>
+        <statement>
+            <p>
+                Solve the trigonometric equation <m>\cos(\theta)=\dfrac{\sqrt{3}}{2}</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-solving-16" workspace="6in">
+        <title>Solving a Trigonometric Function</title>
+        <statement>
+            <p>
+                Solve the trigonometric equation <m>2\sin(5\theta)-1=0</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-solving-3" workspace="6in">
+        <title>Solving a Trigonometric Function for a Specific Range of Angles</title>
+        <statement>
+            <p>
+                Find all the solutions to <m>\tan(3\theta)=\sqrt{3}</m> for <m>0\leq\theta\lt 2\pi</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-solving-6" workspace="6in">
+        <title>Factoring a Trigonometric Equation that is Quadratic in Form</title>
+        <statement>
+            <p>
+                Solve the trigonometric equation <m>2\sin^2(\theta)-\sin(\theta)-1=0</m>.
+            </p>
+        </statement>
+    </example>
+
+        <example xml:id="exa-app-trig-solving-9" workspace="6in">
+        <title>Factoring a Trigonometric Equation Using Factor by Grouping</title>
+        <statement>
+            <p>
+                Solve the trigonometric equation
+                <m>2\cos^3(x)-\cos^2(x)-2\cos(x)+1=0</m>.
+            </p>
+        </statement>
+    </example>
+
+
+    <example xml:id="exa-app-trig-solving-2" workspace="3in">
+        <title>Solving a Trigonometric Function by Factoring a Common Factor</title>
+        <statement>
+            <p>
+                Final all the solutions to the function <me>\sin(x)\tan(x)=\sin(x)</me> on <m>[0,2\pi)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-solving-10" workspace="3in">
+        <title>Solving Trigonometric Equations Using Identities</title>
+        <statement>
+            <p>
+                Solve the trigonometric equation <m>\tan(\theta)-3\cot(\theta)=0</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-solving-11" workspace="3in">
+        <title>Solving Trigonometric Equations Using Identities</title>
+        <statement>
+            <p>
+                Solve the trigonometric equation <m>3\sin(2\theta)-2\sin(\theta)=0</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-solving-12" workspace="6in">
+        <title>Solving Trigonometric Equations Using Identities</title>
+        <statement>
+            <p>
+                Find all the solutions to the trigonometric equation <m>\cos(\theta)-\sin(\theta)=1</m> on <m>[0,2\pi)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-solving-15" workspace="3in">
+        <title>Using a Graph to Approximate Solutions</title>
+        <statement>
+            <p>
+                Use a graph to find all the solutions to the trigonometric equation <m>\sin(x)-1=\cos(x)</m> on <m>[0,2\pi)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-trig-using-calculator" workspace="3in">
+        <title>Using the Calculator to Approximate a Solution</title>
+        <statement>
+            <p>
+                Use a calculator to approximate all the solutions to <me>\sin(x)=-0.2315</me> on <m>[0,2\pi)</m>.
+            </p>
+        </statement>
+    </example>
+
+
+</worksheet>

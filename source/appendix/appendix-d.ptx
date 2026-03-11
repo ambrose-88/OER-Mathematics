@@ -19,4 +19,5 @@
   <xi:include href="./trigonometry/trig-sum-difference.ptx"/>
   <xi:include href="./trigonometry/double-half-angle.ptx"/>
   <xi:include href="./trigonometry/trig-sum-product.ptx"/>
+  <xi:include href="./trigonometry/solving-trig-functions.ptx"/>
 </appendix>
