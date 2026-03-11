@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="appendix-statistics-chapter-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Chapter 4 Lecture Notes</title>
+
+  <definition xml:id="appendix-statistics-ch4-sample-space-definition">
+    <title>What are Sample Spaces and Events?</title>
+    <statement>
+      <p>
+        The <term>sample space</term> of an experiment is the population of all unique possible results that could occur in that experiment. It is typically denoted by <m>S</m>.
+      </p>
+      <p>
+        An <term>outcome</term> is a single possible result of an experiment. Similar to data, we often use <m>x</m> to denote an outcome.
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-sample-space-example-1" workspace="1.5in">
+    <title>Using Set Notation to List Outcomes in a Sample Space</title>
+    <statement>
+      <p>Consider rolling a fair six-sided die. What is the sample space for this experiment?</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-sample-space-example-2" workspace="1.5in">
+    <title>Using Ordered Pairs to List Out the Elements of a Sample Space</title>
+    <statement>
+      <p>Consider rolling two fair four-sided dice (2d4). What is the sample space for this experiment?</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-sample-space-example-3" workspace="1.5in">
+    <title>Using an Ordered List to Represent Outcomes in a Sample Space</title>
+    <statement>
+      <p>
+        Consider flipping a fair coin 4 times. Each flip results in either Heads (H) or Tails (T). The outcome of the experiment is a sequence of four letters representing the results of each flip. For example, THHT represents tails on the first flip, heads on the second and third flips, and tails on the last flip.
+      </p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-event-definition">
+    <title>What is an Event?</title>
+    <statement>
+      <p>An event is a subset of a sample space that satisfies a given condition.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-event-example-4" workspace="1.5in">
+    <title>Using Set Notation to List Outcomes in an Event</title>
+    <statement>
+      <p>Consider rolling a fair six-sided die. The sample space is:
+        <me>S=\{1,2,3,4,5,6\}</me>
+      List the outcomes for the event of rolling an even number.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-event-example-5" workspace="1.5in">
+    <title>Using Ordered Pairs to List Outcomes in an Event</title>
+    <statement>
+      <p>Consider rolling two fair four-sided dice (2d4). The sample space consists of all two-digit sequences where each digit represents a separate die roll:
+      </p>
+        <pre>
+        S = {11, 12, 13, 14,
+             21, 22, 23, 24,
+             31, 32, 33, 34,
+             41, 42, 43, 44}
+        </pre>
+      <p>List the outcomes for the event of rolling a total sum of 5.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-event-example-6" workspace="1.5in">
+    <title>Using Ordered Lists to Represent Outcomes in an Event</title>
+    <statement>
+      <p>Consider flipping a fair coin 4 times. The sample space consists of all possible sequences of four flips:</p>
+        <pre>
+            S = {HHHH,HHHT,HHTH,HHTT,HTHH,HTHT,HTTH,HTTT,
+                 THHH,THHT,THTH,THTT,TTHH,TTHT,TTTH,TTTT}
+        </pre>
+      <p>List the outcomes for the event of getting two or more heads.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-number-of-outcomes-definition">
+    <title>The Number of Outcomes</title>
+    <statement>
+      <p>
+        The notation <m>n(A)</m> represents the number of elements in a set <m>A</m>.
+      </p>
+      <p>
+        <ul>
+          <li>For a sample space <m>S</m>, <m>n(S)</m> gives the total number of possible outcomes in the experiment.</li>
+          <li>For an event <m>E</m>, <m>n(E)</m> represents the number of outcomes that satisfy the event condition.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-number-of-outcomes-example-7" workspace="1.5in">
+    <title>Counting the Elements in a Sample Space and one of its Events</title>
+    <statement>
+      <p>
+        Consider rolling a fair six-sided die. The sample space is <m>S=\{1,2,3,4,5,6\}</m>. The event of rolling an even number is <m>E=\{2,4,6\}</m>. Compute <m>n(S)</m> and <m>n(E)</m>.
+      </p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-number-of-outcomes-example-8" workspace="1.5in">
+    <title>Counting the Elements in a Sample Space and one of its Events</title>
+    <statement>
+      <p>Consider rolling two fair four-sided dice (2d4). The sample space is:</p>
+        <pre>
+        S = {11, 12, 13, 14,
+             21, 22, 23, 24,
+             31, 32, 33, 34,
+             41, 42, 43, 44}
+        </pre>
+      <p>The event of rolling a total sum of 5 is:</p>
+      <p><m>E=\{14,23,32,41\}</m></p>
+      <p>Compute <m>n(S)</m> and <m>n(E)</m>.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-number-of-outcomes-example-9" workspace="1.5in">
+    <title>Counting the Elements in a Sample Space and one of its Events</title>
+    <statement>
+      <p>Consider flipping a fair coin 4 times. The sample space is:</p>
+        <pre>
+            S = {HHHH,HHHT,HHTH,HHTT,HTHH,HTHT,HTTH,HTTT,
+                 THHH,THHT,THTH,THTT,TTHH,TTHT,TTTH,TTTT}
+        </pre>
+      <p>The event of getting two or more heads is:</p>
+      <pre>E=\{HHHH,HHHT,HHTH,HHTT,HTHH,HTHT,
+               HTTH,THHH,THHT,THTH,TTHH\}</pre>
+      <p>Compute <m>n(S)</m> and <m>n(E)</m>.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-theoretical-probability-definition">
+    <title>What is Theoretical Probability?</title>
+    <statement>
+      <p>The theoretical probability of an event <m>E</m> is given by:</p>
+      <p><me>P(E)=\dfrac{n(E)}{n(S)}</me></p>
+      <p>
+        <ul>
+          <li><m>n(E)</m> is the number of outcomes in the event.</li>
+          <li><m>n(S)</m> is the total number of outcomes in the sample space.</li>
+        </ul>
+      </p>
+      <p>Theoretical probability assumes that all outcomes in the sample space are equally likely.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-theoretical-probability-example-10" workspace="1.5in">
+    <title>Computing Theoretical Probability</title>
+    <statement>
+      <p>Consider rolling a fair six-sided die with <m>S=\{1,2,3,4,5,6\}</m>. The event of rolling an even number is <m>E=\{2,4,6\}</m>. Compute <m>P(E)</m>.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-theoretical-probability-example-11" workspace="1.5in">
+    <title>Computing Theoretical Probability</title>
+    <statement>
+      <p>Consider rolling two fair four-sided dice (2d4). The sample space is:</p>        
+      <pre>
+        S = {11, 12, 13, 14,
+             21, 22, 23, 24,
+             31, 32, 33, 34,
+             41, 42, 43, 44}
+        </pre>
+      <p>The event of rolling a total sum of 5 is <m>E=\{14,23,32,41\}</m>.</p>
+      <p>Compute <m>P(E)</m>.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-theoretical-probability-example-12" workspace="1.5in">
+    <title>Computing Theoretical Probability</title>
+    <statement>
+      <p>Consider flipping a fair coin 4 times. The sample space is:</p>
+        <pre>
+            S = {HHHH,HHHT,HHTH,HHTT,HTHH,HTHT,HTTH,HTTT,
+                 THHH,THHT,THTH,THTT,TTHH,TTHT,TTTH,TTTT}
+        </pre>      
+      <p>The event of getting two or more heads is:</p>
+      <pre>E=\{HHHH,HHHT,HHTH,HHTT,HTHH,HTHT,
+               HTTH,THHH,THHT,THTH,TTHH\}</pre>
+      <p>Compute <m>P(E)</m>.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-putting-it-all-together" workspace="4in">
+    <title>Putting It All Together</title>
+    <statement>
+      <p>A nurse is monitoring 3 patients for signs of fever (F) or no fever (N). List the sample space and compute the probability that exactly 2 patients have a fever.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-area-example-1" workspace="1.5in">
+    <title>Probability Using Equally Likely Outcomes</title>
+    <statement>
+      <p>Consider the spinner below. What is the probability of spinning yellow?</p>
+      <figure xml:id="appendix-statistics-ch4-spinner1-figure">
+        <caption>Spinner with four equal sized areas: red, blue, green, and yellow.</caption>
+        <image source="statistics/spinner1.png" decorative="yes" width="50%"/>
+      </figure>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-area-example-2" workspace="1.5in">
+    <title>Probability Using Outcomes That Are Not Equally Likely</title>
+    <statement>
+      <p>Consider the spinner below. What is the probability of spinning yellow?</p>
+      <figure xml:id="appendix-statistics-ch4-spinner2-figure">
+        <caption>Spinner with 1/2 of area yellow, 1/8 of area red and blue each, and 1/4 of area green.</caption>
+        <image source="statistics/spinner2.png" decorative="yes" width="50%"/>
+      </figure>
+    </statement>
+  </example>
+
+  <note xml:id="appendix-statistics-ch4-equally-likely-space">
+    <title>Can I Always Find an Equivalent Sample Space where Everything is Equally Likely?</title>
+      <p>
+        Yes. While a full theorem statement is beyond this course, it is always possible to model outcomes so they are equally likely by partitioning outcomes into finer labeled parts that share the same property.
+      </p>
+  </note>
+
+  <definition xml:id="appendix-statistics-ch4-empirical-probability-definition">
+    <title>What is Empirical Probability?</title>
+    <statement>
+      <p>
+        For a sample of size <m>n</m>, the empirical probability that a randomly chosen individual has property <m>E</m> is:
+      </p>
+      <p><me>P(E)=\dfrac{n(E)}{n}=\dfrac{\text{number with property }E}{\text{sample size}}</me></p>
+      <p>This is the same formula as relative frequency in a sample.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-empirical-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>In a sample of 30 people, 18 have blue eyes. What is the probability that a randomly selected person from this sample has blue eyes?</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-empirical-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>Follow <url href="https://www.statcrunch.com/applets/type3&amp;coins">this link</url> to open a StatCrunch simulation on flipping a fair quarter.</p>
+      <p>
+        <ul>
+          <li>Part A: Flip a fair coin 10 times. What proportion of heads do you get?</li>
+          <li>Part B: Flip a fair coin 10,000 times. What proportion of heads do you get?</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-prob-vs-relative-frequency">
+    <title>What is the Difference Between Probability and Relative Frequency?</title>
+    <statement>
+      <p>
+        <ul>
+          <li>Relative frequency tells us what percentage of observed data has a given property.</li>
+          <li>Empirical probability estimates the chance a randomly selected individual from a sample has a given property.</li>
+          <li>Theoretical probability is the exact long-run proportion when an experiment is repeated indefinitely under equal-likelihood assumptions.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-prob-vs-relative-frequency-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>For each scenario, determine whether the calculation is relative frequency, empirical probability, or theoretical probability.</p>
+      <p>
+        <ul>
+          <li>Part A: A weather station records rain on 40 of 100 days and reports 40% rainy days.</li>
+          <li>Part B: In a survey of 2,000 residents, 500 report difficulty accessing care. The probability from this sample is <m>500/2000=0.25</m>.</li>
+          <li>Part C: A commuter chooses biking, bus, or driving, each equally likely. The probability of bus is <m>1/3</m>.</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-subjective-probability-definition">
+    <title>What is Subjective Probability?</title>
+    <statement>
+      <p>The probability of an event occurring can be estimated from knowledge of relevant circumstances.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-subjective-example-4">
+    <title>Example 4</title>
+    <statement>
+      <p>Estimate the probability that the next time you turn on a light bulb, it is still in working order. Why is this not a strong way to determine probability?</p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-impossible-and-guaranteed-events">
+    <title>What are the Properties of Probability?</title>
+    <statement>
+      <p>The empty set, denoted <m>\emptyset</m>, contains no elements and has probability <m>P(\emptyset)=0</m>.</p>
+      <p>An impossible event has probability 0.</p>
+      <p>A sure thing (certain event) includes all outcomes in <m>S</m> and has probability <m>P(S)=1</m>.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-impossible-sure-thing-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>A space mission launches with probability 0.9 under favorable conditions, but has probability 0 during a major storm.</p>
+      <p>
+        <ul>
+          <li>Part A: What is the probability that the rocket launches during a major storm?</li>
+          <li>Part B: Explain why this is an impossible event.</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-impossible-sure-thing-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>A school has a morning announcement every school day at 8:00 AM.</p>
+      <p>
+        <ul>
+          <li>Part A: What is the probability that a morning announcement occurs on a school day?</li>
+          <li>Part B: Explain why this is a sure thing.</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-probability-properties-definition">
+    <title>Probability Properties</title>
+    <statement>
+      <p>
+        <ul>
+          <li>For any event <m>E</m>, <m>0\leq P(E)\leq 1</m>.</li>
+          <li>The total probability over a sample space is 1.</li>
+          <li>If events <m>E</m> and <m>F</m> are disjoint, then <m>P(E\text{ or }F)=P(E)+P(F)</m>.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-probability-properties-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>A student reports <m>P(A)=0.4</m>, <m>P(B)=0.5</m>, <m>P(C)=1.1</m>, and <m>P(D)=-0.2</m>. Which values are valid probabilities? Explain.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-probability-properties-example-4">
+    <title>Example 4</title>
+    <statement>
+      <p>A fair die has probabilities <m>P(1)=\cdots=P(6)=1/6</m>. Find the sum of all six probabilities and explain why it makes sense.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-probability-properties-example-5">
+    <title>Example 5</title>
+    <statement>
+      <p>A spinner has <m>P(\text{Red})=0.3</m>, <m>P(\text{Blue})=0.5</m>, and <m>P(\text{Green})=0.2</m>. Find <m>P(\text{Red or Green})</m>.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-probability-properties-example-6">
+    <title>Example 6</title>
+    <statement>
+      <p>A factory has part types A, B, C with <m>P(A)=0.4</m> and <m>P(B)=0.35</m>. Find <m>P(C)</m>.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-mutually-exclusive-definition">
+    <title>What are Mutually Exclusive Events?</title>
+    <statement>
+      <p>Two events are mutually exclusive if they cannot happen at the same time.</p>
+      <p><m>P(A\text{ and }B)=0</m>, equivalently <m>A\cap B=\emptyset</m>.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-mutually-exclusive-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>Determine whether each pair is mutually exclusive.</p>
+      <p>
+        <ul>
+          <li>Statement 1: One coin flip results in heads or tails.</li>
+          <li>Statement 2: A student passes or fails an exam.</li>
+          <li>Statement 3: A randomly chosen person is left-handed or right-handed.</li>
+          <li>Statement 4: A randomly chosen student is in a math or science class.</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-addition-rule-definition">
+    <title>What is the Addition Rule for Probability?</title>
+    <statement>
+      <p>For any events <m>E</m> and <m>F</m>:</p>
+      <p><me>P(E\text{ or }F)=P(E)+P(F)-P(E\text{ and }F)</me></p>
+      <p>If <m>E</m> and <m>F</m> are mutually exclusive:</p>
+      <p><me>P(E\text{ or }F)=P(E)+P(F)</me></p>
+    </statement>
+  </definition>
+
+  <table xml:id="appendix-statistics-ch4-key-rules-table-1">
+    <title>Key Probability Rules and Their Operations</title>
+    <tabular>
+      <row header="yes"><cell>Probability Rule</cell><cell>Common Keywords</cell><cell>Mathematical Operation</cell></row>
+      <row bottom="major"><cell>Addition Rule</cell><cell>Or, either, at least one</cell><cell>Addition</cell></row>
+    </tabular>
+  </table>
+
+  <example xml:id="appendix-statistics-ch4-addition-rule-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>In a hospital, 40% receive physical therapy, 30% receive occupational therapy, and 10% receive both. Find the probability that a randomly chosen patient receives either type of therapy.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-addition-rule-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>A survey gives <m>P(A)=0.5</m>, <m>P(D)=0.4</m>, and <m>P(A\text{ or }D)=0.7</m>. Find <m>P(A\text{ and }D)</m>.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-addition-rule-example-4">
+    <title>Example 4</title>
+    <statement>
+      <p>A participant can qualify for exactly one of two aid programs, with probabilities 0.45 and 0.35. Find the probability of qualifying for at least one program.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-addition-rule-example-5">
+    <title>Example 5</title>
+    <statement>
+      <p>Given <m>P(S\text{ or }C)=0.85</m>, <m>P(C)=0.6</m>, and <m>P(S\text{ and }C)=0.4</m>, find <m>P(S)</m>.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-two-way-table-definition">
+    <title>What is a Two-Way Table?</title>
+    <statement>
+      <p>A two-way table (contingency table) organizes data for two categorical variables.</p>
+      <p>
+        <ul>
+          <li>Individual cells: <m>n(\text{Category 1 and Category 2})</m>.</li>
+          <li>Row totals: <m>n(\text{Category 1})</m>.</li>
+          <li>Column totals: <m>n(\text{Category 2})</m>.</li>
+          <li>Grand total: <m>n(\text{Total})</m>.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <table xml:id="appendix-statistics-ch4-two-way-table-lunch">
+    <title>Lunch Preferences of Students</title>
+    <tabular>
+      <row header="yes"><cell>Lunch Preference</cell><cell>Prefers Milk</cell><cell>Prefers Juice</cell><cell>Total</cell></row>
+      <row><cell>Pizza</cell><cell>25</cell><cell>30</cell><cell>55</cell></row>
+      <row><cell>Sandwich</cell><cell>15</cell><cell>20</cell><cell>35</cell></row>
+      <row bottom="major"><cell>Total</cell><cell>40</cell><cell>50</cell><cell>90</cell></row>
+    </tabular>
+  </table>
+
+  <example xml:id="appendix-statistics-ch4-two-way-table-example-6">
+    <title>Example 6</title>
+    <statement>
+      <p>A city surveyed 937 residents about bus and subway use. How many use either the bus or the subway?</p>
+      <table xml:id="appendix-statistics-ch4-two-way-table-transit">
+        <title>Public Transportation Use</title>
+        <tabular>
+          <row header="yes"><cell>Transportation Use</cell><cell>Uses Bus</cell><cell>Does Not Use Bus</cell><cell>Total</cell></row>
+          <row><cell>Uses Subway</cell><cell>214</cell><cell>289</cell><cell>503</cell></row>
+          <row><cell>Does Not Use Subway</cell><cell>162</cell><cell>272</cell><cell>434</cell></row>
+          <row bottom="major"><cell>Total</cell><cell>376</cell><cell>561</cell><cell>937</cell></row>
+        </tabular>
+      </table>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-conditional-probability-definition">
+    <title>What is Conditional Probability?</title>
+    <statement>
+      <p>Conditional probability is the probability of event <m>A</m> given that event <m>B</m> has occurred, written <m>P(A\mid B)</m>.</p>
+      <p><me>P(A\mid B)=\dfrac{P(A\text{ and }B)}{P(B)}</me></p>
+    </statement>
+  </definition>
+
+  <table xml:id="appendix-statistics-ch4-key-rules-table-2">
+    <title>Key Probability Rules and Their Operations</title>
+    <tabular>
+      <row header="yes"><cell>Probability Rule</cell><cell>Common Keywords</cell><cell>Mathematical Operation</cell></row>
+      <row><cell>Addition Rule</cell><cell>Or, either, at least one</cell><cell>Addition</cell></row>
+      <row bottom="major"><cell>Conditional Probability</cell><cell>If, given</cell><cell>N/A</cell></row>
+    </tabular>
+  </table>
+
+  <example xml:id="appendix-statistics-ch4-conditional-probability-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>A botanist records plant growth and fertilizer use:</p>
+      <table xml:id="appendix-statistics-ch4-conditional-probability-table-plants">
+        <title>Plant Growth and Fertilizer Use</title>
+        <tabular>
+          <row header="yes"><cell>Plant Growth</cell><cell>Fertilizer Used</cell><cell>No Fertilizer</cell><cell>Total</cell></row>
+          <row><cell>Grew Successfully</cell><cell>85</cell><cell>40</cell><cell>125</cell></row>
+          <row><cell>Did Not Grow</cell><cell>30</cell><cell>45</cell><cell>75</cell></row>
+          <row bottom="major"><cell>Total</cell><cell>115</cell><cell>85</cell><cell>200</cell></row>
+        </tabular>
+      </table>
+      <p>
+        <ul>
+          <li>Part A: If a plant is selected at random, what is the probability it grew successfully?</li>
+          <li>Part B: If selected from plants that received fertilizer, what is the probability it grew successfully?</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-conditional-probability-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>A biologist records insect type and activity pattern:</p>
+      <table xml:id="appendix-statistics-ch4-conditional-probability-table-insects">
+        <title>Insect Species and Nocturnal Behavior</title>
+        <tabular>
+          <row header="yes"><cell>Insect Type</cell><cell>Nocturnal</cell><cell>Diurnal</cell><cell>Total</cell></row>
+          <row><cell>Moth</cell><cell>120</cell><cell>30</cell><cell>150</cell></row>
+          <row><cell>Beetle</cell><cell>40</cell><cell>60</cell><cell>100</cell></row>
+          <row bottom="major"><cell>Total</cell><cell>160</cell><cell>90</cell><cell>250</cell></row>
+        </tabular>
+      </table>
+      <p>
+        <ul>
+          <li>Part A: Use the conditional probability definition to compute <m>P(\text{Nocturnal}\mid\text{Moth})</m>.</li>
+          <li>Part B: An insect is selected from moths. What is the probability it is nocturnal?</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-conditional-probability-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>A drawer has 6 white socks and 4 black socks. One sock is picked, not replaced, and then a second is picked. If the first sock is white, what is the probability the second sock is also white?</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-conditional-probability-example-4">
+    <title>Example 4</title>
+    <statement>
+      <p>A greenhouse study reports: 50% of plants have yellowing leaves, 35% test positive for fungal infection, and 25% have both.</p>
+      <p>
+        <ul>
+          <li>Part A: Find <m>P(\text{Infected}\mid\text{Yellow Leaves})</m>.</li>
+          <li>Part B: Find <m>P(\text{Yellow Leaves}\mid\text{Infected})</m>.</li>
+          <li>Part C: Are these conditional probabilities equal? Explain.</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-independence-definition">
+    <title>What Does It Mean for Two Events to Be Independent?</title>
+    <statement>
+      <p>Events <m>A</m> and <m>B</m> are independent if one does not affect the probability of the other.</p>
+      <p><m>P(A\mid B)=P(A)</m>, equivalently <m>P(A\text{ and }B)=P(A)P(B)</m>.</p>
+    </statement>
+  </definition>
+
+  <example xml:id="appendix-statistics-ch4-independence-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>A survey of 200 students: 120 use social media daily, 80 report high anxiety, and 50 report both.</p>
+      <p>
+        <ul>
+          <li>Part A: Find <m>P(\text{Social Media})</m> and <m>P(\text{Anxiety})</m>.</li>
+          <li>Part B: Find <m>P(\text{Anxiety}\mid\text{Social Media})</m>.</li>
+          <li>Part C: Are the events independent? Explain.</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-independence-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>In a population of 500: 200 have blue eyes, 100 are left-handed, and 40 are both.</p>
+      <p>
+        <ul>
+          <li>Part A: Find <m>P(\text{Blue Eyes})</m> and <m>P(\text{Left-Handed})</m>.</li>
+          <li>Part B: Find <m>P(\text{Blue Eyes}\mid\text{Left-Handed})</m>.</li>
+          <li>Part C: Are the events independent? Explain.</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-multiplication-rule-definition">
+    <title>What is the Multiplication Rule for Probability?</title>
+    <statement>
+      <p>
+        <ul>
+          <li>Independent events: <m>P(A\text{ and }B)=P(A)P(B)</m>.</li>
+          <li>Dependent events: <m>P(A\text{ and }B)=P(A)P(B\mid A)</m>.</li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+
+  <table xml:id="appendix-statistics-ch4-key-rules-table-3">
+    <title>Key Probability Rules and Their Operations</title>
+    <tabular>
+      <row header="yes"><cell>Probability Rule</cell><cell>Common Keywords</cell><cell>Mathematical Operation</cell></row>
+      <row><cell>Addition Rule</cell><cell>Or, either, at least one</cell><cell>Addition</cell></row>
+      <row><cell>Conditional Probability</cell><cell>If, given</cell><cell>N/A</cell></row>
+      <row bottom="major"><cell>Multiplication Rule</cell><cell>And, but, both</cell><cell>Multiplication</cell></row>
+    </tabular>
+  </table>
+
+  <example xml:id="appendix-statistics-ch4-multiplication-rule-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>An investor chooses two independent stocks with <m>P(A)=0.6</m> and <m>P(B)=0.7</m>. Find the probability both increase on the same day.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-multiplication-rule-example-4">
+    <title>Example 4</title>
+    <statement>
+      <p>A citizen registers to vote with probability 0.75. If registered, probability of voting is 0.6. Find the probability a randomly selected citizen both registers and votes.</p>
+    </statement>
+  </example>
+
+  <definition xml:id="appendix-statistics-ch4-complement-language">
+    <title>What is the Complement of an Event?</title>
+    <statement>
+      <p>The complement of event <m>E</m>, denoted <m>E^c</m> or not <m>E</m>, consists of all outcomes in the sample space not in <m>E</m>.</p>
+      <p><me>P(E)+P(\text{not }E)=1</me></p>
+      <p><me>P(\text{not }E)=1-P(E)</me></p>
+    </statement>
+  </definition>
+
+  <definition xml:id="appendix-statistics-ch4-opposite-inequality-phrases">
+    <title>Opposite Pairs for Inequalities</title>
+    <statement>
+      <p>Common phrase pairs describe opposite inequality conditions.</p>
+    </statement>
+  </definition>
+
+  <table xml:id="appendix-statistics-ch4-opposite-phrases-table">
+    <title>Opposite Pairs of Mathematical Phrases</title>
+    <tabular>
+      <row header="yes"><cell>Phrase</cell><cell>Opposite Phrase</cell></row>
+      <row><cell>Less than</cell><cell>Greater than or equal to</cell></row>
+      <row><cell>Less than or equal to</cell><cell>Greater than</cell></row>
+      <row><cell>Greater than</cell><cell>Less than or equal to</cell></row>
+      <row><cell>Greater than or equal to</cell><cell>Less than</cell></row>
+      <row><cell>At most</cell><cell>More than</cell></row>
+      <row bottom="major"><cell>At least</cell><cell>Less than</cell></row>
+    </tabular>
+  </table>
+
+  <example xml:id="appendix-statistics-ch4-complement-language-example-1">
+    <title>Example 1</title>
+    <statement>
+      <p>Rewrite each statement in its opposite form.</p>
+      <p>
+        <ul>
+          <li>Part A: All patients younger than 17 years old with a particular heart defect.</li>
+          <li>Part B: Drivers must maintain a speed greater than 70 mph on the highway.</li>
+          <li>Part C: Randy saw at least 7 cats on his picnic table.</li>
+          <li>Part D: All households that make less than $53,000 are below median income for their city.</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <table xml:id="appendix-statistics-ch4-key-rules-table-4">
+    <title>Key Probability Rules and Their Operations</title>
+    <tabular>
+      <row header="yes"><cell>Probability Rule</cell><cell>Common Keywords</cell><cell>Mathematical Operation</cell></row>
+      <row><cell>Addition Rule</cell><cell>Or, either, at least one</cell><cell>Addition</cell></row>
+      <row><cell>Conditional Probability</cell><cell>If, given</cell><cell>N/A</cell></row>
+      <row><cell>Multiplication Rule</cell><cell>And, but, both</cell><cell>Multiplication</cell></row>
+      <row bottom="major"><cell>Complement</cell><cell>Not, negation words</cell><cell>Subtraction</cell></row>
+    </tabular>
+  </table>
+
+  <example xml:id="appendix-statistics-ch4-complement-example-2">
+    <title>Example 2</title>
+    <statement>
+      <p>A city bus arrives on time with probability 0.82.</p>
+      <p>
+        <ul>
+          <li>Part A: Define the complement event.</li>
+          <li>Part B: Find the probability that a randomly selected bus is not on time.</li>
+        </ul>
+      </p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-complement-example-3">
+    <title>Example 3</title>
+    <statement>
+      <p>A first battery works with probability 0.90. If it fails, a backup works with probability 0.60. Find the probability that both batteries fail.</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-complement-example-4">
+    <title>Example 4: The Birthday Problem</title>
+    <statement>
+      <p>In a group of 23 people, what is the probability that at least two share a birthday?</p>
+    </statement>
+  </example>
+
+  <example xml:id="appendix-statistics-ch4-tree-diagram-example-1">
+    <title>How to Use Tree Diagrams with the Multiplication Rule</title>
+    <statement>
+      <p>At a clinic, Dr. Chen sees 60% of patients and diagnoses correctly 85% of the time. Dr. Davis sees the rest and diagnoses correctly 90% of the time.</p>
+      <p>Find the probability that a randomly selected patient is correctly diagnosed on the first visit.</p>
+    </statement>
+  </example>
+
+</worksheet>

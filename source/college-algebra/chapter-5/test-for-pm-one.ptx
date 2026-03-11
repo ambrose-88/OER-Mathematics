@@ -196,7 +196,7 @@
     </p>
     <figure xml:id="graph-test-pm-one-synthetic-division">
         <caption>Synthetic division gives us the quotient <m>x^2+5x+4</m>.</caption>
-        <image source="graph-test-pm-one-synthetic-division.png" decorative="yes" width="50%"/>
+      <image source="college-algebra/chapter-5/graph-test-pm-one-synthetic-division.png" decorative="yes" width="50%"/>
     </figure>
     <p>
         Now, we can fully factor the polynomial.

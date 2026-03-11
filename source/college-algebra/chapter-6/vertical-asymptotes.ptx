@@ -297,10 +297,9 @@
                 To factor the denominator, first note that the coefficients of <m>r(x)</m> sum to 1; therefore, the Test for <m>\pm 1</m> tells us that <m>x=1</m> is a zero the denominator.
                 We can use synthetic division to factor the polynomial.
             </p>
-            <figure xml:id="fig-finding-zeroes-denominator">
-                <caption>Synthetic division shows that the quotient is <m>q(x)=x^2+4x+4</m></caption>
-                <image source="college-algebra/chapter-6/finding-zeroes-denominator.png" decorative="yes" width="50%"/>
-            </figure>
+            <p>
+              Synthetic division shows that the quotient is <m>q(x)=x^2+4x+4</m>.
+            </p>
             <p>
                 Notice that the quotient is a perfect square trinomial and can be factored as <m>(x+2)^2</m>. 
                 Therefore, <m>x^3+3x^2-4=(x-1)(x+2)^2</m>, and our fully factored rational function is <me>r(x)=\frac{1}{(x-1)(x+2)^2}</me>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-trig-sum-product" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Product-to-Sum and Sum-to-Product Formulas</title>
+
+    <theorem xml:id="thm-app-trig-product-to-sum-formulas">
+        <title>Product-to-Sum Formulas</title>
+        <statement>
+            <p>
+                Let <m>x</m> be any real number. Then the following formulas are true:
+                <md>
+                    <mrow>\sin(\alpha)\cos(\beta)\amp=\dfrac{1}{2}\left[\sin(\alpha+\beta)+\sin(\alpha-\beta)\right]</mrow>
+                    <mrow></mrow>
+                    <mrow>\cos(\alpha)\sin(\beta)\amp=\dfrac{1}{2}\left[\sin(\alpha+\beta)-\sin(\alpha-\beta)\right]</mrow>
+                    <mrow></mrow>
+                    <mrow>\cos(\alpha)\cos(\beta)\amp=\dfrac{1}{2}\left[\cos(\alpha+\beta)+\cos(\alpha-\beta)\right]</mrow>
+                    <mrow></mrow>
+                    <mrow>\sin(\alpha)\sin(\beta)\amp=\dfrac{1}{2}\left[\cos(\alpha+\beta)-\cos(\alpha-\beta)\right]</mrow>
+                </md>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="exa-app-trig-sum-product-15" workspace="4in">
+        <title>Use a Product-to-Sum Formula</title>
+        <statement>
+            <p>
+                Express <m>\cos(x)\sin(4x)</m> as a sum of two trigonometric functions.
+            </p>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-sum-to-product-formulas">
+        <title>Sum-to-Product Formulas</title>
+        <statement>
+            <p>
+                Let <m>x</m> be any real number. Then the following formulas are true:
+                <md>
+                    <mrow>\sin(\alpha)+\sin(\beta)\amp=2\sin\left(\dfrac{\alpha+\beta}{2}\right)\cos\left(\dfrac{\alpha-\beta}{2}\right)</mrow>
+                    <mrow></mrow>
+                    <mrow>\sin(\alpha)-\sin(\beta)\amp=2\cos\left(\dfrac{\alpha+\beta}{2}\right)\sin\left(\dfrac{\alpha-\beta}{2}\right)</mrow>
+                    <mrow></mrow>
+                    <mrow>\cos(\alpha)+\cos(\beta)\amp=2\cos\left(\dfrac{\alpha+\beta}{2}\right)\cos\left(\dfrac{\alpha-\beta}{2}\right)</mrow>
+                    <mrow></mrow>
+                    <mrow>\cos(\alpha)-\cos(\beta)\amp=-2\sin\left(\dfrac{\alpha+\beta}{2}\right)\sin\left(\dfrac{\alpha-\beta}{2}\right)</mrow>
+                </md>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="exa-app-trig-sum-product-16" workspace="4in">
+        <title>Use a Sum-to-Product Formula</title>
+        <statement>
+            <p>
+                Write <m>\cos(4x)-\cos(6x)</m> as a product.
+            </p>
+        </statement>
+    </example>
+
+</worksheet>

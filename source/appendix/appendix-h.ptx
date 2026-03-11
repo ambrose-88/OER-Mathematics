@@ -10,4 +10,5 @@
  <xi:include href="./statistics/chapter-1.ptx"/>
  <xi:include href="./statistics/chapter-2.ptx"/> 
   <xi:include href="./statistics/chapter-3.ptx"/>
+   <xi:include href="./statistics/chapter-4.ptx"/>
 </appendix>

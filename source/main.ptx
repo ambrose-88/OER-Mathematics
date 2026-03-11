@@ -6,7 +6,6 @@
 
   <book xml:id="my-great-book">
     <title>OER Mathematics</title>
-    <subtitle></subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />

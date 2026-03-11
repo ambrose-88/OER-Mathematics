@@ -279,7 +279,7 @@
                     </solution>
                     <solution>
                          <p>
-                            You can write all the points on a single line with list notation. To create a list of points, type a square left bracket [, a comma separated list of points, and then close the list with a right square bracket ]. If you have it typed correctly, it should look like this: <me>[(2,4), (-2,3), (-3,-2), (4,-4), (3,0), (0, -2)]\].</me> The output will render in Desmos like this.
+                            You can write all the points on a single line with list notation. To create a list of points, type a square left bracket [, a comma separated list of points, and then close the list with a right square bracket ]. If you have it typed correctly, it should look like this: <me>[(2,4), (-2,3), (-3,-2), (4,-4), (3,0), (0, -2)].</me> The output will render in Desmos like this.
                         </p>
                         
                        

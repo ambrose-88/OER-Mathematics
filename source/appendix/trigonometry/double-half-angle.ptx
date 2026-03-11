@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-trig-double-half-angle" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Double-Angle, Half-Angle, and Power-Reducing Formulas</title>
+
+    <theorem xml:id="thm-app-trig-double-angle-formulas" workspace="2in">
+        <title>Double Angle Formulas</title>
+        <statement>
+            <p>
+                Let <m>x</m> be any real number. Then the following formulas are true:
+                <md>
+                    <mrow>\sin(2x)\amp=2\sin(x)\cos(x)</mrow>
+                    <mrow></mrow>
+                    <mrow>\cos(2x)\amp=\cos^2(x)-\sin^2(x)</mrow>
+                    <mrow></mrow>
+                    <mrow>\amp=1-2\sin^2(x)</mrow>
+                    <mrow></mrow>
+                    <mrow>\amp=2\cos^2(x)-1</mrow>
+                    <mrow></mrow>
+                    <mrow>\tan(2x)\amp=\dfrac{2\tan(x)}{1-\tan^2(x)}</mrow>
+                </md>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="exa-app-trig-double-half-angle-1" workspace="6in">
+        <title>Using Right Triangles to Find Exact Values</title>
+        <statement>
+            <p>
+                If <m>\sin(x)=\dfrac{12}{13}</m> and <m>x</m> is in Quadrant II, find <m>\sin(2x)</m>, <m>\cos(2x)</m>, and <m>\tan(2x)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-double-half-angle-2" workspace="6in">
+        <title>Proving an Identity</title>
+        <statement>
+            <p>
+                Prove the identity <m>\dfrac{2\tan(x)}{1+\tan^2(x)}=\sin(2x)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-double-half-angle-3" workspace="5in">
+        <title>Writing in Terms of a Base Trigonometric Function</title>
+        <statement>
+            <p>
+                Write <m>\cos(4x)</m> in terms of <m>\cos(x)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-double-half-angle-5" workspace="2in">
+        <title>Finding an Exact Value</title>
+        <statement>
+            <p>
+                Find an exact value for <m>1-2\sin^2\left(\dfrac{3\pi}{8}\right)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-lowering-powers-formulas" workspace="3in">
+        <title>Power-Reducing Formulas</title>
+        <statement>
+            <p>
+                Let <m>x</m> be any real number. Then the following formulas are true:
+                <md>
+                    <mrow>\sin^2(x)\amp=\dfrac{1-\cos(2x)}{2}</mrow>
+                    <mrow></mrow>
+                    <mrow>\amp=\dfrac{1}{2}-\dfrac{1}{2}\cos(2x)</mrow>
+                    <mrow></mrow>
+                    <mrow>\cos^2(x)\amp=\dfrac{1+\cos(2x)}{2}</mrow>
+                    <mrow></mrow>
+                    <mrow>\amp=\dfrac{1}{2}+\dfrac{1}{2}\cos(2x)</mrow>
+                    <mrow></mrow>
+                    <mrow>\tan^2(x)\amp=\dfrac{1-\cos(2x)}{1+\cos(2x)}</mrow>
+                </md>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="exa-app-trig-double-half-angle-6" workspace="6in">
+        <title>Using Power-Reducing Formulas</title>
+        <statement>
+            <p>
+                Rewrite <m>\cos^4(x)</m> in terms of the first power of cosine.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-double-half-angle-7" workspace="6in">
+        <title>Using Power-Reducing Formulas</title>
+        <statement>
+            <p>
+                Rewrite <m>\sin^2(x)\cos^2(x)</m> in terms of the first power of cosine.
+            </p>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-half-angle-formulas" workspace="3in">
+        <title>Half Angle Formulas</title>
+        <statement>
+            <p>
+                Let <m>x</m> be any real number. Then the following formulas are true:
+                <md>
+                    <mrow>\sin\left(\dfrac{x}{2}\right)=\sin\left(\dfrac{1}{2}x\right)\amp=\pm\sqrt{\dfrac{1-\cos(x)}{2}}</mrow>
+                    <mrow></mrow>
+                    <mrow>\amp=\pm\sqrt{\dfrac{1}{2}-\dfrac{1}{2}\cos(x)}</mrow>
+                    <mrow></mrow>
+                    <mrow>\cos\left(\dfrac{x}{2}\right)=\cos\left(\dfrac{1}{2}x\right)\amp=\pm\sqrt{\dfrac{1+\cos(x)}{2}}</mrow>
+                    <mrow></mrow>
+                    <mrow>\amp\pm\sqrt{\dfrac{1}{2}+\dfrac{1}{2}\cos(x)}</mrow>
+                    <mrow></mrow>
+                    <mrow>\tan\left(\dfrac{x}{2}\right)=\tan\left(\dfrac{1}{2}x\right)\amp=\pm\sqrt{\dfrac{1-\cos(x)}{1+\cos(x)}}</mrow>
+                    <mrow></mrow>
+                    <mrow>\amp=\dfrac{1-\cos(x)}{\sin(x)}</mrow>
+                    <mrow></mrow>
+                    <mrow>\amp=\dfrac{\sin(x)}{1+\cos(x)}</mrow>
+                </md>
+            </p>
+            The symbol <m>\pm</m> means you need to determine the sign based on the quadrant of the angle <m>\dfrac{x}{2}</m>.
+        </statement>
+    </theorem>
+
+     <example xml:id="exa-app-trig-double-half-angle-9" workspace="3in">
+        <title>Finding Exact Values</title>
+        <statement>
+            <p>
+                Find the exact value of <m>\cos\left(\dfrac{7\pi}{12}\right)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-double-half-angle-10" workspace="6in">
+        <title>Using Right Triangles to Find Exact Values</title>
+        <statement>
+            <p>
+                Find <m>\sin\left(\dfrac{x}{2}\right)</m>, <m>\cos\left(\dfrac{x}{2}\right)</m>, and <m>\tan\left(\dfrac{x}{2}\right)</m> if <m>\sec(x)=-\dfrac{3}{2}</m> and <m>x</m> is in Quadrant III.
+            </p>
+        </statement>
+    </example>    
+
+    <example xml:id="exa-app-trig-double-half-angle-11" workspace="7in">
+        <title>Verify an Identity</title>
+        <statement>
+            <p>
+                Verify the identity <m>\tan\left(\dfrac{\alpha}{2}\right)=\dfrac{\sec(\alpha)}{\sec(\alpha)\csc(\alpha)+\csc(\alpha)}</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-double-half-angle-13" workspace="6in">
+        <title>Example 13</title>
+        <statement>
+            <p>
+                Write <m>\tan(2\cos^{-1}(x))</m> as an algebraic expression involving <m>x</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-double-half-angle-14" workspace="6in">
+        <title>Example 14</title>
+        <statement>
+            <p>
+                Find the exact value of <m>\sec\left(2\sin^{-1}\left(\dfrac{1}{4}\right)\right)</m>.
+            </p>
+        </statement>
+    </example>
+
+</worksheet>
