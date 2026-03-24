@@ -20,4 +20,5 @@
   <xi:include href="./trigonometry/double-half-angle.ptx"/>
   <xi:include href="./trigonometry/trig-sum-product.ptx"/>
   <xi:include href="./trigonometry/solving-trig-functions.ptx"/>
+  <xi:include href="./trigonometry/law-of-sines.ptx"/>
 </appendix>

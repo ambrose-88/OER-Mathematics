@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-trig-law-of-sines" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Law of Sines</title>
+
+    <definition xml:id="def-app-trig-law-of-sines-oblique-triangle">
+        <title>Oblique Triangles</title>
+        <statement>
+            <p>
+                <ul>
+                    <li>A triangle is <term>oblique</term> when none of the angles are measure <m>90^\circ</m>.</li>
+                    <li>To <term>solve a triangle</term> means to find the measurements of all the angles and sides in a triangle.</li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
+    <p>
+        To solve oblique triangles, you have to know certain bits of information about the triangles.
+        There are 5 different cases:
+    </p>
+
+        <p>
+            <ul>
+                <li><alert>Angle-Side-Angle (ASA):</alert> Two consecutive angles and their common side. This problem type can be solved with the Law of Sines.</li>
+            </ul>
+        </p>
+
+        <figure xml:id="fig-app-trig-law-of-sines-asa">
+            <caption>An oblique triangles with consecutive angles Capital A and Capital C labeld, and the side both angles share is labeled lowercase b. The remaining sides are dashed and unlabeled. Angle B is unlabeled</caption>
+            <image source="trigonometry/ASA.png" decorative="yes" width="50%"/>
+        </figure>
+
+        <p>
+            <ul>
+                <li><alert>Side-Angle-Angle (SAA):</alert> Side followed by two consecutive angles. This problem type can be solved with the Law of Sines.</li>
+            </ul>
+        </p>
+
+        <figure xml:id="fig-app-trig-law-of-sines-saa">
+            <caption>An oblique where the consecutive angles capital B and capital C are labeled and angle capital A is unlabeled. The side opposite angle captial B is labeled lowercase b, and the remaining sides are drawn dashed.</caption>
+            <image source="trigonometry/SAA.png" decorative="yes" width="50%"/>
+        </figure>
+
+        <p>
+            <ul>
+                <li><alert>Side-Side-Angle (SSA):</alert> Two consecutive sides followed by an angle. This problem type can be solved with the Law of Sines, but it has three possible solution types.</li>
+            </ul>
+        </p>
+
+        <figure xml:id="fig-app-trig-law-of-sines-ssa">
+            <caption>An oblique triangle with two consecutive sides labeled lowercase a and lowercase b. The angle opposite side lowercase a is labeled capital A. The remaining side is dashed, and angles capital B and capital C are unlabeled.</caption>
+            <image source="trigonometry/SSA.png" decorative="yes" width="50%"/>
+        </figure>
+
+        <p>
+            <ul>
+                <li><alert>Side-Angle-Side (SAS):</alert> Two consecutive sides and the angle they form. This problem type can be solved with the Law of Cosines, which we will study in the Chapter 5.6 Lecture Notes.</li>
+            </ul>
+        </p>
+
+        <figure xml:id="fig-app-trig-law-of-sines-sas">
+            <caption>Two consecutive sides lowercase a and lowercase b are labeled, and the angle capital C that they form is labeled. The remaining angles are unlabeled, and the remaining side is dashed.</caption>
+            <image source="trigonometry/SAS.png" decorative="yes" width="50%"/>
+        </figure>
+
+        <p>
+            <ul>
+                <li><alert>Side-Side-Side (SSS):</alert> All three sides of the triangle are known, but none of the angles are known. This problem type can be solved with the Law of Cosines, which we will study in the Chapter 5.6 Lecture Notes.</li>
+            </ul>
+        </p>
+
+        <figure xml:id="fig-app-trig-law-of-sines-sss">
+            <caption>The lengths of all three sides are labeled as lowercase a, lowercase b, and lowercase c. All angles are not labeled.</caption>
+            <image source="trigonometry/SSS.png" decorative="yes" width="50%"/>
+        </figure>
+
+
+    <theorem xml:id="thm-app-trig-law-of-sines">
+        <title>Law of Sines: Theorem</title>
+        <statement>
+            <p>
+                Consider any triangle whose angles are labeled <m>A</m>, <m>B</m>, and <m>C</m>
+                and whose opposite sides are respectively labeled <m>a</m>, <m>b</m>, and <m>c</m>
+                (see picture below).
+            </p>
+
+            <figure xml:id="fig-app-trig-law-of-sines-labeled-triangle">
+                <caption>A triangle whose angles are labeled captial A, capital B, and captial C and whose opposite sides are respectively labeled lowercase a, lowercase b, and lowercase c.</caption>
+                <image source="trigonometry/oblique.png" decorative="yes" width="50%"/>
+            </figure>
+
+            <p>Then, it is always true that</p>
+            <p>
+                <me>\dfrac{\sin(A)}{a}=\dfrac{\sin(B)}{b}=\dfrac{\sin(C)}{c}</me>
+            </p>
+        </statement>
+        <proof>
+            <p>
+                The first step is to find the area of the triangle three different ways.
+                Recall the area of any triangle is given by
+            </p>
+            <p>
+                <me>A=\dfrac{1}{2}(\text{base})(\text{height})</me>
+            </p>
+
+            <figure xml:id="fig-app-trig-law-of-sines-area-1">
+                <caption>Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital B to a point capital B prime on the side lowercase b, is drawn as a dashed line, and is labeled lowercase h.</caption>
+                <image source="trigonometry/area1.png" decorative="yes" width="50%"/>
+            </figure>
+
+            <figure xml:id="fig-app-trig-law-of-sines-area-2">
+                <caption>Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital C to a point capital C prime which is on the line defined by the vertices of angles capital A and capital B, is drawn dashed, and is labeled by lowercase h. The side lowercase b is extended from the vertex of angle captial B to the point capital C prime by a dashed line.</caption>
+                <image source="trigonometry/area2.png" decorative="yes" width="50%"/>
+            </figure>
+
+            <figure xml:id="fig-app-trig-law-of-sines-area-3">
+                <caption>Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital A to a point capital A prime which is on the line defined by the vertices of angles capital B and capital C, is drawn dashed, and is labeled by lowercase h. The side lowercase a is extended from the vertex of angle captial B to the point capital A prime by a dashed line.</caption>
+                <image source="trigonometry/area3.png" decorative="yes" width="50%"/>
+            </figure>
+
+            <p>Combining all three of these equations into a single equation, we get:</p>
+        </proof>
+    </theorem>
+
+    <note xml:id="note-app-trig-law-of-sines-asa-saa-examples-heading">
+        <title>ASA and SAA Examples</title>
+        <p>The following examples use ASA and SAA information.</p>
+    </note>
+
+    <example xml:id="exa-app-trig-law-of-sines-1">
+        <title>Example 1</title>
+        <statement>
+            <p>Solve the following triangle.</p>
+            <figure xml:id="fig-app-trig-law-of-sines-example-1">
+                <caption>An oblique triangle with angles captial A, capital B, and capital C labeled. The length of the side opposite angle capital c is fifty. The measurment of angle captial A is twenty-three degrees, and the measurement of angle captial B is one hundred and ten degrees.</caption>
+                <image source="trigonometry/example1.png" decorative="yes" width="50%"/>
+            </figure>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-law-of-sines-2">
+        <title>Example 2</title>
+        <statement>
+            <p>
+                Solve the triangle that has <m>\angle B=10^\circ</m>, <m>\angle C=100^\circ</m>,
+                and <m>c=115</m>.
+            </p>
+        </statement>
+    </example>
+
+    <note xml:id="note-app-trig-law-of-sines-ssa-examples-heading">
+        <title>SSA Examples</title>
+        <p>The following examples use SSA information.</p>
+    </note>
+
+    <note xml:id="note-app-trig-law-of-sines-ssa-resource">
+        <title>Why are There Three Types of Solutions to SSA?</title>
+        <p>
+            Interactive resource: <url href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=9287703&amp;type=lti&amp;rCode=TBR-56311295">Chapter 5.4 Why are there multiple solution types for SSA</url>.
+        </p>
+    </note>
+
+    <example xml:id="exa-app-trig-law-of-sines-3">
+        <title>Example 3</title>
+        <statement>
+            <p>Solve the following triangle.</p>
+            <figure xml:id="fig-app-trig-law-of-sines-example-3">
+                <caption>An oblique triangle with angles captial A, captial B, and capital C. Angle capital C measures 132 degrees. The side opposite angle capital A is 107, and the side opoosite angle capital B is 80.</caption>
+                <image source="trigonometry/example3.png" decorative="yes" width="50%"/>
+            </figure>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-law-of-sines-4">
+        <title>Example 4</title>
+        <statement>
+            <p>
+                Solve the triangle that has <m>b=48</m>, <m>c=47</m>, and <m>\angle C=34^\circ</m>.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-law-of-sines-5">
+        <title>Example 5</title>
+        <statement>
+            <p>
+                Solve the triangle that has <m>a=57</m>, <m>b=100</m>, and <m>\angle A=51^\circ</m>.
+            </p>
+        </statement>
+    </example>
+
+    <note xml:id="note-app-trig-law-of-sines-applications-heading">
+        <title>Solving Applications Using the Law of Sines</title>
+        <p>The following examples apply the Law of Sines in context.</p>
+    </note>
+
+    <example xml:id="exa-app-trig-law-of-sines-6">
+        <title>Example 6</title>
+        <statement>
+            <p>
+                To estimate the height of a mountain above a level plain, the angle of elevation
+                to the top of the mountain is measured to be <m>32^\circ</m>. One thousand feet
+                closer to the mountain along the plane, it is found that the angle of elevation
+                is now <m>35^\circ</m>. Estimate the height of the mountain.
+            </p>
+            <figure xml:id="fig-app-trig-law-of-sines-example-6">
+                <caption>A right triangle is drawn so that the two sides opposite the non-right angles present the height h (in feet) of a mountain and an unknown distance a (in feet) that measures from the base of the mountain to some point in capital A. The angle of elevation from A to the top of the mountain is 35 degrees. A second right triangle is drawn similarly on top of the first one, but this time the distance from the base of the mountain to the point A prime is 1000+a feet from the base. The angle of elevation from A prime to the top of the mountain is 32 degrees.</caption>
+                <image source="trigonometry/worksheet2problem3.png" decorative="yes" width="50%"/>
+            </figure>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-law-of-sines-7">
+        <title>Example 7</title>
+        <statement>
+            <p>
+                The elongation <m>\alpha</m> of a planet is the angle formed by the planet,
+                Earth, and the Sun. (See the following figure.)
+            </p>
+            <figure xml:id="fig-app-trig-law-of-sines-example-7">
+                <caption>A diagram of the sun with the earth and its orbit drawn. The orbit of venus is drawn, and its two possible locations for a given elongation alpha is shown.</caption>
+                <image source="trigonometry/example7.png" decorative="yes" width="50%"/>
+            </figure>
+            <p>
+                It is known that the distance between the Sun and Venus is 0.723 astronomical
+                units (AU). At a certain time, the elongation of Venus is given by
+                <m>\alpha=39.4^\circ</m>. Find the possible distances from the Earth to Venus at
+                that time in AU.
+            </p>
+        </statement>
+    </example>
+
+</worksheet>
