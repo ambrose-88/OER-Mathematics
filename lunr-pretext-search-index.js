@@ -10564,7 +10564,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "D.14",
   "title": "Law of Sines",
-  "body": " Law of Sines   Oblique Triangles     A triangle is oblique when none of the angles are measure .  To solve a triangle means to find the measurements of all the angles and sides in a triangle.      To solve oblique triangles, you have to know certain bits of information about the triangles. There are 5 different cases:    Angle-Side-Angle (ASA): Two consecutive angles and their common side. This problem type can be solved with the Law of Sines.     An oblique triangles with consecutive angles Capital A and Capital C labeld, and the side both angles share is labeled lowercase b. The remaining sides are dashed and unlabeled. Angle B is unlabeled      Side-Angle-Angle (SAA): Side followed by two consecutive angles. This problem type can be solved with the Law of Sines.     An oblique where the consecutive angles capital B and capital C are labeled and angle capital A is unlabeled. The side opposite angle captial B is labeled lowercase b, and the remaining sides are drawn dashed.      Side-Side-Angle (SSA): Two consecutive sides followed by an angle. This problem type can be solved with the Law of Sines, but it has three possible solution types.     An oblique triangle with two consecutive sides labeled lowercase a and lowercase b. The angle opposite side lowercase a is labeled capital A. The remaining side is dashed, and angles capital B and capital C are unlabeled.      Side-Angle-Side (SAS): Two consecutive sides and the angle they form. This problem type can be solved with the Law of Cosines, which we will study in the Chapter 5.6 Lecture Notes.     Two consecutive sides lowercase a and lowercase b are labeled, and the angle capital C that they form is labeled. The remaining angles are unlabeled, and the remaining side is dashed.      Side-Side-Side (SSS): All three sides of the triangle are known, but none of the angles are known. This problem type can be solved with the Law of Cosines, which we will study in the Chapter 5.6 Lecture Notes.     The lengths of all three sides are labeled as lowercase a, lowercase b, and lowercase c. All angles are not labeled.     Law of Sines: Theorem   Consider any triangle whose angles are labeled , , and and whose opposite sides are respectively labeled , , and (see picture below).   A triangle whose angles are labeled captial A, capital B, and captial C and whose opposite sides are respectively labeled lowercase a, lowercase b, and lowercase c.    Then, it is always true that       The first step is to find the area of the triangle three different ways. Recall the area of any triangle is given by      Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital B to a point capital B prime on the side lowercase b, is drawn as a dashed line, and is labeled lowercase h.     Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital C to a point capital C prime which is on the line defined by the vertices of angles capital A and capital B, is drawn dashed, and is labeled by lowercase h. The side lowercase b is extended from the vertex of angle captial B to the point capital C prime by a dashed line.     Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital A to a point capital A prime which is on the line defined by the vertices of angles capital B and capital C, is drawn dashed, and is labeled by lowercase h. The side lowercase a is extended from the vertex of angle captial B to the point capital A prime by a dashed line.    Combining all three of these equations into a single equation, we get:     ASA and SAA Examples  The following examples use ASA and SAA information.    Example 1   Solve the following triangle.   An oblique triangle with angles captial A, capital B, and capital C labeled. The length of the side opposite angle capital c is fifty. The measurment of angle captial A is twenty-three degrees, and the measurement of angle captial B is one hundred and ten degrees.       Example 2   Solve the triangle that has , , and .     SSA Examples  The following examples use SSA information.    Why are There Three Types of Solutions to SSA?  Interactive resource: Chapter 5.4 Why are there multiple solution types for SSA .    Example 3   Solve the following triangle.   An oblique triangle with angles captial A, captial B, and capital C. Angle capital C measures 132 degrees. The side opposite angle capital A is 107, and the side opoosite angle capital B is 80.       Example 4   Solve the triangle that has , , and .     Example 5   Solve the triangle that has , , and .     Solving Applications Using the Law of Sines  The following examples apply the Law of Sines in context.    Example 6   To estimate the height of a mountain above a level plain, the angle of elevation to the top of the mountain is measured to be . One thousand feet closer to the mountain along the plane, it is found that the angle of elevation is now . Estimate the height of the mountain.   A right triangle is drawn so that the two sides opposite the non-right angles present the height h (in feet) of a mountain and an unknown distance a (in feet) that measures from the base of the mountain to some point in capital A. The angle of elevation from A to the top of the mountain is 35 degrees. A second right triangle is drawn similarly on top of the first one, but this time the distance from the base of the mountain to the point A prime is 1000+a feet from the base. The angle of elevation from A prime to the top of the mountain is 32 degrees.       Example 7   The elongation of a planet is the angle formed by the planet, Earth, and the Sun. (See the following figure.)   A diagram of the sun with the earth and its orbit drawn. The orbit of venus is drawn, and its two possible locations for a given elongation alpha is shown.    It is known that the distance between the Sun and Venus is 0.723 astronomical units (AU). At a certain time, the elongation of Venus is given by . Find the possible distances from the Earth to Venus at that time in AU.    "
+  "body": " Law of Sines   Oblique Triangles     A triangle is oblique when none of the angles are measure .  To solve a triangle means to find the measurements of all the angles and sides in a triangle.      To solve oblique triangles, you have to know certain bits of information about the triangles. There are 5 different cases:    Angle-Side-Angle (ASA): Two consecutive angles and their common side. This problem type can be solved with the Law of Sines.     An oblique triangles with consecutive angles Capital A and Capital C labeld, and the side both angles share is labeled lowercase b. The remaining sides are dashed and unlabeled. Angle B is unlabeled      Side-Angle-Angle (SAA): Side followed by two consecutive angles. This problem type can be solved with the Law of Sines.     An oblique where the consecutive angles capital B and capital C are labeled and angle capital A is unlabeled. The side opposite angle captial B is labeled lowercase b, and the remaining sides are drawn dashed.      Side-Side-Angle (SSA): Two consecutive sides followed by an angle. This problem type can be solved with the Law of Sines, but it has three possible solution types.     An oblique triangle with two consecutive sides labeled lowercase a and lowercase b. The angle opposite side lowercase a is labeled capital A. The remaining side is dashed, and angles capital B and capital C are unlabeled.      Side-Angle-Side (SAS): Two consecutive sides and the angle they form. This problem type can be solved with the Law of Cosines, which we will study in the Chapter 4.2 Lecture Notes.     Two consecutive sides lowercase a and lowercase b are labeled, and the angle capital C that they form is labeled. The remaining angles are unlabeled, and the remaining side is dashed.      Side-Side-Side (SSS): All three sides of the triangle are known, but none of the angles are known. This problem type can be solved with the Law of Cosines, which we will study in the Chapter 4.2 Lecture Notes.     The lengths of all three sides are labeled as lowercase a, lowercase b, and lowercase c. All angles are not labeled.     Law of Sines   Consider any triangle whose angles are labeled , , and and whose opposite sides are respectively labeled , , and (see picture below).   A triangle whose angles are labeled capital A, capital B, and capital C and whose opposite sides are respectively labeled lowercase a, lowercase b, and lowercase c.    Then, it is always true that       We prove this theorem by determining the area of the triangle in three different ways, each using with a different choice of altitude and then combing the three resulting equations into a single equation.   Finding Area by Dropping a Perpendicular from Angle   The area expression from this altitude setup is obtained from the following diagram.   Oblique Triangle with angles measured capital A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital B to a point capital B prime on the side lowercase b, is drawn as a dashed line, and is labeled lowercase h.       Finding Area by Dropping a Perpendicular from Angle   The area expression from this altitude setup is obtained from the following diagram.   Oblique Triangle with angles measured capital A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital C to a point capital C prime which is on the line defined by the vertices of angles capital A and capital B, is drawn dashed, and is labeled by lowercase h. The side lowercase b is extended from the vertex of angle capital B to the point capital C prime by a dashed line.       Finding Area by Dropping a Perpendicular from Angle   The area expression from this altitude setup is obtained from the following diagram.   Oblique Triangle with angles measured capital A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital A to a point capital A prime which is on the line defined by the vertices of angles capital B and capital C, is drawn dashed, and is labeled by lowercase h. The side lowercase a is extended from the vertex of angle capital B to the point capital A prime by a dashed line.      Combining all three of these equations into a single equation, we get:   ASA Example   Solve the following triangle.   An oblique triangle with angles capital A, capital B, and capital C labeled. The length of the side opposite angle capital C is fifty. The measurement of angle capital A is twenty-three degrees, and the measurement of angle capital B is one hundred and ten degrees.       AAS Example   Solve the triangle that has , , and .     Why are There Three Types of Solutions to SSA?  Interactive resource: Chapter 5.4 Why are there multiple solution types for SSA .    SSA Example, Version 1   Solve the following triangle.   An oblique triangle with angles capital A, capital B, and capital C. Angle capital C measures 132 degrees. The side opposite angle capital A is 107, and the side opposite angle capital B is 80.       SSA Example, Version 2   Solve the triangle that has , , and .     SSA Example, Version 3   Solve the triangle that has , , and .     Application Example 1   To estimate the height of a mountain above a level plain, the angle of elevation to the top of the mountain is measured to be . One thousand feet closer to the mountain along the plane, it is found that the angle of elevation is now . Estimate the height of the mountain.   A right triangle is drawn so that the two sides opposite the non-right angles present the height h (in feet) of a mountain and an unknown distance a (in feet) that measures from the base of the mountain to some point in capital A. The angle of elevation from A to the top of the mountain is 35 degrees. A second right triangle is drawn similarly on top of the first one, but this time the distance from the base of the mountain to the point A prime is 1000+a feet from the base. The angle of elevation from A prime to the top of the mountain is 32 degrees.       Application Example 2   The elongation of a planet is the angle formed by the planet, Earth, and the Sun. (See the following figure.)   A diagram of the sun with the earth and its orbit drawn. The orbit of venus is drawn, and its two possible locations for a given elongation alpha is shown.    It is known that the distance between the Sun and Venus is 0.723 astronomical units (AU). At a certain time, the elongation of Venus is given by . Find the possible distances from the Earth to Venus at that time in AU.    "
 },
 {
   "id": "def-app-trig-law-of-sines-oblique-triangle",
@@ -10626,51 +10626,60 @@ var ptx_lunr_docs = [
   "url": "ws-app-trig-law-of-sines.html#thm-app-trig-law-of-sines",
   "type": "Theorem",
   "number": "D.14.469",
-  "title": "Law of Sines: Theorem.",
-  "body": " Law of Sines: Theorem   Consider any triangle whose angles are labeled , , and and whose opposite sides are respectively labeled , , and (see picture below).   A triangle whose angles are labeled captial A, capital B, and captial C and whose opposite sides are respectively labeled lowercase a, lowercase b, and lowercase c.    Then, it is always true that       The first step is to find the area of the triangle three different ways. Recall the area of any triangle is given by      Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital B to a point capital B prime on the side lowercase b, is drawn as a dashed line, and is labeled lowercase h.     Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital C to a point capital C prime which is on the line defined by the vertices of angles capital A and capital B, is drawn dashed, and is labeled by lowercase h. The side lowercase b is extended from the vertex of angle captial B to the point capital C prime by a dashed line.     Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital A to a point capital A prime which is on the line defined by the vertices of angles capital B and capital C, is drawn dashed, and is labeled by lowercase h. The side lowercase a is extended from the vertex of angle captial B to the point capital A prime by a dashed line.    Combining all three of these equations into a single equation, we get:   "
+  "title": "Law of Sines.",
+  "body": " Law of Sines   Consider any triangle whose angles are labeled , , and and whose opposite sides are respectively labeled , , and (see picture below).   A triangle whose angles are labeled capital A, capital B, and capital C and whose opposite sides are respectively labeled lowercase a, lowercase b, and lowercase c.    Then, it is always true that      "
 },
 {
-  "id": "note-app-trig-law-of-sines-asa-saa-examples-heading",
+  "id": "prop-app-trig-law-of-sines-case-1",
   "level": "2",
-  "url": "ws-app-trig-law-of-sines.html#note-app-trig-law-of-sines-asa-saa-examples-heading",
-  "type": "Note",
-  "number": "D.14.474",
-  "title": "ASA and SAA Examples.",
-  "body": " ASA and SAA Examples  The following examples use ASA and SAA information.  "
+  "url": "ws-app-trig-law-of-sines.html#prop-app-trig-law-of-sines-case-1",
+  "type": "Case",
+  "number": "D.14.471",
+  "title": "Finding Area by Dropping a Perpendicular from Angle <span class=\"process-math\">\\(B\\)<\/span>.",
+  "body": " Finding Area by Dropping a Perpendicular from Angle   The area expression from this altitude setup is obtained from the following diagram.   Oblique Triangle with angles measured capital A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital B to a point capital B prime on the side lowercase b, is drawn as a dashed line, and is labeled lowercase h.     "
+},
+{
+  "id": "prop-app-trig-law-of-sines-case-2",
+  "level": "2",
+  "url": "ws-app-trig-law-of-sines.html#prop-app-trig-law-of-sines-case-2",
+  "type": "Case",
+  "number": "D.14.473",
+  "title": "Finding Area by Dropping a Perpendicular from Angle <span class=\"process-math\">\\(C\\)<\/span>.",
+  "body": " Finding Area by Dropping a Perpendicular from Angle   The area expression from this altitude setup is obtained from the following diagram.   Oblique Triangle with angles measured capital A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital C to a point capital C prime which is on the line defined by the vertices of angles capital A and capital B, is drawn dashed, and is labeled by lowercase h. The side lowercase b is extended from the vertex of angle capital B to the point capital C prime by a dashed line.     "
+},
+{
+  "id": "prop-app-trig-law-of-sines-case-3",
+  "level": "2",
+  "url": "ws-app-trig-law-of-sines.html#prop-app-trig-law-of-sines-case-3",
+  "type": "Case",
+  "number": "D.14.475",
+  "title": "Finding Area by Dropping a Perpendicular from Angle <span class=\"process-math\">\\(A\\)<\/span>.",
+  "body": " Finding Area by Dropping a Perpendicular from Angle   The area expression from this altitude setup is obtained from the following diagram.   Oblique Triangle with angles measured capital A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital A to a point capital A prime which is on the line defined by the vertices of angles capital B and capital C, is drawn dashed, and is labeled by lowercase h. The side lowercase a is extended from the vertex of angle capital B to the point capital A prime by a dashed line.     "
 },
 {
   "id": "exa-app-trig-law-of-sines-1",
   "level": "2",
   "url": "ws-app-trig-law-of-sines.html#exa-app-trig-law-of-sines-1",
   "type": "Example",
-  "number": "D.14.475",
-  "title": "Example 1.",
-  "body": " Example 1   Solve the following triangle.   An oblique triangle with angles captial A, capital B, and capital C labeled. The length of the side opposite angle capital c is fifty. The measurment of angle captial A is twenty-three degrees, and the measurement of angle captial B is one hundred and ten degrees.     "
+  "number": "D.14.477",
+  "title": "ASA Example.",
+  "body": " ASA Example   Solve the following triangle.   An oblique triangle with angles capital A, capital B, and capital C labeled. The length of the side opposite angle capital C is fifty. The measurement of angle capital A is twenty-three degrees, and the measurement of angle capital B is one hundred and ten degrees.     "
 },
 {
   "id": "exa-app-trig-law-of-sines-2",
   "level": "2",
   "url": "ws-app-trig-law-of-sines.html#exa-app-trig-law-of-sines-2",
   "type": "Example",
-  "number": "D.14.477",
-  "title": "Example 2.",
-  "body": " Example 2   Solve the triangle that has , , and .   "
-},
-{
-  "id": "note-app-trig-law-of-sines-ssa-examples-heading",
-  "level": "2",
-  "url": "ws-app-trig-law-of-sines.html#note-app-trig-law-of-sines-ssa-examples-heading",
-  "type": "Note",
-  "number": "D.14.478",
-  "title": "SSA Examples.",
-  "body": " SSA Examples  The following examples use SSA information.  "
+  "number": "D.14.479",
+  "title": "AAS Example.",
+  "body": " AAS Example   Solve the triangle that has , , and .   "
 },
 {
   "id": "note-app-trig-law-of-sines-ssa-resource",
   "level": "2",
   "url": "ws-app-trig-law-of-sines.html#note-app-trig-law-of-sines-ssa-resource",
   "type": "Note",
-  "number": "D.14.479",
+  "number": "D.14.480",
   "title": "Why are There Three Types of Solutions to SSA?",
   "body": " Why are There Three Types of Solutions to SSA?  Interactive resource: Chapter 5.4 Why are there multiple solution types for SSA .  "
 },
@@ -10679,36 +10688,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ws-app-trig-law-of-sines.html#exa-app-trig-law-of-sines-3",
   "type": "Example",
-  "number": "D.14.480",
-  "title": "Example 3.",
-  "body": " Example 3   Solve the following triangle.   An oblique triangle with angles captial A, captial B, and capital C. Angle capital C measures 132 degrees. The side opposite angle capital A is 107, and the side opoosite angle capital B is 80.     "
+  "number": "D.14.481",
+  "title": "SSA Example, Version 1.",
+  "body": " SSA Example, Version 1   Solve the following triangle.   An oblique triangle with angles capital A, capital B, and capital C. Angle capital C measures 132 degrees. The side opposite angle capital A is 107, and the side opposite angle capital B is 80.     "
 },
 {
   "id": "exa-app-trig-law-of-sines-4",
   "level": "2",
   "url": "ws-app-trig-law-of-sines.html#exa-app-trig-law-of-sines-4",
   "type": "Example",
-  "number": "D.14.482",
-  "title": "Example 4.",
-  "body": " Example 4   Solve the triangle that has , , and .   "
+  "number": "D.14.483",
+  "title": "SSA Example, Version 2.",
+  "body": " SSA Example, Version 2   Solve the triangle that has , , and .   "
 },
 {
   "id": "exa-app-trig-law-of-sines-5",
   "level": "2",
   "url": "ws-app-trig-law-of-sines.html#exa-app-trig-law-of-sines-5",
   "type": "Example",
-  "number": "D.14.483",
-  "title": "Example 5.",
-  "body": " Example 5   Solve the triangle that has , , and .   "
-},
-{
-  "id": "note-app-trig-law-of-sines-applications-heading",
-  "level": "2",
-  "url": "ws-app-trig-law-of-sines.html#note-app-trig-law-of-sines-applications-heading",
-  "type": "Note",
   "number": "D.14.484",
-  "title": "Solving Applications Using the Law of Sines.",
-  "body": " Solving Applications Using the Law of Sines  The following examples apply the Law of Sines in context.  "
+  "title": "SSA Example, Version 3.",
+  "body": " SSA Example, Version 3   Solve the triangle that has , , and .   "
 },
 {
   "id": "exa-app-trig-law-of-sines-6",
@@ -10716,8 +10716,8 @@ var ptx_lunr_docs = [
   "url": "ws-app-trig-law-of-sines.html#exa-app-trig-law-of-sines-6",
   "type": "Example",
   "number": "D.14.485",
-  "title": "Example 6.",
-  "body": " Example 6   To estimate the height of a mountain above a level plain, the angle of elevation to the top of the mountain is measured to be . One thousand feet closer to the mountain along the plane, it is found that the angle of elevation is now . Estimate the height of the mountain.   A right triangle is drawn so that the two sides opposite the non-right angles present the height h (in feet) of a mountain and an unknown distance a (in feet) that measures from the base of the mountain to some point in capital A. The angle of elevation from A to the top of the mountain is 35 degrees. A second right triangle is drawn similarly on top of the first one, but this time the distance from the base of the mountain to the point A prime is 1000+a feet from the base. The angle of elevation from A prime to the top of the mountain is 32 degrees.     "
+  "title": "Application Example 1.",
+  "body": " Application Example 1   To estimate the height of a mountain above a level plain, the angle of elevation to the top of the mountain is measured to be . One thousand feet closer to the mountain along the plane, it is found that the angle of elevation is now . Estimate the height of the mountain.   A right triangle is drawn so that the two sides opposite the non-right angles present the height h (in feet) of a mountain and an unknown distance a (in feet) that measures from the base of the mountain to some point in capital A. The angle of elevation from A to the top of the mountain is 35 degrees. A second right triangle is drawn similarly on top of the first one, but this time the distance from the base of the mountain to the point A prime is 1000+a feet from the base. The angle of elevation from A prime to the top of the mountain is 32 degrees.     "
 },
 {
   "id": "exa-app-trig-law-of-sines-7",
@@ -10725,8 +10725,8 @@ var ptx_lunr_docs = [
   "url": "ws-app-trig-law-of-sines.html#exa-app-trig-law-of-sines-7",
   "type": "Example",
   "number": "D.14.487",
-  "title": "Example 7.",
-  "body": " Example 7   The elongation of a planet is the angle formed by the planet, Earth, and the Sun. (See the following figure.)   A diagram of the sun with the earth and its orbit drawn. The orbit of venus is drawn, and its two possible locations for a given elongation alpha is shown.    It is known that the distance between the Sun and Venus is 0.723 astronomical units (AU). At a certain time, the elongation of Venus is given by . Find the possible distances from the Earth to Venus at that time in AU.   "
+  "title": "Application Example 2.",
+  "body": " Application Example 2   The elongation of a planet is the angle formed by the planet, Earth, and the Sun. (See the following figure.)   A diagram of the sun with the earth and its orbit drawn. The orbit of venus is drawn, and its two possible locations for a given elongation alpha is shown.    It is known that the distance between the Sun and Venus is 0.723 astronomical units (AU). At a certain time, the elongation of Venus is given by . Find the possible distances from the Earth to Venus at that time in AU.   "
 },
 {
   "id": "appendix-e",
