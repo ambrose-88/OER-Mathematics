@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-trig-vectors" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Vectors in Two Dimensions</title>
+
+    <definition xml:id="def-app-trig-vectors-geometric">
+        <title>Geometric Description of Vectors</title>
+        <statement>
+            <p>
+                <ul>
+                    <li><p>A <term>vector</term> <m>\mathbf{v}</m> is a line directed line segment from a point <m>P</m> to a (possibly non-distinct) point <m>Q</m>.
+                        <ul>
+                            <li><m>P</m> is called the <term>initial point</term> of the vector <m>\mathbf{v}</m>.</li>
+                            <li><m>Q</m> is called the <term>terminal point</term> of the vector <m>\mathbf{v}</m>.</li>
+                        </ul>
+                    </p>
+                    </li>
+                    <li><p>The <term>magnitude</term> of a vector, denoted <m>\lVert\mathbf{v}\rVert</m>, is the length of the line segment.</p></li>
+                    <li><p>Two vectors are <term>equal</term> if they point in the same direction and have the same magnitude.
+                    </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
+
+    <p>
+        In order to go from the initial point of a vector to its terminal point, you will have to travel a horizontal distance of <m>a_1</m> and a vertical distance of <m>a_2</m>, as illustrated in the image below:
+    </p>
+
+    <figure xml:id="fig-app-trig-vectors-analytic">
+        <caption>A vector <m>\mathbf{v}</m> is plotted. 
+            A dashed, red vector points due east from the initial point of <m>\mathbf{v}</m> and is labeled with its magnitude <m>a_1</m>. 
+            A dashed, blue vector points due north from the terminal point of the red vector and terminate at the terminal point of <m>\mathbf{v}</m> and is labeled with its magnitude <m>a_2</m>.
+        </caption>
+        <image source="trigonometry/analytic.png" decorative="yes" width="25%"/>
+    </figure>
+
+    <definition xml:id="def-app-trig-vectors-analytic">
+        <title>Analytic Definition of Vectors</title>
+        <statement>
+            <p>
+                We represent the vector <m>\mathbf{v}</m> as an ordered pair of numbers as follows
+                <me>\mathbf{v}=\langle a_1,a_2\rangle</me>
+                This is known as the <term>component form</term> of the vector <m>\mathbf{v}</m>.
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-app-trig-vectors-from-points">
+        <statement>
+            <p>
+                If <m>P=(x_1,y_1)</m> and <m>Q=(x_2,y_2)</m> are the initial and terminal points of a vector <m>\mathbf{v}</m>, then the vector is given by
+                <me>\mathbf{v}=\langle x_2-x_1, y_2-y_1\rangle</me>
+                This further implies that 
+                <md>
+                    <mrow>a_1\amp=x_2-x_1</mrow>
+                    <mrow></mrow>
+                    <mrow>a_2\amp=y_2-y_1</mrow>
+                </md>
+                
+            </p>
+        </statement>
+    </theorem>
+        <note>
+        <p>
+            Let <m>\mathbf{v}=\langle a_1,a_2\rangle</m>.
+            <ul>
+            <li workspace="2in"><p>If <m>a_1\neq 0</m>, then the slope of the line segment from the initial point to the terminal point is given by <m>\dfrac{a_2}{a_1}</m>. But be careful, the signs of <m>a_1</m> and <m>a_2</m> will determine the direction in which the vector points!</p></li>
+            <li workspace="1.5in"><p>If <m>a_1=0</m> and <m>a_2\gt 0</m>, then the line segment is vertical and points straight up.</p></li>
+            <li workspace="1.5in"><p>If <m>a_1=0</m> and <m>a_2\lt 0</m>, then the line segment is vertical and points straight down.</p></li>
+            </ul>
+        </p>
+    </note>
+
+    <example xml:id="exa-app-trig-vectors-2" workspace="1in">
+        <statement>
+            <p>
+                Find the vector <m>\mathbf{v}</m> with initial point <m>(-3,2)</m> and terminal points <m>(-1,-4)</m>.
+            </p>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-vectors-magnitude" workspace="3in">
+        <title>Magnitude of a Vector</title>
+        <statement>
+            <p>
+                The magnitude of a vector is given by the formula
+            </p>
+            <p>
+                <me>\lVert\mathbf{v}\rVert=\sqrt{a_1^2+a_2^2}</me>
+            </p>
+        </statement>
+    </theorem>
+
+        <definition xml:id="def-app-trig-vectors-unit">
+        <title>Unit Vector</title>
+        <statement>
+            <p>
+                Any vector <m>\mathbf{v}</m> that has magnitude 1 is called a <term>unit vector</term>.
+            </p>
+        </statement>
+    </definition>
+
+    <example xml:id="exa-app-trig-vectors-9">
+        <title>Unit Vectors <m>\mathbf{i}</m> and <m>\mathbf{j}</m></title>
+        <statement>
+            <p>
+                The two most important unit vectors are
+            </p>
+            <p>
+                <me>\mathbf{i}=\langle 1,0\rangle\qquad\text{and}\qquad\mathbf{j}=\langle 0,1\rangle</me>
+            </p>
+            <p>
+                since they point in the directions of the positive <m>x</m>- and <m>y</m>-axes:
+            </p>
+            <figure xml:id="fig-app-trig-vectors-unit">
+                <caption>The vector <m>\mathbf{i}</m> has initial point <m>(0,0)</m> and terminal point <m>(1,0)</m>, and the vector <m>\mathbf{j}</m> has initial point <m>(0,0)</m> and terminal point <m>(0,1)</m>.</caption>
+                <image source="trigonometry/unit_vectors.png" decorative="yes" width="50%"/>
+            </figure>
+            <p>
+                Represent the vector <m>\mathbf{v}=\langle 3,2\rangle</m> in terms of <m>\mathbf{i}</m> and <m>\mathbf{j}</m>.
+            </p>
+            <figure xml:id="fig-app-trig-vectors-unit-representation">
+                <caption>The vector <m>\mathbf{v}=\langle 3,2\rangle</m> can be geometrically represented as <m>3\mathbf{i}+2\mathbf{j}</m> by 
+                    drawing <m>3\mathbf{i}</m> along the x-axis, 
+                    <m>2\mathbf{j}</m> along the y-axis, 
+                    drawing a parallel copy of <m>2\mathbf{j}</m> from terminal point of <m>3\mathbf{i}</m>, 
+                    drawing a parallel copy of <m>3\mathbf{i}</m> from the terminal point of <m>2\mathbf{j}</m>,
+                    and then drawing a vector from the origin to the opposite corner of the resulting rectangle.</caption>
+                <image source="trigonometry/unit_vector_representation.png" decorative="yes" width="60%"/>
+            </figure>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-vectors-i-j-representation">
+        <statement>
+            <p>
+                Any vector <m>\mathbf{v}=\langle a_1,a_2\rangle</m> can be represented in terms of the unit vectors <m>\mathbf{i}</m> and <m>\mathbf{j}</m> as
+                <me>\mathbf{v}=a_1\mathbf{i}+a_2\mathbf{j}</me>
+            </p>
+        </statement>
+    </theorem>
+
+
+    <example xml:id="exa-app-trig-vectors-5" workspace="3in">
+        <statement>
+            <p>
+                Let <m>P=(-3,4)</m> and <m>Q=(5,-6)</m> be the initial and terminal points of a vector <m>\mathbf{v}</m> from <m>P</m> to <m>Q</m>.
+                Express the vector <m>\mathbf{v}</m> using the analytic definition and in terms of the unit vectors <m>\mathbf{i}</m> and <m>\mathbf{j}</m>.
+                Then, find the magnitude of <m>\mathbf{v}</m>.
+            </p>
+        </statement>
+    </example>    
+
+    <definition xml:id="def-app-trig-vectors-addition">
+        <title>Vector Addition</title>
+        <statement>
+            <p>
+                Let <m>\mathbf{v}=\langle a_1,a_2\rangle</m> and <m>\mathbf{w}=\langle b_1,b_2\rangle</m> be any two vectors. We define <term>vector addition</term> as
+                <md>
+                <mrow>\mathbf{v}+\mathbf{w}\amp=\langle a_1+b_1,a_2+b_2\rangle\amp\text{Component Notation}</mrow>
+                <mrow></mrow>
+                <mrow>\mathbf{v}+\mathbf{w}\amp=(a_1+b_1)\mathbf{i}+(a_2+b_2)\mathbf{j}\amp\text{Unit Vector Notation}</mrow>
+                </md>
+            </p>
+        </statement>
+    </definition>
+
+    <figure xml:id="fig-app-trig-vectors-addition-geo">
+        <caption>The vector <m>\mathbf{v}+\mathbf{w}</m> can be geometrically represented by drawing <m>\mathbf{v}</m> and <m>\mathbf{w}</m> with the same initial point, 
+                    drawing a parallel copy of <m>\mathbf{v}</m> from terminal point of <m>\mathbf{w}</m>, 
+                    drawing a parallel copy of <m>\mathbf{w}</m> from the terminal point of <m>\mathbf{v}</m>,
+                    and then drawing a vector from the shared initial point of the original vectors to the shared terminal point of the parallel copies.</caption>
+        <image source="trigonometry/vector_addition_geo.png" decorative="yes" width="25%"/>
+    </figure>
+
+    <example xml:id="exa-app-trig-vectors-6">
+        <statement>
+            <p>
+                Find <m>\mathbf{v}+\mathbf{w}</m> when <m>\mathbf{v}=3\mathbf{i}-5\mathbf{j}</m> and <m>\mathbf{w}=\mathbf{i}-3\mathbf{j}</m>.
+            </p>
+        </statement>
+    </example>
+
+    <definition xml:id="def-app-trig-vectors-subtraction">
+        <title>Vector Subtraction</title>
+        <statement>
+            <p>
+                Let <m>\mathbf{v}=\langle a_1,a_2\rangle</m> and <m>\mathbf{w}=\langle b_1,b_2\rangle</m> be any two vectors. We define <term>vector subtraction</term> as
+                <md>
+                <mrow>\mathbf{v}-\mathbf{w}\amp=\langle a_1-b_1,a_2-b_2\rangle\amp\text{Component Notation}</mrow>
+                <mrow></mrow>
+                <mrow>\mathbf{v}-\mathbf{w}\amp=(a_1-b_1)\mathbf{i}+(a_2-b_2)\mathbf{j}\amp\text{Unit Vector Notation}</mrow>
+                </md>
+            </p>
+        </statement>
+    </definition>
+
+    <figure xml:id="fig-app-trig-vectors-subtraction-geo">
+        <caption>The vector <m>\mathbf{v}-\mathbf{w}</m> can be geometrically represented by drawing <m>\mathbf{v}</m> and <m>\mathbf{w}</m> with the same initial point, 
+                    drawing a parallel copy of <m>\mathbf{v}</m> from terminal point of <m>\mathbf{w}</m>, 
+                    drawing a parallel copy of <m>\mathbf{w}</m> from the terminal point of <m>\mathbf{v}</m>,
+                    and then drawing a vector from the shared initial point of the original vectors to the shared terminal point of the parallel copies.</caption>
+        <image source="trigonometry/vector_subtraction_geo.png" decorative="yes" width="25%"/>
+    </figure>
+
+    <example xml:id="exa-app-trig-vectors-7">
+        <statement>
+            <p>
+                Find <m>\mathbf{v}-\mathbf{w}</m> when <m>\mathbf{v}=3\mathbf{i}-5\mathbf{j}</m> and <m>\mathbf{w}=\mathbf{i}-3\mathbf{j}</m>.
+            </p>
+        </statement>
+    </example>
+
+    <definition xml:id="def-app-trig-vectors-scalar-mult">
+        <title>Scalar Multiplication</title>
+        <statement>
+            <p>
+                Let <m>\mathbf{u}=\langle a_1,a_2\rangle</m> be any vector and let <m>\lambda</m> be any real number. We define <term>scalar multiplication</term> as
+                <md>
+                <mrow>\lambda\mathbf{v}\amp=\langle \lambda a_1,\lambda a_2\rangle\amp\text{Component Notation}</mrow>
+                <mrow></mrow>
+                <mrow>\lambda\mathbf{v}\amp=(\lambda a_1)\mathbf{i}+(\lambda a_2)\mathbf{j}\amp\text{Unit Vector Notation}</mrow>
+                </md>
+            </p>
+        </statement>
+    </definition>
+
+    <note xml:id="note-app-trig-vectors-vector-mult">
+        <p>
+            There is another type of multiplication called <term>vector multiplication</term>. It is more complicated and will not be discussed in this course.
+        </p>
+    </note>
+
+    <figure xml:id="fig-app-trig-vectors-scalar-mult-geo">
+        <caption>The vector <m>2\mathbf{v}</m> points in the same direction as <m>\mathbf{v}</m> but is twice as long.</caption>
+        <image source="trigonometry/scalar_multiplication_geo.png" decorative="yes" width="25%"/>
+    </figure>
+
+    <example xml:id="exa-app-trig-vectors-8">
+        <statement>
+            <p>
+                Find <m>\lambda\mathbf{v}</m> when <m>\mathbf{v}=3\mathbf{i}-5\mathbf{j}</m> and <m>\lambda=4</m>.
+            </p>
+        </statement>
+    </example>
+
+    <definition xml:id="def-app-trig-vectors-zero">
+        <title>Zero Vector</title>
+        <statement>
+            <p>
+                We defined the zero vector as
+            </p>
+            <p>
+                <md>
+                <mrow>\mathbf{0}\amp=\langle 0, 0\rangle\amp\text{Component Notation}</mrow>
+                <mrow></mrow>
+                <mrow>\mathbf{0}\amp=0\mathbf{i}+0\mathbf{j}\amp\text{Unit Vector Notation}</mrow>
+                </md>
+            </p>
+        </statement>
+    </definition>
+
+    <theorem xml:id="thm-app-trig-vectors-properties">
+        <title>Properties of Vectors</title>
+        <statement>
+            <p>
+                The following properties (known as the <term>field axioms</term>) are given in three broad categories
+            </p>
+            <p>
+                <ul>
+                    <li><p>Vector Addition:
+                        <ul>
+                            <li><p>Vector Addition is Commutative: <m>\mathbf{v}+\mathbf{w}=\mathbf{w}+\mathbf{v}</m>.</p></li>
+                            <li><p>Vector Addition is Associative: <m>(\mathbf{u}+\mathbf{v})+\mathbf{w}=\mathbf{u}+(\mathbf{v}+\mathbf{w})</m></p></li>
+                            <li><p>Anything plus the Zero Vector is itself: <m>\mathbf{v}+\mathbf{0}=\mathbf{v}</m></p></li>
+                            <li><p>Additive Inverses Exist: <m>\mathbf{v}+(-\mathbf{v})=\mathbf{0}</m></p></li>
+                        </ul>
+                    </p></li>
+                    <li><p>Length of a vector:
+                        <ul>
+                            <li><p>Scalars increase/decrease the magnitude of a vector: <m>|\lambda\mathbf{v}|=|\lambda|\cdot|\mathbf{v}|</m></p></li>
+                        </ul>
+                    </p></li>
+                    <li><p>Multiplication by a Scalar:
+                        <ul>
+                            <li><p>Scalar Distribution Property: <m>\lambda(\mathbf{v}+\mathbf{w})=\lambda\mathbf{v}+\lambda\mathbf{w}</m></p></li>
+                            <li><p>Vector Distribution Property: <m>(\lambda_1+\lambda_2)\mathbf{v}=\lambda_1\mathbf{v}+\lambda_2\mathbf{v}</m></p></li>
+                            <li><p>Scalar Multiplication is Commutative: <m>\lambda_1(\lambda_2\mathbf{v})=\lambda_2(\lambda_1\mathbf{v})</m></p></li>
+                            <li><p>Scalar Multiplication is Associative: <m>(\lambda_1\lambda_2)\mathbf{v}=\lambda_1(\lambda_2\mathbf{v})</m></p></li>
+                            <li><p>Any vector times the scalar 1 is itself: <m>1\mathbf{v}=\mathbf{v}</m></p></li>
+                            <li><p>Any vector times the scalar 0 is the zero vector: <m>0\mathbf{v}=\mathbf{0}</m></p></li>
+                            <li><p>Any scalar times the zero vector is the zero vector: <m>\lambda\mathbf{0}=\mathbf{0}</m></p></li>
+                        </ul>
+                    </p></li>
+                </ul>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="exa-app-trig-vectors-10" workspace="3in">
+        <statement>
+            <p>
+                Let <m>\mathbf{v}=2\mathbf{i}-3\mathbf{j}</m> and <m>\mathbf{w}=-5\mathbf{i}+\mathbf{j}</m>. Compute <m>-2\mathbf{v}+3\mathbf{w}</m> using component notation and unit vector notation.
+            </p>
+        </statement>
+    </example>
+    <theorem xml:id="thm-unit-vector-in-direction-of-v" workspace="3in">
+        <statement>
+            <p>
+                For any nonzero vector <m>\mathbf{v}</m>, the unit vector in the direction of <m>\mathbf{v}</m> is given by <me>\dfrac{1}{\lVert\mathbf{v}\rVert}\mathbf{v}</me>.
+            </p>
+        </statement>
+    </theorem>
+    <example xml:id="exa-app-trig-vectors-unit-vector-direction" workspace="3in">
+        <statement>
+            <p>
+                Find the unit vector in the direction of <m>\mathbf{v}=2\mathbf{i}-3\mathbf{j}</m>.
+            </p>
+        </statement>
+    </example>
+    <theorem xml:id="thm-app-trig-vectors-components">
+        <title>Horizontal and Vertical Components of a Vector</title>
+        <statement>
+            <p>
+                Let <m>\mathbf{v}</m> be a vector with magnitude <m>\lVert\mathbf{v}\rVert</m> and direction <m>\theta</m>. Then the vector can be computed as
+            </p>
+            <p>
+                <me>\mathbf{v}=\langle\lVert\mathbf{v}\rVert\cos(\theta),\lVert\mathbf{v}\rVert\sin(\theta)\rangle</me>
+            </p>
+            <p>
+                Written in terms of <m>\mathbf{i}</m> and <m>\mathbf{j}</m>, the vector can be written as
+            </p>
+            <p>
+                <me>\mathbf{v}=\lVert\mathbf{v}\rVert\cos(\theta)\mathbf{i}+\lVert\mathbf{v}\rVert\sin(\theta)\mathbf{j}</me>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="exa-app-trig-vectors-11">
+        <statement>
+            <p>
+                A vector has magnitude 12 and direction <m>\dfrac{\pi}{4}</m>. Find the horizontal and vertical components, and use them to write the vector in terms of <m>\mathbf{i}</m> and <m>\mathbf{j}</m>.
+            </p>
+        </statement>
+    </example>
+
+    <definition xml:id="def-app-trig-vectors-velocity-speed">
+        <title>Velocity and Speed</title>
+        <statement>
+            <p>
+                <ul>
+                    <li>The velocity of an object in motion is given by the vector <m>\mathbf{v}</m>.</li>
+                    <li>The speed of an object in motion traveling with velocity <m>\mathbf{v}</m> is given by <m>\left|\mathbf{v}\right|</m>.</li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
+
+    <example xml:id="exa-app-trig-vectors-12">
+        <title>Airplane with Crosswind</title>
+        <statement>
+            <p>
+                An airplane heads due north at 300 mph. It experiences a 40 mph crosswind flowing in the direction N <m>30^\circ</m> E.
+            </p>
+            <p workspace="1in">
+                Express the velocity of the airplane relative to the air in component form.
+            </p>
+            <p workspace="1in">
+                Express the velocity of the wind in component form.
+            </p>
+            <p workspace="1in">
+                Find the true velocity of the plane.
+            </p>
+            <p>
+                Find the true speed of the plane.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-vectors-13">
+        <title>Resultant Force</title>
+        <statement>
+            <p>
+                Two forces act on an object in the following manner.
+            </p>
+            <p>
+                <ul>
+                    <li><m>\mathbf{F}_\mathbf{1}</m> with magnitude 10 lbs and direction of <m>45^\circ</m>.</li>
+                    <li><m>\mathbf{F}_\mathbf{2}</m> with magnitude 20 lbs and a direction of <m>135^\circ</m>.</li>
+                </ul>
+            </p>
+            <p>
+                What is the resultant force (aka the total force) acting on the object?
+            </p>
+        </statement>
+    </example>
+
+</worksheet>

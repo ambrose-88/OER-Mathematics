@@ -53,7 +53,7 @@
 
         <p>
             <ul>
-                <li><alert>Side-Angle-Side (SAS):</alert> Two consecutive sides and the angle they form. This problem type can be solved with the Law of Cosines, which we will study in the Chapter 5.6 Lecture Notes.</li>
+                <li><alert>Side-Angle-Side (SAS):</alert> Two consecutive sides and the angle they form. This problem type can be solved with the Law of Cosines, which we will study in the Chapter 4.2 Lecture Notes.</li>
             </ul>
         </p>
 
@@ -64,7 +64,7 @@
 
         <p>
             <ul>
-                <li><alert>Side-Side-Side (SSS):</alert> All three sides of the triangle are known, but none of the angles are known. This problem type can be solved with the Law of Cosines, which we will study in the Chapter 5.6 Lecture Notes.</li>
+                <li><alert>Side-Side-Side (SSS):</alert> All three sides of the triangle are known, but none of the angles are known. This problem type can be solved with the Law of Cosines, which we will study in the Chapter 4.2 Lecture Notes.</li>
             </ul>
         </p>
 
@@ -75,7 +75,7 @@
 
 
     <theorem xml:id="thm-app-trig-law-of-sines">
-        <title>Law of Sines: Theorem</title>
+        <title>Law of Sines</title>
         <statement>
             <p>
                 Consider any triangle whose angles are labeled <m>A</m>, <m>B</m>, and <m>C</m>
@@ -84,7 +84,7 @@
             </p>
 
             <figure xml:id="fig-app-trig-law-of-sines-labeled-triangle">
-                <caption>A triangle whose angles are labeled captial A, capital B, and captial C and whose opposite sides are respectively labeled lowercase a, lowercase b, and lowercase c.</caption>
+                <caption>A triangle whose angles are labeled capital A, capital B, and capital C and whose opposite sides are respectively labeled lowercase a, lowercase b, and lowercase c.</caption>
                 <image source="trigonometry/oblique.png" decorative="yes" width="50%"/>
             </figure>
 
@@ -92,53 +92,61 @@
             <p>
                 <me>\dfrac{\sin(A)}{a}=\dfrac{\sin(B)}{b}=\dfrac{\sin(C)}{c}</me>
             </p>
-        </statement>
-        <proof>
-            <p>
-                The first step is to find the area of the triangle three different ways.
-                Recall the area of any triangle is given by
-            </p>
-            <p>
+        </statement>            
+    </theorem>
+    <p>
+                We prove this theorem by determining the area of the triangle in three different ways, each using
                 <me>A=\dfrac{1}{2}(\text{base})(\text{height})</me>
+                with a different choice of altitude and then combing the three resulting equations into a single equation.
             </p>
-
-            <figure xml:id="fig-app-trig-law-of-sines-area-1">
-                <caption>Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital B to a point capital B prime on the side lowercase b, is drawn as a dashed line, and is labeled lowercase h.</caption>
+    <proposition xml:id="prop-app-trig-law-of-sines-case-1">
+        <title>Finding Area by Dropping a Perpendicular from Angle <m>B</m></title>
+        <statement>
+            <p>The area expression from this altitude setup is obtained from the following diagram.</p>
+            <figure xml:id="fig-app-trig-law-of-sines-area-1" workspace="5in">
+                <caption>Oblique Triangle with angles measured capital A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital B to a point capital B prime on the side lowercase b, is drawn as a dashed line, and is labeled lowercase h.</caption>
                 <image source="trigonometry/area1.png" decorative="yes" width="50%"/>
             </figure>
+        </statement>
+    </proposition>
 
-            <figure xml:id="fig-app-trig-law-of-sines-area-2">
-                <caption>Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital C to a point capital C prime which is on the line defined by the vertices of angles capital A and capital B, is drawn dashed, and is labeled by lowercase h. The side lowercase b is extended from the vertex of angle captial B to the point capital C prime by a dashed line.</caption>
+    <proposition xml:id="prop-app-trig-law-of-sines-case-2">
+        <title>Finding Area by Dropping a Perpendicular from Angle <m>C</m></title>
+        <statement>
+            <p>The area expression from this altitude setup is obtained from the following diagram.</p>
+            <figure xml:id="fig-app-trig-law-of-sines-area-2" workspace="5in">
+                <caption>Oblique Triangle with angles measured capital A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital C to a point capital C prime which is on the line defined by the vertices of angles capital A and capital B, is drawn dashed, and is labeled by lowercase h. The side lowercase b is extended from the vertex of angle capital B to the point capital C prime by a dashed line.</caption>
                 <image source="trigonometry/area2.png" decorative="yes" width="50%"/>
             </figure>
+        </statement>
+    </proposition>
 
-            <figure xml:id="fig-app-trig-law-of-sines-area-3">
-                <caption>Oblique Triangle with angles measured captial A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital A to a point capital A prime which is on the line defined by the vertices of angles capital B and capital C, is drawn dashed, and is labeled by lowercase h. The side lowercase a is extended from the vertex of angle captial B to the point capital A prime by a dashed line.</caption>
+    <proposition xml:id="prop-app-trig-law-of-sines-case-3">
+        <title>Finding Area by Dropping a Perpendicular from Angle <m>A</m></title>
+        <statement>
+            <p>The area expression from this altitude setup is obtained from the following diagram.</p>
+            <figure xml:id="fig-app-trig-law-of-sines-area-3" workspace="5in">
+                <caption>Oblique Triangle with angles measured capital A, capital B, and capital C and whose opposite sides are respectively labeled as lowercase a, lowercase b, and lowercase c. A perpendicular line segment is droped from angle capital A to a point capital A prime which is on the line defined by the vertices of angles capital B and capital C, is drawn dashed, and is labeled by lowercase h. The side lowercase a is extended from the vertex of angle capital B to the point capital A prime by a dashed line.</caption>
                 <image source="trigonometry/area3.png" decorative="yes" width="50%"/>
             </figure>
+        </statement>
+    </proposition>
 
-            <p>Combining all three of these equations into a single equation, we get:</p>
-        </proof>
-    </theorem>
+    <p workspace="3in">Combining all three of these equations into a single equation, we get:</p>
 
-    <note xml:id="note-app-trig-law-of-sines-asa-saa-examples-heading">
-        <title>ASA and SAA Examples</title>
-        <p>The following examples use ASA and SAA information.</p>
-    </note>
-
-    <example xml:id="exa-app-trig-law-of-sines-1">
-        <title>Example 1</title>
+    <example xml:id="exa-app-trig-law-of-sines-1" workspace="4in">
+        <title>ASA Example</title>
         <statement>
             <p>Solve the following triangle.</p>
             <figure xml:id="fig-app-trig-law-of-sines-example-1">
-                <caption>An oblique triangle with angles captial A, capital B, and capital C labeled. The length of the side opposite angle capital c is fifty. The measurment of angle captial A is twenty-three degrees, and the measurement of angle captial B is one hundred and ten degrees.</caption>
+                <caption>An oblique triangle with angles capital A, capital B, and capital C labeled. The length of the side opposite angle capital C is fifty. The measurement of angle capital A is twenty-three degrees, and the measurement of angle capital B is one hundred and ten degrees.</caption>
                 <image source="trigonometry/example1.png" decorative="yes" width="50%"/>
             </figure>
         </statement>
     </example>
 
-    <example xml:id="exa-app-trig-law-of-sines-2">
-        <title>Example 2</title>
+    <example xml:id="exa-app-trig-law-of-sines-2" workspace="5in">
+        <title>AAS Example</title>
         <statement>
             <p>
                 Solve the triangle that has <m>\angle B=10^\circ</m>, <m>\angle C=100^\circ</m>,
@@ -147,31 +155,26 @@
         </statement>
     </example>
 
-    <note xml:id="note-app-trig-law-of-sines-ssa-examples-heading">
-        <title>SSA Examples</title>
-        <p>The following examples use SSA information.</p>
-    </note>
-
     <note xml:id="note-app-trig-law-of-sines-ssa-resource">
         <title>Why are There Three Types of Solutions to SSA?</title>
         <p>
-            Interactive resource: <url href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=9287703&amp;type=lti&amp;rCode=TBR-56311295">Chapter 5.4 Why are there multiple solution types for SSA</url>.
+            Interactive resource: <url href="https://volstate.yuja.com/V/Video?v=7291808&amp;node=30989123&amp;a=204420257&amp;preload=false">Chapter 5.4 Why are there multiple solution types for SSA</url>.
         </p>
     </note>
 
-    <example xml:id="exa-app-trig-law-of-sines-3">
-        <title>Example 3</title>
+    <example xml:id="exa-app-trig-law-of-sines-3" workspace="5in">
+        <title>SSA Example, Version 1</title>
         <statement>
             <p>Solve the following triangle.</p>
             <figure xml:id="fig-app-trig-law-of-sines-example-3">
-                <caption>An oblique triangle with angles captial A, captial B, and capital C. Angle capital C measures 132 degrees. The side opposite angle capital A is 107, and the side opoosite angle capital B is 80.</caption>
+                <caption>An oblique triangle with angles capital A, capital B, and capital C. Angle capital C measures 132 degrees. The side opposite angle capital A is 107, and the side opposite angle capital B is 80.</caption>
                 <image source="trigonometry/example3.png" decorative="yes" width="50%"/>
             </figure>
         </statement>
     </example>
 
-    <example xml:id="exa-app-trig-law-of-sines-4">
-        <title>Example 4</title>
+    <example xml:id="exa-app-trig-law-of-sines-4" workspace="5in">
+        <title>SSA Example, Version 2</title>
         <statement>
             <p>
                 Solve the triangle that has <m>b=48</m>, <m>c=47</m>, and <m>\angle C=34^\circ</m>.
@@ -179,8 +182,8 @@
         </statement>
     </example>
 
-    <example xml:id="exa-app-trig-law-of-sines-5">
-        <title>Example 5</title>
+    <example xml:id="exa-app-trig-law-of-sines-5" workspace="5in">
+        <title>SSA Example, Version 3</title>
         <statement>
             <p>
                 Solve the triangle that has <m>a=57</m>, <m>b=100</m>, and <m>\angle A=51^\circ</m>.
@@ -188,13 +191,8 @@
         </statement>
     </example>
 
-    <note xml:id="note-app-trig-law-of-sines-applications-heading">
-        <title>Solving Applications Using the Law of Sines</title>
-        <p>The following examples apply the Law of Sines in context.</p>
-    </note>
-
-    <example xml:id="exa-app-trig-law-of-sines-6">
-        <title>Example 6</title>
+    <example xml:id="exa-app-trig-law-of-sines-6" workspace="5in">
+        <title>Application Example 1</title>
         <statement>
             <p>
                 To estimate the height of a mountain above a level plain, the angle of elevation
@@ -209,8 +207,8 @@
         </statement>
     </example>
 
-    <example xml:id="exa-app-trig-law-of-sines-7">
-        <title>Example 7</title>
+    <example xml:id="exa-app-trig-law-of-sines-7" workspace="5in">
+        <title>Application Example 2</title>
         <statement>
             <p>
                 The elongation <m>\alpha</m> of a planet is the angle formed by the planet,

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-trig-law-of-cosines" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Law of Cosines</title>
+    <theorem xml:id="thm-app-trig-law-of-cosines" workspace="4in">
+        <title>Law of Cosines</title>
+        
+        <statement>
+    <p>
+        Consider any triangle whose angles are labeled <m>A</m>, <m>B</m>, and <m>C</m> and whose opposite sides are respectively labelled <m>a</m>, <m>b</m>, and <m>c</m> (see picture below example).
+    </p>
+
+    <figure xml:id="fig-app-trig-law-of-cosines-oblique">
+        <caption>A triangle whose angles are labeled capital A, capital B, and capital C and whose opposite sides are respectively labeled lowercase a, lowercase b, and lowercase c.</caption>
+        <image source="trigonometry/oblique.png" decorative="yes" width="50%"/>
+    </figure>
+
+    
+            <p>Then, it is always true that</p>
+            <p>
+                <me>a^2=b^2+c^2-2bc\cos(A)</me>
+                <me>b^2=a^2+c^2-2ac\cos(B)</me>
+                <me>c^2=a^2+b^2-2ab\cos(C)</me>
+            </p>
+        </statement>
+    </theorem>
+    
+
+    <example xml:id="exa-app-trig-law-of-cosines-1" workspace="6in">
+        <title>SAS Example</title>
+        <statement>
+            <p>Solve the triangle</p>
+            <figure xml:id="fig-app-trig-law-of-cosines-example-1">
+                <caption>An acute triangle with angles capital A, capital B, and capital C. Angle capital A measures 70 degrees. The side opposite of angle capital B is 60, and the side opposite angle capital C is 30.</caption>
+                <image source="trigonometry/example11.png" decorative="yes" width="25%"/>
+            </figure>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-law-of-cosines-2" workspace="3in">
+        <title>SSS Example</title>
+        <statement>
+            <p>Solve the triangle with sides <m>a=10</m>, <m>b=12</m>, and <m>c=16</m>.</p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-law-of-cosines-3" workspace="3in">
+        <title>Pythagorean Theorem as a Special Case</title>
+        <statement>
+            <p>Find <m>c^2</m> for the following triangle using the Law of Cosines.</p>
+            <figure xml:id="fig-app-trig-law-of-cosines-right-triangle">
+                <caption>A right triangle with angles capital A, capital B, and capital C with opposite sides lowercase a, lowercase b, and lowercase c. Angle Capital C is the right angle.</caption>
+                <image source="trigonometry/righttrianglegeneric.png" decorative="yes" width="25%"/>
+            </figure>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-law-of-cosines-4" workspace="6in">
+        <title>Application Problem</title>
+        <statement>
+            <p>
+                Two straight roads diverge at an angle of <m>65^\circ</m>. Two cars leave the intersection at 2:00 PM, one traveling at 50 mph and the other at 30 mph. How far apart are the cars at 2:30 PM?
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-law-of-cosines-5" workspace="6in">
+        <title>Bearing Example</title>
+        <statement>
+            <p>
+                Two boats leave the same port at the same time. One travels at a speed of 30 mph in the direction of <m>\text{N }50^\circ\text{ E}</m>, and the other travels at a speed of 26 mph in a direction of <m>\text{S }70^\circ\text{ E}</m>. How far apart are the two boats after 1 hour?
+            </p>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-law-of-cosines-herons-formula">
+        <title>Heron's Formula</title>
+        <statement>
+            <p>
+                The area <m>A</m> of a triangle with sides <m>a</m>, <m>b</m>, and <m>c</m> is given by
+            </p>
+            <p>
+                <me>A=\sqrt{s(s-a)(s-b)(s-c)}</me>
+            </p>
+            <p>
+                where <m>s</m> is the semiperimeter of the the triangle. In other words,
+            </p>
+            <p>
+                <me>s=\dfrac{1}{2}(a+b+c)</me>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="exa-app-trig-law-of-cosines-6" workspace="3in">
+        <title>Heron's Formula Example</title>
+        <statement>
+            <p>
+                Find the area of a triangle with sides <m>a=10</m>, <m>b=12</m>, and <m>c=16</m>.
+            </p>
+        </statement>
+    </example>
+
+</worksheet>

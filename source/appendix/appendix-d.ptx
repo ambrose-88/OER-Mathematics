@@ -21,4 +21,6 @@
   <xi:include href="./trigonometry/trig-sum-product.ptx"/>
   <xi:include href="./trigonometry/solving-trig-functions.ptx"/>
   <xi:include href="./trigonometry/law-of-sines.ptx"/>
+  <xi:include href="./trigonometry/law-of-cosines.ptx"/>
+  <xi:include href="./trigonometry/vectors.ptx"/>
 </appendix>
