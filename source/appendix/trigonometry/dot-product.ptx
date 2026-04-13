@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-trig-dot-product" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Dot Product</title>
+
+    <definition xml:id="def-app-trig-dot-product">
+        <title>Dot Product</title>
+        <statement>
+            <p>
+                Let <m>\mathbf{v}=a_1\mathbf{i}+a_2\mathbf{j}</m> and <m>\mathbf{w}=b_1\mathbf{i}+b_2\mathbf{j}</m> be two vectors.
+                Their dot product is denoted by <m>\mathbf{v}\cdot\mathbf{w}</m> and is defined by
+            </p>
+            <p>
+                <me>\mathbf{v}\cdot\mathbf{w}=a_1b_1+a_2b_2</me>
+            </p>
+        </statement>
+    </definition>
+
+    <note xml:id="note-app-trig-dot-product-scalar">
+        <p>The dot product is a scalar, not a vector.</p>
+    </note>
+
+    <example xml:id="exa-app-trig-dot-product-1" workspace="2in">
+        <statement>
+            <p>
+                Let <m>\mathbf{v}=-3\mathbf{i}+4\mathbf{j}</m> and <m>\mathbf{w}=2\mathbf{i}+5\mathbf{j}</m>. Find <m>\mathbf{v}\cdot\mathbf{w}</m>.
+            </p>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-dot-product-properties">
+        <title>Properties of the Dot Product</title>
+        <statement>
+            <p>
+                Let <m>\mathbf{u}</m>,
+                <m>\mathbf{v}</m>, and
+                <m>\mathbf{w}</m> be any three vectors and let <m>\lambda</m> be any scalar. Then the following properties are always true:
+            </p>
+            <p>
+                <ul>
+                    <li><term>Commutativity:</term> <m>\mathbf{v}\cdot\mathbf{w}=\mathbf{w}\cdot\mathbf{v}</m>.</li>
+                    <li>
+                        <p>
+                            <term>Bilinear:</term>
+                            <ul>
+                                <li><m>\lambda(\mathbf{v}\cdot\mathbf{w})=(\lambda\mathbf{v})\cdot\mathbf{w}</m>.</li>
+                                <li><m>\lambda(\mathbf{u}\cdot\mathbf{v})=\mathbf{u}\cdot(\lambda\mathbf{v})</m>.</li>
+                            </ul>
+                        </p>
+                    </li>
+                    <li><term>Distributivity over Addition:</term> <m>(\mathbf{u}+\mathbf{v})\cdot\mathbf{w}=\mathbf{u}\cdot\mathbf{w}+\mathbf{v}\cdot\mathbf{w}</m>.</li>
+                    <li><term>Dot Product and Magnitude:</term> <m>\lVert\mathbf{v}\rVert^2=\mathbf{v}\cdot\mathbf{v}</m>.</li>
+                    <li><term>Zero Vector is an Annihilator:</term> <m>\mathbf{0}\cdot\mathbf{v}=0</m> for all vectors <m>\mathbf{v}</m>.</li>
+                </ul>
+            </p>
+        </statement>
+    </theorem>
+
+    <theorem xml:id="thm-app-trig-dot-product-theorem" workspace="6in">
+        <title>The Dot Product Theorem</title>
+        <statement>
+            <p>
+                If <m>\theta</m> is the angle between two nonzero vectors
+                <m>\mathbf{v}</m>
+                and <m>\mathbf{w}</m>, then
+            </p>
+            <p>
+                <me>\mathbf{v}\cdot\mathbf{w}=\lVert\mathbf{v}\rVert\lVert\mathbf{w}\rVert\cos(\theta)</me>
+            </p>
+        </statement>
+    </theorem>
+
+    <theorem xml:id="thm-app-trig-angle-between-vectors">
+        <title>Angle Between Two Vectors Theorem</title>
+        <statement>
+            <p>
+                If <m>\mathbf{v}=a_1\mathbf{i}+a_2\mathbf{j}</m> and
+                <m>\mathbf{w}=b_1\mathbf{i}+b_2\mathbf{j}</m> are nonzero, then the angle between them is
+            </p>
+            <p>
+                <me>\theta=\cos^{-1}\left(\dfrac{\mathbf{v}\cdot\mathbf{w}}{\lVert\mathbf{v}\rVert\lVert\mathbf{w}\rVert}\right)</me>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="exa-app-trig-dot-product-2" workspace="2in">
+        <statement>
+            <p>Find the angle between <m>\mathbf{v}=-3\mathbf{i}+2\mathbf{j}</m> and <m>\mathbf{w}=2\mathbf{i}-3\mathbf{j}</m>.</p>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-orthogonal-dot-product">
+        <statement>
+            <p>
+                <ul>
+                    <li>Two nonzero vectors <m>\mathbf{v}</m> and <m>\mathbf{w}</m> are <term>orthogonal</term> if and only if <m>\mathbf{v}\cdot\mathbf{w}=0</m>.</li>
+                    <li>Two nonzero vectors <m>\mathbf{v}</m> and <m>\mathbf{w}</m> are <term>parallel</term> if and only if <m>\lVert\mathbf{v}\rVert\lVert\mathbf{w}\rVert=\pm(\mathbf{v}\cdot\mathbf{w})</m>.</li>
+                </ul>
+            </p>
+        </statement>
+    </theorem>
+
+    <note>
+        <title>Orthogonality of the Zero Vector</title>
+        <p>
+            Since <m>\mathbf{0}\cdot\mathbf{v}=0</m> for all vectors <m>\mathbf{v}</m>, the zero vector is orthogonal to every vector.
+        </p>
+    </note>
+
+    <note>
+        <title>Easy Way to Check for Parallel Vectors</title>
+        <p>
+           If two vectors are non-zero scalar multiples of each other, then they are parallel.
+        </p>
+    </note>
+
+    <example xml:id="exa-app-trig-dot-product-3" workspace="2in">
+        <statement>
+            <p>Determine if <m>\mathbf{v}=-3\mathbf{i}+2\mathbf{j}</m> and <m>\mathbf{w}=-4\mathbf{i}+\mathbf{j}</m> are orthogonal, parallel, or neither.</p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-dot-product-4" workspace="2in">
+        <statement>
+            <p>Determine if <m>\mathbf{v}=-3\mathbf{i}+2\mathbf{j}</m> and <m>\mathbf{w}=2\mathbf{i}+3\mathbf{j}</m> are orthogonal, parallel, or neither.</p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-parallel-vectors" workspace="2in">
+        <statement>
+            <p>Determine if <m>\mathbf{v}=-4\mathbf{i}+2\mathbf{j}</m> and <m>\mathbf{w}=6\mathbf{i}-3\mathbf{j}</m> are orthogonal, parallel, or neither.</p>
+        </statement>
+    </example>
+
+    <definition xml:id="def-resolving-vectors">
+        <statement>
+            <p>
+                To <term>resolve</term> a vector <m>\mathbf{v}</m> means to find two orthogonal vectors <m>\mathbf{v}_1</m> and <m>\mathbf{v}_2</m> so that <me>\mathbf{v}=\mathbf{v}_1+\mathbf{v}_2.</me>
+            </p>
+        </statement>
+    </definition>
+
+    <example xml:id="exa-resolve-i-j" workspace="2in">
+        <title>Resolving using <m>\mathbf{i}</m> and <m>\mathbf{j}</m></title>
+        <statement>
+            <p>Resolve <m>\mathbf{v}=\langle -4,3\rangle</m> into the sum of two vectors, where the first vector is a scalar multiple of <m>\mathbf{i}</m> and the second vector is a scalar multiple of <m>\mathbf{j}</m>.</p>
+        </statement>
+    </example>
+
+<definition xml:id="def-projection-vector" workspace="4in">
+    <statement>
+        <p>
+            Let <m>\mathbf{v}, \mathbf{w}</m> be nonzero vectors with a common initial endpoint and form a nonzero angle <m>\theta</m>.
+
+        </p>
+    <p>
+            If we drop a perpendicular from the terminal point of <m>\mathbf{v}</m> to the line passing through <m>\mathbf{w}</m>, 
+            then the vector from the shared initial point to the foot of the perpendicular is called the <term>projection</term> of <m>\mathbf{v}</m> onto <m>\mathbf{w}</m>, denoted by <me>\operatorname{proj}_{\mathbf{w}}(\mathbf{v}).</me>
+        </p>
+        <p>
+            The length of the projection is called the <term>component</term> of <m>\mathbf{v}</m> along <m>\mathbf{w}</m>, denoted by <me>\operatorname{comp}_{\mathbf{w}}(\mathbf{v}).</me>
+        </p>
+    </statement>
+</definition>
+
+    <theorem xml:id="thm-app-trig-component-formulas" vspace="2in">
+        <title>Component Formulas</title>
+        <statement>
+            <p>
+                Let <m>\mathbf{v}</m> and
+                <m>\mathbf{w}</m> be vectors, where <m>\mathbf{w}\neq\mathbf{0}</m>. The component of <m>\mathbf{v}</m> along <m>\mathbf{w}</m> is given by
+            </p>
+            <p>
+                <md>
+                    <mrow>\operatorname{comp}_{\mathbf{w}}(\mathbf{v})\amp=\dfrac{\mathbf{v}\cdot\mathbf{w}}{\lVert\mathbf{w}\rVert}</mrow>
+                </md>
+            </p>
+        </statement>
+    </theorem>
+<note>
+    <title>Sign of the Component</title>
+    <p>
+        <ul>
+            <li>If <m>\theta</m> is in Quadrant I, then <m>\operatorname{comp}_{\mathbf{w}}(\mathbf{v})</m> is positive.</li>
+            <li>If <m>\theta</m> is in Quadrant II, then <m>\operatorname{comp}_{\mathbf{w}}(\mathbf{v})</m> is negative.</li>
+        </ul>
+    </p>
+</note>
+
+    <example xml:id="exa-app-trig-dot-product-6" workspace="2in">
+        <statement>
+            <p>Find the component of <m>5\mathbf{i}+3\mathbf{j}</m> along <m>-6\mathbf{i}+6\mathbf{j}</m>.</p>
+        </statement>
+    </example>
+
+    <example xml:id="exa-app-trig-dot-product-5">
+        <title>Driveway Force</title>
+        <statement>
+            <p>
+                    A car weighing 3000 lbs is parked on a driveway inclined <m>15^\circ</m> to the horizontal.
+                <ul>
+                    <li workspace="2in"><alert>Part A:</alert> Find the magnitude of the force required to prevent the car from rolling down the driveway.</li>
+                    <li workspace="2in"><alert>Part B:</alert> Find the magnitude of the force experienced by the driveway due to the weight of the car.</li>
+                </ul>
+            </p>
+        </statement>
+    </example>
+
+
+    <theorem xml:id="thm-app-trig-projection-formula" workspace="2in">
+        <title>Projection Formula</title>
+        <statement>
+            <p>
+                If <m>\mathbf{v}</m> and
+                <m>\mathbf{w}</m> are vectors with <m>\mathbf{w}\neq\mathbf{0}</m>, then the projection of <m>\mathbf{v}</m> onto <m>\mathbf{w}</m> is given by
+            </p>
+            <p>
+                <me>\operatorname{proj}_{\mathbf{w}}(\mathbf{v})=\dfrac{\mathbf{v}\cdot\mathbf{w}}{\lVert\mathbf{w}\rVert^2}\mathbf{w}</me>
+            </p>
+        </statement>
+    </theorem>
+
+    <definition xml:id="def-app-trig-resolve-vector">
+        <title>Resolving a Vector</title>
+        <statement>
+            <p>
+                Let <m>\mathbf{v}=\mathbf{v_1}+\mathbf{v_2}</m> be a resolved vector with orthogonal components <m>\mathbf{v_1}</m> and <m>\mathbf{v_2}</m>.
+                Then
+                <md>
+                    <mrow>\mathbf{v_1}\amp=\operatorname{proj}_{\mathbf{w}}(\mathbf{v})</mrow>
+                    <mrow></mrow>
+                    <mrow>\mathbf{v_2}\amp=\mathbf{v}-\operatorname{proj}_{\mathbf{w}}(\mathbf{v})</mrow>
+                </md>
+            </p>
+        </statement>
+    </definition>
+
+    <example xml:id="exa-app-trig-dot-product-7" workspace="4in">
+        <statement>
+            <p>
+                Resolve <m>2\mathbf{i}+9\mathbf{j}</m> into the sum of two vectors when you project <m>2\mathbf{i}+9\mathbf{j}</m> onto <m>-3\mathbf{i}+4\mathbf{j}</m>.
+            </p>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-work-dot-product">
+        <title>Work Formula</title>
+        <statement>
+            <p>
+                Let <m>\mathbf{F}</m> be a constant force and
+                <m>\mathbf{D}</m> be displacement.
+                The work done is
+            </p>
+            <p>
+                <me>W=\mathbf{F}\cdot\mathbf{D}</me>
+            </p>
+            <p>Alternatively, if you know the angle <m>\theta</m> between the force and displacement, then</p>
+            <p>
+                <me>W=\lVert\mathbf{F}\rVert\lVert\mathbf{D}\rVert\cos(\theta)</me>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="exa-app-trig-dot-product-8" workspace="2in">
+        <statement>
+            <p>
+                A man pulls a wagon horizontally by exerting a force of 20 lbs on the handle.
+                If the handle makes an angle of <m>60^\circ</m> with the horizontal, find the work done in moving the wagon 100 feet.
+            </p>
+        </statement>
+    </example>
+</worksheet>
