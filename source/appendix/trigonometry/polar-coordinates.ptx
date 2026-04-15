@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-app-trig-polar-coordinates" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Polar Coordinates</title>
+    <theorem xml:id="thm-trig-x-y-equation-function">
+        <statement>
+            <p>
+                An equation represents a function only if we solve for <m>y</m> and get a single expression in <m>x</m>.
+            </p>
+        </statement>
+    </theorem>
+    
+    <example xml:id="ex-app-trig-polar-xy-function" workspace="4in">
+        <statement>
+            <p>
+                Determine whether the unit circle <m>x^2+y^2=1</m> represents a function.
+            </p>
+        </statement>
+    </example>
+
+    <definition xml:id="def-app-trig-polar-coordinates" workspace="2in">
+        <title>Polar Coordinates</title>
+        <statement>
+            <p>
+                Let <m>P</m> be any point in the plane whose distance from the origin is <m>r</m> and is on the terminal side of an angle <m>\theta</m> in standard position. Then, the <term>polar coordinates</term> of the point <m>P</m> is the ordered pair <m>(r,\theta)</m>.
+            </p>
+            <p>In polar coordinates, the origin is called the <term>pole</term> and the positive x-axis is called the <term>polar axis</term>.</p>
+        </statement>
+    </definition>
+
+    <note xml:id="note-app-trig-polar-r-nonnegative">
+        <p>
+            This definition of polar coordinates implies that <m>r\geq 0</m>.
+        </p>
+    </note>
+    <p>
+        Since we are using polar coordinates, it does not make sense to use the rectangular grid we have been using to graph functions. Instead, we will use the <term>polar grid</term> below.
+        <ul>
+            <li>Each circle represents a different value of <m>r</m>.</li>
+            <li>The lines radiating out of the center each represent a certain angle in standard position. 
+                The grid we are using marks off every <m>\dfrac{\pi}{12}</m> radians (aka 15 degrees).</li>
+            <li>Polar grids from different sources may have different amounts of concentric circles or lines radiating from the pole.</li>
+        </ul>
+    </p>
+    <figure xml:id="fig-app-trig-polar-grid">
+        <caption>A polar grid consisting of 10 concentric circles and a line radiating out from the origin every <m>\frac{\pi}{12}</m> radians.</caption>
+        <image source="trigonometry/polar.png" decorative="yes" width="75%"/>
+    </figure>
+
+
+    <example xml:id="ex-app-trig-polar-example-1a">
+        <title>Graphing a Polar Coordinate</title>
+        <statement>
+            <p>
+                Plot <m>\left(3,\dfrac{5\pi}{6}\right)</m>.
+            </p>
+            <figure xml:id="fig-app-trig-example-1a-polar">
+                <caption>A polar grid consisting of ten concentric circles and a line radiating out from the origin every <m>\frac{\pi}{12}</m> radians.</caption>
+                <image source="trigonometry/polar.png" decorative="yes" width="75%"/>
+            </figure>
+        </statement>
+    </example>
+
+    <example xml:id="ex-app-trig-polar-example-1c">
+        <title>Graphing a Polar Coordinate with a Negative Angle</title>
+        <statement>
+            <p>
+                Plot <m>\left(4,-\dfrac{2\pi}{3}\right)</m>.
+            </p>
+            <figure xml:id="fig-app-trig-example-1c-polar">
+                <caption>A polar grid consisting of ten concentric circles and a line radiating out from the origin every <m>\frac{\pi}{12}</m> radians.</caption>
+                <image source="trigonometry/polar.png" decorative="yes" width="75%"/>
+            </figure>
+        </statement>
+    </example>
+
+    <example xml:id="ex-app-trig-polar-example-1d">
+        <title>Graphing a Polar Coordinate Whose Angle of Rotation is Zero</title>
+        <statement>
+            <p>
+                Plot <m>(2,0)</m>.
+            </p>
+            <figure xml:id="fig-app-trig-example-1d-polar">
+                <caption>A polar grid consisting of ten concentric circles and a line radiating out from the origin every <m>\frac{\pi}{12}</m> radians.</caption>
+                <image source="trigonometry/polar.png" decorative="yes" width="75%"/>
+            </figure>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-polar-ambiguity">
+        <title>Representations of the Same Polar Point</title>
+        <statement>
+            <p>
+                Let <m>(r,\theta)</m> be any polar coordinate. Points of the following forms represent the same point in the plane.
+                <ul>
+                    <li>
+                        <p>
+                            Any point of the form <m>(r,\theta+2k\pi)</m>, where <m>k</m> is any integer.
+                            <ul>
+                                <li>What this says that as long as you are on the same circle of radius <m>r</m>, all angles coterminal to <m>\theta</m> will represent the same point.</li>
+                            </ul>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Any point of the form <m>(-r,\theta+(2k+1)\pi)</m>, where <m>k</m> is any integer.
+                            <ul>
+                                <li>What this says is that if you flip the sign of <m>r</m>, all angles coterminal to <m>\theta+\pi</m> will represent the same point.</li>
+                            </ul>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="ex-app-trig-polar-example-2a">
+        <title>Plotting a Polar Coordinate Whose Angle Measure is Greater that <m>2\pi</m></title>
+        <statement>
+            <p>
+                Plot <m>\left(3,\dfrac{19\pi}{6}\right)</m>
+            </p>
+            <figure xml:id="fig-app-trig-example-2a-polar">
+                <caption>A polar grid consisting of 10 concentric circles and a line radiating out from the origin every <m>\frac{\pi}{12}</m> radians.</caption>
+                <image source="trigonometry/polar.png" decorative="yes" width="75%"/>
+            </figure>
+        </statement>
+    </example>
+
+    <example xml:id="ex-app-trig-polar-example-2b">
+        <title>Plotting a Polar Coordinate with <m>r&lt;0</m></title>
+        <statement>
+            <p>
+                Plot <m>\left(-4,\dfrac{7\pi}{6}\right)</m>
+            </p>
+            <figure xml:id="fig-app-trig-example-2b-polar">
+                <caption>A polar grid consisting of 10 concentric circles and a line radiating out from the origin every <m>\frac{\pi}{12}</m> radians.</caption>
+                <image source="trigonometry/polar.png" decorative="yes" width="75%"/>
+            </figure>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-polar-to-rectangular" workspace="3in">
+        <title>Polar to Rectangular Coordinates Conversion</title>
+        <statement>
+            <p>
+                Let <m>(r,\theta)</m> be any polar coordinate. Then the corresponding rectangular coordinate <m>(x,y)</m> can be found using the formulas
+                <me>x=r\cos(\theta)\qquad\text{and}\qquad y=r\sin(\theta)</me>
+            </p>
+        </statement>
+    </theorem>
+
+
+    <example xml:id="ex-app-trig-polar-rectangular-example-3" workspace="3in">
+        <statement>
+            <p>
+                Convert <m>\left(3,\dfrac{5\pi}{4}\right)</m> to rectangular coordinates.
+            </p>
+        </statement>
+    </example>
+
+    <theorem xml:id="thm-app-trig-rectangular-to-polar" workspace="3in">
+        <title>Rectangular to Polar Coordinates Conversion</title>
+        <statement>
+            <p>
+                Let <m>(x,y)</m> be any rectangular coordinate. Its polar representation <m>(r,\theta)</m> can be found using the formulas
+                <me>r^2=x^2+y^2\qquad\text{and}\qquad\theta=\tan^{-1}\left(\dfrac{y}{x}\right)\text{, }x\ne 0</me>
+            </p>
+        </statement>
+    </theorem>
+
+    <example xml:id="ex-app-trig-rectangular-polar-example-4" workspace="3in">
+        <statement>
+            <p>
+                Convert <m>(-3,2)</m> to polar coordinates. Give an exact and an approximate answer.
+            </p>
+        </statement>
+    </example>
+
+    <lemma xml:id="lem-app-trig-rect-to-polar-equations">
+        <title>Converting from Rectangular Equations to Polar Equations</title>
+        <statement>
+            <p>
+                To convert from a rectangular equation to a polar equation:
+                <ul>
+                    <li>Use the formulas <md><mrow>x=r\cos(\theta)\qquad\text{and}\qquad y=r\sin(\theta)</mrow></md> to change variables from <m>x</m> and <m>y</m> to <m>r</m> and <m>\theta</m>.</li>
+                    <li>Solve for <m>r</m>.</li>
+                </ul>
+            </p>
+        </statement>
+    </lemma>
+
+    <example xml:id="ex-app-trig-polar-equations-example-6" workspace="3in">
+        <title>Converting the Unit Circle to a Polar Equation</title>
+        <statement>
+            <p>
+                Convert the equation of the unit circle <m>x^2+y^2=1</m> to a polar equation.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="ex-app-trig-polar-equations-example-8" workspace="3in">
+        <title>Converting Line through the Origin to a Polar Equation</title>
+        <statement>
+            <p>
+                Convert equation <m>y=3x</m> to a polar equation.
+            </p>
+        </statement>
+    </example>
+    
+    <example xml:id="ex-app-trig-polar-equations-example-9" workspace="3in">
+        <title>Converting a Line Not through the Origin to a Polar Equation</title>
+        <statement> 
+            <p>
+                Convert the equation of the line <m>y=2x+1</m> to a polar equation.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="ex-app-trig-polar-equations-example-10" workspace="3in">
+        <title>Converting a Parabola to a Polar Equation</title>
+        <statement>
+            <p>
+                Convert the equation of the parabola <m>y=x^2</m> to a polar equation.
+            </p>
+        </statement>
+    </example>
+
+    <lemma xml:id="lem-app-trig-polar-to-rect-equations">
+        <title>Converting from Polar to Rectangular Equations</title>
+        <statement>
+            <p>
+                <ul>
+                    <li>Use the formulas <md><mrow>x=r\cos(\theta)\qquad\text{and}\qquad y=r\sin(\theta)</mrow></md> and <md><mrow>r^2=x^2+y^2\qquad\text{and}\qquad\theta=\tan^{-1}\left(\dfrac{y}{x}\right)\text{, }x\ne 0</mrow></md> to convert from <m>r</m> and <m>\theta</m> to <m>x</m> and <m>y</m>.</li>
+                    <li>Write the equation in a familiar form or solve for <m>y</m>.</li>
+                </ul>
+            </p>
+        </statement>
+    </lemma>
+
+    <example xml:id="ex-app-trig-rect-equations-example-8" workspace="3in">
+        <statement>
+            <p>
+                Convert <m>r=9\csc(\theta)</m> to a rectangular equation.
+            </p>
+        </statement>
+    </example>
+
+    <example xml:id="ex-app-trig-rect-equations-example-9" workspace="3in">
+        <statement>
+            <p>
+                Convert <m>r=8\cos(\theta)</m> to a rectangular equation.
+            </p>
+        </statement>
+    </example>
+
+
+</worksheet>

@@ -24,4 +24,5 @@
   <xi:include href="./trigonometry/law-of-cosines.ptx"/>
   <xi:include href="./trigonometry/vectors.ptx"/>
   <xi:include href="./trigonometry/dot-product.ptx"/>
+  <xi:include href="./trigonometry/polar-coordinates.ptx"/>
 </appendix>
