@@ -1,0 +1,575 @@
+<section xml:id="sec-historical-trig-table">
+    <title>Historical Trigonometric Table</title>
+    <p>
+        This table is based on the one found at the <url href="https://academics.uccs.edu/rtirado/Trigonometric%20Table.pdf">University of Colorado - Colorado Springs</url>
+    </p>
+    <table>
+        <title>Trigonometric Table</title>
+        <tabular>
+            <row header="yes">
+                <cell>Degrees</cell>
+                <cell>Radians</cell>
+                <cell>Sine</cell>
+                <cell>Cosine</cell>
+                <cell right="major">Tangent</cell>
+                <cell>Degrees</cell>
+                <cell>Radians</cell>
+                <cell>Sine</cell>
+                <cell>Cosine</cell>
+                <cell>Tangent</cell>
+            </row>
+            <row bottom="major">
+                <cell><m>0^\circ</m></cell>
+                <cell><m>0.000</m></cell>
+                <cell><m>0.000</m></cell>
+                <cell><m>1.000</m></cell>
+                <cell right="major"><m>0.000</m></cell>
+                <cell/>
+                <cell/>
+                <cell/>
+                <cell/>
+                <cell/>
+            </row>
+            <row>
+                <cell><m>1^\circ</m></cell>
+                <cell><m>0.017</m></cell>
+                <cell><m>0.017</m></cell>
+                <cell><m>1.000</m></cell>
+                <cell right="major"><m>0.017</m></cell>
+                <cell><m>46^\circ</m></cell>
+                <cell><m>0.803</m></cell>
+                <cell><m>0.719</m></cell>
+                <cell><m>0.695</m></cell>
+                <cell><m>1.036</m></cell>
+            </row>
+            <row>
+                <cell><m>2^\circ</m></cell>
+                <cell><m>0.035</m></cell>
+                <cell><m>0.035</m></cell>
+                <cell><m>0.999</m></cell>
+                <cell right="major"><m>0.035</m></cell>
+                <cell><m>47^\circ</m></cell>
+                <cell><m>0.820</m></cell>
+                <cell><m>0.731</m></cell>
+                <cell><m>0.682</m></cell>
+                <cell><m>1.072</m></cell>
+            </row>
+            <row>
+                <cell><m>3^\circ</m></cell>
+                <cell><m>0.052</m></cell>
+                <cell><m>0.052</m></cell>
+                <cell><m>0.999</m></cell>
+                <cell right="major"><m>0.052</m></cell>
+                <cell><m>48^\circ</m></cell>
+                <cell><m>0.838</m></cell>
+                <cell><m>0.743</m></cell>
+                <cell><m>0.669</m></cell>
+                <cell><m>1.111</m></cell>
+            </row>
+            <row>
+                <cell><m>4^\circ</m></cell>
+                <cell><m>0.070</m></cell>
+                <cell><m>0.070</m></cell>
+                <cell><m>0.998</m></cell>
+                <cell right="major"><m>0.070</m></cell>
+                <cell><m>49^\circ</m></cell>
+                <cell><m>0.855</m></cell>
+                <cell><m>0.755</m></cell>
+                <cell><m>0.656</m></cell>
+                <cell><m>1.150</m></cell>
+            </row>
+            <row bottom="major">
+                <cell><m>5^\circ</m></cell>
+                <cell><m>0.087</m></cell>
+                <cell><m>0.087</m></cell>
+                <cell><m>0.996</m></cell>
+                <cell right="major"><m>0.087</m></cell>
+                <cell><m>50^\circ</m></cell>
+                <cell><m>0.873</m></cell>
+                <cell><m>0.766</m></cell>
+                <cell><m>0.643</m></cell>
+                <cell><m>1.192</m></cell>
+            </row>
+            <row>
+                <cell><m>6^\circ</m></cell>
+                <cell><m>0.105</m></cell>
+                <cell><m>0.105</m></cell>
+                <cell><m>0.995</m></cell>
+                <cell right="major"><m>0.105</m></cell>
+                <cell><m>51^\circ</m></cell>
+                <cell><m>0.890</m></cell>
+                <cell><m>0.777</m></cell>
+                <cell><m>0.629</m></cell>
+                <cell><m>1.235</m></cell>
+            </row>
+            <row>
+                <cell><m>7^\circ</m></cell>
+                <cell><m>0.122</m></cell>
+                <cell><m>0.122</m></cell>
+                <cell><m>0.993</m></cell>
+                <cell right="major"><m>0.123</m></cell>
+                <cell><m>52^\circ</m></cell>
+                <cell><m>0.908</m></cell>
+                <cell><m>0.788</m></cell>
+                <cell><m>0.616</m></cell>
+                <cell><m>1.280</m></cell>
+            </row>
+            <row>
+                <cell><m>8^\circ</m></cell>
+                <cell><m>0.140</m></cell>
+                <cell><m>0.139</m></cell>
+                <cell><m>0.990</m></cell>
+                <cell right="major"><m>0.141</m></cell>
+                <cell><m>53^\circ</m></cell>
+                <cell><m>0.925</m></cell>
+                <cell><m>0.799</m></cell>
+                <cell><m>0.602</m></cell>
+                <cell><m>1.327</m></cell>
+            </row>
+            <row>
+                <cell><m>9^\circ</m></cell>
+                <cell><m>0.157</m></cell>
+                <cell><m>0.156</m></cell>
+                <cell><m>0.988</m></cell>
+                <cell right="major"><m>0.158</m></cell>
+                <cell><m>54^\circ</m></cell>
+                <cell><m>0.942</m></cell>
+                <cell><m>0.809</m></cell>
+                <cell><m>0.588</m></cell>
+                <cell><m>1.376</m></cell>
+            </row>
+            <row bottom="major">
+                <cell><m>10^\circ</m></cell>
+                <cell><m>0.175</m></cell>
+                <cell><m>0.174</m></cell>
+                <cell><m>0.985</m></cell>
+                <cell right="major"><m>0.176</m></cell>
+                <cell><m>55^\circ</m></cell>
+                <cell><m>0.960</m></cell>
+                <cell><m>0.819</m></cell>
+                <cell><m>0.574</m></cell>
+                <cell><m>1.428</m></cell>
+            </row>
+            <row>
+                <cell><m>11^\circ</m></cell>
+                <cell><m>0.192</m></cell>
+                <cell><m>0.191</m></cell>
+                <cell><m>0.982</m></cell>
+                <cell right="major"><m>0.194</m></cell>
+                <cell><m>56^\circ</m></cell>
+                <cell><m>0.977</m></cell>
+                <cell><m>0.829</m></cell>
+                <cell><m>0.559</m></cell>
+                <cell><m>1.483</m></cell>
+            </row>
+            <row>
+                <cell><m>12^\circ</m></cell>
+                <cell><m>0.209</m></cell>
+                <cell><m>0.208</m></cell>
+                <cell><m>0.978</m></cell>
+                <cell right="major"><m>0.213</m></cell>
+                <cell><m>57^\circ</m></cell>
+                <cell><m>0.995</m></cell>
+                <cell><m>0.839</m></cell>
+                <cell><m>0.545</m></cell>
+                <cell><m>1.540</m></cell>
+            </row>
+            <row>
+                <cell><m>13^\circ</m></cell>
+                <cell><m>0.227</m></cell>
+                <cell><m>0.225</m></cell>
+                <cell><m>0.974</m></cell>
+                <cell right="major"><m>0.231</m></cell>
+                <cell><m>58^\circ</m></cell>
+                <cell><m>1.012</m></cell>
+                <cell><m>0.848</m></cell>
+                <cell><m>0.530</m></cell>
+                <cell><m>1.600</m></cell>
+            </row>
+            <row>
+                <cell><m>14^\circ</m></cell>
+                <cell><m>0.244</m></cell>
+                <cell><m>0.242</m></cell>
+                <cell><m>0.970</m></cell>
+                <cell right="major"><m>0.249</m></cell>
+                <cell><m>59^\circ</m></cell>
+                <cell><m>1.030</m></cell>
+                <cell><m>0.857</m></cell>
+                <cell><m>0.515</m></cell>
+                <cell><m>1.664</m></cell>
+            </row>
+            <row bottom="major">
+                <cell><m>15^\circ</m></cell>
+                <cell><m>0.262</m></cell>
+                <cell><m>0.259</m></cell>
+                <cell><m>0.966</m></cell>
+                <cell right="major"><m>0.268</m></cell>
+                <cell><m>60^\circ</m></cell>
+                <cell><m>1.047</m></cell>
+                <cell><m>0.866</m></cell>
+                <cell><m>0.500</m></cell>
+                <cell><m>1.732</m></cell>
+            </row>
+            <row>
+                <cell><m>16^\circ</m></cell>
+                <cell><m>0.279</m></cell>
+                <cell><m>0.276</m></cell>
+                <cell><m>0.961</m></cell>
+                <cell right="major"><m>0.287</m></cell>
+                <cell><m>61^\circ</m></cell>
+                <cell><m>1.065</m></cell>
+                <cell><m>0.875</m></cell>
+                <cell><m>0.485</m></cell>
+                <cell><m>1.804</m></cell>
+            </row>
+            <row>
+                <cell><m>17^\circ</m></cell>
+                <cell><m>0.297</m></cell>
+                <cell><m>0.292</m></cell>
+                <cell><m>0.956</m></cell>
+                <cell right="major"><m>0.306</m></cell>
+                <cell><m>62^\circ</m></cell>
+                <cell><m>1.082</m></cell>
+                <cell><m>0.883</m></cell>
+                <cell><m>0.469</m></cell>
+                <cell><m>1.881</m></cell>
+            </row>
+            <row>
+                <cell><m>18^\circ</m></cell>
+                <cell><m>0.314</m></cell>
+                <cell><m>0.309</m></cell>
+                <cell><m>0.951</m></cell>
+                <cell right="major"><m>0.325</m></cell>
+                <cell><m>63^\circ</m></cell>
+                <cell><m>1.100</m></cell>
+                <cell><m>0.891</m></cell>
+                <cell><m>0.454</m></cell>
+                <cell><m>1.963</m></cell>
+            </row>
+            <row>
+                <cell><m>19^\circ</m></cell>
+                <cell><m>0.332</m></cell>
+                <cell><m>0.326</m></cell>
+                <cell><m>0.946</m></cell>
+                <cell right="major"><m>0.344</m></cell>
+                <cell><m>64^\circ</m></cell>
+                <cell><m>1.117</m></cell>
+                <cell><m>0.899</m></cell>
+                <cell><m>0.438</m></cell>
+                <cell><m>2.050</m></cell>
+            </row>
+            <row bottom="major">
+                <cell><m>20^\circ</m></cell>
+                <cell><m>0.349</m></cell>
+                <cell><m>0.342</m></cell>
+                <cell><m>0.940</m></cell>
+                <cell right="major"><m>0.364</m></cell>
+                <cell><m>65^\circ</m></cell>
+                <cell><m>1.134</m></cell>
+                <cell><m>0.906</m></cell>
+                <cell><m>0.423</m></cell>
+                <cell><m>2.145</m></cell>
+            </row>
+            <row>
+                <cell><m>21^\circ</m></cell>
+                <cell><m>0.367</m></cell>
+                <cell><m>0.358</m></cell>
+                <cell><m>0.934</m></cell>
+                <cell right="major"><m>0.384</m></cell>
+                <cell><m>66^\circ</m></cell>
+                <cell><m>1.152</m></cell>
+                <cell><m>0.914</m></cell>
+                <cell><m>0.407</m></cell>
+                <cell><m>2.246</m></cell>
+            </row>
+            <row>
+                <cell><m>22^\circ</m></cell>
+                <cell><m>0.384</m></cell>
+                <cell><m>0.375</m></cell>
+                <cell><m>0.927</m></cell>
+                <cell right="major"><m>0.404</m></cell>
+                <cell><m>67^\circ</m></cell>
+                <cell><m>1.169</m></cell>
+                <cell><m>0.921</m></cell>
+                <cell><m>0.391</m></cell>
+                <cell><m>2.356</m></cell>
+            </row>
+            <row>
+                <cell><m>23^\circ</m></cell>
+                <cell><m>0.401</m></cell>
+                <cell><m>0.391</m></cell>
+                <cell><m>0.921</m></cell>
+                <cell right="major"><m>0.424</m></cell>
+                <cell><m>68^\circ</m></cell>
+                <cell><m>1.187</m></cell>
+                <cell><m>0.927</m></cell>
+                <cell><m>0.375</m></cell>
+                <cell><m>2.475</m></cell>
+            </row>
+            <row>
+                <cell><m>24^\circ</m></cell>
+                <cell><m>0.419</m></cell>
+                <cell><m>0.407</m></cell>
+                <cell><m>0.914</m></cell>
+                <cell right="major"><m>0.445</m></cell>
+                <cell><m>69^\circ</m></cell>
+                <cell><m>1.204</m></cell>
+                <cell><m>0.934</m></cell>
+                <cell><m>0.358</m></cell>
+                <cell><m>2.605</m></cell>
+            </row>
+            <row bottom="major">
+                <cell><m>25^\circ</m></cell>
+                <cell><m>0.436</m></cell>
+                <cell><m>0.423</m></cell>
+                <cell><m>0.906</m></cell>
+                <cell right="major"><m>0.466</m></cell>
+                <cell><m>70^\circ</m></cell>
+                <cell><m>1.222</m></cell>
+                <cell><m>0.940</m></cell>
+                <cell><m>0.342</m></cell>
+                <cell><m>2.747</m></cell>
+            </row>
+            <row>
+                <cell><m>26^\circ</m></cell>
+                <cell><m>0.454</m></cell>
+                <cell><m>0.438</m></cell>
+                <cell><m>0.899</m></cell>
+                <cell right="major"><m>0.488</m></cell>
+                <cell><m>71^\circ</m></cell>
+                <cell><m>1.239</m></cell>
+                <cell><m>0.946</m></cell>
+                <cell><m>0.326</m></cell>
+                <cell><m>2.904</m></cell>
+            </row>
+            <row>
+                <cell><m>27^\circ</m></cell>
+                <cell><m>0.471</m></cell>
+                <cell><m>0.454</m></cell>
+                <cell><m>0.891</m></cell>
+                <cell right="major"><m>0.510</m></cell>
+                <cell><m>72^\circ</m></cell>
+                <cell><m>1.257</m></cell>
+                <cell><m>0.951</m></cell>
+                <cell><m>0.309</m></cell>
+                <cell><m>3.078</m></cell>
+            </row>
+            <row>
+                <cell><m>28^\circ</m></cell>
+                <cell><m>0.489</m></cell>
+                <cell><m>0.469</m></cell>
+                <cell><m>0.883</m></cell>
+                <cell right="major"><m>0.532</m></cell>
+                <cell><m>73^\circ</m></cell>
+                <cell><m>1.274</m></cell>
+                <cell><m>0.956</m></cell>
+                <cell><m>0.292</m></cell>
+                <cell><m>3.271</m></cell>
+            </row>
+            <row>
+                <cell><m>29^\circ</m></cell>
+                <cell><m>0.506</m></cell>
+                <cell><m>0.485</m></cell>
+                <cell><m>0.875</m></cell>
+                <cell right="major"><m>0.554</m></cell>
+                <cell><m>74^\circ</m></cell>
+                <cell><m>1.292</m></cell>
+                <cell><m>0.961</m></cell>
+                <cell><m>0.276</m></cell>
+                <cell><m>3.487</m></cell>
+            </row>
+            <row bottom="major">
+                <cell><m>30^\circ</m></cell>
+                <cell><m>0.524</m></cell>
+                <cell><m>0.500</m></cell>
+                <cell><m>0.866</m></cell>
+                <cell right="major"><m>0.577</m></cell>
+                <cell><m>75^\circ</m></cell>
+                <cell><m>1.309</m></cell>
+                <cell><m>0.966</m></cell>
+                <cell><m>0.259</m></cell>
+                <cell><m>3.732</m></cell>
+            </row>
+            <row>
+                <cell><m>31^\circ</m></cell>
+                <cell><m>0.541</m></cell>
+                <cell><m>0.515</m></cell>
+                <cell><m>0.857</m></cell>
+                <cell right="major"><m>0.601</m></cell>
+                <cell><m>76^\circ</m></cell>
+                <cell><m>1.326</m></cell>
+                <cell><m>0.970</m></cell>
+                <cell><m>0.242</m></cell>
+                <cell><m>4.011</m></cell>
+            </row>
+            <row>
+                <cell><m>32^\circ</m></cell>
+                <cell><m>0.559</m></cell>
+                <cell><m>0.530</m></cell>
+                <cell><m>0.848</m></cell>
+                <cell right="major"><m>0.625</m></cell>
+                <cell><m>77^\circ</m></cell>
+                <cell><m>1.344</m></cell>
+                <cell><m>0.974</m></cell>
+                <cell><m>0.225</m></cell>
+                <cell><m>4.331</m></cell>
+            </row>
+            <row>
+                <cell><m>33^\circ</m></cell>
+                <cell><m>0.576</m></cell>
+                <cell><m>0.545</m></cell>
+                <cell><m>0.839</m></cell>
+                <cell right="major"><m>0.649</m></cell>
+                <cell><m>78^\circ</m></cell>
+                <cell><m>1.361</m></cell>
+                <cell><m>0.978</m></cell>
+                <cell><m>0.208</m></cell>
+                <cell><m>4.705</m></cell>
+            </row>
+            <row>
+                <cell><m>34^\circ</m></cell>
+                <cell><m>0.593</m></cell>
+                <cell><m>0.559</m></cell>
+                <cell><m>0.829</m></cell>
+                <cell right="major"><m>0.675</m></cell>
+                <cell><m>79^\circ</m></cell>
+                <cell><m>1.379</m></cell>
+                <cell><m>0.982</m></cell>
+                <cell><m>0.191</m></cell>
+                <cell><m>5.145</m></cell>
+            </row>
+            <row bottom="major">
+                <cell><m>35^\circ</m></cell>
+                <cell><m>0.611</m></cell>
+                <cell><m>0.574</m></cell>
+                <cell><m>0.819</m></cell>
+                <cell right="major"><m>0.700</m></cell>
+                <cell><m>80^\circ</m></cell>
+                <cell><m>1.396</m></cell>
+                <cell><m>0.985</m></cell>
+                <cell><m>0.174</m></cell>
+                <cell><m>5.671</m></cell>
+            </row>
+            <row>
+                <cell><m>36^\circ</m></cell>
+                <cell><m>0.628</m></cell>
+                <cell><m>0.588</m></cell>
+                <cell><m>0.809</m></cell>
+                <cell right="major"><m>0.727</m></cell>
+                <cell><m>81^\circ</m></cell>
+                <cell><m>1.414</m></cell>
+                <cell><m>0.988</m></cell>
+                <cell><m>0.156</m></cell>
+                <cell><m>6.314</m></cell>
+            </row>
+            <row>
+                <cell><m>37^\circ</m></cell>
+                <cell><m>0.646</m></cell>
+                <cell><m>0.602</m></cell>
+                <cell><m>0.799</m></cell>
+                <cell right="major"><m>0.754</m></cell>
+                <cell><m>82^\circ</m></cell>
+                <cell><m>1.431</m></cell>
+                <cell><m>0.990</m></cell>
+                <cell><m>0.139</m></cell>
+                <cell><m>7.115</m></cell>
+            </row>
+            <row>
+                <cell><m>38^\circ</m></cell>
+                <cell><m>0.663</m></cell>
+                <cell><m>0.616</m></cell>
+                <cell><m>0.788</m></cell>
+                <cell right="major"><m>0.781</m></cell>
+                <cell><m>83^\circ</m></cell>
+                <cell><m>1.449</m></cell>
+                <cell><m>0.993</m></cell>
+                <cell><m>0.122</m></cell>
+                <cell><m>8.144</m></cell>
+            </row>
+            <row>
+                <cell><m>39^\circ</m></cell>
+                <cell><m>0.681</m></cell>
+                <cell><m>0.629</m></cell>
+                <cell><m>0.777</m></cell>
+                <cell right="major"><m>0.810</m></cell>
+                <cell><m>84^\circ</m></cell>
+                <cell><m>1.466</m></cell>
+                <cell><m>0.995</m></cell>
+                <cell><m>0.105</m></cell>
+                <cell><m>9.514</m></cell>
+            </row>
+            <row bottom="major">
+                <cell><m>40^\circ</m></cell>
+                <cell><m>0.698</m></cell>
+                <cell><m>0.643</m></cell>
+                <cell><m>0.766</m></cell>
+                <cell right="major"><m>0.839</m></cell>
+                <cell><m>85^\circ</m></cell>
+                <cell><m>1.484</m></cell>
+                <cell><m>0.996</m></cell>
+                <cell><m>0.087</m></cell>
+                <cell><m>11.430</m></cell>
+            </row>
+            <row>
+                <cell><m>41^\circ</m></cell>
+                <cell><m>0.716</m></cell>
+                <cell><m>0.656</m></cell>
+                <cell><m>0.755</m></cell>
+                <cell right="major"><m>0.869</m></cell>
+                <cell><m>86^\circ</m></cell>
+                <cell><m>1.501</m></cell>
+                <cell><m>0.998</m></cell>
+                <cell><m>0.070</m></cell>
+                <cell><m>14.301</m></cell>
+            </row>
+            <row>
+                <cell><m>42^\circ</m></cell>
+                <cell><m>0.733</m></cell>
+                <cell><m>0.669</m></cell>
+                <cell><m>0.743</m></cell>
+                <cell right="major"><m>0.900</m></cell>
+                <cell><m>87^\circ</m></cell>
+                <cell><m>1.518</m></cell>
+                <cell><m>0.999</m></cell>
+                <cell><m>0.052</m></cell>
+                <cell><m>19.081</m></cell>
+            </row>
+            <row>
+                <cell><m>43^\circ</m></cell>
+                <cell><m>0.750</m></cell>
+                <cell><m>0.682</m></cell>
+                <cell><m>0.731</m></cell>
+                <cell right="major"><m>0.933</m></cell>
+                <cell><m>88^\circ</m></cell>
+                <cell><m>1.536</m></cell>
+                <cell><m>0.999</m></cell>
+                <cell><m>0.035</m></cell>
+                <cell><m>28.636</m></cell>
+            </row>
+            <row>
+                <cell><m>44^\circ</m></cell>
+                <cell><m>0.768</m></cell>
+                <cell><m>0.695</m></cell>
+                <cell><m>0.719</m></cell>
+                <cell right="major"><m>0.966</m></cell>
+                <cell><m>89^\circ</m></cell>
+                <cell><m>1.553</m></cell>
+                <cell><m>1.000</m></cell>
+                <cell><m>0.017</m></cell>
+                <cell><m>57.290</m></cell>
+            </row>
+            <row bottom="major">
+                <cell><m>45^\circ</m></cell>
+                <cell><m>0.785</m></cell>
+                <cell><m>0.707</m></cell>
+                <cell><m>0.707</m></cell>
+                <cell right="major"><m>1.000</m></cell>
+                <cell><m>90^\circ</m></cell>
+                <cell><m>1.571</m></cell>
+                <cell><m>1.000</m></cell>
+                <cell><m>0.000</m></cell>
+                <cell><m>\infty</m></cell>
+            </row>
+        </tabular>
+    </table>
+</section>

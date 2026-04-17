@@ -25,4 +25,5 @@
   <xi:include href="./trigonometry/vectors.ptx"/>
   <xi:include href="./trigonometry/dot-product.ptx"/>
   <xi:include href="./trigonometry/polar-coordinates.ptx"/>
+  <xi:include href="./trigonometry/historical-trig-table.ptx"/>
 </appendix>
