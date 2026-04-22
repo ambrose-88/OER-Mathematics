@@ -11557,11 +11557,299 @@ var ptx_lunr_docs = [
   "body": "  Convert to a rectangular equation.   "
 },
 {
+  "id": "ws-polar-graphs",
+  "level": "1",
+  "url": "ws-polar-graphs.html",
+  "type": "Worksheet",
+  "number": "D.19",
+  "title": "Polar Graphs",
+  "body": " Polar Graphs   Circles in Polar Coordinates   The graphs of and are the graphs of circles.   The Graphs of Circles in Polar Coordinates    The graph of .     The graph of .         Graphing Circles in Polar Coordinates by plotting points   Graph the curve defined by by plotting points.   A polar grid consisting of 10 concentric circles and a line radiating out from the origin every radians.           A polar graph is symmetric with respect to the polar axis if replacing with results in an equivalent equation.   The points and are symmetric with respect to the polar axis.      A polar graph is symmetric with respect to the line if replacing with and with results in an equivalent equation.   The points and are symmetric with respect to the line .            A polar graph is symmetric with respect to the pole if replacing with results in an equivalent equation.   The points and are symmetric with respect to the pole.        What the Tests for Symmetry of Polar Graphs Tell Us  These tests only determine when the graph is guaranteed to have a particular symmetry. It is possible for a graph to have a particular symmetry even if it fails the test for that symmetry.    Graphs of Limaçons   The graphs of the four equations where are called limaçons . The ratio determines the shape of the limaçon.   The Four Different Types of Limaçons    The graph has an inner loop when .     The graph is a cardioid (heart-shaped) when .       The graph has a dimple when .     The graph has a \"bruised fruit\" appearance when .         Graphing a Limaçon   Determine the symmetries of the graph . Then graph the polar curve.   A polar grid consisting of 10 concentric circles and a line radiating out from the origin every radians.       Graphs of Rose Curves   The graphs of are called rose curves . If is even, the rose has petals. If is odd, the rose has petals. measures the distance from the pole to the tip of the petal.   Four Examples of Rose Curves    yields a rose with 3 petals.     yields a rose with 8 petals.       yields a rose with 4 petals.     yields a rose with 5 petals.         Graphing a Rose Curve   Determine the symmetries of the graph . Then graph the polar curve.   A polar grid consisting of 10 concentric circles and a line radiating out from the origin every radians.       Graphs of Lemniscates   The graphs of are called lemniscates . measures the distance from the pole to the tip of the loop.   Two Examples of Lemniscates    yields a lemniscate that is only symmetric to the pole.     yields a lemniscate that is symmetric to the polar axis, the line , and the pole.         Graphing a Lemniscate   Determine the symmetries of the graph . Then graph the polar curve.   A polar grid consisting of 10 concentric circles and a line radiating out from the origin every radians.      "
+},
+{
+  "id": "thm-polar-graphs-circles",
+  "level": "2",
+  "url": "ws-polar-graphs.html#thm-polar-graphs-circles",
+  "type": "Theorem",
+  "number": "D.19.586",
+  "title": "Circles in Polar Coordinates.",
+  "body": " Circles in Polar Coordinates   The graphs of and are the graphs of circles.   The Graphs of Circles in Polar Coordinates    The graph of .     The graph of .       "
+},
+{
+  "id": "ex-polar-graph-circles",
+  "level": "2",
+  "url": "ws-polar-graphs.html#ex-polar-graph-circles",
+  "type": "Example",
+  "number": "D.19.588",
+  "title": "Graphing Circles in Polar Coordinates by plotting points.",
+  "body": " Graphing Circles in Polar Coordinates by plotting points   Graph the curve defined by by plotting points.   A polar grid consisting of 10 concentric circles and a line radiating out from the origin every radians.     "
+},
+{
+  "id": "thm-polar-symmetries",
+  "level": "2",
+  "url": "ws-polar-graphs.html#thm-polar-symmetries",
+  "type": "Theorem",
+  "number": "D.19.590",
+  "title": "",
+  "body": "     A polar graph is symmetric with respect to the polar axis if replacing with results in an equivalent equation.   The points and are symmetric with respect to the polar axis.      A polar graph is symmetric with respect to the line if replacing with and with results in an equivalent equation.   The points and are symmetric with respect to the line .        "
+},
+{
+  "id": "ws-polar-graphs-5",
+  "level": "2",
+  "url": "ws-polar-graphs.html#ws-polar-graphs-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "symmetric with respect to the pole "
+},
+{
+  "id": "ws-polar-graphs-6",
+  "level": "2",
+  "url": "ws-polar-graphs.html#ws-polar-graphs-6",
+  "type": "Note",
+  "number": "D.19.594",
+  "title": "What the Tests for Symmetry of Polar Graphs Tell Us.",
+  "body": " What the Tests for Symmetry of Polar Graphs Tell Us  These tests only determine when the graph is guaranteed to have a particular symmetry. It is possible for a graph to have a particular symmetry even if it fails the test for that symmetry.  "
+},
+{
+  "id": "thm-limacons",
+  "level": "2",
+  "url": "ws-polar-graphs.html#thm-limacons",
+  "type": "Theorem",
+  "number": "D.19.595",
+  "title": "Graphs of Limaçons.",
+  "body": " Graphs of Limaçons   The graphs of the four equations where are called limaçons . The ratio determines the shape of the limaçon.   The Four Different Types of Limaçons    The graph has an inner loop when .     The graph is a cardioid (heart-shaped) when .       The graph has a dimple when .     The graph has a \"bruised fruit\" appearance when .       "
+},
+{
+  "id": "ws-polar-graphs-8",
+  "level": "2",
+  "url": "ws-polar-graphs.html#ws-polar-graphs-8",
+  "type": "Example",
+  "number": "D.19.597",
+  "title": "Graphing a Limaçon.",
+  "body": " Graphing a Limaçon   Determine the symmetries of the graph . Then graph the polar curve.   A polar grid consisting of 10 concentric circles and a line radiating out from the origin every radians.     "
+},
+{
+  "id": "thm-rose-curves",
+  "level": "2",
+  "url": "ws-polar-graphs.html#thm-rose-curves",
+  "type": "Theorem",
+  "number": "D.19.599",
+  "title": "Graphs of Rose Curves.",
+  "body": " Graphs of Rose Curves   The graphs of are called rose curves . If is even, the rose has petals. If is odd, the rose has petals. measures the distance from the pole to the tip of the petal.   Four Examples of Rose Curves    yields a rose with 3 petals.     yields a rose with 8 petals.       yields a rose with 4 petals.     yields a rose with 5 petals.       "
+},
+{
+  "id": "ws-polar-graphs-10",
+  "level": "2",
+  "url": "ws-polar-graphs.html#ws-polar-graphs-10",
+  "type": "Example",
+  "number": "D.19.601",
+  "title": "Graphing a Rose Curve.",
+  "body": " Graphing a Rose Curve   Determine the symmetries of the graph . Then graph the polar curve.   A polar grid consisting of 10 concentric circles and a line radiating out from the origin every radians.     "
+},
+{
+  "id": "thm-lemniscates",
+  "level": "2",
+  "url": "ws-polar-graphs.html#thm-lemniscates",
+  "type": "Theorem",
+  "number": "D.19.603",
+  "title": "Graphs of Lemniscates.",
+  "body": " Graphs of Lemniscates   The graphs of are called lemniscates . measures the distance from the pole to the tip of the loop.   Two Examples of Lemniscates    yields a lemniscate that is only symmetric to the pole.     yields a lemniscate that is symmetric to the polar axis, the line , and the pole.       "
+},
+{
+  "id": "ws-polar-graphs-12",
+  "level": "2",
+  "url": "ws-polar-graphs.html#ws-polar-graphs-12",
+  "type": "Example",
+  "number": "D.19.605",
+  "title": "Graphing a Lemniscate.",
+  "body": " Graphing a Lemniscate   Determine the symmetries of the graph . Then graph the polar curve.   A polar grid consisting of 10 concentric circles and a line radiating out from the origin every radians.     "
+},
+{
+  "id": "ws-parametric-equations",
+  "level": "1",
+  "url": "ws-parametric-equations.html",
+  "type": "Worksheet",
+  "number": "D.20",
+  "title": "Parametric Equations",
+  "body": " Parametric Equations    Let be a variable defined on some interval , and let \\(f(t)\\) and \\(g(t)\\) be two functions of defined on . A plane curve is the set of all ordered pairs , where the coordinates of the ordered pairsare defined by the equations   The variable is called the parameter of the system.  The equations and are called the parametric equations for the curve.       Common Conventions for Parametric Equations    The parameter is often interpreted as time, and the point is interpreted as the position of an object at time .  Oftentimes, we will abbreviate the parametric equation as and the parametric equation as to emphasize that a specific ordered pair is the position of an object in space at a specific time .  In this case, we will either write the ordered pairs as if we want to emphasize the location of the objection, or as if we want to emphasize that the position is evolving over time.      Graphing Plane Curves      Select some values of the parameter on the given interval.    For each value of the parameter , compute the corresponding ordered pair .    Plot the points starting with the smallest value of and ending with the largest value of .    Draw arrows on the curve to show the orientation of the curve. In this case, orientation means the direction of travel from the smallest value of to the largest value of .        The Graph of the Semicubical Unit Parabola   Graph the semicubical unit parabola which is defined by the parametric equations  Use the domain .    The Graph of the Astroid   Graph the astroid which is defined by the parametric equations Use the domain .     The Graph of the Unit Circle. Version 1   Graph the unit circle which is defined by the parametric equations Use the domain .     The Graph of the Unit Circle, version 2   Graph the unit circle which is defined by the parametric equations Use the domain .     Eliminating the Parameter      Solve one of the parametric equations for the parameter .    Substitute the expression for the parameter into the other parametric equation to obtain an equation in terms of and .    You may need to adjust the domain of the resulting equation to match the domain of the given parameter.        Eliminating the Parameter   Eliminate the parameter from the parametric equations and then graph the equation in terms of and . Use the domain .     Eliminating the Parameter, Trigonometric Version   Eliminate the parameter from the parametric equations and then graph the equation in terms of and . Use the domain .     Eliminating the Parameter, Trigonometric Version 2   Eliminate the parameter from the parametric equations and then graph the equation in terms of and . Use the domain .     Parametric Representation of Functions   Let be a function defined on some interval . Then the curve defined by the equation can be represented parametrically by the equations where the parameter is defined on the same interval as the function .     Finding a Parametric Presentation of a Curve   Find a parametric presentation of the curve defined by the equation .     Quadratic in Form as Parametric Representation   Find a parametric presentation of the curve defined by the equation .     Finding a Parametric Representation of a Line   Find a parametric presentation of the line passing through the point with a slope of .     What does it mean to find a parametric presentation of a curve?  Parametric curves are typically (but not always) a more complicated curve that is projected from a higher dimensional space to a lower dimensional space since its parametric representation is easier to understand than the original version.    Graph of a System of Parametric Equations with Self-Intersections   Graph the parametric equations Use the domain .    Let's compare this to the graph of the function in three dimensions.   Graph of (Side View) in 3D Space. In this view, the self-intersections of the curve on the coordinate plane correspond the fact that the graph in 3D-space crosses the -axis at multiple points,     Graph of (Top View) in 3D Space. The top view is identical to the graph in . The top view represents the shadow of the curve on the coordinate plane.    "
+},
+{
+  "id": "def-parametric-equation",
+  "level": "2",
+  "url": "ws-parametric-equations.html#def-parametric-equation",
+  "type": "Definition",
+  "number": "D.20.607",
+  "title": "",
+  "body": "  Let be a variable defined on some interval , and let \\(f(t)\\) and \\(g(t)\\) be two functions of defined on . A plane curve is the set of all ordered pairs , where the coordinates of the ordered pairsare defined by the equations   The variable is called the parameter of the system.  The equations and are called the parametric equations for the curve.     "
+},
+{
+  "id": "ws-parametric-equations-3",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ws-parametric-equations-3",
+  "type": "Note",
+  "number": "D.20.608",
+  "title": "Common Conventions for Parametric Equations.",
+  "body": " Common Conventions for Parametric Equations    The parameter is often interpreted as time, and the point is interpreted as the position of an object at time .  Oftentimes, we will abbreviate the parametric equation as and the parametric equation as to emphasize that a specific ordered pair is the position of an object in space at a specific time .  In this case, we will either write the ordered pairs as if we want to emphasize the location of the objection, or as if we want to emphasize that the position is evolving over time.    "
+},
+{
+  "id": "lem-graphing-plane-curves",
+  "level": "2",
+  "url": "ws-parametric-equations.html#lem-graphing-plane-curves",
+  "type": "Procedure",
+  "number": "D.20.609",
+  "title": "Graphing Plane Curves.",
+  "body": " Graphing Plane Curves      Select some values of the parameter on the given interval.    For each value of the parameter , compute the corresponding ordered pair .    Plot the points starting with the smallest value of and ending with the largest value of .    Draw arrows on the curve to show the orientation of the curve. In this case, orientation means the direction of travel from the smallest value of to the largest value of .      "
+},
+{
+  "id": "ex-parametric-semicubical-unit-parabola",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ex-parametric-semicubical-unit-parabola",
+  "type": "Example",
+  "number": "D.20.610",
+  "title": "The Graph of the Semicubical Unit Parabola.",
+  "body": " The Graph of the Semicubical Unit Parabola   Graph the semicubical unit parabola which is defined by the parametric equations  Use the domain .  "
+},
+{
+  "id": "ex-parametric-astroid",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ex-parametric-astroid",
+  "type": "Example",
+  "number": "D.20.611",
+  "title": "The Graph of the Astroid.",
+  "body": " The Graph of the Astroid   Graph the astroid which is defined by the parametric equations Use the domain .   "
+},
+{
+  "id": "ws-parametric-equations-7",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ws-parametric-equations-7",
+  "type": "Example",
+  "number": "D.20.612",
+  "title": "The Graph of the Unit Circle. Version 1.",
+  "body": " The Graph of the Unit Circle. Version 1   Graph the unit circle which is defined by the parametric equations Use the domain .   "
+},
+{
+  "id": "ws-parametric-equations-8",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ws-parametric-equations-8",
+  "type": "Example",
+  "number": "D.20.613",
+  "title": "The Graph of the Unit Circle, version 2.",
+  "body": " The Graph of the Unit Circle, version 2   Graph the unit circle which is defined by the parametric equations Use the domain .   "
+},
+{
+  "id": "def-eliminating-parameter",
+  "level": "2",
+  "url": "ws-parametric-equations.html#def-eliminating-parameter",
+  "type": "Procedure",
+  "number": "D.20.614",
+  "title": "Eliminating the Parameter.",
+  "body": " Eliminating the Parameter      Solve one of the parametric equations for the parameter .    Substitute the expression for the parameter into the other parametric equation to obtain an equation in terms of and .    You may need to adjust the domain of the resulting equation to match the domain of the given parameter.      "
+},
+{
+  "id": "ex-eliminate-parameter",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ex-eliminate-parameter",
+  "type": "Example",
+  "number": "D.20.615",
+  "title": "Eliminating the Parameter.",
+  "body": " Eliminating the Parameter   Eliminate the parameter from the parametric equations and then graph the equation in terms of and . Use the domain .   "
+},
+{
+  "id": "ex-eliminate-parameter-trigonometric",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ex-eliminate-parameter-trigonometric",
+  "type": "Example",
+  "number": "D.20.616",
+  "title": "Eliminating the Parameter, Trigonometric Version.",
+  "body": " Eliminating the Parameter, Trigonometric Version   Eliminate the parameter from the parametric equations and then graph the equation in terms of and . Use the domain .   "
+},
+{
+  "id": "ex-eliminate-parameter-trigonometric-2",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ex-eliminate-parameter-trigonometric-2",
+  "type": "Example",
+  "number": "D.20.617",
+  "title": "Eliminating the Parameter, Trigonometric Version 2.",
+  "body": " Eliminating the Parameter, Trigonometric Version 2   Eliminate the parameter from the parametric equations and then graph the equation in terms of and . Use the domain .   "
+},
+{
+  "id": "thm-parametric-representation-functions",
+  "level": "2",
+  "url": "ws-parametric-equations.html#thm-parametric-representation-functions",
+  "type": "Theorem",
+  "number": "D.20.618",
+  "title": "Parametric Representation of Functions.",
+  "body": " Parametric Representation of Functions   Let be a function defined on some interval . Then the curve defined by the equation can be represented parametrically by the equations where the parameter is defined on the same interval as the function .   "
+},
+{
+  "id": "ex-parametric-presentation",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ex-parametric-presentation",
+  "type": "Example",
+  "number": "D.20.619",
+  "title": "Finding a Parametric Presentation of a Curve.",
+  "body": " Finding a Parametric Presentation of a Curve   Find a parametric presentation of the curve defined by the equation .   "
+},
+{
+  "id": "ex-parametric-presentation-quadratic-in-form",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ex-parametric-presentation-quadratic-in-form",
+  "type": "Example",
+  "number": "D.20.620",
+  "title": "Quadratic in Form as Parametric Representation.",
+  "body": " Quadratic in Form as Parametric Representation   Find a parametric presentation of the curve defined by the equation .   "
+},
+{
+  "id": "ex-parametric-representation-line",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ex-parametric-representation-line",
+  "type": "Example",
+  "number": "D.20.621",
+  "title": "Finding a Parametric Representation of a Line.",
+  "body": " Finding a Parametric Representation of a Line   Find a parametric presentation of the line passing through the point with a slope of .   "
+},
+{
+  "id": "ws-parametric-equations-17",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ws-parametric-equations-17",
+  "type": "Note",
+  "number": "D.20.622",
+  "title": "What does it mean to find a parametric presentation of a curve?",
+  "body": " What does it mean to find a parametric presentation of a curve?  Parametric curves are typically (but not always) a more complicated curve that is projected from a higher dimensional space to a lower dimensional space since its parametric representation is easier to understand than the original version.  "
+},
+{
+  "id": "ex-parametric-equations-self-intersection",
+  "level": "2",
+  "url": "ws-parametric-equations.html#ex-parametric-equations-self-intersection",
+  "type": "Example",
+  "number": "D.20.623",
+  "title": "Graph of a System of Parametric Equations with Self-Intersections.",
+  "body": " Graph of a System of Parametric Equations with Self-Intersections   Graph the parametric equations Use the domain .   "
+},
+{
+  "id": "fig-parametric-equations-self-intersection",
+  "level": "2",
+  "url": "ws-parametric-equations.html#fig-parametric-equations-self-intersection",
+  "type": "Figure",
+  "number": "D.20.624",
+  "title": "",
+  "body": " Graph of (Side View) in 3D Space. In this view, the self-intersections of the curve on the coordinate plane correspond the fact that the graph in 3D-space crosses the -axis at multiple points,   "
+},
+{
+  "id": "fig-parametric-equations-self-intersection-1",
+  "level": "2",
+  "url": "ws-parametric-equations.html#fig-parametric-equations-self-intersection-1",
+  "type": "Figure",
+  "number": "D.20.625",
+  "title": "",
+  "body": " Graph of (Top View) in 3D Space. The top view is identical to the graph in . The top view represents the shadow of the curve on the coordinate plane.   "
+},
+{
   "id": "sec-historical-trig-table",
   "level": "1",
   "url": "sec-historical-trig-table.html",
   "type": "Section",
-  "number": "D.19",
+  "number": "D.21",
   "title": "Historical Trigonometric Table",
   "body": " Historical Trigonometric Table  This table is based on the one found at the University of Colorado - Colorado Springs    Trigonometric Table    Degrees  Radians  Sine  Cosine  Tangent  Degrees  Radians  Sine  Cosine  Tangent                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             "
 },
@@ -11570,7 +11858,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-historical-trig-table.html#sec-historical-trig-table-3",
   "type": "Table",
-  "number": "D.19.1",
+  "number": "D.21.1",
   "title": "Trigonometric Table",
   "body": " Trigonometric Table    Degrees  Radians  Sine  Cosine  Tangent  Degrees  Radians  Sine  Cosine  Tangent                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
 },
