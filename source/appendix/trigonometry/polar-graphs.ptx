@@ -1,0 +1,217 @@
+<worksheet xml:id="ws-polar-graphs">
+    <title>Polar Graphs</title>
+    <theorem xml:id="thm-polar-graphs-circles">
+        <title>Circles in Polar Coordinates</title>
+        <statement>
+            <p>
+                The graphs of <m>r=a\cos(\theta)</m> and <m>r=a\sin(\theta)</m> are the graphs of circles.
+            </p>
+            <figure xml:id="fig-graphs-polar-circles">
+                <caption>The Graphs of Circles in Polar Coordinates</caption>
+                <sidebyside>
+                    <figure xml:id="subfig-polar-circle-cosine">
+                        <caption>The graph of <m>r=a\cos(\theta)</m>.</caption>
+                        <image source="trigonometry/polar-circle-cosine.png" width="50%" decorative="true"/>
+                    </figure>
+                    <figure xml:id="subfig-polar-circle-sine">
+                        <caption>The graph of <m>r=a\sin(\theta)</m>.</caption>
+                        <image source="trigonometry/polar-circle-sine.png" width="50%" decorative="true"/>
+                    </figure>
+                </sidebyside>
+            </figure>
+        </statement>
+    </theorem>
+    
+    <example xml:id="ex-polar-graph-circles">
+        <title>Graphing Circles in Polar Coordinates by plotting points</title>
+        <statement>
+            <p>
+                Graph the curve defined by <m>r=4\sin(\theta)</m> by plotting points.
+            </p>
+                <figure xml:id="fig-app-trig-polar-grid-1">
+        <caption>A polar grid consisting of 10 concentric circles and a line radiating out from the origin every <m>\dfrac{\pi}{12}</m> radians.</caption>
+        <image source="trigonometry/polar.png" decorative="yes" width="50%"/>
+    </figure>
+        </statement>        
+    </example>
+    
+    <theorem xml:id="thm-polar-symmetries">
+        <statement>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            A polar graph is <term>symmetric with respect to the polar axis</term> if replacing <m>\theta</m> with <m>-\theta</m> results in an equivalent equation.
+                        </p>
+                        <figure xml:id="fig-symmetry-polar-axis">
+                            <caption>The points <m>(r, \theta)</m> and <m>(r, -\theta)</m> are symmetric with respect to the polar axis.</caption>
+                            <image source="trigonometry/symmetry-polar-axis.png" decorative="yes" width="50%"/>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>
+                            A polar graph is <term>symmetric with respect to the line <m>\theta=\dfrac{\pi}{2}</m></term> if replacing <m>r</m> with <m>-r</m> and <m>\theta</m> with <m>-\theta</m> results in an equivalent equation.
+                        </p>
+                        <figure xml:id="fig-symmetry-polar-line">
+                            <caption>The points <m>(r, \theta)</m> and <m>(-r, -\theta)</m> are symmetric with respect to the line <m>\theta=\dfrac{\pi}{2}</m>.</caption>
+                            <image source="trigonometry/symmetry-theta-pi-over-2.png" decorative="yes" width="50%"/>
+                        </figure>
+                    </li>
+                </ul>
+            </p>
+        </statement>
+    </theorem>
+    <p>
+     <ul>
+                    <li>
+                        <p>
+                            A polar graph is <term>symmetric with respect to the pole</term> if replacing <m>r</m> with <m>-r</m> results in an equivalent equation.
+                        </p>
+                        <figure xml:id="fig-symmetry-polar-pole">
+                            <caption>The points <m>(r, \theta)</m> and <m>(-r, \theta)</m> are symmetric with respect to the pole.</caption>
+                            <image source="trigonometry/symmetry-pole.png" decorative="yes" width="50%"/>
+                        </figure>
+                    </li>
+                </ul>
+            </p>
+            <note>
+                <title>What the Tests for Symmetry of Polar Graphs Tell Us</title>
+                <p>
+                    These tests only determine when the graph is guaranteed to have a particular symmetry. It is possible for a graph to have a particular symmetry even if it fails the test for that symmetry.
+                </p>
+            </note>
+    <theorem xml:id="thm-limacons">
+        <title>Graphs of Limaçons</title>
+        <statement>
+            <p>
+                The graphs of the four equations
+                <md>
+                    <mrow>r\amp= a\pm b\cos(\theta)</mrow>
+                    <mrow>r\amp= a\pm b\sin(\theta)</mrow>
+                </md>
+                where <m>a,b\gt 0</m> are called <term>limaçons</term>. The ratio <m>\dfrac{a}{b}</m> determines the shape of the limaçon.
+            </p>
+            <figure xml:id="fig-graphs-limacons">
+                <caption>The Four Different Types of Limaçons</caption>
+                <sidebyside>
+                    <figure xml:id="subfig-limacon-a-less-than-b">
+                        <caption>The graph has an inner loop when <m>a&lt;b</m>.</caption>
+                        <image source="trigonometry/limacon-a-less-than-b.png" width="50%" decorative="true"/>
+                    </figure>
+                    <figure xml:id="subfig-limacon-a-equal-to-b">
+                        <caption>The graph is a cardioid (heart-shaped) when <m>a=b</m>.</caption>
+                        <image source="trigonometry/limacon-a-equal-to-b.png" width="50%" decorative="true"/>
+                    </figure>
+                </sidebyside>
+                <sidebyside>
+                    <figure xml:id="subfig-limacon-a-b-between-1-and-2">
+                        <caption>The graph has a dimple when <m>1&lt;\dfrac{a}{b}&lt;2</m>.</caption>
+                        <image source="trigonometry/limacon-dimple.png" width="50%" decorative="true"/>
+                    </figure>
+                    <figure xml:id="subfig-limacon-a-b-greater-than-2">
+                        <caption>The graph has a "bruised fruit" appearance when <m>\dfrac{a}{b}\geq 2</m>.</caption>
+                        <image source="trigonometry/limacon-bruised-fruit.png" width="50%" decorative="true"/>
+                    </figure>
+                </sidebyside>
+            </figure>
+        </statement>
+    </theorem>
+    <example>
+        <title>Graphing a Limaçon</title>
+        <statement>
+            <p>
+                Determine the symmetries of the graph <m>r=1+\cos(\theta)</m>. Then graph the polar curve.
+            </p>
+            <figure xml:id="fig-app-trig-polar-grid-2">
+        <caption>A polar grid consisting of 10 concentric circles and a line radiating out from the origin every <m>\dfrac{\pi}{12}</m> radians.</caption>
+        <image source="trigonometry/polar.png" decorative="yes" width="50%"/>
+    </figure>
+        </statement>
+    </example>
+    <theorem xml:id="thm-rose-curves">
+        <title>Graphs of Rose Curves</title>
+        <statement>
+            <p>
+                The graphs of 
+                <md>
+                    <mrow>r\amp= a\sin(n\theta)</mrow>
+                    <mrow>r\amp= a\cos(n\theta)</mrow>
+                </md>
+                are called <term>rose curves</term>. If <m>n</m> is even, the rose has <m>2n</m> petals. If <m>n</m> is odd, the rose has <m>n</m> petals. <m>a</m> measures the distance from the pole to the tip of the petal.
+            </p>
+            <figure xml:id="fig-graphs-rose-curves">
+                <caption>Four Examples of Rose Curves</caption>
+                <sidebyside>
+                    <figure xml:id="subfig-rose-3-petals">
+                        <caption><m>r=a\sin(3\theta)</m> yields a rose with 3 petals.</caption>
+                        <image source="trigonometry/sine-rose-3-petals.png" width="50%" decorative="true"/>
+                    </figure>
+                    <figure xml:id="subfig-rose-8-petals">
+                        <caption><m>r=a\sin(4\theta)</m> yields a rose with 8 petals.</caption>
+                        <image source="trigonometry/sine-rose-8-petals.png" width="50%" decorative="true"/>
+                    </figure>
+                </sidebyside>
+                <sidebyside>
+                    <figure xml:id="subfig-rose-4-petals">
+                        <caption><m>r=a\sin(2\theta)</m> yields a rose with 4 petals.</caption>
+                        <image source="trigonometry/sine-rose-4-petals.png" width="50%" decorative="true"/>
+                    </figure>
+                    <figure xml:id="subfig-rose-5-petals">
+                        <caption><m>r=a\sin(5\theta)</m> yields a rose with 5 petals.</caption>
+                        <image source="trigonometry/sine-rose-5-petals.png" width="50%" decorative="true"/>
+                    </figure>
+                </sidebyside>
+            </figure>
+        </statement>
+    </theorem>
+            <example>
+        <title>Graphing a Rose Curve</title>
+        <statement>
+            <p>
+                Determine the symmetries of the graph <m>r=3\cos(2\theta)</m>. Then graph the polar curve.
+            </p>
+            <figure xml:id="fig-app-trig-polar-grid-4">
+        <caption>A polar grid consisting of 10 concentric circles and a line radiating out from the origin every <m>\dfrac{\pi}{12}</m> radians.</caption>
+        <image source="trigonometry/polar.png" decorative="yes" width="50%"/>
+    </figure>
+        </statement>
+    </example>
+        <theorem xml:id="thm-lemniscates">
+        <title>Graphs of Lemniscates</title>
+        <statement>
+            <p>
+                The graphs of 
+                <md>
+                    <mrow>r^2= a^2\sin(2\theta)</mrow>
+                    <mrow>r^2= a^2\cos(2\theta)</mrow>
+                </md>
+                are called <term>lemniscates</term>. <m>a</m> measures the distance from the pole to the tip of the loop.
+            </p>
+            <figure xml:id="fig-graphs-lemniscates">
+                <caption>Two Examples of Lemniscates</caption>
+                <sidebyside>
+                    <figure xml:id="subfig-lemniscate-sine">
+                        <caption><m>r^2=a^2\sin(2\theta)</m> yields a lemniscate that is only symmetric to the pole.</caption>
+                        <image source="trigonometry/lemniscate-sine.png" width="50%" decorative="true"/>
+                    </figure>
+                    <figure xml:id="subfig-lemniscate-cosine">
+                        <caption><m>r^2=a^2\cos(2\theta)</m> yields a lemniscate that is symmetric to the polar axis, the line <m>\theta=\dfrac{\pi}{2}</m>, and the pole.</caption>
+                        <image source="trigonometry/lemniscate-cosine.png" width="50%" decorative="true"/>
+                    </figure>
+                </sidebyside>
+            </figure>
+        </statement>
+    </theorem>
+            <example>
+        <title>Graphing a Lemniscate</title>
+        <statement>
+            <p>
+                Determine the symmetries of the graph <m>r^2=4\cos(2\theta)</m>. Then graph the polar curve.
+            </p>
+            <figure xml:id="fig-app-trig-polar-grid-5">
+        <caption>A polar grid consisting of 10 concentric circles and a line radiating out from the origin every <m>\dfrac{\pi}{12}</m> radians.</caption>
+        <image source="trigonometry/polar.png" decorative="yes" width="50%"/>
+    </figure>
+        </statement>
+    </example>
+</worksheet>

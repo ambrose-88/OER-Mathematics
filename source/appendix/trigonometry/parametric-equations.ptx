@@ -1,0 +1,242 @@
+<worksheet xml:id="ws-parametric-equations">
+    <title>Parametric Equations</title>
+    <definition xml:id="def-parametric-equation">
+        <statement>
+            <p>
+                Let <m>t</m> be a variable defined on some interval <m>I</m>, and let \(f(t)\) and \(g(t)\) be two functions of <m>t</m> defined on <m>I</m>. 
+                A <term>plane curve</term> is the set of all ordered pairs <m>(x,y)</m>, where the coordinates of the ordered pairsare defined by the equations
+                <md>
+                    <mrow>x\amp = f(t)</mrow>
+                    <mrow>y\amp = g(t)</mrow>
+                </md>
+                <ul>
+                <li>The variable <m>t</m> is called the <term>parameter</term> of the system.</li>
+                <li>The equations <m>x=f(t)</m> and <m>y=g(t)</m> are called the <term>parametric equations</term> for the curve.</li>
+                </ul>
+            </p>
+        </statement>
+    </definition>
+    <note>
+        <title>Common Conventions for Parametric Equations</title>
+        <p>
+            <ul>
+            <li>The parameter <m>t</m> is often interpreted as time, and the point <m>(f(t),g(t))</m> is interpreted as the position of an object at time <m>t</m>.</li>
+            <li>Oftentimes, we will abbreviate the parametric equation <m>x=f(t)</m> as <m>x(t)</m> and the parametric equation <m>y=g(t)</m> as <m>y(t)</m> to emphasize that a specific ordered pair is the position of an object in space at a specific time <m>t</m>.</li>
+            <li>In this case, we will either write the ordered pairs as <m>(x,y)</m> if we want to emphasize the location of the objection, or as <m>(x(t),y(t))</m> if we want to emphasize that the position is evolving over time.</li>
+            </ul>
+        </p>
+    </note>
+    <lemma xml:id="lem-graphing-plane-curves">
+        <title>Graphing Plane Curves</title>
+        <statement>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Select some values of the parameter <m>t</m> on the given interval.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            For each value of the parameter <m>t</m>, compute the corresponding ordered pair <m>(x(t),y(t))</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Plot the points <m>(x,y)</m> starting with the smallest value of <m>t</m> and ending with the largest value of <m>t</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Draw arrows on the curve to show the <term>orientation</term> of the curve. 
+                            In this case, orientation means the direction of travel from the smallest value of <m>t</m> to the largest value of <m>t</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </lemma>
+    <example xml:id="ex-parametric-semicubical-unit-parabola" workspace="3in">
+        <title>The Graph of the Semicubical Unit Parabola</title>
+        <statement>
+            <p>
+                Graph the <term>semicubical unit parabola</term> which is defined by the parametric equations
+                <md>
+                    <mrow>x\amp = t^2</mrow>
+                    <mrow>y\amp = t^3</mrow>
+                </md>
+            </p>
+            Use the domain <m>-2\leq t\leq 2</m>.
+        </statement>
+    </example>
+        <example xml:id="ex-parametric-astroid" workspace="3in">
+        <title>The Graph of the Astroid</title>
+        <statement>
+            <p>
+                Graph the astroid which is defined by the parametric equations
+                <md>
+                    <mrow>x\amp = \cos^3(t)</mrow>
+                    <mrow>y\amp = \sin^3(t)</mrow>
+                </md>
+                Use the domain <m>0\leq t&lt; 2\pi</m>.
+            </p>
+        </statement>
+    </example>
+    <example xi:id="ex-parametric-circle-1" workspace="3in">
+        <title>The Graph of the Unit Circle. Version 1</title>
+        <statement>
+            <p>
+                Graph the unit circle which is defined by the parametric equations
+                <md>
+                    <mrow>x\amp = \cos(t)</mrow>
+                    <mrow>y\amp = \sin(t)</mrow>
+                </md>
+                Use the domain <m>0\leq t&lt; 2\pi</m>.
+            </p>
+        </statement>
+    </example>
+    <example xi:id="ex-parametric-circle-2" workspace="3in">
+        <title>The Graph of the Unit Circle, version 2</title>
+        <statement>
+            <p>
+                Graph the unit circle which is defined by the parametric equations
+                <md>
+                    <mrow>x\amp = \sin(t)</mrow>
+                    <mrow>y\amp = \cos(t)</mrow>
+                </md>
+                Use the domain <m>0\leq t&lt; 2\pi</m>.
+            </p>
+        </statement>
+    </example>
+    <lemma xml:id="def-eliminating-parameter">
+        <title>Eliminating the Parameter</title>
+        <statement>
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Solve one of the parametric equations for the parameter <m>t</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Substitute the expression for the parameter <m>t</m> into the other parametric equation to obtain an equation in terms of <m>x</m> and <m>y</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            You may need to adjust the domain of the resulting equation to match the domain of the given parameter.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </lemma>
+    <example xml:id="ex-eliminate-parameter" workspace="6in">
+        <title>Eliminating the Parameter</title>
+        <statement>
+            <p>
+                Eliminate the parameter from the parametric equations and then graph the equation in terms of <m>x</m> and <m>y</m>.
+                <md>
+                    <mrow>x\amp = 2t+3</mrow>
+                    <mrow>y\amp = t^2-1</mrow>
+                </md>
+                Use the domain <m>-2\leq t\leq 2</m>.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="ex-eliminate-parameter-trigonometric" workspace="6in">
+        <title>Eliminating the Parameter, Trigonometric Version</title>
+        <statement>
+            <p>
+                Eliminate the parameter from the parametric equations and then graph the equation in terms of <m>x</m> and <m>y</m>.
+                <md>
+                    <mrow>x\amp = 3\cos(t)</mrow>
+                    <mrow>y\amp = 4\sin(t)</mrow>
+                </md>
+                Use the domain <m>0\leq t&lt; 2\pi</m>.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="ex-eliminate-parameter-trigonometric-2" workspace="6in">
+        <title>Eliminating the Parameter, Trigonometric Version 2</title>
+        <statement>
+            <p>
+                Eliminate the parameter from the parametric equations and then graph the equation in terms of <m>x</m> and <m>y</m>.
+                <md>
+                    <mrow>x\amp = \tan^2(t)</mrow>
+                    <mrow>y\amp = \sec(t)</mrow>
+                </md>
+                Use the domain <m>0\leq t&lt; \pi</m>.
+            </p>
+        </statement>
+    </example>  
+<theorem xml:id="thm-parametric-representation-functions">
+    <title>Parametric Representation of Functions</title>
+    <statement>
+        <p>
+            Let <m>y=f(x)</m> be a function defined on some interval <m>I</m>. Then the curve defined by the equation <m>y=f(x)</m> can be represented parametrically by the equations
+            <md>
+                <mrow>x\amp = t</mrow>
+                <mrow>y\amp = f(t)</mrow>
+            </md>
+            where the parameter <m>t</m> is defined on the same interval <m>I</m> as the function <m>f</m>.
+        </p>
+    </statement>
+</theorem>
+    <example xml:id="ex-parametric-presentation" workspace="3in">
+        <title>Finding a Parametric Presentation of a Curve</title>
+        <statement>
+            <p>
+                Find a parametric presentation of the curve defined by the equation <m>y=x^3</m>.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="ex-parametric-presentation-quadratic-in-form" workspace="3in">
+        <title>Quadratic in Form as Parametric Representation</title>
+        <statement>
+            <p>
+                Find a parametric presentation of the curve defined by the equation <m>y=(x-3)^2+4(x-3)+3</m>.
+            </p>
+        </statement>
+    </example>
+    <example xml:id="ex-parametric-representation-line" workspace="3in">
+        <title>Finding a Parametric Representation of a Line</title>
+        <statement>
+            <p>
+                Find a parametric presentation of the line passing through the point <m>(2,3)</m> with a slope of <m>m=-\dfrac{3}{4}</m>.
+            </p>
+        </statement>
+    </example>
+    <note>
+        <title>What does it mean to find a parametric presentation of a curve?</title>
+        <p>
+            Parametric curves are typically (but not always) a more complicated curve that is projected from a higher dimensional space to a lower dimensional space since its parametric representation is easier to understand than the original version.
+        </p>
+    </note>
+<example xml:id="ex-parametric-equations-self-intersection" workspace="6in">
+    <title>Graph of a System of Parametric Equations with Self-Intersections</title>
+    <statement>
+        <p>
+            Graph the parametric equations
+            <md>
+                <mrow>x\amp = t^3-t\amp</mrow>
+                <mrow>y\amp = t^4-t^2\amp</mrow>
+            </md>
+            Use the domain <m>-2\leq t\leq 2</m>.
+        </p>
+    </statement>    
+</example>
+<p>Let's compare this to the graph of the function in three dimensions.</p>
+<figure xml:id="fig-parametric-equations-self-intersection">
+    <caption>Graph of <xref ref="ex-parametric-equations-self-intersection"/> (Side View) in 3D Space.
+    In this view, the self-intersections of the curve on the coordinate plane correspond the fact that the graph in 3D-space crosses the <m>t</m>-axis at multiple points, </caption>
+    <image source="trigonometry/parametric3dgraph.png" width="100%" decorative="yes"/>
+</figure>
+<figure xml:id="fig-parametric-equations-self-intersection-1">
+    <caption>Graph of <xref ref="ex-parametric-equations-self-intersection"/> (Top View) in 3D Space.
+    The top view is identical to the graph in <xref ref="ex-parametric-equations-self-intersection"/>.
+    The top view represents the shadow of the curve on the coordinate plane.</caption>
+    <image source="trigonometry/parametric-top-down-view.png" width="75%" decorative="yes"/>
+</figure>
+</worksheet>
