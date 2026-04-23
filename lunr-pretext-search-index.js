@@ -14356,6 +14356,87 @@ var ptx_lunr_docs = [
   "body": " Binomial Distribution Calculator   "
 },
 {
+  "id": "sec-normal-calculator",
+  "level": "1",
+  "url": "sec-normal-calculator.html",
+  "type": "Section",
+  "number": "I.4",
+  "title": "Normal Calculator Tool",
+  "body": " Normal Calculator Tool   Zoom Issues  The author is aware the text and images in this tool are very small. Fortunately, the tool scales well, so you can zoom in to make it easier to read. The author is working on a solution to this issue. The recommended zoom level is 200%.    The Normal Calculator Tool created in GeoGebra    "
+},
+{
+  "id": "sec-normal-calculator-2",
+  "level": "2",
+  "url": "sec-normal-calculator.html#sec-normal-calculator-2",
+  "type": "Note",
+  "number": "I.4.1",
+  "title": "Zoom Issues.",
+  "body": " Zoom Issues  The author is aware the text and images in this tool are very small. Fortunately, the tool scales well, so you can zoom in to make it easier to read. The author is working on a solution to this issue. The recommended zoom level is 200%.  "
+},
+{
+  "id": "fig-normal-calculator-tool",
+  "level": "2",
+  "url": "sec-normal-calculator.html#fig-normal-calculator-tool",
+  "type": "Figure",
+  "number": "I.4.2",
+  "title": "",
+  "body": " The Normal Calculator Tool created in GeoGebra   "
+},
+{
+  "id": "sec-confidence-interval-hypothesis-test",
+  "level": "1",
+  "url": "sec-confidence-interval-hypothesis-test.html",
+  "type": "Section",
+  "number": "I.5",
+  "title": "Confidence Interval and Hypothesis Test Tool",
+  "body": " Confidence Interval and Hypothesis Test Tool   Zoom Issues  The author is aware the text and images in this tool are very small. Fortunately, the tool scales well, so you can zoom in to make it easier to read. The author is working on a solution to this issue. The recommended zoom level is 150%.    The Confidence Interval and Hypothesis Test Tool created in GeoGebra    "
+},
+{
+  "id": "sec-confidence-interval-hypothesis-test-2",
+  "level": "2",
+  "url": "sec-confidence-interval-hypothesis-test.html#sec-confidence-interval-hypothesis-test-2",
+  "type": "Note",
+  "number": "I.5.1",
+  "title": "Zoom Issues.",
+  "body": " Zoom Issues  The author is aware the text and images in this tool are very small. Fortunately, the tool scales well, so you can zoom in to make it easier to read. The author is working on a solution to this issue. The recommended zoom level is 150%.  "
+},
+{
+  "id": "fig-confidence-interval-hypothesis-test",
+  "level": "2",
+  "url": "sec-confidence-interval-hypothesis-test.html#fig-confidence-interval-hypothesis-test",
+  "type": "Figure",
+  "number": "I.5.2",
+  "title": "",
+  "body": " The Confidence Interval and Hypothesis Test Tool created in GeoGebra   "
+},
+{
+  "id": "sec-linear-regression-tool",
+  "level": "1",
+  "url": "sec-linear-regression-tool.html",
+  "type": "Section",
+  "number": "I.6",
+  "title": "Linear Regression Tool",
+  "body": " Linear Regression Tool   Zoom Issues  The author is aware the text and images in this tool are very small. Fortunately, the tool scales well, so you can zoom in to make it easier to read. The author is working on a solution to this issue. The recommended zoom level is 150%.    The Linear Regression Tool created in GeoGebra    "
+},
+{
+  "id": "sec-linear-regression-tool-2",
+  "level": "2",
+  "url": "sec-linear-regression-tool.html#sec-linear-regression-tool-2",
+  "type": "Note",
+  "number": "I.6.1",
+  "title": "Zoom Issues.",
+  "body": " Zoom Issues  The author is aware the text and images in this tool are very small. Fortunately, the tool scales well, so you can zoom in to make it easier to read. The author is working on a solution to this issue. The recommended zoom level is 150%.  "
+},
+{
+  "id": "fig-linear-regression-tool",
+  "level": "2",
+  "url": "sec-linear-regression-tool.html#fig-linear-regression-tool",
+  "type": "Figure",
+  "number": "I.6.2",
+  "title": "",
+  "body": " The Linear Regression Tool created in GeoGebra   "
+},
+{
   "id": "backmatter-11",
   "level": "1",
   "url": "backmatter-11.html",
