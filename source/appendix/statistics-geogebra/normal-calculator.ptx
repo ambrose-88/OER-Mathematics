@@ -1,0 +1,14 @@
+<section xml:id="sec-normal-calculator">
+    <title>Normal Calculator Tool</title>
+    <note>
+        <title>Zoom Issues</title>
+        <p>The author is aware the text and images in this tool are very small. 
+            Fortunately, the tool scales well, so you can zoom in to make it easier to read. 
+            The author is working on a solution to this issue.
+            The recommended zoom level is 200%.</p>
+    </note>
+    <figure xml:id="fig-normal-calculator-tool">
+        <caption>The Normal Calculator Tool created in GeoGebra</caption>
+        <interactive geogebra="rjms6u8t" material-width="1391" material-height="586" toolbar="no" reset-icon="yes"/>
+    </figure>
+</section>

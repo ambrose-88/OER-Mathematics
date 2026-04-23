@@ -10,4 +10,7 @@
   <xi:include href="./statistics-geogebra/summary-statistics-calculator.ptx"/>
   <xi:include href="./statistics-geogebra/empirical-rule-tool.ptx"/>
   <xi:include href="./statistics-geogebra/binomial-calculator.ptx"/>
+  <xi:include href="./statistics-geogebra/normal-calculator.ptx"/>
+  <xi:include href="./statistics-geogebra/confidence-interval-hypothesis-test.ptx"/>
+  <xi:include href="./statistics-geogebra/linear-regression.ptx"/>
 </appendix>

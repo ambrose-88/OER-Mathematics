@@ -1,0 +1,13 @@
+<section xml:id="sec-confidence-interval-hypothesis-test">
+    <title>Confidence Interval and Hypothesis Test Tool</title>
+    <note>
+        <title>Zoom Issues</title>
+        <p>The author is aware the text and images in this tool are very small. 
+            Fortunately, the tool scales well, so you can zoom in to make it easier to read. The author is working on a solution to this issue.
+            The recommended zoom level is 150%.</p>
+    </note>
+    <figure xml:id="fig-confidence-interval-hypothesis-test">
+        <caption>The Confidence Interval and Hypothesis Test Tool created in GeoGebra</caption>
+        <interactive geogebra="h4zexjkr" material-width="943" material-height="636" toolbar="yes" reset-icon="yes"/>
+    </figure>
+</section>

@@ -1,0 +1,13 @@
+<section xml:id="sec-linear-regression-tool">
+    <title>Linear Regression Tool</title>
+    <note>
+        <title>Zoom Issues</title>
+        <p>The author is aware the text and images in this tool are very small. 
+            Fortunately, the tool scales well, so you can zoom in to make it easier to read. The author is working on a solution to this issue.
+            The recommended zoom level is 150%.</p>
+    </note>
+    <figure xml:id="fig-linear-regression-tool">
+        <caption>The Linear Regression Tool created in GeoGebra</caption>
+        <interactive geogebra="epr8jb4h" material-width="967" material-height="759" toolbar="yes" reset-icon="yes"/>
+    </figure>
+</section>
